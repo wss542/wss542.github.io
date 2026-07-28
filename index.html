@@ -64,15 +64,15 @@
       <span>Linux</span><span>Python</span><span>折腾</span><span>摄影</span><span>音乐</span>
     </div>
     <div class="links">
-      <a href="javascript:void(0)" onclick="openAbout()">关于我</a>
-      <a href="log.html">进入Ubuntu日志</a>
-      <a href="/bot-logs/">进入bot日志</a>
-      <a href="https://github.com/wss542/" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener">哔哩哔哩</a>
-      <button id="qqbtn" onclick="copyQQ()">点此复制QQ</button>
+      <a href="javascript:void(0)" onclick="openAbout()" data-section="about">关于我</a>
+      <a href="log.html" data-section="log">进入Ubuntu日志</a>
+      <a href="/bot-logs/" data-section="botlog">进入bot日志</a>
+      <a href="https://github.com/wss542/" target="_blank" rel="noopener" data-section="github">GitHub</a>
+      <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener" data-section="bili">哔哩哔哩</a>
+      <button id="qqbtn" onclick="copyQQ()" data-section="qq">点此复制QQ</button>
       <div id="qqmsg"></div>
     </div>
-    <footer>用纯 HTML 搭建？· Powered by Ubuntu</footer>
+    <footer>用纯 HTML 搭建？ · Powered by Ubuntu</footer>
   </div>
 
   <div class="about-modal" id="about-modal" onclick="if(event.target===this)closeAbout()">
@@ -92,7 +92,7 @@
     }
     tick(); setInterval(tick, 1000);
 
-    var text = '热爱折腾的音游玩家，在疯狂的搭建自己的小世界';
+    var text = '热爱折腾的音游玩家，在疯狂的搭建自己的小世界。';
     var i = 0;
     function type() {
       if (i <= text.length) {
@@ -145,6 +145,19 @@
     function closeAbout() {
       document.getElementById('about-modal').classList.remove('show');
     }
+
+    function applySections() {
+      fetch('sections.json?_=' + Date.now()).then(function (r) {
+        return r.ok ? r.json() : Promise.reject();
+      }).then(function (s) {
+        if (!s) return;
+        document.querySelectorAll('.links [data-section]').forEach(function (el) {
+          var key = el.getAttribute('data-section');
+          el.style.display = (s[key] === false) ? 'none' : '';
+        });
+      }).catch(function () {});
+    }
+    applySections();
   </script>
 </body>
 </html>
