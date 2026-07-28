@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>bot 私聊</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --glass: rgba(255,255,255,.08);
+    --glass-strong: rgba(255,255,255,.14);
+    --border: rgba(255,255,255,.18);
+    --me: linear-gradient(135deg,#7b5cff,#a86bff);
+    --bot: rgba(255,255,255,.10);
+    --txt:#eef;
+  }
+  html,body{ height:100%; }
+  body{
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--txt);
+    background: linear-gradient(135deg,#1a1130,#241544,#102a3a,#1c1140);
+    background-size:400% 400%;
+    animation: flow 18s ease infinite;
+    min-height:100vh; min-height:100dvh;
+    overflow:hidden;
+    -webkit-overflow-scrolling:touch;
+    padding: calc(env(safe-area-inset-top) + 10px) calc(env(safe-area-inset-right) + 10px) calc(env(safe-area-inset-bottom) + 10px) calc(env(safe-area-inset-left) + 10px);
+  }
+  @keyframes flow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+  .rainbow-line{height:3px;border-radius:3px;background:linear-gradient(90deg,#ff5ca8,#ffd166,#5ce1e6,#a86bff);margin-bottom:10px;box-shadow:0 0 12px rgba(168,107,255,.6)}
+  .app{
+    display:flex;flex-direction:column;height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 34px);
+    max-width:560px;margin:0 auto;
+    background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border:1px solid var(--border);border-radius:18px;overflow:hidden;
+    box-shadow:0 10px 40px rgba(0,0,0,.35);
+  }
+  .bar{
+    display:flex;align-items:center;gap:8px;padding:12px 16px;
+    border-bottom:1px solid var(--border);background:rgba(255,255,255,.03);
+    flex:0 0 auto;
+  }
+  .bar .dot{width:9px;height:9px;border-radius:50%;background:#5ce1e6;box-shadow:0 0 8px #5ce1e6}
+  .bar .title{font-weight:600;letter-spacing:.5px}
+  .bar .sub{font-size:11px;opacity:.55;margin-left:2px}
+  .bar .mini{margin-left:auto;background:var(--glass-strong);border:1px solid var(--border);color:var(--txt);
+    border-radius:8px;padding:5px 10px;font-size:12px;cursor:pointer}
+  .bar .mini:active{transform:scale(.96)}
+  .msgs{flex:1 1 auto;min-height:0;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .row{display:flex;max-width:100%}
+  .row.me{justify-content:flex-end}
+  .row.bot{justify-content:flex-start}
+  .bubble{
+    max-width:82%;padding:9px 13px;border-radius:14px;line-height:1.55;font-size:14px;white-space:pre-wrap;
+    word-break:break-word;overflow-wrap:anywhere;
+  }
+  .row.me .bubble{background:var(--me);color:#fff;border-bottom-right-radius:4px}
+  .row.bot .bubble{background:var(--bot);border:1px solid var(--border);border-bottom-left-radius:4px}
+  .row.sys .bubble{background:transparent;color:#ff9;opacity:.8;font-size:12px;text-align:center;max-width:100%;margin:0 auto}
+  .inputrow{flex:0 0 auto;display:flex;gap:8px;padding:10px;border-top:1px solid var(--border);background:rgba(255,255,255,.03)}
+  .inputrow input{
+    flex:1;background:var(--glass-strong);border:1px solid var(--border);color:var(--txt);
+    border-radius:12px;padding:11px 14px;font-size:14px;outline:none;
+  }
+  .inputrow input::placeholder{color:rgba(255,255,255,.4)}
+  .inputrow button{
+    background:var(--me);border:none;color:#fff;font-weight:600;border-radius:12px;padding:0 18px;
+    font-size:14px;cursor:pointer;
+  }
+  .inputrow button:disabled{opacity:.5;cursor:default}
+  .offline{position:absolute;left:0;right:0;top:0;text-align:center;background:rgba(220,40,60,.92);color:#fff;
+    font-size:12px;padding:6px;z-index:5}
+  .offline[hidden]{display:none}
+  /* 密码弹窗 */
+  .mask{position:fixed;inset:0;background:rgba(10,8,20,.7);backdrop-filter:blur(4px);
+    display:flex;align-items:center;justify-content:center;z-index:20;padding:20px}
+  .mask[hidden]{display:none}
+  .pwbox{width:100%;max-width:320px;background:var(--glass-strong);border:1px solid var(--border);
+    border-radius:16px;padding:22px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+  .pwbox h3{font-size:16px;margin-bottom:14px;font-weight:600}
+  .pwbox input{width:100%;background:rgba(0,0,0,.25);border:1px solid var(--border);color:var(--txt);
+    border-radius:10px;padding:11px;font-size:14px;outline:none;text-align:center}
+  .pwbox button{width:100%;margin-top:14px;background:var(--me);border:none;color:#fff;font-weight:600;
+    border-radius:10px;padding:11px;font-size:14px;cursor:pointer}
+  .pwerr{color:#ff8080;font-size:12px;min-height:16px;margin-top:8px}
+  @media (max-width:480px){ .bubble{font-size:13px} .bar .title{font-size:15px} }
+</style>
+</head>
+<body>
+<div class="rainbow-line"></div>
+<div class="app" style="position:relative">
+  <div id="offline" class="offline" hidden></div>
+  <header class="bar">
+    <span class="dot" id="dot"></span>
+    <span class="title">bot 私聊</span>
+    <span class="sub" id="sub">连接中…</span>
+    <button class="mini" id="clear">清空</button>
+  </header>
+  <div class="msgs" id="msgs"></div>
+  <form class="inputrow" id="form">
+    <input id="text" autocomplete="off" placeholder="和 bot 说点什么…" disabled>
+    <button type="submit" id="send" disabled>发送</button>
+  </form>
+</div>
+
+<div class="mask" id="pwmask">
+  <div class="pwbox">
+    <h3>🔒 需要密码</h3>
+    <input id="pw" type="password" placeholder="输入聊天密码" autocomplete="off">
+    <button id="pwok">进入</button>
+    <div class="pwerr" id="pwerr"></div>
+  </div>
+</div>
+
+<script>
+const API = "https://wss.serveousercontent.com/chat/api";
+const sessionId = (crypto.randomUUID ? crypto.randomUUID() : "s"+Date.now()+Math.random().toString(16).slice(2));
+let PASSWORD = sessionStorage.getItem("botchat_pw") || "";
+
+const $ = s => document.querySelector(s);
+const msgs = $("#msgs"), form = $("#form"), text = $("#text"), send = $("#send");
+const offline = $("#offline"), dot = $("#dot"), sub = $("#sub");
+const pwmask = $("#pwmask"), pw = $("#pw"), pwok = $("#pwok"), pwerr = $("#pwerr");
+
+function addRow(role, content){
+  const row = document.createElement("div");
+  row.className = "row " + role;
+  const b = document.createElement("div");
+  b.className = "bubble";
+  b.textContent = content;
+  row.appendChild(b);
+  msgs.appendChild(row);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+function setConn(mode, txt){
+  sub.textContent = txt;
+  dot.style.background = mode==="live" ? "#5ce1e6" : mode==="warn" ? "#ffd166" : "#ff6b6b";
+  dot.style.boxShadow = "0 0 8px " + dot.style.background;
+}
+function showOffline(msg){ offline.textContent = msg; offline.hidden = false; }
+function hideOffline(){ offline.hidden = true; }
+
+async function sendMsg(content){
+  if(!PASSWORD) return;
+  addRow("me", content);
+  send.disabled = true; text.disabled = true;
+  try{
+    const r = await fetch(API, {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({session_id:sessionId, message:content, password:PASSWORD})
+    });
+    const j = await r.json().catch(()=>({ok:false,error:"响应解析失败"}));
+    if(!j.ok){
+      if(j.error && j.error.indexOf("密码")>=0){
+        PASSWORD=""; sessionStorage.removeItem("botchat_pw");
+        pwerr.textContent = "密码错误，请重新输入";
+        pwmask.hidden = false; text.disabled = true; send.disabled = true;
+        return;
+      }
+      addRow("sys", "⚠️ " + (j.error||"出错了"));
+      return;
+    }
+    hideOffline();
+    setConn("live","在线");
+    addRow("bot", j.reply || "(空)");
+  }catch(e){
+    showOffline("⚠️ 连接失败：站点可能离线（电脑已关闭）");
+    setConn("err","离线");
+    addRow("sys","⚠️ 连接失败，稍后重试");
+  }finally{
+    send.disabled = false; text.disabled = false; text.focus();
+  }
+}
+
+form.addEventListener("submit", e=>{
+  e.preventDefault();
+  const v = text.value.trim();
+  if(!v) return;
+  text.value = "";
+  sendMsg(v);
+});
+
+$("#clear").addEventListener("click", ()=>{ msgs.innerHTML=""; addRow("sys","已清空本窗口（远端记忆仍在）"); });
+
+async function tryUnlock(pwVal){
+  pwerr.textContent = "";
+  try{
+    const r = await fetch(API, {
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({session_id:sessionId, message:"__ping__", password:pwVal})
+    });
+    const j = await r.json().catch(()=>({ok:false,error:"网络错误"}));
+    if(j.ok){
+      PASSWORD = pwVal; sessionStorage.setItem("botchat_pw", pwVal);
+      pwmask.hidden = true; text.disabled=false; send.disabled=false; text.focus();
+      setConn("live","在线");
+      addRow("sys","已连接 · 和 bot 聊天吧 (｡･ω･｡)");
+    }else if(j.error && j.error.indexOf("密码")>=0){
+      pwerr.textContent = "密码错误";
+    }else{
+      pwerr.textContent = (j.error||"连接失败");
+    }
+  }catch(e){
+    pwerr.textContent = "连接失败，站点可能离线";
+  }
+}
+pwok.addEventListener("click", ()=> tryUnlock(pw.value));
+pw.addEventListener("keydown", e=>{ if(e.key==="Enter") tryUnlock(pw.value); });
+
+// 初始：若已保存密码则直接试连，否则弹窗
+if(PASSWORD){ tryUnlock(PASSWORD); } else { pwmask.hidden = false; }
+</script>
+</body>
+</html>
