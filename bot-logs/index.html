@@ -209,6 +209,7 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
   background:linear-gradient(90deg,#7f1d1d,#b45309);color:#fff;font-family:var(--fb);font-size:12px;
   padding:8px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.3);flex:none}
 .offline-bar[hidden]{display:none}
+.offline-bar.off-warn{background:linear-gradient(90deg,#b45309,#d97706)}
 
 /* ============ 响应式 ============ */
 /* 平板 */
@@ -600,10 +601,29 @@ function loadCache(k){ try{ return localStorage.getItem('yz_botlog_'+k); }catch(
 function cacheTs(k){ try{ return localStorage.getItem('yz_botlog_'+k+'_ts')||''; }catch(e){ return ''; } }
 function showOffline(k){
   var bar=document.getElementById('offline-bar');
-  if(bar){ bar.hidden=false; var ts=document.getElementById('offline-ts'); if(ts) ts.textContent=cacheTs(k)||'（无缓存）'; }
+  if(bar){ bar.hidden=false; bar.className='offline-bar off-offline';
+    bar.innerHTML='⚠️ 电脑已离线（站点不可达）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">'+cacheTs(k)+'</span>），电脑开机后自动恢复实时。'; }
   setConn('err','离线');
 }
-function hideOffline(){ var bar=document.getElementById('offline-bar'); if(bar) bar.hidden=true; }
+function showSourceOff(src){
+  var bar=document.getElementById('offline-bar');
+  if(bar){ bar.hidden=false; bar.className='offline-bar off-warn';
+    var name = src==='napcat' ? 'NapCat' : 'Bot';
+    bar.innerHTML='⚠️ '+name+' 未运行 · 当前显示历史日志（更新于 <span id="offline-ts">'+cacheTs(src)+'</span>），启动后自动实时。'; }
+  setConn('warn', name+' 未开');
+}
+function hideOffline(){ var bar=document.getElementById('offline-bar'); if(bar){ bar.hidden=true; bar.className='offline-bar'; } }
+async function checkStatus(){
+  try{
+    const b=apiBase();
+    const r=await fetch(b+'api/status');
+    if(!r.ok)return;
+    const j=await r.json();
+    const key = curSource==='napcat' ? 'napcat' : 'bot';
+    if(j[key]===true){ hideOffline(); }
+    else { showSourceOff(curSource); }
+  }catch(e){}
+}
 
 /* ---------- 筛选 ---------- */
 document.querySelectorAll('.lv').forEach(lb=>{
@@ -742,7 +762,7 @@ function connectWS(){
   const wsUrlStr=b.startsWith('http')?'wss'+b.slice(4)+'ws?'+q.toString():(location.protocol==='https'?'wss':'ws')+'://'+location.host+b+'ws?'+q.toString();
   try{ws=new WebSocket(wsUrlStr);}
   catch(e){setConn('err','断开');showOffline(curSource);setTimeout(connectWS,3000);return;}
-  ws.onopen=()=>{setConn('live','已连接');hideOffline();pending=0;JUMP.classList.remove('show');};
+  ws.onopen=()=>{setConn('live','已连接');pending=0;JUMP.classList.remove('show');checkStatus();};
   ws.onclose=()=>{setConn('err','断开');showOffline(curSource);setTimeout(connectWS,3000);};
   ws.onerror=()=>ws.close();
   ws.onmessage=e=>{
@@ -779,6 +799,7 @@ async function loadHistory(){
     }
     updateStats();
     CONTAINER.scrollTop=CONTAINER.scrollHeight;
+    checkStatus();
   }catch(e){
     showOffline(curSource); renderCached(curSource);
   }
