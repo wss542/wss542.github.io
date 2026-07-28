@@ -167,8 +167,8 @@ main{flex:1;display:flex;gap:12px;padding:12px 16px;min-height:0}
 .tab:hover{color:var(--text);transform:translateY(-1px)}
 .tab.on{color:#0e0e20;background:var(--rainbow);background-size:200% 100%;border-color:transparent;font-weight:700;animation:flow 8s linear infinite}
 #log-container{flex:1;overflow-y:auto;overflow-x:hidden;padding:8px 0;font-family:var(--fm);font-size:var(--fs,13px)}
-.log-line{padding:4px 16px;border-bottom:1px solid rgba(255,255,255,.02);gap:4px;
-  white-space:nowrap;line-height:1.6;animation:lineIn .25s ease both}
+.log-line{display:flex;align-items:baseline;gap:6px;padding:4px 16px;border-bottom:1px solid rgba(255,255,255,.02);
+  line-height:1.6;animation:lineIn .25s ease both}
 @keyframes lineIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 .log-line:hover{background:rgba(255,255,255,.03)}
 .log-line.hidden{display:none}
@@ -179,7 +179,7 @@ main{flex:1;display:flex;gap:12px;padding:12px 16px;min-height:0}
 .level.debug{color:var(--debug)} .level.info{color:var(--info)}
 .level.warning{color:var(--warn)} .level.error{color:var(--error)}
 .source{color:var(--source);min-width:14ch;flex-shrink:0;font-size:.85em;opacity:.8}
-.msg{flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere}
+.msg{flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;white-space:normal}
 .msg .sym{color:var(--symbol);font-weight:700}
 .msg .mod{color:var(--module)}
 .msg .num{color:var(--num)}
@@ -599,39 +599,64 @@ function setConn(mode,text){CONN.className='conn '+mode;CONN_TEXT.textContent=te
 function saveCache(k,t){ try{ localStorage.setItem('yz_botlog_'+k, t); localStorage.setItem('yz_botlog_'+k+'_ts', new Date().toLocaleString('zh-CN')); }catch(e){} }
 function loadCache(k){ try{ return localStorage.getItem('yz_botlog_'+k); }catch(e){ return null; } }
 function cacheTs(k){ try{ return localStorage.getItem('yz_botlog_'+k+'_ts')||''; }catch(e){ return ''; } }
-function showOffline(k){
-  var bar=document.getElementById('offline-bar');
-  if(bar){ bar.hidden=false; bar.className='offline-bar off-offline';
-    bar.innerHTML='⚠️ 电脑已离线（站点不可达）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">'+cacheTs(k)+'</span>），电脑开机后自动恢复实时。'; }
-  setConn('err','离线');
+/* 在线状态模型：区分「电脑是否可达」与「bot/napcat 进程是否运行」
+   - compState: online(已连接) / reconnecting(重连中) / offline(电脑离线)
+   - srcOff:    当前日志源的进程是否未运行
+   单条离线提示条按优先级渲染：电脑离线(红) > 源未运行(橙) > 隐藏 */
+let compState='reconnecting', srcOff=false, netFails=0;
+function renderBar(){
+  const bar=document.getElementById('offline-bar');
+  if(!bar) return;
+  if(compState==='offline'){
+    bar.hidden=false; bar.className='offline-bar off-offline';
+    bar.innerHTML='⚠️ 电脑已离线（站点不可达）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），电脑开机后自动恢复实时。';
+  }else if(srcOff){
+    const name = curSource==='napcat' ? 'NapCat' : 'Bot';
+    bar.hidden=false; bar.className='offline-bar off-warn';
+    bar.innerHTML='⚠️ '+name+' 未运行 · 当前显示历史日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），启动后自动实时。';
+  }else{
+    bar.hidden=true; bar.className='offline-bar';
+  }
 }
-function showSourceOff(src){
-  var bar=document.getElementById('offline-bar');
-  if(bar){ bar.hidden=false; bar.className='offline-bar off-warn';
-    var name = src==='napcat' ? 'NapCat' : 'Bot';
-    bar.innerHTML='⚠️ '+name+' 未运行 · 当前显示历史日志（更新于 <span id="offline-ts">'+cacheTs(src)+'</span>），启动后自动实时。'; }
-  setConn('warn', name+' 未开');
+function setComp(state, txt){
+  compState=state;
+  setConn(state==='online'?'live':state==='reconnecting'?'warn':'err', txt);
+  renderBar();
 }
-function hideOffline(){ var bar=document.getElementById('offline-bar'); if(bar){ bar.hidden=true; bar.className='offline-bar'; } }
+function applySrcStatus(j){
+  const key = curSource==='napcat' ? 'napcat' : 'bot';
+  srcOff = !!(j && j[key]===false);
+  renderBar();
+}
+// 兼容旧调用点
+function showOffline(src){ setComp('offline','离线'); }
+function showSourceOff(src){ srcOff=true; renderBar(); }
+function hideOffline(){ if(compState!=='offline'){ srcOff=false; renderBar(); } }
+// 后端 /api/status：{bot:bool, napcat:bool}
 async function checkStatus(){
   try{
-    const b=apiBase();
-    const r=await fetch(b+'api/status');
-    if(r.ok){
-      const j=await r.json();
-      const key = curSource==='napcat' ? 'napcat' : 'bot';
-      if(j[key]===true){ hideOffline(); }
-      else { showSourceOff(curSource); }
-      return;
-    }
+    const r=await fetch(apiBase()+'api/status', {cache:'no-store'});
+    if(r.ok){ applySrcStatus(await r.json().catch(()=>({}))); return; }
   }catch(e){}
-  // 后端 /api/status 未部署时的兜底：用日志内容启发式判断（bot 源可靠）
+  // 兜底：用日志内容启发式判断（bot 源可靠）
   if(curSource!=='napcat'){
     const lines=[...CONTAINER.querySelectorAll('.log-line')];
     const last=lines.length?lines[lines.length-1].dataset.raw||'':'';
-    if(/应用程序已退出|再见/.test(last)) showSourceOff('bot');
+    if(/应用程序已退出|再见/.test(last)){ srcOff=true; renderBar(); }
   }
 }
+/* HTTP 存活探测：以 serveo 可达性作为「电脑在线」的权威信号（比 WS 更稳）。
+   连续 3 次失败才判定电脑离线，避免 serveo 偶发抖动被误判成关机。 */
+async function probeLiveness(){
+  try{
+    const r=await fetch(apiBase()+'api/status', {cache:'no-store'});
+    if(r.ok){ netFails=0; if(compState!=='online') setComp('online','已连接'); applySrcStatus(await r.json().catch(()=>({}))); return; }
+  }catch(e){}
+  netFails++;
+  if(netFails>=3) setComp('offline','离线');
+  else if(compState==='online') setComp('reconnecting','重连中…');
+}
+setInterval(probeLiveness, 8000);
 
 /* ---------- 筛选 ---------- */
 document.querySelectorAll('.lv').forEach(lb=>{
@@ -764,14 +789,14 @@ function apiBase(){
   return 'https://wss.serveousercontent.com/bot-logs/';
 }
 function connectWS(){
-  setConn('warn','连接中...');
+  setComp('reconnecting','连接中...');
   const q=new URLSearchParams(location.search); q.set('source',curSource);
   const b=apiBase();
   const wsUrlStr=b.startsWith('http')?'wss'+b.slice(4)+'ws?'+q.toString():(location.protocol==='https'?'wss':'ws')+'://'+location.host+b+'ws?'+q.toString();
   try{ws=new WebSocket(wsUrlStr);}
-  catch(e){setConn('err','断开');showOffline(curSource);setTimeout(connectWS,3000);return;}
-  ws.onopen=()=>{setConn('live','已连接');pending=0;JUMP.classList.remove('show');checkStatus();};
-  ws.onclose=()=>{setConn('err','断开');showOffline(curSource);setTimeout(connectWS,3000);};
+  catch(e){setComp('reconnecting','重连中…');setTimeout(connectWS,3000);return;}
+  ws.onopen=()=>{setComp('online','已连接');pending=0;JUMP.classList.remove('show');checkStatus();};
+  ws.onclose=()=>{setComp('reconnecting','重连中…');setTimeout(connectWS,3000);};
   ws.onerror=()=>ws.close();
   ws.onmessage=e=>{
     try{
@@ -792,7 +817,7 @@ async function loadHistory(){
   try{
     const q=new URLSearchParams(location.search); q.set('source',curSource);
     const r=await fetch(apiBase()+'api/logs?'+q.toString());
-    if(!r.ok){ showOffline(curSource); renderCached(curSource); return; }
+    if(!r.ok){ setComp('reconnecting','重连中…'); renderCached(curSource); return; }
     if(curSource==='napcat'){
       try{
         const arr=JSON.parse(await r.text());
@@ -809,7 +834,7 @@ async function loadHistory(){
     CONTAINER.scrollTop=CONTAINER.scrollHeight;
     checkStatus();
   }catch(e){
-    showOffline(curSource); renderCached(curSource);
+    setComp('reconnecting','重连中…'); renderCached(curSource);
   }
 }
 function renderCached(src){
