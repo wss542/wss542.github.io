@@ -11,7 +11,8 @@
     background: linear-gradient(135deg, #667eea, #764ba2, #6B8DD6, #8E37D7);
     background-size: 400% 400%;
     animation: flow 15s ease infinite;
-    min-height: 100vh; display:flex; align-items:center; justify-content:center; color:#fff;
+    min-height:100vh; min-height:100dvh; display:flex; align-items:center; justify-content:center; color:#fff;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   }
   @keyframes flow {
     0% { background-position: 0% 50%; }
@@ -19,7 +20,7 @@
     100% { background-position: 0% 50%; }
   }
   .card {
-    background: rgba(255,255,255,0.12); backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.12); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255,255,255,0.25); border-radius: 20px;
     padding: 44px 40px; text-align:center; max-width: 440px; width: 92%;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25);
@@ -58,7 +59,7 @@
     <div class="links">
       <a href="about.html">关于我(未完工)</a>
       <a href="log.html">进入Ubuntu日志</a>
-      <a href="https://wss.serveousercontent.com/bot-logs/" target="_blank" rel="noopener">进入bot日志</a>
+            <a href="https://wss.serveousercontent.com/bot-logs/">进入bot日志</a>
       <a href="https://github.com/wss542/" target="_blank" rel="noopener">GitHub</a>
       <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener">哔哩哔哩</a>
       <button id="qqbtn" onclick="copyQQ()">点此复制QQ</button>
