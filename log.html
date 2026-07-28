@@ -120,6 +120,8 @@ main{flex:1;display:flex;flex-direction:column;gap:12px;padding:12px 16px;min-he
 .console-bar .title{font-family:var(--fm);font-size:11px;color:var(--muted);margin-left:6px;letter-spacing:1px}
 .live-tag{margin-left:auto;display:flex;align-items:center;gap:6px;font-family:var(--fd);font-size:10px;letter-spacing:2px;color:var(--error)}
 .live-tag i{width:7px;height:7px;border-radius:50%;background:var(--error);animation:blink 1s infinite}
+.live-tag.off{color:var(--sys)}
+.live-tag.off i{background:var(--sys);animation:none}
 @keyframes blink{50%{opacity:.25}}
 #log-container{flex:1;overflow-y:auto;padding:8px 0;font-family:var(--fm);font-size:13px}
 .log-line{padding:4px 16px;border-bottom:1px solid rgba(255,255,255,.02);gap:4px;white-space:nowrap;line-height:1.6}
@@ -167,7 +169,7 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
 /* ===== 离线提示条 + 管理后台链接 ===== */
 .offline-bar{display:block;margin:10px 16px 0;padding:12px 16px;border-radius:12px;
   background:rgba(251,191,36,.14);border:1px solid rgba(251,191,36,.5);color:#fde68a;
-  font-size:13px;line-height:1.5;-webkit-backdrop-filter:blur(8px);}
+  font-size:13px;line-height:1.5;backdrop-filter:blur(8px);}
 .offline-bar[hidden]{display:none;}
 .admin-link{color:#fbbf24 !important;font-weight:600;}
 .admin-link:hover{text-decoration:underline;}
@@ -235,6 +237,8 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
     <button class="tbtn" id="clear" title="清空屏幕">清空</button>
     <button class="tbtn" id="copy" title="复制可见日志">复制</button>
     <button class="tbtn" id="export" title="导出日志文件">导出</button>
+    <button class="tbtn on" id="auto" title="实时自动更新开关（点此暂停/恢复自动刷新）">实时</button>
+    <button class="tbtn" id="refresh" title="立即刷新当前标签页">刷新</button>
     <div class="fs"><button id="fs-down">A-</button><span id="fs-val">13</span><button id="fs-up">A+</button></div>
   </div>
 </header>
@@ -292,7 +296,7 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
           <button class="tab on" data-tab="mine">我的日志</button>
           <button class="tab" data-tab="sys">系统日志</button>
         </div>
-        <span class="live-tag"><i></i>LIVE</span>
+        <span class="live-tag"><i></i><span class="live-label" id="live-label">LIVE</span></span>
       </div>
       <div id="log-container"></div>
     </div>
@@ -430,6 +434,23 @@ function setFS(v){fontSize=Math.min(18,Math.max(10,v));CONTAINER.style.fontSize=
 $('fs-up').addEventListener('click',function(){setFS(fontSize+1);});
 $('fs-down').addEventListener('click',function(){setFS(fontSize-1);});
 
+// 实时自动更新开关 + 手动刷新
+var autoOn=true;
+var liveLabel=$('live-label');
+$('auto').addEventListener('click',function(){
+  autoOn=!autoOn;
+  $('auto').classList.toggle('on',autoOn);
+  var lt=$('live-tag'); if(lt) lt.classList.toggle('off',!autoOn);
+  if(liveLabel) liveLabel.textContent=autoOn?'LIVE':'暂停';
+  if(autoOn){ if(curTab==='sys') pollSys(); else poll(); }  // 恢复时立即拉一次
+});
+$('refresh').addEventListener('click',function(){
+  var b=this, old=b.innerHTML;
+  b.innerHTML='刷新中…';
+  if(curTab==='sys') pollSys(); else poll();   // 手动刷新无视开关，立即拉取当前标签
+  setTimeout(function(){ b.innerHTML=old; }, 900);
+});
+
 // 自动轮询 cmdlog.txt（每2秒，增量追加）
 var lastLines=0;
 var pollTimer=null;
@@ -468,7 +489,7 @@ function poll(){
   });
 }
 poll();
-pollTimer=setInterval(poll,2000);
+pollTimer=setInterval(function(){ if(autoOn) poll(); },2000);
 
 // 公开系统日志（Ubuntu journal，免登录接口 /api/syslog）
 function sysTime(l){
@@ -492,7 +513,7 @@ function pollSys(){
   });
 }
 pollSys();
-setInterval(pollSys,5000);
+setInterval(function(){ if(autoOn) pollSys(); },5000);
 
 // 我的日志 / 系统日志 标签切换
 var tabs=document.querySelectorAll('.tab');
