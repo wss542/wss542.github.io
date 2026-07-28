@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>yzandwss 的日志</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d0d1a; --panel:#12122a; --panel2:#171735; --border:#1e1e3a;
+  --text:#e5e7eb; --muted:#6b7280; --soft:#9ca3af;
+  --time:#6b7280; --debug:#7dd3fc; --info:#c4b5fd; --warn:#fb923c; --error:#ef4444;
+  --source:#9ca3af; --module:#4ade80; --num:#fde047;
+  --highlight:#67e8f9; --admin:#f472b6; --sep:#a78bfa; --ok:#22c55e; --sys:#94a3b8;
+  --doing:#7dd3fc; --done:#22c55e; --idea:#f9a8d4; --command:#67e8f9;
+  --rainbow:linear-gradient(90deg,#ff5f6d,#ffb147,#ffe259,#3ddc84,#38bdf8,#8b7bff,#e879f9,#ff5f6d);
+  --fd:'Chakra Petch','Noto Sans SC',sans-serif;
+  --fb:'Noto Sans SC',system-ui,sans-serif;
+  --fm:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+@supports (height:100dvh){body{height:100dvh}}
+body{background:var(--bg);color:var(--text);font-family:var(--fb);font-size:13px;
+  overflow:hidden;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+  background-size:34px 34px}
+body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(600px 220px at 18% 0%,rgba(255,95,109,.07),transparent 70%),
+             radial-gradient(600px 240px at 55% 0%,rgba(56,189,248,.06),transparent 70%),
+             radial-gradient(520px 220px at 88% 0%,rgba(232,121,249,.06),transparent 70%)}
+header,main,footer{position:relative;z-index:1}
+::-webkit-scrollbar{width:9px;height:9px}
+::-webkit-scrollbar-thumb{background:#26264a;border-radius:99px}
+button{font-family:inherit;color:inherit}
+.rainbow-line{height:3px;flex:none;background:var(--rainbow);background-size:200% 100%;animation:flow 8s linear infinite}
+@keyframes flow{to{background-position:200% 0}}
+header{background:var(--panel);border-bottom:1px solid var(--border);padding:12px 16px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;flex:none}
+.brand{display:flex;align-items:center;gap:11px}
+.logo{width:38px;height:38px;border-radius:12px;padding:2px;background:var(--rainbow);
+  background-size:200% 100%;animation:flow 6s linear infinite;box-shadow:0 4px 18px rgba(139,123,255,.35)}
+.logo-in{width:100%;height:100%;border-radius:10px;background:#101024;display:grid;place-items:center}
+.brand h1{font-family:var(--fd);font-size:17px;font-weight:700;letter-spacing:.5px;line-height:1.15}
+.brand h1 em{font-style:normal;color:var(--highlight)}
+.brand .sub{font-size:10px;color:var(--muted);letter-spacing:2.5px;margin-top:2px}
+.conn{display:flex;align-items:center;gap:8px;background:var(--panel2);border:1px solid rgba(34,197,94,.45);
+  border-radius:999px;padding:6px 13px;font-size:12px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);position:relative}
+.dot::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(34,197,94,.5);animation:ping 1.6s ease-out infinite}
+@keyframes ping{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.5);opacity:0}}
+.clock{font-family:var(--fm);font-size:12px;color:var(--soft);background:var(--panel2);
+  border:1px solid var(--border);border-radius:10px;padding:6px 11px;letter-spacing:1px}
+.spacer{flex:1}
+.filters{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.lv{display:flex;align-items:center;gap:6px;cursor:pointer;font-family:var(--fm);font-size:11px;
+  padding:5px 10px;border-radius:999px;border:1px solid var(--border);color:var(--soft);user-select:none;transition:.2s}
+.lv:hover{transform:translateY(-1px);background:rgba(255,255,255,.05)}
+.lv i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.lv b{font-weight:500;opacity:.75}
+.lv.on{color:var(--text);border-color:var(--c);background:color-mix(in srgb,var(--c) 13%,transparent)}
+.lv.off i{background:transparent;box-shadow:inset 0 0 0 1.5px var(--c)}
+.lv[data-lv="INFO"]{--c:var(--info)} .lv[data-lv="DEBUG"]{--c:var(--debug)}
+.lv[data-lv="WARNING"]{--c:var(--warn)} .lv[data-lv="ERROR"]{--c:var(--error)}
+.lv[data-lv="COMMAND"]{--c:var(--command)} .lv[data-lv="DOING"]{--c:var(--doing)}
+.lv[data-lv="DONE"]{--c:var(--done)} .lv[data-lv="IDEA"]{--c:var(--idea)}
+.search{display:flex;align-items:center;gap:7px;background:var(--panel2);border:1px solid var(--border);
+  border-radius:999px;padding:5px 12px}
+.search:focus-within{border-color:var(--module);box-shadow:0 0 0 3px rgba(74,222,128,.12)}
+.search input{background:none;border:none;outline:none;color:var(--text);font-size:12px;width:150px;font-family:var(--fm)}
+.search input::placeholder{color:var(--muted)}
+.tools{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tbtn{display:flex;align-items:center;gap:6px;font-size:12px;padding:6px 12px;border-radius:10px;
+  border:1px solid var(--border);background:var(--panel2);color:var(--soft);transition:.2s;cursor:pointer}
+.tbtn:hover{color:var(--text);border-color:#3a3a6a;transform:translateY(-1px)}
+.tbtn.on{color:var(--text);border-color:rgba(103,232,249,.5);background:rgba(103,232,249,.09)}
+.fs{display:flex;align-items:center;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--panel2)}
+.fs button{width:28px;height:28px;font-family:var(--fm);font-size:13px;color:var(--soft);cursor:pointer}
+.fs button:hover{background:rgba(255,255,255,.07);color:var(--text)}
+.fs span{font-family:var(--fm);font-size:11px;color:var(--soft);padding:0 7px;border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:28px}
+main{flex:1;display:flex;flex-direction:column;gap:12px;padding:12px 16px;min-height:0}
+.main-row{flex:1;display:flex;gap:12px;min-height:0}
+.side{width:252px;flex:none;display:flex;flex-direction:column;gap:12px;overflow-y:auto;padding-right:2px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:13px 14px}
+.card h3{font-family:var(--fd);font-size:11px;font-weight:700;letter-spacing:2px;color:var(--soft);
+  display:flex;align-items:center;gap:8px;margin-bottom:11px}
+.card h3::before{content:'';width:14px;height:3px;border-radius:2px;background:var(--rainbow);background-size:200% 100%;animation:flow 6s linear infinite}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:9px 11px}
+.stat .k{font-size:10px;color:var(--muted);letter-spacing:1px}
+.stat .v{font-family:var(--fd);font-size:19px;font-weight:700;margin-top:3px}
+#st-warn{color:var(--warn)} #st-err{color:var(--error)} #st-cmd{color:var(--command)}
+.dist{display:flex;flex-direction:column;gap:9px}
+.drow{display:flex;align-items:center;gap:8px;font-family:var(--fm);font-size:11px}
+.drow .tag{width:62px;color:var(--c)}
+.drow .bar{flex:1;height:8px;border-radius:99px;background:rgba(255,255,255,.06);overflow:hidden}
+.drow .bar i{display:block;height:100%;width:0;border-radius:99px;background:var(--c);transition:width .5s;box-shadow:0 0 8px color-mix(in srgb,var(--c) 60%,transparent)}
+.drow .n{width:40px;text-align:right;color:var(--soft)}
+.drow[data-lv="INFO"]{--c:var(--info)} .drow[data-lv="DEBUG"]{--c:var(--debug)}
+.drow[data-lv="WARNING"]{--c:var(--warn)} .drow[data-lv="ERROR"]{--c:var(--error)}
+.drow[data-lv="COMMAND"]{--c:var(--command)} .drow[data-lv="DOING"]{--c:var(--doing)}
+.drow[data-lv="DONE"]{--c:var(--done)} .drow[data-lv="IDEA"]{--c:var(--idea)}
+.kv{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:12px;border-bottom:1px dashed rgba(255,255,255,.06)}
+.kv:last-child{border:none}
+.kv .k{color:var(--muted)}
+.kv .v{font-family:var(--fm);font-size:11px;color:var(--soft)}
+.kv .v.hl{color:var(--highlight)}
+.legend{display:flex;flex-wrap:wrap;gap:6px}
+.legend span{font-family:var(--fm);font-size:10px;padding:3px 9px;border-radius:999px;border:1px solid var(--border);color:var(--c);background:color-mix(in srgb,var(--c) 9%,transparent)}
+.console{flex:1;min-width:0;display:flex;flex-direction:column;border-radius:16px;padding:1.5px;
+  background:var(--rainbow);background-size:200% 100%;animation:flow 12s linear infinite;
+  box-shadow:0 10px 40px rgba(0,0,0,.4),0 0 30px rgba(139,123,255,.12)}
+.console-in{flex:1;min-height:0;display:flex;flex-direction:column;background:#0e0e20;border-radius:14.5px;overflow:hidden}
+.console-bar{display:flex;align-items:center;gap:8px;padding:9px 14px;border-bottom:1px solid var(--border);background:rgba(255,255,255,.02)}
+.mdot{width:10px;height:10px;border-radius:50%}
+.mdot:nth-child(1){background:#ff5f6d}.mdot:nth-child(2){background:#ffe259}.mdot:nth-child(3){background:#3ddc84}
+.console-bar .title{font-family:var(--fm);font-size:11px;color:var(--muted);margin-left:6px;letter-spacing:1px}
+.live-tag{margin-left:auto;display:flex;align-items:center;gap:6px;font-family:var(--fd);font-size:10px;letter-spacing:2px;color:var(--error)}
+.live-tag i{width:7px;height:7px;border-radius:50%;background:var(--error);animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.25}}
+#log-container{flex:1;overflow-y:auto;padding:8px 0;font-family:var(--fm);font-size:13px}
+.log-line{padding:4px 16px;border-bottom:1px solid rgba(255,255,255,.02);gap:4px;white-space:nowrap;line-height:1.6}
+.log-line:hover{background:rgba(255,255,255,.03)}
+.log-line.hidden{display:none}
+.log-line.lv-ERROR{background:rgba(239,68,68,.05);box-shadow:inset 3px 0 0 var(--error)}
+.log-line.lv-WARNING{background:rgba(251,146,60,.04);box-shadow:inset 3px 0 0 var(--warn)}
+.time{color:var(--time);min-width:8.5ch;flex-shrink:0}
+.level{min-width:8ch;flex-shrink:0;font-weight:700;text-align:center}
+.level.info{color:var(--info)} .level.debug{color:var(--debug)}
+.level.warning{color:var(--warn)} .level.error{color:var(--error)}
+.level.command{color:var(--command)} .level.doing{color:var(--doing)}
+.level.done{color:var(--done)} .level.idea{color:var(--idea)}
+.source{color:var(--source);min-width:14ch;flex-shrink:0;font-size:.85em;opacity:.8}
+.msg{flex:1;color:var(--text)}
+.msg .mod{color:var(--module)} .msg .num{color:var(--num)}
+.msg .admin{color:var(--admin);font-weight:700} .msg .hi{color:var(--highlight);font-weight:700}
+.msg .sep{color:var(--sep)}
+footer{flex:none;display:flex;align-items:center;gap:16px;padding:7px 16px;font-size:11px;color:var(--source);
+  background:var(--panel);border-top:1px solid var(--border);position:relative;flex-wrap:wrap}
+footer::before{content:'';position:absolute;left:0;right:0;bottom:0;height:2.5px;background:var(--rainbow);background-size:200% 100%;animation:flow 8s linear infinite}
+footer .f-item{display:flex;align-items:center;gap:6px}
+footer b{color:var(--text);font-family:var(--fm);font-weight:500}
+footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
+#status.sync{color:var(--ok)} #status.err{color:var(--error)}
+/* ===== 欢迎横幅 ===== */
+.welcome{display:flex;align-items:center;gap:14px;flex:none;padding:14px 18px;border-radius:16px;
+  background:linear-gradient(135deg,rgba(255,95,109,.12),rgba(56,189,248,.10));
+  border:1px solid var(--border);position:relative;overflow:hidden}
+.welcome::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:var(--rainbow);background-size:200% 100%;animation:flow 6s linear infinite}
+.welcome .w-emoji{font-size:30px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}
+.welcome h2{font-family:var(--fd);font-size:18px;font-weight:700;margin:0;color:#fff;letter-spacing:.5px;
+  background:linear-gradient(90deg,#ffb147,#3ddc84,#38bdf8,#e879f9);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.welcome p{margin:3px 0 0;font-size:12px;color:var(--soft)}
+/* ===== 控制台标签（我的日志 / 系统日志） ===== */
+.tabs{display:flex;gap:6px;margin-left:12px}
+.tab{font-family:var(--fm);font-size:11px;padding:6px 13px;border-radius:999px;border:1px solid var(--border);
+  background:var(--panel2);color:var(--soft);cursor:pointer;transition:.2s;letter-spacing:.5px}
+.tab:hover{color:var(--text);transform:translateY(-1px)}
+.tab.on{color:#0e0e20;background:var(--rainbow);background-size:200% 100%;border-color:transparent;font-weight:700;animation:flow 8s linear infinite}
+/* ===== SYS 级别配色 ===== */
+.lv[data-lv="SYS"]{--c:var(--sys)} .drow[data-lv="SYS"]{--c:var(--sys)}
+.level.sys{color:var(--sys)} .log-line.lv-SYS{background:rgba(148,163,184,.045);box-shadow:inset 3px 0 0 var(--sys)}
+/* ===== 离线提示条 + 管理后台链接 ===== */
+.offline-bar{display:block;margin:10px 16px 0;padding:12px 16px;border-radius:12px;
+  background:rgba(251,191,36,.14);border:1px solid rgba(251,191,36,.5);color:#fde68a;
+  font-size:13px;line-height:1.5;backdrop-filter:blur(8px);}
+.offline-bar[hidden]{display:none;}
+.admin-link{color:#fbbf24 !important;font-weight:600;}
+.admin-link:hover{text-decoration:underline;}
+
+/* ===== 移动端适配 ===== */
+#menuBtn{display:none}
+#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:30}
+@media(max-width:900px){
+  .conn,.brand .sub,.spacer{display:none}
+  #menuBtn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;
+    margin-left:auto;border:1px solid var(--border);border-radius:10px;background:var(--panel2);
+    color:var(--text);font-size:18px;cursor:pointer;flex:none}
+  header{gap:8px 12px;padding:10px 12px}
+  .filters,.tools{flex-wrap:nowrap;overflow-x:auto;flex:none;max-width:100%}
+  .filters::-webkit-scrollbar,.tools::-webkit-scrollbar{display:none}
+  .search input{width:110px}
+  main{flex-direction:column;padding:8px;gap:8px}
+  /* 侧栏 → 左侧抽屉 */
+  .side{position:fixed;top:0;left:0;bottom:0;width:82%;max-width:300px;z-index:40;
+    background:var(--panel);border-right:1px solid var(--border);padding:14px;
+    transform:translateX(-100%);transition:transform .25s ease;overflow-y:auto;box-shadow:0 0 40px rgba(0,0,0,.6)}
+  .side.open{transform:translateX(0)}
+  #overlay.show{display:block}
+  .dist{display:flex}
+  .side .card:last-child{display:block}
+  #log-container{font-size:11px}
+  .log-line{white-space:normal;word-break:break-word}
+  .source{display:none}
+}
+@media(max-width:560px){
+  header{padding:8px 10px;gap:6px 10px}
+  .brand h1{font-size:15px}
+  .clock{font-size:11px;padding:5px 9px}
+  .search input{width:90px}
+  main{padding:6px;gap:6px}
+  .console-bar{padding:8px 12px}
+  .console-in{border-radius:12px}
+  #log-container{font-size:10.5px}
+  footer{gap:8px 12px;padding:6px 12px;font-size:10px}
+  footer .right{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<div class="rainbow-line"></div>
+<div id="overlay"></div>
+<header>
+  <div class="brand">
+    <div class="logo"><div class="logo-in">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#67e8f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v5L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+    </div></div>
+    <div>
+      <h1>yzandwss <em>的日志</em></h1>
+      <div class="sub">PERSONAL LOG</div>
+    </div>
+  </div>
+  <div class="conn"><span class="dot"></span> 在线</div>
+  <div class="clock" id="clock">--:--:--</div>
+  <div class="spacer"></div>
+  <button id="menuBtn" aria-label="打开菜单">☰</button>
+  <div class="filters" id="filters"></div>
+  <div class="search"><input id="search" placeholder="搜索日志..."></div>
+  <div class="tools">
+    <button class="tbtn on" id="follow" title="滚动到最新">跟随</button>
+    <button class="tbtn" id="clear" title="清空屏幕">清空</button>
+    <button class="tbtn" id="copy" title="复制可见日志">复制</button>
+    <button class="tbtn" id="export" title="导出日志文件">导出</button>
+    <div class="fs"><button id="fs-down">A-</button><span id="fs-val">13</span><button id="fs-up">A+</button></div>
+  </div>
+</header>
+
+<main>
+  <div class="welcome" id="welcome">
+    <div class="w-emoji">👋</div>
+    <div>
+      <h2 id="welcome-text">站点后台已就绪，欢迎来访~</h2>
+      <p id="welcome-sub">yzandwss 的实时日志 · 由 Ubuntu Server 驱动</p>
+    </div>
+  </div>
+  <div class="offline-bar" id="offline-bar" hidden>
+    ⚠️ 站点离线（电脑已关闭）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">—</span>），电脑开机后自动恢复实时。
+  </div>
+  <div class="main-row">
+  <aside class="side">
+    <section class="card">
+      <h3>运行概览</h3>
+      <div class="stats">
+        <div class="stat"><div class="k">总日志</div><div class="v" id="st-total">0</div></div>
+        <div class="stat"><div class="k">命令</div><div class="v" id="st-cmd">0</div></div>
+        <div class="stat"><div class="k">警告</div><div class="v" id="st-warn">0</div></div>
+        <div class="stat"><div class="k">错误</div><div class="v" id="st-err">0</div></div>
+      </div>
+    </section>
+    <section class="card">
+      <h3>级别分布</h3>
+      <div class="dist" id="dist"></div>
+    </section>
+    <section class="card">
+      <h3>会话信息</h3>
+      <div class="kv"><span class="k">运行时长</span><span class="v hl" id="uptime">--</span></div>
+      <div class="kv"><span class="k">缓冲</span><span class="v" id="buf">0</span></div>
+      <div class="kv"><span class="k">轮询间隔</span><span class="v">2s</span></div>
+    </section>
+    <section class="card">
+      <h3>高亮图例</h3>
+      <div class="legend">
+        <span style="--c:var(--module)">[模块]</span>
+        <span style="--c:var(--num)">数字</span>
+        <span style="--c:var(--admin)">管理员</span>
+        <span style="--c:var(--highlight)">就绪词</span>
+        <span style="--c:var(--sep)">分隔符</span>
+      </div>
+    </section>
+  </aside>
+
+  <section class="console">
+    <div class="console-in">
+      <div class="console-bar">
+        <span class="mdot"></span><span class="mdot"></span><span class="mdot"></span>
+        <span class="title" id="console-title">yzandwss / stdout</span>
+        <div class="tabs">
+          <button class="tab on" data-tab="mine">我的日志</button>
+          <button class="tab" data-tab="sys">系统日志</button>
+        </div>
+        <span class="live-tag"><i></i>LIVE</span>
+      </div>
+      <div id="log-container"></div>
+    </div>
+  </section>
+  </div>
+</main>
+
+<footer>
+  <span class="f-item">共 <b id="count">0</b> 条</span>
+  <span class="f-item">可见 <b id="visible">0</b></span>
+  <span class="f-item">缓冲 <b id="buf2">0</b>/500</span>
+  <span class="f-item">轮询 <b>2s</b></span>
+  <span class="f-item">最后同步 <b id="lastsync">--:--:--</b></span>
+  <span class="f-item">状态 <b id="status" class="sync">同步中</b></span>
+    <div class="right">
+      <span class="f-item"><a class="admin-link" href="https://wss.serveousercontent.com/admin" target="_blank" rel="noopener">管理后台 ↗</a></span>
+      <span class="f-item"><a href="index.html" style="color:var(--soft)">返回主页</a></span>
+    </div>
+</footer>
+
+<script>
+var $=function(id){return document.getElementById(id);};
+var CONTAINER=$('log-container'), SEARCH=$('search');
+var levels=['INFO','DEBUG','WARNING','ERROR','COMMAND','DOING','DONE','IDEA','SYS'];
+var hiddenLv=new Set(), searchText='', fontSize=13;
+var curTab='mine', syslogs=[], sysLast='';
+
+// 动态数据来源：你的 VM（serveo 隧道）。电脑开着→拉实时；电脑关→fetch 失败，自动回退到本地缓存。
+var API_BASE='https://wss.serveousercontent.com';
+// ===== 离线缓存（关电脑时回退展示）=====
+function saveCache(k,t){ try{ localStorage.setItem('yz_log_'+k,t); localStorage.setItem('yz_log_'+k+'_ts',new Date().toLocaleString('zh-CN')); }catch(e){} }
+function loadCache(k){ try{ return localStorage.getItem('yz_log_'+k); }catch(e){ return null; } }
+function cacheTs(k){ try{ return localStorage.getItem('yz_log_'+k+'_ts')||''; }catch(e){ return ''; } }
+function showOffline(k){ var bar=$('offline-bar'); if(bar){ bar.hidden=false; $('offline-ts').textContent=cacheTs(k)||'（无缓存）'; } }
+function hideOffline(){ var bar=$('offline-bar'); if(bar) bar.hidden=true; }
+
+// 手写日志
+var logs=[
+  {time:'2026-07-26 19:40:00', lv:'DONE',   src:'web',    msg:'在 Ubuntu Server 上用 Nginx 搭好了个人主页，毛玻璃卡片风'},
+  {time:'2026-07-26 19:20:00', lv:'INFO',   src:'web',    msg:'给主页加了流动渐变背景、实时时钟和打字机效果'},
+  {time:'2026-07-26 18:30:00', lv:'DOING',  src:'web',    msg:'研究 QQ 一键复制按钮 | http 局域网下用 execCommand 兜底'},
+  {time:'2026-07-26 14:00:00', lv:'IDEA',   src:'web',    msg:'想做一个像控制台日志一样的个人日志页'},
+  {time:'2026-07-25 22:00:00', lv:'WARNING',src:'setup',  msg:'之前装桌面把磁盘撑爆，系统卡在启动日志，已重装干净系统'}
+];
+
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function colorMsg(msg){
+  return esc(msg)
+    .replace(/$$([^$$]+)\]/g,function(m,c){return '[<span class="mod">'+c+'</span>]';})
+    .replace(/(\d{5,})(?=[\s,<)）])/g,'<span class="num">$1</span>')
+    .replace(/([\d.]+s|[\d.]+KB|[\d]+字|[\d]+条|[\d]+次)/g,'<span class="num">$1</span>')
+    .replace(/(\/~[\w]+)/g,'<span class="admin">$1</span>')
+    .replace(/admin|管理员/g,'<span class="admin">$&</span>')
+    .replace(/(启动成功|连接完成|重载完成|准备就绪|初始化完成)/g,'<span class="hi">$1</span>')
+    .replace(/([|｜])/g,'<span class="sep">$1</span>');
+}
+
+var counts={};
+function render(){
+  CONTAINER.innerHTML='';
+  counts={}; levels.forEach(function(l){counts[l]=0;});
+  var visible=0;
+  (curTab==='sys'?syslogs:logs).slice().reverse().forEach(function(r){
+    var lv=r.lv||'INFO';
+    counts[lv]=(counts[lv]||0)+1;
+    var hidden=hiddenLv.has(lv)||(searchText&&((r.time+' '+r.msg).toLowerCase().indexOf(searchText)===-1));
+    if(hidden) return;
+    visible++;
+    var div=document.createElement('div');
+    div.className='log-line lv-'+lv;
+    div.innerHTML='<span class="time">'+esc(r.time.slice(11))+'</span> '+
+                  '<span class="level '+lv.toLowerCase()+'">['+esc(lv)+']</span> '+
+                  '<span class="source">('+esc(r.src||'?')+')</span> '+
+                  '<span class="msg">'+colorMsg(r.msg||'')+'</span>';
+    CONTAINER.appendChild(div);
+  });
+  $('count').textContent=logs.length;
+  $('visible').textContent=visible;
+  $('buf').textContent=logs.length;
+  $('buf2').textContent=logs.length;
+  var max=Math.max(1,Math.max.apply(null,levels.map(function(l){return counts[l];})));
+  levels.forEach(function(l){
+    var c=$('c-'+l.toLowerCase()); if(c) c.textContent=counts[l]||0;
+    var b=$('b-'+l.toLowerCase()); if(b) b.style.width=((counts[l]||0)/max*100)+'%';
+  });
+  $('st-total').textContent=logs.length;
+  $('st-cmd').textContent=counts.COMMAND||0;
+  $('st-warn').textContent=counts.WARNING||0;
+  $('st-err').textContent=counts.ERROR||0;
+  if(followOn) CONTAINER.scrollTop=0;
+}
+
+// 顶部筛选 chips
+var fc=$('filters');
+levels.forEach(function(l){
+  var el=document.createElement('label');
+  el.className='lv on'; el.setAttribute('data-lv',l);
+  el.innerHTML='<i></i>'+l+'<b id="c-'+l.toLowerCase()+'">0</b>';
+  el.onclick=function(){
+    if(hiddenLv.has(l)){hiddenLv.delete(l);el.classList.add('on');el.classList.remove('off');}
+    else{hiddenLv.add(l);el.classList.remove('on');el.classList.add('off');}
+    render();
+  };
+  fc.appendChild(el);
+});
+
+// 侧栏级别分布条
+var dist=$('dist');
+levels.forEach(function(l){
+  var row=document.createElement('div');
+  row.className='drow'; row.setAttribute('data-lv',l);
+  row.innerHTML='<span class="tag">'+l+'</span><span class="bar"><i id="b-'+l.toLowerCase()+'"></i></span><span class="n" id="n-'+l.toLowerCase()+'">0</span>';
+  dist.appendChild(row);
+});
+
+// 交互
+SEARCH.addEventListener('input',function(){searchText=SEARCH.value.toLowerCase();render();});
+var followOn=true;
+$('follow').addEventListener('click',function(){followOn=!followOn;$('follow').classList.toggle('on',followOn);if(followOn)CONTAINER.scrollTop=0;});
+$('clear').addEventListener('click',function(){CONTAINER.innerHTML='';$('visible').textContent=0;});
+$('copy').addEventListener('click',function(){
+  var b=this, old=b.innerHTML;
+  var t=Array.prototype.map.call(CONTAINER.querySelectorAll('.log-line'),function(el){return el.innerText;}).join('\n');
+  try{var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);}catch(e){}
+  b.innerHTML='已复制';setTimeout(function(){b.innerHTML=old;},1200);
+});
+$('export').addEventListener('click',function(){
+  var t=Array.prototype.map.call(CONTAINER.querySelectorAll('.log-line'),function(el){return el.innerText;}).join('\n');
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'}));
+  a.download='yzandwss-log-'+new Date().toISOString().slice(0,19).replace(/[:T]/g,'-')+'.log';
+  a.click();URL.revokeObjectURL(a.href);
+});
+function setFS(v){fontSize=Math.min(18,Math.max(10,v));CONTAINER.style.fontSize=fontSize+'px';$('fs-val').textContent=fontSize;}
+$('fs-up').addEventListener('click',function(){setFS(fontSize+1);});
+$('fs-down').addEventListener('click',function(){setFS(fontSize-1);});
+
+// 自动轮询 cmdlog.txt（每2秒，增量追加）
+var lastLines=0;
+var pollTimer=null;
+// 解析 cmdlog.txt 文本 → 重建 logs + 欢迎横幅（实时增量与离线重建统一处理）
+function parseMine(t){
+  var arr=t.trim().split('\n').filter(Boolean);
+  for(var i=0;i<arr.length;i++){
+    if(arr[i].indexOf('欢迎')!==-1 && arr[i].length>20){ setBanner(arr[i].slice(20)); break; }
+  }
+  logs=[];
+  for(var i=0;i<arr.length;i++){
+    var line=arr[i];
+    if(line.indexOf('欢迎')!==-1) continue;   // 跳过欢迎行
+    if(line.length>20){
+      logs.push({time:line.slice(0,19), lv:'COMMAND', src:'shell', msg:line.slice(20)});
+    }
+  }
+  lastLines=arr.length;
+}
+function poll(){
+  fetch(API_BASE+'/cmdlog.txt?_='+Date.now()).then(function(r){
+    if(!r.ok){ showOffline('mine'); var st=$('status'); st.textContent='离线'; st.className='err'; return; }
+    return r.text();
+  }).then(function(t){
+    if(t===undefined) return;
+    saveCache('mine', t); hideOffline();
+    parseMine(t);
+    if(curTab==='mine') render();
+    $('lastsync').textContent=new Date().toTimeString().slice(0,8);
+    var st=$('status'); st.textContent='已同步'; st.className='sync';
+  }).catch(function(){
+    // 网络失败 = 站点离线（电脑关机），回退到本地缓存
+    var c=loadCache('mine'); if(c) parseMine(c);
+    showOffline('mine');
+    var st=$('status'); st.textContent='离线'; st.className='err';
+  });
+}
+poll();
+pollTimer=setInterval(poll,2000);
+
+// 公开系统日志（Ubuntu journal，免登录接口 /api/syslog）
+function sysTime(l){
+  var m=String(l).match(/^\w{3}\s+\d+\s+(\d{2}:\d{2}:\d{2})/);
+  return m?m[1]:'';
+}
+function pollSys(){
+  fetch(API_BASE+'/api/syslog?_='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
+    if(!j||!j.lines){ showOffline('sys'); return; }
+    saveCache('sys', JSON.stringify(j.lines));
+    var txt=j.lines.join('\n');
+    if(txt===sysLast) return;
+    sysLast=txt;
+    syslogs=j.lines.map(function(l){ return {time:sysTime(l), lv:'SYS', src:'ubuntu', msg:l}; });
+    if(curTab==='sys') render();
+  }).catch(function(){
+    // 离线：回退到缓存的系统日志
+    var c=loadCache('sys');
+    if(c){ try{ var lines=JSON.parse(c); sysLast=lines.join('\n'); syslogs=lines.map(function(l){ return {time:sysTime(l), lv:'SYS', src:'ubuntu', msg:l}; }); if(curTab==='sys') render(); }catch(e){} }
+    showOffline('sys');
+  });
+}
+pollSys();
+setInterval(pollSys,5000);
+
+// 我的日志 / 系统日志 标签切换
+var tabs=document.querySelectorAll('.tab');
+tabs.forEach(function(b){
+  b.addEventListener('click',function(){
+    curTab=b.getAttribute('data-tab');
+    tabs.forEach(function(x){x.classList.toggle('on',x===b);});
+    $('console-title').textContent=(curTab==='sys')?'Ubuntu / system':'yzandwss / stdout';
+    if(curTab==='sys') pollSys();
+    render();
+  });
+});
+function setBanner(m){
+  if(m){ var w=$('welcome-text'); if(w) w.textContent=m; }
+}
+
+// 时钟 + 运行时长
+var t0=Date.now();
+function tick(){
+  var d=new Date();
+  $('clock').textContent=d.toTimeString().slice(0,8);
+  var s=Math.floor((Date.now()-t0)/1000),h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;
+  $('uptime').textContent=(h?h+'时':'')+m+'分 '+x+'秒';
+}
+tick();setInterval(tick,1000);
+var menuBtn=document.getElementById('menuBtn'),overlay=document.getElementById('overlay'),sideEl=document.querySelector('.side');
+if(menuBtn){
+  menuBtn.addEventListener('click',function(){sideEl.classList.toggle('open');overlay.classList.toggle('show');});
+  overlay.addEventListener('click',function(){sideEl.classList.remove('open');overlay.classList.remove('show');});
+}
+render();
+</script>
+</body>
+</html>
