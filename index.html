@@ -40,6 +40,14 @@
   #qqmsg { min-height:20px; margin-top:6px; font-size:14px; font-weight:600; }
   footer { margin-top:24px; font-size:12px; opacity:0.6; }
   .links a, .links button { -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
+  /* ===== 关于我 弹窗 ===== */
+  .about-modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:20px}
+  .about-modal.show{display:flex}
+  .about-box{background:rgba(255,255,255,.12);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.25);border-radius:18px;padding:30px 28px;max-width:460px;width:92%;color:#fff;box-shadow:0 8px 40px rgba(0,0,0,.4);max-height:80vh;overflow:auto}
+  .about-box h2{margin:0 0 14px;font-size:22px}
+  .about-box .ab-body{font-size:15px;line-height:1.7;white-space:pre-wrap;word-break:break-word;opacity:.95}
+  .about-box .close{margin-top:18px;display:block;width:100%;padding:11px;border:0;border-radius:10px;background:rgba(255,255,255,.2);color:#fff;font-size:14px;cursor:pointer;font:inherit}
+  .about-box .close:hover{background:rgba(255,255,255,.32)}
   @media (max-width:480px){
     .card { padding:30px 20px; }
     h1 { font-size:24px; }
@@ -56,7 +64,7 @@
       <span>Linux</span><span>Python</span><span>折腾</span><span>摄影</span><span>音乐</span>
     </div>
     <div class="links">
-      <a href="javascript:void(0)" onclick="alert('这个还在施工呢 喵～')">关于我(未完工)</a>
+      <a href="javascript:void(0)" onclick="openAbout()">关于我</a>
       <a href="log.html">进入Ubuntu日志</a>
       <a href="/bot-logs/">进入bot日志</a>
       <a href="https://github.com/wss542/" target="_blank" rel="noopener">GitHub</a>
@@ -65,6 +73,14 @@
       <div id="qqmsg"></div>
     </div>
     <footer>用纯 HTML 搭建？ · Powered by Ubuntu</footer>
+  </div>
+
+  <div class="about-modal" id="about-modal" onclick="if(event.target===this)closeAbout()">
+    <div class="about-box">
+      <h2>关于我</h2>
+      <div class="ab-body" id="about-body">加载中…</div>
+      <button class="close" onclick="closeAbout()">关闭</button>
+    </div>
   </div>
   <script>
     function tick() {
@@ -109,6 +125,25 @@
       document.body.removeChild(t);
       msg.textContent = ok ? '已复制 ✓' : '复制失败，请刷新重试';
       b.style.background = ok ? 'rgba(76,175,80,0.55)' : 'rgba(244,67,54,0.55)';
+    }
+
+    var ABOUT_URL = 'https://wss.serveousercontent.com/about.txt';
+    function openAbout() {
+      var m = document.getElementById('about-modal');
+      var b = document.getElementById('about-body');
+      m.classList.add('show');
+      b.textContent = '加载中…';
+      fetch(ABOUT_URL + '?_=' + Date.now()).then(function (r) {
+        return r.ok ? r.text() : Promise.reject();
+      }).then(function (t) {
+        t = (t || '').trim();
+        b.textContent = t ? t : '这个还在施工呢 喵～';
+      }).catch(function () {
+        b.textContent = '这个还在施工呢 喵～';
+      });
+    }
+    function closeAbout() {
+      document.getElementById('about-modal').classList.remove('show');
     }
   </script>
 </body>
