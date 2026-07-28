@@ -617,12 +617,20 @@ async function checkStatus(){
   try{
     const b=apiBase();
     const r=await fetch(b+'api/status');
-    if(!r.ok)return;
-    const j=await r.json();
-    const key = curSource==='napcat' ? 'napcat' : 'bot';
-    if(j[key]===true){ hideOffline(); }
-    else { showSourceOff(curSource); }
+    if(r.ok){
+      const j=await r.json();
+      const key = curSource==='napcat' ? 'napcat' : 'bot';
+      if(j[key]===true){ hideOffline(); }
+      else { showSourceOff(curSource); }
+      return;
+    }
   }catch(e){}
+  // 后端 /api/status 未部署时的兜底：用日志内容启发式判断（bot 源可靠）
+  if(curSource!=='napcat'){
+    const lines=[...CONTAINER.querySelectorAll('.log-line')];
+    const last=lines.length?lines[lines.length-1].dataset.raw||'':'';
+    if(/应用程序已退出|再见/.test(last)) showSourceOff('bot');
+  }
 }
 
 /* ---------- 筛选 ---------- */
