@@ -116,19 +116,23 @@
 <script>
 const PRIMARY_API = "https://wss.serveousercontent.com/chat/api";
 let ENDPOINTS = [PRIMARY_API];
-// 从 GitHub Pages（永远可达）读取备用通道地址（如 Cloudflare 隧道），存在则追加为备用
-(async function loadFallback(){
+// 从 GitHub Pages（永远可达）读取备用通道（Cloudflare 隧道，比 serveo 更稳），优先使用
+let fallbackReady = (async function loadFallback(){
   try{
     const r = await fetch("https://wss542.github.io/chat/cf_url.txt", {cache:"no-store"});
     if(r.ok){
       const u = (await r.text()).trim().replace(/\/+$/, "");
-      if(/^https?:\/\//.test(u)) ENDPOINTS.push(u + "/chat/api");
+      if(/^https?:\/\//.test(u)){
+        const cf = u + "/chat/api";
+        ENDPOINTS = [cf, PRIMARY_API];   // Cloudflare 优先，serveo 备用
+        return;
+      }
     }
-  }catch(e){ /* 无备用通道则只用主通道 */ }
+  }catch(e){ /* 无备用通道则只用 serveo */ }
 })();
 
-// 带超时+重试的请求（依次尝试所有通道，规避 serveo 偶发抖动/断流）
-async function apiGet(params, retries=2, timeoutMs=12000){
+// 带超时+重试的请求（依次尝试所有通道，规避隧道偶发抖动/断流）
+async function apiGet(params, retries=1, timeoutMs=10000){
   let lastErr;
   for(const API of ENDPOINTS){
     for(let i=0;i<retries;i++){
@@ -141,7 +145,7 @@ async function apiGet(params, retries=2, timeoutMs=12000){
         const j = await r.json().catch(()=>({ok:false, error:"响应解析失败"}));
         if(j && typeof j.ok !== "undefined") return j;   // 拿到了真实 JSON 应答
         lastErr = new Error("bad-json");
-      }catch(e){ lastErr = e; await new Promise(res=>setTimeout(res, 600*(i+1))); }
+      }catch(e){ lastErr = e; await new Promise(res=>setTimeout(res, 500*(i+1))); }
     }
   }
   throw lastErr || new Error("network");
@@ -203,6 +207,7 @@ async function sendMsg(content){
   addRow("me", content);
   send.disabled = true; text.disabled = true;
   try{
+    await fallbackReady;
     const j = await apiGet({session_id:sessionId, message:content, password:PASSWORD});
     if(!j.ok){
       if(j.error && j.error.indexOf("密码")>=0){
@@ -271,6 +276,7 @@ function startRetry(pwVal){
 async function tryUnlock(pwVal, silent){
   if(!silent) pwerr.textContent = "连接中…";
   try{
+    await fallbackReady;
     const ok = await doUnlock(pwVal);
     if(ok){ enterChat(pwVal); return; }
     pwerr.textContent = "密码错误";
