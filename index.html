@@ -86,13 +86,13 @@
     function tick() {
       var d = new Date();
       var h = d.getHours();
-      var greet = h < 6 ? '凌晨好' : h < 12 ? '早上好' : h < 14 ? '中午好' : h < 18 ? '下午好' : '晚上好';
+      var greet = h < 6 ? '凌晨好 喵～' : h < 12 ? '早上好 喵～' : h < 14 ? '中午好 喵～' : h < 18 ? '下午好 喵～' : '晚上好 喵～';
       var pad = function(n){ return n<10 ? '0'+n : n; };
       document.getElementById('clock').textContent = greet + ' · ' + pad(h) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds());
     }
     tick(); setInterval(tick, 1000);
 
-    var text = '热爱折腾的音游玩家，在疯狂的搭建自己的小世界。';
+    var text = '热爱折腾的音游玩家，在疯狂的搭建自己的小世界 喵～';
     var i = 0;
     function type() {
       if (i <= text.length) {
