@@ -58,6 +58,12 @@
   .row.me .bubble{background:var(--me);color:#fff;border-bottom-right-radius:4px}
   .row.bot .bubble{background:var(--bot);border:1px solid var(--border);border-bottom-left-radius:4px}
   .row.sys .bubble{background:transparent;color:#ff9;opacity:.8;font-size:12px;text-align:center;max-width:100%;margin:0 auto}
+  .bubble .line{margin:3px 0;line-height:1.55}
+  .bubble .act{color:#ffb86c;font-style:italic;opacity:.95}
+  .bubble .act::before{content:"✦ "}
+  .bubble .act::after{content:" ✦"}
+  .bubble .thought{color:#9aa7ff;font-style:italic;opacity:.9}
+  .bubble .thought::before{content:"💭 "}
   .inputrow{flex:0 0 auto;display:flex;gap:8px;padding:10px;border-top:1px solid var(--border);background:rgba(255,255,255,.03)}
   .inputrow input{
     flex:1;background:var(--glass-strong);border:1px solid var(--border);color:var(--txt);
@@ -170,12 +176,26 @@ const offline = $("#offline"), dot = $("#dot"), sub = $("#sub");
 const pwmask = $("#pwmask"), pw = $("#pw"), pwok = $("#pwok"), pwretry = $("#pwretry"),
       pwerr = $("#pwerr"), pwstatus = $("#pwstatus");
 
+function escapeHtml(s){
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+// 把 bot 回复里的 <动作>/<心理> 标记渲染成花式样式（先转义防 XSS）
+function renderBot(text){
+  return String(text).split("\n").map(function(line){
+    let h = escapeHtml(line);
+    h = h.replace(/&lt;动作&gt;(.*?)&lt;\/动作&gt;/g, function(m,p){ return '<span class="act">'+p+'</span>'; });
+    h = h.replace(/&lt;心理&gt;(.*?)&lt;\/心理&gt;/g, function(m,p){ return '<span class="thought">'+p+'</span>'; });
+    return '<div class="line">'+h+'</div>';
+  }).join("");
+}
+
 function addRow(role, content){
   const row = document.createElement("div");
   row.className = "row " + role;
   const b = document.createElement("div");
   b.className = "bubble";
-  b.textContent = content;
+  if(role === "bot"){ b.innerHTML = renderBot(content); }
+  else { b.textContent = content; }
   row.appendChild(b);
   msgs.appendChild(row);
   msgs.scrollTop = msgs.scrollHeight;
@@ -198,7 +218,7 @@ async function pollResult(taskId, botRow){
       const r = await fetch(resultApi() + "?" + qr.toString(), {method:"GET"});
       const j = await r.json().catch(()=>({}));
       if(j && j.ok && j.ready){
-        bubble.textContent = j.reply || "(空)";
+        bubble.innerHTML = renderBot(j.reply || "(空)");
         hideOffline(); setConn("live","在线");
         return;
       }
