@@ -83,7 +83,9 @@
     border-radius:10px;padding:11px;font-size:14px;outline:none;text-align:center}
   .pwbox button{width:100%;margin-top:14px;background:var(--me);border:none;color:#fff;font-weight:600;
     border-radius:10px;padding:11px;font-size:14px;cursor:pointer}
+  .pwbox button.ghost{background:var(--glass-strong);margin-top:8px}
   .pwerr{color:#ff8080;font-size:12px;min-height:16px;margin-top:8px}
+  .pwstatus{color:#9cf;font-size:11px;min-height:14px;margin-top:4px;opacity:.85}
   @media (max-width:480px){ .bubble{font-size:13px} .bar .title{font-size:15px} }
 </style>
 </head>
@@ -94,7 +96,7 @@
   <header class="bar">
     <span class="dot" id="dot"></span>
     <span class="title">bot 私聊</span>
-    <span class="sub" id="sub">连接中…</span>
+    <span class="sub" id="sub">未连接</span>
     <button class="mini" id="clear">清空</button>
   </header>
   <div class="msgs" id="msgs"></div>
@@ -109,30 +111,37 @@
     <h3>🔒 需要密码</h3>
     <input id="pw" type="password" placeholder="输入聊天密码" autocomplete="off">
     <button id="pwok">进入</button>
+    <button id="pwretry" class="ghost" hidden>立即重试</button>
     <div class="pwerr" id="pwerr"></div>
+    <div class="pwstatus" id="pwstatus"></div>
   </div>
 </div>
 
 <script>
-const PRIMARY_API = "https://wss.serveousercontent.com/chat/api";
-let ENDPOINTS = [PRIMARY_API];
-// 从 GitHub Pages（永远可达）读取备用通道（Cloudflare 隧道，比 serveo 更稳），优先使用
-let fallbackReady = (async function loadFallback(){
+const GHPAGES = "https://wss542.github.io";
+const SERVEO = "https://wss.serveousercontent.com/chat/api";
+// ENDPOINTS[0] 为首选通道（Cloudflare，若可用），serveo 作备用
+let ENDPOINTS = [SERVEO];
+let lastGood = null;          // 最近一次成功的通道，轮询时优先复用
+let retryAttempts = 0;
+
+// 每次（含重试）都重新拉取最新的 Cloudflare 地址（该地址会随隧道重启而轮换）
+async function refreshEndpoints(){
   try{
-    const r = await fetch("https://wss542.github.io/chat/cf_url.txt", {cache:"no-store"});
+    const r = await fetch(GHPAGES + "/chat/cf_url.txt", {cache:"no-store"});
     if(r.ok){
       const u = (await r.text()).trim().replace(/\/+$/, "");
       if(/^https?:\/\//.test(u)){
-        const cf = u + "/chat/api";
-        ENDPOINTS = [cf, PRIMARY_API];   // Cloudflare 优先，serveo 备用
+        ENDPOINTS = [u + "/chat/api", SERVEO];
         return;
       }
     }
   }catch(e){ /* 无备用通道则只用 serveo */ }
-})();
+  ENDPOINTS = [SERVEO];
+}
 
-// 带超时+重试的请求（依次尝试所有通道，规避隧道偶发抖动/断流）
-async function apiGet(params, retries=1, timeoutMs=10000){
+// 带超时+多次重试：依次尝试所有通道；成功时记录通道用于后续轮询
+async function apiGet(params, retries=3, timeoutMs=10000){
   let lastErr;
   for(const API of ENDPOINTS){
     for(let i=0;i<retries;i++){
@@ -143,13 +152,14 @@ async function apiGet(params, retries=1, timeoutMs=10000){
         const r = await fetch(url, {method:"GET", signal:ctrl.signal, cache:"no-store"});
         clearTimeout(tid);
         const j = await r.json().catch(()=>({ok:false, error:"响应解析失败"}));
-        if(j && typeof j.ok !== "undefined") return j;   // 拿到了真实 JSON 应答
-        lastErr = new Error("bad-json");
-      }catch(e){ lastErr = e; await new Promise(res=>setTimeout(res, 500*(i+1))); }
+        if(j && typeof j.ok !== "undefined"){ lastGood = API; return j; }
+        lastErr = new Error("bad-json:" + (j && j.error ? j.error : ""));
+      }catch(e){ lastErr = e; await new Promise(res=>setTimeout(res, 400*(i+1))); }
     }
   }
   throw lastErr || new Error("network");
 }
+function resultApi(){ return (lastGood || ENDPOINTS[0] || SERVEO).replace("/chat/api", "/chat/result"); }
 
 const sessionId = (crypto.randomUUID ? crypto.randomUUID() : "s"+Date.now()+Math.random().toString(16).slice(2));
 let PASSWORD = sessionStorage.getItem("botchat_pw") || "";
@@ -157,7 +167,8 @@ let PASSWORD = sessionStorage.getItem("botchat_pw") || "";
 const $ = s => document.querySelector(s);
 const msgs = $("#msgs"), form = $("#form"), text = $("#text"), send = $("#send");
 const offline = $("#offline"), dot = $("#dot"), sub = $("#sub");
-const pwmask = $("#pwmask"), pw = $("#pw"), pwok = $("#pwok"), pwerr = $("#pwerr");
+const pwmask = $("#pwmask"), pw = $("#pw"), pwok = $("#pwok"), pwretry = $("#pwretry"),
+      pwerr = $("#pwerr"), pwstatus = $("#pwstatus");
 
 function addRow(role, content){
   const row = document.createElement("div");
@@ -178,13 +189,13 @@ function setConn(mode, txt){
 function showOffline(msg){ offline.textContent = msg; offline.hidden = false; }
 function hideOffline(){ offline.hidden = true; }
 
-// 轮询结果（每次请求都很快，规避 serveo 对慢上游的 ~8s 超时）
+// 轮询结果（每次请求都很快，规避隧道对慢上游的硬超时）
 async function pollResult(taskId, botRow){
   const bubble = botRow.querySelector(".bubble");
   for(let i=0; i<45; i++){
     try{
       const qr = new URLSearchParams({task_id:taskId});
-      const r = await fetch(RESULT_API() + "?" + qr.toString(), {method:"GET"});
+      const r = await fetch(resultApi() + "?" + qr.toString(), {method:"GET"});
       const j = await r.json().catch(()=>({}));
       if(j && j.ok && j.ready){
         bubble.textContent = j.reply || "(空)";
@@ -195,19 +206,17 @@ async function pollResult(taskId, botRow){
         bubble.textContent = "⚠️ " + (j.error || "出错了");
         return;
       }
-    }catch(e){ /* 网络抖动，继续重试 */ }
+    }catch(e){ /* 网络抖动，继续轮询 */ }
     await new Promise(res => setTimeout(res, 1500));
   }
   bubble.textContent = "⚠️ 等待超时，请重试";
 }
-function RESULT_API(){ return (ENDPOINTS[0]||PRIMARY_API).replace("/chat/api", "/chat/result"); }
 
 async function sendMsg(content){
   if(!PASSWORD) return;
   addRow("me", content);
   send.disabled = true; text.disabled = true;
   try{
-    await fallbackReady;
     const j = await apiGet({session_id:sessionId, message:content, password:PASSWORD});
     if(!j.ok){
       if(j.error && j.error.indexOf("密码")>=0){
@@ -246,11 +255,10 @@ form.addEventListener("submit", e=>{
 
 $("#clear").addEventListener("click", ()=>{ msgs.innerHTML=""; addRow("sys","已清空本窗口（远端记忆仍在）"); });
 
-// ---- 解锁 + 后台自动重连 ----
+// ---- 解锁 + 后台自动重连（带手动重试按钮 + 状态） ----
 let retryTimer = null;
 function stopRetry(){ if(retryTimer){ clearInterval(retryTimer); retryTimer = null; } }
 
-// 仅做 ping，返回 true=成功 / false=密码错 / throw=连接失败
 async function doUnlock(pwVal){
   const j = await apiGet({session_id:sessionId, message:"__ping__", password:pwVal});
   if(j.ok) return true;
@@ -259,39 +267,52 @@ async function doUnlock(pwVal){
 }
 function enterChat(pwVal){
   stopRetry();
+  retryAttempts = 0;
   PASSWORD = pwVal; sessionStorage.setItem("botchat_pw", pwVal);
-  pwmask.hidden = true; text.disabled=false; send.disabled=false; text.focus();
+  pwmask.hidden = true; pwretry.hidden = true;
+  text.disabled=false; send.disabled=false; text.focus();
   setConn("live","在线");
   addRow("sys","已连接 · 和 bot 聊天吧 (｡･ω･｡)");
 }
-// 静默重试：成功后自动进入聊天
 function startRetry(pwVal){
   if(retryTimer) return;
   retryTimer = setInterval(async ()=>{
     try{
+      retryAttempts++;
+      pwstatus.textContent = "正在自动重试（第 " + retryAttempts + " 次）…";
+      await refreshEndpoints();           // 每次重试都拉最新地址
       if(await doUnlock(pwVal)){ enterChat(pwVal); }
-    }catch(e){ /* 继续静默重试 */ }
+    }catch(e){
+      const why = (e && e.name==="AbortError") ? "请求超时" : "网络不可达";
+      pwstatus.textContent = "第 " + retryAttempts + " 次失败（" + why + "），继续重试…";
+    }
   }, 5000);
 }
 async function tryUnlock(pwVal, silent){
   if(!silent) pwerr.textContent = "连接中…";
+  pwstatus.textContent = "";
+  pwretry.hidden = true;
   try{
-    await fallbackReady;
+    await refreshEndpoints();
     const ok = await doUnlock(pwVal);
     if(ok){ enterChat(pwVal); return; }
     pwerr.textContent = "密码错误";
   }catch(e){
-    // 连接失败：显示"正在重试"，并后台每 5s 自动重连，serveo 一恢复即自动进入
-    pwmask.hidden = false;
-    pwerr.textContent = "连接失败，正在自动重试…（恢复后自动进入）";
+    const why = (e && e.name==="AbortError") ? "请求超时" : "网络不可达";
+    pwerr.textContent = "连接失败（" + why + "）";
+    pwstatus.textContent = "正在自动重试（第 1 次）…";
+    pwretry.hidden = false;
+    retryAttempts = 1;
     startRetry(pwVal);
   }
 }
 pwok.addEventListener("click", ()=> tryUnlock(pw.value, false));
 pw.addEventListener("keydown", e=>{ if(e.key==="Enter") tryUnlock(pw.value, false); });
+pwretry.addEventListener("click", ()=>{ stopRetry(); retryAttempts = 0; tryUnlock(pw.value, false); });
 
-// 初始：若已保存密码则直接试连（失败会自动重试），否则弹窗
-if(PASSWORD){ tryUnlock(PASSWORD, false); } else { pwmask.hidden = false; }
+// 初始：若已保存密码则预填，但仍需点"进入"才连接（避免"未输密码就在连"的困惑）
+if(PASSWORD){ pw.value = PASSWORD; }
+pwmask.hidden = false;
 </script>
 </body>
 </html>
