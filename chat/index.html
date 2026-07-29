@@ -261,18 +261,23 @@ function stopRetry(){ if(retryTimer){ clearInterval(retryTimer); retryTimer = nu
 
 async function doUnlock(pwVal){
   const j = await apiGet({session_id:sessionId, message:"__ping__", password:pwVal});
-  if(j.ok) return true;
-  if(j.error && j.error.indexOf("密码")>=0) return false;
+  if(j.ok) return j;                                      // 可能带 token / left（访客密码）
+  if(j.error && j.error.indexOf("密码")>=0) return {bad:true, error:j.error};
   throw new Error("connect");
 }
-function enterChat(pwVal){
+function enterChat(pwVal, j){
   stopRetry();
   retryAttempts = 0;
-  PASSWORD = pwVal; sessionStorage.setItem("botchat_pw", pwVal);
+  // 访客密码：服务端发放 24h 令牌，之后聊天全用令牌（刷新页面不重复扣次数）
+  PASSWORD = (j && j.token) ? j.token : pwVal;
+  sessionStorage.setItem("botchat_pw", PASSWORD);
   pwmask.hidden = true; pwretry.hidden = true;
   text.disabled=false; send.disabled=false; text.focus();
   setConn("live","在线");
   addRow("sys","已连接 · 和 bot 聊天吧 (｡･ω･｡)");
+  if(j && typeof j.left !== "undefined"){
+    addRow("sys","🎫 访客密码剩余 " + j.left + " 次（本次登录 24 小时内有效）");
+  }
 }
 function startRetry(pwVal){
   if(retryTimer) return;
@@ -281,7 +286,9 @@ function startRetry(pwVal){
       retryAttempts++;
       pwstatus.textContent = "正在自动重试（第 " + retryAttempts + " 次）…";
       await refreshEndpoints();           // 每次重试都拉最新地址
-      if(await doUnlock(pwVal)){ enterChat(pwVal); }
+      const j = await doUnlock(pwVal);
+      if(j && !j.bad){ enterChat(pwVal, j); }
+      else if(j && j.bad){ stopRetry(); pwstatus.textContent=""; pwerr.textContent = j.error || "密码错误"; }
     }catch(e){
       const why = (e && e.name==="AbortError") ? "请求超时" : "网络不可达";
       pwstatus.textContent = "第 " + retryAttempts + " 次失败（" + why + "），继续重试…";
@@ -294,9 +301,9 @@ async function tryUnlock(pwVal, silent){
   pwretry.hidden = true;
   try{
     await refreshEndpoints();
-    const ok = await doUnlock(pwVal);
-    if(ok){ enterChat(pwVal); return; }
-    pwerr.textContent = "密码错误";
+    const j = await doUnlock(pwVal);
+    if(j && !j.bad){ enterChat(pwVal, j); return; }
+    pwerr.textContent = (j && j.error) || "密码错误";
   }catch(e){
     const why = (e && e.name==="AbortError") ? "请求超时" : "网络不可达";
     pwerr.textContent = "连接失败（" + why + "）";
