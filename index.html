@@ -56,23 +56,17 @@
 </style>
 </head>
 <body>
-<div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(8,6,20,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
-  <div style="font-size:46px;margin-bottom:14px">🔒</div>
-  <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
-  <div style="font-size:14px;color:#c9c9d6;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
-</div>
   <div class="card">
     <h1>yzandwss</h1>
     <p class="clock" id="clock"></p>
     <p class="bio" id="typed"></p>
     <div class="tags">
-      <span>Linux</span><span>Python</span><span>折腾</span><span>摄影</span><span>音乐</span>
+      <span>Linux</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span>
     </div>
     <div class="links">
       <a href="javascript:void(0)" onclick="openAbout()" data-section="about">关于我</a>
       <a href="log.html" data-section="log">进入Ubuntu日志</a>
       <a href="/bot-logs/" data-section="botlog">进入bot日志</a>
-      <a href="/chat/" data-section="chat">bot私聊</a>
       <a href="https://github.com/wss542/" target="_blank" rel="noopener" data-section="github">GitHub</a>
       <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener" data-section="bili">哔哩哔哩</a>
       <button id="qqbtn" onclick="copyQQ()" data-section="qq">点此复制QQ</button>
@@ -89,31 +83,6 @@
     </div>
   </div>
   <script>
-// ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
-(function(){
-  var blocked=false, bm=document.getElementById('devtools-blocker');
-  function block(){
-    if(blocked) return; blocked=true;
-    if(bm) bm.style.display='flex';
-    document.body.style.pointerEvents='none';
-  }
-  window.addEventListener('keydown', function(e){
-    var k=(e.key||'').toLowerCase();
-    if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
-       (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
-      e.preventDefault(); block();
-    }
-  });
-  setInterval(function(){
-    if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
-  }, 500);
-  setInterval(function(){
-    if(blocked) return;
-    var t=performance.now(); debugger; if(performance.now()-t>50) block();
-  }, 1000);
-})();
-</script>
-<script>
     function tick() {
       var d = new Date();
       var h = d.getHours();
