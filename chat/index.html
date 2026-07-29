@@ -105,6 +105,11 @@
 </style>
 </head>
 <body>
+<div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(8,6,20,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <div style="font-size:46px;margin-bottom:14px">🔒</div>
+  <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
+  <div style="font-size:14px;color:#c9c9d6;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
+</div>
 <div class="rainbow-line"></div>
 <div class="app" style="position:relative">
   <div id="offline" class="offline" hidden></div>
@@ -144,6 +149,36 @@
 </div>
 
 <script>
+// ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
+(function(){
+  var blocked=false, bm=document.getElementById('devtools-blocker');
+  window.__stopOnDevtools=function(){
+    try{ if(typeof retryTimer!=='undefined' && retryTimer) clearInterval(retryTimer); }catch(e){}
+    ['text','send','pw'].forEach(function(id){ var el=document.getElementById(id); if(el) el.disabled=true; });
+  };
+  function block(){
+    if(blocked) return; blocked=true;
+    if(bm) bm.style.display='flex';
+    document.body.style.pointerEvents='none';
+    try{ window.__stopOnDevtools(); }catch(e){}
+  }
+  window.addEventListener('keydown', function(e){
+    var k=(e.key||'').toLowerCase();
+    if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
+       (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
+      e.preventDefault(); block();
+    }
+  });
+  setInterval(function(){
+    if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
+  }, 500);
+  setInterval(function(){
+    if(blocked) return;
+    var t=performance.now(); debugger; if(performance.now()-t>50) block();
+  }, 1000);
+  window.__devtoolsBlocked=function(){ return blocked; };
+})();
+
 const GHPAGES = "https://wss542.github.io";
 const SERVEO = "https://wss.serveousercontent.com/chat/api";
 // ENDPOINTS[0] 为首选通道（Cloudflare，若可用），serveo 作备用
