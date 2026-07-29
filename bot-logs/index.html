@@ -296,6 +296,25 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
   footer .f-item.gap{display:none}
   .jump{right:8px;bottom:44px}
 }
+
+/* ============ 访客密码管理 ============ */
+.gp-in{width:100%;background:var(--panel2);border:1px solid var(--border);border-radius:8px;color:var(--text);
+  font-size:12px;padding:6px 8px;outline:none;font-family:var(--fm);transition:border-color .2s}
+.gp-in:focus{border-color:#3a3a6a}
+.gp-num{width:52px;flex:none;text-align:center;padding:5px 4px}
+.gp-btn{background:var(--panel2);border:1px solid var(--border);border-radius:8px;color:var(--soft);
+  font-size:12px;padding:6px 10px;cursor:pointer;transition:.2s;flex:none}
+.gp-btn:hover{color:var(--text);border-color:#3a3a6a}
+.gp-btn:active{transform:scale(.95)}
+.gp-mini{padding:4px 8px;font-size:11px}
+.gp-danger:hover{color:#fff;border-color:rgba(239,68,68,.6);background:rgba(239,68,68,.15)}
+#gp-lock{display:flex;flex-direction:column;gap:8px}
+.gp-row{display:flex;align-items:center;gap:6px;margin-bottom:7px}
+.gp-name{flex:1;min-width:0;font-family:var(--fm);font-size:12px;color:var(--text);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gp-addrow{display:flex;gap:6px;margin-top:9px;padding-top:9px;border-top:1px dashed var(--border)}
+.gp-msg{font-size:11px;min-height:14px;margin-top:6px}
+.gp-empty{font-size:11px;color:var(--muted);margin:4px 0}
 </style>
 
 <!-- ============ DevTools 反调试守卫：样式 ============ -->
@@ -487,6 +506,24 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
       <div class="kv"><span class="k">运行时长</span><span class="v hl" id="uptime">--</span></div>
       <div class="kv"><span class="k">屏幕缓冲</span><span class="v" id="buf">0 / 500</span></div>
       <div class="kv"><span class="k">会话过滤</span><span class="v" id="chat-box"><span class="empty">全部会话</span></span></div>
+    </section>
+
+    <section class="card">
+      <h3>访客密码</h3>
+      <div id="gp-lock">
+        <input id="gp-pw" type="password" placeholder="输入主密码解锁管理" class="gp-in" autocomplete="off">
+        <button class="gp-btn" id="gp-unlock">解锁管理</button>
+        <div class="gp-msg" id="gp-lockmsg"></div>
+      </div>
+      <div id="gp-panel" hidden>
+        <div id="gp-list"></div>
+        <div class="gp-addrow">
+          <input id="gp-new" placeholder="新访客密码" class="gp-in" autocomplete="off">
+          <input id="gp-cnt" type="number" min="0" value="3" class="gp-in gp-num" title="解锁次数">
+          <button class="gp-btn" id="gp-add">添加</button>
+        </div>
+        <div class="gp-msg" id="gp-msg"></div>
+      </div>
     </section>
 
     <section class="card">
@@ -1101,6 +1138,105 @@ updateStats();drawSpark();
   document.addEventListener('contextmenu', function(e){
     if(state==='lockdown') e.preventDefault();
   });
+})();
+</script>
+
+<!-- ============ 访客密码管理（走 bot-chat 服务 /chat/admin，主密码鉴权） ============ -->
+<script>
+(function(){
+const GH = "https://wss542.github.io";
+const SERVEO_ADMIN = "https://wss.serveousercontent.com/chat/admin";
+let eps = [SERVEO_ADMIN];
+
+async function refreshEps(){
+  try{
+    const r = await fetch(GH + "/chat/cf_url.txt", {cache:"no-store"});
+    if(r.ok){
+      const u = (await r.text()).trim().replace(/\/+$/, "");
+      if(/^https?:\/\//.test(u)){ eps = [u + "/chat/admin", SERVEO_ADMIN]; return; }
+    }
+  }catch(e){}
+  eps = [SERVEO_ADMIN];
+}
+async function adminApi(params){
+  await refreshEps();
+  let err;
+  for(const ep of eps){
+    try{
+      const ctrl = new AbortController();
+      const t = setTimeout(()=>ctrl.abort(), 10000);
+      const r = await fetch(ep + "?" + new URLSearchParams(params).toString(), {signal:ctrl.signal, cache:"no-store"});
+      clearTimeout(t);
+      const j = await r.json();
+      if(j && typeof j.ok !== "undefined") return j;
+    }catch(e){ err = e; }
+  }
+  throw err || new Error("network");
+}
+
+let PW = sessionStorage.getItem("gp_pw") || "";
+const $g = s => document.querySelector(s);
+const lockBox = $g("#gp-lock"), panel = $g("#gp-panel"), list = $g("#gp-list"),
+      msg = $g("#gp-msg"), lockmsg = $g("#gp-lockmsg");
+
+function setMsg(el, t, bad){
+  el.textContent = t;
+  el.style.color = bad ? "#ef4444" : "#22c55e";
+  if(t) setTimeout(()=>{ if(el.textContent === t) el.textContent = ""; }, 4000);
+}
+function render(guests, tokens){
+  list.innerHTML = "";
+  const names = Object.keys(guests || {});
+  if(!names.length){
+    const d = document.createElement("div");
+    d.className = "gp-empty"; d.textContent = "暂无访客密码";
+    list.appendChild(d);
+  }
+  names.forEach(name=>{
+    const row = document.createElement("div"); row.className = "gp-row";
+    const nm = document.createElement("span"); nm.className = "gp-name"; nm.textContent = name; nm.title = name;
+    const inp = document.createElement("input");
+    inp.type = "number"; inp.min = 0; inp.value = guests[name]; inp.className = "gp-in gp-num"; inp.title = "剩余解锁次数";
+    const sv = document.createElement("button"); sv.className = "gp-btn gp-mini"; sv.textContent = "存"; sv.title = "保存次数";
+    sv.onclick = ()=> doAct({action:"set", guest:name, count:inp.value}, "已更新 " + name);
+    const del = document.createElement("button"); del.className = "gp-btn gp-mini gp-danger"; del.textContent = "删";
+    del.onclick = ()=>{ if(confirm("删除访客密码「" + name + "」？")) doAct({action:"del", guest:name}, "已删除 " + name); };
+    row.append(nm, inp, sv, del);
+    list.appendChild(row);
+  });
+  const tk = document.createElement("div");
+  tk.className = "gp-empty";
+  tk.textContent = "有效令牌 " + (tokens||0) + " 个（24 小时过期）";
+  list.appendChild(tk);
+}
+async function doAct(params, okText){
+  try{
+    const j = await adminApi(Object.assign({password:PW}, params));
+    if(!j.ok){ setMsg(msg, j.error || "操作失败", true); return; }
+    render(j.guests, j.active_tokens);
+    if(okText) setMsg(msg, okText);
+  }catch(e){ setMsg(msg, "网络不可达，请稍后再试", true); }
+}
+$g("#gp-unlock").onclick = async ()=>{
+  const v = $g("#gp-pw").value.trim();
+  if(!v) return;
+  lockmsg.textContent = "连接中…"; lockmsg.style.color = "#9ca3af";
+  try{
+    const j = await adminApi({password:v, action:"list"});
+    if(!j.ok){ setMsg(lockmsg, j.error || "密码错误", true); return; }
+    PW = v; sessionStorage.setItem("gp_pw", v);
+    lockBox.hidden = true; panel.hidden = false;
+    render(j.guests, j.active_tokens);
+  }catch(e){ setMsg(lockmsg, "网络不可达（bot-chat 服务可能未就绪）", true); }
+};
+$g("#gp-pw").addEventListener("keydown", e=>{ if(e.key === "Enter") $g("#gp-unlock").click(); });
+$g("#gp-add").onclick = ()=>{
+  const name = $g("#gp-new").value.trim();
+  if(!name){ setMsg(msg, "密码不能为空", true); return; }
+  doAct({action:"add", guest:name, count:$g("#gp-cnt").value}, "已添加 " + name);
+  $g("#gp-new").value = "";
+};
+if(PW){ $g("#gp-pw").value = PW; }
 })();
 </script>
 </body>
