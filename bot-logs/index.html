@@ -1186,6 +1186,18 @@ const GH = "https://wss542.github.io";
 const SERVEO_ADMIN = "https://wss.serveousercontent.com/chat/admin";
 let eps = [SERVEO_ADMIN];
 
+// JS 令牌闸（与 chat.html 同算法；禁用 JS 的客户端调用会被后端 403 拒绝）
+const TOKEN_SECRET = "hm_webchat_2026_fixed";
+const TOKEN_WINDOW = 30;
+async function webToken(){
+  const w = Math.floor(Date.now() / 1000 / TOKEN_WINDOW);
+  const data = TOKEN_SECRET + ":" + w;
+  try{
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(data));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }catch(e){ return ""; }
+}
+
 async function refreshEps(){
   try{
     const r = await fetch(GH + "/chat/cf_url.txt", {cache:"no-store"});
@@ -1199,11 +1211,12 @@ async function refreshEps(){
 async function adminApi(params){
   await refreshEps();
   let err;
+  const p = Object.assign({}, params, {token: await webToken()});
   for(const ep of eps){
     try{
       const ctrl = new AbortController();
       const t = setTimeout(()=>ctrl.abort(), 10000);
-      const r = await fetch(ep + "?" + new URLSearchParams(params).toString(), {signal:ctrl.signal, cache:"no-store"});
+      const r = await fetch(ep + "?" + new URLSearchParams(p).toString(), {signal:ctrl.signal, cache:"no-store"});
       clearTimeout(t);
       const j = await r.json();
       if(j && typeof j.ok !== "undefined") return j;
