@@ -409,6 +409,12 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
 </head>
 <body>
 
+<div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(8,6,20,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+  <div style="font-size:46px;margin-bottom:14px">🔒</div>
+  <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
+  <div style="font-size:14px;color:#c9c9d6;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
+</div>
+
 <div id="offline-bar" class="offline-bar" hidden>⚠️ 站点离线（电脑已关闭）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">—</span>），电脑开机后自动恢复实时。</div>
 
 <div class="rainbow-line"></div>
@@ -545,6 +551,7 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
         <div class="tabs">
           <button class="tab on" data-src="bot">Bot 日志</button>
           <button class="tab" data-src="napcat">NapCat 日志</button>
+          <button class="tab" data-src="webchat">私聊记录</button>
         </div>
         <span class="title" id="src-title">huanmeng-bot / stdout</span>
         <span id="filter-info"></span>
@@ -604,6 +611,36 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
 </div>
 
 <script>
+// ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
+(function(){
+  var blocked=false, bm=document.getElementById('devtools-blocker');
+  window.__stopOnDevtools=function(){
+    try{ if(typeof ws!=='undefined' && ws && ws.readyState===1) ws.close(); }catch(e){}
+    try{ if(typeof refreshTimer!=='undefined' && refreshTimer) clearInterval(refreshTimer); }catch(e){}
+  };
+  function block(){
+    if(blocked) return; blocked=true;
+    if(bm) bm.style.display='flex';
+    document.body.style.pointerEvents='none';
+    try{ window.__stopOnDevtools(); }catch(e){}
+  }
+  window.addEventListener('keydown', function(e){
+    var k=(e.key||'').toLowerCase();
+    if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
+       (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
+      e.preventDefault(); block();
+    }
+  });
+  setInterval(function(){
+    if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
+  }, 500);
+  setInterval(function(){
+    if(blocked) return;
+    var t=performance.now(); debugger; if(performance.now()-t>50) block();
+  }, 1000);
+  window.__devtoolsBlocked=function(){ return blocked; };
+})();
+
 const $=id=>document.getElementById(id);
 const CONTAINER=$('log-container'), COUNT=$('count'), STATUS=$('status'),
       SEARCH=$('search'), FILTER_INFO=$('filter-info'), AUTO_BTN=$('auto-scroll'),
@@ -636,6 +673,7 @@ function setConn(mode,text){CONN.className='conn '+mode;CONN_TEXT.textContent=te
 function saveCache(k,t){ try{ localStorage.setItem('yz_botlog_'+k, t); localStorage.setItem('yz_botlog_'+k+'_ts', new Date().toLocaleString('zh-CN')); }catch(e){} }
 function loadCache(k){ try{ return localStorage.getItem('yz_botlog_'+k); }catch(e){ return null; } }
 function cacheTs(k){ try{ return localStorage.getItem('yz_botlog_'+k+'_ts')||''; }catch(e){ return ''; } }
+function cacheKey(){ return curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : 'bot'; }
 /* 在线状态模型：区分「电脑是否可达」与「bot/napcat 进程是否运行」
    - compState: online(已连接) / reconnecting(重连中) / offline(电脑离线)
    - srcOff:    当前日志源的进程是否未运行
@@ -648,7 +686,7 @@ function renderBar(){
     bar.hidden=false; bar.className='offline-bar off-offline';
     bar.innerHTML='⚠️ 电脑已离线（站点不可达）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），电脑开机后自动恢复实时。';
   }else if(srcOff){
-    const name = curSource==='napcat' ? 'NapCat' : 'Bot';
+    const name = curSource==='napcat' ? 'NapCat' : curSource==='webchat' ? '网页私聊' : 'Bot';
     bar.hidden=false; bar.className='offline-bar off-warn';
     bar.innerHTML='⚠️ '+name+' 未运行 · 当前显示历史日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），启动后自动实时。';
   }else{
@@ -661,7 +699,7 @@ function setComp(state, txt){
   renderBar();
 }
 function applySrcStatus(j){
-  const key = curSource==='napcat' ? 'napcat' : 'bot';
+  const key = curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : 'bot';
   srcOff = !!(j && j[key]===false);
   renderBar();
 }
@@ -711,7 +749,7 @@ function switchSource(src){
   if(src===curSource)return;
   curSource=src;
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on', b.dataset.src===src));
-  $('src-title').textContent = src==='napcat' ? 'napcat / stdout' : 'huanmeng-bot / stdout';
+  $('src-title').textContent = src==='napcat' ? 'napcat / stdout' : src==='webchat' ? '网页私聊 / 记录' : 'huanmeng-bot / stdout';
   CONTAINER.innerHTML=''; pending=0; JUMP.classList.remove('show');
   total=0; for(const lv in counts)counts[lv]=0;
   $('buf').textContent='0 / '+maxLines; $('buf2').textContent='0'; $('visible').textContent='0';
@@ -864,7 +902,7 @@ async function loadHistory(){
       }catch(e){}
     }else{
       const txt=await r.text();
-      saveCache('bot', txt);
+      saveCache(cacheKey(), txt);
       txt.split('\n').filter(Boolean).forEach(addHistoryLine);
     }
     updateStats();
