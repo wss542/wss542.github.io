@@ -64,6 +64,15 @@
   .bubble .act::after{content:" ✦"}
   .bubble .thought{color:#9aa7ff;font-style:italic;opacity:.9}
   .bubble .thought::before{content:"💭 "}
+  .mask[hidden]{display:none !important}
+  #confirmmask{z-index:60;background:rgba(0,0,0,.5)}
+  .cfmbox{background:#22223a;color:#eee;border:1px solid #4a4a6a;border-radius:14px;padding:18px 20px;max-width:92%;width:380px;box-shadow:0 12px 48px rgba(0,0,0,.55)}
+  .cftitle{font-size:15px;font-weight:600;margin-bottom:10px;color:#ffd166}
+  .cfdesc{font-size:13px;line-height:1.65;white-space:pre-wrap;margin-bottom:16px;opacity:.92}
+  .cfbtns{display:flex;gap:10px;justify-content:flex-end}
+  .cfbtns button{padding:7px 16px;border-radius:8px;border:1px solid #555;background:#33334d;color:#fff;cursor:pointer;font-size:13px}
+  .cfbtns #cfyes{background:#e05260;border-color:#e05260}
+  .cfbtns button:active{transform:scale(.97)}
   .inputrow{flex:0 0 auto;display:flex;gap:8px;padding:10px;border-top:1px solid var(--border);background:rgba(255,255,255,.03)}
   .inputrow input{
     flex:1;background:var(--glass-strong);border:1px solid var(--border);color:var(--txt);
@@ -120,6 +129,17 @@
     <button id="pwretry" class="ghost" hidden>立即重试</button>
     <div class="pwerr" id="pwerr"></div>
     <div class="pwstatus" id="pwstatus"></div>
+  </div>
+</div>
+
+<div class="mask" id="confirmmask" hidden>
+  <div class="cfmbox">
+    <div class="cftitle">⚠️ 高危操作确认</div>
+    <div class="cfdesc" id="cfdesc"></div>
+    <div class="cfbtns">
+      <button id="cfyes">确认执行</button>
+      <button id="cfno" class="ghost">取消</button>
+    </div>
   </div>
 </div>
 
@@ -218,7 +238,12 @@ async function pollResult(taskId, botRow){
       const r = await fetch(resultApi() + "?" + qr.toString(), {method:"GET"});
       const j = await r.json().catch(()=>({}));
       if(j && j.ok && j.ready){
-        bubble.innerHTML = renderBot(j.reply || "(空)");
+        if(j.confirm){
+          bubble.innerHTML = renderBot(j.reply || "");
+          showConfirm(j.confirm, bubble);
+        }else{
+          bubble.innerHTML = renderBot(j.reply || "(空)");
+        }
         hideOffline(); setConn("live","在线");
         return;
       }
@@ -340,6 +365,42 @@ pwretry.addEventListener("click", ()=>{ stopRetry(); retryAttempts = 0; tryUnloc
 // 初始：若已保存密码则预填，但仍需点"进入"才连接（避免"未输密码就在连"的困惑）
 if(PASSWORD){ pw.value = PASSWORD; }
 pwmask.hidden = false;
+
+// ---- 高危命令二次确认（主密码触发高危写操作命令时弹窗） ----
+let pendingConfirmCmd = null, pendingBubble = null;
+function showConfirm(c, bubble){
+  pendingConfirmCmd = c.command;
+  pendingBubble = bubble;
+  $("#cfdesc").textContent = c.desc + "\n命令：" + c.command;
+  $("#confirmmask").hidden = false;
+}
+$("#cfyes").addEventListener("click", async ()=>{
+  const cmd = pendingConfirmCmd;
+  $("#confirmmask").hidden = true;
+  pendingConfirmCmd = null;
+  if(cmd) await sendConfirm(cmd);
+});
+$("#cfno").addEventListener("click", ()=>{
+  $("#confirmmask").hidden = true;
+  if(pendingBubble) pendingBubble.innerHTML = renderBot("（已取消该操作）");
+  pendingConfirmCmd = null; pendingBubble = null;
+});
+async function sendConfirm(cmd){
+  addRow("me", cmd);
+  const row = addRow("bot", "执行中…");
+  try{
+    const j = await apiGet({session_id:sessionId, message:cmd, password:PASSWORD, confirm:1});
+    if(!j.ok){
+      row.querySelector(".bubble").innerHTML = "⚠️ " + (j.error || "失败");
+      return;
+    }
+    if(j.pending && j.task_id) await pollResult(j.task_id, row);
+    else if(j.reply) row.querySelector(".bubble").innerHTML = renderBot(j.reply);
+  }catch(e){
+    row.querySelector(".bubble").innerHTML = "⚠️ 连接失败";
+  }
+}
+
 </script>
 </body>
 </html>
