@@ -102,6 +102,18 @@
   .pwerr{color:#ff8080;font-size:12px;min-height:16px;margin-top:8px}
   .pwstatus{color:#9cf;font-size:11px;min-height:14px;margin-top:4px;opacity:.85}
   @media (max-width:480px){ .bubble{font-size:13px} .bar .title{font-size:15px} }
+  /* ── 图片相关 ── */
+  .bubble img.botimg, .bubble img.meimg{ max-width:100%; border-radius:10px; margin-top:6px; display:block; }
+  .bubble img.meimg{ border:1px solid var(--border); }
+  .inputrow .iconbtn{ background:var(--glass-strong); border:1px solid var(--border); color:var(--txt);
+    border-radius:12px; padding:0 12px; font-size:18px; cursor:pointer; flex:0 0 auto; }
+  .inputrow .iconbtn:active{ transform:scale(.96) }
+  #imgprev{ display:none; gap:6px; padding:6px 10px; flex-wrap:wrap; border-top:1px solid var(--border);
+    background:rgba(255,255,255,.03) }
+  #imgprev .chip{ position:relative; line-height:0 }
+  #imgprev img{ height:46px; border-radius:8px; border:1px solid var(--border) }
+  #imgprev .x{ position:absolute; top:-6px; right:-6px; background:#e05260; color:#fff; border:none;
+    border-radius:50%; width:18px; height:18px; font-size:11px; line-height:1; cursor:pointer; padding:0 }
 </style>
 </head>
 <body>
@@ -120,10 +132,13 @@
     <button class="mini" id="clear">清空</button>
   </header>
   <div class="msgs" id="msgs"></div>
+  <div id="imgprev"></div>
   <form class="inputrow" id="form">
+    <button type="button" class="iconbtn" id="imgbtn" title="发送图片" disabled>📎</button>
     <input id="text" autocomplete="off" placeholder="和 bot 说点什么…" disabled>
     <button type="submit" id="send" disabled>发送</button>
   </form>
+  <input type="file" id="file" accept="image/*" hidden>
 </div>
 
 <div class="mask" id="pwmask">
@@ -269,17 +284,36 @@ function renderBot(text){
   }).join("");
 }
 
-function addRow(role, content){
+function addRow(role, content, imgLocal){
   const row = document.createElement("div");
   row.className = "row " + role;
   const b = document.createElement("div");
   b.className = "bubble";
   if(role === "bot"){ b.innerHTML = renderBot(content); }
   else { b.textContent = content; }
+  if(imgLocal){
+    const im = document.createElement("img");
+    im.className = "meimg";
+    im.src = imgLocal;
+    b.appendChild(im);
+  }
   row.appendChild(b);
   msgs.appendChild(row);
   msgs.scrollTop = msgs.scrollHeight;
   return row;
+}
+// 根据相对 URL 构建一个带令牌的图片元素（/chat/files 需要令牌才能访问）
+async function imgEl(rel){
+  try{
+    const base = (lastGood || ENDPOINTS[0]).replace("/chat/api", "");
+    const el = document.createElement("img");
+    el.className = "botimg";
+    el.loading = "lazy";
+    el.alt = "图片";
+    el.onerror = () => { el.alt = "图片加载失败"; };
+    el.src = base + rel + "?token=" + await webToken();
+    return el;
+  }catch(e){ return null; }
 }
 function setConn(mode, txt){
   sub.textContent = txt;
@@ -304,6 +338,12 @@ async function pollResult(taskId, botRow){
         }else{
           bubble.innerHTML = renderBot(j.reply || "(空)");
         }
+        // 渲染 bot 返回的图片（互发照片：bot → 用户）
+        if(j.images && j.images.length){
+          for(const rel of j.images){
+            imgEl(rel).then(el => { if(el) bubble.appendChild(el); });
+          }
+        }
         hideOffline(); setConn("live","在线");
         return;
       }
@@ -319,10 +359,16 @@ async function pollResult(taskId, botRow){
 
 async function sendMsg(content){
   if(!PASSWORD) return;
-  addRow("me", content);
+  // 取出待发送的图片（互发照片：用户 → bot）
+  const rel = pendingRel, local = pendingLocal;
+  pendingRel = null; pendingLocal = null; renderPrev();
+  if(local){ addRow("me", content, local); }
+  else { addRow("me", content); }
   send.disabled = true; text.disabled = true;
   try{
-    const j = await apiGet({session_id:sessionId, message:content, password:PASSWORD});
+    const params = {session_id:sessionId, message:content, password:PASSWORD};
+    if(rel) params.image = rel;
+    const j = await apiGet(params);
     if(!j.ok){
       if(j.error && j.error.indexOf("密码")>=0){
         PASSWORD=""; sessionStorage.removeItem("botchat_pw");
@@ -350,10 +396,70 @@ async function sendMsg(content){
   }
 }
 
+// ── 图片上传（互发照片：用户发图）──
+let pendingRel = null;   // 待发送的服务端相对 URL
+let pendingLocal = null; // 待显示的本地预览 objectURL
+function renderPrev(){
+  const p = $("#imgprev"); p.innerHTML = "";
+  if(pendingLocal){
+    p.style.display = "flex";
+    const chip = document.createElement("div"); chip.className = "chip";
+    const im = document.createElement("img"); im.src = pendingLocal;
+    const x = document.createElement("button"); x.className = "x"; x.textContent = "×";
+    x.onclick = () => { pendingRel = null; pendingLocal = null; p.style.display = "none"; p.innerHTML = ""; };
+    chip.append(im, x); p.append(chip);
+  } else { p.style.display = "none"; }
+}
+async function uploadImage(file){
+  const b64 = await new Promise((res, rej) => {
+    const r = new FileReader();
+    r.onload = () => res(String(r.result).split(",")[1]);
+    r.onerror = rej;
+    r.readAsDataURL(file);
+  });
+  await refreshEndpoints();
+  let lastErr;
+  for(const API of ENDPOINTS){
+    const base = API.replace("/chat/api", "");
+    try{
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), 25000);
+      const r = await fetch(base + "/chat/upload", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          session_id: sessionId, password: PASSWORD,
+          filename: file.name, data: b64, token: await webToken()
+        }),
+        signal: ctrl.signal
+      });
+      clearTimeout(t);
+      const j = await r.json().catch(() => ({}));
+      if(j && j.ok) return j;
+      lastErr = new Error(j.error || "上传失败");
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("network");
+}
+$("#file").addEventListener("change", async (e) => {
+  const f = e.target.files && e.target.files[0];
+  e.target.value = "";
+  if(!f) return;
+  if(!PASSWORD){ pwerr.textContent = "请先进入聊天"; return; }
+  try{
+    const j = await uploadImage(f);
+    pendingRel = j.url; pendingLocal = URL.createObjectURL(f);
+    renderPrev();
+  }catch(err){
+    addRow("sys", "⚠️ 图片上传失败：" + (err && err.message ? err.message : err));
+  }
+});
+$("#imgbtn").addEventListener("click", () => $("#file").click());
+
 form.addEventListener("submit", e=>{
   e.preventDefault();
   const v = text.value.trim();
-  if(!v) return;
+  if(!v && !pendingRel) return;
   text.value = "";
   sendMsg(v);
 });
@@ -377,7 +483,7 @@ function enterChat(pwVal, j){
   PASSWORD = (j && j.token) ? j.token : pwVal;
   sessionStorage.setItem("botchat_pw", PASSWORD);
   pwmask.hidden = true; pwretry.hidden = true;
-  text.disabled=false; send.disabled=false; text.focus();
+  text.disabled=false; send.disabled=false; $("#imgbtn").disabled=false; text.focus();
   setConn("live","在线");
   addRow("sys","已连接 · 和 bot 聊天吧 (｡･ω･｡)");
   if(j && typeof j.left !== "undefined"){
