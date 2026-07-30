@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>bot 私聊</title>
 <style>
@@ -15,7 +15,7 @@
     --bot: rgba(255,255,255,.10);
     --txt:#eef;
   }
-  html,body{ height:100%; }
+  html,body{ height:100%; touch-action: pan-y; }
   body{
     font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
     color:var(--txt);
@@ -47,7 +47,7 @@
   .bar .mini{margin-left:auto;background:var(--glass-strong);border:1px solid var(--border);color:var(--txt);
     border-radius:8px;padding:5px 10px;font-size:12px;cursor:pointer}
   .bar .mini:active{transform:scale(.96)}
-  .msgs{flex:1 1 auto;min-height:0;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .msgs{flex:1 1 auto;min-height:0;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;touch-action:pan-y}
   .row{display:flex;max-width:100%}
   .row.me{justify-content:flex-end}
   .row.bot{justify-content:flex-start}
@@ -164,6 +164,18 @@
 </div>
 
 <script>
+// ===== 禁用移动端缩放（iOS Safari 不认 user-scalable=no，需拦截手势事件）=====
+['gesturestart','gesturechange','gestureend'].forEach(function(ev){
+  document.addEventListener(ev, function(e){ e.preventDefault(); }, {passive:false});
+});
+// 阻止双击放大（部分老内核）
+var _lastTouchEnd=0;
+document.addEventListener('touchend', function(e){
+  var now=Date.now();
+  if(now-_lastTouchEnd<=300) e.preventDefault();
+  _lastTouchEnd=now;
+}, {passive:false});
+
 // ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
 (function(){
   var blocked=false, bm=document.getElementById('devtools-blocker');
