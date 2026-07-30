@@ -89,6 +89,40 @@
     </div>
   </div>
   <script>
+    // ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
+    (function(){
+      var blocked=false, bm=document.getElementById('devtools-blocker');
+      function isMobile(){
+        return (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) ||
+               /Mobi|Android|iPhone|iPad|iPod|HarmonyOS|Windows Phone/i.test(navigator.userAgent);
+      }
+      var MOBILE = isMobile();
+      function block(){
+        if(blocked) return; blocked=true;
+        if(bm) bm.style.display='flex';
+        document.body.style.pointerEvents='none';
+      }
+      window.addEventListener('keydown', function(e){
+        if(MOBILE) return; // 移动端无键盘快捷键开 DevTools
+        var k=(e.key||'').toLowerCase();
+        if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
+           (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
+          e.preventDefault(); block();
+        }
+      });
+      setInterval(function(){
+        if(blocked || MOBILE) return;
+        var ae=document.activeElement;
+        if(ae && (ae.tagName==='INPUT' || ae.tagName==='TEXTAREA')) return;
+        if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
+      }, 500);
+      setInterval(function(){
+        if(blocked || MOBILE) return;
+        var t=performance.now(); debugger; if(performance.now()-t>100) block();
+      }, 1000);
+      window.__devtoolsBlocked=function(){ return blocked; };
+    })();
+
     function tick() {
       var d = new Date();
       var h = d.getHours();
