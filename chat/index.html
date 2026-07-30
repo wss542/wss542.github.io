@@ -114,6 +114,35 @@
   #imgprev img{ height:46px; border-radius:8px; border:1px solid var(--border) }
   #imgprev .x{ position:absolute; top:-6px; right:-6px; background:#e05260; color:#fff; border:none;
     border-radius:50%; width:18px; height:18px; font-size:11px; line-height:1; cursor:pointer; padding:0 }
+
+  /* ===== 动效增强（2026-07-30） ===== */
+  @keyframes appIn { 0% { opacity:0; transform:translateY(18px) scale(.99); } 100% { opacity:1; transform:none; } }
+  @keyframes barIn { 0% { opacity:0; transform:translateY(-10px); } 100% { opacity:1; transform:none; } }
+  @keyframes msgInMe { 0% { opacity:0; transform:translateX(22px) translateY(6px); } 100% { opacity:1; transform:none; } }
+  @keyframes msgInBot { 0% { opacity:0; transform:translateX(-22px) translateY(6px); } 100% { opacity:1; transform:none; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes sendPulse { 0% { box-shadow:0 0 0 0 rgba(92,225,230,.5); } 100% { box-shadow:0 0 0 12px rgba(92,225,230,0); } }
+  @keyframes pwPop { 0% { opacity:0; transform:scale(.9) translateY(10px); } 100% { opacity:1; transform:none; } }
+  @keyframes offDown { 0% { transform:translateY(-100%); } 100% { transform:none; } }
+
+  .app { animation: appIn .6s cubic-bezier(.16,1,.3,1) both; }
+  .bar { animation: barIn .5s ease both; }
+  .row { animation: msgInBot .28s ease both; }
+  .row.me { animation-name: msgInMe; }
+  .row.sys { animation: fadeIn .3s ease both; }
+  .row:hover .bubble { transform: translateY(-1px); }
+  .bubble { transition: transform .15s ease; }
+  .inputrow button#send { transition: filter .2s ease, transform .1s ease; }
+  .inputrow button#send:hover:not(:disabled) { filter: brightness(1.12); animation: sendPulse 1.6s ease-out infinite; }
+  .inputrow button#send:active:not(:disabled) { transform: scale(.95); }
+  .pwbox { animation: pwPop .3s cubic-bezier(.34,1.56,.64,1) both; }
+  .cfmbox { animation: pwPop .3s cubic-bezier(.34,1.56,.64,1) both; }
+  .offline:not([hidden]) { animation: offDown .35s ease both; }
+  .bar .mini { transition: transform .12s ease, background .2s ease; }
+  .bar .mini:hover { background: var(--me); color:#fff; }
+  @media (prefers-reduced-motion: reduce) {
+    .app, .bar, .row, .row.sys, .pwbox, .cfmbox, .offline { animation:none !important; }
+  }
 </style>
 </head>
 <body>
