@@ -53,6 +53,66 @@
     h1 { font-size:24px; }
     .links a, .links button { padding:12px; font-size:14px; }
   }
+
+  /* ===== 动效增强（2026-07-30） ===== */
+  @keyframes cardIn { 0% { opacity:0; transform:translateY(28px) scale(.96); } 100% { opacity:1; transform:none; } }
+  @keyframes riseIn { 0% { opacity:0; transform:translateY(16px); } 100% { opacity:1; transform:none; } }
+  @keyframes popIn { 0% { opacity:0; transform:scale(.78); } 100% { opacity:1; transform:none; } }
+  @keyframes orbFloat { 0%,100% { transform:translate(0,0) scale(1); } 50% { transform:translate(26px,-32px) scale(1.08); } }
+  @keyframes clockPulse { 0%,100% { opacity:.78; } 50% { opacity:1; } }
+  @keyframes shine { 0% { left:-130%; } 100% { left:140%; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+  /* 卡片整体入场 */
+  .card { animation: cardIn .75s cubic-bezier(.16,1,.3,1) both; }
+  /* 子元素错峰上浮 */
+  .card > * { animation: riseIn .55s ease both; }
+  .card > *:nth-child(1) { animation-delay:.06s; }
+  .card > *:nth-child(2) { animation-delay:.14s; animation: riseIn .55s ease .14s both, clockPulse 3s ease-in-out 1.2s infinite; }
+  .card > *:nth-child(3) { animation-delay:.22s; }
+  .card > *:nth-child(4) { animation-delay:.30s; }
+  .card > *:nth-child(5) { animation-delay:.38s; }
+  .card > *:nth-child(6) { animation-delay:.46s; }
+  /* 标签弹出 */
+  .tags span { animation: popIn .42s ease both; }
+  .tags span:nth-child(1) { animation-delay:.42s; }
+  .tags span:nth-child(2) { animation-delay:.48s; }
+  .tags span:nth-child(3) { animation-delay:.54s; }
+  .tags span:nth-child(4) { animation-delay:.60s; }
+  .tags span:nth-child(5) { animation-delay:.66s; }
+  /* 链接按钮错峰上浮 + 悬浮流光 */
+  .links > * { animation: riseIn .5s ease both; position:relative; overflow:hidden; }
+  .links > *:nth-child(1) { animation-delay:.50s; }
+  .links > *:nth-child(2) { animation-delay:.56s; }
+  .links > *:nth-child(3) { animation-delay:.62s; }
+  .links > *:nth-child(4) { animation-delay:.68s; }
+  .links > *:nth-child(5) { animation-delay:.74s; }
+  .links > *:nth-child(6) { animation-delay:.80s; }
+  .links > *:nth-child(7) { animation-delay:.86s; }
+  .links > *:nth-child(8) { animation-delay:.92s; }
+  .links a::after, .links button::after {
+    content:''; position:absolute; top:0; left:-130%; width:55%; height:100%;
+    background:linear-gradient(120deg, transparent, rgba(255,255,255,.38), transparent);
+    transform:skewX(-20deg); pointer-events:none;
+  }
+  .links a:hover::after, .links button:hover::after { animation: shine .65s ease; }
+  /* 关于弹窗缩放入场 */
+  .about-modal.show { animation: fadeIn .25s ease both; }
+  .about-modal.show .about-box { animation: popIn .35s cubic-bezier(.34,1.56,.64,1) both; }
+  /* 背景浮动光球 */
+  .bg-orbs { position:fixed; inset:0; z-index:-1; overflow:hidden; pointer-events:none; }
+  .bg-orbs span {
+    position:absolute; border-radius:50%; filter:blur(46px); opacity:.55;
+    background:radial-gradient(circle at 30% 30%, rgba(255,255,255,.9), rgba(255,255,255,0) 70%);
+  }
+  .bg-orbs span:nth-child(1) { width:240px; height:240px; left:-40px; top:12%; animation: orbFloat 13s ease-in-out infinite; }
+  .bg-orbs span:nth-child(2) { width:300px; height:300px; right:-60px; top:38%; animation: orbFloat 17s ease-in-out infinite reverse; }
+  .bg-orbs span:nth-child(3) { width:200px; height:200px; left:30%; bottom:-40px; animation: orbFloat 15s ease-in-out infinite; }
+  /* 尊重无障碍：减少动效 */
+  @media (prefers-reduced-motion: reduce) {
+    .card, .card > *, .tags span, .links > * { animation:none !important; }
+    .bg-orbs { display:none; }
+  }
 </style>
 </head>
 <body>
