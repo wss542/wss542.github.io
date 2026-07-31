@@ -124,7 +124,7 @@
     <p class="clock" id="clock"></p>
     <p class="bio" id="typed"></p>
     <div class="tags">
-      <span>Linux</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span>
+      <span>南梁</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span>
     </div>
     <div class="status">
       <div class="stat"><div class="l">CPU 占用</div><div class="v" id="cpu">--</div><div class="bar"><i id="cpubar"></i></div></div>
@@ -241,7 +241,20 @@
     }
 
     /* ===== 控制台：拉取服务器状态 ===== */
-    var SYS_BASE = '';   // 由 sections.json 的 sysapi_base 注入（公开静态站用它回退到 VM 后端）
+    var SYS_BASE = '';   // sections.json 的 sysapi_base（serveo 主回退）
+    var CF_BASE = '';    // chat/cf_url.txt 的 cloudflare 备回退
+    var API_FALLBACKS = [];
+    function rebuildFallbacks(){
+      API_FALLBACKS = [];
+      if (SYS_BASE) API_FALLBACKS.push(SYS_BASE);
+      if (CF_BASE) API_FALLBACKS.push(CF_BASE);
+    }
+    // 读取 chat/cf_url.txt 得到 cloudflare 备隧道地址（serveo 挂了再用它）
+    function loadCfBase(){
+      fetch('chat/cf_url.txt?_=' + Date.now()).then(function(r){ return r.ok ? r.text() : Promise.reject(); })
+        .then(function(t){ var u=(t||'').trim(); if(u.indexOf('https://')===0){ CF_BASE=u; rebuildFallbacks(); } })
+        .catch(function(){});
+    }
     function setStat(id, v){ var e=document.getElementById(id); if(e) e.textContent=v; }
     function bar(id, p){ var e=document.getElementById(id); if(e) e.style.width=Math.max(0,Math.min(100,p))+'%'; }
     function fmtUptime(s){
@@ -249,10 +262,15 @@
       var h=Math.floor(s/3600); s%=3600; var m=Math.floor(s/60);
       var p=[]; if(d)p.push(d+'天'); if(h||d)p.push(h+'时'); p.push(m+'分'); return p.join('');
     }
-    // 先试同源 /sysapi（VM 主页直接可用）；公开静态站 404 时回退到 SYS_BASE（VM 公网隧道，后端已 CORS *）
+    // 先试同源 /sysapi（VM 主页直接可用）；公开静态站 404 时依次回退 SYS_BASE → CF_BASE（VM 公网隧道，后端已 CORS *）
     function apiFetch(path, opts){
+      function tryBase(i){
+        if (i >= API_FALLBACKS.length) throw 0;
+        return fetch(API_FALLBACKS[i]+path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+          .catch(function(){ return tryBase(i+1); });
+      }
       return fetch(path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-        .catch(function(){ if(SYS_BASE) return fetch(SYS_BASE+path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); }); throw 0; });
+        .catch(function(){ return tryBase(0); });
     }
     function loadStatus(){
       apiFetch('/sysapi/status').then(function(d){
@@ -278,7 +296,8 @@
         return r.ok ? r.json() : Promise.reject();
       }).then(function (s) {
         if (!s) return;
-        if (s.sysapi_base) window.SYS_BASE = s.sysapi_base;
+        if (s.sysapi_base) SYS_BASE = s.sysapi_base;
+        rebuildFallbacks(); loadCfBase();
         document.querySelectorAll('.links [data-section]').forEach(function (el) {
           var key = el.getAttribute('data-section');
           el.style.display = (s[key] === false) ? 'none' : '';
