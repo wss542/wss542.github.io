@@ -112,6 +112,11 @@
 </style>
 </head>
 <body>
+  <div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(28,16,54,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+    <div style="font-size:46px;margin-bottom:14px">🔒</div>
+    <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
+    <div style="font-size:14px;color:#c9c9d6;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
+  </div>
   <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换暗/亮">🌙</button>
   <div class="bg-orbs"><span></span><span></span><span></span></div>
   <div class="card">
@@ -141,6 +146,38 @@
   </div>
 
   <script>
+    // ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
+    (function(){
+      var blocked=false, bm=document.getElementById('devtools-blocker');
+      function isMobile(){
+        return (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
+               /Mobi|Android|iPhone|iPad|iPod|HarmonyOS|Windows Phone/i.test(navigator.userAgent);
+      }
+      var MOBILE = isMobile();
+      function block(){
+        if(blocked) return; blocked=true;
+        if(bm) bm.style.display='flex';
+        document.body.style.pointerEvents='none';
+      }
+      window.addEventListener('keydown', function(e){
+        if(MOBILE) return;
+        var k=(e.key||'').toLowerCase();
+        if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
+           (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
+          e.preventDefault(); block();
+        }
+      });
+      setInterval(function(){
+        if(blocked || MOBILE) return;
+        var ae=document.activeElement;
+        if(ae && (ae.tagName==='INPUT' || ae.tagName==='TEXTAREA')) return;
+        if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
+      }, 500);
+      setInterval(function(){
+        if(blocked || MOBILE) return;
+        var t=performance.now(); debugger; if(performance.now()-t>100) block();
+      }, 1000);
+    })();
     /* ===== 主题：暗/亮 切换（localStorage 持久化） ===== */
     (function () {
       if (localStorage.getItem('yz_theme') === 'dark') document.body.classList.add('dark');
