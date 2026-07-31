@@ -264,13 +264,14 @@
     }
     // 先试同源 /sysapi（VM 主页直接可用）；公开静态站 404 时依次回退 SYS_BASE → CF_BASE（VM 公网隧道，后端已 CORS *）
     function apiFetch(path, opts){
-      function tryBase(i){
-        if (i >= API_FALLBACKS.length) throw 0;
-        return fetch(API_FALLBACKS[i]+path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-          .catch(function(){ return tryBase(i+1); });
+      var bases = [''].concat(API_FALLBACKS);  // 0=同源, 1=serveo, 2=cloudflare
+      function attempt(i){
+        if (i >= bases.length) return Promise.reject();
+        var url = bases[i] ? (bases[i] + path) : path;
+        return fetch(url, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+          .catch(function(){ return attempt(i+1); });
       }
-      return fetch(path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-        .catch(function(){ return tryBase(0); });
+      return attempt(0);
     }
     function loadStatus(){
       apiFetch('/sysapi/status').then(function(d){
