@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>about — yzandwss</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    background:#0b0e14; color:#7ee787;
+    font-family:"SF Mono",Menlo,Consolas,"Courier New",monospace;
+    font-size:14px; line-height:1.65;
+    transition:background .3s,color .3s;
+  }
+  body.light{ background:#f6f8fa; color:#0a7d28; }
+  body.light .dim{color:#57606a}
+  body.light .accent{color:#0969da}
+  body.light #cmd{color:#1f2328}
+  .wrap{max-width:880px;margin:0 auto;padding:26px 20px 60px;min-height:100vh;box-sizing:border-box}
+  .title{font-size:13px;opacity:.55;margin-bottom:14px;letter-spacing:.5px}
+  #out{white-space:pre-wrap;word-break:break-word}
+  #out .dim{color:#6b7280}
+  #out .accent{color:#58a6ff}
+  #out .warn{color:#f0883e}
+  #out .err{color:#ff7b72}
+  body.light #out .dim{color:#57606a}
+  body.light #out .accent{color:#0969da}
+  body.light #out .warn{color:#9a6700}
+  .input-line{display:flex;align-items:center;margin-top:2px}
+  .ps{color:#7ee787;margin-right:8px;white-space:nowrap}
+  body.light .ps{color:#0a7d28}
+  #cmd{flex:1;background:transparent;border:0;outline:0;color:#c9d1d9;font:inherit;caret-color:#7ee787}
+  body.light #cmd{color:#1f2328;caret-color:#0a7d28}
+  .tip{position:fixed;top:16px;right:16px;z-index:5}
+  .tip button{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.06);color:#7ee787;font-size:19px;cursor:pointer;transition:.2s}
+  body.light .tip button{border:1px solid rgba(0,0,0,.12);background:rgba(0,0,0,.04);color:#0a7d28}
+  .tip button:hover{background:rgba(255,255,255,.14)}
+  @media (max-width:480px){ .wrap{padding:18px 14px 50px} body{font-size:13px} }
+</style>
+</head>
+<body>
+  <div class="tip"><button onclick="toggleTheme()" title="切换暗/亮" id="themeBtn">🌙</button></div>
+  <div class="wrap">
+    <div class="title"># about — 一个可交互的终端名片 · 输入 help 查看命令</div>
+    <div id="out"></div>
+    <div class="input-line">
+      <span class="ps">visitor@yzandwss:~$</span>
+      <input id="cmd" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus>
+    </div>
+  </div>
+
+  <script>
+    /* ===== 主题共享（与主站同一 localStorage 键） ===== */
+    if (localStorage.getItem('yz_theme') === 'dark') document.body.classList.add('dark');
+    function toggleTheme(){
+      document.body.classList.toggle('dark');
+      localStorage.setItem('yz_theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+      syncTip();
+    }
+    function syncTip(){ var b=document.getElementById('themeBtn'); if(b) b.textContent=document.body.classList.contains('dark')?'☀':'🌙'; }
+    syncTip();
+
+    var out = document.getElementById('out');
+    var cmd = document.getElementById('cmd');
+    var history = []; var hidx = -1;
+
+    var BIO = '热爱折腾的音游玩家，在疯狂地搭建自己的小世界 喵～\n喜欢 Linux、音乐、和一切能折腾的东西。';
+    var CONTACT = [
+      '  QQ      : 3886438434',
+      '  GitHub  : https://github.com/wss542/',
+      '  哔哩哔哩 : https://b23.tv/9eUc2Oy'
+    ].join('\n');
+
+    function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+    function print(html){ out.innerHTML += html + '\n'; out.parentElement.scrollTop = out.parentElement.scrollHeight; }
+    function printRaw(t){ print(esc(t)); }
+
+    function typeLines(lines, done){
+      var k=0;
+      (function next(){
+        if(k>=lines.length){ if(done)done(); return; }
+        print(lines[k++]);
+        setTimeout(next, 160);
+      })();
+    }
+
+    var BOOT = [
+      '<span class="dim">[ ok ] 正在启动 yzandwss 名片终端 ...</span>',
+      '<span class="dim">[ ok ] 加载 ~/.profile</span>',
+      '<span class="accent">欢迎来到我的小世界 喵～</span>',
+      '<span class="dim">输入 </span><span class="accent">help</span><span class="dim"> 查看可用命令，或试试 </span><span class="accent">neofetch</span><span class="dim">。</span>'
+    ];
+
+    function run(input){
+      var line = input.trim();
+      print('<span class="ps">visitor@yzandwss:~$</span> ' + esc(line));
+      if(!line) return;
+      var parts = line.split(/\s+/);
+      var c = parts[0].toLowerCase();
+      switch(c){
+        case 'help':
+          print([
+            '可用命令：',
+            '  <span class="accent">whoami</span>      我是谁',
+            '  <span class="accent">bio</span>         个人简介（等同 cat bio.txt）',
+            '  <span class="accent">ls</span>          看看我在折腾什么',
+            '  <span class="accent">contact</span>     联系方式',
+            '  <span class="accent">neofetch</span>    服务器状态（实时）',
+            '  <span class="accent">echo</span> &lt;text&gt;  回显',
+            '  <span class="accent">clear</span>       清屏',
+            '  <span class="accent">help</span>        显示本帮助'
+          ].join('\n'));
+          break;
+        case 'whoami':
+          print('yzandwss — 一个热爱折腾的音游玩家');
+          break;
+        case 'bio':
+        case 'cat':
+          printRaw(BIO);
+          break;
+        case 'ls':
+          print([
+            '<span class="dim">drwxr-xr-x</span>  ubuntu-server/   # 这台跑着主页的虚拟机',
+            '<span class="dim">drwxr-xr-x</span>  huanmeng-qqbot/  # 一个 QQ 机器人 + 网页聊天',
+            '<span class="dim">drwxr-xr-x</span>  homepage/        # 你正在看的这个站点',
+            '<span class="dim">-rw-r--r--</span>  bio.txt         # 关于我'
+          ].join('\n'));
+          break;
+        case 'contact':
+          printRaw(CONTACT);
+          break;
+        case 'neofetch':
+          neofetch();
+          break;
+        case 'echo':
+          printRaw(parts.slice(1).join(' '));
+          break;
+        case 'clear':
+          out.innerHTML = '';
+          break;
+        default:
+          print('<span class="err">command not found: ' + esc(c) + '</span>  <span class="dim">（输入 help 查看命令）</span>');
+      }
+    }
+
+    function neofetch(){
+      fetch('/sysapi/status').then(function(r){return r.json();}).then(function(d){
+        var up = Math.floor(d.uptime); var days=Math.floor(up/86400); var hrs=Math.floor((up%86400)/3600); var mins=Math.floor((up%3600)/60);
+        var bars = function(p){ var n=Math.round(p/10); return '[' + '#'.repeat(n) + '-'.repeat(10-n) + ']'; };
+        print([
+          '<span class="accent">       yzandwss@server</span>',
+          '<span class="dim">       ------------</span>',
+          '  OS    : Ubuntu 24.04 (VMware)',
+          '  CPU   : ' + bars(d.cpu) + ' ' + d.cpu + '%',
+          '  MEM   : ' + bars(d.mem) + ' ' + d.mem + '%',
+          '  UPTIME: ' + days + 'd ' + hrs + 'h ' + mins + 'm',
+          '  LOAD  : ' + d.load.l1.toFixed(2) + ' / ' + d.load.l5.toFixed(2) + ' / ' + d.load.l15.toFixed(2)
+        ].join('\n'));
+      }).catch(function(){
+        print('<span class="warn">neofetch: 无法连接到状态服务（/sysapi/status）</span>');
+      });
+    }
+
+    cmd.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        var v = cmd.value;
+        if(v.trim()){ history.push(v); hidx = history.length; }
+        cmd.value = '';
+        run(v);
+      } else if(e.key === 'ArrowUp'){
+        if(history.length){ hidx = Math.max(0, hidx-1); cmd.value = history[hidx] || ''; e.preventDefault(); }
+      } else if(e.key === 'ArrowDown'){
+        if(history.length){ hidx = Math.min(history.length, hidx+1); cmd.value = history[hidx] || ''; e.preventDefault(); }
+      }
+    });
+    document.addEventListener('click', function(){ cmd.focus(); });
+
+    /* 启动：先打 boot，再尝试用 about.txt 覆盖 bio */
+    typeLines(BOOT, function(){
+      fetch('about.txt?_=' + Date.now()).then(function(r){return r.text();}).then(function(t){
+        t=(t||'').trim(); if(t) BIO = t;
+      }).catch(function(){});
+    });
+  </script>
+</body>
+</html>
