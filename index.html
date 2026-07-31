@@ -6,122 +6,114 @@
 <title>yzandwss 的主页</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --bg1:#667eea; --bg2:#764ba2; --bg3:#6B8DD6; --bg4:#8E37D7;
+    --text:#ffffff;
+    --card-bg:rgba(255,255,255,0.12);
+    --card-border:rgba(255,255,255,0.25);
+    --btn-bg:rgba(255,255,255,0.15);
+    --btn-hover:rgba(255,255,255,0.30);
+    --tag-bg:rgba(255,255,255,0.15);
+    --chip-bg:rgba(255,255,255,0.15);
+  }
+  body.dark{
+    --bg1:#0f0c29; --bg2:#302b63; --bg3:#24243e; --bg4:#1a1a2e;
+    --text:#e8e8f0;
+    --card-bg:rgba(18,18,38,0.45);
+    --card-border:rgba(255,255,255,0.12);
+    --btn-bg:rgba(255,255,255,0.08);
+    --btn-hover:rgba(255,255,255,0.18);
+    --tag-bg:rgba(255,255,255,0.08);
+    --chip-bg:rgba(255,255,255,0.08);
+  }
   body {
     font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4));
     background-size: 400% 400%;
     animation: flow 15s ease infinite;
-    min-height: 100vh; display:flex; align-items:center; justify-content:center; color:#fff;
+    min-height: 100vh; display:flex; align-items:center; justify-content:center;
+    color: var(--text);
+    transition: color .3s;
   }
   @keyframes flow {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
+  /* ===== 动效 ===== */
+  .bg-orbs{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+  .bg-orbs span{position:absolute;border-radius:50%;filter:blur(42px);opacity:.55}
+  .bg-orbs span:nth-child(1){width:340px;height:340px;left:-60px;top:-40px;background:radial-gradient(circle at 30% 30%, #ff9ec7cc, #ff9ec700);animation:orbFloat 14s ease-in-out infinite}
+  .bg-orbs span:nth-child(2){width:280px;height:280px;right:-50px;top:28%;background:radial-gradient(circle at 30% 30%, #9ec7ffcc, #9ec7ff00);animation:orbFloat 18s ease-in-out infinite reverse}
+  .bg-orbs span:nth-child(3){width:240px;height:240px;left:18%;bottom:-60px;background:radial-gradient(circle at 30% 30%, #d79effcc, #d79eff00);animation:orbFloat 22s ease-in-out infinite}
+  @keyframes orbFloat{0%{transform:translate(0,0)}50%{transform:translate(34px,42px)}100%{transform:translate(0,0)}}
+  .card{animation:cardIn .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes cardIn{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:none}}
+  .card > *{animation:riseIn .6s ease both}
+  .card > *:nth-child(1){animation-delay:.08s}
+  .card > *:nth-child(2){animation-delay:.16s}
+  .card > *:nth-child(3){animation-delay:.24s}
+  .card > *:nth-child(4){animation-delay:.32s}
+  .card > *:nth-child(5){animation-delay:.40s}
+  .card > *:nth-child(6){animation-delay:.48s}
+  @keyframes riseIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .links a,.links button{position:relative;overflow:hidden}
+  .links a::after,.links button::after{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;
+    background:linear-gradient(120deg,transparent,rgba(255,255,255,.38),transparent);transform:skewX(-20deg);transition:left .55s}
+  .links a:hover::after,.links button:hover::after{left:140%}
+  .clock{animation:riseIn .6s ease .16s both, clockPulse 4s 1.36s ease-in-out infinite}
+  @keyframes clockPulse{0%,100%{opacity:.8}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important}
+    .bg-orbs{display:none}
+  }
   .card {
-    background: rgba(255,255,255,0.12); backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.25); border-radius: 20px;
-    padding: 44px 40px; text-align:center; max-width: 440px; width: 92%;
+    background: var(--card-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border); border-radius: 20px;
+    padding: 44px 40px; text-align:center; max-width: 460px; width: 92%;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    transition: background .3s, border-color .3s;
   }
   h1 { font-size:28px; font-weight:600; margin-bottom:6px; letter-spacing:1px; }
   .clock { font-size:13px; opacity:0.8; margin-bottom:14px; }
   .bio { font-size:15px; opacity:0.9; line-height:1.6; margin-bottom:18px; min-height:48px; }
-  .tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:22px; }
+  .tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:6px; }
   .tags span {
-    background: rgba(255,255,255,0.15); padding:5px 12px; border-radius:999px; font-size:12px;
+    background: var(--tag-bg); padding:5px 12px; border-radius:999px; font-size:12px;
+    transition: background .3s;
   }
+  /* ===== 控制台状态卡片 ===== */
+  .status { margin:16px 0 20px; display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .stat { background:var(--chip-bg); border:1px solid var(--card-border); border-radius:12px; padding:10px 12px; text-align:left; transition: background .3s, border-color .3s; }
+  .stat .l { font-size:11px; opacity:.7; letter-spacing:.5px; }
+  .stat .v { font-size:18px; font-weight:600; margin-top:2px; }
+  .bar { height:5px; border-radius:3px; background:rgba(255,255,255,.18); margin-top:7px; overflow:hidden; }
+  .bar i { display:block; height:100%; width:0; background:linear-gradient(90deg,#43e97b,#38f9d7); transition:width .6s ease; }
   .links a, .links button {
-    display:block; width:100%; text-align:center; text-decoration:none; color:#fff;
-    background: rgba(255,255,255,0.15); border:none; font:inherit; cursor:pointer;
+    display:block; width:100%; text-align:center; text-decoration:none; color:var(--text);
+    background: var(--btn-bg); border:none; font:inherit; cursor:pointer;
     padding:13px; border-radius:12px; margin:10px 0; transition:0.2s; font-size:15px;
   }
-  .links a:hover, .links button:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+  .links a:hover, .links button:hover { background: var(--btn-hover); transform: translateY(-2px); }
   #qqmsg { min-height:20px; margin-top:6px; font-size:14px; font-weight:600; }
   footer { margin-top:24px; font-size:12px; opacity:0.6; }
   .links a, .links button { -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
-  /* ===== 关于我 弹窗 ===== */
-  .about-modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:20px}
-  .about-modal.show{display:flex}
-  .about-box{background:rgba(255,255,255,.12);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.25);border-radius:18px;padding:30px 28px;max-width:460px;width:92%;color:#fff;box-shadow:0 8px 40px rgba(0,0,0,.4);max-height:80vh;overflow:auto}
-  .about-box h2{margin:0 0 14px;font-size:22px}
-  .about-box .ab-body{font-size:15px;line-height:1.7;white-space:pre-wrap;word-break:break-word;opacity:.95}
-  .about-box .close{margin-top:18px;display:block;width:100%;padding:11px;border:0;border-radius:10px;background:rgba(255,255,255,.2);color:#fff;font-size:14px;cursor:pointer;font:inherit}
-  .about-box .close:hover{background:rgba(255,255,255,.32)}
+  /* ===== 暗/亮 切换按钮 ===== */
+  .theme-toggle{position:fixed;top:16px;right:16px;z-index:60;width:44px;height:44px;border-radius:50%;
+    border:1px solid var(--card-border);background:var(--card-bg);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    color:var(--text);font-size:19px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s}
+  .theme-toggle:hover{background:var(--btn-hover)}
   @media (max-width:480px){
     .card { padding:30px 20px; }
     h1 { font-size:24px; }
     .links a, .links button { padding:12px; font-size:14px; }
-  }
-
-  /* ===== 动效增强（2026-07-30） ===== */
-  @keyframes cardIn { 0% { opacity:0; transform:translateY(28px) scale(.96); } 100% { opacity:1; transform:none; } }
-  @keyframes riseIn { 0% { opacity:0; transform:translateY(16px); } 100% { opacity:1; transform:none; } }
-  @keyframes popIn { 0% { opacity:0; transform:scale(.78); } 100% { opacity:1; transform:none; } }
-  @keyframes orbFloat { 0%,100% { transform:translate(0,0) scale(1); } 50% { transform:translate(26px,-32px) scale(1.08); } }
-  @keyframes clockPulse { 0%,100% { opacity:.78; } 50% { opacity:1; } }
-  @keyframes shine { 0% { left:-130%; } 100% { left:140%; } }
-  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-  /* 卡片整体入场 */
-  .card { animation: cardIn .75s cubic-bezier(.16,1,.3,1) both; }
-  /* 子元素错峰上浮 */
-  .card > * { animation: riseIn .55s ease both; }
-  .card > *:nth-child(1) { animation-delay:.06s; }
-  .card > *:nth-child(2) { animation-delay:.14s; animation: riseIn .55s ease .14s both, clockPulse 3s ease-in-out 1.2s infinite; }
-  .card > *:nth-child(3) { animation-delay:.22s; }
-  .card > *:nth-child(4) { animation-delay:.30s; }
-  .card > *:nth-child(5) { animation-delay:.38s; }
-  .card > *:nth-child(6) { animation-delay:.46s; }
-  /* 标签弹出 */
-  .tags span { animation: popIn .42s ease both; }
-  .tags span:nth-child(1) { animation-delay:.42s; }
-  .tags span:nth-child(2) { animation-delay:.48s; }
-  .tags span:nth-child(3) { animation-delay:.54s; }
-  .tags span:nth-child(4) { animation-delay:.60s; }
-  .tags span:nth-child(5) { animation-delay:.66s; }
-  /* 链接按钮错峰上浮 + 悬浮流光 */
-  .links > * { animation: riseIn .5s ease both; position:relative; overflow:hidden; }
-  .links > *:nth-child(1) { animation-delay:.50s; }
-  .links > *:nth-child(2) { animation-delay:.56s; }
-  .links > *:nth-child(3) { animation-delay:.62s; }
-  .links > *:nth-child(4) { animation-delay:.68s; }
-  .links > *:nth-child(5) { animation-delay:.74s; }
-  .links > *:nth-child(6) { animation-delay:.80s; }
-  .links > *:nth-child(7) { animation-delay:.86s; }
-  .links > *:nth-child(8) { animation-delay:.92s; }
-  .links a::after, .links button::after {
-    content:''; position:absolute; top:0; left:-130%; width:55%; height:100%;
-    background:linear-gradient(120deg, transparent, rgba(255,255,255,.38), transparent);
-    transform:skewX(-20deg); pointer-events:none;
-  }
-  .links a:hover::after, .links button:hover::after { animation: shine .65s ease; }
-  /* 关于弹窗缩放入场 */
-  .about-modal.show { animation: fadeIn .25s ease both; }
-  .about-modal.show .about-box { animation: popIn .35s cubic-bezier(.34,1.56,.64,1) both; }
-  /* 背景浮动光球 */
-  .bg-orbs { position:fixed; inset:0; z-index:-1; overflow:hidden; pointer-events:none; }
-  .bg-orbs span {
-    position:absolute; border-radius:50%; filter:blur(46px); opacity:.55;
-    background:radial-gradient(circle at 30% 30%, rgba(255,255,255,.9), rgba(255,255,255,0) 70%);
-  }
-  .bg-orbs span:nth-child(1) { width:240px; height:240px; left:-40px; top:12%; animation: orbFloat 13s ease-in-out infinite; }
-  .bg-orbs span:nth-child(2) { width:300px; height:300px; right:-60px; top:38%; animation: orbFloat 17s ease-in-out infinite reverse; }
-  .bg-orbs span:nth-child(3) { width:200px; height:200px; left:30%; bottom:-40px; animation: orbFloat 15s ease-in-out infinite; }
-  /* 尊重无障碍：减少动效 */
-  @media (prefers-reduced-motion: reduce) {
-    .card, .card > *, .tags span, .links > * { animation:none !important; }
-    .bg-orbs { display:none; }
+    .status { grid-template-columns:1fr 1fr; }
   }
 </style>
 </head>
 <body>
-  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
-  <div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(18,8,38,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
-    <div style="font-size:46px;margin-bottom:14px">🔒</div>
-    <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
-    <div style="font-size:14px;color:#d9c9f0;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
-  </div>
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换暗/亮">🌙</button>
+  <div class="bg-orbs"><span></span><span></span><span></span></div>
   <div class="card">
     <h1>yzandwss</h1>
     <p class="clock" id="clock"></p>
@@ -129,11 +121,16 @@
     <div class="tags">
       <span>Linux</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span>
     </div>
+    <div class="status">
+      <div class="stat"><div class="l">CPU 占用</div><div class="v" id="cpu">--</div><div class="bar"><i id="cpubar"></i></div></div>
+      <div class="stat"><div class="l">内存占用</div><div class="v" id="mem">--</div><div class="bar"><i id="membar"></i></div></div>
+      <div class="stat"><div class="l">在线时长</div><div class="v" id="uptime">--</div></div>
+      <div class="stat"><div class="l">访客计数</div><div class="v" id="visitors">--</div></div>
+    </div>
     <div class="links">
-      <a href="javascript:void(0)" onclick="openAbout()" data-section="about">关于我</a>
+      <a href="about.html" data-section="about">关于我（终端）</a>
       <a href="log.html" data-section="log">进入Ubuntu日志</a>
       <a href="/bot-logs/" data-section="botlog">进入bot日志</a>
-      <a href="/chat/" data-section="botchat">进入bot聊天</a>
       <a href="https://github.com/wss542/" target="_blank" rel="noopener" data-section="github">GitHub</a>
       <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener" data-section="bili">哔哩哔哩</a>
       <button id="qqbtn" onclick="copyQQ()" data-section="qq">点此复制QQ</button>
@@ -142,48 +139,23 @@
     <footer>用纯 HTML 搭建？ · Powered by Ubuntu</footer>
   </div>
 
-  <div class="about-modal" id="about-modal" onclick="if(event.target===this)closeAbout()">
-    <div class="about-box">
-      <h2>关于我</h2>
-      <div class="ab-body" id="about-body">加载中…</div>
-      <button class="close" onclick="closeAbout()">关闭</button>
-    </div>
-  </div>
   <script>
-    // ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
-    (function(){
-      var blocked=false, bm=document.getElementById('devtools-blocker');
-      function isMobile(){
-        return (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) ||
-               /Mobi|Android|iPhone|iPad|iPod|HarmonyOS|Windows Phone/i.test(navigator.userAgent);
-      }
-      var MOBILE = isMobile();
-      function block(){
-        if(blocked) return; blocked=true;
-        if(bm) bm.style.display='flex';
-        document.body.style.pointerEvents='none';
-      }
-      window.addEventListener('keydown', function(e){
-        if(MOBILE) return; // 移动端无键盘快捷键开 DevTools
-        var k=(e.key||'').toLowerCase();
-        if(e.key==='F12' || (e.ctrlKey&&e.shiftKey&&k==='i') ||
-           (e.metaKey&&e.altKey&&(k==='i'||k==='j')) || (e.ctrlKey&&e.shiftKey&&k==='c')){
-          e.preventDefault(); block();
-        }
-      });
-      setInterval(function(){
-        if(blocked || MOBILE) return;
-        var ae=document.activeElement;
-        if(ae && (ae.tagName==='INPUT' || ae.tagName==='TEXTAREA')) return;
-        if(window.outerWidth-window.innerWidth>160 || window.outerHeight-window.innerHeight>160) block();
-      }, 500);
-      setInterval(function(){
-        if(blocked || MOBILE) return;
-        var t=performance.now(); debugger; if(performance.now()-t>100) block();
-      }, 1000);
-      window.__devtoolsBlocked=function(){ return blocked; };
+    /* ===== 主题：暗/亮 切换（localStorage 持久化） ===== */
+    (function () {
+      if (localStorage.getItem('yz_theme') === 'dark') document.body.classList.add('dark');
+      syncIcon();
     })();
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('yz_theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+      syncIcon();
+    }
+    function syncIcon() {
+      var b = document.getElementById('themeToggle');
+      if (b) b.textContent = document.body.classList.contains('dark') ? '☀' : '🌙';
+    }
 
+    /* ===== 时钟 + 问候 ===== */
     function tick() {
       var d = new Date();
       var h = d.getHours();
@@ -193,6 +165,7 @@
     }
     tick(); setInterval(tick, 1000);
 
+    /* ===== 打字机 bio ===== */
     var text = '热爱折腾的音游玩家，在疯狂的搭建自己的小世界 喵～';
     var i = 0;
     function type() {
@@ -204,6 +177,7 @@
     }
     type();
 
+    /* ===== 复制 QQ ===== */
     function copyQQ() {
       var num = '3886438434';
       var msg = document.getElementById('qqmsg');
@@ -228,25 +202,35 @@
       b.style.background = ok ? 'rgba(76,175,80,0.55)' : 'rgba(244,67,54,0.55)';
     }
 
-    var ABOUT_URL = 'about.txt';
-    function openAbout() {
-      var m = document.getElementById('about-modal');
-      var b = document.getElementById('about-body');
-      m.classList.add('show');
-      b.textContent = '加载中…';
-      fetch(ABOUT_URL + '?_=' + Date.now()).then(function (r) {
-        return r.ok ? r.text() : Promise.reject();
-      }).then(function (t) {
-        t = (t || '').trim();
-        b.textContent = t ? t : '这个还在施工呢 喵～';
-      }).catch(function () {
-        b.textContent = '这个还在施工呢 喵～';
-      });
+    /* ===== 控制台：拉取服务器状态 ===== */
+    function setStat(id, v){ var e=document.getElementById(id); if(e) e.textContent=v; }
+    function bar(id, p){ var e=document.getElementById(id); if(e) e.style.width=Math.max(0,Math.min(100,p))+'%'; }
+    function fmtUptime(s){
+      s=Math.floor(s); var d=Math.floor(s/86400); s%=86400;
+      var h=Math.floor(s/3600); s%=3600; var m=Math.floor(s/60);
+      var p=[]; if(d)p.push(d+'天'); if(h||d)p.push(h+'时'); p.push(m+'分'); return p.join('');
     }
-    function closeAbout() {
-      document.getElementById('about-modal').classList.remove('show');
+    function loadStatus(){
+      fetch('/sysapi/status').then(function(r){return r.json();}).then(function(d){
+        setStat('cpu', d.cpu+'%'); bar('cpubar', d.cpu);
+        setStat('mem', d.mem+'%'); bar('membar', d.mem);
+        setStat('uptime', fmtUptime(d.uptime));
+      }).catch(function(){});
     }
+    setInterval(loadStatus, 3000); loadStatus();
 
+    /* ===== 访客计数（每浏览器仅计一次） ===== */
+    (function(){
+      var KEY='yz_visited';
+      if (localStorage.getItem(KEY)) {
+        fetch('/sysapi/visitors').then(function(r){return r.json();}).then(function(d){setStat('visitors', d.count);}).catch(function(){});
+        return;
+      }
+      localStorage.setItem(KEY,'1');
+      fetch('/sysapi/visitors',{method:'POST'}).then(function(r){return r.json();}).then(function(d){setStat('visitors', d.count);}).catch(function(){});
+    })();
+
+    /* ===== sections.json 控制链接显隐 ===== */
     function applySections() {
       fetch('sections.json?_=' + Date.now()).then(function (r) {
         return r.ok ? r.json() : Promise.reject();
@@ -262,9 +246,3 @@
   </script>
 </body>
 </html>
-
-
-
-<!-- autosync-final 1785351117 -->
-
-
