@@ -241,6 +241,7 @@
     }
 
     /* ===== 控制台：拉取服务器状态 ===== */
+    var SYS_BASE = '';   // 由 sections.json 的 sysapi_base 注入（公开静态站用它回退到 VM 后端）
     function setStat(id, v){ var e=document.getElementById(id); if(e) e.textContent=v; }
     function bar(id, p){ var e=document.getElementById(id); if(e) e.style.width=Math.max(0,Math.min(100,p))+'%'; }
     function fmtUptime(s){
@@ -248,8 +249,13 @@
       var h=Math.floor(s/3600); s%=3600; var m=Math.floor(s/60);
       var p=[]; if(d)p.push(d+'天'); if(h||d)p.push(h+'时'); p.push(m+'分'); return p.join('');
     }
+    // 先试同源 /sysapi（VM 主页直接可用）；公开静态站 404 时回退到 SYS_BASE（VM 公网隧道，后端已 CORS *）
+    function apiFetch(path, opts){
+      return fetch(path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+        .catch(function(){ if(SYS_BASE) return fetch(SYS_BASE+path, opts).then(function(r){ if(!r.ok) throw 0; return r.json(); }); throw 0; });
+    }
     function loadStatus(){
-      fetch('/sysapi/status').then(function(r){return r.json();}).then(function(d){
+      apiFetch('/sysapi/status').then(function(d){
         setStat('cpu', d.cpu+'%'); bar('cpubar', d.cpu);
         setStat('mem', d.mem+'%'); bar('membar', d.mem);
         setStat('uptime', fmtUptime(d.uptime));
@@ -260,12 +266,10 @@
     /* ===== 访客计数（每浏览器仅计一次） ===== */
     (function(){
       var KEY='yz_visited';
-      if (localStorage.getItem(KEY)) {
-        fetch('/sysapi/visitors').then(function(r){return r.json();}).then(function(d){setStat('visitors', d.count);}).catch(function(){});
-        return;
-      }
-      localStorage.setItem(KEY,'1');
-      fetch('/sysapi/visitors',{method:'POST'}).then(function(r){return r.json();}).then(function(d){setStat('visitors', d.count);}).catch(function(){});
+      function getVisitors(){ apiFetch('/sysapi/visitors').then(function(d){setStat('visitors', d.count);}).catch(function(){}); }
+      function addVisitor(){ apiFetch('/sysapi/visitors',{method:'POST'}).then(function(d){setStat('visitors', d.count);}).catch(function(){}); }
+      if (localStorage.getItem(KEY)) { getVisitors(); return; }
+      localStorage.setItem(KEY,'1'); addVisitor();
     })();
 
     /* ===== sections.json 控制链接显隐 ===== */
@@ -274,6 +278,7 @@
         return r.ok ? r.json() : Promise.reject();
       }).then(function (s) {
         if (!s) return;
+        if (s.sysapi_base) window.SYS_BASE = s.sysapi_base;
         document.querySelectorAll('.links [data-section]').forEach(function (el) {
           var key = el.getAttribute('data-section');
           el.style.display = (s[key] === false) ? 'none' : '';
