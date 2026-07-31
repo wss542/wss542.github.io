@@ -247,28 +247,9 @@ document.addEventListener('touchend', function(e){
   window.__devtoolsBlocked=function(){ return blocked; };
 })();
 
-// ===== JS 令牌闸：每个请求必须带 time-window 的 sha256 令牌（禁用 JS / 裸 curl 拿不到 → 后端 403）=====
-// 令牌 = sha256(SECRET + ":" + floor(epoch/30))，与服务端 _valid_token 同算法。
-// 用浏览器标准 Web Crypto（https 上下文可用且权威正确），不手写哈希避免实现错误。
-const TOKEN_SECRET = "hm_webchat_2026_fixed";
-const TOKEN_WINDOW = 30; // 秒，与服务端一致
-let _tokCache = { w: -1, v: null };
-async function webToken(){
-  const w = Math.floor(Date.now() / 1000 / TOKEN_WINDOW);
-  if (_tokCache.w === w && _tokCache.v) return _tokCache.v;
-  const data = TOKEN_SECRET + ":" + w;
-  let hex;
-  try {
-    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(data));
-    hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
-  } catch (e) {
-    // 仅在非 https（本地 debug）时可能触发；生产环境均为 https，不会走到这
-    console.error("webToken 计算失败（需 https 上下文）:", e);
-    return "";
-  }
-  _tokCache = { w, v: hex };
-  return hex;
-}
+// 说明：原先的「JS 令牌闸」已移除。令牌密钥写在静态页里（hm_webchat_2026_fixed），
+// 等于公开，任何人都能算出，提供不了真正防护；真正的鉴权只靠聊天密码。
+// 详见后端 chat_server.py 顶部说明。
 
 const GHPAGES = "https://wss542.github.io";
 const SERVEO = "https://wss.serveousercontent.com/chat/api";
@@ -294,8 +275,7 @@ async function refreshEndpoints(){
 
 // 带超时+多次重试：依次尝试所有通道；成功时记录通道用于后续轮询
 async function apiGet(params, retries=3, timeoutMs=10000){
-  // JS 令牌闸：每个请求附 time-window 令牌（后端校验，禁用 JS / 裸 curl 会被 403）
-  params = Object.assign({}, params, {token: await webToken()});
+  // （令牌闸已移除）params 原样发送，鉴权由后端密码校验负责
   let lastErr;
   for(const API of ENDPOINTS){
     for(let i=0;i<retries;i++){
@@ -364,7 +344,7 @@ async function imgEl(rel){
     el.loading = "lazy";
     el.alt = "图片";
     el.onerror = () => { el.alt = "图片加载失败"; };
-    el.src = base + rel + "?token=" + await webToken();
+    el.src = base + rel;
     return el;
   }catch(e){ return null; }
 }
@@ -381,7 +361,7 @@ async function pollResult(taskId, botRow){
   const bubble = botRow.querySelector(".bubble");
   for(let i=0; i<45; i++){
     try{
-      const qr = new URLSearchParams({task_id:taskId});
+      const qr = new URLSearchParams({task_id:taskId, session_id:sessionId});
       const r = await fetch(resultApi() + "?" + qr.toString(), {method:"GET"});
       const j = await r.json().catch(()=>({}));
       if(j && j.ok && j.ready){
@@ -506,7 +486,7 @@ async function uploadImage(file){
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
           session_id: sessionId, password: PASSWORD,
-          filename: file.name, data: b64, token: await webToken()
+          filename: file.name, data: b64
         }),
         signal: ctrl.signal
       });
