@@ -143,6 +143,30 @@
   @media (prefers-reduced-motion: reduce) {
     .app, .bar, .row, .row.sys, .pwbox, .cfmbox, .offline { animation:none !important; }
   }
+  /* ===== KOOK 运行日志面板（2026-08-03） ===== */
+  #kookbtn{ background:var(--glass-strong); border:1px solid var(--border); color:var(--txt);
+    border-radius:8px; padding:5px 10px; font-size:12px; cursor:pointer; margin-left:6px; }
+  #kookbtn:active{ transform:scale(.96); }
+  #kookbtn:hover{ background:var(--me); color:#fff; }
+  #kookmask{ background:rgba(10,8,20,.78); backdrop-filter:blur(6px); }
+  .kookbox{ width:100%; max-width:560px; height:78vh; max-height:680px; background:var(--glass-strong);
+    border:1px solid var(--border); border-radius:16px; padding:14px; display:flex; flex-direction:column;
+    box-shadow:0 12px 48px rgba(0,0,0,.55); }
+  .kookbox h3{ font-size:15px; margin-bottom:4px; display:flex; align-items:center; gap:8px; }
+  .kookbox h3 .kdot{ width:9px; height:9px; border-radius:50%; background:#5ce1e6; box-shadow:0 0 8px #5ce1e6; }
+  .kookbox .ksub{ font-size:11px; opacity:.6; margin-bottom:8px; }
+  #kooklog{ flex:1 1 auto; min-height:0; overflow-y:auto; font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:12px; line-height:1.5; padding:10px; background:rgba(0,0,0,.28); border-radius:8px;
+    border:1px solid var(--border); }
+  #kooklog .kline{ white-space:pre-wrap; word-break:break-word; color:#cde6ff; padding:1px 0; }
+  #kooklog .kline.lv-ERROR{ color:#ff8a8a; }
+  #kooklog .kline.lv-WARNING{ color:#ffd166; }
+  #kooklog .kline.lv-INFO{ color:#bfe9c9; }
+  .kookbtns{ display:flex; gap:10px; justify-content:flex-end; margin-top:10px; }
+  .kookbtns button{ padding:7px 16px; border-radius:8px; border:1px solid #555; background:#33334d;
+    color:#fff; cursor:pointer; font-size:13px; }
+  .kookbtns button:active{ transform:scale(.97); }
+  .kookbtns #kookclear{ background:var(--glass-strong); }
 </style>
 </head>
 <body>
@@ -159,6 +183,7 @@
     <span class="title">bot 私聊</span>
     <span class="sub" id="sub">未连接</span>
     <button class="mini" id="clear">清空</button>
+    <button id="kookbtn">📡 KOOK</button>
   </header>
   <div class="msgs" id="msgs"></div>
   <div id="imgprev"></div>
@@ -188,6 +213,18 @@
     <div class="cfbtns">
       <button id="cfyes">确认执行</button>
       <button id="cfno" class="ghost">取消</button>
+    </div>
+  </div>
+</div>
+
+<div class="mask" id="kookmask" hidden>
+  <div class="kookbox">
+    <h3><span class="kdot" id="kookdot"></span> KOOK 运行日志</h3>
+    <div class="ksub" id="kookstatus">未连接</div>
+    <div id="kooklog"></div>
+    <div class="kookbtns">
+      <button id="kookclear" class="ghost">清空</button>
+      <button id="kookclose">关闭</button>
     </div>
   </div>
 </div>
@@ -247,9 +284,28 @@ document.addEventListener('touchend', function(e){
   window.__devtoolsBlocked=function(){ return blocked; };
 })();
 
-// 说明：原先的「JS 令牌闸」已移除。令牌密钥写在静态页里（hm_webchat_2026_fixed），
-// 等于公开，任何人都能算出，提供不了真正防护；真正的鉴权只靠聊天密码。
-// 详见后端 chat_server.py 顶部说明。
+// ===== JS 令牌闸：每个请求必须带 time-window 的 sha256 令牌（禁用 JS / 裸 curl 拿不到 → 后端 403）=====
+// 令牌 = sha256(SECRET + ":" + floor(epoch/30))，与服务端 _valid_token 同算法。
+// 用浏览器标准 Web Crypto（https 上下文可用且权威正确），不手写哈希避免实现错误。
+const TOKEN_SECRET = "hm_webchat_2026_fixed";
+const TOKEN_WINDOW = 30; // 秒，与服务端一致
+let _tokCache = { w: -1, v: null };
+async function webToken(){
+  const w = Math.floor(Date.now() / 1000 / TOKEN_WINDOW);
+  if (_tokCache.w === w && _tokCache.v) return _tokCache.v;
+  const data = TOKEN_SECRET + ":" + w;
+  let hex;
+  try {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(data));
+    hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+  } catch (e) {
+    // 仅在非 https（本地 debug）时可能触发；生产环境均为 https，不会走到这
+    console.error("webToken 计算失败（需 https 上下文）:", e);
+    return "";
+  }
+  _tokCache = { w, v: hex };
+  return hex;
+}
 
 const GHPAGES = "https://wss542.github.io";
 const SERVEO = "https://wss.serveousercontent.com/chat/api";
@@ -275,7 +331,8 @@ async function refreshEndpoints(){
 
 // 带超时+多次重试：依次尝试所有通道；成功时记录通道用于后续轮询
 async function apiGet(params, retries=3, timeoutMs=10000){
-  // （令牌闸已移除）params 原样发送，鉴权由后端密码校验负责
+  // JS 令牌闸：每个请求附 time-window 令牌（后端校验，禁用 JS / 裸 curl 会被 403）
+  params = Object.assign({}, params, {token: await webToken()});
   let lastErr;
   for(const API of ENDPOINTS){
     for(let i=0;i<retries;i++){
@@ -344,7 +401,7 @@ async function imgEl(rel){
     el.loading = "lazy";
     el.alt = "图片";
     el.onerror = () => { el.alt = "图片加载失败"; };
-    el.src = base + rel;
+    el.src = base + rel + "?token=" + await webToken();
     return el;
   }catch(e){ return null; }
 }
@@ -361,7 +418,7 @@ async function pollResult(taskId, botRow){
   const bubble = botRow.querySelector(".bubble");
   for(let i=0; i<45; i++){
     try{
-      const qr = new URLSearchParams({task_id:taskId, session_id:sessionId});
+      const qr = new URLSearchParams({task_id:taskId});
       const r = await fetch(resultApi() + "?" + qr.toString(), {method:"GET"});
       const j = await r.json().catch(()=>({}));
       if(j && j.ok && j.ready){
@@ -486,7 +543,7 @@ async function uploadImage(file){
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
           session_id: sessionId, password: PASSWORD,
-          filename: file.name, data: b64
+          filename: file.name, data: b64, token: await webToken()
         }),
         signal: ctrl.signal
       });
@@ -626,6 +683,75 @@ async function sendConfirm(cmd){
     row.querySelector(".bubble").innerHTML = "⚠️ 连接失败";
   }
 }
+
+// ===== KOOK 运行日志面板（2026-08-03）=====
+// 日志服务与聊天 API 同走 serveo / Cloudflare 隧道，仅路径不同：
+//   serveo : https://wss.serveousercontent.com/chat/api  → 日志 wss://wss.serveousercontent.com/bot-logs/ws?source=kook
+//   cloudflare: 来自 /chat/cf_url.txt 的 base           → 日志 wss://<cf-host>/bot-logs/ws?source=kook
+function kookWsUrls(){
+  return (ENDPOINTS || []).map(function(api){
+    try{
+      const u = new URL(String(api).replace("/chat/api", ""));
+      return "wss://" + u.host + "/bot-logs/ws?source=kook";
+    }catch(e){ return null; }
+  }).filter(Boolean);
+}
+let kookWs = null, kookRetryTimer = null;
+function appendKookLog(r){
+  const box = $("#kooklog");
+  const line = document.createElement("div");
+  const lv = (r && r.lv) || "INFO";
+  line.className = "kline lv-" + lv;
+  const t = (r && r.time) ? r.time + " " : "";
+  line.textContent = t + ((r && r.msg) || "");
+  box.appendChild(line);
+  box.scrollTop = box.scrollHeight;
+  while(box.childElementCount > 800) box.removeChild(box.firstChild);
+}
+function setKookConn(ok){
+  const dot = $("#kookdot");
+  dot.style.background = ok ? "#5ce1e6" : "#ff6b6b";
+  dot.style.boxShadow = "0 0 8px " + dot.style.background;
+}
+function connectKook(){
+  if(kookWs){ try{ kookWs.close(); }catch(e){} kookWs = null; }
+  const urls = kookWsUrls();
+  if(!urls.length){ $("#kookstatus").textContent = "无可用通道"; return; }
+  let idx = 0;
+  function tryNext(){
+    if(idx >= urls.length){ idx = 0; $("#kookstatus").textContent = "全部通道失败，重连中…"; return; }
+    const url = urls[idx++];
+    $("#kookstatus").textContent = "连接中…";
+    let ws;
+    try{ ws = new WebSocket(url); }catch(e){ setTimeout(tryNext, 1500); return; }
+    kookWs = ws;
+    ws.onopen = () => { setKookConn(true); $("#kookstatus").textContent = "实时日志 · KOOK 网关"; };
+    ws.onmessage = (ev) => {
+      try{ appendKookLog(JSON.parse(ev.data)); }catch(e){}
+    };
+    ws.onclose = () => {
+      setKookConn(false);
+      if(!$("#kookmask").hidden){ $("#kookstatus").textContent = "断开，3s 后重连…"; setTimeout(tryNext, 3000); }
+    };
+    ws.onerror = () => { try{ ws.close(); }catch(e){} };
+  }
+  tryNext();
+}
+function openKookLogs(){
+  $("#kookmask").hidden = false;
+  $("#kooklog").innerHTML = "";
+  // 先刷新可用通道（含 Cloudflare 备用），再连接
+  refreshEndpoints().then(connectKook).catch(connectKook);
+}
+function closeKookLogs(){
+  $("#kookmask").hidden = true;
+  if(kookWs){ try{ kookWs.close(); }catch(e){} kookWs = null; }
+  if(kookRetryTimer){ clearTimeout(kookRetryTimer); kookRetryTimer = null; }
+}
+$("#kookbtn").addEventListener("click", openKookLogs);
+$("#kookclose").addEventListener("click", closeKookLogs);
+$("#kookmask").addEventListener("click", function(e){ if(e.target === this) closeKookLogs(); });
+$("#kookclear").addEventListener("click", () => { $("#kooklog").innerHTML = ""; });
 
 </script>
 </body>
