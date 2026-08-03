@@ -274,7 +274,7 @@
       return attempt(0);
     }
     function loadStatus(){
-      // 优先同源读取 GitHub 上的 chat/status.json（VM 每 120s 推送，国内浏览器稳定可达，绕过隧道被墙问题）
+      // 优先同源读取 GitHub 上的 chat/status.json（VM 每 120s 推送，国内浏览器稳定可达，绕过隧道被墙问题）；前端每 5s 轮询一次
       fetch('chat/status.json?_=' + Date.now()).then(function(r){ return r.ok ? r.json() : Promise.reject(); })
         .then(function(d){
           if (d && typeof d.cpu === 'number'){
@@ -295,7 +295,7 @@
           }).catch(function(){});
         });
     }
-    setInterval(loadStatus, 3000); loadStatus();
+    setInterval(loadStatus, 5000); loadStatus();
 
     /* ===== 访客计数 ===== */
     (function(){
