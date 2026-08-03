@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>幻梦 QQ Bot · 控制台</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
   --fm:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%;touch-action:pan-y}
 body{
   background:var(--bg); color:var(--text); font-family:var(--fb); font-size:13px;
   overflow:hidden; display:flex; flex-direction:column; -webkit-font-smoothing:antialiased;
@@ -315,6 +315,17 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
 .gp-addrow{display:flex;gap:6px;margin-top:9px;padding-top:9px;border-top:1px dashed var(--border)}
 .gp-msg{font-size:11px;min-height:14px;margin-top:6px}
 .gp-empty{font-size:11px;color:var(--muted);margin:4px 0}
+
+/* ===== 动效增强：面板加载错峰淡入（2026-07-30，保持克制） ===== */
+@keyframes panelIn { 0% { opacity:0; transform:translateY(14px); } 100% { opacity:1; transform:none; } }
+@keyframes sideIn { 0% { opacity:0; transform:translateX(-16px); } 100% { opacity:1; transform:none; } }
+@keyframes rightIn { 0% { opacity:0; transform:translateX(16px); } 100% { opacity:1; transform:none; } }
+header { animation: panelIn .5s ease both; }
+.side { animation: sideIn .5s ease .06s both; }
+.console-in { animation: rightIn .5s ease .12s both; }
+@media (prefers-reduced-motion: reduce) {
+  header, .side, .console-in { animation:none !important; }
+}
 </style>
 
 <!-- ============ DevTools 反调试守卫：样式 ============ -->
@@ -552,6 +563,7 @@ footer .right{margin-left:auto;display:flex;gap:16px;align-items:center}
           <button class="tab on" data-src="bot">Bot 日志</button>
           <button class="tab" data-src="napcat">NapCat 日志</button>
           <button class="tab" data-src="webchat">私聊记录</button>
+          <button class="tab" data-src="kook">KOOK 日志</button>
         </div>
         <span class="title" id="src-title">huanmeng-bot / stdout</span>
         <span id="filter-info"></span>
@@ -673,7 +685,7 @@ function setConn(mode,text){CONN.className='conn '+mode;CONN_TEXT.textContent=te
 function saveCache(k,t){ try{ localStorage.setItem('yz_botlog_'+k, t); localStorage.setItem('yz_botlog_'+k+'_ts', new Date().toLocaleString('zh-CN')); }catch(e){} }
 function loadCache(k){ try{ return localStorage.getItem('yz_botlog_'+k); }catch(e){ return null; } }
 function cacheTs(k){ try{ return localStorage.getItem('yz_botlog_'+k+'_ts')||''; }catch(e){ return ''; } }
-function cacheKey(){ return curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : 'bot'; }
+function cacheKey(){ return curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : curSource==='kook' ? 'kook' : 'bot'; }
 /* 在线状态模型：区分「电脑是否可达」与「bot/napcat 进程是否运行」
    - compState: online(已连接) / reconnecting(重连中) / offline(电脑离线)
    - srcOff:    当前日志源的进程是否未运行
@@ -686,7 +698,7 @@ function renderBar(){
     bar.hidden=false; bar.className='offline-bar off-offline';
     bar.innerHTML='⚠️ 电脑已离线（站点不可达）· 当前显示最后缓存的日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），电脑开机后自动恢复实时。';
   }else if(srcOff){
-    const name = curSource==='napcat' ? 'NapCat' : curSource==='webchat' ? '网页私聊' : 'Bot';
+    const name = curSource==='napcat' ? 'NapCat' : curSource==='webchat' ? '网页私聊' : curSource==='kook' ? 'KOOK' : 'Bot';
     bar.hidden=false; bar.className='offline-bar off-warn';
     bar.innerHTML='⚠️ '+name+' 未运行 · 当前显示历史日志（更新于 <span id="offline-ts">'+cacheTs(curSource)+'</span>），启动后自动实时。';
   }else{
@@ -699,7 +711,7 @@ function setComp(state, txt){
   renderBar();
 }
 function applySrcStatus(j){
-  const key = curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : 'bot';
+  const key = curSource==='napcat' ? 'napcat' : curSource==='webchat' ? 'webchat' : curSource==='kook' ? 'kook' : 'bot';
   srcOff = !!(j && j[key]===false);
   renderBar();
 }
@@ -749,7 +761,7 @@ function switchSource(src){
   if(src===curSource)return;
   curSource=src;
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on', b.dataset.src===src));
-  $('src-title').textContent = src==='napcat' ? 'napcat / stdout' : src==='webchat' ? '网页私聊 / 记录' : 'huanmeng-bot / stdout';
+  $('src-title').textContent = src==='napcat' ? 'napcat / stdout' : src==='webchat' ? '网页私聊 / 记录' : src==='kook' ? 'KOOK 网关 / 日志' : 'huanmeng-bot / stdout';
   CONTAINER.innerHTML=''; pending=0; JUMP.classList.remove('show');
   total=0; for(const lv in counts)counts[lv]=0;
   $('buf').textContent='0 / '+maxLines; $('buf2').textContent='0'; $('visible').textContent='0';
