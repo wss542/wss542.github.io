@@ -133,7 +133,7 @@
       <div class="stat"><div class="l">访客计数</div><div class="v" id="visitors">--</div></div>
     </div>
     <div class="links">
-      <a href="about.html" data-section="about">关于我</a>
+      <a href="about.html" data-section="about">关于我（终端）</a>
       <a href="log.html" data-section="log">进入Ubuntu日志</a>
       <a href="/bot-logs/" data-section="botlog">进入bot日志</a>
       <a href="/chat/" data-section="botchat">进入bot聊天</a>
@@ -241,7 +241,7 @@
     }
 
     /* ===== 控制台：拉取服务器状态 ===== */
-    var SYS_BASE = '';   // sections.json 的 sysapi_base（serveo 主回退）
+    var SYS_BASE = 'https://wss.serveousercontent.com';   // serveo 主回退（硬编码兜底，/admin 重写 sections.json 也不会丢）
     var CF_BASE = '';    // chat/cf_url.txt 的 cloudflare 备回退
     var API_FALLBACKS = [];
     function rebuildFallbacks(){
