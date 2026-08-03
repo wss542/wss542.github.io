@@ -274,21 +274,43 @@
       return attempt(0);
     }
     function loadStatus(){
-      apiFetch('/sysapi/status').then(function(d){
-        setStat('cpu', d.cpu+'%'); bar('cpubar', d.cpu);
-        setStat('mem', d.mem+'%'); bar('membar', d.mem);
-        setStat('uptime', fmtUptime(d.uptime));
-      }).catch(function(){});
+      // 优先同源读取 GitHub 上的 chat/status.json（VM 每 120s 推送，国内浏览器稳定可达，绕过隧道被墙问题）
+      fetch('chat/status.json?_=' + Date.now()).then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+        .then(function(d){
+          if (d && typeof d.cpu === 'number'){
+            setStat('cpu', d.cpu+'%'); bar('cpubar', d.cpu);
+            setStat('mem', d.mem+'%'); bar('membar', d.mem);
+            setStat('uptime', fmtUptime(d.uptime));
+            if (typeof d.visitors === 'number') setStat('visitors', d.visitors);
+            return;
+          }
+          throw 0;
+        })
+        .catch(function(){
+          // 同源静态数据不可用时，回退到 VM 公网隧道（serveo/cloudflare）
+          apiFetch('/sysapi/status').then(function(d){
+            setStat('cpu', d.cpu+'%'); bar('cpubar', d.cpu);
+            setStat('mem', d.mem+'%'); bar('membar', d.mem);
+            setStat('uptime', fmtUptime(d.uptime));
+          }).catch(function(){});
+        });
     }
     setInterval(loadStatus, 3000); loadStatus();
 
-    /* ===== 访客计数（每浏览器仅计一次） ===== */
+    /* ===== 访客计数 ===== */
     (function(){
       var KEY='yz_visited';
-      function getVisitors(){ apiFetch('/sysapi/visitors').then(function(d){setStat('visitors', d.count);}).catch(function(){}); }
-      function addVisitor(){ apiFetch('/sysapi/visitors',{method:'POST'}).then(function(d){setStat('visitors', d.count);}).catch(function(){}); }
-      if (localStorage.getItem(KEY)) { getVisitors(); return; }
-      localStorage.setItem(KEY,'1'); addVisitor();
+      // 优先读同源 status.json 里的访客数
+      fetch('chat/status.json?_=' + Date.now()).then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+        .then(function(d){ if(d && typeof d.visitors === 'number') setStat('visitors', d.visitors); })
+        .catch(function(){
+          apiFetch('/sysapi/visitors').then(function(d){ if(d && typeof d.count==='number') setStat('visitors', d.count); }).catch(function(){});
+        });
+      // 首次访问尝试 +1（走隧道，失败无所谓）
+      if (!localStorage.getItem(KEY)) {
+        localStorage.setItem(KEY,'1');
+        apiFetch('/sysapi/visitors',{method:'POST'}).then(function(d){ if(d && typeof d.count==='number') setStat('visitors', d.count); }).catch(function(){});
+      }
     })();
 
     /* ===== sections.json 控制链接显隐 ===== */
