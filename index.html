@@ -300,7 +300,8 @@
 
     /* ===== 访客计数 ===== */
     (function(){
-      var KEY='yz_visited';
+      var KEY='yz_visited_day';
+      var today=new Date().toISOString().slice(0,10);
       // 优先读同源 status.json 里的访客数
       fetch('chat/status.json?_=' + Date.now()).then(function(r){ return r.ok ? r.json() : Promise.reject(); })
         .then(function(d){ if(d && typeof d.visitors === 'number') setStat('visitors', d.visitors); })
@@ -308,7 +309,7 @@
           apiFetch('/sysapi/visitors').then(function(d){ if(d && typeof d.count==='number') setStat('visitors', d.count); }).catch(function(){});
         });
       // 首次访问尝试 +1（走隧道，失败无所谓）
-      if (!localStorage.getItem(KEY)) {
+      if (localStorage.getItem(KEY) !== today) {
         localStorage.setItem(KEY,'1');
         apiFetch('/sysapi/visitors',{method:'POST'}).then(function(d){ if(d && typeof d.count==='number') setStat('visitors', d.count); }).catch(function(){});
       }
