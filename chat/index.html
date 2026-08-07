@@ -321,16 +321,27 @@ let retryAttempts = 0;
 
 // 每次（含重试）都重新拉取最新的 Cloudflare 地址（该地址会随隧道重启而轮换）
 async function refreshEndpoints(){
+  // 1) 主源：cf_url.txt（VM 看门狗随隧道重启自动更新）
   try{
     const r = await fetch(GHPAGES + "/chat/cf_url.txt", {cache:"no-store"});
     if(r.ok){
       const u = (await r.text()).trim().replace(/\/+$/, "");
       if(/^https?:\/\//.test(u)){
         ENDPOINTS = [u + "/chat/api", SERVEO];
+        try{ localStorage.setItem("lastGoodCf", u); }catch(e){}
         return;
       }
     }
-  }catch(e){ /* 无备用通道则只用 serveo */ }
+  }catch(e){ /* cf_url 瞬时不可达，走下方兜底 */ }
+  // 2) 兜底：上次成功过的 cf 域名（localStorage 缓存），避免回退到已宕机的 serveo
+  try{
+    const cached = localStorage.getItem("lastGoodCf");
+    if(cached && /^https?:\/\//.test(cached)){
+      ENDPOINTS = [cached + "/chat/api", SERVEO];
+      return;
+    }
+  }catch(e){}
+  // 3) 最后兼容占位（serveo 已宕机，仅作最后兜底）
   ENDPOINTS = [SERVEO];
 }
 
