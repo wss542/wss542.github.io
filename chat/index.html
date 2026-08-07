@@ -114,6 +114,9 @@
   #imgprev img{ height:46px; border-radius:8px; border:1px solid var(--border) }
   #imgprev .x{ position:absolute; top:-6px; right:-6px; background:#e05260; color:#fff; border:none;
     border-radius:50%; width:18px; height:18px; font-size:11px; line-height:1; cursor:pointer; padding:0 }
+  #imgprev video{ height:46px; border-radius:8px; border:1px solid var(--border); background:#000 }
+  .bubble video.mevid{ max-width:100%; border-radius:10px; margin-top:6px; display:block;
+    border:1px solid var(--border); background:#000 }
 
   /* ===== 动效增强（2026-07-30） ===== */
   @keyframes appIn { 0% { opacity:0; transform:translateY(18px) scale(.99); } 100% { opacity:1; transform:none; } }
@@ -189,10 +192,12 @@
   <div id="imgprev"></div>
   <form class="inputrow" id="form">
     <button type="button" class="iconbtn" id="imgbtn" title="发送图片" disabled>📎</button>
+    <button type="button" class="iconbtn" id="vidbtn" title="发送视频（≤60MB，抽帧识别）" disabled>🎬</button>
     <input id="text" autocomplete="off" placeholder="和 bot 说点什么…" disabled>
     <button type="submit" id="send" disabled>发送</button>
   </form>
   <input type="file" id="file" accept="image/*" hidden>
+  <input type="file" id="vfile" accept="video/*" hidden>
 </div>
 
 <div class="mask" id="pwmask">
@@ -374,7 +379,7 @@ function renderBot(text){
   }).join("");
 }
 
-function addRow(role, content, imgLocal){
+function addRow(role, content, imgLocal, videoLocal){
   const row = document.createElement("div");
   row.className = "row " + role;
   const b = document.createElement("div");
@@ -386,6 +391,13 @@ function addRow(role, content, imgLocal){
     im.className = "meimg";
     im.src = imgLocal;
     b.appendChild(im);
+  }
+  if(videoLocal){
+    const vd = document.createElement("video");
+    vd.className = "mevid";
+    vd.src = videoLocal;
+    vd.controls = true;
+    b.appendChild(vd);
   }
   row.appendChild(b);
   msgs.appendChild(row);
@@ -449,15 +461,19 @@ async function pollResult(taskId, botRow){
 
 async function sendMsg(content){
   if(!PASSWORD) return;
-  // 取出待发送的图片（互发照片：用户 → bot）
+  // 取出待发送的图片 / 视频（互发：用户 → bot）
   const rel = pendingRel, local = pendingLocal;
-  pendingRel = null; pendingLocal = null; renderPrev();
-  if(local){ addRow("me", content, local); }
+  const vrel = pendingVideoRel, vlocal = pendingVideoLocal;
+  pendingRel = null; pendingLocal = null; pendingVideoRel = null; pendingVideoLocal = null; renderPrev();
+  if(local && vlocal){ addRow("me", content, local, vlocal); }
+  else if(local){ addRow("me", content, local); }
+  else if(vlocal){ addRow("me", content, null, vlocal); }
   else { addRow("me", content); }
   send.disabled = true; text.disabled = true;
   try{
     const params = {session_id:sessionId, message:content, password:PASSWORD};
     if(rel) params.image = rel;
+    if(vrel) params.video = vrel;
     const j = await apiGet(params);
     if(!j.ok){
       if(j.error && j.error.indexOf("密码")>=0){
@@ -486,18 +502,29 @@ async function sendMsg(content){
   }
 }
 
-// ── 图片上传（互发照片：用户发图）──
-let pendingRel = null;   // 待发送的服务端相对 URL
-let pendingLocal = null; // 待显示的本地预览 objectURL
+// ── 图片 / 视频上传（互发：用户发图 / 发视频）──
+let pendingRel = null;       // 待发送的图片服务端相对 URL
+let pendingLocal = null;     // 待显示的图片本地预览 objectURL
+let pendingVideoRel = null;  // 待发送的视频服务端相对 URL
+let pendingVideoLocal = null;// 待显示的视频本地预览 objectURL
 function renderPrev(){
   const p = $("#imgprev"); p.innerHTML = "";
-  if(pendingLocal){
+  if(pendingLocal || pendingVideoLocal){
     p.style.display = "flex";
-    const chip = document.createElement("div"); chip.className = "chip";
-    const im = document.createElement("img"); im.src = pendingLocal;
-    const x = document.createElement("button"); x.className = "x"; x.textContent = "×";
-    x.onclick = () => { pendingRel = null; pendingLocal = null; p.style.display = "none"; p.innerHTML = ""; };
-    chip.append(im, x); p.append(chip);
+    if(pendingLocal){
+      const chip = document.createElement("div"); chip.className = "chip";
+      const im = document.createElement("img"); im.src = pendingLocal;
+      const x = document.createElement("button"); x.className = "x"; x.textContent = "×";
+      x.onclick = () => { pendingRel = null; pendingLocal = null; renderPrev(); };
+      chip.append(im, x); p.append(chip);
+    }
+    if(pendingVideoLocal){
+      const chip = document.createElement("div"); chip.className = "chip";
+      const vd = document.createElement("video"); vd.src = pendingVideoLocal;
+      const x = document.createElement("button"); x.className = "x"; x.textContent = "×";
+      x.onclick = () => { pendingVideoRel = null; pendingVideoLocal = null; renderPrev(); };
+      chip.append(vd, x); p.append(chip);
+    }
   } else { p.style.display = "none"; }
 }
 // 上传前客户端压缩：移动端原图常 3-7MB，走隧道大体积 POST 易超时/连接重置（表现「Load failed」）。
@@ -573,10 +600,65 @@ $("#file").addEventListener("change", async (e) => {
 });
 $("#imgbtn").addEventListener("click", () => $("#file").click());
 
+// 视频上传：不压缩、不转码，直接读 raw base64 上传（压缩会破坏视频）。
+// 复用 /chat/upload（后端按扩展名识别视频，≤60MB），返回 url 即 /chat/files/... 相对地址。
+async function fileToRawB64(file){
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result).split(",")[1]);
+    reader.onerror = () => reject(new Error("读取失败"));
+    reader.readAsDataURL(file);
+  });
+}
+async function uploadVideo(file){
+  const b64 = await fileToRawB64(file);
+  await refreshEndpoints();
+  let lastErr;
+  for(const API of ENDPOINTS){
+    const base = API.replace("/chat/api", "");
+    try{
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), 90000); // 视频体积大，放宽到 90s
+      const r = await fetch(base + "/chat/upload", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          session_id: sessionId, password: PASSWORD,
+          filename: file.name, data: b64, token: await webToken()
+        }),
+        signal: ctrl.signal
+      });
+      clearTimeout(t);
+      const j = await r.json().catch(() => ({}));
+      if(j && j.ok) return j;
+      lastErr = new Error(j.error || "上传失败");
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("network");
+}
+$("#vfile").addEventListener("change", async (e) => {
+  const f = e.target.files && e.target.files[0];
+  e.target.value = "";
+  if(!f) return;
+  if(!PASSWORD){ pwerr.textContent = "请先进入聊天"; return; }
+  if(f.size > 60 * 1024 * 1024){ addRow("sys", "⚠️ 视频过大（≤60MB），请压缩后再发"); return; }
+  try{
+    const j = await uploadVideo(f);
+    pendingVideoRel = j.url; pendingVideoLocal = URL.createObjectURL(f);
+    renderPrev();
+  }catch(err){
+    let msg = (err && err.message) ? err.message : "未知错误";
+    if(err && err.name === "AbortError") msg = "上传超时，请重试";
+    else if((msg||"").indexOf("Load") >= 0 || (msg||"").indexOf("Failed") >= 0 || (msg||"").indexOf("network") >= 0) msg = "网络错误，请检查连接后重试";
+    addRow("sys", "⚠️ 视频上传失败：" + msg);
+  }
+});
+$("#vidbtn").addEventListener("click", () => $("#vfile").click());
+
 form.addEventListener("submit", e=>{
   e.preventDefault();
   const v = text.value.trim();
-  if(!v && !pendingRel) return;
+  if(!v && !pendingRel && !pendingVideoRel) return;
   text.value = "";
   sendMsg(v);
 });
@@ -600,7 +682,7 @@ function enterChat(pwVal, j){
   PASSWORD = (j && j.token) ? j.token : pwVal;
   sessionStorage.setItem("botchat_pw", PASSWORD);
   pwmask.hidden = true; pwretry.hidden = true;
-  text.disabled=false; send.disabled=false; $("#imgbtn").disabled=false; text.focus();
+  text.disabled=false; send.disabled=false; $("#imgbtn").disabled=false; $("#vidbtn").disabled=false; text.focus();
   setConn("live","在线");
   addRow("sys","已连接 · 和 bot 聊天吧 (｡･ω･｡)");
   if(j && typeof j.left !== "undefined"){
