@@ -914,10 +914,14 @@ const WS_FAIL_THRESHOLD=4;  // 连续失败多少次后切换轮询
 const POLL_INTERVAL=5000;   // 轮询间隔 ms
 function basePath(){let p=location.pathname;if(!p.endsWith('/'))p+='/';return p;}
 function apiBase(){
-  // 本地开发用相对路径；线上(GitHub Pages / serveo)统一走绝对 serveo 地址
-  // → VM 开着拉实时，VM 关了请求失败自动回退本地缓存(与 Ubuntu 日志页一致)
-  if(location.hostname==='localhost'||location.hostname==='127.0.0.1')return basePath();
-  return 'https://wss.serveousercontent.com/bot-logs/';
+  const _h=location.hostname;
+  // 本机 / VM 局域网直连（standalone_log_server:58888 或 nginx 反代）→ 同源相对路径，
+  // 绕过不稳定的 serveo 隧道，避免「日志卡住 / 显示旧缓存」(2026-08-11 修复：
+  // serveo 隧道进程已失效，原硬编码域名导致日志台一直显示旧缓存)。
+  if(_h==='localhost'||_h==='127.0.0.1'||_h==='172.16.68.129'||_h.endsWith('.local')||_h.startsWith('192.168.')||_h.startsWith('10.')||_h.startsWith('172.'))return basePath();
+  // 外网(GitHub Pages / 非局域网) → Cloudflare Quick Tunnel（systemd 自启，VM 开机自动建）
+  // 注：quick tunnel 每次重启可能变 URL，需同步更新此处。
+  return 'https://opt-bow-revisions-formats.trycloudflare.com/';
 }
 function stopPoll(){if(pollTimer){clearInterval(pollTimer);pollTimer=null;}}
 function startPoll(){
