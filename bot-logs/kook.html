@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>幻梦 KOOK Bot · 实时日志</title>
+<style>
+:root{
+  --bg:#0a0a14; --panel:#101024; --panel2:#15152e; --border:#23234a;
+  --text:#e6e8ee; --muted:#6b7280; --soft:#9aa3b2;
+  --debug:#5b6b7a; --info:#9d8cff; --warn:#ffb454; --error:#ff5c6c; --ok:#3ddc84;
+  --accent:#7c5cff; --hl:#67e8f9;
+  --fm:'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'Courier New',monospace;
+  --fb:'Noto Sans SC',system-ui,-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{
+  background:var(--bg); color:var(--text); font-family:var(--fb);
+  font-size:13px; display:flex; flex-direction:column; overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  flex:0 0 auto; padding:10px 14px; background:linear-gradient(180deg,#14142c,#0e0e1f);
+  border-bottom:1px solid var(--border); display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+}
+header .title{font-family:var(--fm); font-weight:700; font-size:15px; color:#fff; letter-spacing:.5px}
+header .title b{color:var(--accent)}
+header .status{font-family:var(--fm); font-size:11px; color:var(--muted)}
+header .status .dot{display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--ok); margin-right:5px; box-shadow:0 0 8px var(--ok); vertical-align:middle}
+header .status.stale .dot{background:var(--warn); box-shadow:0 0 8px var(--warn)}
+header .status.err .dot{background:var(--error); box-shadow:0 0 8px var(--error)}
+.controls{flex:0 0 auto; padding:8px 14px; background:var(--panel); border-bottom:1px solid var(--border); display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+.controls input[type=text]{
+  flex:1 1 200px; min-width:140px; background:var(--panel2); border:1px solid var(--border);
+  color:var(--text); font-family:var(--fm); font-size:12px; padding:6px 10px; border-radius:7px; outline:none;
+}
+.controls input[type=text]:focus{border-color:var(--accent)}
+.controls label{font-size:11px; color:var(--soft); display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none}
+.controls .lv{font-family:var(--fm); padding:2px 7px; border-radius:5px; border:1px solid var(--border); background:var(--panel2)}
+.controls .lv input{display:none}
+.controls .lv.on[data-lv=DEBUG]{color:var(--debug); border-color:var(--debug)}
+.controls .lv.on[data-lv=INFO]{color:var(--info); border-color:var(--info)}
+.controls .lv.on[data-lv=WARNING]{color:var(--warn); border-color:var(--warn)}
+.controls .lv.on[data-lv=ERROR]{color:var(--error); border-color:var(--error)}
+.controls button{
+  background:var(--panel2); border:1px solid var(--border); color:var(--soft);
+  font-family:var(--fb); font-size:11px; padding:6px 11px; border-radius:7px; cursor:pointer;
+}
+.controls button:hover{border-color:var(--accent); color:#fff}
+#log{
+  flex:1 1 auto; overflow-y:auto; padding:8px 14px 40px; font-family:var(--fm);
+  font-size:12px; line-height:1.55; white-space:pre-wrap; word-break:break-word;
+  background:
+    radial-gradient(1200px 400px at 80% -10%, rgba(124,92,255,.06), transparent),
+    var(--bg);
+}
+#log .ln{display:block; padding:1px 0; border-left:2px solid transparent; padding-left:8px}
+#log .ln:hover{background:rgba(255,255,255,.03)}
+#log .ts{color:var(--muted)}
+#log .mod{color:var(--soft)}
+#log .lvl{font-weight:700; padding:0 4px}
+#log .DEBUG{color:var(--debug)} #log .DEBUG .lvl{color:var(--debug)}
+#log .INFO{color:var(--info)}  #log .INFO .lvl{color:var(--info)}
+#log .WARNING{color:var(--warn)} #log .WARNING .lvl{color:var(--warn)}
+#log .ERROR{color:var(--error)} #log .ERROR .lvl{color:var(--error)}
+#log .lvl{opacity:.9}
+#log .msg{color:var(--text)}
+#log .hl{background:rgba(124,92,255,.28); border-radius:3px; padding:0 2px}
+#log .meta{color:var(--muted); font-size:11px; text-align:center; padding:6px 0}
+footer{flex:0 0 auto; padding:5px 14px; background:var(--panel); border-top:1px solid var(--border); font-family:var(--fm); font-size:10px; color:var(--muted); display:flex; justify-content:space-between}
+#toTop{position:fixed; right:16px; bottom:34px; background:var(--accent); color:#fff; border:none; border-radius:50%; width:40px; height:40px; font-size:18px; cursor:pointer; display:none; box-shadow:0 4px 14px rgba(124,92,255,.5)}
+</style>
+</head>
+<body>
+<header>
+  <div class="title">🐱 <b>幻梦 KOOK Bot</b> · 实时日志</div>
+  <div class="status" id="status"><span class="dot"></span><span id="statusText">连接中…</span></div>
+</header>
+<div class="controls">
+  <input type="text" id="search" placeholder="🔍 过滤关键字（正则）…">
+  <label class="lv on" data-lv="DEBUG"><input type="checkbox" checked data-lv="DEBUG">DEBUG</label>
+  <label class="lv on" data-lv="INFO"><input type="checkbox" checked data-lv="INFO">INFO</label>
+  <label class="lv on" data-lv="WARNING"><input type="checkbox" checked data-lv="WARNING">WARN</label>
+  <label class="lv on" data-lv="ERROR"><input type="checkbox" checked data-lv="ERROR">ERROR</label>
+  <button id="autoscroll">⤓ 自动滚动: 开</button>
+  <button id="refresh">↻ 立即刷新</button>
+</div>
+<div id="log"></div>
+<footer>
+  <span id="footInfo">—</span>
+  <span>每 15s 自动刷新 · 数据来自 huanmeng.log</span>
+</footer>
+<button id="toTop">↑</button>
+
+<script>
+const LOG_URL = "./kook.log.txt";
+const REFRESH_MS = 15000;
+let allLines = [];
+let autoScroll = true;
+let lastContent = "";
+
+const $ = s => document.querySelector(s);
+const logEl = $("#log"), statusEl = $("#status"), statusText = $("#statusText");
+
+function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+function parseLine(raw){
+  // [2026-08-20 11:02:32.374] [INFO    ] (module:func:line) [id] message
+  const m = raw.match(/^\[([^\]]+)\]\s+\[([A-Z ]+)\]\s*(?:\(([^)]*)\))?\s*(.*)$/);
+  if(!m) return {ts:'', lvl:'INFO', mod:'', msg:raw};
+  return {ts:m[1], lvl:m[2].trim(), mod:m[3]||'', msg:m[4]};
+}
+
+function applyFilters(){
+  const q = $("#search").value.trim();
+  let re=null;
+  if(q){ try{ re = new RegExp(q,'i'); }catch(e){ re=null; } }
+  const lvOn = {};
+  document.querySelectorAll('.controls input[type=checkbox]').forEach(c=>lvOn[c.dataset.lv]=c.checked);
+  const frag = document.createDocumentFragment();
+  let shown=0;
+  for(const raw of allLines){
+    if(raw.startsWith('#') || raw.trim()===''){
+      const d=document.createElement('div'); d.className='ln meta'; d.textContent=raw.replace(/^#\s*/,''); frag.appendChild(d); continue;
+    }
+    const p = parseLine(raw);
+    if(!lvOn[p.lvl]) continue;
+    if(re && !re.test(raw)) continue;
+    const d=document.createElement('div'); d.className='ln '+p.lvl;
+    const q2 = q ? new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig') : null;
+    let msgHtml = escapeHtml(p.msg);
+    if(q2) msgHtml = msgHtml.replace(q2,'<span class="hl">$1</span>');
+    d.innerHTML = `<span class="ts">${escapeHtml(p.ts)}</span> <span class="lvl">[${p.lvl}]</span>` +
+                  (p.mod?` <span class="mod">(${escapeHtml(p.mod)})</span> `:' ') +
+                  `<span class="msg">${msgHtml}</span>`;
+    frag.appendChild(d); shown++;
+  }
+  logEl.innerHTML=''; logEl.appendChild(frag);
+  if(autoScroll) logEl.scrollTop = logEl.scrollHeight;
+  $("#footInfo").textContent = `显示 ${shown} / 共 ${allLines.length} 行`;
+}
+
+async function load(){
+  const t0 = Date.now();
+  try{
+    const r = await fetch(LOG_URL, {cache:'no-store', headers:{'Cache-Control':'no-cache'}});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const txt = await r.text();
+    if(txt === lastContent){ setStatus('ok','已是最新'); return; }
+    lastContent = txt;
+    allLines = txt.split('\n');
+    applyFilters();
+    const now = new Date();
+    setStatus('ok','更新于 ' + now.toLocaleTimeString('zh-CN'));
+  }catch(e){
+    setStatus('err','加载失败: '+e.message);
+  }
+}
+function setStatus(cls,text){
+  statusEl.className = 'status' + (cls==='ok'?'':(' '+cls));
+  statusText.textContent = text;
+}
+
+// events
+$("#search").addEventListener('input', applyFilters);
+document.querySelectorAll('.controls input[type=checkbox]').forEach(c=>{
+  c.addEventListener('change', ()=>{
+    c.closest('.lv').classList.toggle('on', c.checked);
+    applyFilters();
+  });
+});
+$("#autoscroll").addEventListener('click', ()=>{
+  autoScroll = !autoScroll;
+  $("#autoscroll").textContent = '⤓ 自动滚动: ' + (autoScroll?'开':'关');
+  if(autoScroll) logEl.scrollTop = logEl.scrollHeight;
+});
+$("#refresh").addEventListener('click', load);
+logEl.addEventListener('scroll', ()=>{
+  const nearBottom = logEl.scrollHeight - logEl.scrollTop - logEl.clientHeight < 40;
+  $("#toTop").style.display = nearBottom ? 'none' : 'block';
+});
+$("#toTop").addEventListener('click', ()=> logEl.scrollTop = logEl.scrollHeight);
+
+load();
+setInterval(load, REFRESH_MS);
+</script>
+</body>
+</html>
