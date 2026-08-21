@@ -1,34 +1,4 @@
-# 更新于 2026-08-22 01:24:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-22 01:02:28.588[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
-[[38;5;240m2026-08-22 01:02:29.827[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
-[[38;5;240m2026-08-22 01:02:29.852[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-22 01:02:31.159[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-22 01:02:31.159[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m🐱[0m 幻梦 KOOK Bot v2[38;5;207m.0[0m[38;5;207m.0[0m 正在启动...
-[[38;5;240m2026-08-22 01:02:31.160[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-22 01:02:31.164[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
-[[38;5;240m2026-08-22 01:02:31.164[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
-[[38;5;240m2026-08-22 01:02:31.166[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
-[[38;5;240m2026-08-22 01:02:31.167[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=True | 文件日志=True
-[[38;5;240m2026-08-22 01:02:31.167[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 日志系统已初始化
-[[38;5;240m2026-08-22 01:02:31.167[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[[38;5;240m2026-08-22 01:02:31.167[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl[38;5;207m.py[0m Bot 实例已创建
-[[38;5;240m2026-08-22 01:02:31.412[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Bot 自身信息: id=[38;5;226m659688244[0m name=茂密
-[[38;5;240m2026-08-22 01:02:31.412[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(sender:init_sender:46)[0m [-] 发送器已初始化 (Phase5 兼容层)
-[[38;5;240m2026-08-22 01:02:31.423[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 高风险更新审批回调已接线: request_update_approval
-[[38;5;240m2026-08-22 01:02:31.423[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息发送器已初始化
-[[38;5;240m2026-08-22 01:02:31.813[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:initialize:88)[0m [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m
-[[38;5;240m2026-08-22 01:02:31.832[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:_init_schema:107)[0m [-] 数据库表结构已就绪（含 FTS5）
-[[38;5;240m2026-08-22 01:02:31.832[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m)
-[[38;5;240m2026-08-22 01:02:31.833[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 用户名查询模块已初始化
-[[38;5;240m2026-08-22 01:02:31.834[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:_load_from_disk:53)[0m [-] 上下文已从磁盘恢复: 10 个对话
-[[38;5;240m2026-08-22 01:02:31.834[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:init_context:181)[0m [-] 上下文管理器已初始化（含磁盘持久化）
-[[38;5;240m2026-08-22 01:02:31.834[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 上下文管理器已初始化
-[[38;5;240m2026-08-22 01:02:31.839[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-22 01:02:31.839[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 事件分发器已就绪
-[[38;5;240m2026-08-22 01:02:31.840[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] ✏[38;5;219m️[0m 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[[38;5;240m2026-08-22 01:02:31.840[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息处理器已注册（TEXT/KMD）
-[[38;5;240m2026-08-22 01:02:31.849[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]points：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
-[[38;5;240m2026-08-22 01:02:31.849[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]shop：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
+# 更新于 2026-08-22 01:25:27 · 共 1500 行（来源 huanmeng.log 末尾）
 [[38;5;240m2026-08-22 01:02:31.850[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:46)[0m [-] 跳过 _down：缺少 manifest[38;5;207m.json[0m
 [[38;5;240m2026-08-22 01:02:31.855[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.checkin[0m (command)
 [[38;5;240m2026-08-22 01:02:31.855[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.签到[0m (command)
@@ -1499,3 +1469,33 @@ UP主:
 [[38;5;240m2026-08-22 01:24:15.341[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [5712e167ab714f4e] [TRACE 5712e167ab714f4e] total=[38;5;226m1[38;5;207m.54ms[0m[0m severity=normal | llm_calls=0 total=[38;5;226m0[38;5;207m.0ms[0m[0m avg=[38;5;226m0[38;5;207m.0ms[0m[0m max=[38;5;226m0[38;5;207m.0ms[0m[0m p50=0[38;5;207m.0[0m p95=0[38;5;207m.0[0m p99=0[38;5;207m.0[0m | process=[38;5;226m1[38;5;207m.49ms[0m[0m(x1) (wall1[38;5;207m.49[0m), queue_wait=[38;5;226m0[38;5;207m.32ms[0m[0m(x1)
 [[38;5;240m2026-08-22 01:24:31.634[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 5931)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [[38;5;240m2026-08-22 01:24:36.662[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
+[[38;5;240m2026-08-22 01:25:01.824[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 5931)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[[38;5;240m2026-08-22 01:25:04.124[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:204)[0m [-] 🧩 _consume_pkg pkg type=255 extra[38;5;207m.type[0m=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[[38;5;240m2026-08-22 01:25:04.448[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_patched_consume_pkg:250)[0m [-] ✏[38;5;219m️[0m 编辑消息作者反查: id=[38;5;226m1759953618[0m username=wss
+[[38;5;240m2026-08-22 01:25:04.448[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_patched_consume_pkg:286)[0m [-] ✏[38;5;219m️[0m 编辑消息 → dispatcher: mid=2a18ef67-13e5-42c2-b28a-167c0c3029a1 chat=[38;5;226m6243254695867429[0m type=255
+[[38;5;240m2026-08-22 01:25:04.448[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=1 content='(met)[38;5;226m659688244[0m(met) 你看看内容' is_edit=True
+[[38;5;240m2026-08-22 01:25:04.449[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:110)[0m [223925ac95bd4242] KMD 调试: is_group=True uid=[38;5;226m1759953618[0m channel=[38;5;226m6243254695867429[0m
+[[38;5;240m2026-08-22 01:25:04.449[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:294)[0m [223925ac95bd4242] [38;5;219m📩[0m 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss([38;5;226m1759953618[0m) | chat=[38;5;226m6243254695867429[0m | group=True | content='(met)[38;5;226m659688244[0m(met) 你看看内容'
+[[38;5;240m2026-08-22 01:25:04.449[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(queues:enqueue_message:75)[0m [223925ac95bd4242] [[38;5;84m队列[0m] 群6243254695867429 消息已入队 (队长度=1)
+[[38;5;240m2026-08-22 01:25:04.450[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:merge_overflow_memory:419)[0m [469844af11ca40dd] 长时记忆溢出缓冲: chat=[38;5;226m6243254695867429[0m +1 = [38;5;226m4条[0m (阈值=10)
+[[38;5;240m2026-08-22 01:25:04.451[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:500)[0m [469844af11ca40dd] 回复判断: is_mentioned=True is_group=True bot_qq=[38;5;226m659688244[0m content='@[38;5;226m659688244[0m  你看看内容'
+[[38;5;240m2026-08-22 01:25:04.451[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:535)[0m [469844af11ca40dd] @机器人检测(at_only) → 直接回复
+[[38;5;240m2026-08-22 01:25:04.452[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:590)[0m [469844af11ca40dd] 请求意图: intent=chat fast_search=False msg='@[38;5;226m659688244[0m  你看看内容'
+[[38;5;240m2026-08-22 01:25:04.452[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(pipeline:process_message:638)[0m [469844af11ca40dd] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[[38;5;240m2026-08-22 01:25:04.456[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(memory:_record_memory_trace:318)[0m [469844af11ca40dd] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=[38;5;226m4[38;5;207m.2ms[0m[0m
+[[38;5;240m2026-08-22 01:25:04.457[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:794)[0m [469844af11ca40dd] extra_info 按预算丢弃 1 项: ['memory:memory']
+[[38;5;240m2026-08-22 01:25:04.457[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:798)[0m [469844af11ca40dd] 额外信息: [38;5;226m347字[0m (memory=0 search=0)
+[[38;5;240m2026-08-22 01:25:04.458[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:931)[0m [469844af11ca40dd] system_context: [38;5;226m4000字[0m caps=1 tools=1 (system=1841 skill=0)
+[[38;5;240m2026-08-22 01:25:04.458[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:1060)[0m [469844af11ca40dd] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[[38;5;240m2026-08-22 01:25:04.458[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:1063)[0m [469844af11ca40dd] 开始生成回复: speaker=ywandwss chat=[38;5;226m6243254695867429[0m
+[[38;5;240m2026-08-22 01:25:04.609[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(llm:call_llm_with_tools:602)[0m [469844af11ca40dd] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[[38;5;240m2026-08-22 01:25:05.946[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:generate_multi_reply_with_tools:971)[0m [469844af11ca40dd] LLM原始输出 [轮1]: content={"replies":["[38;5;207m主人[0m，这篇微信文章我抓取一下内容看看喵~"],"fav":0,"calls":["read https://mp[38;5;207m.weixin[0m[38;5;207m.qq[0m[38;5;207m.com[0m/s/JwEIiUy0HIlxxUQ7qHwH9g"],"face":null,"mood":"认真","action":"","at":null,"mode":null,"origin":"user","actor":{"name" | tool_calls=0
+[[38;5;240m2026-08-22 01:25:05.947[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:1552)[0m [469844af11ca40dd] [38;5;219m✅[0m 管道处理完成: 1句 sent chat=[38;5;226m6243254695867429[0m
+[[38;5;240m2026-08-22 01:25:05.947[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:1574)[0m [469844af11ca40dd] Fast Path 主题已记录: chat=[38;5;226m6243254695867429[0m topic='@[38;5;226m659688244[0m  你看看内容'
+[[38;5;240m2026-08-22 01:25:05.947[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [469844af11ca40dd] [TRACE 469844af11ca40dd] total=[38;5;226m1498[38;5;207m.04ms[0m[0m severity=normal | llm_calls=1 total=[38;5;226m1486[38;5;207m.77ms[0m[0m avg=[38;5;226m1486[38;5;207m.77ms[0m[0m max=[38;5;226m1486[38;5;207m.77ms[0m[0m p50=1486[38;5;207m.77[0m p95=1486[38;5;207m.77[0m p99=1486[38;5;207m.77[0m | json_parse=[38;5;226m0[38;5;207m.15ms[0m[0m(x1), llm=[38;5;226m1488[38;5;207m.29ms[0m[0m(x1), memory=[38;5;226m8[38;5;207m.51ms[0m[0m(x2), process=[38;5;226m1497[38;5;207m.97ms[0m[0m(x1) (wall1497[38;5;207m.97[0m), queue_wait=[38;5;226m0[38;5;207m.28ms[0m[0m(x1)
+[[38;5;240m2026-08-22 01:25:05.948[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:227)[0m [469844af11ca40dd] 开始分批发送 1 条句子 → chat=[38;5;226m6243254695867429[0m is_group=True
+[[38;5;240m2026-08-22 01:25:06.363[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [469844af11ca40dd] 已发送第 1/1 条: [38;5;207m主人[0m，这篇微信文章我抓取一下内容看看喵~...
+[[38;5;240m2026-08-22 01:25:06.364[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:243)[0m [469844af11ca40dd] 分批发送完成: 共 1 条 → chat=[38;5;226m6243254695867429[0m
+[[38;5;240m2026-08-22 01:25:06.364[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(context_manager:_on_task_done:139)[0m [469844af11ca40dd] 发送任务已清理 [[38;5;226m6243254695867429[0m]
+[[38;5;240m2026-08-22 01:25:06.366[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:204)[0m [223925ac95bd4242] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[[38;5;240m2026-08-22 01:25:21.395[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
