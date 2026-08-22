@@ -1,87 +1,4 @@
-# 更新于 2026-08-22 02:41:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-22 01:14:18.063[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:428)[0m [e2bc5e446c7f41e4] 回复判断: is_mentioned=False is_group=True bot_qq=[38;5;226m659688244[0m content='[https://b23[38;5;207m.tv[0m/hbXX1Df](https://b23[38;5;207m.tv[0m/'
-[[38;5;240m2026-08-22 01:14:18.063[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [e2bc5e446c7f41e4] [TRACE e2bc5e446c7f41e4] total=[38;5;226m3[38;5;207m.12ms[0m[0m severity=normal | llm_calls=0 total=[38;5;226m0[38;5;207m.0ms[0m[0m avg=[38;5;226m0[38;5;207m.0ms[0m[0m max=[38;5;226m0[38;5;207m.0ms[0m[0m p50=0[38;5;207m.0[0m p95=0[38;5;207m.0[0m p99=0[38;5;207m.0[0m | process=[38;5;226m2[38;5;207m.99ms[0m[0m(x1) (wall2[38;5;207m.99[0m), queue_wait=[38;5;226m0[38;5;207m.74ms[0m[0m(x1)
-[[38;5;240m2026-08-22 01:14:36.397[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:204)[0m [-] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[[38;5;240m2026-08-22 01:14:36.398[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=9 content='(met)[38;5;226m659688244[0m(met) 你看看内容' is_edit=False
-[[38;5;240m2026-08-22 01:14:36.398[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:110)[0m [201878d81ae94f42] KMD 调试: is_group=True uid=[38;5;226m1759953618[0m channel=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-22 01:14:36.795[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:223)[0m [201878d81ae94f42] [38;5;219m📎[0m 引用消息原文 ([38;5;226m48字[0m)
-[[38;5;240m2026-08-22 01:14:36.796[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:294)[0m [201878d81ae94f42] [38;5;219m📩[0m 消息 #36 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss([38;5;226m1759953618[0m) | chat=[38;5;226m6243254695867429[0m | group=True | content='(met)[38;5;226m659688244[0m(met) 你看看内容'
-[[38;5;240m2026-08-22 01:14:36.797[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(queues:enqueue_message:75)[0m [201878d81ae94f42] [[38;5;84m队列[0m] 群6243254695867429 消息已入队 (队长度=1)
-[[38;5;240m2026-08-22 01:14:36.798[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:347)[0m [ace67bf0b1174105] [38;5;219m📎[0m 引用消息已注入上下文 [[38;5;226m6243254695867429[0m]: '[https://b23[38;5;207m.tv[0m/hbXX1Df](https://b23[38;5;207m.tv[0m/hbXX1Df)'...
-[[38;5;240m2026-08-22 01:14:36.799[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:merge_overflow_memory:419)[0m [ace67bf0b1174105] 长时记忆溢出缓冲: chat=[38;5;226m6243254695867429[0m +1 = [38;5;226m3条[0m (阈值=10)
-[[38;5;240m2026-08-22 01:14:36.799[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:428)[0m [ace67bf0b1174105] 回复判断: is_mentioned=True is_group=True bot_qq=[38;5;226m659688244[0m content='@[38;5;226m659688244[0m  你看看内容'
-[[38;5;240m2026-08-22 01:14:36.800[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:463)[0m [ace67bf0b1174105] @机器人检测(at_only) → 直接回复
-[[38;5;240m2026-08-22 01:14:37.673[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:505)[0m [ace67bf0b1174105] 🔗 链接预抓已注入上下文 [chat=[38;5;226m6243254695867429[0m]: [[38;5;84m链接内容[0m] https://b23[38;5;207m.tv[0m/hbXX1Df
-[[38;5;84mB站视频[0m] 【原奈同学】视频已打包，欢迎围观！
-UP主: 
-[[38;5;240m2026-08-22 01:14:37.674[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:518)[0m [ace67bf0b1174105] 请求意图: intent=chat fast_search=False msg='@[38;5;226m659688244[0m  你看看内容'
-[[38;5;240m2026-08-22 01:14:37.674[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(pipeline:process_message:566)[0m [ace67bf0b1174105] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[[38;5;240m2026-08-22 01:14:37.681[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(memory:_record_memory_trace:318)[0m [ace67bf0b1174105] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=[38;5;226m6[38;5;207m.8ms[0m[0m
-[[38;5;240m2026-08-22 01:14:37.682[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:722)[0m [ace67bf0b1174105] extra_info 按预算丢弃 1 项: ['memory:memory']
-[[38;5;240m2026-08-22 01:14:37.682[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:726)[0m [ace67bf0b1174105] 额外信息: [38;5;226m344字[0m (memory=0 search=0)
-[[38;5;240m2026-08-22 01:14:37.684[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:859)[0m [ace67bf0b1174105] system_context: [38;5;226m4000字[0m caps=1 tools=1 (system=1841 skill=0)
-[[38;5;240m2026-08-22 01:14:37.684[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:988)[0m [ace67bf0b1174105] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[[38;5;240m2026-08-22 01:14:37.685[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:991)[0m [ace67bf0b1174105] 开始生成回复: speaker=ywandwss chat=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-22 01:14:37.865[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(llm:call_llm_with_tools:602)[0m [ace67bf0b1174105] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[[38;5;240m2026-08-22 01:14:39.454[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:generate_multi_reply_with_tools:971)[0m [ace67bf0b1174105] LLM原始输出 [轮1]: content={"replies":["[38;5;207m主人[0m让我看看这个视频内容呀，稍等喵~"],"fav":0,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandwss","qq":0}} | tool_calls=0
-[[38;5;240m2026-08-22 01:14:39.454[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(llm:generate_multi_reply_with_tools:1031)[0m [ace67bf0b1174105] 回复疑似纯承诺(只说不做)，强制再生成一轮要求直接实答: {"replies":["[38;5;207m主人[0m让我看看这个视频内容呀，稍等喵~"],"fav":0,"calls":[],"face":
-[[38;5;240m2026-08-22 01:14:39.680[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(llm:call_llm_with_tools:602)[0m [ace67bf0b1174105] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[[38;5;240m2026-08-22 01:14:41.363[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:generate_multi_reply_with_tools:971)[0m [ace67bf0b1174105] LLM原始输出 [轮2]: content={"replies":["[38;5;207m主人[0m，这个视频我看了下，是UP主『原奈同学』发的12秒短视频，播放快10万、点赞5千多，热度挺高的喵~","不过简介是空的，光看标题『视频已打包，欢迎围观』有点猜不透具体内容，[38;5;207m主人[0m是想让我看视频里讲了啥吗？"],"fav":0,"calls":[],"face":null,"mood":"好奇","action":"","at":null,"mode":null,"ori | tool_calls=0
-[[38;5;240m2026-08-22 01:14:41.364[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_parse_reply:1314)[0m [ace67bf0b1174105] JSON回复解析: 2句 fav=+0 calls=0 mood=好奇
-[[38;5;240m2026-08-22 01:14:41.366[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:maybe_save_memory:401)[0m [ace67bf0b1174105] 触发自动记忆 [[38;5;226m6243254695867429[0m]: 63 条
-[[38;5;240m2026-08-22 01:14:41.367[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:1480)[0m [ace67bf0b1174105] [38;5;219m✅[0m 管道处理完成: 2句 sent chat=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-22 01:14:41.368[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:1502)[0m [ace67bf0b1174105] Fast Path 主题已记录: chat=[38;5;226m6243254695867429[0m topic='@[38;5;226m659688244[0m  你看看内容'
-[[38;5;240m2026-08-22 01:14:41.369[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [ace67bf0b1174105] [TRACE ace67bf0b1174105] total=[38;5;226m4571[38;5;207m.39ms[0m[0m severity=slow_request | llm_calls=2 total=[38;5;226m3676[38;5;207m.04ms[0m[0m avg=[38;5;226m1838[38;5;207m.02ms[0m[0m max=[38;5;226m1908[38;5;207m.21ms[0m[0m p50=1838[38;5;207m.02[0m p95=1901[38;5;207m.2[0m p99=1906[38;5;207m.81[0m | json_parse=[38;5;226m0[38;5;207m.06ms[0m[0m(x1), llm=[38;5;226m3680[38;5;207m.98ms[0m[0m(x1), memory=[38;5;226m13[38;5;207m.97ms[0m[0m(x2), process=[38;5;226m4571[38;5;207m.3ms[0m[0m(x1) (wall4571[38;5;207m.3[0m), queue_wait=[38;5;226m0[38;5;207m.64ms[0m[0m(x1)
-[[38;5;240m2026-08-22 01:14:41.369[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(logger:log_trace_summary:329)[0m [ace67bf0b1174105] [SLOW ace67bf0b1174105] total=[38;5;226m4571[38;5;207m.9ms[0m[0m | json_parse=[38;5;226m0[38;5;207m.06ms[0m[0m(x1), llm=[38;5;226m3680[38;5;207m.98ms[0m[0m(x1), memory=[38;5;226m13[38;5;207m.97ms[0m[0m(x2), process=[38;5;226m4571[38;5;207m.3ms[0m[0m(x1) (wall4571[38;5;207m.3[0m), queue_wait=[38;5;226m0[38;5;207m.64ms[0m[0m(x1) | llm_calls=2 total=[38;5;226m3676[38;5;207m.04ms[0m[0m avg=[38;5;226m1838[38;5;207m.02ms[0m[0m max=[38;5;226m1908[38;5;207m.21ms[0m[0m p50=1838[38;5;207m.02[0m p95=1901[38;5;207m.2[0m p99=1906[38;5;207m.81[0m | perf: queue=[38;5;226m0[38;5;207m.64ms[0m[0m llm=[38;5;226m3681[38;5;207m.04ms[0m[0m search_tool=[38;5;226m0[38;5;207m.0ms[0m[0m delivery=[38;5;226m0[38;5;207m.0ms[0m[0m other=[38;5;226m4585[38;5;207m.27ms[0m[0m wall=[38;5;226m4571[38;5;207m.87ms[0m[0m dominant=other
-[[38;5;240m2026-08-22 01:14:41.370[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:227)[0m [ace67bf0b1174105] 开始分批发送 2 条句子 → chat=[38;5;226m6243254695867429[0m is_group=True
-[[38;5;240m2026-08-22 01:14:41.372[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:427)[0m [ace67bf0b1174105] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0[38;5;207m.2[0m timeout=15[38;5;207m.0s[0m
-[[38;5;240m2026-08-22 01:14:41.840[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [ace67bf0b1174105] 已发送第 1/2 条: [38;5;207m主人[0m，这个视频我看了下，是UP主『原奈同学』发的12秒短视频...
-[[38;5;240m2026-08-22 01:14:41.840[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:238)[0m [ace67bf0b1174105] 句间等待 0[38;5;207m.98s[0m (#2/2)
-[[38;5;240m2026-08-22 01:14:43.267[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [ace67bf0b1174105] 已发送第 2/2 条: 不过简介是空的，光看标题『视频已打包，欢迎围观』有点猜不透具...
-[[38;5;240m2026-08-22 01:14:43.268[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:243)[0m [ace67bf0b1174105] 分批发送完成: 共 2 条 → chat=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-22 01:14:43.269[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(context_manager:_on_task_done:139)[0m [ace67bf0b1174105] 发送任务已清理 [[38;5;226m6243254695867429[0m]
-[[38;5;240m2026-08-22 01:14:44.026[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:489)[0m [ace67bf0b1174105] LLM [deepseek-v4-flash] 返回 [38;5;226m360字[0m符 耗时2[38;5;207m.7s[0m → "[01:14:41] 茂密: 讨论扣帽子话术，名字提到极端女权、评头论足的人，茂密建议无视，ywan..."
-[[38;5;240m2026-08-22 01:14:44.027[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:_compress_with_deepseek:210)[0m [ace67bf0b1174105] [[38;5;226m6243254695867429[0m] 压缩完成: [38;5;226m63条[0m消息 → 保存
-[[38;5;240m2026-08-22 01:14:45.483[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m13035[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[[38;5;240m2026-08-22 01:14:51.914[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
-[[38;5;240m2026-08-22 01:15:15.920[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m13035[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[[38;5;240m2026-08-22 01:15:20.280[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
-[[38;5;240m2026-08-22 01:15:20.287[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已重新加载 | bot=茂密 | host=0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:8099 | debug=True
-[[38;5;240m2026-08-22 01:15:36.725[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
-[[38;5;240m2026-08-22 01:15:46.664[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m13035[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[[38;5;240m2026-08-22 01:15:49.960[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
-[[38;5;240m2026-08-22 01:15:49.972[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已重新加载 | bot=茂密 | host=0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:8099 | debug=True
-[[38;5;240m2026-08-22 01:15:49.973[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(config:save_guild_settings:629)[0m [-] save_guild_settings 后配置热[38;5;159m重载完成[0m
-[[38;5;240m2026-08-22 01:15:49.978[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已重新加载 | bot=茂密 | host=0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:8099 | debug=True
-[[38;5;240m2026-08-22 01:15:49.980[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(config:save_guild_settings:629)[0m [-] save_guild_settings 后配置热[38;5;159m重载完成[0m
-[[38;5;240m2026-08-22 01:15:56.895[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 收到终止信号，开始优雅退出...
-[[38;5;240m2026-08-22 01:15:56.896[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl_bot 主循环已被取消（优雅退出）
-[[38;5;240m2026-08-22 01:15:56.897[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 🛑 正在关闭...
-[[38;5;240m2026-08-22 01:15:56.897[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: checkin
-[[38;5;240m2026-08-22 01:15:56.897[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: chou
-[[38;5;240m2026-08-22 01:15:56.897[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: countdown
-[[38;5;240m2026-08-22 01:15:56.899[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: echo
-[[38;5;240m2026-08-22 01:15:56.900[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: eq
-[[38;5;240m2026-08-22 01:15:56.901[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: greet
-[[38;5;240m2026-08-22 01:15:56.901[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: luck
-[[38;5;240m2026-08-22 01:15:56.901[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: motou
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: nasa
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: pgr
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: sandbox
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: tuf
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: weather
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: whois
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Plugin Runtime 已关闭
-[[38;5;240m2026-08-22 01:15:56.902[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 运行统计: {'active_chats': 10, 'total_context_lines': 268, 'total_buffer_lines': 66, 'active_tasks': 0}
-[[38;5;240m2026-08-22 01:15:56.903[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:save_context:190)[0m [-] 上下文已写入磁盘
-[[38;5;240m2026-08-22 01:15:56.904[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 👋 再见！
-[[38;5;240m2026-08-22 01:15:56.906[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 应用程序已退出
-[[38;5;240m2026-08-22 01:15:57.347[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
-[[38;5;240m2026-08-22 01:15:57.992[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
-[[38;5;240m2026-08-22 01:15:58.008[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-22 01:15:58.772[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-22 01:15:58.772[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m🐱[0m 幻梦 KOOK Bot v2[38;5;207m.0[0m[38;5;207m.0[0m 正在启动...
-[[38;5;240m2026-08-22 01:15:58.773[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+# 更新于 2026-08-22 11:06:06 · 共 1500 行（来源 huanmeng.log 末尾）
 [[38;5;240m2026-08-22 01:15:58.777[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
 [[38;5;240m2026-08-22 01:15:58.778[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
 [[38;5;240m2026-08-22 01:15:58.779[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
@@ -1499,3 +1416,86 @@ UP主:
 [[38;5;240m2026-08-22 02:40:50.170[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m11464[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [[38;5;240m2026-08-22 02:41:07.687[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
 [[38;5;240m2026-08-22 02:41:20.631[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m11464[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+                                                                                                                                                                                                                                                                                                                                                                                                                  [[38;5;240m2026-08-22 11:05:46.146[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
+[[38;5;240m2026-08-22 11:05:46.365[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
+[[38;5;240m2026-08-22 11:06:01.648[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-22 11:06:01.649[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m🐱[0m 幻梦 KOOK Bot v2[38;5;207m.0[0m[38;5;207m.0[0m 正在启动...
+[[38;5;240m2026-08-22 11:06:01.652[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-22 11:06:01.682[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
+[[38;5;240m2026-08-22 11:06:01.690[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
+[[38;5;240m2026-08-22 11:06:01.705[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
+[[38;5;240m2026-08-22 11:06:01.714[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=True | 文件日志=True
+[[38;5;240m2026-08-22 11:06:01.725[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 日志系统已初始化
+[[38;5;240m2026-08-22 11:06:01.725[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[[38;5;240m2026-08-22 11:06:01.726[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl[38;5;207m.py[0m Bot 实例已创建
+[[38;5;240m2026-08-22 11:06:02.389[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Bot 自身信息: id=[38;5;226m659688244[0m name=茂密
+[[38;5;240m2026-08-22 11:06:02.389[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(sender:init_sender:46)[0m [-] 发送器已初始化 (Phase5 兼容层)
+[[38;5;240m2026-08-22 11:06:02.528[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 高风险更新审批回调已接线: request_update_approval
+[[38;5;240m2026-08-22 11:06:02.531[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息发送器已初始化
+[[38;5;240m2026-08-22 11:06:03.908[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:initialize:88)[0m [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m
+[[38;5;240m2026-08-22 11:06:03.967[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:_init_schema:107)[0m [-] 数据库表结构已就绪（含 FTS5）
+[[38;5;240m2026-08-22 11:06:03.968[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m)
+[[38;5;240m2026-08-22 11:06:03.973[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 用户名查询模块已初始化
+[[38;5;240m2026-08-22 11:06:03.976[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:_load_from_disk:53)[0m [-] 上下文已从磁盘恢复: 10 个对话
+[[38;5;240m2026-08-22 11:06:03.978[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:init_context:181)[0m [-] 上下文管理器已初始化（含磁盘持久化）
+[[38;5;240m2026-08-22 11:06:03.978[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 上下文管理器已初始化
+[[38;5;240m2026-08-22 11:06:03.994[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
+[[38;5;240m2026-08-22 11:06:03.994[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 事件分发器已就绪
+[[38;5;240m2026-08-22 11:06:03.995[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] ✏[38;5;219m️[0m 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[[38;5;240m2026-08-22 11:06:03.996[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息处理器已注册（TEXT/KMD）
+[[38;5;240m2026-08-22 11:06:04.079[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]points：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
+[[38;5;240m2026-08-22 11:06:04.080[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]shop：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
+[[38;5;240m2026-08-22 11:06:04.090[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:46)[0m [-] 跳过 _down：缺少 manifest[38;5;207m.json[0m
+[[38;5;240m2026-08-22 11:06:04.274[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.checkin[0m (command)
+[[38;5;240m2026-08-22 11:06:04.275[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.签到[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.sign[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.points[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.积分[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.shop[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.商店[0m (command)
+[[38;5;240m2026-08-22 11:06:04.276[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: checkin@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.296[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.抽[0m (command)
+[[38;5;240m2026-08-22 11:06:04.297[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.chou[0m (command)
+[[38;5;240m2026-08-22 11:06:04.297[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: chou@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.313[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.countdown[0m (command)
+[[38;5;240m2026-08-22 11:06:04.313[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.倒计时[0m (command)
+[[38;5;240m2026-08-22 11:06:04.313[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: countdown@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.322[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.echo[0m[38;5;207m.pecho[0m (command)
+[[38;5;240m2026-08-22 11:06:04.322[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: echo@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.eq[0m (command)
+[[38;5;240m2026-08-22 11:06:04.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.地震[0m (command)
+[[38;5;240m2026-08-22 11:06:04.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: eq@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.430[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.greet[0m[38;5;207m.pgreet[0m (command)
+[[38;5;240m2026-08-22 11:06:04.430[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(eventbus:subscribe:80)[0m [-] EventBus subscribe: greet[38;5;207m.ping[0m -> handler
+[[38;5;240m2026-08-22 11:06:04.431[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: greet@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.437[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.luck[0m[38;5;207m.luck[0m (command)
+[[38;5;240m2026-08-22 11:06:04.437[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: luck@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.450[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.motou[0m[38;5;207m.摸头[0m (command)
+[[38;5;240m2026-08-22 11:06:04.451[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.motou[0m[38;5;207m.motou[0m (command)
+[[38;5;240m2026-08-22 11:06:04.451[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: motou@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.468[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.nasa[0m[38;5;207m.nasa[0m (command)
+[[38;5;240m2026-08-22 11:06:04.468[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: nasa@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.479[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.pgr[0m[38;5;207m.pgr[0m (command)
+[[38;5;240m2026-08-22 11:06:04.479[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: pgr@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.491[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.sandbox[0m[38;5;207m.run_code[0m (tool)
+[[38;5;240m2026-08-22 11:06:04.492[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.sandbox[0m[38;5;207m.run[0m (command)
+[[38;5;240m2026-08-22 11:06:04.492[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: sandbox@1[38;5;207m.0[0m[38;5;207m.2[0m
+[[38;5;240m2026-08-22 11:06:04.521[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.tuf[0m[38;5;207m.tuf[0m (command)
+[[38;5;240m2026-08-22 11:06:04.522[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: tuf@2[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.529[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.weather[0m[38;5;207m.天气[0m (command)
+[[38;5;240m2026-08-22 11:06:04.529[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.weather[0m[38;5;207m.weather[0m (command)
+[[38;5;240m2026-08-22 11:06:04.529[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: weather@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.543[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.whois[0m (command)
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.域名[0m (command)
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: whois@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m✅[0m 所有组件[38;5;159m初始化完成[0m，准备连接 KOOK...
+[[38;5;240m2026-08-22 11:06:04.546[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-22 11:06:04.547[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 后台任务: 提醒+控制+地震+战绩+PC状态:[38;5;226m25002[0m+PC掉线检测+TTS:[38;5;226m25003[0m+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:[38;5;226m25004[0m+iPhone:[38;5;226m25005[0m
+[[38;5;240m2026-08-22 11:06:04.550[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(queues:start_render_queue:103)[0m [-] [[38;5;84m队列[0m] 渲染队列已启动
+[[38;5;240m2026-08-22 11:06:05.295[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:64)[0m [-] [[38;5;84mPlaywright[0m] 启动 Chromium（极致加速模式）...
+[[38;5;240m2026-08-22 11:06:05.306[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(remind:remind_checker_loop:167)[0m [-] 提醒轮询已启动（每30秒检查一次）
+[[38;5;240m2026-08-22 11:06:05.308[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:590)[0m [-] 上次采集 2026-08-22T00:01 距今超过 4h，启动时立即补采
+[[38;5;240m2026-08-22 11:06:05.365[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(wdsj_tracker:daily_stats_collect:73)[0m [-] 每日战绩采集: 2 个玩家 x 2 模板
+[[38;5;240m2026-08-22 11:06:05.869[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(rss:start_rss_service:299)[0m [-] [[38;5;84mRSS[0m] 订阅轮询服务启动
