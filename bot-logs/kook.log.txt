@@ -1,12 +1,4 @@
-# 更新于 2026-08-22 12:01:05 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-22 01:25:04.448[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_patched_consume_pkg:286)[0m [-] ✏[38;5;219m️[0m 编辑消息 → dispatcher: mid=2a18ef67-13e5-42c2-b28a-167c0c3029a1 chat=[38;5;226m6243254695867429[0m type=255
-[[38;5;240m2026-08-22 01:25:04.448[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=1 content='(met)[38;5;226m659688244[0m(met) 你看看内容' is_edit=True
-[[38;5;240m2026-08-22 01:25:04.449[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:110)[0m [223925ac95bd4242] KMD 调试: is_group=True uid=[38;5;226m1759953618[0m channel=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-22 01:25:04.449[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:294)[0m [223925ac95bd4242] [38;5;219m📩[0m 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss([38;5;226m1759953618[0m) | chat=[38;5;226m6243254695867429[0m | group=True | content='(met)[38;5;226m659688244[0m(met) 你看看内容'
-[[38;5;240m2026-08-22 01:25:04.449[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(queues:enqueue_message:75)[0m [223925ac95bd4242] [[38;5;84m队列[0m] 群6243254695867429 消息已入队 (队长度=1)
-[[38;5;240m2026-08-22 01:25:04.450[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:merge_overflow_memory:419)[0m [469844af11ca40dd] 长时记忆溢出缓冲: chat=[38;5;226m6243254695867429[0m +1 = [38;5;226m4条[0m (阈值=10)
-[[38;5;240m2026-08-22 01:25:04.451[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:500)[0m [469844af11ca40dd] 回复判断: is_mentioned=True is_group=True bot_qq=[38;5;226m659688244[0m content='@[38;5;226m659688244[0m  你看看内容'
-[[38;5;240m2026-08-22 01:25:04.451[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:process_message:535)[0m [469844af11ca40dd] @机器人检测(at_only) → 直接回复
+# 更新于 2026-08-22 12:01:53 · 共 1500 行（来源 huanmeng.log 末尾）
 [[38;5;240m2026-08-22 01:25:04.452[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:590)[0m [469844af11ca40dd] 请求意图: intent=chat fast_search=False msg='@[38;5;226m659688244[0m  你看看内容'
 [[38;5;240m2026-08-22 01:25:04.452[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(pipeline:process_message:638)[0m [469844af11ca40dd] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [[38;5;240m2026-08-22 01:25:04.456[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(memory:_record_memory_trace:318)[0m [469844af11ca40dd] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=[38;5;226m4[38;5;207m.2ms[0m[0m
@@ -1499,3 +1491,11 @@
 [[38;5;240m2026-08-22 12:00:47.909[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 1366)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Yeah, Billie Jean is not...**' keys=18
 [[38;5;240m2026-08-22 12:01:01.126[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(wdsj_tracker:daily_stats_collect:73)[0m [-] 每日战绩采集: 2 个玩家 x 2 模板
 [[38;5;240m2026-08-22 12:01:04.377[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(wdsj_tracker:daily_stats_collect:101)[0m [-] 每日战绩采集完成: 4 条新记录
+[[38;5;240m2026-08-22 12:01:06.203[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:648)[0m [-] 日榜目标频道: [[38;5;226m3649029148752421[0m]
+[[38;5;240m2026-08-22 12:01:07.402[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:652)[0m [-] 日榜已发到频道 [38;5;226m3649029148752421[0m
+[[38;5;240m2026-08-22 12:01:07.402[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:655)[0m [-] 日榜已推送: 2 人 (2026-08-22)
+[[38;5;240m2026-08-22 12:01:07.402[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:605)[0m [-] 战绩采集将在 3h59m 后执行 (16:01)
+[[38;5;240m2026-08-22 12:01:18.368[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 1366)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Yeah, Billie Jean is not...**' keys=18
+[[38;5;240m2026-08-22 12:01:45.459[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=-[38;5;226m388ms[0m]: '**▶ 一支榴莲 - 海底**' song=一支榴莲 - 海底 playing=True channel=None
+[[38;5;240m2026-08-22 12:01:45.460[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=-[38;5;226m388ms[0m]: '**你明明讨厌窒息**' song=一支榴莲 - 海底 playing=True channel=None
+[[38;5;240m2026-08-22 12:01:48.868[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 1366)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你明明讨厌窒息**' keys=18
