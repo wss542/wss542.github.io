@@ -1,39 +1,4 @@
-# 更新于 2026-08-22 11:06:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-22 01:15:58.777[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
-[[38;5;240m2026-08-22 01:15:58.778[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
-[[38;5;240m2026-08-22 01:15:58.779[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
-[[38;5;240m2026-08-22 01:15:58.780[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=True | 文件日志=True
-[[38;5;240m2026-08-22 01:15:58.780[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 日志系统已初始化
-[[38;5;240m2026-08-22 01:15:58.780[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[[38;5;240m2026-08-22 01:15:58.781[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl[38;5;207m.py[0m Bot 实例已创建
-[[38;5;240m2026-08-22 01:15:59.091[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Bot 自身信息: id=[38;5;226m659688244[0m name=茂密
-[[38;5;240m2026-08-22 01:15:59.092[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(sender:init_sender:46)[0m [-] 发送器已初始化 (Phase5 兼容层)
-[[38;5;240m2026-08-22 01:15:59.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 高风险更新审批回调已接线: request_update_approval
-[[38;5;240m2026-08-22 01:15:59.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息发送器已初始化
-[[38;5;240m2026-08-22 01:15:59.317[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:initialize:88)[0m [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m
-[[38;5;240m2026-08-22 01:15:59.337[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:_init_schema:107)[0m [-] 数据库表结构已就绪（含 FTS5）
-[[38;5;240m2026-08-22 01:15:59.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m)
-[[38;5;240m2026-08-22 01:15:59.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 用户名查询模块已初始化
-[[38;5;240m2026-08-22 01:15:59.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:_load_from_disk:53)[0m [-] 上下文已从磁盘恢复: 10 个对话
-[[38;5;240m2026-08-22 01:15:59.340[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:init_context:181)[0m [-] 上下文管理器已初始化（含磁盘持久化）
-[[38;5;240m2026-08-22 01:15:59.340[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 上下文管理器已初始化
-[[38;5;240m2026-08-22 01:15:59.342[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-22 01:15:59.343[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 事件分发器已就绪
-[[38;5;240m2026-08-22 01:15:59.343[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] ✏[38;5;219m️[0m 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[[38;5;240m2026-08-22 01:15:59.343[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息处理器已注册（TEXT/KMD）
-[[38;5;240m2026-08-22 01:15:59.348[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]points：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
-[[38;5;240m2026-08-22 01:15:59.348[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]shop：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
-[[38;5;240m2026-08-22 01:15:59.348[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:46)[0m [-] 跳过 _down：缺少 manifest[38;5;207m.json[0m
-[[38;5;240m2026-08-22 01:15:59.350[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.checkin[0m (command)
-[[38;5;240m2026-08-22 01:15:59.350[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.签到[0m (command)
-[[38;5;240m2026-08-22 01:15:59.350[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.sign[0m (command)
-[[38;5;240m2026-08-22 01:15:59.350[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.points[0m (command)
-[[38;5;240m2026-08-22 01:15:59.350[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.积分[0m (command)
-[[38;5;240m2026-08-22 01:15:59.351[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.shop[0m (command)
-[[38;5;240m2026-08-22 01:15:59.351[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.商店[0m (command)
-[[38;5;240m2026-08-22 01:15:59.351[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: checkin@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-22 01:15:59.351[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.抽[0m (command)
-[[38;5;240m2026-08-22 01:15:59.352[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.chou[0m (command)
+# 更新于 2026-08-22 11:06:36 · 共 1500 行（来源 huanmeng.log 末尾）
 [[38;5;240m2026-08-22 01:15:59.352[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: chou@1[38;5;207m.0[0m[38;5;207m.0[0m
 [[38;5;240m2026-08-22 01:15:59.352[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.countdown[0m (command)
 [[38;5;240m2026-08-22 01:15:59.353[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.倒计时[0m (command)
@@ -1499,3 +1464,38 @@
 [[38;5;240m2026-08-22 11:06:05.308[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:590)[0m [-] 上次采集 2026-08-22T00:01 距今超过 4h，启动时立即补采
 [[38;5;240m2026-08-22 11:06:05.365[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(wdsj_tracker:daily_stats_collect:73)[0m [-] 每日战绩采集: 2 个玩家 x 2 模板
 [[38;5;240m2026-08-22 11:06:05.869[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(rss:start_rss_service:299)[0m [-] [[38;5;84mRSS[0m] 订阅轮询服务启动
+[[38;5;240m2026-08-22 11:06:07.439[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_pc_offline_checker:694)[0m [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 [38;5;226m1010983873136793[0m（历史心跳 30309s 前）
+[[38;5;240m2026-08-22 11:06:07.446[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(stats:midnight_report_loop:394)[0m [-] 每日统计推送已启动（等待凌晨0点...）
+[[38;5;240m2026-08-22 11:06:07.487[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:start_pc_server:834)[0m [-] PC 状态 TCP 接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25002[0m
+[[38;5;240m2026-08-22 11:06:07.488[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(tts:start_tts_server:193)[0m [-] TTS 节点接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25003[0m (等待第二台电脑连接...)
+[[38;5;240m2026-08-22 11:06:07.488[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(phone_status:start_phone_server:384)[0m [-] iPhone 状态 HTTP 收数端: 127[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.1[0m:[38;5;226m25005[0m (POST /phone?key=...)
+[[38;5;240m2026-08-22 11:06:07.488[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(update_webhook:start_update_webhook:140)[0m [-] GitHub 更新 Webhook 已监听 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25004[0m
+[[38;5;240m2026-08-22 11:06:07.488[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(earthquake:_start_eq_webserver:685)[0m [-] EQ监视器已启动 → http://0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25001[0m
+[[38;5;240m2026-08-22 11:06:08.295[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(notify_system:_send_to_targets:516)[0m [-] notify 已发送 1/1 个频道
+[[38;5;240m2026-08-22 11:06:08.296[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(notify_system:check_github_update:739)[0m [-] 更新通知已发(FEAT): local=09a8ac5 remote=d0abd62 commits=0
+[[38;5;240m2026-08-22 11:06:09.020[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:refresh_holiday:57)[0m [-] 节假日: 2026-08-22 → 周六
+[[38;5;240m2026-08-22 11:06:09.021[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:start_holiday_service:105)[0m [-] 节假日服务已启动
+[[38;5;240m2026-08-22 11:06:09.078[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:_daily_loop:96)[0m [-] 节假日每日刷新: 等待 [38;5;226m46436[0m 秒 (下次 00:00:05)
+[[38;5;240m2026-08-22 11:06:11.250[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(music_status:set_music:221)[0m [-] 已设置正在听: 当前版本: 2[38;5;207m.0[0m[38;5;207m.0[0m / 2[38;5;207m.0[0m[38;5;207m.0[0m / cloudmusic
+[[38;5;240m2026-08-22 11:06:11.251[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-22 11:06:13.347[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(wdsj_tracker:daily_stats_collect:101)[0m [-] 每日战绩采集完成: 4 条新记录
+[[38;5;240m2026-08-22 11:06:13.352[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:605)[0m [-] 战绩采集将在 0h54m 后执行 (12:01)
+[[38;5;240m2026-08-22 11:06:17.642[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:93)[0m [-] [[38;5;84mPlaywright[0m] Chromium [38;5;159m启动成功[0m（极致加速已启用）
+[[38;5;240m2026-08-22 11:06:17.644[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Chromium 已预启动 + 渲染队列就绪
+[[38;5;240m2026-08-22 11:06:20.944[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:46)[0m [-] PC 客户端[38;5;159m已连接[0m
+[[38;5;240m2026-08-22 11:06:21.905[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 9900)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**▶ 水木年华 - 一生有你**' keys=18
+[[38;5;240m2026-08-22 11:06:21.906[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82856ms[0m]: '**▶ 水木年华 - 一生有你**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.906[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82853ms[0m]: '**因为梦见你离开　我从哭泣中醒来**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.906[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82854ms[0m]: '**看夜风吹过窗台　你能否感受我的爱**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.906[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82854ms[0m]: '**等到老去那一天　你是否还在我身边**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82854ms[0m]: '**看那些誓言谎言　随往事慢慢飘散**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82854ms[0m]: '**多少人曾爱慕你年轻时的容颜　可知谁愿承受岁月无情的变迁**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**多少人曾在你生命中来了又还　可知一生有你我都陪在你身边**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**因为梦见你离开　我从哭泣中醒来**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**看夜风吹过窗台　你能否感受我的爱**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.907[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**等到老去那一天　你是否还在我身边**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.908[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**看那些誓言谎言　随往事慢慢飘散**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.908[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82855ms[0m]: '**多少人曾爱慕你年轻时的容颜　可知谁愿承受岁月无情的变迁**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.908[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82856ms[0m]: '**多少人曾在你生命中来了又还　可知一生有你我都陪在你身边**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.908[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82856ms[0m]: '**当所有一切都已看平淡　是否有一种坚持还留在心间**' song=水木年华 - 一生有你 playing=False channel=None
+[[38;5;240m2026-08-22 11:06:21.909[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m82856ms[0m]: '**多少人曾爱慕你年轻时的容颜　可知谁愿承受岁月无情的变迁**' song=水木年华 - 一生有你 playing=False channel=None
