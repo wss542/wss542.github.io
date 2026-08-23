@@ -1,31 +1,4 @@
-# 更新于 2026-08-24 01:18:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:28:35.661] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ff99a75e68514b95] KMD 调试: is_group=True uid=2498442259 channel=7274785942250691
-[2026-08-24 00:28:35.661] [INFO    ] (dispatcher:_dispatch_inner:211) [ff99a75e68514b95] 🔗 正文解析到 1 个图片直链
-[2026-08-24 00:28:35.665] [INFO    ] (dispatcher:_dispatch_inner:308) [ff99a75e68514b95] 📩 消息 #7 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=翊鱼不是宇(2498442259) | chat=7274785942250691 | group=True | content='https://img.kookapp.cn/attachments/2026-08/24/0MWRSZp5Uh0u01uo.jpeg'
-[2026-08-24 00:28:35.667] [INFO    ] (dispatcher:_dispatch_inner:384) [ff99a75e68514b95] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-24 00:28:35.667] [INFO    ] (image_api:recognize_image:150) [ff99a75e68514b95] [chat=7274785942250691] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/0MWRSZp5Uh0u01...
-[2026-08-24 00:28:35.735] [INFO    ] (image_api:recognize_image:159) [ff99a75e68514b95] [chat=7274785942250691] 图片下载成功: 128020 bytes
-[2026-08-24 00:28:35.735] [INFO    ] (image_api:get:86) [ff99a75e68514b95] 图片识别缓存命中 MD5=4003244acc9d... → '这是一张测试结果的截图，显示了一个人的抽象圈大手测试结果。图中有一个穿着西装的男...'
-[2026-08-24 00:28:35.736] [INFO    ] (dispatcher:_do_recognize_image:914) [ff99a75e68514b95] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '这是一张测试结果的截图，显示了一个人的抽象圈大手测试结果。图中有一个穿着西装的男人照片，下方列出了几个属性和对应的数值，包括“抽象度”、“攻击性”、“嘴硬度”等...' (144字) url=https://img.kookapp.cn/attachments/2026-08/24/0MWRSZp5Uh0u01
-[2026-08-24 00:28:35.736] [INFO    ] (dispatcher:_dispatch_inner:400) [ff99a75e68514b95] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '这是一张测试结果的截图，显示了一个人的抽象圈大手测试结果。图中有一个穿着西装的男人照片，下方列出了几...'
-[2026-08-24 00:28:35.736] [INFO    ] (queues:_get_or_create_queue:32) [ff99a75e68514b95] [队列] 创建群7274785942250691 的独立消息队列
-[2026-08-24 00:28:35.737] [DEBUG   ] (queues:enqueue_message:75) [ff99a75e68514b95] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-24 00:28:35.737] [INFO    ] (pipeline:process_message:367) [97b4625b6efa4964] 附带图片已记录 [chat=7274785942250691] count=1
-[2026-08-24 00:28:35.738] [INFO    ] (memory:merge_overflow_memory:419) [97b4625b6efa4964] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-[2026-08-24 00:28:35.739] [DEBUG   ] (pipeline:process_message:500) [97b4625b6efa4964] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
-[2026-08-24 00:28:35.740] [INFO    ] (logger:log_trace_summary:306) [97b4625b6efa4964] [TRACE 97b4625b6efa4964] total=2.87ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.83ms(x1) (wall2.83), queue_wait=0.51ms(x1)
-[2026-08-24 00:28:35.853] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:28:35.854] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/24/NkW8rPk7pB0u01uo.jpeg' is_edit=False
-[2026-08-24 00:28:35.854] [DEBUG   ] (dispatcher:_dispatch_inner:110) [998911e4782e451c] KMD 调试: is_group=True uid=2498442259 channel=7274785942250691
-[2026-08-24 00:28:35.854] [INFO    ] (dispatcher:_dispatch_inner:211) [998911e4782e451c] 🔗 正文解析到 1 个图片直链
-[2026-08-24 00:28:35.854] [INFO    ] (dispatcher:_dispatch_inner:308) [998911e4782e451c] 📩 消息 #8 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=翊鱼不是宇(2498442259) | chat=7274785942250691 | group=True | content='https://img.kookapp.cn/attachments/2026-08/24/NkW8rPk7pB0u01uo.jpeg'
-[2026-08-24 00:28:35.855] [INFO    ] (dispatcher:_dispatch_inner:384) [998911e4782e451c] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-24 00:28:35.856] [INFO    ] (image_api:recognize_image:150) [998911e4782e451c] [chat=7274785942250691] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/NkW8rPk7pB0u01...
-[2026-08-24 00:28:35.939] [INFO    ] (image_api:recognize_image:159) [998911e4782e451c] [chat=7274785942250691] 图片下载成功: 174429 bytes
-[2026-08-24 00:28:35.940] [INFO    ] (image_api:get:86) [998911e4782e451c] 图片识别缓存命中 MD5=346ef5ae1823... → '这是一张测试灵魂动物的界面截图，显示测试结果是“黄金蛆”。页面顶部有“测一测你的...'
-[2026-08-24 00:28:35.940] [INFO    ] (dispatcher:_do_recognize_image:914) [998911e4782e451c] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '这是一张测试灵魂动物的界面截图，显示测试结果是“黄金蛆”。页面顶部有“测一测你的灵魂动物·雾雨...”的文字和返回按钮、登录按钮等。中间部分有一只绿色的毛毛虫图...' (196字) url=https://img.kookapp.cn/attachments/2026-08/24/NkW8rPk7pB0u01
-[2026-08-24 00:28:35.941] [INFO    ] (dispatcher:_dispatch_inner:400) [998911e4782e451c] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '这是一张测试灵魂动物的界面截图，显示测试结果是“黄金蛆”。页面顶部有“测一测你的灵魂动物·雾雨......'
-[2026-08-24 00:28:35.941] [DEBUG   ] (queues:enqueue_message:75) [998911e4782e451c] [队列] 群7274785942250691 消息已入队 (队长度=1)
+# 更新于 2026-08-24 01:18:39 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:28:35.941] [INFO    ] (pipeline:process_message:367) [fe75400d44e04bb8] 附带图片已记录 [chat=7274785942250691] count=1
 [2026-08-24 00:28:35.942] [INFO    ] (memory:merge_overflow_memory:419) [fe75400d44e04bb8] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
 [2026-08-24 00:28:35.943] [DEBUG   ] (pipeline:process_message:500) [fe75400d44e04bb8] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
@@ -1499,3 +1472,30 @@
 [2026-08-24 01:18:03.513] [INFO    ] (memory:merge_overflow_memory:419) [977f1303234441dd] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
 [2026-08-24 01:18:03.514] [DEBUG   ] (pipeline:process_message:500) [977f1303234441dd] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='但你没回答我'
 [2026-08-24 01:18:03.514] [INFO    ] (logger:log_trace_summary:306) [977f1303234441dd] [TRACE 977f1303234441dd] total=1.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.67ms(x1) (wall1.67), queue_wait=0.69ms(x1)
+[2026-08-24 01:18:09.726] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:18:13.959] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-24 01:18:14.776] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:18:14.776] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵？' is_edit=False
+[2026-08-24 01:18:14.776] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6f9834d7820c4bf1] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:18:14.777] [INFO    ] (dispatcher:_dispatch_inner:308) [6f9834d7820c4bf1] 📩 消息 #47 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='喵？'
+[2026-08-24 01:18:14.778] [DEBUG   ] (queues:enqueue_message:75) [6f9834d7820c4bf1] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:18:14.780] [INFO    ] (memory:merge_overflow_memory:419) [9146d580c4eb4c2c] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
+[2026-08-24 01:18:14.780] [DEBUG   ] (pipeline:process_message:500) [9146d580c4eb4c2c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵？'
+[2026-08-24 01:18:14.781] [INFO    ] (logger:log_trace_summary:306) [9146d580c4eb4c2c] [TRACE 9146d580c4eb4c2c] total=1.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.26ms(x1) (wall1.26), queue_wait=0.95ms(x1)
+[2026-08-24 01:18:19.543] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=78.4 mem=75.3
+[2026-08-24 01:18:30.148] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:18:30.148] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(emj)哭泣(emj)[3090677846298039/qbp5Fw6gz40nm0ny] ' is_edit=False
+[2026-08-24 01:18:30.149] [DEBUG   ] (dispatcher:_dispatch_inner:110) [97b48f81e61046dc] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:18:30.149] [INFO    ] (dispatcher:_dispatch_inner:194) [97b48f81e61046dc] 🧩 消息内解析到 1 个服务器表情
+[2026-08-24 01:18:30.149] [INFO    ] (dispatcher:_dispatch_inner:308) [97b48f81e61046dc] 📩 消息 #48 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='[表情] '
+[2026-08-24 01:18:30.150] [INFO    ] (dispatcher:_dispatch_inner:384) [97b48f81e61046dc] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-24 01:18:30.151] [INFO    ] (image_api:recognize_image:150) [97b48f81e61046dc] [chat=7274785942250691] 开始下载图片: https://img.kookapp.cn/emojis/3090677846298039/qbp5Fw6gz40nm...
+[2026-08-24 01:18:30.218] [INFO    ] (image_api:recognize_image:159) [97b48f81e61046dc] [chat=7274785942250691] 图片下载成功: 76036 bytes
+[2026-08-24 01:18:30.219] [INFO    ] (image_api:get:86) [97b48f81e61046dc] 图片识别缓存命中 MD5=7a9115b76c27... → '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色...'
+[2026-08-24 01:18:30.219] [INFO    ] (dispatcher:_do_recognize_image:914) [97b48f81e61046dc] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色的眼睛，脸颊上流下了两行泪水。她的表情看起来非常伤心和难过。背景是木制的地板。 ...' (122字) url=https://img.kookapp.cn/emojis/3090677846298039/qbp5Fw6gz40nm
+[2026-08-24 01:18:30.221] [INFO    ] (dispatcher:_dispatch_inner:400) [97b48f81e61046dc] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色的眼睛，脸颊上流下了...'
+[2026-08-24 01:18:30.221] [DEBUG   ] (queues:enqueue_message:75) [97b48f81e61046dc] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:18:30.222] [INFO    ] (pipeline:process_message:367) [47c952b0890c40b0] 附带图片已记录 [chat=7274785942250691] count=1
+[2026-08-24 01:18:30.222] [INFO    ] (memory:merge_overflow_memory:419) [47c952b0890c40b0] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 8条 (阈值=10)
+[2026-08-24 01:18:30.223] [DEBUG   ] (pipeline:process_message:500) [47c952b0890c40b0] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+[2026-08-24 01:18:30.223] [INFO    ] (logger:log_trace_summary:306) [47c952b0890c40b0] [TRACE 47c952b0890c40b0] total=1.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.34ms(x1) (wall1.34), queue_wait=0.56ms(x1)
