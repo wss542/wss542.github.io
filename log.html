@@ -342,7 +342,8 @@ var logs=[
   {time:'2026-07-25 22:00:00', lv:'WARNING',src:'setup',  msg:'之前装桌面把磁盘撑爆，系统卡在启动日志，已重装干净系统'}
 ];
 
-function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function stripAnsi(s){ return String(s).replace(/\x1b\[[0-9;]*m/g,''); }
+function esc(s){return String(stripAnsi(s)).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function colorMsg(msg){
   return esc(msg)
     .replace(/$$([^$$]+)\]/g,function(m,c){return '[<span class="mod">'+c+'</span>]';})
@@ -458,13 +459,20 @@ var pollTimer=null;
 function parseMine(t){
   var arr=t.trim().split('\n').filter(Boolean);
   for(var i=0;i<arr.length;i++){
-    if(arr[i].indexOf('欢迎')!==-1 && arr[i].length>20){ setBanner(arr[i].slice(20)); break; }
+    if(arr[i].indexOf('欢迎')!==-1 && arr[i].length>20){ setBanner(stripAnsi(arr[i]).slice(20)); break; }
   }
   logs=[];
+  var lineRe = /^\[(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}(?:\.\d+)?)\]\s*\[(\w+)\s*\]\s*\(([^)]+)\)\s*(?:\[([^\]]*)\])?\s*(.*)$/;
   for(var i=0;i<arr.length;i++){
-    var line=arr[i];
-    if(line.indexOf('欢迎')!==-1) continue;   // 跳过欢迎行
-    if(line.length>20){
+    var line=stripAnsi(arr[i]);
+    if(line.indexOf('欢迎')!==-1) continue;
+    if(line.length<=20) continue;
+    var m=line.match(lineRe);
+    if(m){
+      var lv=m[2].toUpperCase();
+      if(['INFO','DEBUG','WARNING','ERROR'].indexOf(lv)===-1) lv='INFO';
+      logs.push({time:m[1].slice(0,19), lv:lv, src:m[3]||'bot', msg:(m[4]?('['+m[4]+'] '):'')+(m[5]||'')});
+    }else{
       logs.push({time:line.slice(0,19), lv:'COMMAND', src:'shell', msg:line.slice(20)});
     }
   }
