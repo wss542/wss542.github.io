@@ -1,13 +1,4 @@
-# 更新于 2026-08-24 01:38:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:39:47.764] [DEBUG   ] (pipeline:process_message:1575) [58b23efd6766490e] Fast Path 主题已记录: chat=6243254695867429 topic='没跟你说话的时候闭嘴'
-[2026-08-24 00:39:47.764] [INFO    ] (logger:log_trace_summary:306) [58b23efd6766490e] [TRACE 58b23efd6766490e] total=2937.5ms severity=normal | llm_calls=1 total=2924.55ms avg=2924.55ms max=2924.55ms p50=2924.55 p95=2924.55 p99=2924.55 | json_parse=0.02ms(x1), llm=2926.37ms(x1), memory=8.45ms(x2), process=2937.44ms(x1) (wall2937.44), queue_wait=0.3ms(x1)
-[2026-08-24 00:39:47.765] [INFO    ] (memory:merge_overflow_memory:419) [f8f2ae871eac414b] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
-[2026-08-24 00:39:47.768] [DEBUG   ] (pipeline:process_message:500) [f8f2ae871eac414b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='哈哈哈'
-[2026-08-24 00:39:47.770] [INFO    ] (pipeline:process_message:544) [f8f2ae871eac414b] 免@模式 → 直接回复（跳过 judge）
-[2026-08-24 00:39:47.772] [DEBUG   ] (pipeline:process_message:591) [f8f2ae871eac414b] 请求意图: intent=chat fast_search=False msg='哈哈哈'
-[2026-08-24 00:39:47.773] [WARNING ] (pipeline:process_message:639) [f8f2ae871eac414b] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-24 00:39:47.774] [DEBUG   ] (response_delivery:send_sentences:227) [58b23efd6766490e] 开始分批发送 2 条句子 → chat=6243254695867429 is_group=True
-[2026-08-24 00:39:47.786] [DEBUG   ] (memory:_record_memory_trace:318) [f8f2ae871eac414b] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=12.8ms
+# 更新于 2026-08-24 01:39:24 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:39:47.789] [DEBUG   ] (pipeline:process_message:795) [f8f2ae871eac414b] extra_info 按预算丢弃 1 项: ['memory:memory']
 [2026-08-24 00:39:47.789] [INFO    ] (pipeline:process_message:799) [f8f2ae871eac414b] 额外信息: 329字 (memory=0 search=0)
 [2026-08-24 00:39:47.792] [INFO    ] (pipeline:process_message:932) [f8f2ae871eac414b] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
@@ -1499,3 +1490,12 @@
 [2026-08-24 01:38:40.135] [DEBUG   ] (pipeline:process_message:500) [8af4f10b0b8c4398] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵？'
 [2026-08-24 01:38:40.135] [INFO    ] (logger:log_trace_summary:306) [8af4f10b0b8c4398] [TRACE 8af4f10b0b8c4398] total=1.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.16ms(x1) (wall1.16), queue_wait=0.25ms(x1)
 [2026-08-24 01:38:51.222] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=83.7 mem=74.6
+[2026-08-24 01:39:09.445] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:39:18.592] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:39:18.592] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
+[2026-08-24 01:39:18.593] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8b6a96b5c9a04377] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-24 01:39:18.593] [INFO    ] (dispatcher:_dispatch_inner:308) [8b6a96b5c9a04377] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='？'
+[2026-08-24 01:39:18.594] [DEBUG   ] (queues:enqueue_message:75) [8b6a96b5c9a04377] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-24 01:39:18.594] [INFO    ] (memory:merge_overflow_memory:419) [0f69142fa4924c9f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-24 01:39:18.595] [DEBUG   ] (pipeline:process_message:500) [0f69142fa4924c9f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+[2026-08-24 01:39:18.595] [INFO    ] (logger:log_trace_summary:306) [0f69142fa4924c9f] [TRACE 0f69142fa4924c9f] total=1.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.96ms(x1) (wall0.96), queue_wait=0.27ms(x1)
