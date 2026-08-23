@@ -1,29 +1,4 @@
-# 更新于 2026-08-24 01:37:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:39:44.827] [INFO    ] (memory:merge_overflow_memory:419) [58b23efd6766490e] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 8条 (阈值=10)
-[2026-08-24 00:39:44.827] [DEBUG   ] (pipeline:process_message:500) [58b23efd6766490e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='没跟你说话的时候闭嘴'
-[2026-08-24 00:39:44.828] [INFO    ] (pipeline:process_message:544) [58b23efd6766490e] 免@模式 → 直接回复（跳过 judge）
-[2026-08-24 00:39:44.828] [DEBUG   ] (pipeline:process_message:591) [58b23efd6766490e] 请求意图: intent=chat fast_search=False msg='没跟你说话的时候闭嘴'
-[2026-08-24 00:39:44.828] [WARNING ] (pipeline:process_message:639) [58b23efd6766490e] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-24 00:39:44.832] [DEBUG   ] (memory:_record_memory_trace:318) [58b23efd6766490e] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=4.0ms
-[2026-08-24 00:39:44.833] [DEBUG   ] (pipeline:process_message:795) [58b23efd6766490e] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-24 00:39:44.833] [INFO    ] (pipeline:process_message:799) [58b23efd6766490e] 额外信息: 189字 (memory=0 search=0)
-[2026-08-24 00:39:44.834] [INFO    ] (pipeline:process_message:932) [58b23efd6766490e] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-24 00:39:44.835] [DEBUG   ] (pipeline:process_message:1061) [58b23efd6766490e] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-24 00:39:44.835] [INFO    ] (pipeline:process_message:1064) [58b23efd6766490e] 开始生成回复: speaker=名字 chat=6243254695867429
-[2026-08-24 00:39:45.155] [DEBUG   ] (response_delivery:send_sentences:241) [df68dc898d96499a] 已发送第 2/2 条: 不会打扰大家了...
-[2026-08-24 00:39:45.155] [DEBUG   ] (response_delivery:send_sentences:243) [df68dc898d96499a] 分批发送完成: 共 2 条 → chat=6243254695867429
-[2026-08-24 00:39:45.155] [DEBUG   ] (context_manager:_on_task_done:139) [df68dc898d96499a] 发送任务已清理 [6243254695867429]
-[2026-08-24 00:39:45.159] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:39:45.187] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:39:45.187] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='哈哈哈' is_edit=False
-[2026-08-24 00:39:45.187] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0d619d5568ee415e] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-24 00:39:45.188] [INFO    ] (dispatcher:_dispatch_inner:308) [0d619d5568ee415e] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='哈哈哈'
-[2026-08-24 00:39:45.188] [DEBUG   ] (queues:enqueue_message:75) [0d619d5568ee415e] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-24 00:39:47.760] [INFO    ] (llm:generate_multi_reply_with_tools:971) [58b23efd6766490e] LLM原始输出 [轮1]: content={"replies":["好的，我保持安静。","不会打扰大家了。"],"fav":-2,"calls":[],"face":"(emj)捂脸(emj)[3090677846298039/Y2AgLiuQXn0ey0dy]","mood":"平静","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"名字","qq" | tool_calls=0
-[2026-08-24 00:39:47.760] [INFO    ] (llm:_parse_reply:1314) [58b23efd6766490e] JSON回复解析: 2句 fav=-2 calls=0 mood=平静
-[2026-08-24 00:39:47.763] [INFO    ] (fav:update_fav:105) [58b23efd6766490e] 好感度更新: g6243254695867429:3671686013 -2 → 44
-[2026-08-24 00:39:47.763] [INFO    ] (pipeline:process_message:1547) [58b23efd6766490e] 好感度调整: 名字 -2 (chat=6243254695867429)
-[2026-08-24 00:39:47.764] [INFO    ] (pipeline:process_message:1553) [58b23efd6766490e] ✅ 管道处理完成: 2句 sent chat=6243254695867429
+# 更新于 2026-08-24 01:38:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:39:47.764] [DEBUG   ] (pipeline:process_message:1575) [58b23efd6766490e] Fast Path 主题已记录: chat=6243254695867429 topic='没跟你说话的时候闭嘴'
 [2026-08-24 00:39:47.764] [INFO    ] (logger:log_trace_summary:306) [58b23efd6766490e] [TRACE 58b23efd6766490e] total=2937.5ms severity=normal | llm_calls=1 total=2924.55ms avg=2924.55ms max=2924.55ms p50=2924.55 p95=2924.55 p99=2924.55 | json_parse=0.02ms(x1), llm=2926.37ms(x1), memory=8.45ms(x2), process=2937.44ms(x1) (wall2937.44), queue_wait=0.3ms(x1)
 [2026-08-24 00:39:47.765] [INFO    ] (memory:merge_overflow_memory:419) [f8f2ae871eac414b] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
@@ -1499,3 +1474,28 @@
 [2026-08-24 01:37:07.454] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 01:37:36.268] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=62.8 mem=74.1
 [2026-08-24 01:37:37.855] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:38:08.432] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:38:09.534] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=64.8 mem=74.2
+[2026-08-24 01:38:27.982] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:38:27.982] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/sys' is_edit=False
+[2026-08-24 01:38:27.983] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a62c99a085a84548] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
+[2026-08-24 01:38:27.983] [INFO    ] (dispatcher:_dispatch_inner:308) [a62c99a085a84548] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='/sys'
+[2026-08-24 01:38:27.983] [INFO    ] (queues:_get_or_create_queue:32) [a62c99a085a84548] [队列] 创建群6243254695867429 的独立消息队列
+[2026-08-24 01:38:27.983] [DEBUG   ] (queues:enqueue_message:75) [a62c99a085a84548] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-24 01:38:27.984] [INFO    ] (memory:merge_overflow_memory:419) [304cc01bea6d449b] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-24 01:38:27.985] [INFO    ] (pipeline:process_message:470) [304cc01bea6d449b] 指令拦截: '/sys' from=제미니 (shuangzi_1228)
+[2026-08-24 01:38:27.985] [DEBUG   ] (commands:handle_command:4508) [304cc01bea6d449b] 指令解析: prefix=/ cmd=sys args=[] user=337936062
+[2026-08-24 01:38:27.986] [ERROR   ] (commands:handle_command:4557) [304cc01bea6d449b] 指令执行异常 [sys]: NameError: name 're' is not defined
+[2026-08-24 01:38:33.658] [INFO    ] (logger:log_trace_summary:306) [304cc01bea6d449b] [TRACE 304cc01bea6d449b] total=5673.7ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5673.64ms(x1) (wall5673.64), queue_wait=0.69ms(x1)
+[2026-08-24 01:38:33.658] [WARNING ] (logger:log_trace_summary:329) [304cc01bea6d449b] [SLOW 304cc01bea6d449b] total=5674.03ms | process=5673.64ms(x1) (wall5673.64), queue_wait=0.69ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.69ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5673.64ms wall=5674.01ms dominant=other
+[2026-08-24 01:38:33.659] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:38:38.902] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:38:40.131] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:38:40.131] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵？' is_edit=False
+[2026-08-24 01:38:40.132] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3e69813385214540] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
+[2026-08-24 01:38:40.132] [INFO    ] (dispatcher:_dispatch_inner:308) [3e69813385214540] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='喵？'
+[2026-08-24 01:38:40.134] [DEBUG   ] (queues:enqueue_message:75) [3e69813385214540] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-24 01:38:40.134] [INFO    ] (memory:merge_overflow_memory:419) [8af4f10b0b8c4398] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-24 01:38:40.135] [DEBUG   ] (pipeline:process_message:500) [8af4f10b0b8c4398] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵？'
+[2026-08-24 01:38:40.135] [INFO    ] (logger:log_trace_summary:306) [8af4f10b0b8c4398] [TRACE 8af4f10b0b8c4398] total=1.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.16ms(x1) (wall1.16), queue_wait=0.25ms(x1)
+[2026-08-24 01:38:51.222] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=83.7 mem=74.6
