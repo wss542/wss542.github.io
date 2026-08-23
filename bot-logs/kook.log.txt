@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 02:06:26 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:47:34.340] [INFO    ] (pipeline:process_message:1547) [5976af95e65b4b4e] 好感度调整: ywandwss +2 (chat=6243254695867429)
-[2026-08-24 00:47:34.340] [INFO    ] (pipeline:process_message:1553) [5976af95e65b4b4e] ✅ 管道处理完成: 3句 sent chat=6243254695867429
-[2026-08-24 00:47:34.340] [DEBUG   ] (pipeline:process_message:1575) [5976af95e65b4b4e] Fast Path 主题已记录: chat=6243254695867429 topic='@659688244  那你试试随便生成一个小网站'
+# 更新于 2026-08-24 02:07:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:47:34.340] [INFO    ] (logger:log_trace_summary:306) [5976af95e65b4b4e] [TRACE 5976af95e65b4b4e] total=32291.43ms severity=very_slow_request | llm_calls=3 total=29922.99ms avg=9974.33ms max=15809.1ms p50=7346.34 p95=14962.82 p99=15639.84 | tools=run_code:OK:1451.2ms,run_code:OK:1451.25ms,run_code:OK:895.15ms,run_code:OK:895.18ms | json_parse=0.07ms(x1), llm=32275.45ms(x1), memory=13.06ms(x2), process=32291.35ms(x1) (wall32291.35), queue_wait=0.67ms(x1), tool=4692.77ms(x4)
 [2026-08-24 00:47:34.341] [WARNING ] (logger:log_trace_summary:324) [5976af95e65b4b4e] [VERY_SLOW 5976af95e65b4b4e] total=32291.81ms 需重点排查 | json_parse=0.07ms(x1), llm=32275.45ms(x1), memory=13.06ms(x2), process=32291.35ms(x1) (wall32291.35), queue_wait=0.67ms(x1), tool=4692.77ms(x4) | llm_calls=3 total=29922.99ms avg=9974.33ms max=15809.1ms p50=7346.34 p95=14962.82 p99=15639.84 | perf: queue=0.67ms llm=32275.52ms search_tool=4692.77ms delivery=0.0ms other=32304.41ms wall=32291.75ms dominant=other
 [2026-08-24 00:47:34.341] [DEBUG   ] (response_delivery:send_sentences:227) [5976af95e65b4b4e] 开始分批发送 3 条句子 → chat=6243254695867429 is_group=True
@@ -1499,3 +1496,6 @@
 [2026-08-24 02:06:20.966] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 78824 秒 (下次 00:00:05)
 [2026-08-24 02:06:22.306] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
 [2026-08-24 02:06:22.307] [INFO    ] (logger:info:249) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
+[2026-08-24 02:06:30.030] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=79.0
+[2026-08-24 02:06:51.520] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 02:07:11.376] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=58.9 mem=78.9
