@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 02:28:08 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 01:03:09.659] [INFO    ] (dispatcher:_dispatch_inner:308) [4632dcdd03114d83] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/pc'
-[2026-08-24 01:03:09.659] [DEBUG   ] (queues:enqueue_message:75) [4632dcdd03114d83] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-24 01:03:09.663] [INFO    ] (memory:merge_overflow_memory:419) [1bdb9548eef64f3c] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
+# 更新于 2026-08-24 02:28:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 01:03:09.664] [INFO    ] (pipeline:process_message:470) [1bdb9548eef64f3c] 指令拦截: '/pc' from=ywandwss
 [2026-08-24 01:03:09.664] [DEBUG   ] (commands:handle_command:4508) [1bdb9548eef64f3c] 指令解析: prefix=/ cmd=pc args=[] user=1759953618
 [2026-08-24 01:03:09.668] [INFO    ] (changelog:render_card_to_image:801) [1bdb9548eef64f3c] [Card] 正在截图 → sys_1ec3b095.jpg (16257 bytes HTML)
@@ -1499,3 +1496,6 @@
 [2026-08-24 02:27:10.474] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 02:27:40.989] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 02:27:43.656] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=72.1 mem=76.6
+[2026-08-24 02:28:11.328] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 02:28:25.871] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=59.1 mem=77.0
+[2026-08-24 02:28:41.936] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
