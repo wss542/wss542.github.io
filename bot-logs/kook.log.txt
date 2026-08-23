@@ -1,105 +1,4 @@
-# 更新于 2026-08-23 12:42:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-23 11:46:40.337[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: weather@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-23 11:46:40.337[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.whois[0m (command)
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.域名[0m (command)
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: whois@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m✅[0m 所有组件[38;5;159m初始化完成[0m，准备连接 KOOK...
-[[38;5;240m2026-08-23 11:46:40.338[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-23 11:46:40.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 后台任务: 提醒+控制+地震+战绩+PC状态:[38;5;226m25002[0m+PC掉线检测+TTS:[38;5;226m25003[0m+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:[38;5;226m25004[0m+iPhone:[38;5;226m25005[0m
-[[38;5;240m2026-08-23 11:46:40.339[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(queues:start_render_queue:103)[0m [-] [[38;5;84m队列[0m] 渲染队列已启动
-[[38;5;240m2026-08-23 11:46:40.360[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:64)[0m [-] [[38;5;84mPlaywright[0m] 启动 Chromium（极致加速模式）...
-[[38;5;240m2026-08-23 11:46:40.360[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(remind:remind_checker_loop:167)[0m [-] 提醒轮询已启动（每30秒检查一次）
-[[38;5;240m2026-08-23 11:46:40.361[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:656)[0m [-] 战绩采集将在 0h14m 后执行 (12:01)
-[[38;5;240m2026-08-23 11:46:40.393[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(rss:start_rss_service:299)[0m [-] [[38;5;84mRSS[0m] 订阅轮询服务启动
-[[38;5;240m2026-08-23 11:46:55.410[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(notify_system:_git_ls_remote_sha:655)[0m [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[[38;5;240m2026-08-23 11:46:55.416[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_pc_offline_checker:754)[0m [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 [38;5;226m1010983873136793[0m（历史心跳 189s 前）
-[[38;5;240m2026-08-23 11:46:55.418[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(stats:midnight_report_loop:394)[0m [-] 每日统计推送已启动（等待凌晨0点...）
-[[38;5;240m2026-08-23 11:46:55.426[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:start_pc_server:834)[0m [-] PC 状态 TCP 接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25002[0m
-[[38;5;240m2026-08-23 11:46:55.426[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(tts:start_tts_server:193)[0m [-] TTS 节点接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25003[0m (等待第二台电脑连接...)
-[[38;5;240m2026-08-23 11:46:55.427[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(phone_status:start_phone_server:510)[0m [-] 设备状态 HTTP 收数端: 127[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.1[0m:[38;5;226m25005[0m (POST /phone?key=...)
-[[38;5;240m2026-08-23 11:46:55.427[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(update_webhook:start_update_webhook:140)[0m [-] GitHub 更新 Webhook 已监听 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25004[0m
-[[38;5;240m2026-08-23 11:46:55.427[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(earthquake:_start_eq_webserver:685)[0m [-] EQ监视器已启动 → http://0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25001[0m
-[[38;5;240m2026-08-23 11:46:55.817[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:93)[0m [-] [[38;5;84mPlaywright[0m] Chromium [38;5;159m启动成功[0m（极致加速已启用）
-[[38;5;240m2026-08-23 11:46:55.818[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Chromium 已预启动 + 渲染队列就绪
-[[38;5;240m2026-08-23 11:46:55.819[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [[38;5;84mwatchdog[0m] KOOK 网关存活看护已启动（无事件超时=120s）
-[[38;5;240m2026-08-23 11:47:39.504[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(logger:warning:252)[0m [-] 设置 KOOK 动态状态失败: 请求异常: HTTPSConnectionPool(host='www[38;5;207m.kookapp[0m[38;5;207m.cn[0m', port=443): Max retries exceeded with url: /api/v3/game/activity (Caused by ConnectTimeoutError(<HTTPSConnection(host='www[38;5;207m.kookapp[0m[38;5;207m.cn[0m', port=443) at 0x7fb75d8930e0>, 'Connection to www[38;5;207m.kookapp[0m[38;5;207m.cn[0m timed out. (connect timeout=6)'))
-[[38;5;240m2026-08-23 11:47:39.508[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(holiday:_fetch_today:47)[0m [-] 节假日 API 拉取失败: 
-[[38;5;240m2026-08-23 11:47:39.510[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:start_holiday_service:105)[0m [-] 节假日服务已启动
-[[38;5;240m2026-08-23 11:47:39.511[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:_daily_loop:96)[0m [-] 节假日每日刷新: 等待 [38;5;226m43945[0m 秒 (下次 00:00:05)
-[[38;5;240m2026-08-23 11:47:39.511[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:46)[0m [-] PC 客户端[38;5;159m已连接[0m
-[[38;5;240m2026-08-23 11:47:39.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 9575)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=13
-[[38;5;240m2026-08-23 11:48:10.383[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 9575)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=13
-[[38;5;240m2026-08-23 11:48:41.165[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 9575)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=13
-[[38;5;240m2026-08-23 11:49:09.509[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(logger:warning:252)[0m [-] [[38;5;84mwatchdog[0m] 距上次 KOOK 事件已 133 秒，判定网关半死，强制重连
-[[38;5;240m2026-08-23 11:49:09.510[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl_bot 主循环已被取消（优雅退出）
-[[38;5;240m2026-08-23 11:49:09.511[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 🛑 正在关闭...
-[[38;5;240m2026-08-23 11:49:09.511[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: checkin
-[[38;5;240m2026-08-23 11:49:09.511[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: chou
-[[38;5;240m2026-08-23 11:49:09.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: countdown
-[[38;5;240m2026-08-23 11:49:09.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: echo
-[[38;5;240m2026-08-23 11:49:09.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: eq
-[[38;5;240m2026-08-23 11:49:09.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: greet
-[[38;5;240m2026-08-23 11:49:09.512[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: luck
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: motou
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: nasa
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: pgr
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: sandbox
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: tuf
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: weather
-[[38;5;240m2026-08-23 11:49:09.513[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:unload:234)[0m [-] Plugin 已卸载: whois
-[[38;5;240m2026-08-23 11:49:09.514[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Plugin Runtime 已关闭
-[[38;5;240m2026-08-23 11:49:09.514[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 运行统计: {'active_chats': 10, 'total_context_lines': 231, 'total_buffer_lines': 0, 'active_tasks': 0}
-[[38;5;240m2026-08-23 11:49:09.515[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:save_context:190)[0m [-] 上下文已写入磁盘
-[[38;5;240m2026-08-23 11:49:09.515[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 👋 再见！
-[[38;5;240m2026-08-23 11:49:09.516[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 应用程序已退出
-[[38;5;240m2026-08-23 11:49:10.001[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
-[[38;5;240m2026-08-23 11:49:15.538[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
-[[38;5;240m2026-08-23 11:49:15.548[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-23 11:49:16.011[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-23 11:49:16.011[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m🐱[0m 幻梦 KOOK Bot v2[38;5;207m.0[0m[38;5;207m.0[0m 正在启动...
-[[38;5;240m2026-08-23 11:49:16.012[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
-[[38;5;240m2026-08-23 11:49:16.014[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
-[[38;5;240m2026-08-23 11:49:16.014[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
-[[38;5;240m2026-08-23 11:49:16.016[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
-[[38;5;240m2026-08-23 11:49:16.016[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=True | 文件日志=True
-[[38;5;240m2026-08-23 11:49:16.017[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 日志系统已初始化
-[[38;5;240m2026-08-23 11:49:16.017[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[[38;5;240m2026-08-23 11:49:16.017[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl[38;5;207m.py[0m Bot 实例已创建
-[[38;5;240m2026-08-23 11:51:48.576[0m] [1m[38;5;214m[WARNING ][0m [38;5;244m(logger:warning:252)[0m [-] 拉取 bot 自身信息失败: Cannot connect to host www[38;5;207m.kookapp[0m[38;5;207m.cn[0m:443 ssl:default [Connect call failed ('60[38;5;207m.205[0m[38;5;207m.163[0m[38;5;207m.14[0m', 443)]（启动后仍可工作，但 @检测可能受影响）
-[[38;5;240m2026-08-23 11:51:48.576[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(sender:init_sender:46)[0m [-] 发送器已初始化 (Phase5 兼容层)
-[[38;5;240m2026-08-23 11:51:48.581[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 高风险更新审批回调已接线: request_update_approval
-[[38;5;240m2026-08-23 11:51:48.581[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息发送器已初始化
-[[38;5;240m2026-08-23 11:51:48.736[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:initialize:88)[0m [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m
-[[38;5;240m2026-08-23 11:51:48.751[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:_init_schema:107)[0m [-] 数据库表结构已就绪（含 FTS5）
-[[38;5;240m2026-08-23 11:51:48.751[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m)
-[[38;5;240m2026-08-23 11:51:48.752[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 用户名查询模块已初始化
-[[38;5;240m2026-08-23 11:51:48.752[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:_load_from_disk:53)[0m [-] 上下文已从磁盘恢复: 10 个对话
-[[38;5;240m2026-08-23 11:51:48.752[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:init_context:181)[0m [-] 上下文管理器已初始化（含磁盘持久化）
-[[38;5;240m2026-08-23 11:51:48.752[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 上下文管理器已初始化
-[[38;5;240m2026-08-23 11:51:48.754[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
-[[38;5;240m2026-08-23 11:51:48.755[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 事件分发器已就绪
-[[38;5;240m2026-08-23 11:51:48.755[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] ✏[38;5;219m️[0m 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[[38;5;240m2026-08-23 11:51:48.755[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息处理器已注册（TEXT/KMD）
-[[38;5;240m2026-08-23 11:51:48.758[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]points：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
-[[38;5;240m2026-08-23 11:51:48.759[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]shop：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
-[[38;5;240m2026-08-23 11:51:48.759[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:46)[0m [-] 跳过 _down：缺少 manifest[38;5;207m.json[0m
-[[38;5;240m2026-08-23 11:51:48.759[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.checkin[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.签到[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.sign[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.points[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.积分[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.shop[0m (command)
-[[38;5;240m2026-08-23 11:51:48.760[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.商店[0m (command)
-[[38;5;240m2026-08-23 11:51:48.761[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: checkin@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-23 11:51:48.761[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.抽[0m (command)
-[[38;5;240m2026-08-23 11:51:48.761[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.chou[0m (command)
-[[38;5;240m2026-08-23 11:51:48.761[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: chou@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-23 11:51:48.761[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.countdown[0m (command)
-[[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.倒计时[0m (command)
-[[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: countdown@1[38;5;207m.0[0m[38;5;207m.0[0m
-[[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.echo[0m[38;5;207m.pecho[0m (command)
+# 更新于 2026-08-23 12:43:34 · 共 1500 行（来源 huanmeng.log 末尾）
 [[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: echo@1[38;5;207m.0[0m[38;5;207m.0[0m
 [[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.eq[0m (command)
 [[38;5;240m2026-08-23 11:51:48.762[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.地震[0m (command)
@@ -1499,3 +1398,104 @@
 [[38;5;240m2026-08-23 12:42:41.078[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 👋 再见！
 [[38;5;240m2026-08-23 12:42:41.079[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 应用程序已退出
 [[38;5;240m2026-08-23 12:42:41.333[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:177)[0m [-] PC 客户端断开连接
+[[38;5;240m2026-08-23 12:42:47.077[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=False | 文件日志=True
+[[38;5;240m2026-08-23 12:42:47.090[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
+[[38;5;240m2026-08-23 12:42:47.599[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-23 12:42:47.599[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m🐱[0m 幻梦 KOOK Bot v2[38;5;207m.0[0m[38;5;207m.0[0m 正在启动...
+[[38;5;240m2026-08-23 12:42:47.599[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-23 12:42:47.602[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:_load_skill_sections:154)[0m [-] main_skill[38;5;207m.md[0m 已加载: 12 个章节
+[[38;5;240m2026-08-23 12:42:47.603[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 配置已加载 | bot=茂密 | debug=True
+[[38;5;240m2026-08-23 12:42:47.604[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 语言文件已加载
+[[38;5;240m2026-08-23 12:42:47.605[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:init_logger:197)[0m [-] Logger [38;5;159m初始化完成[0m | debug=True | 文件日志=True
+[[38;5;240m2026-08-23 12:42:47.605[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 日志系统已初始化
+[[38;5;240m2026-08-23 12:42:47.605[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[[38;5;240m2026-08-23 12:42:47.606[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl[38;5;207m.py[0m Bot 实例已创建
+[[38;5;240m2026-08-23 12:42:47.882[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Bot 自身信息: id=[38;5;226m659688244[0m name=茂密
+[[38;5;240m2026-08-23 12:42:47.882[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(sender:init_sender:46)[0m [-] 发送器已初始化 (Phase5 兼容层)
+[[38;5;240m2026-08-23 12:42:47.887[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 高风险更新审批回调已接线: request_update_approval
+[[38;5;240m2026-08-23 12:42:47.888[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息发送器已初始化
+[[38;5;240m2026-08-23 12:42:48.063[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:initialize:88)[0m [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m
+[[38;5;240m2026-08-23 12:42:48.091[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(database:_init_schema:107)[0m [-] 数据库表结构已就绪（含 FTS5）
+[[38;5;240m2026-08-23 12:42:48.092[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng[38;5;207m.db[0m)
+[[38;5;240m2026-08-23 12:42:48.093[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 用户名查询模块已初始化
+[[38;5;240m2026-08-23 12:42:48.093[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:_load_from_disk:53)[0m [-] 上下文已从磁盘恢复: 10 个对话
+[[38;5;240m2026-08-23 12:42:48.094[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(context_manager:init_context:181)[0m [-] 上下文管理器已初始化（含磁盘持久化）
+[[38;5;240m2026-08-23 12:42:48.094[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 上下文管理器已初始化
+[[38;5;240m2026-08-23 12:42:48.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(judge:init_keywords:181)[0m [-] 关键词[38;5;159m初始化完成[0m | realtime=5个 search_trigger=8个
+[[38;5;240m2026-08-23 12:42:48.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 事件分发器已就绪
+[[38;5;240m2026-08-23 12:42:48.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] ✏[38;5;219m️[0m 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[[38;5;240m2026-08-23 12:42:48.097[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 消息处理器已注册（TEXT/KMD）
+[[38;5;240m2026-08-23 12:42:48.103[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]points：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
+[[38;5;240m2026-08-23 12:42:48.103[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:42)[0m [-] 跳过 [[38;5;84mDISABLE[0m]shop：目录名带 [[38;5;84mDISABLE[0m] 禁用前缀
+[[38;5;240m2026-08-23 12:42:48.103[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(loader:discover_plugins:46)[0m [-] 跳过 _down：缺少 manifest[38;5;207m.json[0m
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.checkin[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.签到[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.sign[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.points[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.积分[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.shop[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.checkin[0m[38;5;207m.商店[0m (command)
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: checkin@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.105[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.抽[0m (command)
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.chou[0m[38;5;207m.chou[0m (command)
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: chou@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.countdown[0m (command)
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.countdown[0m[38;5;207m.倒计时[0m (command)
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: countdown@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.106[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.echo[0m[38;5;207m.pecho[0m (command)
+[[38;5;240m2026-08-23 12:42:48.107[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: echo@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.107[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.eq[0m (command)
+[[38;5;240m2026-08-23 12:42:48.107[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.eq[0m[38;5;207m.地震[0m (command)
+[[38;5;240m2026-08-23 12:42:48.107[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: eq@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.109[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.greet[0m[38;5;207m.pgreet[0m (command)
+[[38;5;240m2026-08-23 12:42:48.109[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(eventbus:subscribe:80)[0m [-] EventBus subscribe: greet[38;5;207m.ping[0m -> handler
+[[38;5;240m2026-08-23 12:42:48.110[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: greet@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.110[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.luck[0m[38;5;207m.luck[0m (command)
+[[38;5;240m2026-08-23 12:42:48.110[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: luck@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.111[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.motou[0m[38;5;207m.摸头[0m (command)
+[[38;5;240m2026-08-23 12:42:48.111[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.motou[0m[38;5;207m.motou[0m (command)
+[[38;5;240m2026-08-23 12:42:48.111[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: motou@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.111[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.nasa[0m[38;5;207m.nasa[0m (command)
+[[38;5;240m2026-08-23 12:42:48.111[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: nasa@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.112[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.pgr[0m[38;5;207m.pgr[0m (command)
+[[38;5;240m2026-08-23 12:42:48.112[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: pgr@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.112[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.sandbox[0m[38;5;207m.run_code[0m (tool)
+[[38;5;240m2026-08-23 12:42:48.112[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.sandbox[0m[38;5;207m.run[0m (command)
+[[38;5;240m2026-08-23 12:42:48.112[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: sandbox@1[38;5;207m.0[0m[38;5;207m.2[0m
+[[38;5;240m2026-08-23 12:42:48.113[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.tuf[0m[38;5;207m.tuf[0m (command)
+[[38;5;240m2026-08-23 12:42:48.113[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: tuf@2[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.113[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.weather[0m[38;5;207m.天气[0m (command)
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.weather[0m[38;5;207m.weather[0m (command)
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: weather@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.whois[0m (command)
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(registry:register:149)[0m [-] CapabilityRegistry 注册能力: plugin[38;5;207m.whois[0m[38;5;207m.域名[0m (command)
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(manager:enable:165)[0m [-] Plugin 已启用: whois@1[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;219m✅[0m 所有组件[38;5;159m初始化完成[0m，准备连接 KOOK...
+[[38;5;240m2026-08-23 12:42:48.114[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [38;5;105m==================================================[0m
+[[38;5;240m2026-08-23 12:42:48.115[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 后台任务: 提醒+控制+地震+战绩+PC状态:[38;5;226m25002[0m+PC掉线检测+TTS:[38;5;226m25003[0m+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:[38;5;226m25004[0m+iPhone:[38;5;226m25005[0m
+[[38;5;240m2026-08-23 12:42:48.115[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(queues:start_render_queue:103)[0m [-] [[38;5;84m队列[0m] 渲染队列已启动
+[[38;5;240m2026-08-23 12:42:48.147[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:64)[0m [-] [[38;5;84mPlaywright[0m] 启动 Chromium（极致加速模式）...
+[[38;5;240m2026-08-23 12:42:48.147[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(remind:remind_checker_loop:167)[0m [-] 提醒轮询已启动（每30秒检查一次）
+[[38;5;240m2026-08-23 12:42:48.148[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_wdsj_collector:656)[0m [-] 战绩采集将在 3h18m 后执行 (16:01)
+[[38;5;240m2026-08-23 12:42:48.203[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(rss:start_rss_service:299)[0m [-] [[38;5;84mRSS[0m] 订阅轮询服务启动
+[[38;5;240m2026-08-23 12:42:49.302[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(notify_system:check_github_update:737)[0m [-] 更新检查跳过: 本地 09a8ac5 非远程 ed831a0 祖先（已领先/分叉），不弹卡片
+[[38;5;240m2026-08-23 12:42:49.307[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(bot:_bg_pc_offline_checker:754)[0m [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 [38;5;226m1010983873136793[0m（历史心跳 45s 前）
+[[38;5;240m2026-08-23 12:42:49.309[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(stats:midnight_report_loop:394)[0m [-] 每日统计推送已启动（等待凌晨0点...）
+[[38;5;240m2026-08-23 12:42:49.316[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:start_pc_server:834)[0m [-] PC 状态 TCP 接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25002[0m
+[[38;5;240m2026-08-23 12:42:49.316[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(tts:start_tts_server:193)[0m [-] TTS 节点接收端: 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25003[0m (等待第二台电脑连接...)
+[[38;5;240m2026-08-23 12:42:49.316[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(phone_status:start_phone_server:510)[0m [-] 设备状态 HTTP 收数端: 127[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.1[0m:[38;5;226m25005[0m (POST /phone?key=...)
+[[38;5;240m2026-08-23 12:42:49.316[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(update_webhook:start_update_webhook:140)[0m [-] GitHub 更新 Webhook 已监听 0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25004[0m
+[[38;5;240m2026-08-23 12:42:49.317[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(earthquake:_start_eq_webserver:685)[0m [-] EQ监视器已启动 → http://0[38;5;207m.0[0m[38;5;207m.0[0m[38;5;207m.0[0m:[38;5;226m25001[0m
+[[38;5;240m2026-08-23 12:42:49.786[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(changelog:_ensure_browser:93)[0m [-] [[38;5;84mPlaywright[0m] Chromium [38;5;159m启动成功[0m（极致加速已启用）
+[[38;5;240m2026-08-23 12:42:49.786[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] Chromium 已预启动 + 渲染队列就绪
+[[38;5;240m2026-08-23 12:42:49.787[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] [[38;5;84mwatchdog[0m] KOOK 网关存活看护已启动（无事件超时=120s）
+[[38;5;240m2026-08-23 12:42:51.267[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:refresh_holiday:57)[0m [-] 节假日: 2026-08-23 → 周日
+[[38;5;240m2026-08-23 12:42:51.267[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:start_holiday_service:105)[0m [-] 节假日服务已启动
+[[38;5;240m2026-08-23 12:42:51.267[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(holiday:_daily_loop:96)[0m [-] 节假日每日刷新: 等待 [38;5;226m40634[0m 秒 (下次 00:00:05)
+[[38;5;240m2026-08-23 12:42:51.856[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(music_status:set_music:221)[0m [-] 已设置正在听: 当前版本: 2[38;5;207m.0[0m[38;5;207m.0[0m / 2[38;5;207m.0[0m[38;5;207m.0[0m / cloudmusic
+[[38;5;240m2026-08-23 12:42:51.857[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2[38;5;207m.0[0m[38;5;207m.0[0m
+[[38;5;240m2026-08-23 12:42:52.287[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:46)[0m [-] PC 客户端[38;5;159m已连接[0m
+[[38;5;240m2026-08-23 12:42:52.306[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 8768)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[[38;5;240m2026-08-23 12:43:22.897[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 8768)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
