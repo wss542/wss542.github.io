@@ -324,8 +324,8 @@ var levels=['INFO','DEBUG','WARNING','ERROR','COMMAND','DOING','DONE','IDEA','SY
 var hiddenLv=new Set(), searchText='', fontSize=13;
 var curTab='mine', syslogs=[], sysLast='';
 
-// 动态数据来源：你的 VM（serveo 隧道）。电脑开着→拉实时；电脑关→fetch 失败，自动回退到本地缓存。
-var API_BASE='https://wss.serveousercontent.com';
+// 动态数据来源：GitHub Pages 同源部署（kook.log.txt 由 VM 定时推送）。
+var API_BASE='';
 // ===== 离线缓存（关电脑时回退展示）=====
 function saveCache(k,t){ try{ localStorage.setItem('yz_log_'+k,t); localStorage.setItem('yz_log_'+k+'_ts',new Date().toLocaleString('zh-CN')); }catch(e){} }
 function loadCache(k){ try{ return localStorage.getItem('yz_log_'+k); }catch(e){ return null; } }
@@ -471,7 +471,7 @@ function parseMine(t){
   lastLines=arr.length;
 }
 function poll(){
-  fetch(API_BASE+'/cmdlog.txt?_='+Date.now()).then(function(r){
+  fetch(API_BASE+'/bot-logs/kook.log.txt?_='+Date.now()).then(function(r){
     if(!r.ok){ showOffline('mine'); var st=$('status'); st.textContent='离线'; st.className='err'; return; }
     return r.text();
   }).then(function(t){
@@ -497,7 +497,7 @@ function sysTime(l){
   return m?m[1]:'';
 }
 function pollSys(){
-  fetch(API_BASE+'/api/syslog?_='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
+  fetch(API_BASE+'/bot-logs/syslog.json?_='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
     if(!j||!j.lines){ showOffline('sys'); return; }
     saveCache('sys', JSON.stringify(j.lines));
     var txt=j.lines.join('\n');
