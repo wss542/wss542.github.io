@@ -1,19 +1,4 @@
-# 更新于 2026-08-24 01:23:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:33:51.999] [INFO    ] (dispatcher:_dispatch_inner:384) [40b3a25bc86a42a4] 🖼️  [chat=8318134604058084] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-24 00:33:51.999] [INFO    ] (image_api:recognize_image:150) [40b3a25bc86a42a4] [chat=8318134604058084] 开始下载图片: https://img.kookapp.cn/assets/2026-08/24/b6zZsUNPaM11y0m9.pn...
-[2026-08-24 00:33:52.227] [INFO    ] (image_api:recognize_image:159) [40b3a25bc86a42a4] [chat=8318134604058084] 图片下载成功: 849668 bytes
-[2026-08-24 00:33:52.228] [INFO    ] (image_api:recognize_image:171) [40b3a25bc86a42a4] [chat=8318134604058084] 调用视觉模型识别图片 (MD5=612487f709b7...) model=glm-4v-flash
-[2026-08-24 00:33:53.782] [INFO    ] (image_api:recognize_image:203) [40b3a25bc86a42a4] [chat=8318134604058084] 图片预处理: PNG(1366x801) → PNG 849668 bytes → 684917 bytes
-[2026-08-24 00:33:56.733] [INFO    ] (image_api:recognize_image:256) [40b3a25bc86a42a4] [chat=8318134604058084] 图片识别成功 (model=glm-4v-flash): 这是一张游戏截图，显示了一个玩家在游戏中达到了100%进度和78.78%的准确率。屏幕上有一个完美的...
-[2026-08-24 00:33:56.735] [DEBUG   ] (image_api:_save:64) [40b3a25bc86a42a4] 图片缓存已写入磁盘: 289 条
-[2026-08-24 00:33:56.739] [DEBUG   ] (image_api:_save_to_repo:299) [40b3a25bc86a42a4] 图片仓库追加: MD5=612487f709b7... → '这是一张游戏截图，显示了一个玩家在游戏中达到了100%进度和'
-[2026-08-24 00:33:56.739] [INFO    ] (dispatcher:_do_recognize_image:914) [40b3a25bc86a42a4] 🖼️  [chat=8318134604058084] 图#1/1 识别完成: '这是一张游戏截图，显示了一个玩家在游戏中达到了100%进度和78.78%的准确率。屏幕上有一个完美的成绩标记，以及一些韩文文字和一个卡通形象。此外，还有其他一些...' (211字) url=https://img.kookapp.cn/assets/2026-08/24/b6zZsUNPaM11y0m9.pn
-[2026-08-24 00:33:56.740] [INFO    ] (dispatcher:_dispatch_inner:400) [40b3a25bc86a42a4] 🖼️  [chat=8318134604058084] 图1 识别完成并注入上下文: '这是一张游戏截图，显示了一个玩家在游戏中达到了100%进度和78.78%的准确率。屏幕上有一个完美的...'
-[2026-08-24 00:33:56.740] [INFO    ] (queues:_get_or_create_queue:32) [40b3a25bc86a42a4] [队列] 创建群8318134604058084 的独立消息队列
-[2026-08-24 00:33:56.740] [DEBUG   ] (queues:enqueue_message:75) [40b3a25bc86a42a4] [队列] 群8318134604058084 消息已入队 (队长度=1)
-[2026-08-24 00:33:56.740] [INFO    ] (pipeline:process_message:367) [e9b98e372c8245ef] 附带图片已记录 [chat=8318134604058084] count=1
-[2026-08-24 00:33:56.742] [INFO    ] (memory:merge_overflow_memory:419) [e9b98e372c8245ef] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 1条 (阈值=10)
-[2026-08-24 00:33:56.743] [DEBUG   ] (pipeline:process_message:500) [e9b98e372c8245ef] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+# 更新于 2026-08-24 01:24:17 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:33:56.743] [INFO    ] (logger:log_trace_summary:306) [e9b98e372c8245ef] [TRACE e9b98e372c8245ef] total=3.18ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.14ms(x1) (wall3.14), queue_wait=0.35ms(x1)
 [2026-08-24 00:34:11.215] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=57.3 mem=67.0
 [2026-08-24 00:34:18.304] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
@@ -1499,3 +1484,18 @@
 [2026-08-24 01:23:14.004] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-24 01:23:17.639] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=66.4 mem=76.0
 [2026-08-24 01:23:25.340] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:23:47.785] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-24 01:23:51.439] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.3 mem=74.1
+[2026-08-24 01:23:55.697] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:23:59.095] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:23:59.096] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/update check' is_edit=False
+[2026-08-24 01:23:59.096] [DEBUG   ] (dispatcher:_dispatch_inner:110) [17bbd881904a4a61] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 01:23:59.096] [INFO    ] (dispatcher:_dispatch_inner:308) [17bbd881904a4a61] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/update check'
+[2026-08-24 01:23:59.096] [INFO    ] (queues:_get_or_create_queue:32) [17bbd881904a4a61] [队列] 创建群1759953618 的独立消息队列
+[2026-08-24 01:23:59.096] [DEBUG   ] (queues:enqueue_message:75) [17bbd881904a4a61] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 01:23:59.098] [INFO    ] (memory:merge_overflow_memory:419) [eb1700558f3f4b0f] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-24 01:23:59.100] [INFO    ] (pipeline:process_message:470) [eb1700558f3f4b0f] 指令拦截: '/update check' from=ywandwss
+[2026-08-24 01:23:59.100] [DEBUG   ] (commands:handle_command:4508) [eb1700558f3f4b0f] 指令解析: prefix=/ cmd=update args=['check'] user=1759953618
+[2026-08-24 01:23:59.102] [INFO    ] (commands:handle_command:4550) [eb1700558f3f4b0f] 指令执行完成 [update]: 返回21字符
+[2026-08-24 01:23:59.594] [INFO    ] (logger:log_trace_summary:306) [eb1700558f3f4b0f] [TRACE eb1700558f3f4b0f] total=497.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=496.95ms(x1) (wall496.95), queue_wait=0.76ms(x1)
+[2026-08-24 01:23:59.619] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
