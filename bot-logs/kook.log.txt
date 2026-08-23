@@ -1,20 +1,4 @@
-# 更新于 2026-08-24 01:24:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:34:23.463] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 00:34:32.542] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 00:34:46.248] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=66.7 mem=67.0
-[2026-08-24 00:34:48.667] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
-[2026-08-24 00:35:19.264] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
-[2026-08-24 00:35:21.130] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=63.0 mem=67.0
-[2026-08-24 00:35:42.076] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:35:47.403] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:35:47.404] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/upd' is_edit=False
-[2026-08-24 00:35:47.404] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f9056fc3ea7c45c8] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-24 00:35:47.405] [INFO    ] (dispatcher:_dispatch_inner:308) [f9056fc3ea7c45c8] 📩 消息 #20 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/upd'
-[2026-08-24 00:35:47.405] [DEBUG   ] (queues:enqueue_message:75) [f9056fc3ea7c45c8] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-24 00:35:47.408] [INFO    ] (memory:merge_overflow_memory:419) [2d38b86d3f1843f3] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 4条 (阈值=10)
-[2026-08-24 00:35:47.409] [INFO    ] (pipeline:process_message:470) [2d38b86d3f1843f3] 指令拦截: '/upd' from=ywandwss
-[2026-08-24 00:35:47.409] [DEBUG   ] (commands:handle_command:4508) [2d38b86d3f1843f3] 指令解析: prefix=/ cmd=upd args=[] user=1759953618
-[2026-08-24 00:35:47.410] [INFO    ] (commands:handle_command:4550) [2d38b86d3f1843f3] 指令执行完成 [upd]: 返回21字符
+# 更新于 2026-08-24 01:25:39 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:35:48.002] [INFO    ] (logger:log_trace_summary:306) [2d38b86d3f1843f3] [TRACE 2d38b86d3f1843f3] total=595.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=595.17ms(x1) (wall595.17), queue_wait=1.77ms(x1)
 [2026-08-24 00:35:49.611] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
 [2026-08-24 00:35:52.166] [INFO    ] (snapshot:create_snapshot:79) [2d38b86d3f1843f3] 创建快照 d1ef79fd0744: 备份 0 个文件
@@ -1499,3 +1483,19 @@
 [2026-08-24 01:24:21.492] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-24 01:24:26.126] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 01:24:28.641] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=76.7 mem=73.8
+[2026-08-24 01:24:56.808] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:24:57.548] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:24:57.549] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/update' is_edit=False
+[2026-08-24 01:24:57.550] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a031ada41d75488c] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 01:24:57.550] [INFO    ] (dispatcher:_dispatch_inner:308) [a031ada41d75488c] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/update'
+[2026-08-24 01:24:57.550] [DEBUG   ] (queues:enqueue_message:75) [a031ada41d75488c] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 01:24:57.551] [INFO    ] (memory:merge_overflow_memory:419) [16c5c92d520d49ae] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+[2026-08-24 01:24:57.551] [INFO    ] (pipeline:process_message:470) [16c5c92d520d49ae] 指令拦截: '/update' from=ywandwss
+[2026-08-24 01:24:57.552] [DEBUG   ] (commands:handle_command:4508) [16c5c92d520d49ae] 指令解析: prefix=/ cmd=update args=[] user=1759953618
+[2026-08-24 01:24:57.552] [INFO    ] (commands:handle_command:4550) [16c5c92d520d49ae] 指令执行完成 [update]: 返回21字符
+[2026-08-24 01:24:58.079] [INFO    ] (logger:log_trace_summary:306) [16c5c92d520d49ae] [TRACE 16c5c92d520d49ae] total=528.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=528.56ms(x1) (wall528.56), queue_wait=0.53ms(x1)
+[2026-08-24 01:24:58.087] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:24:58.153] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:24:59.230] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:25:07.482] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=80.0 mem=74.7
+[2026-08-24 01:25:27.407] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
