@@ -1,15 +1,4 @@
-# 更新于 2026-08-24 01:20:25 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:31:41.298] [WARNING ] (pipeline:process_message:639) [90f2be71b2dc4624] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-24 00:31:41.303] [DEBUG   ] (memory:_record_memory_trace:318) [90f2be71b2dc4624] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=4.3ms
-[2026-08-24 00:31:41.303] [DEBUG   ] (pipeline:process_message:795) [90f2be71b2dc4624] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-24 00:31:41.304] [INFO    ] (pipeline:process_message:799) [90f2be71b2dc4624] 额外信息: 329字 (memory=0 search=0)
-[2026-08-24 00:31:41.304] [INFO    ] (pipeline:process_message:932) [90f2be71b2dc4624] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-24 00:31:41.304] [DEBUG   ] (pipeline:process_message:1061) [90f2be71b2dc4624] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-24 00:31:41.304] [INFO    ] (pipeline:process_message:1064) [90f2be71b2dc4624] 开始生成回复: speaker=ywandwss chat=6243254695867429
-[2026-08-24 00:31:44.848] [INFO    ] (llm:generate_multi_reply_with_tools:971) [90f2be71b2dc4624] LLM原始输出 [轮1]: content={"replies":["主人摸摸，我可乖了喵～","才不是坏孩子呢！"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandw | tool_calls=0
-[2026-08-24 00:31:44.849] [INFO    ] (llm:_parse_reply:1314) [90f2be71b2dc4624] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-08-24 00:31:44.850] [INFO    ] (fav:update_fav:105) [90f2be71b2dc4624] 好感度更新: g6243254695867429:1759953618 +2 → 91
-[2026-08-24 00:31:44.851] [INFO    ] (pipeline:process_message:1547) [90f2be71b2dc4624] 好感度调整: ywandwss +2 (chat=6243254695867429)
+# 更新于 2026-08-24 01:21:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:31:44.851] [INFO    ] (pipeline:process_message:1553) [90f2be71b2dc4624] ✅ 管道处理完成: 2句 sent chat=6243254695867429
 [2026-08-24 00:31:44.851] [DEBUG   ] (pipeline:process_message:1575) [90f2be71b2dc4624] Fast Path 主题已记录: chat=6243254695867429 topic='摸摸'
 [2026-08-24 00:31:44.851] [INFO    ] (logger:log_trace_summary:306) [90f2be71b2dc4624] [TRACE 90f2be71b2dc4624] total=3555.76ms severity=slow_request | llm_calls=1 total=3542.77ms avg=3542.77ms max=3542.77ms p50=3542.77 p95=3542.77 p99=3542.77 | json_parse=0.02ms(x1), llm=3545.21ms(x1), memory=9.1ms(x2), process=3555.68ms(x1) (wall3555.68), queue_wait=0.52ms(x1)
@@ -1499,3 +1488,14 @@
 [2026-08-24 01:20:21.703] [INFO    ] (logger:info:249) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 [2026-08-24 01:20:22.613] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
 [2026-08-24 01:20:22.614] [INFO    ] (logger:info:249) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
+[2026-08-24 01:20:32.828] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:20:32.831] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='第三段是：或者你用frp内网转发也行' is_edit=False
+[2026-08-24 01:20:32.831] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6effc6d438364532] KMD 调试: is_group=True uid=656176615 channel=7274785942250691
+[2026-08-24 01:20:32.833] [INFO    ] (dispatcher:_dispatch_inner:308) [6effc6d438364532] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=7274785942250691 | group=True | content='第三段是：或者你用frp内网转发也行'
+[2026-08-24 01:20:32.836] [INFO    ] (queues:_get_or_create_queue:32) [6effc6d438364532] [队列] 创建群7274785942250691 的独立消息队列
+[2026-08-24 01:20:32.836] [DEBUG   ] (queues:enqueue_message:75) [6effc6d438364532] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:20:32.841] [INFO    ] (memory:merge_overflow_memory:419) [a3d9a3a461184192] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-24 01:20:32.854] [DEBUG   ] (pipeline:process_message:500) [a3d9a3a461184192] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='第三段是：或者你用frp内网转发也行'
+[2026-08-24 01:20:32.854] [INFO    ] (logger:log_trace_summary:306) [a3d9a3a461184192] [TRACE a3d9a3a461184192] total=16.04ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=15.92ms(x1) (wall15.92), queue_wait=2.12ms(x1)
+[2026-08-24 01:20:52.213] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:20:52.416] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=53.3 mem=76.1
