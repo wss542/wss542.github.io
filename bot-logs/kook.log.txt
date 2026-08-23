@@ -1,29 +1,4 @@
-# 更新于 2026-08-23 17:42:41 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-23 14:59:21.181[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:427)[0m [f24743a9a1a742f1] 调用LLM [deepseek-v4-flash] url=v1 tokens=150 temp=0[38;5;207m.1[0m timeout=8[38;5;207m.0s[0m
-[[38;5;240m2026-08-23 14:59:21.864[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [f24743a9a1a742f1] 已发送第 1/4 条: **诞生背景（2026年）**
-
-喵~我是茂密，一个在202...
-[[38;5;240m2026-08-23 14:59:21.865[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:238)[0m [f24743a9a1a742f1] 句间等待 1[38;5;207m.12s[0m (#2/4)
-[[38;5;240m2026-08-23 14:59:22.246[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:489)[0m [f24743a9a1a742f1] LLM [deepseek-v4-flash] 返回 [38;5;226m111字[0m符 耗时1[38;5;207m.1s[0m → "{"name": "@[38;5;226m659688244[0m", "tags": [], "interests": []..."
-[[38;5;240m2026-08-23 14:59:22.247[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pipeline:_async_extract_profile:1609)[0m [f24743a9a1a742f1] 画像更新: uid=[38;5;226m1759953618[0m new={'interests': [], 'name': '@[38;5;226m659688244[0m', 'status': '被问及诞生方式'}
-[[38;5;240m2026-08-23 14:59:23.489[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [f24743a9a1a742f1] 已发送第 2/4 条: **技术核心（2026年）**
-
-我的核心技术是基于大语言模...
-[[38;5;240m2026-08-23 14:59:23.489[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:238)[0m [f24743a9a1a742f1] 句间等待 0[38;5;207m.83s[0m (#3/4)
-[[38;5;240m2026-08-23 14:59:25.042[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [f24743a9a1a742f1] 已发送第 3/4 条: **功能特点（2026年）**
-
-我拥有多种功能，包括聊天、...
-[[38;5;240m2026-08-23 14:59:25.043[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:238)[0m [f24743a9a1a742f1] 句间等待 1[38;5;207m.05s[0m (#4/4)
-[[38;5;240m2026-08-23 14:59:26.509[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [f24743a9a1a742f1] 已发送第 4/4 条: **人格设定（2026年）**
-
-我的[38;5;207m主人[0m ywandwss...
-[[38;5;240m2026-08-23 14:59:26.509[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:243)[0m [f24743a9a1a742f1] 分批发送完成: 共 4 条 → chat=[38;5;226m6243254695867429[0m
-[[38;5;240m2026-08-23 14:59:26.509[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(context_manager:_on_task_done:139)[0m [f24743a9a1a742f1] 发送任务已清理 [[38;5;226m6243254695867429[0m]
-[[38;5;240m2026-08-23 14:59:42.685[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 8547)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**As a SLIMEEEEEEEEEE!?!?**
-`一只史莱姆！？！？`' keys=18
-[[38;5;240m2026-08-23 15:00:13.166[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 8547)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**As a SLIMEEEEEEEEEE!?!?**
-`一只史莱姆！？！？`' keys=18
-[[38;5;240m2026-08-23 15:00:43.828[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', 8547)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**As a SLIMEEEEEEEEEE!?!?**
+# 更新于 2026-08-23 17:43:37 · 共 1500 行（来源 huanmeng.log 末尾）
 `一只史莱姆！？！？`' keys=18
 [[38;5;240m2026-08-23 15:00:49.458[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] 收到终止信号，开始优雅退出...
 [[38;5;240m2026-08-23 15:00:49.497[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:info:249)[0m [-] khl_bot 主循环已被取消（优雅退出）
@@ -1499,3 +1474,28 @@
 `他追逐着模糊的白日美梦`' song=Glass Animals - The Other Side playing=True channel=None
 [[38;5;240m2026-08-23 17:42:37.496[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=[38;5;226m264ms[0m]: '**I know you don't but I**
 `我知道你已不会再回头但我`' song=Glass Animals - The Other Side playing=True channel=None
+[[38;5;240m2026-08-23 17:42:44.319[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**I know you don't but I**
+`我知道你已不会再回头但我`' keys=18
+[[38;5;240m2026-08-23 17:42:54.687[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(phone_status:set_phone_status:58)[0m [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[[38;5;240m2026-08-23 17:43:06.256[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:208)[0m [-] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[[38;5;240m2026-08-23 17:43:06.257[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=9 content='>playing 冰与火之舞' is_edit=False
+[[38;5;240m2026-08-23 17:43:06.257[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:110)[0m [44f15b8265ff40bd] KMD 调试: is_group=True uid=[38;5;226m337936062[0m channel=[38;5;226m1010983873136793[0m
+[[38;5;240m2026-08-23 17:43:06.258[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:308)[0m [44f15b8265ff40bd] [38;5;219m📩[0m 消息 #7 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)([38;5;226m337936062[0m) | chat=[38;5;226m1010983873136793[0m | group=True | content='>playing 冰与火之舞'
+[[38;5;240m2026-08-23 17:43:06.261[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(queues:_get_or_create_queue:32)[0m [44f15b8265ff40bd] [[38;5;84m队列[0m] 创建群1010983873136793 的独立消息队列
+[[38;5;240m2026-08-23 17:43:06.261[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(queues:enqueue_message:75)[0m [44f15b8265ff40bd] [[38;5;84m队列[0m] 群1010983873136793 消息已入队 (队长度=1)
+[[38;5;240m2026-08-23 17:43:06.263[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:merge_overflow_memory:419)[0m [171b55e472054f72] 长时记忆溢出缓冲: chat=[38;5;226m1010983873136793[0m +1 = [38;5;226m1条[0m (阈值=10)
+[[38;5;240m2026-08-23 17:43:06.263[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:500)[0m [171b55e472054f72] 回复判断: is_mentioned=False is_group=True bot_qq=[38;5;226m659688244[0m content='>playing 冰与火之舞'
+[[38;5;240m2026-08-23 17:43:06.264[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [171b55e472054f72] [TRACE 171b55e472054f72] total=[38;5;226m2[38;5;207m.15ms[0m[0m severity=normal | llm_calls=0 total=[38;5;226m0[38;5;207m.0ms[0m[0m avg=[38;5;226m0[38;5;207m.0ms[0m[0m max=[38;5;226m0[38;5;207m.0ms[0m[0m p50=0[38;5;207m.0[0m p95=0[38;5;207m.0[0m p99=0[38;5;207m.0[0m | process=[38;5;226m2[38;5;207m.1ms[0m[0m(x1) (wall2[38;5;207m.1[0m), queue_wait=[38;5;226m0[38;5;207m.65ms[0m[0m(x1)
+[[38;5;240m2026-08-23 17:43:14.692[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:208)[0m [-] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[[38;5;240m2026-08-23 17:43:14.692[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=9 content='🎮 已设置机器人状态：**正在玩 冰与火之舞**\n用 `>playing off` 结束。' is_edit=False
+[[38;5;240m2026-08-23 17:43:14.693[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:107)[0m [d859fde73dc34a59] 跳过 bot 消息: uid=[38;5;226m393688090[0m
+[[38;5;240m2026-08-23 17:43:14.793[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**I know you don't but I**
+`我知道你已不会再回头但我`' keys=18
+[[38;5;240m2026-08-23 17:43:26.704[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:208)[0m [-] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[[38;5;240m2026-08-23 17:43:26.704[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:dispatch:47)[0m [-] dispatch 入口: type=9 content='6' is_edit=False
+[[38;5;240m2026-08-23 17:43:26.704[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(dispatcher:_dispatch_inner:110)[0m [70176e846865449a] KMD 调试: is_group=True uid=[38;5;226m1759953618[0m channel=[38;5;226m1010983873136793[0m
+[[38;5;240m2026-08-23 17:43:26.705[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(dispatcher:_dispatch_inner:308)[0m [70176e846865449a] [38;5;219m📩[0m 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=ywandwss([38;5;226m1759953618[0m) | chat=[38;5;226m1010983873136793[0m | group=True | content='6'
+[[38;5;240m2026-08-23 17:43:26.705[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(queues:enqueue_message:75)[0m [70176e846865449a] [[38;5;84m队列[0m] 群1010983873136793 消息已入队 (队长度=1)
+[[38;5;240m2026-08-23 17:43:26.706[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(memory:merge_overflow_memory:419)[0m [de6017d819ca4162] 长时记忆溢出缓冲: chat=[38;5;226m1010983873136793[0m +1 = [38;5;226m2条[0m (阈值=10)
+[[38;5;240m2026-08-23 17:43:26.707[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(pipeline:process_message:500)[0m [de6017d819ca4162] 回复判断: is_mentioned=False is_group=True bot_qq=[38;5;226m659688244[0m content='6'
+[[38;5;240m2026-08-23 17:43:26.707[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(logger:log_trace_summary:306)[0m [de6017d819ca4162] [TRACE de6017d819ca4162] total=[38;5;226m1[38;5;207m.02ms[0m[0m severity=normal | llm_calls=0 total=[38;5;226m0[38;5;207m.0ms[0m[0m avg=[38;5;226m0[38;5;207m.0ms[0m[0m max=[38;5;226m0[38;5;207m.0ms[0m[0m p50=0[38;5;207m.0[0m p95=0[38;5;207m.0[0m p99=0[38;5;207m.0[0m | process=[38;5;226m0[38;5;207m.97ms[0m[0m(x1) (wall0[38;5;207m.97[0m), queue_wait=[38;5;226m0[38;5;207m.54ms[0m[0m(x1)
