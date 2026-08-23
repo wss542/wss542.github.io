@@ -1,31 +1,4 @@
-# 更新于 2026-08-24 01:11:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:19:25.073] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13035)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
-[2026-08-24 00:19:47.781] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=80.7 mem=91.3
-[2026-08-24 00:19:54.087] [INFO    ] (logger:info:249) [-] 收到终止信号，开始优雅退出...
-[2026-08-24 00:19:54.159] [INFO    ] (logger:info:249) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-24 00:19:54.165] [INFO    ] (logger:info:249) [-] 🛑 正在关闭...
-[2026-08-24 00:19:54.200] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-24 00:19:54.204] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-24 00:19:54.205] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-24 00:19:54.205] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-24 00:19:54.206] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-24 00:19:54.244] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-24 00:19:54.246] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-24 00:19:54.246] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-24 00:19:54.247] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-24 00:19:54.248] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-24 00:19:54.252] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-24 00:19:54.254] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-24 00:19:54.255] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-24 00:19:54.255] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-24 00:19:54.255] [INFO    ] (logger:info:249) [-] Plugin Runtime 已关闭
-[2026-08-24 00:19:54.265] [INFO    ] (logger:info:249) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 338, 'total_buffer_lines': 72, 'active_tasks': 0}
-[2026-08-24 00:19:54.271] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-24 00:19:54.272] [INFO    ] (logger:info:249) [-] 👋 再见！
-[2026-08-24 00:19:54.380] [INFO    ] (logger:info:249) [-] 应用程序已退出
-[2026-08-24 00:19:57.737] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-24 00:19:58.964] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 00:19:58.989] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-08-24 01:12:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:20:00.229] [INFO    ] (logger:info:249) [-] ==================================================
 [2026-08-24 00:20:00.230] [INFO    ] (logger:info:249) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
 [2026-08-24 00:20:00.230] [INFO    ] (logger:info:249) [-] ==================================================
@@ -1499,3 +1472,30 @@
 [2026-08-24 01:11:21.724] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=73.1 mem=72.6
 [2026-08-24 01:11:24.203] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-24 01:11:32.070] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:11:51.197] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:11:51.197] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='[https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/13f82e37-26ce-44d5-a51e-b605c8da7d85](https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/13f82e37-26ce-44d5-a51e-b605c8da7d85)' is_edit=False
+[2026-08-24 01:11:51.197] [DEBUG   ] (dispatcher:_dispatch_inner:110) [9f40f5b5c9b346d6] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-24 01:11:51.198] [INFO    ] (dispatcher:_dispatch_inner:308) [9f40f5b5c9b346d6] 📩 消息 #21 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='[https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/13f82e37-26ce-44d5-a51e-b605c8da7d85](https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/13f82e37-26ce-44d5-a51e-b605c8da7d85)'
+[2026-08-24 01:11:51.199] [DEBUG   ] (queues:enqueue_message:75) [9f40f5b5c9b346d6] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:11:51.200] [INFO    ] (memory:merge_overflow_memory:419) [9a275c7f05a0404b] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
+[2026-08-24 01:11:51.204] [DEBUG   ] (pipeline:process_message:500) [9a275c7f05a0404b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[https://www.kookapp.cn/direct/anchor/30'
+[2026-08-24 01:11:51.205] [INFO    ] (logger:log_trace_summary:306) [9a275c7f05a0404b] [TRACE 9a275c7f05a0404b] total=4.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.57ms(x1) (wall4.57), queue_wait=0.55ms(x1)
+[2026-08-24 01:11:55.286] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=62.8 mem=72.8
+[2026-08-24 01:11:56.895] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:11:56.895] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵？' is_edit=False
+[2026-08-24 01:11:56.895] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0d3edb33d42e4a24] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:11:56.895] [INFO    ] (dispatcher:_dispatch_inner:308) [0d3edb33d42e4a24] 📩 消息 #22 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='喵？'
+[2026-08-24 01:11:56.897] [DEBUG   ] (queues:enqueue_message:75) [0d3edb33d42e4a24] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:11:56.898] [INFO    ] (memory:merge_overflow_memory:419) [014fdf9ca4054fe1] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
+[2026-08-24 01:11:56.899] [DEBUG   ] (pipeline:process_message:500) [014fdf9ca4054fe1] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵？'
+[2026-08-24 01:11:56.899] [INFO    ] (logger:log_trace_summary:306) [014fdf9ca4054fe1] [TRACE 014fdf9ca4054fe1] total=1.21ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.17ms(x1) (wall1.17), queue_wait=0.68ms(x1)
+[2026-08-24 01:12:02.738] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:12:05.177] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:12:06.553] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:12:06.554] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='[https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/19f8d1f3-011e-4990-95e5-ce45f6ba1a5f](https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/19f8d1f3-011e-4990-95e5-ce45f6ba1a5f)' is_edit=False
+[2026-08-24 01:12:06.555] [DEBUG   ] (dispatcher:_dispatch_inner:110) [4e50b96826ff48f6] KMD 调试: is_group=True uid=337936062 channel=5314827528086362
+[2026-08-24 01:12:06.555] [INFO    ] (dispatcher:_dispatch_inner:308) [4e50b96826ff48f6] 📩 消息 #23 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=5314827528086362 | group=True | content='[https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/19f8d1f3-011e-4990-95e5-ce45f6ba1a5f](https://www.kookapp.cn/direct/anchor/3090677846298039/7274785942250691/19f8d1f3-011e-4990-95e5-ce45f6ba1a5f)'
+[2026-08-24 01:12:06.558] [DEBUG   ] (queues:enqueue_message:75) [4e50b96826ff48f6] [队列] 群5314827528086362 消息已入队 (队长度=1)
+[2026-08-24 01:12:06.559] [DEBUG   ] (pipeline:process_message:500) [2a9db9e30ad74380] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[https://www.kookapp.cn/direct/anchor/30'
+[2026-08-24 01:12:06.559] [INFO    ] (logger:log_trace_summary:306) [2a9db9e30ad74380] [TRACE 2a9db9e30ad74380] total=1.13ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.09ms(x1) (wall1.09), queue_wait=0.45ms(x1)
+[2026-08-24 01:12:28.438] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=52.2 mem=72.8
