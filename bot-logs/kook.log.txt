@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 04:06:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 01:13:12.467] [INFO    ] (memory:merge_overflow_memory:419) [5aeb80a1822340ed] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
-[2026-08-24 01:13:12.468] [DEBUG   ] (pipeline:process_message:500) [5aeb80a1822340ed] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我写的后台保持还是太好了'
-[2026-08-24 01:13:12.468] [INFO    ] (logger:log_trace_summary:306) [5aeb80a1822340ed] [TRACE 5aeb80a1822340ed] total=1.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.36ms(x1) (wall1.36), queue_wait=0.38ms(x1)
+# 更新于 2026-08-24 04:06:57 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 01:13:12.469] [INFO    ] (llm:call_llm:427) [5aeb80a1822340ed] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-08-24 01:13:12.662] [INFO    ] (engine:_ingest:92) [5aeb80a1822340ed] 异步记忆提炼完成 chat=7274785942250691: 候选4 新增4
 [2026-08-24 01:13:15.073] [INFO    ] (llm:call_llm:489) [5aeb80a1822340ed] LLM [Qwen/Qwen3-235B-A22B] 返回 209字符 耗时2.6s → "[17:40:07-19:21:40] ywandwss, Trusler: ywandwss发送了..."
@@ -1499,3 +1496,6 @@
 [2026-08-24 04:04:37.073] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 04:05:07.488] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 04:05:37.810] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 04:06:08.212] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 04:06:38.556] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 04:06:56.596] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
