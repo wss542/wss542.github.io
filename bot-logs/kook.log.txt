@@ -1,45 +1,4 @@
-# 更新于 2026-08-24 01:29:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:36:07.205] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 00:36:07.205] [INFO    ] (logger:info:249) [-] 事件分发器已就绪
-[2026-08-24 00:36:07.205] [INFO    ] (logger:info:249) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 00:36:07.206] [INFO    ] (logger:info:249) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 00:36:07.215] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 00:36:07.216] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 00:36:07.216] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-24 00:36:07.219] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-24 00:36:07.219] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-24 00:36:07.220] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-24 00:36:07.220] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-24 00:36:07.220] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-24 00:36:07.220] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-24 00:36:07.220] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-24 00:36:07.220] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-24 00:36:07.221] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-24 00:36:07.221] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-24 00:36:07.221] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-24 00:36:07.222] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-24 00:36:07.222] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-24 00:36:07.222] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-24 00:36:07.222] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-24 00:36:07.223] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-24 00:36:07.223] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-24 00:36:07.223] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-24 00:36:07.223] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-24 00:36:07.229] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-24 00:36:07.229] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-24 00:36:07.230] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-24 00:36:07.230] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-24 00:36:07.231] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-24 00:36:07.232] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-24 00:36:07.232] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-24 00:36:07.232] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-24 00:36:07.232] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-24 00:36:07.233] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-24 00:36:07.233] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-24 00:36:07.233] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-24 00:36:07.234] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-24 00:36:07.234] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-24 00:36:07.234] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+# 更新于 2026-08-24 01:30:28 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:36:07.235] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
 [2026-08-24 00:36:07.236] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
 [2026-08-24 00:36:07.236] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
@@ -1499,3 +1458,44 @@
 [2026-08-24 01:29:07.371] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=58.8 mem=73.7
 [2026-08-24 01:29:32.614] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 01:29:41.154] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=64.3 mem=73.8
+[2026-08-24 01:29:57.505] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:29:57.506] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵...' is_edit=False
+[2026-08-24 01:29:57.506] [DEBUG   ] (dispatcher:_dispatch_inner:110) [50ece6bc58e44c68] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-24 01:29:57.507] [INFO    ] (dispatcher:_dispatch_inner:308) [50ece6bc58e44c68] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='喵...'
+[2026-08-24 01:29:57.509] [DEBUG   ] (queues:enqueue_message:75) [50ece6bc58e44c68] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:29:57.511] [INFO    ] (memory:merge_overflow_memory:419) [d45b2215802245c6] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
+[2026-08-24 01:29:57.511] [DEBUG   ] (pipeline:process_message:500) [d45b2215802245c6] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵...'
+[2026-08-24 01:29:57.512] [INFO    ] (logger:log_trace_summary:306) [d45b2215802245c6] [TRACE d45b2215802245c6] total=1.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.45ms(x1) (wall1.45), queue_wait=1.02ms(x1)
+[2026-08-24 01:30:03.209] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3061)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:30:05.329] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:30:05.331] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我都看不懂TAT' is_edit=False
+[2026-08-24 01:30:05.331] [DEBUG   ] (dispatcher:_dispatch_inner:110) [dc92ad0e70d84089] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-24 01:30:05.331] [INFO    ] (dispatcher:_dispatch_inner:308) [dc92ad0e70d84089] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='我都看不懂TAT'
+[2026-08-24 01:30:05.334] [DEBUG   ] (queues:enqueue_message:75) [dc92ad0e70d84089] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:30:05.335] [INFO    ] (memory:merge_overflow_memory:419) [93899a87defc481d] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
+[2026-08-24 01:30:05.336] [DEBUG   ] (pipeline:process_message:500) [93899a87defc481d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我都看不懂TAT'
+[2026-08-24 01:30:05.336] [INFO    ] (logger:log_trace_summary:306) [93899a87defc481d] [TRACE 93899a87defc481d] total=1.91ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.82ms(x1) (wall1.82), queue_wait=0.6ms(x1)
+[2026-08-24 01:30:14.480] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=65.8 mem=73.8
+[2026-08-24 01:30:15.622] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:30:15.629] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='>luck' is_edit=False
+[2026-08-24 01:30:15.629] [DEBUG   ] (dispatcher:_dispatch_inner:110) [abe1cc4780eb4ce2] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 01:30:15.629] [INFO    ] (dispatcher:_dispatch_inner:308) [abe1cc4780eb4ce2] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>luck'
+[2026-08-24 01:30:15.631] [INFO    ] (queues:_get_or_create_queue:32) [abe1cc4780eb4ce2] [队列] 创建群1010983873136793 的独立消息队列
+[2026-08-24 01:30:15.631] [DEBUG   ] (queues:enqueue_message:75) [abe1cc4780eb4ce2] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 01:30:15.632] [INFO    ] (memory:merge_overflow_memory:419) [ee22792842ea4bdd] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-24 01:30:15.633] [DEBUG   ] (pipeline:process_message:500) [ee22792842ea4bdd] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
+[2026-08-24 01:30:15.633] [INFO    ] (logger:log_trace_summary:306) [ee22792842ea4bdd] [TRACE ee22792842ea4bdd] total=2.06ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.03ms(x1) (wall2.03), queue_wait=0.39ms(x1)
+[2026-08-24 01:30:16.342] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:30:16.343] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)337936062(met) 你今天的运气是 39 喵' is_edit=False
+[2026-08-24 01:30:16.343] [DEBUG   ] (dispatcher:_dispatch_inner:107) [8c72dda9e8994a23] 跳过 bot 消息: uid=393688090
+[2026-08-24 01:30:20.294] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:30:20.295] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='>签到' is_edit=False
+[2026-08-24 01:30:20.295] [DEBUG   ] (dispatcher:_dispatch_inner:110) [37692c87655b4935] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 01:30:20.295] [INFO    ] (dispatcher:_dispatch_inner:308) [37692c87655b4935] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>签到'
+[2026-08-24 01:30:20.297] [DEBUG   ] (queues:enqueue_message:75) [37692c87655b4935] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 01:30:20.298] [INFO    ] (memory:merge_overflow_memory:419) [559446f96a434e3c] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-24 01:30:20.300] [DEBUG   ] (pipeline:process_message:500) [559446f96a434e3c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
+[2026-08-24 01:30:20.300] [INFO    ] (logger:log_trace_summary:306) [559446f96a434e3c] [TRACE 559446f96a434e3c] total=2.96ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.88ms(x1) (wall2.88), queue_wait=0.58ms(x1)
+[2026-08-24 01:30:20.809] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:30:20.810] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：9\n🔥 连续签到：3 天' is_edit=False
+[2026-08-24 01:30:20.810] [DEBUG   ] (dispatcher:_dispatch_inner:107) [8941717f9ad14b71] 跳过 bot 消息: uid=393688090
