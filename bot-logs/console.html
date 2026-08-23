@@ -918,7 +918,7 @@ function apiBase(){
   // 本机 / VM 局域网直连（standalone_log_server:58888 或 nginx 反代）→ 同源相对路径，
   // 绕过不稳定的 serveo 隧道，避免「日志卡住 / 显示旧缓存」(2026-08-11 修复：
   // serveo 隧道进程已失效，原硬编码域名导致日志台一直显示旧缓存)。
-  if(_h==='localhost'||_h==='127.0.0.1'||_h==='172.16.68.129'||_h.endsWith('.local')||_h.startsWith('192.168.')||_h.startsWith('10.')||_h.startsWith('172.'))return basePath();
+  if(_h==='localhost'||_h==='127.0.0.1'||_h==='192.168.48.131'||_h.endsWith('.local')||_h.startsWith('192.168.')||_h.startsWith('10.')||_h.startsWith('172.'))return basePath();
   // 外网(GitHub Pages / 非局域网) → Cloudflare Quick Tunnel（systemd 自启，VM 开机自动建）
   // 注：quick tunnel 每次重启可能变 URL，需同步更新此处。
   return 'https://opt-bow-revisions-formats.trycloudflare.com/';
