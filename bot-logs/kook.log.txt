@@ -1,26 +1,4 @@
-# 更新于 2026-08-24 01:19:13 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:28:36.017] [INFO    ] (image_api:recognize_image:159) [12d02ba6792b4ef2] [chat=7274785942250691] 图片下载成功: 131734 bytes
-[2026-08-24 00:28:36.018] [INFO    ] (image_api:get:86) [12d02ba6792b4ef2] 图片识别缓存命中 MD5=9ffe38377f2f... → '这是一张测试结果的截图，显示了一个人的抽象圈匹配度为64%。文本描述了这个人现实...'
-[2026-08-24 00:28:36.018] [INFO    ] (dispatcher:_do_recognize_image:914) [12d02ba6792b4ef2] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '这是一张测试结果的截图，显示了一个人的抽象圈匹配度为64%。文本描述了这个人现实、理性且有时让人难以接近的性格特点。此外，还提到了一些与跑步和音乐相关的信息。在...' (126字) url=https://img.kookapp.cn/attachments/2026-08/24/GXbWMZwiWo0u01
-[2026-08-24 00:28:36.018] [INFO    ] (dispatcher:_dispatch_inner:400) [12d02ba6792b4ef2] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '这是一张测试结果的截图，显示了一个人的抽象圈匹配度为64%。文本描述了这个人现实、理性且有时让人难以...'
-[2026-08-24 00:28:36.019] [DEBUG   ] (queues:enqueue_message:75) [12d02ba6792b4ef2] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-24 00:28:36.019] [INFO    ] (pipeline:process_message:367) [751b941adb134406] 附带图片已记录 [chat=7274785942250691] count=1
-[2026-08-24 00:28:36.020] [INFO    ] (memory:merge_overflow_memory:419) [751b941adb134406] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
-[2026-08-24 00:28:36.021] [DEBUG   ] (pipeline:process_message:500) [751b941adb134406] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
-[2026-08-24 00:28:36.021] [INFO    ] (logger:log_trace_summary:306) [751b941adb134406] [TRACE 751b941adb134406] total=2.22ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.18ms(x1) (wall2.18), queue_wait=0.47ms(x1)
-[2026-08-24 00:28:41.596] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
-[2026-08-24 00:28:55.304] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=76.7 mem=65.8
-[2026-08-24 00:29:01.997] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:29:01.998] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='qwq' is_edit=False
-[2026-08-24 00:29:01.998] [DEBUG   ] (dispatcher:_dispatch_inner:110) [041d4a304db54709] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-[2026-08-24 00:29:01.998] [INFO    ] (dispatcher:_dispatch_inner:308) [041d4a304db54709] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='qwq'
-[2026-08-24 00:29:02.002] [DEBUG   ] (queues:enqueue_message:75) [041d4a304db54709] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-24 00:29:02.003] [INFO    ] (memory:merge_overflow_memory:419) [5b26ceec071a45a4] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
-[2026-08-24 00:29:02.004] [DEBUG   ] (pipeline:process_message:500) [5b26ceec071a45a4] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
-[2026-08-24 00:29:02.005] [INFO    ] (logger:log_trace_summary:306) [5b26ceec071a45a4] [TRACE 5b26ceec071a45a4] total=1.98ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.93ms(x1) (wall1.93), queue_wait=0.69ms(x1)
-[2026-08-24 00:29:02.157] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:29:12.194] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
-[2026-08-24 00:29:19.680] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-24 01:19:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:29:19.681] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)659688244(met) 你看看 喵～' is_edit=False
 [2026-08-24 00:29:19.681] [DEBUG   ] (dispatcher:_dispatch_inner:110) [33385d8d2fd1490d] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
 [2026-08-24 00:29:19.938] [WARNING ] (dispatcher:_resolve_quoted_media:887) [33385d8d2fd1490d] 📎 反查引用消息 13f82e37-26ce-44d5-a51e-b605c8da7d85 失败(兜底用卡片预览): EventDispatcher._extract_image_urls() takes 1 positional argument but 2 were given
@@ -1499,3 +1477,25 @@
 [2026-08-24 01:18:40.302] [INFO    ] (logger:log_trace_summary:306) [b80d99dde8284755] [TRACE b80d99dde8284755] total=1.5ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.46ms(x1) (wall1.46), queue_wait=0.5ms(x1)
 [2026-08-24 01:18:53.497] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=64.5 mem=75.7
 [2026-08-24 01:19:10.351] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:19:27.260] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=69.5 mem=76.0
+[2026-08-24 01:19:32.186] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:19:32.187] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='原文是：如果可以的话我单独给你开一个api接口，你用github到时会限流，但我的接口在我的服务器所以不会限流' is_edit=False
+[2026-08-24 01:19:32.187] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d0d62464b6dc4c20] KMD 调试: is_group=True uid=656176615 channel=7274785942250691
+[2026-08-24 01:19:32.187] [INFO    ] (dispatcher:_dispatch_inner:308) [d0d62464b6dc4c20] 📩 消息 #50 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=7274785942250691 | group=True | content='原文是：如果可以的话我单独给你开一个api接口，你用github到时会限流，但我的接口在我的服务器所以不会限流'
+[2026-08-24 01:19:32.190] [DEBUG   ] (queues:enqueue_message:75) [d0d62464b6dc4c20] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:19:32.191] [INFO    ] (memory:merge_overflow_memory:419) [9ece30318dba4b45] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
+[2026-08-24 01:19:32.192] [DEBUG   ] (pipeline:process_message:500) [9ece30318dba4b45] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='原文是：如果可以的话我单独给你开一个api接口，你用github到时会限流，但我'
+[2026-08-24 01:19:32.195] [INFO    ] (logger:log_trace_summary:306) [9ece30318dba4b45] [TRACE 9ece30318dba4b45] total=4.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.34ms(x1) (wall4.34), queue_wait=0.88ms(x1)
+[2026-08-24 01:19:32.196] [INFO    ] (llm:call_llm:427) [9ece30318dba4b45] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-24 01:19:32.221] [INFO    ] (engine:_ingest:92) [9ece30318dba4b45] 异步记忆提炼完成 chat=7274785942250691: 候选9 新增9
+[2026-08-24 01:19:35.066] [INFO    ] (llm:call_llm:489) [9ece30318dba4b45] LLM [Qwen/Qwen3-235B-A22B] 返回 235字符 耗时2.9s → "[00:40:16] ywandwss: ywandwss说了/luck/fuck, 回复/luck..."
+[2026-08-24 01:19:35.071] [INFO    ] (memory:_compress_with_deepseek:210) [9ece30318dba4b45] [7274785942250691] 压缩完成: 10条消息 → 保存
+[2026-08-24 01:19:41.139] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:19:45.036] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:19:45.036] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='嗯…' is_edit=False
+[2026-08-24 01:19:45.037] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ddcc02e9a6934288] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:19:45.037] [INFO    ] (dispatcher:_dispatch_inner:308) [ddcc02e9a6934288] 📩 消息 #51 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='嗯…'
+[2026-08-24 01:19:45.038] [DEBUG   ] (queues:enqueue_message:75) [ddcc02e9a6934288] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:19:45.039] [INFO    ] (memory:merge_overflow_memory:419) [c9dde1e663564df8] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-24 01:19:45.040] [DEBUG   ] (pipeline:process_message:500) [c9dde1e663564df8] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='嗯…'
+[2026-08-24 01:19:45.040] [INFO    ] (logger:log_trace_summary:306) [c9dde1e663564df8] [TRACE c9dde1e663564df8] total=1.44ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.4ms(x1) (wall1.4), queue_wait=0.57ms(x1)
