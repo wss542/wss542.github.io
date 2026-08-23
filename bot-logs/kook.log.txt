@@ -1,9 +1,4 @@
-# 更新于 2026-08-23 16:23:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[[38;5;240m2026-08-23 14:50:28.631[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:227)[0m [85f12dc506e84fb9] 开始分批发送 4 条句子 → chat=[38;5;226m1759953618[0m is_group=False
-[[38;5;240m2026-08-23 14:50:28.632[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:427)[0m [85f12dc506e84fb9] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0[38;5;207m.2[0m timeout=15[38;5;207m.0s[0m
-[[38;5;240m2026-08-23 14:50:28.634[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:427)[0m [85f12dc506e84fb9] 调用LLM [deepseek-v4-flash] url=v1 tokens=150 temp=0[38;5;207m.1[0m timeout=8[38;5;207m.0s[0m
-[[38;5;240m2026-08-23 14:50:29.215[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(bot:_patched_consume_pkg:208)[0m [c260f6ff31894963] 🧩 _consume_pkg pkg type=9 extra[38;5;207m.type[0m=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[[38;5;240m2026-08-23 14:50:29.223[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:241)[0m [85f12dc506e84fb9] 已发送第 1/4 条: **先给结论喵~**
+# 更新于 2026-08-23 16:23:57 · 共 1500 行（来源 huanmeng.log 末尾）
 对，我确实是这个意思：昆仑玻璃在**日...
 [[38;5;240m2026-08-23 14:50:29.223[0m] [38;5;117m[DEBUG   ][0m [38;5;244m(response_delivery:send_sentences:238)[0m [85f12dc506e84fb9] 句间等待 0[38;5;207m.69s[0m (#2/4)
 [[38;5;240m2026-08-23 14:50:29.923[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(llm:call_llm:489)[0m [85f12dc506e84fb9] LLM [deepseek-v4-flash] 返回 [38;5;226m130字[0m符 耗时1[38;5;207m.3s[0m → "{"name": null, "tags": [], "interests": [], "tone"..."
@@ -1499,3 +1494,8 @@ UP主: 天童ケイ酱
 [[38;5;240m2026-08-23 16:22:00.850[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Hinkik - Time Leaper**' keys=18
 [[38;5;240m2026-08-23 16:22:31.439[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Hinkik - Time Leaper**' keys=18
 [[38;5;240m2026-08-23 16:23:02.096[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Hinkik - Time Leaper**' keys=18
+[[38;5;240m2026-08-23 16:23:16.806[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=-[38;5;226m235ms[0m]: '**▶ Oh The Larceny - This Is It**' song=Oh The Larceny - This Is It playing=True channel=None
+[[38;5;240m2026-08-23 16:23:16.806[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:141)[0m [-] 收到 lyric_event [延迟=-[38;5;226m235ms[0m]: '**Yeah, this is it**
+`是的，就是这样`' song=Oh The Larceny - This Is It playing=True channel=None
+[[38;5;240m2026-08-23 16:23:32.746[0m] [1m[38;5;147m[INFO    ][0m [38;5;244m(pc_status:_handle_client:93)[0m [-] PC 数据心跳 [('192[38;5;207m.168[0m[38;5;207m.48[0m[38;5;207m.1[0m', [38;5;226m10797[0m)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Yeah, this is it**
+`是的，就是这样`' keys=18
