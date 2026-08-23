@@ -1,61 +1,4 @@
-# 更新于 2026-08-24 01:12:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:20:00.229] [INFO    ] (logger:info:249) [-] ==================================================
-[2026-08-24 00:20:00.230] [INFO    ] (logger:info:249) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-24 00:20:00.230] [INFO    ] (logger:info:249) [-] ==================================================
-[2026-08-24 00:20:00.234] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-24 00:20:00.235] [INFO    ] (logger:info:249) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-24 00:20:00.237] [INFO    ] (logger:info:249) [-] 语言文件已加载
-[2026-08-24 00:20:00.237] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-24 00:20:00.238] [INFO    ] (logger:info:249) [-] 日志系统已初始化
-[2026-08-24 00:20:00.238] [INFO    ] (logger:info:249) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-24 00:20:00.238] [INFO    ] (logger:info:249) [-] khl.py Bot 实例已创建
-[2026-08-24 00:20:00.494] [INFO    ] (logger:info:249) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-24 00:20:00.496] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-24 00:20:00.506] [INFO    ] (logger:info:249) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-24 00:20:00.506] [INFO    ] (logger:info:249) [-] 消息发送器已初始化
-[2026-08-24 00:20:00.935] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-24 00:20:00.950] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-24 00:20:00.951] [INFO    ] (logger:info:249) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-24 00:20:00.952] [INFO    ] (logger:info:249) [-] 用户名查询模块已初始化
-[2026-08-24 00:20:00.953] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-24 00:20:00.953] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-24 00:20:00.953] [INFO    ] (logger:info:249) [-] 上下文管理器已初始化
-[2026-08-24 00:20:00.956] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 00:20:00.957] [INFO    ] (logger:info:249) [-] 事件分发器已就绪
-[2026-08-24 00:20:00.957] [INFO    ] (logger:info:249) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 00:20:00.957] [INFO    ] (logger:info:249) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 00:20:00.969] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 00:20:00.970] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 00:20:00.970] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-24 00:20:00.981] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-24 00:20:00.982] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-24 00:20:00.982] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-24 00:20:00.982] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-24 00:20:00.983] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-24 00:20:00.983] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-24 00:20:00.983] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-24 00:20:00.983] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-24 00:20:00.984] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-24 00:20:00.984] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-24 00:20:00.984] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-24 00:20:00.985] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-24 00:20:00.985] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-24 00:20:00.985] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-24 00:20:00.986] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-24 00:20:00.987] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-24 00:20:00.987] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-24 00:20:00.988] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-24 00:20:00.988] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-24 00:20:00.995] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-24 00:20:00.995] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-24 00:20:00.996] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-24 00:20:00.997] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-24 00:20:00.997] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-24 00:20:00.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-24 00:20:00.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-24 00:20:00.999] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-24 00:20:00.000] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-24 00:20:01.000] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+# 更新于 2026-08-24 01:13:14 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:20:01.001] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-08-24 00:20:01.002] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
 [2026-08-24 00:20:01.003] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
@@ -1499,3 +1442,60 @@
 [2026-08-24 01:12:06.559] [DEBUG   ] (pipeline:process_message:500) [2a9db9e30ad74380] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[https://www.kookapp.cn/direct/anchor/30'
 [2026-08-24 01:12:06.559] [INFO    ] (logger:log_trace_summary:306) [2a9db9e30ad74380] [TRACE 2a9db9e30ad74380] total=1.13ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.09ms(x1) (wall1.09), queue_wait=0.45ms(x1)
 [2026-08-24 01:12:28.438] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=52.2 mem=72.8
+[2026-08-24 01:12:33.294] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:12:41.798] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:12:41.800] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='谁给鱼的撤回了' is_edit=False
+[2026-08-24 01:12:41.800] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b0961444086f47f4] KMD 调试: is_group=True uid=337936062 channel=5314827528086362
+[2026-08-24 01:12:41.800] [INFO    ] (dispatcher:_dispatch_inner:308) [b0961444086f47f4] 📩 消息 #24 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=5314827528086362 | group=True | content='谁给鱼的撤回了'
+[2026-08-24 01:12:41.802] [DEBUG   ] (queues:enqueue_message:75) [b0961444086f47f4] [队列] 群5314827528086362 消息已入队 (队长度=1)
+[2026-08-24 01:12:41.804] [DEBUG   ] (pipeline:process_message:500) [2b42e0249a624335] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='谁给鱼的撤回了'
+[2026-08-24 01:12:41.805] [INFO    ] (logger:log_trace_summary:306) [2b42e0249a624335] [TRACE 2b42e0249a624335] total=2.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.17ms(x1) (wall2.17), queue_wait=0.66ms(x1)
+[2026-08-24 01:12:44.562] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:12:44.563] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我去才发现' is_edit=False
+[2026-08-24 01:12:44.563] [DEBUG   ] (dispatcher:_dispatch_inner:110) [19474f2c233e4eb6] KMD 调试: is_group=True uid=337936062 channel=5314827528086362
+[2026-08-24 01:12:44.563] [INFO    ] (dispatcher:_dispatch_inner:308) [19474f2c233e4eb6] 📩 消息 #25 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=5314827528086362 | group=True | content='我去才发现'
+[2026-08-24 01:12:44.564] [DEBUG   ] (queues:enqueue_message:75) [19474f2c233e4eb6] [队列] 群5314827528086362 消息已入队 (队长度=1)
+[2026-08-24 01:12:44.565] [DEBUG   ] (pipeline:process_message:500) [4cc28cee96994333] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我去才发现'
+[2026-08-24 01:12:44.566] [INFO    ] (logger:log_trace_summary:306) [4cc28cee96994333] [TRACE 4cc28cee96994333] total=1.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.95ms(x1) (wall0.95), queue_wait=0.48ms(x1)
+[2026-08-24 01:12:58.939] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:12:58.940] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='他自己删的吧' is_edit=False
+[2026-08-24 01:12:58.940] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5364519b0ff7447b] KMD 调试: is_group=True uid=1759953618 channel=5314827528086362
+[2026-08-24 01:12:58.940] [INFO    ] (dispatcher:_dispatch_inner:308) [5364519b0ff7447b] 📩 消息 #26 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=5314827528086362 | group=True | content='他自己删的吧'
+[2026-08-24 01:12:58.941] [DEBUG   ] (queues:enqueue_message:75) [5364519b0ff7447b] [队列] 群5314827528086362 消息已入队 (队长度=1)
+[2026-08-24 01:12:58.943] [DEBUG   ] (pipeline:process_message:500) [8d1e9abe92554a8a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='他自己删的吧'
+[2026-08-24 01:12:58.943] [INFO    ] (logger:log_trace_summary:306) [8d1e9abe92554a8a] [TRACE 8d1e9abe92554a8a] total=0.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.6ms(x1) (wall0.6), queue_wait=0.65ms(x1)
+[2026-08-24 01:13:03.246] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=70.7 mem=72.9
+[2026-08-24 01:13:03.869] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:13:05.458] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:13:05.459] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='666忘记关这个软件了' is_edit=False
+[2026-08-24 01:13:05.459] [DEBUG   ] (dispatcher:_dispatch_inner:110) [09766c434b884f75] KMD 调试: is_group=True uid=656176615 channel=7274785942250691
+[2026-08-24 01:13:05.459] [INFO    ] (dispatcher:_dispatch_inner:308) [09766c434b884f75] 📩 消息 #27 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=7274785942250691 | group=True | content='666忘记关这个软件了'
+[2026-08-24 01:13:05.465] [DEBUG   ] (queues:enqueue_message:75) [09766c434b884f75] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:13:05.467] [INFO    ] (memory:merge_overflow_memory:419) [2e40e5773afe409b] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 8条 (阈值=10)
+[2026-08-24 01:13:05.467] [DEBUG   ] (pipeline:process_message:500) [2e40e5773afe409b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='666忘记关这个软件了'
+[2026-08-24 01:13:05.467] [INFO    ] (logger:log_trace_summary:306) [2e40e5773afe409b] [TRACE 2e40e5773afe409b] total=1.59ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.55ms(x1) (wall1.55), queue_wait=0.8ms(x1)
+[2026-08-24 01:13:05.797] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:13:05.798] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='那没事了' is_edit=False
+[2026-08-24 01:13:05.798] [DEBUG   ] (dispatcher:_dispatch_inner:110) [55c07f3d81ca4b39] KMD 调试: is_group=True uid=337936062 channel=5314827528086362
+[2026-08-24 01:13:05.799] [INFO    ] (dispatcher:_dispatch_inner:308) [55c07f3d81ca4b39] 📩 消息 #28 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=5314827528086362 | group=True | content='那没事了'
+[2026-08-24 01:13:05.800] [DEBUG   ] (queues:enqueue_message:75) [55c07f3d81ca4b39] [队列] 群5314827528086362 消息已入队 (队长度=1)
+[2026-08-24 01:13:05.802] [DEBUG   ] (pipeline:process_message:500) [f9e7046803f1456b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='那没事了'
+[2026-08-24 01:13:05.802] [INFO    ] (logger:log_trace_summary:306) [f9e7046803f1456b] [TRACE f9e7046803f1456b] total=1.81ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.76ms(x1) (wall1.76), queue_wait=1.0ms(x1)
+[2026-08-24 01:13:11.432] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:13:11.432] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
+[2026-08-24 01:13:11.432] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2f4db7e212ec4682] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:13:11.432] [INFO    ] (dispatcher:_dispatch_inner:308) [2f4db7e212ec4682] 📩 消息 #29 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='？'
+[2026-08-24 01:13:11.434] [DEBUG   ] (queues:enqueue_message:75) [2f4db7e212ec4682] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:13:11.434] [INFO    ] (memory:merge_overflow_memory:419) [ada108cbc8ad47f1] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 9条 (阈值=10)
+[2026-08-24 01:13:11.435] [DEBUG   ] (pipeline:process_message:500) [ada108cbc8ad47f1] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+[2026-08-24 01:13:11.435] [INFO    ] (logger:log_trace_summary:306) [ada108cbc8ad47f1] [TRACE ada108cbc8ad47f1] total=1.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.55ms(x1) (wall1.55), queue_wait=0.29ms(x1)
+[2026-08-24 01:13:12.464] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:13:12.465] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我写的后台保持还是太好了' is_edit=False
+[2026-08-24 01:13:12.465] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b9dd47740a2846ec] KMD 调试: is_group=True uid=656176615 channel=7274785942250691
+[2026-08-24 01:13:12.465] [INFO    ] (dispatcher:_dispatch_inner:308) [b9dd47740a2846ec] 📩 消息 #30 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=7274785942250691 | group=True | content='我写的后台保持还是太好了'
+[2026-08-24 01:13:12.466] [DEBUG   ] (queues:enqueue_message:75) [b9dd47740a2846ec] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:13:12.467] [INFO    ] (memory:merge_overflow_memory:419) [5aeb80a1822340ed] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
+[2026-08-24 01:13:12.468] [DEBUG   ] (pipeline:process_message:500) [5aeb80a1822340ed] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我写的后台保持还是太好了'
+[2026-08-24 01:13:12.468] [INFO    ] (logger:log_trace_summary:306) [5aeb80a1822340ed] [TRACE 5aeb80a1822340ed] total=1.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.36ms(x1) (wall1.36), queue_wait=0.38ms(x1)
+[2026-08-24 01:13:12.469] [INFO    ] (llm:call_llm:427) [5aeb80a1822340ed] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-24 01:13:12.662] [INFO    ] (engine:_ingest:92) [5aeb80a1822340ed] 异步记忆提炼完成 chat=7274785942250691: 候选4 新增4
