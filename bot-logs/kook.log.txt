@@ -1,8 +1,4 @@
-# 更新于 2026-08-24 01:33:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:39:41.176] [INFO    ] (pipeline:process_message:1064) [df68dc898d96499a] 开始生成回复: speaker=名字 chat=6243254695867429
-[2026-08-24 00:39:43.685] [INFO    ] (llm:generate_multi_reply_with_tools:971) [df68dc898d96499a] LLM原始输出 [轮1]: content={\n  "replies": ["好的，我保持安静喵", "不会打扰大家了"],\n  "fav": -2,\n  "calls": [],\n  "face": "(emj)捂脸(emj)[3090677846298039/Y2AgLiuQXn0ey0dy]",\n  "mood": "乖巧",\n  "action": "",\n  "at": null,\n  "mode": null,\n  "origi | tool_calls=0
-[2026-08-24 00:39:43.686] [INFO    ] (llm:_parse_reply:1314) [df68dc898d96499a] JSON回复解析: 2句 fav=-2 calls=0 mood=乖巧
-[2026-08-24 00:39:43.687] [INFO    ] (fav:update_fav:105) [df68dc898d96499a] 好感度更新: g6243254695867429:3671686013 -2 → 46
+# 更新于 2026-08-24 01:34:13 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:39:43.687] [INFO    ] (pipeline:process_message:1547) [df68dc898d96499a] 好感度调整: 名字 -2 (chat=6243254695867429)
 [2026-08-24 00:39:43.687] [INFO    ] (pipeline:process_message:1553) [df68dc898d96499a] ✅ 管道处理完成: 2句 sent chat=6243254695867429
 [2026-08-24 00:39:43.687] [DEBUG   ] (pipeline:process_message:1575) [df68dc898d96499a] Fast Path 主题已记录: chat=6243254695867429 topic='茂密不要再说了'
@@ -1499,3 +1495,7 @@
 [2026-08-24 01:32:33.096] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 01:33:03.239] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=75.6 mem=73.5
 [2026-08-24 01:33:03.546] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:33:34.250] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:33:40.270] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=91.0 mem=74.0
+[2026-08-24 01:34:04.483] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:34:13.618] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=58.2 mem=74.0
