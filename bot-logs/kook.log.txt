@@ -1,20 +1,4 @@
-# 更新于 2026-08-24 01:05:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:15:55.630] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:15:55.631] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵...' is_edit=False
-[2026-08-24 00:15:55.631] [DEBUG   ] (dispatcher:_dispatch_inner:110) [111fddc274ba4abf] KMD 调试: is_group=True uid=337936062 channel=8318134604058084
-[2026-08-24 00:15:55.632] [INFO    ] (dispatcher:_dispatch_inner:308) [111fddc274ba4abf] 📩 消息 #62 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=8318134604058084 | group=True | content='喵...'
-[2026-08-24 00:15:55.633] [DEBUG   ] (queues:enqueue_message:75) [111fddc274ba4abf] [队列] 群8318134604058084 消息已入队 (队长度=1)
-[2026-08-24 00:15:55.633] [INFO    ] (memory:merge_overflow_memory:419) [eef258bd92cc42b3] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 1条 (阈值=10)
-[2026-08-24 00:15:55.634] [DEBUG   ] (pipeline:process_message:500) [eef258bd92cc42b3] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵...'
-[2026-08-24 00:15:55.635] [INFO    ] (logger:log_trace_summary:306) [eef258bd92cc42b3] [TRACE eef258bd92cc42b3] total=1.89ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.85ms(x1) (wall1.85), queue_wait=0.39ms(x1)
-[2026-08-24 00:15:57.089] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 00:15:57.091] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='...' is_edit=False
-[2026-08-24 00:15:57.092] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8e484eab0e3040f5] KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-[2026-08-24 00:15:57.092] [INFO    ] (dispatcher:_dispatch_inner:308) [8e484eab0e3040f5] 📩 消息 #63 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='...'
-[2026-08-24 00:15:57.094] [DEBUG   ] (queues:enqueue_message:75) [8e484eab0e3040f5] [队列] 群3649029148752421 消息已入队 (队长度=1)
-[2026-08-24 00:15:57.095] [INFO    ] (memory:merge_overflow_memory:419) [b41e30aa52f94361] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 3条 (阈值=10)
-[2026-08-24 00:15:57.096] [DEBUG   ] (pipeline:process_message:500) [b41e30aa52f94361] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='...'
-[2026-08-24 00:15:57.097] [DEBUG   ] (pipeline:process_message:510) [b41e30aa52f94361] 点前缀消息忽略（其它 bot 命令）: '...'
+# 更新于 2026-08-24 01:06:00 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:15:57.097] [INFO    ] (logger:log_trace_summary:306) [b41e30aa52f94361] [TRACE b41e30aa52f94361] total=2.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.71ms(x1) (wall2.71), queue_wait=0.56ms(x1)
 [2026-08-24 00:16:03.279] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=78.8 mem=90.1
 [2026-08-24 00:16:12.660] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1483,19 @@
 [2026-08-24 01:04:54.559] [INFO    ] (llm:call_llm:427) [205096ee251b43cf] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-08-24 01:04:58.251] [INFO    ] (llm:call_llm:489) [205096ee251b43cf] LLM [Qwen/Qwen3-235B-A22B] 返回 352字符 耗时3.7s → "[00:04:11-00:24:39] ywandwss, 제미니 (shuangzi_1228):..."
 [2026-08-24 01:04:58.260] [INFO    ] (memory:_compress_with_deepseek:210) [205096ee251b43cf] [7274785942250691] 压缩完成: 10条消息 → 保存
+[2026-08-24 01:05:13.242] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:05:20.966] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=83.2 mem=73.1
+[2026-08-24 01:05:36.366] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:05:36.367] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/sys' is_edit=False
+[2026-08-24 01:05:36.367] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1104754970e942c1] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-24 01:05:36.367] [INFO    ] (dispatcher:_dispatch_inner:308) [1104754970e942c1] 📩 消息 #13 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/sys'
+[2026-08-24 01:05:36.369] [DEBUG   ] (queues:enqueue_message:75) [1104754970e942c1] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-24 01:05:36.373] [INFO    ] (memory:merge_overflow_memory:419) [df75435ddc0640c8] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-24 01:05:36.375] [INFO    ] (pipeline:process_message:470) [df75435ddc0640c8] 指令拦截: '/sys' from=ywandwss
+[2026-08-24 01:05:36.375] [DEBUG   ] (commands:handle_command:4508) [df75435ddc0640c8] 指令解析: prefix=/ cmd=sys args=[] user=1759953618
+[2026-08-24 01:05:36.376] [INFO    ] (changelog:render_card_to_image:801) [df75435ddc0640c8] [Card] 正在截图 → sysiph_e90563e5.jpg (14498 bytes HTML)
+[2026-08-24 01:05:37.708] [INFO    ] (changelog:render_card_to_image:809) [df75435ddc0640c8] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_e90563e5.jpg size=116.4KB
+[2026-08-24 01:05:38.844] [INFO    ] (commands:handle_command:4552) [df75435ddc0640c8] 指令执行完成 [sys]: 无返回值（已自行发送）
+[2026-08-24 01:05:38.845] [INFO    ] (logger:log_trace_summary:306) [df75435ddc0640c8] [TRACE df75435ddc0640c8] total=2474.21ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2472.48ms(x1) (wall2472.48), queue_wait=5.03ms(x1)
+[2026-08-24 01:05:43.844] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 01:06:00.286] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=73.8 mem=72.7
