@@ -1,14 +1,4 @@
-# 更新于 2026-08-24 01:16:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 00:27:37.884] [INFO    ] (image_api:recognize_image:171) [dab78496db9f41b9] [chat=5314827528086362] 调用视觉模型识别图片 (MD5=e08a071ef782...) model=glm-4v-flash
-[2026-08-24 00:27:37.897] [INFO    ] (image_api:recognize_image:203) [dab78496db9f41b9] [chat=5314827528086362] 图片预处理: PNG(746x74) → PNG 17481 bytes → 14610 bytes
-[2026-08-24 00:27:38.951] [INFO    ] (image_api:recognize_image:256) [dab78496db9f41b9] [chat=5314827528086362] 图片识别成功 (model=glm-4v-flash): 这是一张黑色背景的图片，上面用白色字体写着“#备忘录 日常别发这里！（除非有要求发这里）”。文字内容...
-[2026-08-24 00:27:38.953] [DEBUG   ] (image_api:_save:64) [dab78496db9f41b9] 图片缓存已写入磁盘: 288 条
-[2026-08-24 00:27:38.954] [DEBUG   ] (image_api:_save_to_repo:299) [dab78496db9f41b9] 图片仓库追加: MD5=e08a071ef782... → '这是一张黑色背景的图片，上面用白色字体写着“#备忘录 日常别'
-[2026-08-24 00:27:38.954] [INFO    ] (dispatcher:_do_recognize_image:914) [dab78496db9f41b9] 🖼️  [chat=5314827528086362] 图#1/1 识别完成: '这是一张黑色背景的图片，上面用白色字体写着“#备忘录 日常别发这里！（除非有要求发这里）”。文字内容表明这是一个提醒人们不要随意在某个地方发布信息的标志。...' (77字) url=https://img.kookapp.cn/assets/2026-08/24/A0ZsOcyb0r0kq022.pn
-[2026-08-24 00:27:38.955] [INFO    ] (dispatcher:_dispatch_inner:400) [dab78496db9f41b9] 🖼️  [chat=5314827528086362] 图1 识别完成并注入上下文: '这是一张黑色背景的图片，上面用白色字体写着“#备忘录 日常别发这里！（除非有要求发这里）”。文字内容...'
-[2026-08-24 00:27:38.955] [DEBUG   ] (queues:enqueue_message:75) [dab78496db9f41b9] [队列] 群5314827528086362 消息已入队 (队长度=1)
-[2026-08-24 00:27:38.955] [INFO    ] (pipeline:process_message:367) [28f8971d599d4d15] 附带图片已记录 [chat=5314827528086362] count=1
-[2026-08-24 00:27:38.956] [DEBUG   ] (pipeline:process_message:500) [28f8971d599d4d15] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+# 更新于 2026-08-24 01:17:34 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 00:27:38.957] [INFO    ] (logger:log_trace_summary:306) [28f8971d599d4d15] [TRACE 28f8971d599d4d15] total=1.12ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.08ms(x1) (wall1.08), queue_wait=0.23ms(x1)
 [2026-08-24 00:27:40.366] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8188)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**你会闻到幸福晴朗 的芬芳**' keys=18
 [2026-08-24 00:27:40.658] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=84.3 mem=66.4
@@ -1499,3 +1489,13 @@
 [2026-08-24 01:16:45.510] [INFO    ] (memory:merge_overflow_memory:419) [13a2e1c8c7bf4e3c] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
 [2026-08-24 01:16:45.510] [DEBUG   ] (pipeline:process_message:500) [13a2e1c8c7bf4e3c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='一个星期九千多个commit给我看傻了'
 [2026-08-24 01:16:45.511] [INFO    ] (logger:log_trace_summary:306) [13a2e1c8c7bf4e3c] [TRACE 13a2e1c8c7bf4e3c] total=1.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.13ms(x1) (wall1.13), queue_wait=0.39ms(x1)
+[2026-08-24 01:16:54.994] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 01:16:54.997] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='那我能咋办呢…(⊙_⊙;)…' is_edit=False
+[2026-08-24 01:16:54.997] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e6b51a7c66dd45a9] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 01:16:54.997] [INFO    ] (dispatcher:_dispatch_inner:308) [e6b51a7c66dd45a9] 📩 消息 #44 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='那我能咋办呢…(⊙_⊙;)…'
+[2026-08-24 01:16:54.999] [DEBUG   ] (queues:enqueue_message:75) [e6b51a7c66dd45a9] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 01:16:55.002] [INFO    ] (memory:merge_overflow_memory:419) [6832ba3fa0304326] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+[2026-08-24 01:16:55.003] [DEBUG   ] (pipeline:process_message:500) [6832ba3fa0304326] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='那我能咋办呢…(⊙_⊙;)…'
+[2026-08-24 01:16:55.003] [INFO    ] (logger:log_trace_summary:306) [6832ba3fa0304326] [TRACE 6832ba3fa0304326] total=2.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.8ms(x1) (wall1.8), queue_wait=2.09ms(x1)
+[2026-08-24 01:17:03.957] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=56.7 mem=73.4
+[2026-08-24 01:17:08.053] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14350)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
