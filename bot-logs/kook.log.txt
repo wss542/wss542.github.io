@@ -1,8 +1,4 @@
-# 更新于 2026-08-24 22:05:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:06:02.067] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 20:06:02.068] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-24 20:06:02.068] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-24 20:06:02.104] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+# 更新于 2026-08-24 22:06:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:06:02.104] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-24 20:06:02.105] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h54m 后执行 (00:01)
 [2026-08-24 20:06:02.164] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
@@ -1499,3 +1495,7 @@
 [2026-08-24 22:05:28.985] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
 [2026-08-24 22:05:28.986] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 22:05:30.997] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:06:01.405] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:06:14.734] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-24 22:06:14.734] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:06:32.036] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
