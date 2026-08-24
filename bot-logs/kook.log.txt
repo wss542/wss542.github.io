@@ -1,4 +1,4 @@
-# 更新于 2026-08-25 03:03:34 · 共 713 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-25 03:04:15 · 共 720 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:00:06.061] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
 [2026-08-25 00:00:06.065] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-08-25 00:00:19.018] [INFO    ] (stats:midnight_report_loop:462) [-] 🌅 新的一天 20260825 — 发送昨日群聊日报
@@ -712,3 +712,10 @@
 [2026-08-25 03:02:24.252] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 03:02:55.042] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 03:03:16.203] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>
+[2026-08-25 03:03:36.233] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>
+[2026-08-25 03:03:36.238] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 03:03:55.859] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
+[2026-08-25 03:04:00.142] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
+[2026-08-25 03:04:00.150] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connect call failed ('172.31.255.254', 443)]
+[2026-08-25 03:04:00.178] [INFO    ] (logger:info:335) [-] 5 秒后重试...
+[2026-08-25 03:04:06.456] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
