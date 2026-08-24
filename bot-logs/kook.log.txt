@@ -1,6 +1,4 @@
-# 更新于 2026-08-24 14:30:57 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:48:06.753] [DEBUG   ] (queues:enqueue_message:75) [527cadd7ac09430b] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-24 12:48:06.754] [INFO    ] (memory:merge_overflow_memory:419) [73756ea0b3034830] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
+# 更新于 2026-08-24 14:31:39 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:48:06.755] [DEBUG   ] (context_manager:append_to_context:86) [73756ea0b3034830] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
 [2026-08-24 12:48:06.756] [DEBUG   ] (pipeline:process_message:500) [73756ea0b3034830] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='响应'
 [2026-08-24 12:48:06.756] [INFO    ] (logger:log_trace_summary:306) [73756ea0b3034830] [TRACE 73756ea0b3034830] total=2.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.34ms(x1) (wall2.34), queue_wait=0.44ms(x1)
@@ -1499,3 +1497,5 @@
 [2026-08-24 14:30:27.186] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
 [2026-08-24 14:30:45.760] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=37.8 mem=36.8
 [2026-08-24 14:30:57.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-24 14:31:18.834] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=32.4 mem=36.8
+[2026-08-24 14:31:27.367] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
