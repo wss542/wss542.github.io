@@ -1,11 +1,4 @@
-# 更新于 2026-08-24 19:49:13 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 17:18:10.041] [WARNING ] (inline:cmd_watch_video:394) [f3b689ca0c7f4bea] 帧识别失败: 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}}
-[2026-08-24 17:18:10.298] [INFO    ] (image_api:recognize_image:150) [f3b689ca0c7f4bea] [chat=1759953618] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/LdXYPOfoLv0zk0...
-[2026-08-24 17:18:10.501] [INFO    ] (image_api:recognize_image:159) [f3b689ca0c7f4bea] [chat=1759953618] 图片下载成功: 3 bytes
-[2026-08-24 17:18:10.501] [INFO    ] (image_api:recognize_image:171) [f3b689ca0c7f4bea] [chat=1759953618] 调用视觉模型识别图片 (MD5=4f4adcbf8c6f...) model=glm-4v-flash
-[2026-08-24 17:18:10.502] [WARNING ] (image_api:recognize_image:207) [f3b689ca0c7f4bea] [chat=1759953618] PIL预处理跳过: cannot identify image file <_io.BytesIO object at 0x7e5b0e5b4680>, 使用原始数据
-[2026-08-24 17:18:10.696] [ERROR   ] (image_api:recognize_image:262) [f3b689ca0c7f4bea] 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}} (model=glm-4v-flash)
-[2026-08-24 17:18:10.697] [WARNING ] (inline:cmd_watch_video:394) [f3b689ca0c7f4bea] 帧识别失败: 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}}
+# 更新于 2026-08-24 19:49:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 17:18:10.699] [INFO    ] (commands:handle_command:4643) [f3b689ca0c7f4bea] 指令执行完成 [看视频]: 返回15字符
 [2026-08-24 17:18:11.122] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-24 17:18:11.127] [INFO    ] (logger:log_trace_summary:392) [f3b689ca0c7f4bea] [TRACE f3b689ca0c7f4bea] total=17307.85ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=17307.77ms(x1) (wall17307.77), queue_wait=1.35ms(x1)
@@ -1499,3 +1492,10 @@
 [2026-08-24 19:48:14.175] [INFO    ] (dispatcher:_do_recognize_video:1051) [7c5e7b1927084eac] 🎬 未配置 GEMINI_KEY，跳过 Gemini，直接用智谱
 [2026-08-24 19:48:40.888] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 19:49:11.357] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 19:49:35.532] [WARNING ] (dispatcher:_do_recognize_video:1093) [7c5e7b1927084eac] 🎬 视频识别失败: 限流429，降级抽帧+视觉模型保底
+[2026-08-24 19:49:35.630] [WARNING ] (dispatcher:_do_recognize_video:1127) [7c5e7b1927084eac] 🎬 抽帧失败（无帧产出，视频可能损坏）: 
+[2026-08-24 19:49:35.633] [INFO    ] (commands:handle_command:4643) [7c5e7b1927084eac] 指令执行完成 [看视频]: 返回37字符
+[2026-08-24 19:49:36.170] [INFO    ] (logger:log_trace_summary:392) [7c5e7b1927084eac] [TRACE 7c5e7b1927084eac] total=83181.87ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=83181.8ms(x1) (wall83181.8), queue_wait=0.4ms(x1)
+[2026-08-24 19:49:36.170] [WARNING ] (logger:log_trace_summary:410) [7c5e7b1927084eac] [VERY_SLOW 7c5e7b1927084eac] total=83182.2ms 需重点排查 | process=83181.8ms(x1) (wall83181.8), queue_wait=0.4ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.4ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=83181.8ms wall=83182.18ms dominant=other
+[2026-08-24 19:49:36.177] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 19:49:41.972] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
