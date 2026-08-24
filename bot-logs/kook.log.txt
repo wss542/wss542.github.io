@@ -1,9 +1,4 @@
-# 更新于 2026-08-24 22:14:25 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:09:24.509] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/状态' is_edit=False
-[2026-08-24 20:09:24.509] [DEBUG   ] (dispatcher:_dispatch_inner:110) [baabcf2e462b4750] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-24 20:09:24.509] [INFO    ] (dispatcher:_dispatch_inner:308) [baabcf2e462b4750] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/状态'
-[2026-08-24 20:09:24.510] [DEBUG   ] (queues:enqueue_message:75) [baabcf2e462b4750] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-24 20:09:24.511] [INFO    ] (memory:merge_overflow_memory:419) [cb8adb9e32174625] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+# 更新于 2026-08-24 22:14:59 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:09:24.512] [INFO    ] (pipeline:process_message:470) [cb8adb9e32174625] 指令拦截: '/状态' from=ywandwss
 [2026-08-24 20:09:24.512] [DEBUG   ] (commands:handle_command:4601) [cb8adb9e32174625] 指令解析: prefix=/ cmd=状态 args=[] user=1759953618
 [2026-08-24 20:09:24.512] [INFO    ] (commands:cmd_info:422) [cb8adb9e32174625] 指令 /info 触发 user=1759953618
@@ -1499,3 +1494,8 @@
 [2026-08-24 22:14:12.281] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
 [2026-08-24 22:14:12.281] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 22:14:24.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:14:27.549] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
+[2026-08-24 22:14:27.550] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:14:54.645] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:14:57.949] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
+[2026-08-24 22:14:57.950] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
