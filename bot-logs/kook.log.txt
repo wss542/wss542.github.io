@@ -1,27 +1,4 @@
-# 更新于 2026-08-24 16:51:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:57:10.822] [INFO    ] (logger:info:333) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 12:57:10.822] [INFO    ] (logger:info:333) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 12:57:10.826] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 12:57:10.826] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 12:57:10.827] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-24 12:57:10.828] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-24 12:57:10.829] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-24 12:57:10.829] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-24 12:57:10.829] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-24 12:57:10.829] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-24 12:57:10.830] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-24 12:57:10.830] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-24 12:57:10.831] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-24 12:57:10.831] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-24 12:57:10.831] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-24 12:57:10.832] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-24 12:57:10.832] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-24 12:57:10.832] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+# 更新于 2026-08-24 16:51:35 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:57:10.832] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
 [2026-08-24 12:57:10.834] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
 [2026-08-24 12:57:10.835] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
@@ -1499,3 +1476,26 @@
 [2026-08-24 16:50:48.351] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-24 16:50:48.351] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h10m 后执行 (20:01)
 [2026-08-24 16:50:48.442] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-24 16:51:03.460] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-24 16:51:03.468] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 32s 前）
+[2026-08-24 16:51:03.469] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-24 16:51:03.477] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-24 16:51:03.478] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-24 16:51:03.478] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-24 16:51:03.478] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-24 16:51:03.479] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-24 16:51:03.480] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-24 16:51:09.619] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-24 16:51:09.619] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-24 16:51:09.741] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=44 cpu=None mem=None
+[2026-08-24 16:51:09.741] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 16:51:10.373] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
+[2026-08-24 16:51:10.374] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
+[2026-08-24 16:51:10.377] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-24 16:51:10.377] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7698)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 16:51:11.073] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-24 16:51:11.074] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-24 16:51:11.074] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-24 16:51:11.405] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
+[2026-08-24 16:51:11.405] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-24 16:51:11.406] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 25734 秒 (下次 00:00:05)
