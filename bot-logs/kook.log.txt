@@ -1,26 +1,4 @@
-# 更新于 2026-08-24 23:48:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 21:04:55.992] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 21:04:55.992] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 21:04:55.996] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 21:04:55.997] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 21:04:55.997] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-24 21:04:55.998] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-24 21:04:55.998] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-24 21:04:55.998] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-24 21:04:55.998] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-24 21:04:55.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-24 21:04:55.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-24 21:04:55.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-24 21:04:55.999] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-24 21:04:55.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-24 21:04:55.999] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-24 21:04:55.000] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-24 21:04:55.000] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-24 21:04:56.000] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-24 21:04:56.000] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-24 21:04:56.001] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-24 21:04:56.002] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-24 21:04:56.003] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+# 更新于 2026-08-24 23:49:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 21:04:56.003] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
 [2026-08-24 21:04:56.003] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
 [2026-08-24 21:04:56.007] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
@@ -1499,3 +1477,25 @@
 [2026-08-24 23:48:29.201] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 23:48:31.334] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-24 23:48:31.335] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 23:48:59.919] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 23:49:12.508] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 23:49:12.508] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/kdeCCaldIp11v0m5.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1363,"height":797,"fileSize":1819770,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-24 23:49:12.509] [DEBUG   ] (dispatcher:_dispatch_inner:110) [75889d3c01ea4191] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 23:49:12.509] [INFO    ] (dispatcher:_dispatch_inner:177) [75889d3c01ea4191] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/kdeCCaldIp11v0m5.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1363,"height":797,"fileSize":1819770,"elements":[]}]}],"type":"card"}]')
+[2026-08-24 23:49:12.509] [INFO    ] (dispatcher:_dispatch_inner:308) [75889d3c01ea4191] 📩 消息 #4 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/kdeCCaldIp11v0m5.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1363,"height":797,"fileSize":1819770,"elements":[]}]}],"type":"card"}]'
+[2026-08-24 23:49:12.511] [INFO    ] (dispatcher:_dispatch_inner:384) [75889d3c01ea4191] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-24 23:49:12.511] [INFO    ] (image_api:recognize_image:152) [75889d3c01ea4191] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/24/kdeCCaldIp11v0m5.pn...
+[2026-08-24 23:49:12.815] [INFO    ] (image_api:recognize_image:168) [75889d3c01ea4191] [chat=9231565360961340] 图片下载成功: 1819770 bytes
+[2026-08-24 23:49:13.662] [INFO    ] (image_api:recognize_image:204) [75889d3c01ea4191] [chat=9231565360961340] 图片预处理: PNG(1363x797) → PNG 1819770 bytes → 1562861 bytes
+[2026-08-24 23:49:13.669] [INFO    ] (image_api:recognize_image:251) [75889d3c01ea4191] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=48b6ec5e8229...) model=deepseek-v4-flash-vision-exp
+[2026-08-24 23:49:18.036] [INFO    ] (image_api:recognize_image:268) [75889d3c01ea4191] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 音游截图：动漫小镇街道，UI显示Perfect 52，Attempt 9。表达成就感、坚持不懈、欣慰...
+[2026-08-24 23:49:18.039] [DEBUG   ] (image_api:_save:64) [75889d3c01ea4191] 图片缓存已写入磁盘: 307 条
+[2026-08-24 23:49:18.040] [DEBUG   ] (image_api:_save_to_repo:303) [75889d3c01ea4191] 图片仓库追加: MD5=48b6ec5e8229... → '音游截图：动漫小镇街道，UI显示Perfect 52，Att'
+[2026-08-24 23:49:18.042] [INFO    ] (dispatcher:_do_recognize_image:914) [75889d3c01ea4191] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '音游截图：动漫小镇街道，UI显示Perfect 52，Attempt 9。表达成就感、坚持不懈、欣慰与满足。...' (54字) url=https://img.kookapp.cn/assets/2026-08/24/kdeCCaldIp11v0m5.pn
+[2026-08-24 23:49:18.043] [INFO    ] (dispatcher:_dispatch_inner:400) [75889d3c01ea4191] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '音游截图：动漫小镇街道，UI显示Perfect 52，Attempt 9。表达成就感、坚持不懈、欣慰...'
+[2026-08-24 23:49:18.043] [DEBUG   ] (queues:enqueue_message:75) [75889d3c01ea4191] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 23:49:18.044] [INFO    ] (pipeline:process_message:367) [6b24cda8ff4f4128] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-24 23:49:18.045] [INFO    ] (memory:merge_overflow_memory:419) [6b24cda8ff4f4128] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 4条 (阈值=10)
+[2026-08-24 23:49:18.046] [DEBUG   ] (pipeline:process_message:500) [6b24cda8ff4f4128] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-24 23:49:18.046] [INFO    ] (logger:log_trace_summary:392) [6b24cda8ff4f4128] [TRACE 6b24cda8ff4f4128] total=2.98ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.89ms(x1) (wall2.89), queue_wait=0.45ms(x1)
+[2026-08-24 23:49:30.217] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
