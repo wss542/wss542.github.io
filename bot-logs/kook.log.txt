@@ -1,15 +1,4 @@
-# 更新于 2026-08-24 21:09:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 19:52:22.345] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 19:52:22.366] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 19:52:23.237] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 19:52:23.237] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-24 19:52:23.237] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 19:52:23.240] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-24 19:52:23.240] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-24 19:52:23.242] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-24 19:52:23.242] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-24 19:52:23.243] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-24 19:52:23.243] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+# 更新于 2026-08-24 21:10:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 19:52:23.243] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
 [2026-08-24 19:52:23.519] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
 [2026-08-24 19:52:23.520] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
@@ -1499,3 +1488,14 @@
 [2026-08-24 21:08:32.844] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-24 21:08:47.299] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 21:09:18.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 21:09:48.649] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 21:09:48.945] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:09:48.946] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='是不是少了啥mod' is_edit=False
+[2026-08-24 21:09:48.946] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f2153b82b1934410] KMD 调试: is_group=True uid=1759953618 channel=9231565360961340
+[2026-08-24 21:09:48.948] [INFO    ] (dispatcher:_dispatch_inner:308) [f2153b82b1934410] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=9231565360961340 | group=True | content='是不是少了啥mod'
+[2026-08-24 21:09:48.949] [INFO    ] (queues:_get_or_create_queue:32) [f2153b82b1934410] [队列] 创建群9231565360961340 的独立消息队列
+[2026-08-24 21:09:48.949] [DEBUG   ] (queues:enqueue_message:75) [f2153b82b1934410] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 21:09:48.951] [INFO    ] (memory:merge_overflow_memory:419) [573e0662758746b2] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 1条 (阈值=10)
+[2026-08-24 21:09:48.957] [DEBUG   ] (pipeline:process_message:500) [573e0662758746b2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='是不是少了啥mod'
+[2026-08-24 21:09:48.958] [INFO    ] (logger:log_trace_summary:392) [573e0662758746b2] [TRACE 573e0662758746b2] total=8.31ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.26ms(x1) (wall8.26), queue_wait=0.49ms(x1)
+[2026-08-24 21:10:19.174] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
