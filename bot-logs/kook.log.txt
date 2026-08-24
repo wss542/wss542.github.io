@@ -1,18 +1,4 @@
-# 更新于 2026-08-24 21:12:52 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 19:52:23.855] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-24 19:52:23.874] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-24 19:52:23.874] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-24 19:52:23.875] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-24 19:52:23.875] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-24 19:52:23.876] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-24 19:52:23.876] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-24 19:52:23.879] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 19:52:23.879] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-24 19:52:23.879] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 19:52:23.879] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 19:52:23.889] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 19:52:23.889] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 19:52:23.890] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+# 更新于 2026-08-24 21:13:41 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 19:52:23.894] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 [2026-08-24 19:52:23.895] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 [2026-08-24 19:52:23.895] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
@@ -1499,3 +1485,17 @@
 [2026-08-24 21:11:51.244] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 21:12:21.649] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 21:12:52.078] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 21:12:59.642] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:12:59.643] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/playing 冰与火之舞' is_edit=False
+[2026-08-24 21:12:59.643] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0e2b2179783f4429] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-24 21:12:59.644] [INFO    ] (dispatcher:_dispatch_inner:308) [0e2b2179783f4429] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/playing 冰与火之舞'
+[2026-08-24 21:12:59.644] [INFO    ] (queues:_get_or_create_queue:32) [0e2b2179783f4429] [队列] 创建群7274785942250691 的独立消息队列
+[2026-08-24 21:12:59.644] [DEBUG   ] (queues:enqueue_message:75) [0e2b2179783f4429] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-24 21:12:59.646] [INFO    ] (memory:merge_overflow_memory:419) [8d0f530c60764338] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-24 21:12:59.646] [INFO    ] (pipeline:process_message:470) [8d0f530c60764338] 指令拦截: '/playing 冰与火之舞' from=ywandwss
+[2026-08-24 21:12:59.647] [DEBUG   ] (commands:handle_command:4606) [8d0f530c60764338] 指令解析: prefix=/ cmd=playing args=['冰与火之舞'] user=1759953618
+[2026-08-24 21:12:59.972] [INFO    ] (game_status:set_game:193) [8d0f530c60764338] 🎮 已设置正在玩(官方库): 冰与火之舞 (id=81320)
+[2026-08-24 21:12:59.973] [INFO    ] (commands:handle_command:4648) [8d0f530c60764338] 指令执行完成 [playing]: 返回45字符
+[2026-08-24 21:13:00.449] [INFO    ] (logger:log_trace_summary:392) [8d0f530c60764338] [TRACE 8d0f530c60764338] total=805.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=805.19ms(x1) (wall805.19), queue_wait=0.45ms(x1)
+[2026-08-24 21:13:00.473] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:13:22.723] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
