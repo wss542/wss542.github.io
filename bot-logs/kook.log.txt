@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 15:11:59 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:50:06.768] [INFO    ] (changelog:render_card_to_image:801) [32a085f8505a4374] [Card] 正在截图 → owner_ba81d16e.jpg (3997 bytes HTML)
-[2026-08-24 12:50:09.915] [INFO    ] (changelog:render_card_to_image:809) [32a085f8505a4374] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/owner_ba81d16e.jpg size=159.5KB
-[2026-08-24 12:50:11.184] [INFO    ] (commands:handle_command:4552) [32a085f8505a4374] 指令执行完成 [owner]: 无返回值（已自行发送）
+# 更新于 2026-08-24 15:12:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:50:11.184] [INFO    ] (logger:log_trace_summary:306) [32a085f8505a4374] [TRACE 32a085f8505a4374] total=4420.15ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4420.05ms(x1) (wall4420.05), queue_wait=3.54ms(x1)
 [2026-08-24 12:50:11.184] [WARNING ] (logger:log_trace_summary:329) [32a085f8505a4374] [SLOW 32a085f8505a4374] total=4420.47ms | process=4420.05ms(x1) (wall4420.05), queue_wait=3.54ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.54ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4420.05ms wall=4420.44ms dominant=other
 [2026-08-24 12:50:27.570] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1496,6 @@
 [2026-08-24 15:11:06.145] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: timed out
 [2026-08-24 15:11:09.950] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 15:11:40.509] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 15:12:10.884] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=77 cpu=None mem=None
+[2026-08-24 15:12:10.884] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 15:12:11.010] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
