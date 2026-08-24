@@ -1,18 +1,4 @@
-# 更新于 2026-08-24 16:04:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:51:03.536] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-24 12:51:03.590] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-24 12:51:03.592] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-24 12:51:03.593] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h9m 后执行 (16:01)
-[2026-08-24 12:51:03.672] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-24 12:51:13.766] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 12:51:13.896] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 12:51:18.689] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-24 12:51:18.704] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 57s 前）
-[2026-08-24 12:51:18.705] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-24 12:51:18.712] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-24 12:51:18.713] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-24 12:51:18.713] [INFO    ] (phone_status:start_phone_server:591) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-24 12:51:18.713] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+# 更新于 2026-08-24 16:05:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:51:18.713] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
 [2026-08-24 12:51:19.627] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-08-24 12:51:19.629] [INFO    ] (logger:info:249) [-] Chromium 已预启动 + 渲染队列就绪
@@ -1499,3 +1485,17 @@
 [2026-08-24 16:03:57.217] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 16:04:04.230] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 16:04:34.779] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 16:04:58.207] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=47 cpu=None mem=None
+[2026-08-24 16:04:58.207] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 16:05:05.256] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 16:05:13.474] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=47 cpu=None mem=None
+[2026-08-24 16:05:13.474] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 16:05:18.981] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 16:05:18.981] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='“0.6”' is_edit=False
+[2026-08-24 16:05:18.982] [DEBUG   ] (dispatcher:_dispatch_inner:110) [47e4c16e08364674] KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+[2026-08-24 16:05:18.982] [INFO    ] (dispatcher:_dispatch_inner:308) [47e4c16e08364674] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='“0.6”'
+[2026-08-24 16:05:18.986] [INFO    ] (queues:_get_or_create_queue:32) [47e4c16e08364674] [队列] 创建群3649029148752421 的独立消息队列
+[2026-08-24 16:05:18.986] [DEBUG   ] (queues:enqueue_message:75) [47e4c16e08364674] [队列] 群3649029148752421 消息已入队 (队长度=1)
+[2026-08-24 16:05:18.988] [INFO    ] (memory:merge_overflow_memory:419) [4f21850352224630] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
+[2026-08-24 16:05:18.989] [DEBUG   ] (pipeline:process_message:500) [4f21850352224630] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='“0.6”'
+[2026-08-24 16:05:18.989] [INFO    ] (logger:log_trace_summary:392) [4f21850352224630] [TRACE 4f21850352224630] total=2.7ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.66ms(x1) (wall2.66), queue_wait=0.62ms(x1)
