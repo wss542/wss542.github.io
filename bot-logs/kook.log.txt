@@ -1,8 +1,4 @@
-# 更新于 2026-08-24 22:32:29 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:10:47.384] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-24 20:10:47.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-24 20:10:47.384] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-24 20:10:47.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+# 更新于 2026-08-24 22:33:41 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:10:47.384] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
 [2026-08-24 20:10:47.385] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
 [2026-08-24 20:10:47.385] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
@@ -1499,3 +1495,7 @@
 [2026-08-24 22:32:21.364] [INFO    ] (engine:_ingest:92) [c8b8f90afa5444da] 异步记忆提炼完成 chat=9231565360961340: 候选9 新增9
 [2026-08-24 22:32:23.737] [INFO    ] (llm:call_llm:489) [c8b8f90afa5444da] LLM [deepseek-v4-flash] 返回 167字符 耗时2.6s → "[23:17:01-23:37:48] 제미니 (shuangzi_1228): 问机器人还能加啥、..."
 [2026-08-24 22:32:23.740] [INFO    ] (memory:_compress_with_deepseek:210) [c8b8f90afa5444da] [9231565360961340] 压缩完成: 10条消息 → 保存
+[2026-08-24 22:32:45.480] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:32:56.024] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-08-24 22:32:56.026] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:33:16.204] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
