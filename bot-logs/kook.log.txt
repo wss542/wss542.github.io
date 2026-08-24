@@ -1,22 +1,4 @@
-# 更新于 2026-08-24 22:25:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:10:46.883] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-24 20:10:46.883] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-24 20:10:46.885] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-24 20:10:46.885] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-24 20:10:46.885] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-24 20:10:46.885] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-24 20:10:46.886] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-24 20:10:47.175] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-24 20:10:47.175] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-24 20:10:47.184] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-24 20:10:47.184] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-24 20:10:47.352] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-24 20:10:47.367] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-24 20:10:47.368] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-24 20:10:47.368] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-24 20:10:47.368] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-24 20:10:47.369] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-24 20:10:47.369] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+# 更新于 2026-08-24 22:26:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:10:47.371] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-24 20:10:47.371] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
 [2026-08-24 20:10:47.371] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
@@ -1499,3 +1481,21 @@
 [2026-08-24 22:25:41.881] [INFO    ] (memory:merge_overflow_memory:419) [44f8f0964aa24f1a] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 6条 (阈值=10)
 [2026-08-24 22:25:41.882] [DEBUG   ] (pipeline:process_message:500) [44f8f0964aa24f1a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='被打亖了喵'
 [2026-08-24 22:25:41.883] [INFO    ] (logger:log_trace_summary:392) [44f8f0964aa24f1a] [TRACE 44f8f0964aa24f1a] total=4.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.75ms(x1) (wall4.75), queue_wait=0.39ms(x1)
+[2026-08-24 22:25:51.832] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:25:51.833] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='大佬视角' is_edit=False
+[2026-08-24 22:25:51.833] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3e8f9e98b7dc471e] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 22:25:51.833] [INFO    ] (dispatcher:_dispatch_inner:308) [3e8f9e98b7dc471e] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='大佬视角'
+[2026-08-24 22:25:51.835] [DEBUG   ] (queues:enqueue_message:75) [3e8f9e98b7dc471e] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 22:25:51.836] [INFO    ] (memory:merge_overflow_memory:419) [7d00ae9f058e4365] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 7条 (阈值=10)
+[2026-08-24 22:25:51.837] [DEBUG   ] (pipeline:process_message:500) [7d00ae9f058e4365] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='大佬视角'
+[2026-08-24 22:25:51.837] [INFO    ] (logger:log_trace_summary:392) [7d00ae9f058e4365] [TRACE 7d00ae9f058e4365] total=1.52ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.48ms(x1) (wall1.48), queue_wait=0.51ms(x1)
+[2026-08-24 22:25:54.172] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:25:54.173] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='观摩' is_edit=False
+[2026-08-24 22:25:54.173] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1dd0cbe734ba4c9a] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 22:25:54.173] [INFO    ] (dispatcher:_dispatch_inner:308) [1dd0cbe734ba4c9a] 📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='观摩'
+[2026-08-24 22:25:54.174] [DEBUG   ] (queues:enqueue_message:75) [1dd0cbe734ba4c9a] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 22:25:54.175] [INFO    ] (memory:merge_overflow_memory:419) [684d997208ce440f] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 8条 (阈值=10)
+[2026-08-24 22:25:54.176] [DEBUG   ] (pipeline:process_message:500) [684d997208ce440f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='观摩'
+[2026-08-24 22:25:54.176] [INFO    ] (logger:log_trace_summary:392) [684d997208ce440f] [TRACE 684d997208ce440f] total=1.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.55ms(x1) (wall1.55), queue_wait=0.38ms(x1)
+[2026-08-24 22:26:07.755] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:26:38.362] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
