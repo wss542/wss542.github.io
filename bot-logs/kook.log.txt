@@ -1,14 +1,4 @@
-# 更新于 2026-08-24 22:24:59 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:10:45.062] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 273, 'total_buffer_lines': 2, 'active_tasks': 0}
-[2026-08-24 20:10:45.063] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-24 20:10:45.063] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-24 20:10:45.064] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-24 20:10:45.342] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-24 20:10:46.129] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 20:10:46.147] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 20:10:46.877] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 20:10:46.878] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-24 20:10:46.879] [INFO    ] (logger:info:335) [-] ==================================================
+# 更新于 2026-08-24 22:25:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:10:46.883] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
 [2026-08-24 20:10:46.883] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
 [2026-08-24 20:10:46.885] [INFO    ] (logger:info:335) [-] 语言文件已加载
@@ -1499,3 +1489,13 @@
 [2026-08-24 22:23:34.655] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 22:24:05.419] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 22:24:35.812] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:25:06.441] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:25:37.078] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:25:41.872] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:25:41.872] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='被打亖了喵' is_edit=False
+[2026-08-24 22:25:41.872] [DEBUG   ] (dispatcher:_dispatch_inner:110) [cc5238968a2a4328] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 22:25:41.873] [INFO    ] (dispatcher:_dispatch_inner:308) [cc5238968a2a4328] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='被打亖了喵'
+[2026-08-24 22:25:41.878] [DEBUG   ] (queues:enqueue_message:75) [cc5238968a2a4328] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 22:25:41.881] [INFO    ] (memory:merge_overflow_memory:419) [44f8f0964aa24f1a] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 6条 (阈值=10)
+[2026-08-24 22:25:41.882] [DEBUG   ] (pipeline:process_message:500) [44f8f0964aa24f1a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='被打亖了喵'
+[2026-08-24 22:25:41.883] [INFO    ] (logger:log_trace_summary:392) [44f8f0964aa24f1a] [TRACE 44f8f0964aa24f1a] total=4.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.75ms(x1) (wall4.75), queue_wait=0.39ms(x1)
