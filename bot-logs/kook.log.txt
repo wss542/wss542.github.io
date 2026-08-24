@@ -1,11 +1,4 @@
-# 更新于 2026-08-24 22:07:29 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:06:17.701] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-24 20:06:17.702] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-24 20:06:17.702] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-24 20:06:18.766] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
-[2026-08-24 20:06:18.766] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-24 20:06:18.766] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14026 秒 (下次 00:00:05)
-[2026-08-24 20:06:19.792] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
+# 更新于 2026-08-24 22:08:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:06:19.793] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
 [2026-08-24 20:06:47.688] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 20:07:17.714] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1492,10 @@
 [2026-08-24 22:07:29.523] [INFO    ] (logger:info:335) [74d1ac8c05424ae5] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
 [2026-08-24 22:07:29.523] [INFO    ] (commands:cmd_provider:1436) [74d1ac8c05424ae5] 供应商切换: MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 -> DEEPSEEK/deepseek-v4-flash (by ywandwss)
 [2026-08-24 22:07:29.523] [INFO    ] (commands:handle_command:4648) [74d1ac8c05424ae5] 指令执行完成 [供应商]: 返回70字符
+[2026-08-24 22:07:30.164] [INFO    ] (logger:log_trace_summary:392) [74d1ac8c05424ae5] [TRACE 74d1ac8c05424ae5] total=657.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=657.02ms(x1) (wall657.02), queue_wait=0.3ms(x1)
+[2026-08-24 22:07:30.178] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:07:33.271] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:07:46.258] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-24 22:07:46.259] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:08:01.524] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-24 22:08:01.524] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
