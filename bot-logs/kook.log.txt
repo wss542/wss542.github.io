@@ -1,26 +1,4 @@
-# 更新于 2026-08-24 22:49:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:22:27.544] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 20:22:27.562] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 20:22:28.334] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 20:22:28.335] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-24 20:22:28.335] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 20:22:28.338] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-24 20:22:28.338] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-24 20:22:28.339] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-24 20:22:28.340] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-24 20:22:28.340] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-24 20:22:28.340] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-24 20:22:28.341] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-24 20:22:28.586] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-24 20:22:28.586] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-24 20:22:28.597] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-24 20:22:28.597] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-24 20:22:28.810] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-24 20:22:28.830] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-24 20:22:28.830] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-24 20:22:28.831] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-24 20:22:28.831] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-24 20:22:28.831] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+# 更新于 2026-08-24 22:50:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:22:28.832] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
 [2026-08-24 20:22:28.834] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-24 20:22:28.834] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
@@ -1499,3 +1477,25 @@
 [2026-08-24 22:49:34.963] [INFO    ] (memory:merge_overflow_memory:419) [45e38a5e922c413f] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 1条 (阈值=10)
 [2026-08-24 22:49:34.964] [DEBUG   ] (pipeline:process_message:500) [45e38a5e922c413f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='你们家没了'
 [2026-08-24 22:49:34.964] [INFO    ] (logger:log_trace_summary:392) [45e38a5e922c413f] [TRACE 45e38a5e922c413f] total=1.87ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.81ms(x1) (wall1.81), queue_wait=0.45ms(x1)
+[2026-08-24 22:50:02.861] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:50:07.694] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:50:07.694] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/F3rdMw3hpu0dg021.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":484,"height":73,"fileSize":29683,"elements":[]}]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"？？？","elements":[]},"elements":[]}],"type":"card"}]' is_edit=False
+[2026-08-24 22:50:07.695] [DEBUG   ] (dispatcher:_dispatch_inner:110) [85f235b6764d49b6] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 22:50:07.695] [INFO    ] (dispatcher:_dispatch_inner:177) [85f235b6764d49b6] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/F3rdMw3hpu0dg021.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":484,"height":73,"fileSize":29683,"elements":[]}]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"？？？","elements":[]},"elements":[]}],"type":"card"}]')
+[2026-08-24 22:50:07.696] [INFO    ] (dispatcher:_dispatch_inner:308) [85f235b6764d49b6] 📩 消息 #26 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/24\\/F3rdMw3hpu0dg021.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":484,"height":73,"fileSize":29683,"elements":[]}]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"？？？","elements":[]},"elements":[]}],"type":"card"}]'
+[2026-08-24 22:50:07.697] [INFO    ] (dispatcher:_dispatch_inner:384) [85f235b6764d49b6] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-24 22:50:07.697] [INFO    ] (image_api:recognize_image:150) [85f235b6764d49b6] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/24/F3rdMw3hpu0dg021.pn...
+[2026-08-24 22:50:07.840] [INFO    ] (image_api:recognize_image:166) [85f235b6764d49b6] [chat=9231565360961340] 图片下载成功: 29683 bytes
+[2026-08-24 22:50:07.840] [INFO    ] (image_api:recognize_image:178) [85f235b6764d49b6] [chat=9231565360961340] 调用视觉模型识别图片 (MD5=ac7a112f6fa8...) model=glm-4v-flash
+[2026-08-24 22:50:07.876] [INFO    ] (image_api:recognize_image:210) [85f235b6764d49b6] [chat=9231565360961340] 图片预处理: PNG(484x73) → PNG 29683 bytes → 25268 bytes
+[2026-08-24 22:50:09.212] [INFO    ] (image_api:recognize_image:263) [85f235b6764d49b6] [chat=9231565360961340] 图片识别成功 (model=glm-4v-flash): 这是一张游戏截图，显示了两名玩家在游戏中击杀敌人的信息。其中一名玩家使用了木剑击败了敌人，另一名玩家...
+[2026-08-24 22:50:09.214] [DEBUG   ] (image_api:_save:64) [85f235b6764d49b6] 图片缓存已写入磁盘: 303 条
+[2026-08-24 22:50:09.216] [DEBUG   ] (image_api:_save_to_repo:306) [85f235b6764d49b6] 图片仓库追加: MD5=ac7a112f6fa8... → '这是一张游戏截图，显示了两名玩家在游戏中击杀敌人的信息。其中'
+[2026-08-24 22:50:09.216] [INFO    ] (dispatcher:_do_recognize_image:914) [85f235b6764d49b6] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '这是一张游戏截图，显示了两名玩家在游戏中击杀敌人的信息。其中一名玩家使用了木剑击败了敌人，另一名玩家则使用了Nape_Duck武器并成功击杀了敌人。此外，还有一...' (125字) url=https://img.kookapp.cn/assets/2026-08/24/F3rdMw3hpu0dg021.pn
+[2026-08-24 22:50:09.217] [INFO    ] (dispatcher:_dispatch_inner:400) [85f235b6764d49b6] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '这是一张游戏截图，显示了两名玩家在游戏中击杀敌人的信息。其中一名玩家使用了木剑击败了敌人，另一名玩家...'
+[2026-08-24 22:50:09.217] [DEBUG   ] (queues:enqueue_message:75) [85f235b6764d49b6] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 22:50:09.218] [INFO    ] (pipeline:process_message:367) [631ac0d90e58488b] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-24 22:50:09.218] [INFO    ] (memory:merge_overflow_memory:419) [631ac0d90e58488b] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 2条 (阈值=10)
+[2026-08-24 22:50:09.219] [DEBUG   ] (pipeline:process_message:500) [631ac0d90e58488b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-24 22:50:09.219] [INFO    ] (logger:log_trace_summary:392) [631ac0d90e58488b] [TRACE 631ac0d90e58488b] total=1.45ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.4ms(x1) (wall1.4), queue_wait=0.52ms(x1)
+[2026-08-24 22:50:33.572] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
