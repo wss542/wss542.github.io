@@ -1,12 +1,4 @@
-# 更新于 2026-08-24 22:13:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:08:42.532] [INFO    ] (dispatcher:_do_recognize_video:1074) [30deb91bb1984812] 🎬  [chat=1759953618] 视频/看视频 识别完成(Zhipu): '这个视频记录了玩家在《我的世界》中用活塞推动黑曜石制作传送门，随后进入音乐游戏《Rhythm Games》的“Rainbow Chaser”关卡进行演奏。画面中...' (174字)
-[2026-08-24 20:08:42.535] [INFO    ] (commands:handle_command:4643) [30deb91bb1984812] 指令执行完成 [看视频]: 返回174字符
-[2026-08-24 20:08:43.183] [INFO    ] (logger:log_trace_summary:392) [30deb91bb1984812] [TRACE 30deb91bb1984812] total=85466.37ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=85466.29ms(x1) (wall85466.29), queue_wait=1.21ms(x1)
-[2026-08-24 20:08:43.184] [WARNING ] (logger:log_trace_summary:410) [30deb91bb1984812] [VERY_SLOW 30deb91bb1984812] total=85466.75ms 需重点排查 | process=85466.29ms(x1) (wall85466.29), queue_wait=1.21ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.21ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=85466.29ms wall=85466.73ms dominant=other
-[2026-08-24 20:08:43.192] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 20:08:50.169] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 20:09:20.919] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 20:09:24.508] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-24 22:14:25 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:09:24.509] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/状态' is_edit=False
 [2026-08-24 20:09:24.509] [DEBUG   ] (dispatcher:_dispatch_inner:110) [baabcf2e462b4750] KMD 调试: is_group=False uid=1759953618 channel=1759953618
 [2026-08-24 20:09:24.509] [INFO    ] (dispatcher:_dispatch_inner:308) [baabcf2e462b4750] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/状态'
@@ -1499,3 +1491,11 @@
 [2026-08-24 22:12:21.967] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 22:12:52.359] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 22:13:23.060] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:13:41.813] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
+[2026-08-24 22:13:41.815] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:13:53.666] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:13:57.081] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
+[2026-08-24 22:13:57.082] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:14:12.281] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
+[2026-08-24 22:14:12.281] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:14:24.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
