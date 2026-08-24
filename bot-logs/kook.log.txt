@@ -1,48 +1,4 @@
-# 更新于 2026-08-24 12:48:24 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 11:09:03.838] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-24 11:09:03.842] [INFO    ] (logger:info:249) [-] Plugin Runtime 已关闭
-[2026-08-24 11:09:03.844] [INFO    ] (logger:info:249) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 284, 'total_buffer_lines': 8, 'active_tasks': 0}
-[2026-08-24 11:09:03.849] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-24 11:09:03.850] [INFO    ] (logger:info:249) [-] 👋 再见！
-[2026-08-24 11:09:03.853] [INFO    ] (logger:info:249) [-] 应用程序已退出
-[2026-08-24 11:09:04.408] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-24 11:09:04.408] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-24 11:09:05.120] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-24 11:09:15.908] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 11:09:15.943] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 11:09:17.918] [INFO    ] (logger:info:249) [-] ==================================================
-[2026-08-24 11:09:17.919] [INFO    ] (logger:info:249) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-24 11:09:17.921] [INFO    ] (logger:info:249) [-] ==================================================
-[2026-08-24 11:09:17.928] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-24 11:09:17.929] [INFO    ] (logger:info:249) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-24 11:09:17.935] [INFO    ] (logger:info:249) [-] 语言文件已加载
-[2026-08-24 11:09:17.938] [INFO    ] (logger:init_logger:197) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-24 11:09:17.938] [INFO    ] (logger:info:249) [-] 日志系统已初始化
-[2026-08-24 11:09:17.939] [INFO    ] (logger:info:249) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-24 11:09:17.940] [INFO    ] (logger:info:249) [-] khl.py Bot 实例已创建
-[2026-08-24 11:09:18.194] [INFO    ] (logger:info:249) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-24 11:09:18.195] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-24 11:09:18.211] [INFO    ] (logger:info:249) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-24 11:09:18.211] [INFO    ] (logger:info:249) [-] 消息发送器已初始化
-[2026-08-24 11:09:18.894] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-24 11:09:18.926] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-24 11:09:18.926] [INFO    ] (logger:info:249) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-24 11:09:18.928] [INFO    ] (logger:info:249) [-] 用户名查询模块已初始化
-[2026-08-24 11:09:18.929] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-24 11:09:18.929] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-24 11:09:18.929] [INFO    ] (logger:info:249) [-] 上下文管理器已初始化
-[2026-08-24 11:09:18.934] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-24 11:09:18.934] [INFO    ] (logger:info:249) [-] 事件分发器已就绪
-[2026-08-24 11:09:18.935] [INFO    ] (logger:info:249) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-24 11:09:18.935] [INFO    ] (logger:info:249) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-24 11:09:18.948] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 11:09:18.949] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-24 11:09:18.950] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-24 11:09:18.957] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+# 更新于 2026-08-24 12:49:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 11:09:18.958] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 [2026-08-24 11:09:18.958] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 [2026-08-24 11:09:18.958] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
@@ -1499,3 +1455,47 @@
 [2026-08-24 12:48:20.848] [DEBUG   ] (context_manager:append_to_context:86) [cd58d08efcf346ef] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
 [2026-08-24 12:48:20.848] [DEBUG   ] (pipeline:process_message:500) [cd58d08efcf346ef] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='好玩'
 [2026-08-24 12:48:20.848] [INFO    ] (logger:log_trace_summary:306) [cd58d08efcf346ef] [TRACE cd58d08efcf346ef] total=2.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.34ms(x1) (wall2.34), queue_wait=0.59ms(x1)
+[2026-08-24 12:48:31.013] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:31.014] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='/playing 冰与火之舞' is_edit=False
+[2026-08-24 12:48:31.014] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c3cb5feb51134d6e] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-24 12:48:31.014] [INFO    ] (dispatcher:_dispatch_inner:308) [c3cb5feb51134d6e] 📩 消息 #88 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/playing 冰与火之舞'
+[2026-08-24 12:48:31.014] [DEBUG   ] (queues:enqueue_message:75) [c3cb5feb51134d6e] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:48:31.015] [INFO    ] (memory:merge_overflow_memory:419) [d07de30749c74234] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
+[2026-08-24 12:48:31.016] [INFO    ] (pipeline:process_message:470) [d07de30749c74234] 指令拦截: '/playing 冰与火之舞' from=ywandwss
+[2026-08-24 12:48:31.016] [DEBUG   ] (commands:handle_command:4508) [d07de30749c74234] 指令解析: prefix=/ cmd=playing args=['冰与火之舞'] user=1759953618
+[2026-08-24 12:48:31.164] [INFO    ] (game_status:set_game:193) [d07de30749c74234] 🎮 已设置正在玩(官方库): 冰与火之舞 (id=81320)
+[2026-08-24 12:48:31.164] [INFO    ] (commands:handle_command:4550) [d07de30749c74234] 指令执行完成 [playing]: 返回45字符
+[2026-08-24 12:48:31.621] [INFO    ] (logger:log_trace_summary:306) [d07de30749c74234] [TRACE d07de30749c74234] total=606.13ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=606.08ms(x1) (wall606.08), queue_wait=0.28ms(x1)
+[2026-08-24 12:48:31.955] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5159)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 12:48:41.402] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=39.0 mem=70.1
+[2026-08-24 12:49:01.962] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:49:01.963] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='(emj)妙脆角(emj)[4412842478946183/ozyjad7h9H02t03x] ' is_edit=False
+[2026-08-24 12:49:01.963] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a08d82d9ccd4413e] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-24 12:49:01.963] [INFO    ] (dispatcher:_dispatch_inner:194) [a08d82d9ccd4413e] 🧩 消息内解析到 1 个服务器表情
+[2026-08-24 12:49:01.964] [INFO    ] (dispatcher:_dispatch_inner:308) [a08d82d9ccd4413e] 📩 消息 #89 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='[表情] '
+[2026-08-24 12:49:01.964] [INFO    ] (dispatcher:_dispatch_inner:384) [a08d82d9ccd4413e] 🖼️  [chat=1010983873136793] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-24 12:49:01.965] [INFO    ] (image_api:recognize_image:150) [a08d82d9ccd4413e] [chat=1010983873136793] 开始下载图片: https://img.kookapp.cn/emojis/4412842478946183/ozyjad7h9H02t...
+[2026-08-24 12:49:02.061] [INFO    ] (image_api:recognize_image:159) [a08d82d9ccd4413e] [chat=1010983873136793] 图片下载成功: 250001 bytes
+[2026-08-24 12:49:02.062] [INFO    ] (image_api:get:86) [a08d82d9ccd4413e] 图片识别缓存命中 MD5=2095e1d4b5ab... → '这是一张卡通风格的猫咪表情包，猫咪面带微笑，眼睛大而有神，看起来非常可爱和友好。...'
+[2026-08-24 12:49:02.062] [INFO    ] (dispatcher:_do_recognize_image:914) [a08d82d9ccd4413e] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '这是一张卡通风格的猫咪表情包，猫咪面带微笑，眼睛大而有神，看起来非常可爱和友好。背景是黑色的，突出了猫咪的形象。整体给人一种温馨、愉悦的感觉。...' (71字) url=https://img.kookapp.cn/emojis/4412842478946183/ozyjad7h9H02t
+[2026-08-24 12:49:02.062] [DEBUG   ] (context_manager:append_to_context:86) [a08d82d9ccd4413e] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:49:02.063] [INFO    ] (dispatcher:_dispatch_inner:400) [a08d82d9ccd4413e] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: '这是一张卡通风格的猫咪表情包，猫咪面带微笑，眼睛大而有神，看起来非常可爱和友好。背景是黑色的，突出了...'
+[2026-08-24 12:49:02.063] [DEBUG   ] (queues:enqueue_message:75) [a08d82d9ccd4413e] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:49:02.063] [DEBUG   ] (context_manager:append_to_context:86) [7a2b73ee9a614737] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:49:02.064] [INFO    ] (pipeline:process_message:367) [7a2b73ee9a614737] 附带图片已记录 [chat=1010983873136793] count=1
+[2026-08-24 12:49:02.064] [INFO    ] (memory:merge_overflow_memory:419) [7a2b73ee9a614737] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
+[2026-08-24 12:49:02.065] [DEBUG   ] (context_manager:append_to_context:86) [7a2b73ee9a614737] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:49:02.065] [DEBUG   ] (pipeline:process_message:500) [7a2b73ee9a614737] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+[2026-08-24 12:49:02.065] [INFO    ] (logger:log_trace_summary:306) [7a2b73ee9a614737] [TRACE 7a2b73ee9a614737] total=2.27ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.23ms(x1) (wall2.23), queue_wait=0.35ms(x1)
+[2026-08-24 12:49:02.397] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5159)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 12:49:08.297] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:49:08.298] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='>playing 逃离塔科夫' is_edit=False
+[2026-08-24 12:49:08.299] [DEBUG   ] (dispatcher:_dispatch_inner:110) [dd05793e291e40a6] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 12:49:08.299] [INFO    ] (dispatcher:_dispatch_inner:308) [dd05793e291e40a6] 📩 消息 #90 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>playing 逃离塔科夫'
+[2026-08-24 12:49:08.301] [DEBUG   ] (queues:enqueue_message:75) [dd05793e291e40a6] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:49:08.303] [INFO    ] (memory:merge_overflow_memory:419) [e2006b5d47de49f2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-24 12:49:08.304] [DEBUG   ] (context_manager:append_to_context:86) [e2006b5d47de49f2] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:49:08.305] [DEBUG   ] (pipeline:process_message:500) [e2006b5d47de49f2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>playing 逃离塔科夫'
+[2026-08-24 12:49:08.305] [INFO    ] (logger:log_trace_summary:306) [e2006b5d47de49f2] [TRACE e2006b5d47de49f2] total=3.7ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.61ms(x1) (wall3.61), queue_wait=0.79ms(x1)
+[2026-08-24 12:49:08.307] [INFO    ] (llm:call_llm:427) [e2006b5d47de49f2] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-24 12:49:08.326] [INFO    ] (engine:_ingest:92) [e2006b5d47de49f2] 异步记忆提炼完成 chat=1010983873136793: 候选4 新增4
