@@ -1,18 +1,4 @@
-# 更新于 2026-08-24 19:47:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 17:18:07.690] [INFO    ] (image_api:recognize_image:159) [f3b689ca0c7f4bea] [chat=1759953618] 图片下载成功: 3 bytes
-[2026-08-24 17:18:07.690] [INFO    ] (image_api:recognize_image:171) [f3b689ca0c7f4bea] [chat=1759953618] 调用视觉模型识别图片 (MD5=4f4adcbf8c6f...) model=glm-4v-flash
-[2026-08-24 17:18:07.827] [WARNING ] (image_api:recognize_image:207) [f3b689ca0c7f4bea] [chat=1759953618] PIL预处理跳过: cannot identify image file <_io.BytesIO object at 0x7e5b0eef3420>, 使用原始数据
-[2026-08-24 17:18:08.604] [ERROR   ] (image_api:recognize_image:262) [f3b689ca0c7f4bea] 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}} (model=glm-4v-flash)
-[2026-08-24 17:18:08.604] [WARNING ] (inline:cmd_watch_video:394) [f3b689ca0c7f4bea] 帧识别失败: 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}}
-[2026-08-24 17:18:08.862] [INFO    ] (image_api:recognize_image:150) [f3b689ca0c7f4bea] [chat=1759953618] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/N5bmnrnp470zk0...
-[2026-08-24 17:18:09.157] [INFO    ] (image_api:recognize_image:159) [f3b689ca0c7f4bea] [chat=1759953618] 图片下载成功: 3 bytes
-[2026-08-24 17:18:09.157] [INFO    ] (image_api:recognize_image:171) [f3b689ca0c7f4bea] [chat=1759953618] 调用视觉模型识别图片 (MD5=4f4adcbf8c6f...) model=glm-4v-flash
-[2026-08-24 17:18:09.158] [WARNING ] (image_api:recognize_image:207) [f3b689ca0c7f4bea] [chat=1759953618] PIL预处理跳过: cannot identify image file <_io.BytesIO object at 0x7e5b0eed5260>, 使用原始数据
-[2026-08-24 17:18:09.375] [ERROR   ] (image_api:recognize_image:262) [f3b689ca0c7f4bea] 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}} (model=glm-4v-flash)
-[2026-08-24 17:18:09.376] [WARNING ] (inline:cmd_watch_video:394) [f3b689ca0c7f4bea] 帧识别失败: 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}}
-[2026-08-24 17:18:09.568] [INFO    ] (image_api:recognize_image:150) [f3b689ca0c7f4bea] [chat=1759953618] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/p3WaYKfen80zk0...
-[2026-08-24 17:18:09.836] [INFO    ] (image_api:recognize_image:159) [f3b689ca0c7f4bea] [chat=1759953618] 图片下载成功: 3 bytes
-[2026-08-24 17:18:09.837] [INFO    ] (image_api:recognize_image:171) [f3b689ca0c7f4bea] [chat=1759953618] 调用视觉模型识别图片 (MD5=4f4adcbf8c6f...) model=glm-4v-flash
+# 更新于 2026-08-24 19:48:28 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 17:18:09.838] [WARNING ] (image_api:recognize_image:207) [f3b689ca0c7f4bea] [chat=1759953618] PIL预处理跳过: cannot identify image file <_io.BytesIO object at 0x7e5b0dc7b830>, 使用原始数据
 [2026-08-24 17:18:10.040] [ERROR   ] (image_api:recognize_image:262) [f3b689ca0c7f4bea] 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}} (model=glm-4v-flash)
 [2026-08-24 17:18:10.041] [WARNING ] (inline:cmd_watch_video:394) [f3b689ca0c7f4bea] 帧识别失败: 图片识别失败: Error code: 400 - {'error': {'code': '1210', 'message': '图片输入格式/解析错误'}}
@@ -1499,3 +1485,17 @@
 [2026-08-24 19:46:37.510] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-08-24 19:46:38.628] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 19:47:09.128] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 19:47:39.866] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 19:48:10.306] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 19:48:12.986] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 19:48:12.986] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)' is_edit=False
+[2026-08-24 19:48:12.986] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6b657f1f49ff4234] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 19:48:12.987] [INFO    ] (dispatcher:_dispatch_inner:308) [6b657f1f49ff4234] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'
+[2026-08-24 19:48:12.988] [INFO    ] (queues:_get_or_create_queue:32) [6b657f1f49ff4234] [队列] 创建群1759953618 的独立消息队列
+[2026-08-24 19:48:12.988] [DEBUG   ] (queues:enqueue_message:75) [6b657f1f49ff4234] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 19:48:12.990] [INFO    ] (memory:merge_overflow_memory:419) [7c5e7b1927084eac] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-24 19:48:12.995] [INFO    ] (pipeline:process_message:470) [7c5e7b1927084eac] 指令拦截: '/看视频 [https://b23.tv/dpeO7aS](https://b2' from=ywandwss
+[2026-08-24 19:48:12.995] [DEBUG   ] (commands:handle_command:4601) [7c5e7b1927084eac] 指令解析: prefix=/ cmd=看视频 args=['[https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'] user=1759953618
+[2026-08-24 19:48:13.595] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 19:48:14.172] [WARNING ] (dispatcher:_do_recognize_video:1021) [7c5e7b1927084eac] 🎬 ffprobe 校验失败(忽略): [Errno 2] No such file or directory: 'ffprobe'
+[2026-08-24 19:48:14.175] [INFO    ] (dispatcher:_do_recognize_video:1051) [7c5e7b1927084eac] 🎬 未配置 GEMINI_KEY，跳过 Gemini，直接用智谱
