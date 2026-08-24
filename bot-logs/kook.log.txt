@@ -1,141 +1,4 @@
-# 更新于 2026-08-24 21:04:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 18:45:30.430] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-24 18:45:30.430] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-24 18:45:30.430] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-24 18:45:30.431] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-24 18:45:30.431] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-24 18:45:30.432] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-24 18:45:30.432] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-24 18:45:30.432] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-24 18:45:30.433] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-24 18:45:30.434] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-24 18:45:30.435] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-24 18:45:30.435] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-24 18:45:30.435] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-24 18:45:30.435] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-08-24 18:45:30.436] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-24 18:45:30.436] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-24 18:45:30.436] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-08-24 18:45:30.436] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-24 18:45:30.436] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 18:45:30.437] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-24 18:45:30.437] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 18:45:30.437] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-24 18:45:30.437] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-24 18:45:30.479] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-24 18:45:30.480] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-24 18:45:30.481] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 1h15m 后执行 (20:01)
-[2026-08-24 18:45:30.539] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-24 18:45:33.130] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 17s 前）
-[2026-08-24 18:45:33.131] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-24 18:45:33.140] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-24 18:45:33.141] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-24 18:45:33.141] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-24 18:45:33.141] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-24 18:45:33.142] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-24 18:45:33.142] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-24 18:45:33.243] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-24 18:45:33.244] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-24 18:45:33.341] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=88 cpu=None mem=None
-[2026-08-24 18:45:33.341] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 18:45:33.462] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-24 18:45:33.482] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:45:33.744] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-24 18:45:33.745] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-24 18:45:33.747] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-24 18:45:34.591] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
-[2026-08-24 18:45:34.591] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-24 18:45:34.592] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 18870 秒 (下次 00:00:05)
-[2026-08-24 18:45:35.734] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
-[2026-08-24 18:45:35.735] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
-[2026-08-24 18:45:48.534] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-[2026-08-24 18:45:48.535] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 18:46:03.763] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-08-24 18:46:03.763] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 18:46:03.911] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:46:18.982] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-08-24 18:46:18.982] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 18:46:34.591] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:47:05.086] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:47:35.735] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:48:06.198] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:48:36.918] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:49:07.378] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:49:37.974] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:50:08.472] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:50:39.081] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:51:09.835] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:51:40.302] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:52:10.738] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:52:41.244] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:53:11.736] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:53:42.137] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:54:12.621] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:54:43.020] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:55:13.579] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:55:43.925] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:56:14.490] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:56:44.800] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:57:15.290] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:57:45.764] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:58:16.277] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:58:46.848] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:59:17.348] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 18:59:47.916] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:00:18.420] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:00:48.735] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:01:19.109] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:01:49.313] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:02:20.224] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:02:50.456] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:03:21.145] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:03:51.498] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:04:22.236] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:04:52.623] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:05:23.194] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:05:53.651] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:06:14.626] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=75 cpu=None mem=None
-[2026-08-24 19:06:14.626] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 19:06:24.375] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:06:54.664] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:07:25.448] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:07:55.773] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:08:26.373] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:08:56.911] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:09:27.487] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:09:57.970] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:10:28.157] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:10:58.977] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:11:29.602] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:12:00.140] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:12:30.414] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:13:00.934] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:13:31.204] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:14:01.856] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:14:32.094] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:15:02.699] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:15:33.491] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:16:03.967] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:16:34.961] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:17:05.424] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:17:15.356] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-08-24 19:17:15.357] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 19:17:36.053] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:18:06.674] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:18:37.059] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:19:07.606] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:19:37.983] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:20:08.590] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:20:39.008] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:21:09.517] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
-[2026-08-24 19:21:09.518] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 19:21:09.520] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:21:24.704] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
-[2026-08-24 19:21:24.705] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 19:21:39.951] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:22:10.597] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:22:40.955] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 19:23:12.084] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-24 21:04:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 19:23:42.610] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 19:24:13.250] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 19:24:43.767] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8709)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1362,140 @@
 [2026-08-24 21:03:57.364] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
 [2026-08-24 21:03:57.364] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 21:04:04.403] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10835)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 21:04:33.551] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-24 21:04:33.766] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:04:33.767] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我也不会16键' is_edit=False
+[2026-08-24 21:04:33.767] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a73e22c9a95440c9] KMD 调试: is_group=True uid=656176615 channel=9231565360961340
+[2026-08-24 21:04:33.768] [INFO    ] (dispatcher:_dispatch_inner:308) [a73e22c9a95440c9] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=9231565360961340 | group=True | content='我也不会16键'
+[2026-08-24 21:04:33.770] [INFO    ] (queues:_get_or_create_queue:32) [a73e22c9a95440c9] [队列] 创建群9231565360961340 的独立消息队列
+[2026-08-24 21:04:33.771] [DEBUG   ] (queues:enqueue_message:75) [a73e22c9a95440c9] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 21:04:33.773] [INFO    ] (memory:merge_overflow_memory:419) [c978d8e6351744f2] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 1条 (阈值=10)
+[2026-08-24 21:04:33.774] [DEBUG   ] (pipeline:process_message:500) [c978d8e6351744f2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我也不会16键'
+[2026-08-24 21:04:33.774] [INFO    ] (logger:log_trace_summary:392) [c978d8e6351744f2] [TRACE c978d8e6351744f2] total=3.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.2ms(x1) (wall3.2), queue_wait=0.66ms(x1)
+[2026-08-24 21:04:34.120] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
+[2026-08-24 21:04:34.127] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
+[2026-08-24 21:04:34.134] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+[2026-08-24 21:04:34.134] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+[2026-08-24 21:04:34.134] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
+[2026-08-24 21:04:34.134] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
+[2026-08-24 21:04:34.134] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
+[2026-08-24 21:04:34.135] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
+[2026-08-24 21:04:34.135] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
+[2026-08-24 21:04:34.135] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+[2026-08-24 21:04:34.135] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
+[2026-08-24 21:04:34.136] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
+[2026-08-24 21:04:34.136] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
+[2026-08-24 21:04:34.137] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 276, 'total_buffer_lines': 5, 'active_tasks': 0}
+[2026-08-24 21:04:34.137] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+[2026-08-24 21:04:34.138] [INFO    ] (logger:info:335) [-] 👋 再见！
+[2026-08-24 21:04:34.138] [INFO    ] (logger:info:335) [-] 应用程序已退出
+[2026-08-24 21:04:34.681] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
+[2026-08-24 21:04:35.445] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-24 21:04:35.464] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-24 21:04:36.385] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-24 21:04:36.386] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-08-24 21:04:36.386] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-24 21:04:36.390] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+[2026-08-24 21:04:36.391] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-08-24 21:04:36.394] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-08-24 21:04:36.395] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-08-24 21:04:36.395] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-08-24 21:04:36.395] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-08-24 21:04:36.396] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-08-24 21:04:36.684] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-08-24 21:04:36.684] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-08-24 21:04:36.697] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-08-24 21:04:36.697] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+[2026-08-24 21:04:36.905] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+[2026-08-24 21:04:36.923] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+[2026-08-24 21:04:36.923] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+[2026-08-24 21:04:36.925] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+[2026-08-24 21:04:36.926] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
+[2026-08-24 21:04:36.926] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+[2026-08-24 21:04:36.926] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+[2026-08-24 21:04:36.929] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-24 21:04:36.930] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+[2026-08-24 21:04:36.930] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[2026-08-24 21:04:36.930] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+[2026-08-24 21:04:36.936] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+[2026-08-24 21:04:36.936] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+[2026-08-24 21:04:36.936] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+[2026-08-24 21:04:36.939] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+[2026-08-24 21:04:36.940] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+[2026-08-24 21:04:36.940] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+[2026-08-24 21:04:36.940] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+[2026-08-24 21:04:36.941] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+[2026-08-24 21:04:36.941] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+[2026-08-24 21:04:36.941] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+[2026-08-24 21:04:36.941] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+[2026-08-24 21:04:36.942] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+[2026-08-24 21:04:36.943] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
+[2026-08-24 21:04:36.943] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+[2026-08-24 21:04:36.943] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+[2026-08-24 21:04:36.944] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+[2026-08-24 21:04:36.944] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
+[2026-08-24 21:04:36.944] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+[2026-08-24 21:04:36.944] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+[2026-08-24 21:04:36.945] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+[2026-08-24 21:04:36.945] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+[2026-08-24 21:04:36.945] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
+[2026-08-24 21:04:36.948] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+[2026-08-24 21:04:36.948] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+[2026-08-24 21:04:36.949] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
+[2026-08-24 21:04:36.949] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
+[2026-08-24 21:04:36.949] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+[2026-08-24 21:04:36.950] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+[2026-08-24 21:04:36.950] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+[2026-08-24 21:04:36.950] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
+[2026-08-24 21:04:36.951] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+[2026-08-24 21:04:36.951] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+[2026-08-24 21:04:36.951] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+[2026-08-24 21:04:36.951] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
+[2026-08-24 21:04:36.952] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+[2026-08-24 21:04:36.952] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+[2026-08-24 21:04:36.952] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+[2026-08-24 21:04:36.953] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+[2026-08-24 21:04:36.953] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+[2026-08-24 21:04:36.954] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+[2026-08-24 21:04:36.954] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
+[2026-08-24 21:04:36.954] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+[2026-08-24 21:04:36.954] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
+[2026-08-24 21:04:36.955] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+[2026-08-24 21:04:36.955] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+[2026-08-24 21:04:36.955] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[2026-08-24 21:04:36.955] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-24 21:04:36.955] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
+[2026-08-24 21:04:36.955] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-24 21:04:36.955] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+[2026-08-24 21:04:36.956] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+[2026-08-24 21:04:36.988] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-08-24 21:04:36.989] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+[2026-08-24 21:04:36.990] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 2h56m 后执行 (00:01)
+[2026-08-24 21:04:37.051] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-24 21:04:38.642] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 5s 前）
+[2026-08-24 21:04:38.643] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-24 21:04:38.655] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-24 21:04:38.656] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-24 21:04:38.656] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-24 21:04:38.656] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-24 21:04:38.657] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-24 21:04:38.657] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-24 21:04:38.804] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-24 21:04:38.805] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-24 21:04:38.899] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-08-24 21:04:38.899] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 21:04:39.394] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-24 21:04:39.395] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-24 21:04:39.395] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-24 21:04:40.112] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
+[2026-08-24 21:04:40.113] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-24 21:04:40.113] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 10525 秒 (下次 00:00:05)
+[2026-08-24 21:04:40.314] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-24 21:04:41.435] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
+[2026-08-24 21:04:41.436] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
+[2026-08-24 21:04:41.454] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4619)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
