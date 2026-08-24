@@ -1,10 +1,4 @@
-# 更新于 2026-08-24 17:45:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 14:38:54.603] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=86.5 mem=44.9
-[2026-08-24 14:38:59.264] [INFO    ] (changelog:render_card_to_image:809) [87357c07795f4aa4] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_22cfb314.jpg size=195.5KB
-[2026-08-24 14:39:00.508] [INFO    ] (commands:handle_command:4645) [87357c07795f4aa4] 指令执行完成 [sys]: 无返回值（已自行发送）
-[2026-08-24 14:39:00.509] [INFO    ] (logger:log_trace_summary:392) [87357c07795f4aa4] [TRACE 87357c07795f4aa4] total=8238.75ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8238.2ms(x1) (wall8238.2), queue_wait=0.99ms(x1)
-[2026-08-24 14:39:00.509] [WARNING ] (logger:log_trace_summary:415) [87357c07795f4aa4] [SLOW 87357c07795f4aa4] total=8239.0ms | process=8238.2ms(x1) (wall8238.2), queue_wait=0.99ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.99ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=8238.2ms wall=8238.97ms dominant=other
-[2026-08-24 14:39:11.166] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-24 17:46:19 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 14:39:28.621] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=30.9 mem=43.9
 [2026-08-24 14:39:41.560] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 14:40:04.482] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=37.3 mem=43.6
@@ -1499,3 +1493,9 @@
 [2026-08-24 17:44:12.747] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 17:44:43.491] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 17:45:14.102] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 17:45:28.668] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=73 cpu=None mem=None
+[2026-08-24 17:45:28.669] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 17:45:44.914] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 17:45:59.122] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=73 cpu=None mem=None
+[2026-08-24 17:45:59.122] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 17:46:15.416] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
