@@ -1,18 +1,4 @@
-# 更新于 2026-08-24 10:30:05 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 01:38:51.222] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=83.7 mem=74.6
-[2026-08-24 01:39:09.445] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3693)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 01:39:18.592] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 01:39:18.592] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
-[2026-08-24 01:39:18.593] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8b6a96b5c9a04377] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-24 01:39:18.593] [INFO    ] (dispatcher:_dispatch_inner:308) [8b6a96b5c9a04377] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='？'
-[2026-08-24 01:39:18.594] [DEBUG   ] (queues:enqueue_message:75) [8b6a96b5c9a04377] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-24 01:39:18.594] [INFO    ] (memory:merge_overflow_memory:419) [0f69142fa4924c9f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
-[2026-08-24 01:39:18.595] [DEBUG   ] (pipeline:process_message:500) [0f69142fa4924c9f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
-[2026-08-24 01:39:18.595] [INFO    ] (logger:log_trace_summary:306) [0f69142fa4924c9f] [TRACE 0f69142fa4924c9f] total=1.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.96ms(x1) (wall0.96), queue_wait=0.27ms(x1)
-[2026-08-24 01:39:24.747] [INFO    ] (phone_status:set_phone_status:58) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=74.4 mem=74.7
-[2026-08-24 01:39:25.747] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 01:39:25.748] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我在调' is_edit=False
-[2026-08-24 01:39:25.748] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0202b74f332b4f84] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+# 更新于 2026-08-24 10:31:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 01:39:25.748] [INFO    ] (dispatcher:_dispatch_inner:308) [0202b74f332b4f84] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='我在调'
 [2026-08-24 01:39:25.750] [DEBUG   ] (queues:enqueue_message:75) [0202b74f332b4f84] [队列] 群6243254695867429 消息已入队 (队长度=1)
 [2026-08-24 01:39:25.751] [INFO    ] (memory:merge_overflow_memory:419) [6655b56d0e89477c] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 4条 (阈值=10)
@@ -1499,3 +1485,17 @@
 [2026-08-24 10:28:41.049] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 10:29:11.657] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 10:29:42.071] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 10:30:12.645] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 10:30:43.127] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 10:30:48.681] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 10:30:48.681] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.sign' is_edit=False
+[2026-08-24 10:30:48.681] [DEBUG   ] (dispatcher:_dispatch_inner:110) [407dc315362b47f1] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 10:30:48.681] [INFO    ] (dispatcher:_dispatch_inner:308) [407dc315362b47f1] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='.sign'
+[2026-08-24 10:30:48.682] [DEBUG   ] (queues:enqueue_message:75) [407dc315362b47f1] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 10:30:48.683] [INFO    ] (memory:merge_overflow_memory:419) [49dd64cf15524226] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-24 10:30:48.684] [DEBUG   ] (pipeline:process_message:500) [49dd64cf15524226] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.sign'
+[2026-08-24 10:30:48.684] [DEBUG   ] (pipeline:process_message:510) [49dd64cf15524226] 点前缀消息忽略（其它 bot 命令）: '.sign'
+[2026-08-24 10:30:48.684] [INFO    ] (logger:log_trace_summary:306) [49dd64cf15524226] [TRACE 49dd64cf15524226] total=1.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.37ms(x1) (wall1.37), queue_wait=0.52ms(x1)
+[2026-08-24 10:30:49.690] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 10:30:49.691] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='✅ 签到成功，제미니 (shuangzi_1228) 获得 120 积分！\n（基础 100 + 连续 1 天加成 20）\n当前余额：120 积分，累计签到 1 天' is_edit=False
+[2026-08-24 10:30:49.691] [DEBUG   ] (dispatcher:_dispatch_inner:107) [06a1309c5374405c] 跳过 bot 消息: uid=1341019011
