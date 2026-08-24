@@ -1,22 +1,4 @@
-# 更新于 2026-08-24 22:06:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:06:02.104] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-24 20:06:02.105] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h54m 后执行 (00:01)
-[2026-08-24 20:06:02.164] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-24 20:06:17.176] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-24 20:06:17.182] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 51s 前）
-[2026-08-24 20:06:17.182] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-24 20:06:17.190] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-24 20:06:17.191] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-24 20:06:17.191] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-24 20:06:17.191] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-24 20:06:17.192] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-24 20:06:17.192] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-24 20:06:17.348] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-24 20:06:17.348] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-24 20:06:17.472] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
-[2026-08-24 20:06:17.472] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 20:06:17.479] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-24 20:06:17.480] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-24 22:07:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:06:17.701] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-08-24 20:06:17.702] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-08-24 20:06:17.702] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
@@ -1499,3 +1481,21 @@
 [2026-08-24 22:06:14.734] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
 [2026-08-24 22:06:14.734] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 22:06:32.036] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:07:00.583] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-24 22:07:00.583] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:07:02.681] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:07:15.801] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-24 22:07:15.801] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 22:07:29.503] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:07:29.506] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商 DeepSeek' is_edit=False
+[2026-08-24 22:07:29.506] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5515a65d62af44ea] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 22:07:29.507] [INFO    ] (dispatcher:_dispatch_inner:308) [5515a65d62af44ea] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 DeepSeek'
+[2026-08-24 22:07:29.507] [INFO    ] (queues:_get_or_create_queue:32) [5515a65d62af44ea] [队列] 创建群1759953618 的独立消息队列
+[2026-08-24 22:07:29.507] [DEBUG   ] (queues:enqueue_message:75) [5515a65d62af44ea] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 22:07:29.512] [INFO    ] (memory:merge_overflow_memory:419) [74d1ac8c05424ae5] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-24 22:07:29.513] [INFO    ] (pipeline:process_message:470) [74d1ac8c05424ae5] 指令拦截: '/供应商 DeepSeek' from=ywandwss
+[2026-08-24 22:07:29.513] [DEBUG   ] (commands:handle_command:4606) [74d1ac8c05424ae5] 指令解析: prefix=/ cmd=供应商 args=['DeepSeek'] user=1759953618
+[2026-08-24 22:07:29.522] [INFO    ] (logger:info:335) [74d1ac8c05424ae5] 保留 fetch_me 注入的 bot_id: 659688244
+[2026-08-24 22:07:29.523] [INFO    ] (logger:info:335) [74d1ac8c05424ae5] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+[2026-08-24 22:07:29.523] [INFO    ] (commands:cmd_provider:1436) [74d1ac8c05424ae5] 供应商切换: MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 -> DEEPSEEK/deepseek-v4-flash (by ywandwss)
+[2026-08-24 22:07:29.523] [INFO    ] (commands:handle_command:4648) [74d1ac8c05424ae5] 指令执行完成 [供应商]: 返回70字符
