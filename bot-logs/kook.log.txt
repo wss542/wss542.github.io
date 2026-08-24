@@ -1,6 +1,4 @@
-# 更新于 2026-08-24 12:55:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:29:15.725] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 12:29:15.725] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我要也不知道啊' is_edit=False
+# 更新于 2026-08-24 12:56:08 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:29:15.725] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3b0c629373da46d3] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
 [2026-08-24 12:29:15.726] [INFO    ] (dispatcher:_dispatch_inner:308) [3b0c629373da46d3] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='我要也不知道啊'
 [2026-08-24 12:29:15.726] [DEBUG   ] (queues:enqueue_message:75) [3b0c629373da46d3] [队列] 群1010983873136793 消息已入队 (队长度=1)
@@ -1499,3 +1497,5 @@
 [2026-08-24 12:55:22.207] [DEBUG   ] (pipeline:process_message:500) [c516d2f62b054a16] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
 [2026-08-24 12:55:22.207] [INFO    ] (logger:log_trace_summary:306) [c516d2f62b054a16] [TRACE c516d2f62b054a16] total=2.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.09ms(x1) (wall2.09), queue_wait=0.62ms(x1)
 [2026-08-24 12:55:22.388] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10501)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 12:55:37.596] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=35.0 mem=70.1
+[2026-08-24 12:55:52.736] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 52361)]: music=[] lyric_event=False lyric='-' keys=16
