@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 13:08:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:42:20.333] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='看到了喵' is_edit=False
-[2026-08-24 12:42:20.333] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d5af8e8301cd4b22] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
-[2026-08-24 12:42:20.333] [INFO    ] (dispatcher:_dispatch_inner:308) [d5af8e8301cd4b22] 📩 消息 #37 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='看到了喵'
+# 更新于 2026-08-24 13:09:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:42:20.334] [DEBUG   ] (queues:enqueue_message:75) [d5af8e8301cd4b22] [队列] 群1010983873136793 消息已入队 (队长度=1)
 [2026-08-24 12:42:20.335] [INFO    ] (memory:merge_overflow_memory:419) [bbd9c559dc984d7e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
 [2026-08-24 12:42:20.336] [DEBUG   ] (pipeline:process_message:500) [bbd9c559dc984d7e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='看到了喵'
@@ -1499,3 +1496,6 @@
 [2026-08-24 13:07:57.527] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-24 13:08:06.925] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=35.0 mem=70.1
 [2026-08-24 13:08:11.245] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 13:08:41.493] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 13:08:47.831] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=36.6 mem=70.1
+[2026-08-24 13:09:12.193] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
