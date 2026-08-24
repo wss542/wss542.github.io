@@ -1,6 +1,4 @@
-# 更新于 2026-08-24 14:46:40 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:49:11.081] [INFO    ] (pipeline:process_message:535) [fd1b77c7f8894b6a] @机器人检测(at_only) → 直接回复
-[2026-08-24 12:49:11.087] [DEBUG   ] (pipeline:process_message:591) [fd1b77c7f8894b6a] 请求意图: intent=chat fast_search=False msg='@659688244  这是啥'
+# 更新于 2026-08-24 14:47:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:49:11.103] [WARNING ] (pipeline:process_message:639) [fd1b77c7f8894b6a] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [2026-08-24 12:49:11.111] [DEBUG   ] (memory:_record_memory_trace:318) [fd1b77c7f8894b6a] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=6.9ms
 [2026-08-24 12:49:11.116] [DEBUG   ] (pipeline:process_message:795) [fd1b77c7f8894b6a] extra_info 按预算丢弃 1 项: ['memory:memory']
@@ -1499,3 +1497,5 @@
 [2026-08-24 14:45:53.696] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=34.3 mem=45.4
 [2026-08-24 14:46:19.242] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 14:46:27.375] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=65.1 mem=44.9
+[2026-08-24 14:46:49.715] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:47:01.593] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=36.9 mem=44.9
