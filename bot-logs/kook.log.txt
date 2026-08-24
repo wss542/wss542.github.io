@@ -1,13 +1,4 @@
-# 更新于 2026-08-24 22:35:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:15:56.956] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ac22355f2b0441b1] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-[2026-08-24 20:15:56.956] [INFO    ] (dispatcher:_dispatch_inner:308) [ac22355f2b0441b1] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='我发出来过吗'
-[2026-08-24 20:15:56.957] [INFO    ] (queues:_get_or_create_queue:32) [ac22355f2b0441b1] [队列] 创建群7274785942250691 的独立消息队列
-[2026-08-24 20:15:56.958] [DEBUG   ] (queues:enqueue_message:75) [ac22355f2b0441b1] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-24 20:15:56.961] [INFO    ] (memory:merge_overflow_memory:419) [9c8119b0a1f44315] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-[2026-08-24 20:15:56.967] [DEBUG   ] (pipeline:process_message:500) [9c8119b0a1f44315] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我发出来过吗'
-[2026-08-24 20:15:56.968] [INFO    ] (logger:log_trace_summary:392) [9c8119b0a1f44315] [TRACE 9c8119b0a1f44315] total=9.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9.69ms(x1) (wall9.69), queue_wait=0.82ms(x1)
-[2026-08-24 20:15:57.010] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 20:15:57.011] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我发出来过吗' is_edit=False
+# 更新于 2026-08-24 22:36:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:15:57.011] [DEBUG   ] (dispatcher:_dispatch_inner:69) [-] 去重跳过: msg_id=ad9bd5d0-4fa0-4119-ab57-494a5d7f430c
 [2026-08-24 20:15:59.022] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
 [2026-08-24 20:15:59.023] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1490,12 @@
 [2026-08-24 22:35:17.773] [INFO    ] (logger:log_trace_summary:392) [a06febd56e57471d] [TRACE a06febd56e57471d] total=2.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.35ms(x1) (wall2.35), queue_wait=0.27ms(x1)
 [2026-08-24 22:35:18.586] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 22:35:48.961] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 22:35:52.161] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 22:35:52.162] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='何小号' is_edit=False
+[2026-08-24 22:35:52.162] [DEBUG   ] (dispatcher:_dispatch_inner:110) [907e354bd9144a7b] KMD 调试: is_group=True uid=656176615 channel=9231565360961340
+[2026-08-24 22:35:52.162] [INFO    ] (dispatcher:_dispatch_inner:308) [907e354bd9144a7b] 📩 消息 #19 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=9231565360961340 | group=True | content='何小号'
+[2026-08-24 22:35:52.164] [DEBUG   ] (queues:enqueue_message:75) [907e354bd9144a7b] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 22:35:52.165] [INFO    ] (memory:merge_overflow_memory:419) [70cc72faedec413e] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 5条 (阈值=10)
+[2026-08-24 22:35:52.166] [DEBUG   ] (pipeline:process_message:500) [70cc72faedec413e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='何小号'
+[2026-08-24 22:35:52.166] [INFO    ] (logger:log_trace_summary:392) [70cc72faedec413e] [TRACE 70cc72faedec413e] total=1.78ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.73ms(x1) (wall1.73), queue_wait=0.53ms(x1)
+[2026-08-24 22:36:19.508] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
