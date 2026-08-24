@@ -1,5 +1,4 @@
-# 更新于 2026-08-24 23:19:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:37:04.559] [INFO    ] (memory:maybe_save_memory:401) [a71bf3ac9928429a] 触发自动记忆 [1759953618]: 4 条
+# 更新于 2026-08-24 23:19:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:37:04.559] [INFO    ] (pipeline:process_message:1553) [a71bf3ac9928429a] ✅ 管道处理完成: 1句 sent chat=1759953618
 [2026-08-24 20:37:04.585] [DEBUG   ] (pipeline:process_message:1575) [a71bf3ac9928429a] Fast Path 主题已记录: chat=1759953618 topic='.消耗'
 [2026-08-24 20:37:04.586] [INFO    ] (logger:log_trace_summary:392) [a71bf3ac9928429a] [TRACE a71bf3ac9928429a] total=5449.49ms severity=slow_request | llm_calls=1 total=5372.35ms avg=5372.35ms max=5372.35ms p50=5372.35 p95=5372.35 p99=5372.35 | json_parse=0.97ms(x1), llm=5394.56ms(x1), memory=13.16ms(x2), process=5449.43ms(x1) (wall5449.43), queue_wait=0.55ms(x1)
@@ -1499,3 +1498,4 @@
 [2026-08-24 23:18:34.599] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=97 cpu=None mem=None
 [2026-08-24 23:18:34.599] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 23:18:51.035] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7656)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 23:19:21.734] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7656)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
