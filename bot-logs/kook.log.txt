@@ -1,17 +1,4 @@
-# 更新于 2026-08-24 23:57:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 21:04:57.832] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-24 21:04:57.834] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-24 21:04:58.474] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4691)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 21:04:58.492] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
-[2026-08-24 21:04:58.492] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-24 21:04:58.493] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 10507 秒 (下次 00:00:05)
-[2026-08-24 21:05:00.120] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
-[2026-08-24 21:05:00.121] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
-[2026-08-24 21:05:06.599] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 21:05:13.482] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 21:05:22.292] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-24 21:05:28.841] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4691)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 21:05:59.260] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4691)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-24 23:58:27 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 21:06:29.850] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4691)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 21:06:45.444] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
 [2026-08-24 21:06:45.454] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
@@ -1499,3 +1486,16 @@
 [2026-08-24 23:57:15.296] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 23:57:49.006] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 [2026-08-24 23:57:49.011] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 23:58:14.430] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 23:58:14.432] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商' is_edit=False
+[2026-08-24 23:58:14.432] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a236c658f9ea4ed3] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 23:58:14.434] [INFO    ] (dispatcher:_dispatch_inner:308) [a236c658f9ea4ed3] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商'
+[2026-08-24 23:58:14.434] [INFO    ] (queues:_get_or_create_queue:32) [a236c658f9ea4ed3] [队列] 创建群1759953618 的独立消息队列
+[2026-08-24 23:58:14.434] [DEBUG   ] (queues:enqueue_message:75) [a236c658f9ea4ed3] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 23:58:14.438] [INFO    ] (memory:merge_overflow_memory:419) [f35dbf4041fd444f] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-24 23:58:14.438] [INFO    ] (pipeline:process_message:470) [f35dbf4041fd444f] 指令拦截: '/供应商' from=ywandwss
+[2026-08-24 23:58:14.439] [DEBUG   ] (commands:handle_command:4606) [f35dbf4041fd444f] 指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
+[2026-08-24 23:58:14.440] [INFO    ] (commands:handle_command:4648) [f35dbf4041fd444f] 指令执行完成 [供应商]: 返回263字符
+[2026-08-24 23:58:15.048] [INFO    ] (logger:log_trace_summary:392) [f35dbf4041fd444f] [TRACE f35dbf4041fd444f] total=613.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=613.23ms(x1) (wall613.23), queue_wait=0.54ms(x1)
+[2026-08-24 23:58:15.053] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 23:58:19.180] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
