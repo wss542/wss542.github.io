@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 14:47:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:49:11.117] [INFO    ] (pipeline:process_message:799) [fd1b77c7f8894b6a] 额外信息: 332字 (memory=0 search=0)
-[2026-08-24 12:49:11.118] [INFO    ] (pipeline:process_message:932) [fd1b77c7f8894b6a] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-24 12:49:11.119] [DEBUG   ] (pipeline:process_message:1061) [fd1b77c7f8894b6a] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+# 更新于 2026-08-24 14:48:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:49:11.119] [INFO    ] (pipeline:process_message:1064) [fd1b77c7f8894b6a] 开始生成回复: speaker=ywandwss chat=1010983873136793
 [2026-08-24 12:49:15.991] [INFO    ] (llm:generate_multi_reply_with_tools:971) [fd1b77c7f8894b6a] LLM原始输出 [轮1]: content={"replies":["这是妙脆角的emoji表情","看起来像是某种零食的梗"],"fav":0,"calls":[],"face":"(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","mood":"好奇","action":"","at":"659688244","mode":null,"origin":"user","actor":{"na | tool_calls=0
 [2026-08-24 12:49:15.994] [WARNING ] (face_lib:_init:29) [fd1b77c7f8894b6a] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
@@ -1499,3 +1496,6 @@
 [2026-08-24 14:47:20.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 14:47:39.683] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=37.8 mem=44.9
 [2026-08-24 14:47:50.777] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:48:16.159] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=45.2
+[2026-08-24 14:48:16.160] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-24 14:48:21.333] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
