@@ -1,8 +1,4 @@
-# 更新于 2026-08-24 13:02:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:41:52.547] [DEBUG   ] (dispatcher:_dispatch_inner:110) [18ae825c74ec4c50] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
-[2026-08-24 12:41:52.547] [INFO    ] (dispatcher:_dispatch_inner:308) [18ae825c74ec4c50] 📩 消息 #34 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='qwq'
-[2026-08-24 12:41:52.548] [DEBUG   ] (queues:enqueue_message:75) [18ae825c74ec4c50] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-24 12:41:52.548] [INFO    ] (memory:merge_overflow_memory:419) [507ea658aa234794] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+# 更新于 2026-08-24 13:03:08 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:41:52.549] [DEBUG   ] (pipeline:process_message:500) [507ea658aa234794] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
 [2026-08-24 12:41:52.549] [INFO    ] (logger:log_trace_summary:306) [507ea658aa234794] [TRACE 507ea658aa234794] total=1.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.41ms(x1) (wall1.41), queue_wait=0.29ms(x1)
 [2026-08-24 12:41:55.883] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5159)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1495,7 @@
 [2026-08-24 13:01:59.606] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 [2026-08-24 13:02:02.153] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 [2026-08-24 13:02:05.692] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 13:02:16.747] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=36.1 mem=69.8
+[2026-08-24 13:02:35.984] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 13:02:54.697] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=65.3 mem=69.7
+[2026-08-24 13:03:06.568] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9639)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
