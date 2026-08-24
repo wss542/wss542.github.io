@@ -1,8 +1,4 @@
-# 更新于 2026-08-24 16:05:20 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:51:18.713] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-24 12:51:19.627] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-24 12:51:19.629] [INFO    ] (logger:info:249) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-24 12:51:19.629] [INFO    ] (logger:info:249) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+# 更新于 2026-08-24 16:06:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:51:19.877] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
 [2026-08-24 12:51:19.877] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
 [2026-08-24 12:51:19.878] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 40125 秒 (下次 00:00:05)
@@ -1499,3 +1495,7 @@
 [2026-08-24 16:05:18.988] [INFO    ] (memory:merge_overflow_memory:419) [4f21850352224630] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
 [2026-08-24 16:05:18.989] [DEBUG   ] (pipeline:process_message:500) [4f21850352224630] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='“0.6”'
 [2026-08-24 16:05:18.989] [INFO    ] (logger:log_trace_summary:392) [4f21850352224630] [TRACE 4f21850352224630] total=2.7ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.66ms(x1) (wall2.66), queue_wait=0.62ms(x1)
+[2026-08-24 16:05:28.710] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=47 cpu=None mem=None
+[2026-08-24 16:05:28.711] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 16:05:35.805] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 16:06:06.259] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
