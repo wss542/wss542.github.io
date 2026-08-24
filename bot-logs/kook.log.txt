@@ -1,4 +1,4 @@
-# 更新于 2026-08-25 00:18:56 · 共 228 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-25 00:19:50 · 共 264 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:00:06.061] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
 [2026-08-25 00:00:06.065] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-08-25 00:00:19.018] [INFO    ] (stats:midnight_report_loop:462) [-] 🌅 新的一天 20260825 — 发送昨日群聊日报
@@ -227,3 +227,39 @@
 [2026-08-25 00:18:54.450] [INFO    ] (image_api:recognize_image:168) [48b69363a00e4a30] [chat=9231565360961340] 图片下载成功: 90823 bytes
 [2026-08-25 00:18:54.603] [INFO    ] (image_api:recognize_image:204) [48b69363a00e4a30] [chat=9231565360961340] 图片预处理: PNG(648x169) → PNG 90823 bytes → 71064 bytes
 [2026-08-25 00:18:54.604] [INFO    ] (image_api:recognize_image:251) [48b69363a00e4a30] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=dadfbecf39db...) model=deepseek-v4-flash-vision-exp
+[2026-08-25 00:18:59.388] [INFO    ] (image_api:recognize_image:268) [48b69363a00e4a30] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): The user wants a direct description of the image c...
+[2026-08-25 00:18:59.390] [DEBUG   ] (image_api:_save:64) [48b69363a00e4a30] 图片缓存已写入磁盘: 313 条
+[2026-08-25 00:18:59.391] [DEBUG   ] (image_api:_save_to_repo:303) [48b69363a00e4a30] 图片仓库追加: MD5=dadfbecf39db... → 'The user wants a direct descri'
+[2026-08-25 00:18:59.391] [INFO    ] (dispatcher:_do_recognize_image:914) [48b69363a00e4a30] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: 'The user wants a direct description of the image content, with no reasoning or t...' (200字) url=https://img.kookapp.cn/assets/2026-08/25/rJ2N4HnJ7M0i004p.pn
+[2026-08-25 00:18:59.392] [INFO    ] (dispatcher:_dispatch_inner:400) [48b69363a00e4a30] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: 'The user wants a direct description of the image c...'
+[2026-08-25 00:18:59.393] [DEBUG   ] (queues:enqueue_message:75) [48b69363a00e4a30] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-25 00:18:59.393] [INFO    ] (pipeline:process_message:367) [9bc8fcee150047f9] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-25 00:18:59.395] [INFO    ] (memory:merge_overflow_memory:419) [9bc8fcee150047f9] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 10条 (阈值=10)
+[2026-08-25 00:18:59.395] [DEBUG   ] (pipeline:process_message:500) [9bc8fcee150047f9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-25 00:18:59.396] [INFO    ] (logger:log_trace_summary:392) [9bc8fcee150047f9] [TRACE 9bc8fcee150047f9] total=2.19ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.13ms(x1) (wall2.13), queue_wait=0.77ms(x1)
+[2026-08-25 00:18:59.396] [INFO    ] (llm:call_llm:427) [9bc8fcee150047f9] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-25 00:18:59.422] [INFO    ] (engine:_ingest:92) [9bc8fcee150047f9] 异步记忆提炼完成 chat=9231565360961340: 候选1 新增1
+[2026-08-25 00:19:02.969] [INFO    ] (llm:call_llm:489) [9bc8fcee150047f9] LLM [Qwen/Qwen3-235B-A22B] 返回 286字符 耗时3.6s → "[21:04:33] Trusler: Trusler说了我也不会16键, ywandwss说是不是..."
+[2026-08-25 00:19:02.972] [INFO    ] (memory:_compress_with_deepseek:210) [9bc8fcee150047f9] [9231565360961340] 压缩完成: 10条消息 → 保存
+[2026-08-25 00:19:18.834] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 00:19:30.626] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 00:19:30.626] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/7yaYzBhacL0g90cb.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":585,"height":443,"fileSize":308354,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-25 00:19:30.626] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ebc4190d4bf7450a] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-25 00:19:30.627] [INFO    ] (dispatcher:_dispatch_inner:177) [ebc4190d4bf7450a] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/7yaYzBhacL0g90cb.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":585,"height":443,"fileSize":308354,"elements":[]}]}],"type":"card"}]')
+[2026-08-25 00:19:30.627] [INFO    ] (dispatcher:_dispatch_inner:308) [ebc4190d4bf7450a] 📩 消息 #20 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/7yaYzBhacL0g90cb.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":585,"height":443,"fileSize":308354,"elements":[]}]}],"type":"card"}]'
+[2026-08-25 00:19:30.628] [INFO    ] (dispatcher:_dispatch_inner:384) [ebc4190d4bf7450a] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-25 00:19:30.628] [INFO    ] (image_api:recognize_image:152) [ebc4190d4bf7450a] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/25/7yaYzBhacL0g90cb.pn...
+[2026-08-25 00:19:30.864] [INFO    ] (image_api:recognize_image:168) [ebc4190d4bf7450a] [chat=9231565360961340] 图片下载成功: 308354 bytes
+[2026-08-25 00:19:31.310] [INFO    ] (image_api:recognize_image:204) [ebc4190d4bf7450a] [chat=9231565360961340] 图片预处理: PNG(585x443) → PNG 308354 bytes → 237415 bytes
+[2026-08-25 00:19:31.311] [INFO    ] (image_api:recognize_image:251) [ebc4190d4bf7450a] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=f938eb00b533...) model=deepseek-v4-flash-vision-exp
+[2026-08-25 00:19:36.240] [INFO    ] (image_api:recognize_image:268) [ebc4190d4bf7450a] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): **任务：** 直接描述图片内容，不要输出任何推理或思考过程。 **特殊情况：** 如果图片是一个用...
+[2026-08-25 00:19:36.242] [DEBUG   ] (image_api:_save:64) [ebc4190d4bf7450a] 图片缓存已写入磁盘: 314 条
+[2026-08-25 00:19:36.244] [DEBUG   ] (image_api:_save_to_repo:303) [ebc4190d4bf7450a] 图片仓库追加: MD5=f938eb00b533... → '**任务：** 直接描述图片内容，不要输出任何推理或思考过程'
+[2026-08-25 00:19:36.244] [INFO    ] (dispatcher:_do_recognize_image:914) [ebc4190d4bf7450a] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '**任务：** 直接描述图片内容，不要输出任何推理或思考过程。 **特殊情况：** 如果图片是一个用于表达情绪的表情包，则需着重输出其情绪元素（至少4个点），其...' (200字) url=https://img.kookapp.cn/assets/2026-08/25/7yaYzBhacL0g90cb.pn
+[2026-08-25 00:19:36.245] [INFO    ] (dispatcher:_dispatch_inner:400) [ebc4190d4bf7450a] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '**任务：** 直接描述图片内容，不要输出任何推理或思考过程。 **特殊情况：** 如果图片是一个用...'
+[2026-08-25 00:19:36.245] [DEBUG   ] (queues:enqueue_message:75) [ebc4190d4bf7450a] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-25 00:19:36.246] [INFO    ] (pipeline:process_message:367) [e87fb66d7b5748e6] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-25 00:19:36.247] [INFO    ] (memory:merge_overflow_memory:419) [e87fb66d7b5748e6] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 1条 (阈值=10)
+[2026-08-25 00:19:36.248] [DEBUG   ] (pipeline:process_message:500) [e87fb66d7b5748e6] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-25 00:19:36.248] [INFO    ] (logger:log_trace_summary:392) [e87fb66d7b5748e6] [TRACE e87fb66d7b5748e6] total=2.16ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.11ms(x1) (wall2.11), queue_wait=0.57ms(x1)
+[2026-08-25 00:19:49.435] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
