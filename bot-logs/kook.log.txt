@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 16:23:52 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:52:52.838] [INFO    ] (dispatcher:_dispatch_inner:384) [f0461dedd96c4f37] 🖼️  [chat=3649029148752421] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-24 12:52:52.840] [DEBUG   ] (image_api:_load:50) [f0461dedd96c4f37] 图片缓存已加载: 294 条
-[2026-08-24 12:52:52.841] [INFO    ] (image_api:recognize_image:150) [f0461dedd96c4f37] [chat=3649029148752421] 开始下载图片: https://img.kookapp.cn/assets/2026-08/24/odK2qMGWde0nr0e9.pn...
+# 更新于 2026-08-24 16:24:24 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:52:53.093] [INFO    ] (image_api:recognize_image:159) [f0461dedd96c4f37] [chat=3649029148752421] 图片下载成功: 218424 bytes
 [2026-08-24 12:52:53.093] [INFO    ] (image_api:recognize_image:171) [f0461dedd96c4f37] [chat=3649029148752421] 调用视觉模型识别图片 (MD5=cff04fe77f30...) model=glm-4v-flash
 [2026-08-24 12:52:53.605] [INFO    ] (image_api:recognize_image:203) [f0461dedd96c4f37] [chat=3649029148752421] 图片预处理: PNG(855x513) → PNG 218424 bytes → 163481 bytes
@@ -1499,3 +1496,6 @@
 [2026-08-24 16:22:41.986] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14532)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-08-24 16:23:12.378] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14532)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-08-24 16:23:43.373] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14532)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-08-24 16:24:13.365] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=38 cpu=None mem=None
+[2026-08-24 16:24:13.366] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 16:24:13.718] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14532)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
