@@ -1,12 +1,4 @@
-# 更新于 2026-08-24 20:00:49 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 17:26:57.795] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
-[2026-08-24 17:26:57.796] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
-[2026-08-24 17:27:26.402] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11458)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:27:56.891] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11458)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:28:27.574] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11458)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:28:42.036] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=60 cpu=None mem=None
-[2026-08-24 17:28:42.036] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-24 17:28:57.271] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=60 cpu=None mem=None
+# 更新于 2026-08-24 20:01:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 17:28:57.272] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 17:28:58.033] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11458)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 17:29:28.890] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11458)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1491,11 @@
 [2026-08-24 20:00:20.734] [INFO    ] (logger:log_trace_summary:392) [e2d813c1a77740fc] [TRACE e2d813c1a77740fc] total=3387.93ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3387.78ms(x1) (wall3387.78), queue_wait=0.37ms(x1)
 [2026-08-24 20:00:20.735] [WARNING ] (logger:log_trace_summary:415) [e2d813c1a77740fc] [SLOW e2d813c1a77740fc] total=3388.66ms | process=3387.78ms(x1) (wall3387.78), queue_wait=0.37ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.37ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3387.78ms wall=3388.63ms dominant=other
 [2026-08-24 20:00:36.605] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6144)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 20:01:00.008] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
+[2026-08-24 20:01:03.398] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-24 20:01:04.731] [INFO    ] (bot:_bg_wdsj_collector:687) [-] 日榜目标频道: [3649029148752421]
+[2026-08-24 20:01:09.667] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6144)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 20:01:10.796] [INFO    ] (bot:_bg_wdsj_collector:691) [-] 日榜已发到频道 3649029148752421
+[2026-08-24 20:01:10.796] [INFO    ] (bot:_bg_wdsj_collector:694) [-] 日榜已推送: 1 人 (2026-08-24)
+[2026-08-24 20:01:10.796] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h59m 后执行 (00:01)
+[2026-08-24 20:01:10.815] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
