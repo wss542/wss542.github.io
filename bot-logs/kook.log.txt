@@ -1,6 +1,4 @@
-# 更新于 2026-08-24 18:02:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 15:16:48.403] [DEBUG   ] (queues:enqueue_message:75) [f5f9ee26db164595] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-24 15:16:48.404] [INFO    ] (memory:merge_overflow_memory:419) [9eae8619b2404ee8] 长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
+# 更新于 2026-08-24 18:03:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 15:16:48.405] [INFO    ] (pipeline:process_message:470) [9eae8619b2404ee8] 指令拦截: '/看视频 [https://b23.tv/dpeO7aS](https://b2' from=ywandwss
 [2026-08-24 15:16:48.405] [DEBUG   ] (commands:handle_command:4601) [9eae8619b2404ee8] 指令解析: prefix=/ cmd=看视频 args=['[https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'] user=1759953618
 [2026-08-24 15:16:50.941] [INFO    ] (commands:handle_command:4643) [9eae8619b2404ee8] 指令执行完成 [看视频]: 返回11字符
@@ -1499,3 +1497,5 @@
 [2026-08-24 18:01:24.515] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 18:01:30.314] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 18:02:01.006] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 18:02:31.377] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 18:03:01.915] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
