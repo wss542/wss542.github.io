@@ -1,20 +1,4 @@
-# 更新于 2026-08-24 14:58:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:49:33.276] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 12:49:33.276] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='qwq' is_edit=False
-[2026-08-24 12:49:33.277] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e90a5b548e3343e0] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
-[2026-08-24 12:49:33.277] [INFO    ] (dispatcher:_dispatch_inner:308) [e90a5b548e3343e0] 📩 消息 #94 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='qwq'
-[2026-08-24 12:49:33.278] [DEBUG   ] (queues:enqueue_message:75) [e90a5b548e3343e0] [队列] 群1010983873136793 消息已入队 (队长度=2)
-[2026-08-24 12:49:34.605] [INFO    ] (llm:generate_multi_reply_with_tools:971) [02da724a429b40dc] LLM原始输出 [轮1]: content={"replies":["主人，我已经看到啦，是妙脆角的emoji表情哦~","这个表情挺有趣的，是不是有什么特别的梗呢？"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":"659688244","mode":null,"origi | tool_calls=0
-[2026-08-24 12:49:34.606] [INFO    ] (llm:_parse_reply:1314) [02da724a429b40dc] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-08-24 12:49:34.606] [DEBUG   ] (context_manager:append_to_context:86) [02da724a429b40dc] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
-[2026-08-24 12:49:34.606] [INFO    ] (fav:update_fav:105) [02da724a429b40dc] 好感度更新: g1010983873136793:1759953618 +2 → 54
-[2026-08-24 12:49:34.608] [INFO    ] (pipeline:process_message:1547) [02da724a429b40dc] 好感度调整: ywandwss +2 (chat=1010983873136793)
-[2026-08-24 12:49:34.608] [INFO    ] (pipeline:process_message:1553) [02da724a429b40dc] ✅ 管道处理完成: 2句 sent chat=1010983873136793
-[2026-08-24 12:49:34.609] [DEBUG   ] (pipeline:process_message:1575) [02da724a429b40dc] Fast Path 主题已记录: chat=1010983873136793 topic='@659688244  你可以发出来吗'
-[2026-08-24 12:49:34.609] [INFO    ] (logger:log_trace_summary:306) [02da724a429b40dc] [TRACE 02da724a429b40dc] total=6267.26ms severity=slow_request | llm_calls=1 total=6249.6ms avg=6249.6ms max=6249.6ms p50=6249.6 p95=6249.6 p99=6249.6 | json_parse=0.03ms(x1), llm=6251.08ms(x1), memory=11.97ms(x2), process=6267.15ms(x1) (wall6267.15), queue_wait=0.53ms(x1)
-[2026-08-24 12:49:34.610] [WARNING ] (logger:log_trace_summary:329) [02da724a429b40dc] [SLOW 02da724a429b40dc] total=6267.9ms | json_parse=0.03ms(x1), llm=6251.08ms(x1), memory=11.97ms(x2), process=6267.15ms(x1) (wall6267.15), queue_wait=0.53ms(x1) | llm_calls=1 total=6249.6ms avg=6249.6ms max=6249.6ms p50=6249.6 p95=6249.6 p99=6249.6 | perf: queue=0.53ms llm=6251.11ms search_tool=0.0ms delivery=0.0ms other=6279.12ms wall=6267.83ms dominant=other
-[2026-08-24 12:49:34.612] [INFO    ] (memory:merge_overflow_memory:419) [fa2ee0364ae345f4] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
-[2026-08-24 12:49:34.614] [DEBUG   ] (context_manager:append_to_context:86) [fa2ee0364ae345f4] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+# 更新于 2026-08-24 14:59:02 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:49:34.614] [DEBUG   ] (pipeline:process_message:500) [fa2ee0364ae345f4] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='可一次嘛'
 [2026-08-24 12:49:34.615] [INFO    ] (logger:log_trace_summary:306) [fa2ee0364ae345f4] [TRACE fa2ee0364ae345f4] total=4.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.95ms(x1) (wall3.95), queue_wait=2316.27ms(x1)
 [2026-08-24 12:49:34.615] [INFO    ] (memory:merge_overflow_memory:419) [1934d0606fbd42b7] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
@@ -1499,3 +1483,19 @@
 [2026-08-24 14:57:47.731] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
 [2026-08-24 14:57:47.732] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-24 14:58:01.507] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:58:27.024] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 14:58:27.025] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/sys' is_edit=False
+[2026-08-24 14:58:27.025] [DEBUG   ] (dispatcher:_dispatch_inner:110) [bcb2884e38fb4e83] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 14:58:27.025] [INFO    ] (dispatcher:_dispatch_inner:308) [bcb2884e38fb4e83] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/sys'
+[2026-08-24 14:58:27.026] [DEBUG   ] (queues:enqueue_message:75) [bcb2884e38fb4e83] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 14:58:27.028] [INFO    ] (memory:merge_overflow_memory:419) [e03ed636e6b344c2] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+[2026-08-24 14:58:27.030] [INFO    ] (pipeline:process_message:470) [e03ed636e6b344c2] 指令拦截: '/sys' from=ywandwss
+[2026-08-24 14:58:27.030] [DEBUG   ] (commands:handle_command:4601) [e03ed636e6b344c2] 指令解析: prefix=/ cmd=sys args=[] user=1759953618
+[2026-08-24 14:58:27.031] [INFO    ] (changelog:render_card_to_image:801) [e03ed636e6b344c2] [Card] 正在截图 → sysiph_7ba789cd.jpg (17977 bytes HTML)
+[2026-08-24 14:58:29.696] [INFO    ] (changelog:render_card_to_image:809) [e03ed636e6b344c2] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_7ba789cd.jpg size=194.2KB
+[2026-08-24 14:58:30.934] [INFO    ] (commands:handle_command:4645) [e03ed636e6b344c2] 指令执行完成 [sys]: 无返回值（已自行发送）
+[2026-08-24 14:58:30.934] [INFO    ] (logger:log_trace_summary:392) [e03ed636e6b344c2] [TRACE e03ed636e6b344c2] total=3908.1ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3908.04ms(x1) (wall3908.04), queue_wait=0.41ms(x1)
+[2026-08-24 14:58:30.935] [WARNING ] (logger:log_trace_summary:415) [e03ed636e6b344c2] [SLOW e03ed636e6b344c2] total=3908.43ms | process=3908.04ms(x1) (wall3908.04), queue_wait=0.41ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.41ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3908.04ms wall=3908.3ms dominant=other
+[2026-08-24 14:58:30.947] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 14:58:31.740] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:59:02.311] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
