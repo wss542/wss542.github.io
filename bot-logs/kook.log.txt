@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 14:36:40 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:48:31.014] [INFO    ] (dispatcher:_dispatch_inner:308) [c3cb5feb51134d6e] 📩 消息 #88 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/playing 冰与火之舞'
-[2026-08-24 12:48:31.014] [DEBUG   ] (queues:enqueue_message:75) [c3cb5feb51134d6e] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-24 12:48:31.015] [INFO    ] (memory:merge_overflow_memory:419) [d07de30749c74234] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
+# 更新于 2026-08-24 14:37:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:48:31.016] [INFO    ] (pipeline:process_message:470) [d07de30749c74234] 指令拦截: '/playing 冰与火之舞' from=ywandwss
 [2026-08-24 12:48:31.016] [DEBUG   ] (commands:handle_command:4508) [d07de30749c74234] 指令解析: prefix=/ cmd=playing args=['冰与火之舞'] user=1759953618
 [2026-08-24 12:48:31.164] [INFO    ] (game_status:set_game:193) [d07de30749c74234] 🎮 已设置正在玩(官方库): 冰与火之舞 (id=81320)
@@ -1499,3 +1496,6 @@
 [2026-08-24 14:36:00.048] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
 [2026-08-24 14:36:24.851] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=27.8 mem=36.7
 [2026-08-24 14:36:30.239] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-24 14:37:08.847] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-24 14:37:08.854] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:37:08.855] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=30.6 mem=36.7
