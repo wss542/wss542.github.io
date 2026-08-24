@@ -1,6 +1,4 @@
-# 更新于 2026-08-24 13:40:34 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:46:31.432] [INFO    ] (dispatcher:_dispatch_inner:308) [629a2f4cbe114180] 📩 消息 #72 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='TAT'
-[2026-08-24 12:46:31.433] [DEBUG   ] (queues:enqueue_message:75) [629a2f4cbe114180] [队列] 群1010983873136793 消息已入队 (队长度=1)
+# 更新于 2026-08-24 13:41:06 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:46:31.434] [INFO    ] (memory:merge_overflow_memory:419) [2b4d8cd011d34c1f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
 [2026-08-24 12:46:31.434] [DEBUG   ] (context_manager:append_to_context:86) [2b4d8cd011d34c1f] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
 [2026-08-24 12:46:31.435] [DEBUG   ] (pipeline:process_message:500) [2b4d8cd011d34c1f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='TAT'
@@ -1499,3 +1497,5 @@
 [2026-08-24 13:40:24.856] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-24 13:40:25.146] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 53432)]: music=[] lyric_event=False lyric='-' keys=16
 [2026-08-24 13:40:26.396] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-24 13:40:37.202] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=39.1 mem=72.0
+[2026-08-24 13:41:01.542] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: timed out
