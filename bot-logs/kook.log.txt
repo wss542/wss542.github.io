@@ -1,7 +1,4 @@
-# 更新于 2026-08-24 11:29:33 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 02:06:19.700] [INFO    ] (phone_status:start_phone_server:591) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-24 02:06:19.700] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-24 02:06:19.700] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+# 更新于 2026-08-24 11:30:08 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 02:06:19.771] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-08-24 02:06:20.410] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-08-24 02:06:20.411] [INFO    ] (logger:info:249) [-] Chromium 已预启动 + 渲染队列就绪
@@ -1499,3 +1496,6 @@
 [2026-08-24 11:28:54.195] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13734)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 11:28:59.239] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=33.8 mem=43.1
 [2026-08-24 11:29:24.760] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13734)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 11:29:34.301] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=80.8 mem=47.4
+[2026-08-24 11:29:55.075] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49415)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-24 11:30:08.179] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=53.6 mem=45.1
