@@ -1,10 +1,4 @@
-# 更新于 2026-08-24 14:48:40 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:49:11.119] [INFO    ] (pipeline:process_message:1064) [fd1b77c7f8894b6a] 开始生成回复: speaker=ywandwss chat=1010983873136793
-[2026-08-24 12:49:15.991] [INFO    ] (llm:generate_multi_reply_with_tools:971) [fd1b77c7f8894b6a] LLM原始输出 [轮1]: content={"replies":["这是妙脆角的emoji表情","看起来像是某种零食的梗"],"fav":0,"calls":[],"face":"(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","mood":"好奇","action":"","at":"659688244","mode":null,"origin":"user","actor":{"na | tool_calls=0
-[2026-08-24 12:49:15.994] [WARNING ] (face_lib:_init:29) [fd1b77c7f8894b6a] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-24 12:49:15.994] [INFO    ] (llm:_parse_reply:1314) [fd1b77c7f8894b6a] JSON回复解析: 2句 fav=+0 calls=0 mood=好奇
-[2026-08-24 12:49:15.995] [DEBUG   ] (context_manager:append_to_context:86) [fd1b77c7f8894b6a] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
-[2026-08-24 12:49:15.996] [INFO    ] (memory:maybe_save_memory:401) [fd1b77c7f8894b6a] 触发自动记忆 [1010983873136793]: 93 条
+# 更新于 2026-08-24 14:49:37 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:49:15.996] [INFO    ] (pipeline:process_message:1553) [fd1b77c7f8894b6a] ✅ 管道处理完成: 2句 sent chat=1010983873136793
 [2026-08-24 12:49:15.996] [DEBUG   ] (pipeline:process_message:1575) [fd1b77c7f8894b6a] Fast Path 主题已记录: chat=1010983873136793 topic='@659688244  这是啥'
 [2026-08-24 12:49:15.996] [INFO    ] (logger:log_trace_summary:306) [fd1b77c7f8894b6a] [TRACE fd1b77c7f8894b6a] total=4917.02ms severity=slow_request | llm_calls=1 total=4871.18ms avg=4871.18ms max=4871.18ms p50=4871.18 p95=4871.18 p99=4871.18 | json_parse=0.84ms(x1), llm=4874.4ms(x1), memory=14.56ms(x2), process=4916.97ms(x1) (wall4916.97), queue_wait=0.91ms(x1)
@@ -1499,3 +1493,9 @@
 [2026-08-24 14:48:16.159] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=45.2
 [2026-08-24 14:48:16.160] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-24 14:48:21.333] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-24 14:48:46.627] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=47.1 mem=45.6
+[2026-08-24 14:48:46.627] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-24 14:48:51.920] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 14:49:21.958] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49440)]: music=[] lyric_event=False lyric='-' keys=16
+[2026-08-24 14:49:32.366] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=38.6 mem=45.3
+[2026-08-24 14:49:32.366] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
