@@ -1,15 +1,4 @@
-# 更新于 2026-08-24 21:28:49 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 19:52:23.912] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-24 19:52:23.912] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-24 19:52:23.912] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-24 19:52:23.913] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-24 19:52:23.952] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-24 19:52:23.953] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-24 19:52:23.954] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 0h8m 后执行 (20:01)
-[2026-08-24 19:52:24.005] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-24 19:52:25.713] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 51s 前）
-[2026-08-24 19:52:25.713] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-24 19:52:25.722] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+# 更新于 2026-08-24 21:29:47 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 19:52:25.723] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 [2026-08-24 19:52:25.723] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 [2026-08-24 19:52:25.723] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
@@ -1499,3 +1488,14 @@
 [2026-08-24 21:28:41.531] [INFO    ] (memory:merge_overflow_memory:419) [cdffcd9bb02845b4] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 2条 (阈值=10)
 [2026-08-24 21:28:41.531] [DEBUG   ] (pipeline:process_message:500) [cdffcd9bb02845b4] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='冰火出bug了重启一下'
 [2026-08-24 21:28:41.531] [INFO    ] (logger:log_trace_summary:392) [cdffcd9bb02845b4] [TRACE cdffcd9bb02845b4] total=0.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.95ms(x1) (wall0.95), queue_wait=0.41ms(x1)
+[2026-08-24 21:29:09.204] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:29:10.686] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 21:29:29.486] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 21:29:29.487] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='666' is_edit=False
+[2026-08-24 21:29:29.488] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2e872bbe0a0a482b] KMD 调试: is_group=True uid=1759953618 channel=9231565360961340
+[2026-08-24 21:29:29.488] [INFO    ] (dispatcher:_dispatch_inner:308) [2e872bbe0a0a482b] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=9231565360961340 | group=True | content='666'
+[2026-08-24 21:29:29.489] [DEBUG   ] (queues:enqueue_message:75) [2e872bbe0a0a482b] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 21:29:29.490] [INFO    ] (memory:merge_overflow_memory:419) [b925c678dd7842fa] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 3条 (阈值=10)
+[2026-08-24 21:29:29.491] [DEBUG   ] (pipeline:process_message:500) [b925c678dd7842fa] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='666'
+[2026-08-24 21:29:29.491] [INFO    ] (logger:log_trace_summary:392) [b925c678dd7842fa] [TRACE b925c678dd7842fa] total=1.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.58ms(x1) (wall1.58), queue_wait=0.53ms(x1)
+[2026-08-24 21:29:40.959] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
