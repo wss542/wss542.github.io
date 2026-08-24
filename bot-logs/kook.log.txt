@@ -1,14 +1,4 @@
-# 更新于 2026-08-24 23:00:30 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 20:22:44.578] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-24 20:22:44.579] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-24 20:22:44.579] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-24 20:22:45.912] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
-[2026-08-24 20:22:45.912] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-24 20:22:45.912] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 13039 秒 (下次 00:00:05)
-[2026-08-24 20:22:46.615] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
-[2026-08-24 20:22:46.615] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
-[2026-08-24 20:23:15.273] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7944)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 20:23:45.517] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7944)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-24 23:01:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 20:24:16.148] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7944)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 20:24:36.679] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-24 20:24:36.680] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/余额' is_edit=False
@@ -1499,3 +1489,13 @@
 [2026-08-24 23:00:30.398] [INFO    ] (memory:merge_overflow_memory:419) [04b2ba6cff6648c6] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 6条 (阈值=10)
 [2026-08-24 23:00:30.400] [DEBUG   ] (pipeline:process_message:500) [04b2ba6cff6648c6] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='刚刚自救砸自救的'
 [2026-08-24 23:00:30.400] [INFO    ] (logger:log_trace_summary:392) [04b2ba6cff6648c6] [TRACE 04b2ba6cff6648c6] total=2.85ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.78ms(x1) (wall2.78), queue_wait=0.84ms(x1)
+[2026-08-24 23:00:34.218] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 23:00:34.219] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='都没看清' is_edit=False
+[2026-08-24 23:00:34.219] [DEBUG   ] (dispatcher:_dispatch_inner:110) [728fe7ae3a034660] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-24 23:00:34.219] [INFO    ] (dispatcher:_dispatch_inner:308) [728fe7ae3a034660] 📩 消息 #31 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='都没看清'
+[2026-08-24 23:00:34.220] [DEBUG   ] (queues:enqueue_message:75) [728fe7ae3a034660] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-24 23:00:34.221] [INFO    ] (memory:merge_overflow_memory:419) [b688152c65e746da] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 7条 (阈值=10)
+[2026-08-24 23:00:34.222] [DEBUG   ] (pipeline:process_message:500) [b688152c65e746da] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='都没看清'
+[2026-08-24 23:00:34.222] [INFO    ] (logger:log_trace_summary:392) [b688152c65e746da] [TRACE b688152c65e746da] total=1.25ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.21ms(x1) (wall1.21), queue_wait=0.31ms(x1)
+[2026-08-24 23:00:43.859] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 23:01:14.373] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5540)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
