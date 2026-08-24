@@ -1,10 +1,4 @@
-# 更新于 2026-08-24 15:19:01 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 12:50:41.358] [INFO    ] (llm:call_llm:427) [6f4abfc0a6504218] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-24 12:50:41.384] [INFO    ] (engine:_ingest:92) [6f4abfc0a6504218] 异步记忆提炼完成 chat=1010983873136793: 候选8 新增8
-[2026-08-24 12:50:42.029] [INFO    ] (logger:log_trace_summary:306) [6f4abfc0a6504218] [TRACE 6f4abfc0a6504218] total=681.78ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=681.72ms(x1) (wall681.72), queue_wait=0.5ms(x1)
-[2026-08-24 12:50:45.035] [INFO    ] (llm:call_llm:489) [6f4abfc0a6504218] LLM [Qwen/Qwen3-235B-A22B] 返回 229字符 耗时3.7s → "[12:45:45-12:46:21] 제미니 (shuangzi_1228), ywandwss:..."
-[2026-08-24 12:50:45.037] [INFO    ] (memory:_compress_with_deepseek:210) [6f4abfc0a6504218] [1010983873136793] 压缩完成: 10条消息 → 保存
-[2026-08-24 12:50:58.834] [INFO    ] (logger:info:249) [-] 收到终止信号，开始优雅退出...
+# 更新于 2026-08-24 15:20:16 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 12:50:58.835] [INFO    ] (logger:info:249) [-] khl_bot 主循环已被取消（优雅退出）
 [2026-08-24 12:50:58.836] [INFO    ] (logger:info:249) [-] 🛑 正在关闭...
 [2026-08-24 12:50:58.836] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
@@ -1499,3 +1493,9 @@
 [2026-08-24 15:17:46.159] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 15:18:16.716] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 15:18:46.884] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 15:19:18.009] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 15:19:33.230] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=73 cpu=None mem=None
+[2026-08-24 15:19:33.230] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 15:19:48.091] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3824)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 15:19:48.470] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=73 cpu=None mem=None
+[2026-08-24 15:19:48.470] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
