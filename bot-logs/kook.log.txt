@@ -1,58 +1,4 @@
-# 更新于 2026-08-24 12:47:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 10:58:02.386] [DEBUG   ] (queues:enqueue_message:75) [cd7f0bc0087743d4] [队列] 群8318134604058084 消息已入队 (队长度=1)
-[2026-08-24 10:58:02.386] [INFO    ] (pipeline:process_message:367) [90d37778f3ca4b6e] 附带图片已记录 [chat=8318134604058084] count=1
-[2026-08-24 10:58:02.387] [INFO    ] (memory:merge_overflow_memory:419) [90d37778f3ca4b6e] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 5条 (阈值=10)
-[2026-08-24 10:58:02.388] [DEBUG   ] (pipeline:process_message:500) [90d37778f3ca4b6e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
-[2026-08-24 10:58:02.388] [INFO    ] (logger:log_trace_summary:306) [90d37778f3ca4b6e] [TRACE 90d37778f3ca4b6e] total=2.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.98ms(x1) (wall1.98), queue_wait=0.25ms(x1)
-[2026-08-24 10:58:04.556] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 10:58:34.937] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 10:58:44.287] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 10:58:44.287] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵~' is_edit=False
-[2026-08-24 10:58:44.287] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3df4456f50d7425d] KMD 调试: is_group=True uid=337936062 channel=8318134604058084
-[2026-08-24 10:58:44.288] [INFO    ] (dispatcher:_dispatch_inner:288) [3df4456f50d7425d] 🤖 正则自动回复命中: '喵~' -> '喵~'
-[2026-08-24 10:59:05.356] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 10:59:35.921] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:00:06.365] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:00:06.478] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:00:37.110] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:01:07.536] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:01:38.225] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:02:08.618] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:02:24.457] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:02:31.143] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-24 11:02:35.591] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=73.0 mem=30.1
-[2026-08-24 11:02:38.751] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49530)]: music=[] lyric_event=False lyric='-' keys=16
-[2026-08-24 11:03:09.842] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:03:11.952] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=77.2 mem=36.4
-[2026-08-24 11:03:40.333] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:04:04.367] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=82.4 mem=42.7
-[2026-08-24 11:04:10.535] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:04:25.315] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:04:34.453] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:04:39.547] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=47.7 mem=37.6
-[2026-08-24 11:04:40.697] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 49530)]: music=[] lyric_event=False lyric='-' keys=17
-[2026-08-24 11:05:07.326] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:05:11.239] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:05:18.095] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=30.6 mem=38.0
-[2026-08-24 11:05:21.824] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-24 11:05:41.684] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:06:12.459] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:06:42.783] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:07:13.343] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:07:43.876] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:08:14.561] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:08:44.870] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2137)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 11:09:01.027] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-24 11:09:03.786] [INFO    ] (logger:info:249) [-] 🛑 正在关闭...
-[2026-08-24 11:09:03.787] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-24 11:09:03.788] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-24 11:09:03.788] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-24 11:09:03.788] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-24 11:09:03.789] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-24 11:09:03.829] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-24 11:09:03.830] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-24 11:09:03.835] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-24 11:09:03.835] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+# 更新于 2026-08-24 12:48:24 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 11:09:03.838] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
 [2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
 [2026-08-24 11:09:03.841] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
@@ -1499,3 +1445,57 @@
 [2026-08-24 12:47:46.838] [DEBUG   ] (context_manager:append_to_context:86) [38aeae1ac2a34085] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
 [2026-08-24 12:47:46.838] [DEBUG   ] (pipeline:process_message:500) [38aeae1ac2a34085] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>playing 逃离塔克夫'
 [2026-08-24 12:47:46.839] [INFO    ] (logger:log_trace_summary:306) [38aeae1ac2a34085] [TRACE 38aeae1ac2a34085] total=1.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.5ms(x1) (wall1.5), queue_wait=0.32ms(x1)
+[2026-08-24 12:47:51.479] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:47:51.479] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='/playing pcl' is_edit=False
+[2026-08-24 12:47:51.479] [DEBUG   ] (dispatcher:_dispatch_inner:110) [163e7cbf5eec4a45] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-24 12:47:51.480] [INFO    ] (dispatcher:_dispatch_inner:308) [163e7cbf5eec4a45] 📩 消息 #83 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/playing pcl'
+[2026-08-24 12:47:51.480] [DEBUG   ] (queues:enqueue_message:75) [163e7cbf5eec4a45] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:47:51.483] [INFO    ] (memory:merge_overflow_memory:419) [036be0f18a034ed2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+[2026-08-24 12:47:51.483] [INFO    ] (pipeline:process_message:470) [036be0f18a034ed2] 指令拦截: '/playing pcl' from=ywandwss
+[2026-08-24 12:47:51.484] [DEBUG   ] (commands:handle_command:4508) [036be0f18a034ed2] 指令解析: prefix=/ cmd=playing args=['pcl'] user=1759953618
+[2026-08-24 12:47:52.181] [INFO    ] (game_status:set_game:201) [036be0f18a034ed2] 🎮 已设置正在玩(自定义): pcl (id=3175144)
+[2026-08-24 12:47:52.182] [INFO    ] (commands:handle_command:4550) [036be0f18a034ed2] 指令执行完成 [playing]: 返回43字符
+[2026-08-24 12:47:52.584] [INFO    ] (logger:log_trace_summary:306) [036be0f18a034ed2] [TRACE 036be0f18a034ed2] total=1103.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1103.4ms(x1) (wall1103.4), queue_wait=0.38ms(x1)
+[2026-08-24 12:48:01.556] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5159)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 12:48:03.408] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:03.409] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='666你这个相应这么快' is_edit=False
+[2026-08-24 12:48:03.409] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2144ec35bfb74362] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 12:48:03.410] [INFO    ] (dispatcher:_dispatch_inner:308) [2144ec35bfb74362] 📩 消息 #84 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='666你这个相应这么快'
+[2026-08-24 12:48:03.411] [DEBUG   ] (queues:enqueue_message:75) [2144ec35bfb74362] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:48:03.412] [INFO    ] (memory:merge_overflow_memory:419) [f54953f618554ea3] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+[2026-08-24 12:48:03.413] [DEBUG   ] (context_manager:append_to_context:86) [f54953f618554ea3] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:48:03.413] [DEBUG   ] (pipeline:process_message:500) [f54953f618554ea3] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='666你这个相应这么快'
+[2026-08-24 12:48:03.414] [INFO    ] (logger:log_trace_summary:306) [f54953f618554ea3] [TRACE f54953f618554ea3] total=1.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.75ms(x1) (wall1.75), queue_wait=0.45ms(x1)
+[2026-08-24 12:48:06.071] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=87.2 mem=70.0
+[2026-08-24 12:48:06.751] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:06.751] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='响应' is_edit=False
+[2026-08-24 12:48:06.752] [DEBUG   ] (dispatcher:_dispatch_inner:110) [527cadd7ac09430b] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-24 12:48:06.752] [INFO    ] (dispatcher:_dispatch_inner:308) [527cadd7ac09430b] 📩 消息 #85 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='响应'
+[2026-08-24 12:48:06.753] [DEBUG   ] (queues:enqueue_message:75) [527cadd7ac09430b] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:48:06.754] [INFO    ] (memory:merge_overflow_memory:419) [73756ea0b3034830] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
+[2026-08-24 12:48:06.755] [DEBUG   ] (context_manager:append_to_context:86) [73756ea0b3034830] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:48:06.756] [DEBUG   ] (pipeline:process_message:500) [73756ea0b3034830] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='响应'
+[2026-08-24 12:48:06.756] [INFO    ] (logger:log_trace_summary:306) [73756ea0b3034830] [TRACE 73756ea0b3034830] total=2.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.34ms(x1) (wall2.34), queue_wait=0.44ms(x1)
+[2026-08-24 12:48:11.311] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:11.312] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='🎮 已设置机器人状态：**正在玩 逃离塔克夫**\n用 `>playing off` 结束。' is_edit=False
+[2026-08-24 12:48:11.313] [DEBUG   ] (dispatcher:_dispatch_inner:107) [cc04910aec8c438f] 跳过 bot 消息: uid=393688090
+[2026-08-24 12:48:18.623] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:18.624] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='/playing 逃离塔科夫' is_edit=False
+[2026-08-24 12:48:18.624] [DEBUG   ] (dispatcher:_dispatch_inner:110) [29cc40ae7f974c7d] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-24 12:48:18.624] [INFO    ] (dispatcher:_dispatch_inner:308) [29cc40ae7f974c7d] 📩 消息 #86 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/playing 逃离塔科夫'
+[2026-08-24 12:48:18.624] [DEBUG   ] (queues:enqueue_message:75) [29cc40ae7f974c7d] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:48:18.625] [INFO    ] (memory:merge_overflow_memory:419) [b9d8e3c56e27420d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
+[2026-08-24 12:48:18.626] [INFO    ] (pipeline:process_message:470) [b9d8e3c56e27420d] 指令拦截: '/playing 逃离塔科夫' from=ywandwss
+[2026-08-24 12:48:18.626] [DEBUG   ] (commands:handle_command:4508) [b9d8e3c56e27420d] 指令解析: prefix=/ cmd=playing args=['逃离塔科夫'] user=1759953618
+[2026-08-24 12:48:18.914] [INFO    ] (game_status:set_game:193) [b9d8e3c56e27420d] 🎮 已设置正在玩(官方库): 逃离塔科夫 (id=15)
+[2026-08-24 12:48:18.914] [INFO    ] (commands:handle_command:4550) [b9d8e3c56e27420d] 指令执行完成 [playing]: 返回45字符
+[2026-08-24 12:48:19.299] [INFO    ] (logger:log_trace_summary:306) [b9d8e3c56e27420d] [TRACE b9d8e3c56e27420d] total=673.84ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=673.79ms(x1) (wall673.79), queue_wait=0.39ms(x1)
+[2026-08-24 12:48:20.843] [DEBUG   ] (bot:_patched_consume_pkg:208) [57a95a79651748c1] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 12:48:20.844] [DEBUG   ] (dispatcher:dispatch:47) [57a95a79651748c1] dispatch 入口: type=9 content='好玩' is_edit=False
+[2026-08-24 12:48:20.844] [DEBUG   ] (dispatcher:_dispatch_inner:110) [dbe06e1be57b468e] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-24 12:48:20.844] [INFO    ] (dispatcher:_dispatch_inner:308) [dbe06e1be57b468e] 📩 消息 #87 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='好玩'
+[2026-08-24 12:48:20.845] [DEBUG   ] (queues:enqueue_message:75) [dbe06e1be57b468e] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-24 12:48:20.847] [INFO    ] (memory:merge_overflow_memory:419) [cd58d08efcf346ef] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
+[2026-08-24 12:48:20.848] [DEBUG   ] (context_manager:append_to_context:86) [cd58d08efcf346ef] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-24 12:48:20.848] [DEBUG   ] (pipeline:process_message:500) [cd58d08efcf346ef] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='好玩'
+[2026-08-24 12:48:20.848] [INFO    ] (logger:log_trace_summary:306) [cd58d08efcf346ef] [TRACE cd58d08efcf346ef] total=2.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.34ms(x1) (wall2.34), queue_wait=0.59ms(x1)
