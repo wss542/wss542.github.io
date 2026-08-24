@@ -1,18 +1,4 @@
-# 更新于 2026-08-24 20:06:48 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 17:32:21.651] [DEBUG   ] (dispatcher:_dispatch_inner:110) [4d189cfa2ca3472e] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-24 17:32:21.652] [INFO    ] (dispatcher:_dispatch_inner:308) [4d189cfa2ca3472e] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/绘画 抖音直播界面,但是是在ChatGPT的对话中GPT生成的图的消息中'
-[2026-08-24 17:32:21.653] [INFO    ] (queues:_get_or_create_queue:32) [4d189cfa2ca3472e] [队列] 创建群1759953618 的独立消息队列
-[2026-08-24 17:32:21.653] [DEBUG   ] (queues:enqueue_message:75) [4d189cfa2ca3472e] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-24 17:32:21.656] [INFO    ] (memory:merge_overflow_memory:419) [fa4cebaccf654abf] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
-[2026-08-24 17:32:21.662] [INFO    ] (pipeline:process_message:470) [fa4cebaccf654abf] 指令拦截: '/绘画 抖音直播界面,但是是在ChatGPT的对话中GPT生成的图的消息中' from=ywandwss
-[2026-08-24 17:32:21.662] [DEBUG   ] (commands:handle_command:4601) [fa4cebaccf654abf] 指令解析: prefix=/ cmd=绘画 args=['抖音直播界面,但是是在ChatGPT的对话中GPT生成的图的消息中'] user=1759953618
-[2026-08-24 17:32:22.218] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 17:32:48.380] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:33:16.523] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 17:33:16.584] [INFO    ] (commands:handle_command:4643) [fa4cebaccf654abf] 指令执行完成 [绘画]: 返回38字符
-[2026-08-24 17:33:16.997] [INFO    ] (logger:log_trace_summary:392) [fa4cebaccf654abf] [TRACE fa4cebaccf654abf] total=55343.12ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=55343.04ms(x1) (wall55343.04), queue_wait=0.61ms(x1)
-[2026-08-24 17:33:16.997] [WARNING ] (logger:log_trace_summary:410) [fa4cebaccf654abf] [VERY_SLOW fa4cebaccf654abf] total=55343.46ms 需重点排查 | process=55343.04ms(x1) (wall55343.04), queue_wait=0.61ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.61ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=55343.04ms wall=55343.44ms dominant=other
-[2026-08-24 17:33:17.059] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-24 20:07:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 17:33:18.578] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 17:33:49.120] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-24 17:34:19.427] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12484)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1485,17 @@
 [2026-08-24 20:06:19.792] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
 [2026-08-24 20:06:19.793] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
 [2026-08-24 20:06:47.688] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 20:07:17.714] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 20:07:17.714] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)' is_edit=False
+[2026-08-24 20:07:17.714] [DEBUG   ] (dispatcher:_dispatch_inner:110) [de4ab4f5c3bb4e65] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-24 20:07:17.715] [INFO    ] (dispatcher:_dispatch_inner:308) [de4ab4f5c3bb4e65] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'
+[2026-08-24 20:07:17.716] [INFO    ] (queues:_get_or_create_queue:32) [de4ab4f5c3bb4e65] [队列] 创建群1759953618 的独立消息队列
+[2026-08-24 20:07:17.716] [DEBUG   ] (queues:enqueue_message:75) [de4ab4f5c3bb4e65] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-24 20:07:17.718] [INFO    ] (memory:merge_overflow_memory:419) [30deb91bb1984812] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-24 20:07:17.724] [INFO    ] (pipeline:process_message:470) [30deb91bb1984812] 指令拦截: '/看视频 [https://b23.tv/dpeO7aS](https://b2' from=ywandwss
+[2026-08-24 20:07:17.725] [DEBUG   ] (commands:handle_command:4601) [30deb91bb1984812] 指令解析: prefix=/ cmd=看视频 args=['[https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'] user=1759953618
+[2026-08-24 20:07:18.422] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9442)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-24 20:07:18.431] [INFO    ] (dispatcher:_do_recognize_video:976) [30deb91bb1984812] 🎬 启动 yt-dlp 下载: https://b23.tv/dpeO7aS
+[2026-08-24 20:07:18.437] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-24 20:07:23.658] [INFO    ] (dispatcher:_do_recognize_video:985) [30deb91bb1984812] 🎬 yt-dlp 下载完成: 18.2MB
+[2026-08-24 20:07:23.746] [INFO    ] (dispatcher:_do_recognize_video:1046) [30deb91bb1984812] 🎬 未配置 GEMINI_KEY，跳过 Gemini，直接用智谱
