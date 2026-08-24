@@ -1,27 +1,4 @@
-# 更新于 2026-08-24 19:46:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-24 17:14:24.749] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 24340 秒 (下次 00:00:05)
-[2026-08-24 17:14:24.825] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:14:25.941] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
-[2026-08-24 17:14:25.942] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
-[2026-08-24 17:14:55.121] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:15:25.530] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:15:55.821] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:16:26.326] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:16:56.733] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:17:27.182] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:17:53.815] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-24 17:17:53.816] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)' is_edit=False
-[2026-08-24 17:17:53.816] [DEBUG   ] (dispatcher:_dispatch_inner:110) [aa2adca121874f33] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-24 17:17:53.817] [INFO    ] (dispatcher:_dispatch_inner:308) [aa2adca121874f33] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/看视频 [https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'
-[2026-08-24 17:17:53.818] [INFO    ] (queues:_get_or_create_queue:32) [aa2adca121874f33] [队列] 创建群1759953618 的独立消息队列
-[2026-08-24 17:17:53.818] [DEBUG   ] (queues:enqueue_message:75) [aa2adca121874f33] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-24 17:17:53.821] [INFO    ] (memory:merge_overflow_memory:419) [f3b689ca0c7f4bea] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
-[2026-08-24 17:17:53.827] [INFO    ] (pipeline:process_message:470) [f3b689ca0c7f4bea] 指令拦截: '/看视频 [https://b23.tv/dpeO7aS](https://b2' from=ywandwss
-[2026-08-24 17:17:53.827] [DEBUG   ] (commands:handle_command:4601) [f3b689ca0c7f4bea] 指令解析: prefix=/ cmd=看视频 args=['[https://b23.tv/dpeO7aS](https://b23.tv/dpeO7aS)'] user=1759953618
-[2026-08-24 17:17:53.828] [WARNING ] (inline:cmd_watch_video:363) [f3b689ca0c7f4bea] [看视频] 启动 yt-dlp: url=https://b23.tv/dpeO7aS dst=/tmp/tmp3kz9bs5s.mp4 cmd=['/usr/local/bin/yt-dlp', '--format', 'bestvideo[height<=720]+bestaudio/best[height<=720]/best', '--merge-output-format', 'mp4', '-o', '/tmp/tmp3kz9bs5s.mp4', '--no-playlist', '--quiet', '--no-warnings', '--max-filesize', '80M', '--socket-timeout', '30', '--no-check-certificates', 'https://b23.tv/dpeO7aS']
-[2026-08-24 17:17:57.623] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8399)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-24 17:18:05.629] [WARNING ] (inline:cmd_watch_video:367) [f3b689ca0c7f4bea] [看视频] yt-dlp 结束: rc=0 exists=True size=19119704 err=
-[2026-08-24 17:18:07.509] [DEBUG   ] (image_api:_load:50) [f3b689ca0c7f4bea] 图片缓存已加载: 299 条
+# 更新于 2026-08-24 19:46:56 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-24 17:18:07.509] [INFO    ] (image_api:recognize_image:150) [f3b689ca0c7f4bea] [chat=1759953618] 开始下载图片: https://img.kookapp.cn/attachments/2026-08/24/bnafT5aiGT0zk0...
 [2026-08-24 17:18:07.690] [INFO    ] (image_api:recognize_image:159) [f3b689ca0c7f4bea] [chat=1759953618] 图片下载成功: 3 bytes
 [2026-08-24 17:18:07.690] [INFO    ] (image_api:recognize_image:171) [f3b689ca0c7f4bea] [chat=1759953618] 调用视觉模型识别图片 (MD5=4f4adcbf8c6f...) model=glm-4v-flash
@@ -1499,3 +1476,26 @@
 [2026-08-24 19:46:19.597] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-24 19:46:19.598] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 0h14m 后执行 (20:01)
 [2026-08-24 19:46:19.650] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-24 19:46:34.667] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-24 19:46:34.677] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 29s 前）
+[2026-08-24 19:46:34.678] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-24 19:46:34.689] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-24 19:46:34.689] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-24 19:46:34.691] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-24 19:46:34.693] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-24 19:46:34.693] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-24 19:46:34.695] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-24 19:46:34.825] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-24 19:46:34.825] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-24 19:46:34.977] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
+[2026-08-24 19:46:34.977] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-24 19:46:35.292] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-24 19:46:35.292] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-24 19:46:35.293] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-24 19:46:36.276] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-24 → 周一
+[2026-08-24 19:46:36.277] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-24 19:46:36.277] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 15209 秒 (下次 00:00:05)
+[2026-08-24 19:46:37.302] [INFO    ] (music_status:set_music:221) [-] 已设置正在听: 当前版本: 2.0.0 / 2.0.0 / cloudmusic
+[2026-08-24 19:46:37.302] [INFO    ] (logger:info:335) [-] 已设置 KOOK 动态状态: 正在听 当前版本: 2.0.0
+[2026-08-24 19:46:37.510] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-24 19:46:38.628] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5531)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
