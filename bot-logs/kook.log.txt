@@ -1,26 +1,4 @@
-# 更新于 2026-08-25 19:58:57 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:51:20.058] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14353)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 18:51:23.507] [INFO    ] (llm:generate_multi_reply_with_tools:971) [96b80ac43ecd4b71] LLM原始输出 [轮1]: content={"replies":["我可以聊天、查资料、生成网页和小游戏喵～","还能讲笑话、搜视频，陪主人解闷！"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor | tool_calls=0
-[2026-08-25 18:51:23.511] [WARNING ] (face_lib:_init:29) [96b80ac43ecd4b71] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-25 18:51:23.512] [INFO    ] (llm:_parse_reply:1314) [96b80ac43ecd4b71] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-08-25 18:51:23.516] [INFO    ] (fav:update_fav:105) [96b80ac43ecd4b71] 好感度更新: g6243254695867429:1759953618 +2 → 100
-[2026-08-25 18:51:23.516] [INFO    ] (pipeline:process_message:1547) [96b80ac43ecd4b71] 好感度调整: ywandwss +2 (chat=6243254695867429)
-[2026-08-25 18:51:23.517] [INFO    ] (memory:maybe_save_memory:401) [96b80ac43ecd4b71] 触发自动记忆 [6243254695867429]: 6 条
-[2026-08-25 18:51:23.517] [INFO    ] (pipeline:process_message:1553) [96b80ac43ecd4b71] ✅ 管道处理完成: 2句 sent chat=6243254695867429
-[2026-08-25 18:51:23.517] [DEBUG   ] (pipeline:process_message:1575) [96b80ac43ecd4b71] Fast Path 主题已记录: chat=6243254695867429 topic='你可以干什么呢'
-[2026-08-25 18:51:23.517] [INFO    ] (logger:log_trace_summary:392) [96b80ac43ecd4b71] [TRACE 96b80ac43ecd4b71] total=5478.74ms severity=slow_request | llm_calls=1 total=5366.51ms avg=5366.51ms max=5366.51ms p50=5366.51 p95=5366.51 p99=5366.51 | json_parse=1.9ms(x1), llm=5417.39ms(x1), memory=13.53ms(x2), process=5478.68ms(x1) (wall5478.68), queue_wait=0.46ms(x1)
-[2026-08-25 18:51:23.518] [WARNING ] (logger:log_trace_summary:415) [96b80ac43ecd4b71] [SLOW 96b80ac43ecd4b71] total=5479.0ms | json_parse=1.9ms(x1), llm=5417.39ms(x1), memory=13.53ms(x2), process=5478.68ms(x1) (wall5478.68), queue_wait=0.46ms(x1) | llm_calls=1 total=5366.51ms avg=5366.51ms max=5366.51ms p50=5366.51 p95=5366.51 p99=5366.51 | perf: queue=0.46ms llm=5419.29ms search_tool=0.0ms delivery=0.0ms other=5492.21ms wall=5478.99ms dominant=other
-[2026-08-25 18:51:23.519] [DEBUG   ] (response_delivery:send_sentences:227) [96b80ac43ecd4b71] 开始分批发送 2 条句子 → chat=6243254695867429 is_group=True
-[2026-08-25 18:51:23.520] [INFO    ] (llm:call_llm:427) [96b80ac43ecd4b71] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-25 18:51:24.071] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:51:24.082] [DEBUG   ] (response_delivery:send_sentences:241) [96b80ac43ecd4b71] 已发送第 1/2 条: 我可以聊天、查资料、生成网页和小游戏喵～...
-[2026-08-25 18:51:24.082] [DEBUG   ] (response_delivery:send_sentences:238) [96b80ac43ecd4b71] 句间等待 0.88s (#2/2)
-[2026-08-25 18:51:25.531] [DEBUG   ] (response_delivery:send_sentences:241) [96b80ac43ecd4b71] 已发送第 2/2 条: 还能讲笑话、搜视频，陪主人解闷！...
-[2026-08-25 18:51:25.531] [DEBUG   ] (response_delivery:send_sentences:243) [96b80ac43ecd4b71] 分批发送完成: 共 2 条 → chat=6243254695867429
-[2026-08-25 18:51:25.531] [DEBUG   ] (context_manager:_on_task_done:139) [96b80ac43ecd4b71] 发送任务已清理 [6243254695867429]
-[2026-08-25 18:51:25.653] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:51:26.541] [INFO    ] (llm:call_llm:489) [96b80ac43ecd4b71] LLM [Qwen/Qwen3-235B-A22B] 返回 161字符 耗时3.0s → "[18:51:23] ywandwss, 茂密: ywandwss说了你可以干什么呢, 茂密回复我可..."
-[2026-08-25 18:51:26.543] [INFO    ] (memory:_compress_with_deepseek:210) [96b80ac43ecd4b71] [6243254695867429] 压缩完成: 6条消息 → 保存
+# 更新于 2026-08-25 19:59:28 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:51:50.616] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14353)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 18:51:57.761] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 18:51:57.761] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='///' is_edit=False
@@ -1499,3 +1477,25 @@
 [2026-08-25 19:58:51.150] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-25 19:58:51.151] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 0h2m 后执行 (20:01)
 [2026-08-25 19:58:51.211] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-25 19:59:06.225] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-25 19:59:06.233] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 77s 前）
+[2026-08-25 19:59:06.234] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-25 19:59:06.239] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-25 19:59:06.240] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-25 19:59:06.240] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-25 19:59:06.240] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-25 19:59:06.240] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-25 19:59:06.240] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-25 19:59:09.784] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-25 19:59:09.785] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-25 19:59:10.153] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
+[2026-08-25 19:59:10.154] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 19:59:10.159] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-25 19:59:10.161] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-25 19:59:10.162] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:59:10.511] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-25 19:59:10.512] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-25 19:59:10.512] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-25 19:59:19.314] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
+[2026-08-25 19:59:19.315] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-25 19:59:19.316] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14446 秒 (下次 00:00:05)
