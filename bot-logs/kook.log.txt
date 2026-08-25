@@ -1,47 +1,4 @@
-# 更新于 2026-08-25 19:38:43 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:34:00.851] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/笑话' is_edit=False
-[2026-08-25 18:34:00.853] [DEBUG   ] (dispatcher:_dispatch_inner:110) [201e164410b6483d] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:34:00.855] [INFO    ] (dispatcher:_dispatch_inner:308) [201e164410b6483d] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/笑话'
-[2026-08-25 18:34:00.860] [DEBUG   ] (queues:enqueue_message:75) [201e164410b6483d] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:34:00.866] [INFO    ] (memory:merge_overflow_memory:419) [f747cc22d4f74545] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
-[2026-08-25 18:34:00.869] [INFO    ] (pipeline:process_message:470) [f747cc22d4f74545] 指令拦截: '/笑话' from=ywandwss
-[2026-08-25 18:34:00.870] [DEBUG   ] (commands:handle_command:4630) [f747cc22d4f74545] 指令解析: prefix=/ cmd=笑话 args=[] user=1759953618
-[2026-08-25 18:34:02.525] [INFO    ] (commands:handle_command:4672) [f747cc22d4f74545] 指令执行完成 [笑话]: 返回87字符
-[2026-08-25 18:34:03.108] [INFO    ] (logger:log_trace_summary:392) [f747cc22d4f74545] [TRACE f747cc22d4f74545] total=2246.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2246.12ms(x1) (wall2246.12), queue_wait=1.82ms(x1)
-[2026-08-25 18:34:03.112] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:34:12.990] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 18:34:29.064] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:34:29.064] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/公会' is_edit=False
-[2026-08-25 18:34:29.064] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b785d6405a5040c3] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:34:29.065] [INFO    ] (dispatcher:_dispatch_inner:308) [b785d6405a5040c3] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/公会'
-[2026-08-25 18:34:29.065] [DEBUG   ] (queues:enqueue_message:75) [b785d6405a5040c3] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:34:29.066] [INFO    ] (memory:merge_overflow_memory:419) [46608a3653a54031] 长时记忆溢出缓冲: chat=1759953618 +1 = 3条 (阈值=10)
-[2026-08-25 18:34:29.067] [INFO    ] (pipeline:process_message:470) [46608a3653a54031] 指令拦截: '/公会' from=ywandwss
-[2026-08-25 18:34:29.067] [DEBUG   ] (commands:handle_command:4630) [46608a3653a54031] 指令解析: prefix=/ cmd=公会 args=[] user=1759953618
-[2026-08-25 18:34:29.087] [INFO    ] (commands:handle_command:4672) [46608a3653a54031] 指令执行完成 [公会]: 返回12字符
-[2026-08-25 18:34:29.710] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:34:29.712] [INFO    ] (logger:log_trace_summary:392) [46608a3653a54031] [TRACE 46608a3653a54031] total=645.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=645.56ms(x1) (wall645.56), queue_wait=1.23ms(x1)
-[2026-08-25 18:34:43.863] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 18:34:47.088] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:34:47.089] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/倒计时' is_edit=False
-[2026-08-25 18:34:47.089] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7e051806cf414286] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:34:47.089] [INFO    ] (dispatcher:_dispatch_inner:308) [7e051806cf414286] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/倒计时'
-[2026-08-25 18:34:47.089] [DEBUG   ] (queues:enqueue_message:75) [7e051806cf414286] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:34:47.090] [INFO    ] (memory:merge_overflow_memory:419) [d7b8bacdb2dc4086] 长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
-[2026-08-25 18:34:47.091] [INFO    ] (pipeline:process_message:470) [d7b8bacdb2dc4086] 指令拦截: '/倒计时' from=ywandwss
-[2026-08-25 18:34:47.091] [DEBUG   ] (commands:handle_command:4630) [d7b8bacdb2dc4086] 指令解析: prefix=/ cmd=倒计时 args=[] user=1759953618
-[2026-08-25 18:34:47.092] [INFO    ] (commands:handle_command:4655) [d7b8bacdb2dc4086] 插件指令执行完成 [倒计时]: 返回43字符
-[2026-08-25 18:34:47.657] [INFO    ] (logger:log_trace_summary:392) [d7b8bacdb2dc4086] [TRACE d7b8bacdb2dc4086] total=567.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=567.0ms(x1) (wall567.0), queue_wait=0.4ms(x1)
-[2026-08-25 18:34:47.658] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:35:14.081] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 18:35:24.257] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:35:24.258] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/测试卡片' is_edit=False
-[2026-08-25 18:35:24.258] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e699a30b483440cb] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:35:24.258] [INFO    ] (dispatcher:_dispatch_inner:308) [e699a30b483440cb] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/测试卡片'
-[2026-08-25 18:35:24.258] [DEBUG   ] (queues:enqueue_message:75) [e699a30b483440cb] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:35:24.259] [INFO    ] (memory:merge_overflow_memory:419) [2da962b15784413c] 长时记忆溢出缓冲: chat=1759953618 +1 = 5条 (阈值=10)
-[2026-08-25 18:35:24.260] [INFO    ] (pipeline:process_message:470) [2da962b15784413c] 指令拦截: '/测试卡片' from=ywandwss
-[2026-08-25 18:35:24.260] [DEBUG   ] (commands:handle_command:4630) [2da962b15784413c] 指令解析: prefix=/ cmd=测试卡片 args=[] user=1759953618
+# 更新于 2026-08-25 19:39:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:35:24.261] [INFO    ] (commands:cmd_testsys:757) [2da962b15784413c] 指令 .testsys 触发 user=1759953618 group=1759953618
 [2026-08-25 18:35:24.261] [INFO    ] (commands:handle_command:4672) [2da962b15784413c] 指令执行完成 [测试卡片]: 返回17字符
 [2026-08-25 18:35:24.262] [INFO    ] (pipeline:_send_test_card:1695) [2da962b15784413c] 发送测试卡片: chat=1759953618 is_group=False
@@ -1499,3 +1456,46 @@
 [2026-08-25 19:37:15.468] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-25 19:37:45.572] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 19:38:15.946] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:38:46.454] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:39:16.904] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7331)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:39:30.929] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
+[2026-08-25 19:39:31.013] [INFO    ] (logger:info:335) [-] 5 秒后重试...
+[2026-08-25 19:39:32.389] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
+[2026-08-25 19:39:32.441] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
+[2026-08-25 19:39:36.018] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
+[2026-08-25 19:39:36.019] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
+[2026-08-25 19:39:36.020] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
+[2026-08-25 19:39:36.021] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
+[2026-08-25 19:39:36.021] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
+[2026-08-25 19:39:36.021] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 275, 'total_buffer_lines': 0, 'active_tasks': 0}
+[2026-08-25 19:39:36.022] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+[2026-08-25 19:39:36.022] [INFO    ] (logger:info:335) [-] 👋 再见！
+[2026-08-25 19:39:36.023] [INFO    ] (logger:info:335) [-] 应用程序已退出
+[2026-08-25 19:39:36.693] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
+[2026-08-25 19:39:43.836] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-25 19:39:43.877] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-25 19:39:45.650] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-25 19:39:45.652] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-08-25 19:39:45.652] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-25 19:39:45.659] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+[2026-08-25 19:39:45.659] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-08-25 19:39:45.662] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-08-25 19:39:45.663] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-08-25 19:39:45.663] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-08-25 19:39:45.663] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-08-25 19:39:45.664] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-08-25 19:39:45.929] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-08-25 19:39:45.929] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-08-25 19:39:45.947] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-08-25 19:39:45.947] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
