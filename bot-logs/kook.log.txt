@@ -1,10 +1,4 @@
-# 更新于 2026-08-25 09:47:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 00:01:36.322] [INFO    ] (dispatcher:_dispatch_inner:177) [7b8c828c8ccf485f] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/wGV5WQyvoI0la0d9.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":766,"height":477,"fileSize":113796,"elements":[]}]}],"type":"card"}]')
-[2026-08-25 00:01:36.322] [INFO    ] (dispatcher:_dispatch_inner:308) [7b8c828c8ccf485f] 📩 消息 #10 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/wGV5WQyvoI0la0d9.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":766,"height":477,"fileSize":113796,"elements":[]}]}],"type":"card"}]'
-[2026-08-25 00:01:36.324] [INFO    ] (dispatcher:_dispatch_inner:384) [7b8c828c8ccf485f] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-25 00:01:36.324] [INFO    ] (image_api:recognize_image:152) [7b8c828c8ccf485f] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/25/wGV5WQyvoI0la0d9.pn...
-[2026-08-25 00:01:36.537] [INFO    ] (image_api:recognize_image:168) [7b8c828c8ccf485f] [chat=9231565360961340] 图片下载成功: 113796 bytes
-[2026-08-25 00:01:36.590] [INFO    ] (image_api:recognize_image:204) [7b8c828c8ccf485f] [chat=9231565360961340] 图片预处理: PNG(766x477) → PNG 113796 bytes → 87334 bytes
+# 更新于 2026-08-25 09:48:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:01:36.590] [INFO    ] (image_api:recognize_image:251) [7b8c828c8ccf485f] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=a3c01b1ff0c5...) model=deepseek-v4-flash-vision-exp
 [2026-08-25 00:01:38.717] [INFO    ] (image_api:recognize_image:268) [7b8c828c8ccf485f] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 360安全警报截图，提示发现木马并建议立即清除。文件名为“A dance of fire and i...
 [2026-08-25 00:01:38.720] [DEBUG   ] (image_api:_save:64) [7b8c828c8ccf485f] 图片缓存已写入磁盘: 309 条
@@ -1499,3 +1493,9 @@
 [2026-08-25 09:47:27.906] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 09:47:30.501] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-25 09:47:30.501] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 09:47:58.723] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 09:48:00.981] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-25 09:48:00.982] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 09:48:29.356] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 09:48:31.398] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-25 09:48:31.399] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
