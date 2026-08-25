@@ -1,19 +1,4 @@
-# 更新于 2026-08-25 19:15:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:09:53.517] [INFO    ] (memory:merge_overflow_memory:419) [5867e9e117064d7e] 长时记忆溢出缓冲: chat=1759953618 +1 = 7条 (阈值=10)
-[2026-08-25 18:09:53.520] [INFO    ] (pipeline:process_message:470) [5867e9e117064d7e] 指令拦截: '/mc ' from=ywandwss
-[2026-08-25 18:09:53.521] [DEBUG   ] (commands:handle_command:4629) [5867e9e117064d7e] 指令解析: prefix=/ cmd=mc args=[] user=1759953618
-[2026-08-25 18:09:53.522] [INFO    ] (commands:handle_command:4671) [5867e9e117064d7e] 指令执行完成 [mc]: 返回41字符
-[2026-08-25 18:09:54.138] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:54.140] [INFO    ] (logger:log_trace_summary:392) [5867e9e117064d7e] [TRACE 5867e9e117064d7e] total=625.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=625.4ms(x1) (wall625.4), queue_wait=1.03ms(x1)
-[2026-08-25 18:09:56.760] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14522)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
-[2026-08-25 18:10:04.490] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:10:04.497] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc.hypixel.net' is_edit=False
-[2026-08-25 18:10:04.500] [DEBUG   ] (dispatcher:_dispatch_inner:110) [819c3b5029a74607] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:10:04.502] [INFO    ] (dispatcher:_dispatch_inner:308) [819c3b5029a74607] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/mc mc.hypixel.net'
-[2026-08-25 18:10:04.503] [DEBUG   ] (queues:enqueue_message:75) [819c3b5029a74607] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:10:04.510] [INFO    ] (memory:merge_overflow_memory:419) [31f3beeb3c6049ba] 长时记忆溢出缓冲: chat=1759953618 +1 = 8条 (阈值=10)
-[2026-08-25 18:10:04.513] [INFO    ] (pipeline:process_message:470) [31f3beeb3c6049ba] 指令拦截: '/mc mc.hypixel.net' from=ywandwss
-[2026-08-25 18:10:04.514] [DEBUG   ] (commands:handle_command:4629) [31f3beeb3c6049ba] 指令解析: prefix=/ cmd=mc args=['mc.hypixel.net'] user=1759953618
+# 更新于 2026-08-25 19:15:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:10:05.589] [INFO    ] (commands:handle_command:4671) [31f3beeb3c6049ba] 指令执行完成 [mc]: 返回70字符
 [2026-08-25 18:10:05.991] [INFO    ] (logger:log_trace_summary:392) [31f3beeb3c6049ba] [TRACE 31f3beeb3c6049ba] total=1486.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1486.87ms(x1) (wall1486.87), queue_wait=1.09ms(x1)
 [2026-08-25 18:10:06.005] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1484,18 @@
 [2026-08-25 19:14:09.945] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 19:14:12.379] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 19:14:42.937] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:15:13.419] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:15:25.915] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:15:25.915] [DEBUG   ] (dispatcher:dispatch:47) [ed2fb19f51174fc2] dispatch 入口: type=9 content='/help' is_edit=False
+[2026-08-25 19:15:25.916] [DEBUG   ] (dispatcher:_dispatch_inner:110) [535020a37cdf4601] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-25 19:15:25.916] [INFO    ] (dispatcher:_dispatch_inner:308) [535020a37cdf4601] 📩 消息 #20 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/help'
+[2026-08-25 19:15:25.916] [DEBUG   ] (queues:enqueue_message:75) [535020a37cdf4601] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-25 19:15:25.917] [INFO    ] (memory:merge_overflow_memory:419) [471f34eb669c4682] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+[2026-08-25 19:15:25.918] [INFO    ] (pipeline:process_message:470) [471f34eb669c4682] 指令拦截: '/help' from=ywandwss
+[2026-08-25 19:15:25.918] [DEBUG   ] (commands:handle_command:4633) [471f34eb669c4682] 指令解析: prefix=/ cmd=help args=[] user=1759953618
+[2026-08-25 19:15:25.918] [INFO    ] (commands:cmd_help:185) [471f34eb669c4682] 指令 /help 触发 user=1759953618 args=[]
+[2026-08-25 19:15:31.003] [INFO    ] (commands:handle_command:4677) [471f34eb669c4682] 指令执行完成 [help]: 无返回值（已自行发送）
+[2026-08-25 19:15:31.003] [INFO    ] (logger:log_trace_summary:392) [471f34eb669c4682] [TRACE 471f34eb669c4682] total=5086.24ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5086.18ms(x1) (wall5086.18), queue_wait=1.2ms(x1)
+[2026-08-25 19:15:31.004] [WARNING ] (logger:log_trace_summary:415) [471f34eb669c4682] [SLOW 471f34eb669c4682] total=5086.62ms | process=5086.18ms(x1) (wall5086.18), queue_wait=1.2ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.2ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5086.18ms wall=5086.6ms dominant=other
+[2026-08-25 19:15:31.019] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:15:43.851] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
