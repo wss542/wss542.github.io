@@ -1,29 +1,4 @@
-# 更新于 2026-08-25 20:32:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:10:28.914] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:10:28.914] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)659688244(met) ' is_edit=False
-[2026-08-25 19:10:28.914] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b359cbfffa144ce3] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
-[2026-08-25 19:10:28.915] [INFO    ] (dispatcher:_dispatch_inner:308) [b359cbfffa144ce3] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='(met)659688244(met) '
-[2026-08-25 19:10:28.917] [DEBUG   ] (queues:enqueue_message:75) [b359cbfffa144ce3] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-25 19:10:28.918] [INFO    ] (memory:merge_overflow_memory:419) [86a5dcdb0137428f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-[2026-08-25 19:10:28.919] [DEBUG   ] (pipeline:process_message:500) [86a5dcdb0137428f] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  '
-[2026-08-25 19:10:28.920] [INFO    ] (pipeline:process_message:538) [86a5dcdb0137428f] @机器人检测 → 直接回复
-[2026-08-25 19:10:28.920] [DEBUG   ] (pipeline:process_message:591) [86a5dcdb0137428f] 请求意图: intent=chat fast_search=False msg='@659688244  '
-[2026-08-25 19:10:28.921] [WARNING ] (pipeline:process_message:639) [86a5dcdb0137428f] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-25 19:10:28.927] [DEBUG   ] (memory:_record_memory_trace:318) [86a5dcdb0137428f] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.9ms
-[2026-08-25 19:10:28.928] [DEBUG   ] (pipeline:process_message:795) [86a5dcdb0137428f] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-25 19:10:28.929] [INFO    ] (pipeline:process_message:799) [86a5dcdb0137428f] 额外信息: 182字 (memory=0 search=0)
-[2026-08-25 19:10:28.930] [INFO    ] (pipeline:process_message:932) [86a5dcdb0137428f] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-25 19:10:28.930] [DEBUG   ] (pipeline:process_message:1061) [86a5dcdb0137428f] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-25 19:10:28.930] [INFO    ] (pipeline:process_message:1064) [86a5dcdb0137428f] 开始生成回复: speaker=제미니 (shuangzi_1228) chat=6243254695867429
-[2026-08-25 19:10:29.663] [INFO    ] (llm:call_llm:489) [674bebf3e3024060] LLM [Qwen/Qwen3-235B-A22B] 返回 101字符 耗时1.9s → "[19:10:27] 제미니, 茂密: 제미니说了你主人叫啥, 茂密回复我的主人是ywandwss喵..."
-[2026-08-25 19:10:29.665] [INFO    ] (memory:_compress_with_deepseek:210) [674bebf3e3024060] [6243254695867429] 压缩完成: 3条消息 → 保存
-[2026-08-25 19:10:30.106] [DEBUG   ] (response_delivery:send_sentences:241) [674bebf3e3024060] 已发送第 2/2 条: 其他朋友都是可爱的群成员哦...
-[2026-08-25 19:10:30.106] [DEBUG   ] (response_delivery:send_sentences:243) [674bebf3e3024060] 分批发送完成: 共 2 条 → chat=6243254695867429
-[2026-08-25 19:10:30.107] [DEBUG   ] (context_manager:_on_task_done:139) [674bebf3e3024060] 发送任务已清理 [6243254695867429]
-[2026-08-25 19:10:30.117] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:10:32.009] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 19:10:33.278] [INFO    ] (llm:generate_multi_reply_with_tools:971) [86a5dcdb0137428f] LLM原始输出 [轮1]: content={"replies":["正在和你聊天的就是我呀~","有什么想问的吗？"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"제미니 ( | tool_calls=0
-[2026-08-25 19:10:33.278] [INFO    ] (llm:_parse_reply:1314) [86a5dcdb0137428f] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
+# 更新于 2026-08-25 20:34:02 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:10:33.279] [INFO    ] (fav:update_fav:105) [86a5dcdb0137428f] 好感度更新: g6243254695867429:337936062 +2 → 55
 [2026-08-25 19:10:33.279] [INFO    ] (pipeline:process_message:1547) [86a5dcdb0137428f] 好感度调整: 제미니 (shuangzi_1228) +2 (chat=6243254695867429)
 [2026-08-25 19:10:33.279] [INFO    ] (pipeline:process_message:1553) [86a5dcdb0137428f] ✅ 管道处理完成: 2句 sent chat=6243254695867429
@@ -1499,3 +1474,28 @@
 [2026-08-25 20:32:40.399] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-25 20:32:40.399] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h28m 后执行 (00:01)
 [2026-08-25 20:32:40.442] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-25 20:32:48.726] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-25 20:32:55.452] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-25 20:32:55.461] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 137s 前）
+[2026-08-25 20:32:55.462] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-25 20:32:55.472] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-25 20:32:55.473] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-25 20:32:55.474] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-25 20:32:55.474] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-25 20:32:55.474] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-25 20:32:55.474] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-25 20:32:56.161] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-25 20:32:56.161] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-25 20:32:56.859] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=97 cpu=None mem=None
+[2026-08-25 20:32:56.859] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 20:32:56.864] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-25 20:32:56.864] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:32:57.111] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-25 20:32:57.111] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-25 20:32:57.112] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-25 20:32:57.465] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-25 20:32:59.000] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
+[2026-08-25 20:32:59.000] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-25 20:33:00.000] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 12425 秒 (下次 00:00:05)
+[2026-08-25 20:33:27.411] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:33:58.264] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
