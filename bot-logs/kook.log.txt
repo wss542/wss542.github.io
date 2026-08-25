@@ -1,17 +1,4 @@
-# 更新于 2026-08-25 20:39:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:10:58.746] [INFO    ] (pipeline:process_message:1064) [a46c7fcbae954c0c] 开始生成回复: speaker=제미니 (shuangzi_1228) chat=6243254695867429
-[2026-08-25 19:11:09.487] [INFO    ] (llm:generate_multi_reply_with_tools:971) [a46c7fcbae954c0c] LLM原始输出 [轮1]: content={"replies":["我的主人是ywandwss喵～","在KOOK里我们都这样称呼管理员哦","真名是隐私不能随便说的啦 (emj)捂脸(emj)[3090677846298039/Y2AgLiuQXn0ey0dy]"],"fav":0,"calls":[],"face":"捂脸","mood":"认真","action":"","at":null,"mode":null,"origin": | tool_calls=0
-[2026-08-25 19:11:09.487] [INFO    ] (llm:_parse_reply:1314) [a46c7fcbae954c0c] JSON回复解析: 3句 fav=+0 calls=0 mood=认真
-[2026-08-25 19:11:09.487] [INFO    ] (pipeline:process_message:1553) [a46c7fcbae954c0c] ✅ 管道处理完成: 3句 sent chat=6243254695867429
-[2026-08-25 19:11:09.487] [DEBUG   ] (pipeline:process_message:1575) [a46c7fcbae954c0c] Fast Path 主题已记录: chat=6243254695867429 topic='茂密你主人的真名是啥'
-[2026-08-25 19:11:09.488] [INFO    ] (logger:log_trace_summary:392) [a46c7fcbae954c0c] [TRACE a46c7fcbae954c0c] total=10751.85ms severity=very_slow_request | llm_calls=1 total=10740.31ms avg=10740.31ms max=10740.31ms p50=10740.31 p95=10740.31 p99=10740.31 | json_parse=0.03ms(x1), llm=10741.53ms(x1), memory=11.4ms(x2), process=10751.8ms(x1) (wall10751.8), queue_wait=0.49ms(x1)
-[2026-08-25 19:11:09.488] [WARNING ] (logger:log_trace_summary:410) [a46c7fcbae954c0c] [VERY_SLOW a46c7fcbae954c0c] total=10752.16ms 需重点排查 | json_parse=0.03ms(x1), llm=10741.53ms(x1), memory=11.4ms(x2), process=10751.8ms(x1) (wall10751.8), queue_wait=0.49ms(x1) | llm_calls=1 total=10740.31ms avg=10740.31ms max=10740.31ms p50=10740.31 p95=10740.31 p99=10740.31 | perf: queue=0.49ms llm=10741.56ms search_tool=0.0ms delivery=0.0ms other=10763.2ms wall=10752.14ms dominant=other
-[2026-08-25 19:11:09.491] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 19:11:09.491] [DEBUG   ] (response_delivery:send_sentences:227) [a46c7fcbae954c0c] 开始分批发送 3 条句子 → chat=6243254695867429 is_group=True
-[2026-08-25 19:11:10.024] [DEBUG   ] (response_delivery:send_sentences:241) [a46c7fcbae954c0c] 已发送第 1/3 条: 我的主人是ywandwss喵～...
-[2026-08-25 19:11:10.024] [DEBUG   ] (response_delivery:send_sentences:238) [a46c7fcbae954c0c] 句间等待 0.99s (#2/3)
-[2026-08-25 19:11:10.072] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:11:11.391] [DEBUG   ] (response_delivery:send_sentences:241) [a46c7fcbae954c0c] 已发送第 2/3 条: 在KOOK里我们都这样称呼管理员哦...
+# 更新于 2026-08-25 20:40:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:11:11.391] [DEBUG   ] (response_delivery:send_sentences:238) [a46c7fcbae954c0c] 句间等待 0.98s (#3/3)
 [2026-08-25 19:11:11.425] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 19:11:11.691] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1486,16 @@
 [2026-08-25 20:39:03.349] [DEBUG   ] (pipeline:process_message:500) [4f3817fd27de46a5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
 [2026-08-25 20:39:03.350] [INFO    ] (logger:log_trace_summary:392) [4f3817fd27de46a5] [TRACE 4f3817fd27de46a5] total=1.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.56ms(x1) (wall1.56), queue_wait=0.29ms(x1)
 [2026-08-25 20:39:04.362] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:39:34.993] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:39:49.114] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 20:39:49.115] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/图' is_edit=False
+[2026-08-25 20:39:49.115] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a2157c6138c94210] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 20:39:49.116] [INFO    ] (dispatcher:_dispatch_inner:308) [a2157c6138c94210] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/图'
+[2026-08-25 20:39:49.116] [DEBUG   ] (queues:enqueue_message:75) [a2157c6138c94210] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 20:39:49.117] [INFO    ] (memory:merge_overflow_memory:419) [37ec409b796f475e] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 5条 (阈值=10)
+[2026-08-25 20:39:49.117] [INFO    ] (pipeline:process_message:470) [37ec409b796f475e] 指令拦截: '/图' from=ywandwss
+[2026-08-25 20:39:49.118] [DEBUG   ] (commands:handle_command:4637) [37ec409b796f475e] 指令解析: prefix=/ cmd=图 args=[] user=1759953618
+[2026-08-25 20:39:55.513] [INFO    ] (commands:handle_command:4681) [37ec409b796f475e] 指令执行完成 [图]: 无返回值（已自行发送）
+[2026-08-25 20:39:55.514] [INFO    ] (logger:log_trace_summary:392) [37ec409b796f475e] [TRACE 37ec409b796f475e] total=6397.62ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6397.56ms(x1) (wall6397.56), queue_wait=0.32ms(x1)
+[2026-08-25 20:39:55.514] [WARNING ] (logger:log_trace_summary:415) [37ec409b796f475e] [SLOW 37ec409b796f475e] total=6397.86ms | process=6397.56ms(x1) (wall6397.56), queue_wait=0.32ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.32ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6397.56ms wall=6397.81ms dominant=other
+[2026-08-25 20:39:55.552] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
