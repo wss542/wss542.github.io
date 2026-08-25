@@ -1,6 +1,4 @@
-# 更新于 2026-08-25 16:52:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 11:52:47.099] [INFO    ] (image_api:recognize_image:251) [ff6c2d77b97a4f4d] [chat=1010983873136793] 调用主视觉模型识别图片 (MD5=c943925f9f6f...) model=deepseek-v4-flash-vision-exp
-[2026-08-25 11:52:49.707] [INFO    ] (image_api:recognize_image:268) [ff6c2d77b97a4f4d] [chat=1010983873136793] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 一张深色背景的表格，展示“/~draw”命令的输入与对应图片实际尺寸，包括默认16:9、1:1、3:...
+# 更新于 2026-08-25 16:53:22 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 11:52:49.709] [DEBUG   ] (image_api:_save:64) [ff6c2d77b97a4f4d] 图片缓存已写入磁盘: 320 条
 [2026-08-25 11:52:49.711] [DEBUG   ] (image_api:_save_to_repo:303) [ff6c2d77b97a4f4d] 图片仓库追加: MD5=c943925f9f6f... → '一张深色背景的表格，展示“/~draw”命令的输入与对应图片'
 [2026-08-25 11:52:49.711] [INFO    ] (dispatcher:_do_recognize_image:914) [ff6c2d77b97a4f4d] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '一张深色背景的表格，展示“/~draw”命令的输入与对应图片实际尺寸，包括默认16:9、1:1、3:2、9:16等比例。底部有验证成功、编译通过、服务重启act...' (92字) url=https://img.kookapp.cn/assets/2026-08/25/ZArEZwVxmd0r60h1.pn
@@ -1499,3 +1497,5 @@
 [2026-08-25 16:51:39.597] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 16:52:10.682] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 16:52:26.149] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-25 16:52:41.675] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 16:53:12.159] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
