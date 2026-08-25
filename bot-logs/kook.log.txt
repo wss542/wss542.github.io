@@ -1,23 +1,4 @@
-# 更新于 2026-08-25 20:36:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:10:33.394] [DEBUG   ] (pipeline:process_message:795) [caebd8b053dc4507] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-25 19:10:33.395] [INFO    ] (pipeline:process_message:799) [caebd8b053dc4507] 额外信息: 333字 (memory=0 search=0)
-[2026-08-25 19:10:33.395] [INFO    ] (pipeline:process_message:932) [caebd8b053dc4507] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-25 19:10:33.395] [DEBUG   ] (pipeline:process_message:1061) [caebd8b053dc4507] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-25 19:10:33.396] [INFO    ] (pipeline:process_message:1064) [caebd8b053dc4507] 开始生成回复: speaker=ywandwss chat=6243254695867429
-[2026-08-25 19:10:33.756] [DEBUG   ] (response_delivery:send_sentences:241) [86a5dcdb0137428f] 已发送第 1/2 条: 正在和你聊天的就是我呀~...
-[2026-08-25 19:10:33.756] [DEBUG   ] (response_delivery:send_sentences:238) [86a5dcdb0137428f] 句间等待 0.55s (#2/2)
-[2026-08-25 19:10:33.773] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:10:34.763] [DEBUG   ] (response_delivery:send_sentences:241) [86a5dcdb0137428f] 已发送第 2/2 条: 有什么想问的吗？...
-[2026-08-25 19:10:34.763] [DEBUG   ] (response_delivery:send_sentences:243) [86a5dcdb0137428f] 分批发送完成: 共 2 条 → chat=6243254695867429
-[2026-08-25 19:10:34.763] [DEBUG   ] (context_manager:_on_task_done:139) [86a5dcdb0137428f] 发送任务已清理 [6243254695867429]
-[2026-08-25 19:10:34.804] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:10:37.862] [INFO    ] (llm:generate_multi_reply_with_tools:971) [caebd8b053dc4507] LLM原始输出 [轮1]: content={"replies":["主人今天是想撒娇吗～","我随时都在陪你哦"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandws | tool_calls=0
-[2026-08-25 19:10:37.863] [INFO    ] (llm:_parse_reply:1314) [caebd8b053dc4507] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-08-25 19:10:37.864] [INFO    ] (fav:update_fav:105) [caebd8b053dc4507] 好感度更新: g6243254695867429:1759953618 +2 → 100
-[2026-08-25 19:10:37.865] [INFO    ] (pipeline:process_message:1547) [caebd8b053dc4507] 好感度调整: ywandwss +2 (chat=6243254695867429)
-[2026-08-25 19:10:37.865] [INFO    ] (pipeline:process_message:1553) [caebd8b053dc4507] ✅ 管道处理完成: 2句 sent chat=6243254695867429
-[2026-08-25 19:10:37.865] [DEBUG   ] (pipeline:process_message:1575) [caebd8b053dc4507] Fast Path 主题已记录: chat=6243254695867429 topic='qwq'
-[2026-08-25 19:10:37.865] [INFO    ] (logger:log_trace_summary:392) [caebd8b053dc4507] [TRACE caebd8b053dc4507] total=4477.38ms severity=slow_request | llm_calls=1 total=4466.25ms avg=4466.25ms max=4466.25ms p50=4466.25 p95=4466.25 p99=4466.25 | json_parse=0.02ms(x1), llm=4467.33ms(x1), memory=7.09ms(x2), process=4477.33ms(x1) (wall4477.33), queue_wait=0.42ms(x1)
+# 更新于 2026-08-25 20:37:15 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:10:37.865] [WARNING ] (logger:log_trace_summary:415) [caebd8b053dc4507] [SLOW caebd8b053dc4507] total=4477.62ms | json_parse=0.02ms(x1), llm=4467.33ms(x1), memory=7.09ms(x2), process=4477.33ms(x1) (wall4477.33), queue_wait=0.42ms(x1) | llm_calls=1 total=4466.25ms avg=4466.25ms max=4466.25ms p50=4466.25 p95=4466.25 p99=4466.25 | perf: queue=0.42ms llm=4467.35ms search_tool=0.0ms delivery=0.0ms other=4484.42ms wall=4477.6ms dominant=other
 [2026-08-25 19:10:37.867] [DEBUG   ] (response_delivery:send_sentences:227) [caebd8b053dc4507] 开始分批发送 2 条句子 → chat=6243254695867429 is_group=True
 [2026-08-25 19:10:38.265] [DEBUG   ] (response_delivery:send_sentences:241) [caebd8b053dc4507] 已发送第 1/2 条: 主人今天是想撒娇吗～...
@@ -1499,3 +1480,22 @@
 [2026-08-25 20:36:19.343] [INFO    ] (logger:log_trace_summary:392) [91c341ef78f240e3] [TRACE 91c341ef78f240e3] total=1310.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1310.13ms(x1) (wall1310.13), queue_wait=0.67ms(x1)
 [2026-08-25 20:36:23.778] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 [2026-08-25 20:36:23.778] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 20:36:31.374] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:36:43.462] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 20:36:43.462] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id] ' is_edit=False
+[2026-08-25 20:36:43.462] [DEBUG   ] (dispatcher:_dispatch_inner:110) [74cd89a70d1d4f2c] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 20:36:43.463] [INFO    ] (dispatcher:_dispatch_inner:194) [74cd89a70d1d4f2c] 🧩 消息内解析到 1 个服务器表情
+[2026-08-25 20:36:43.463] [INFO    ] (dispatcher:_dispatch_inner:308) [74cd89a70d1d4f2c] 📩 消息 #2 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='[表情] '
+[2026-08-25 20:36:43.470] [INFO    ] (dispatcher:_dispatch_inner:384) [74cd89a70d1d4f2c] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-25 20:36:43.475] [DEBUG   ] (image_api:_load:50) [74cd89a70d1d4f2c] 图片缓存已加载: 323 条
+[2026-08-25 20:36:43.476] [INFO    ] (image_api:recognize_image:152) [74cd89a70d1d4f2c] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k0...
+[2026-08-25 20:36:46.561] [INFO    ] (image_api:recognize_image:168) [74cd89a70d1d4f2c] [chat=6243254695867429] 图片下载成功: 40672 bytes
+[2026-08-25 20:36:46.562] [INFO    ] (image_api:get:86) [74cd89a70d1d4f2c] 图片识别缓存命中 MD5=9b31424d3bf4... → '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色...'
+[2026-08-25 20:36:46.564] [INFO    ] (dispatcher:_do_recognize_image:914) [74cd89a70d1d4f2c] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色的眼睛，头上还有两个猫耳朵。她的表情看起来有些困惑和好奇，一只手摸着后脑勺，另一...' (197字) url=https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k0
+[2026-08-25 20:36:46.565] [INFO    ] (dispatcher:_dispatch_inner:400) [74cd89a70d1d4f2c] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: '图片中展示了一个穿着黑色制服、戴着蓝色围巾的动漫女孩，她有着一头白色的长发和蓝色的眼睛，头上还有两个...'
+[2026-08-25 20:36:46.565] [DEBUG   ] (queues:enqueue_message:75) [74cd89a70d1d4f2c] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 20:36:46.566] [INFO    ] (pipeline:process_message:367) [939ae08d49f74fd5] 附带图片已记录 [chat=6243254695867429] count=1
+[2026-08-25 20:36:46.566] [INFO    ] (memory:merge_overflow_memory:419) [939ae08d49f74fd5] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-25 20:36:46.569] [DEBUG   ] (pipeline:process_message:500) [939ae08d49f74fd5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+[2026-08-25 20:36:46.569] [INFO    ] (logger:log_trace_summary:392) [939ae08d49f74fd5] [TRACE 939ae08d49f74fd5] total=3.27ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.22ms(x1) (wall3.22), queue_wait=0.65ms(x1)
+[2026-08-25 20:37:01.799] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
