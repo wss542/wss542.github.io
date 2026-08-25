@@ -1,17 +1,4 @@
-# 更新于 2026-08-25 18:10:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 14:00:49.553] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-25 14:00:49.553] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-25 14:00:49.554] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-25 14:00:49.554] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-25 14:00:49.687] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-25 14:00:49.688] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-25 14:00:49.805] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=97 cpu=None mem=None
-[2026-08-25 14:00:49.805] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-25 14:00:51.175] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
-[2026-08-25 14:00:51.176] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-25 14:00:51.176] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 35954 秒 (下次 00:00:05)
-[2026-08-25 14:00:51.593] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-25 14:00:52.244] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+# 更新于 2026-08-25 18:10:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 14:00:52.496] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-08-25 14:00:52.497] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-08-25 14:00:52.498] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
@@ -1499,3 +1486,16 @@ fetching consumpt...
 [2026-08-25 18:09:54.138] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 18:09:54.140] [INFO    ] (logger:log_trace_summary:392) [5867e9e117064d7e] [TRACE 5867e9e117064d7e] total=625.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=625.4ms(x1) (wall625.4), queue_wait=1.03ms(x1)
 [2026-08-25 18:09:56.760] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14522)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
+[2026-08-25 18:10:04.490] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:10:04.497] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc.hypixel.net' is_edit=False
+[2026-08-25 18:10:04.500] [DEBUG   ] (dispatcher:_dispatch_inner:110) [819c3b5029a74607] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-25 18:10:04.502] [INFO    ] (dispatcher:_dispatch_inner:308) [819c3b5029a74607] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/mc mc.hypixel.net'
+[2026-08-25 18:10:04.503] [DEBUG   ] (queues:enqueue_message:75) [819c3b5029a74607] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-25 18:10:04.510] [INFO    ] (memory:merge_overflow_memory:419) [31f3beeb3c6049ba] 长时记忆溢出缓冲: chat=1759953618 +1 = 8条 (阈值=10)
+[2026-08-25 18:10:04.513] [INFO    ] (pipeline:process_message:470) [31f3beeb3c6049ba] 指令拦截: '/mc mc.hypixel.net' from=ywandwss
+[2026-08-25 18:10:04.514] [DEBUG   ] (commands:handle_command:4629) [31f3beeb3c6049ba] 指令解析: prefix=/ cmd=mc args=['mc.hypixel.net'] user=1759953618
+[2026-08-25 18:10:05.589] [INFO    ] (commands:handle_command:4671) [31f3beeb3c6049ba] 指令执行完成 [mc]: 返回70字符
+[2026-08-25 18:10:05.991] [INFO    ] (logger:log_trace_summary:392) [31f3beeb3c6049ba] [TRACE 31f3beeb3c6049ba] total=1486.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1486.87ms(x1) (wall1486.87), queue_wait=1.09ms(x1)
+[2026-08-25 18:10:06.005] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:10:27.158] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14522)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
+[2026-08-25 18:10:58.090] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14522)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
