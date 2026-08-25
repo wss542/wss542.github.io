@@ -1,24 +1,4 @@
-# 更新于 2026-08-25 16:21:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 11:50:19.538] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 11:50:50.441] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 11:51:00.775] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 11:51:00.776] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/tddMFmgxHG0w40j9.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1156,"height":693,"fileSize":51428,"elements":[]}]}],"type":"card"}]' is_edit=False
-[2026-08-25 11:51:00.776] [DEBUG   ] (dispatcher:_dispatch_inner:110) [955c2e1715154470] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
-[2026-08-25 11:51:00.776] [INFO    ] (dispatcher:_dispatch_inner:177) [955c2e1715154470] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/tddMFmgxHG0w40j9.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1156,"height":693,"fileSize":51428,"elements":[]}]}],"type":"card"}]')
-[2026-08-25 11:51:00.776] [INFO    ] (dispatcher:_dispatch_inner:308) [955c2e1715154470] 📩 消息 #30 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/tddMFmgxHG0w40j9.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1156,"height":693,"fileSize":51428,"elements":[]}]}],"type":"card"}]'
-[2026-08-25 11:51:00.780] [INFO    ] (dispatcher:_dispatch_inner:384) [955c2e1715154470] 🖼️  [chat=1010983873136793] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-25 11:51:00.781] [INFO    ] (image_api:recognize_image:152) [955c2e1715154470] [chat=1010983873136793] 开始获取图片: https://img.kookapp.cn/assets/2026-08/25/tddMFmgxHG0w40j9.pn...
-[2026-08-25 11:51:00.981] [INFO    ] (image_api:recognize_image:168) [955c2e1715154470] [chat=1010983873136793] 图片下载成功: 51428 bytes
-[2026-08-25 11:51:01.063] [INFO    ] (image_api:recognize_image:204) [955c2e1715154470] [chat=1010983873136793] 图片预处理: PNG(1156x693) → PNG 51428 bytes → 39168 bytes
-[2026-08-25 11:51:01.064] [INFO    ] (image_api:recognize_image:251) [955c2e1715154470] [chat=1010983873136793] 调用主视觉模型识别图片 (MD5=ee4d9f1e0848...) model=deepseek-v4-flash-vision-exp
-[2026-08-25 11:51:05.917] [INFO    ] (image_api:recognize_image:268) [955c2e1715154470] [chat=1010983873136793] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 直接描述图片内容。 不要输出推理或思考过程。 如果图片是表情包，重点输出情绪元素（至少4点，同时还要...
-[2026-08-25 11:51:05.920] [DEBUG   ] (image_api:_save:64) [955c2e1715154470] 图片缓存已写入磁盘: 318 条
-[2026-08-25 11:51:05.929] [DEBUG   ] (image_api:_save_to_repo:303) [955c2e1715154470] 图片仓库追加: MD5=ee4d9f1e0848... → '直接描述图片内容。 不要输出推理或思考过程。 如果图片是表情'
-[2026-08-25 11:51:05.930] [INFO    ] (dispatcher:_do_recognize_image:914) [955c2e1715154470] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '直接描述图片内容。 不要输出推理或思考过程。 如果图片是表情包，重点输出情绪元素（至少4点，同时还要包含其他内容）。 直接输出描述，不超过70字。  2.  *...' (200字) url=https://img.kookapp.cn/assets/2026-08/25/tddMFmgxHG0w40j9.pn
-[2026-08-25 11:51:05.930] [INFO    ] (dispatcher:_dispatch_inner:400) [955c2e1715154470] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: '直接描述图片内容。 不要输出推理或思考过程。 如果图片是表情包，重点输出情绪元素（至少4点，同时还要...'
-[2026-08-25 11:51:05.931] [DEBUG   ] (queues:enqueue_message:75) [955c2e1715154470] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-25 11:51:05.932] [INFO    ] (pipeline:process_message:367) [b8736759cd6b4daa] 附带图片已记录 [chat=1010983873136793] count=1
-[2026-08-25 11:51:05.934] [INFO    ] (memory:merge_overflow_memory:419) [b8736759cd6b4daa] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+# 更新于 2026-08-25 16:22:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 11:51:05.935] [DEBUG   ] (pipeline:process_message:500) [b8736759cd6b4daa] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
 [2026-08-25 11:51:05.935] [INFO    ] (logger:log_trace_summary:392) [b8736759cd6b4daa] [TRACE b8736759cd6b4daa] total=3.71ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.64ms(x1) (wall3.64), queue_wait=0.76ms(x1)
 [2026-08-25 11:51:09.437] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1479,23 @@
 [2026-08-25 16:21:46.317] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-25 16:21:46.320] [INFO    ] (bot:_bg_wdsj_collector:644) [-] 战绩采集将在 3h39m 后执行 (20:01)
 [2026-08-25 16:21:46.671] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-25 16:22:01.697] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-25 16:22:01.723] [INFO    ] (bot:_bg_pc_offline_checker:742) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 425s 前）
+[2026-08-25 16:22:01.728] [INFO    ] (stats:midnight_report_loop:447) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-25 16:22:01.786] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-25 16:22:01.786] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-25 16:22:01.787] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-25 16:22:01.787] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-25 16:22:01.872] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-25 16:22:01.876] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-25 16:22:02.143] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-25 16:22:02.147] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-25 16:22:02.270] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-25 16:22:02.271] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 16:22:03.563] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-25 → 周二
+[2026-08-25 16:22:03.564] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-25 16:22:03.564] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 27481 秒 (下次 00:00:05)
+[2026-08-25 16:22:03.793] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-25 16:22:08.425] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-25 16:22:08.427] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-25 16:22:08.448] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
