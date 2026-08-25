@@ -1,10 +1,4 @@
-# 更新于 2026-08-25 20:01:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:56:49.323] [DEBUG   ] (pipeline:process_message:591) [bc193ea71a104256] 请求意图: intent=chat fast_search=False msg='山东'
-[2026-08-25 18:56:49.324] [WARNING ] (pipeline:process_message:639) [bc193ea71a104256] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-25 18:56:49.330] [DEBUG   ] (memory:_record_memory_trace:318) [bc193ea71a104256] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.5ms
-[2026-08-25 18:56:49.331] [DEBUG   ] (pipeline:process_message:795) [bc193ea71a104256] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-25 18:56:49.331] [INFO    ] (pipeline:process_message:799) [bc193ea71a104256] 额外信息: 333字 (memory=0 search=0)
-[2026-08-25 18:56:49.331] [INFO    ] (pipeline:process_message:932) [bc193ea71a104256] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+# 更新于 2026-08-25 20:01:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:56:49.331] [DEBUG   ] (pipeline:process_message:1061) [bc193ea71a104256] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-08-25 18:56:49.331] [INFO    ] (pipeline:process_message:1064) [bc193ea71a104256] 开始生成回复: speaker=ywandwss chat=6243254695867429
 [2026-08-25 18:56:53.824] [INFO    ] (llm:generate_multi_reply_with_tools:971) [bc193ea71a104256] LLM原始输出 [轮1]: content={"replies":["主人提到山东，是想了解这里吗？","山东有美味的鲁菜和美丽的海滨城市哦~"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{ | tool_calls=0
@@ -1499,3 +1493,9 @@
 [2026-08-25 20:00:41.921] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 20:01:10.399] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
 [2026-08-25 20:01:12.631] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:01:20.631] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-25 20:01:23.365] [INFO    ] (bot:_bg_wdsj_collector:695) [-] 日榜目标频道: [3649029148752421]
+[2026-08-25 20:01:26.376] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
+[2026-08-25 20:01:26.377] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 2 人 (2026-08-25)
+[2026-08-25 20:01:26.377] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (00:01)
+[2026-08-25 20:01:43.361] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
