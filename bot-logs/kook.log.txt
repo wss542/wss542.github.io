@@ -1,6 +1,4 @@
-# 更新于 2026-08-25 10:01:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 00:01:44.108] [DEBUG   ] (pipeline:process_message:510) [770b83cd7ef74fc5] 点前缀消息忽略（其它 bot 命令）: '.luck'
-[2026-08-25 00:01:44.109] [INFO    ] (logger:log_trace_summary:392) [770b83cd7ef74fc5] [TRACE 770b83cd7ef74fc5] total=2.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.55ms(x1) (wall2.55), queue_wait=0.54ms(x1)
+# 更新于 2026-08-25 10:02:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:01:45.076] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 00:01:45.077] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 3 喵' is_edit=False
 [2026-08-25 00:01:45.077] [DEBUG   ] (dispatcher:_dispatch_inner:107) [41b65ccb69214b19] 跳过 bot 消息: uid=1341019011
@@ -1499,3 +1497,5 @@
 [2026-08-25 10:00:42.493] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 10:01:17.303] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 [2026-08-25 10:01:17.307] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 10:01:48.404] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 10:02:18.952] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
