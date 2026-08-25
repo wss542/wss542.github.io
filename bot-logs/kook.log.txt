@@ -1,7 +1,4 @@
-# 更新于 2026-08-25 20:00:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:56:49.323] [INFO    ] (memory:merge_overflow_memory:419) [bc193ea71a104256] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 6条 (阈值=10)
-[2026-08-25 18:56:49.323] [DEBUG   ] (pipeline:process_message:500) [bc193ea71a104256] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='山东'
-[2026-08-25 18:56:49.323] [INFO    ] (pipeline:process_message:544) [bc193ea71a104256] 免@模式 → 直接回复（跳过 judge）
+# 更新于 2026-08-25 20:01:19 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:56:49.323] [DEBUG   ] (pipeline:process_message:591) [bc193ea71a104256] 请求意图: intent=chat fast_search=False msg='山东'
 [2026-08-25 18:56:49.324] [WARNING ] (pipeline:process_message:639) [bc193ea71a104256] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [2026-08-25 18:56:49.330] [DEBUG   ] (memory:_record_memory_trace:318) [bc193ea71a104256] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.5ms
@@ -1499,3 +1496,6 @@
 [2026-08-25 20:00:30.019] [INFO    ] (guild_names:refresh_guild:163) [b2ab5d0c876348e3] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
 [2026-08-25 20:00:30.019] [INFO    ] (commands:handle_command:4677) [b2ab5d0c876348e3] 指令执行完成 [names]: 返回334字符
 [2026-08-25 20:00:31.105] [INFO    ] (logger:log_trace_summary:392) [b2ab5d0c876348e3] [TRACE b2ab5d0c876348e3] total=2055.14ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2055.02ms(x1) (wall2055.02), queue_wait=1.05ms(x1)
+[2026-08-25 20:00:41.921] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:01:10.399] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
+[2026-08-25 20:01:12.631] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
