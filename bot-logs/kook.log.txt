@@ -1,13 +1,4 @@
-# 更新于 2026-08-25 23:18:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:24:54.333] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-25 19:24:54.490] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-25 19:25:16.581] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8741)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
-[2026-08-25 19:25:32.319] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-25 19:25:32.458] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-25 19:25:42.984] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-25 19:25:42.987] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-25 19:25:42.988] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-25 19:25:42.988] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+# 更新于 2026-08-25 23:19:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:25:42.988] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
 [2026-08-25 19:25:42.990] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
 [2026-08-25 19:25:42.991] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
@@ -1499,3 +1490,12 @@
 [2026-08-25 23:17:30.956] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 23:18:01.561] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 23:18:32.055] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 23:19:02.526] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 23:19:33.050] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 23:19:44.105] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 23:19:44.106] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/WXICgOij8I1730jm.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1551,"height":706,"fileSize":692713,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-25 23:19:44.106] [DEBUG   ] (dispatcher:_dispatch_inner:110) [cfd9cec8c51f4b9c] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-25 23:19:44.106] [INFO    ] (dispatcher:_dispatch_inner:177) [cfd9cec8c51f4b9c] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/WXICgOij8I1730jm.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1551,"height":706,"fileSize":692713,"elements":[]}]}],"type":"card"}]')
+[2026-08-25 23:19:44.107] [INFO    ] (dispatcher:_dispatch_inner:308) [cfd9cec8c51f4b9c] 📩 消息 #9 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/WXICgOij8I1730jm.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1551,"height":706,"fileSize":692713,"elements":[]}]}],"type":"card"}]'
+[2026-08-25 23:19:44.113] [INFO    ] (dispatcher:_dispatch_inner:384) [cfd9cec8c51f4b9c] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-25 23:19:44.113] [INFO    ] (image_api:recognize_image:152) [cfd9cec8c51f4b9c] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/25/WXICgOij8I1730jm.pn...
