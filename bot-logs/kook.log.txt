@@ -1,35 +1,4 @@
-# 更新于 2026-08-25 19:13:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:09:10.220] [INFO    ] (main:_handle_run_code:289) [f5df82dff1db4d89] run_code 完成: lang=python rc=0 产物=0
-[2026-08-25 18:09:10.222] [INFO    ] (llm:generate_multi_reply_with_tools:1064) [f5df82dff1db4d89] FC: 工具 run_code 返回 35 字符
-[2026-08-25 18:09:10.224] [INFO    ] (llm:call_llm:427) [f5df82dff1db4d89] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=8000 temp=0.4 timeout=60.0s
-[2026-08-25 18:09:14.979] [INFO    ] (llm:call_llm:489) [f5df82dff1db4d89] LLM [Qwen/Qwen3-235B-A22B] 返回 203字符 耗时4.8s → "{"replies":["消耗数据加载中..."],"fav":0,"calls":[],"face..."
-[2026-08-25 18:09:14.984] [WARNING ] (face_lib:_init:29) [f5df82dff1db4d89] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-25 18:09:14.989] [INFO    ] (llm:_parse_reply:1314) [f5df82dff1db4d89] JSON回复解析: 1句 fav=+0 calls=0 mood=好奇
-[2026-08-25 18:09:14.997] [INFO    ] (memory:maybe_save_memory:401) [f5df82dff1db4d89] 触发自动记忆 [1759953618]: 8 条
-[2026-08-25 18:09:14.998] [INFO    ] (pipeline:process_message:1553) [f5df82dff1db4d89] ✅ 管道处理完成: 2句 sent chat=1759953618
-[2026-08-25 18:09:14.998] [INFO    ] (logger:log_trace_summary:392) [f5df82dff1db4d89] [TRACE f5df82dff1db4d89] total=13581.84ms severity=very_slow_request | llm_calls=2 total=13127.49ms avg=6563.74ms max=8374.97ms p50=6563.74 p95=8193.85 p99=8338.75 | tools=run_code:OK:77.28ms,run_code:OK:77.44ms | json_parse=1.55ms(x1), llm=13309.93ms(x1), memory=162.85ms(x2), process=13581.64ms(x1) (wall13581.64), queue_wait=415.59ms(x1), tool=154.72ms(x2)
-[2026-08-25 18:09:14.999] [WARNING ] (logger:log_trace_summary:410) [f5df82dff1db4d89] [VERY_SLOW f5df82dff1db4d89] total=13582.71ms 需重点排查 | json_parse=1.55ms(x1), llm=13309.93ms(x1), memory=162.85ms(x2), process=13581.64ms(x1) (wall13581.64), queue_wait=415.59ms(x1), tool=154.72ms(x2) | llm_calls=2 total=13127.49ms avg=6563.74ms max=8374.97ms p50=6563.74 p95=8193.85 p99=8338.75 | perf: queue=415.59ms llm=13311.48ms search_tool=154.72ms delivery=0.0ms other=13744.49ms wall=13582.67ms dominant=other
-[2026-08-25 18:09:15.001] [DEBUG   ] (response_delivery:send_sentences:227) [f5df82dff1db4d89] 开始分批发送 2 条句子 → chat=1759953618 is_group=False
-[2026-08-25 18:09:15.007] [INFO    ] (llm:call_llm:427) [f5df82dff1db4d89] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-25 18:09:15.256] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_private_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:15.450] [DEBUG   ] (response_delivery:send_sentences:241) [f5df82dff1db4d89] 已发送第 1/2 条: 消耗数据加载中......
-[2026-08-25 18:09:15.451] [DEBUG   ] (response_delivery:send_sentences:238) [f5df82dff1db4d89] 句间等待 0.79s (#2/2)
-[2026-08-25 18:09:15.549] [WARNING ] (bot:_patched_consume_pkg:257) [-] ✏️ 编辑消息作者反查失败: Requesting 'GET message/view' failed with 40012: 该数据不存在或者你没有权限操作
-[2026-08-25 18:09:15.551] [ERROR   ] (logger:error:341) [-] 编辑消息处理异常: 'code' | pkg={'channel_type': 'PERSON', 'type': 255, 'target_id': '659688244', 'author_id': '1', 'content': '[系统消息]', 'extra': {'type': 'updated_private_message', 'body': {'type': 9, 'author_id': '1759953618', 'target_id': '659688244', 'content': '/mc mc.Hypixel.net', 'updated_at': 1787652556032, 'chat_code': '3971777363dfc21f56e868a622b9172c', 'msg_id': '3b08dd6f-cc22-415d-821b-8ab2ad38604a'}}, 'msg_id': '5b4af338-e0e5-497c-a887-3fa2c11300e7', 'msg_timestamp': 1787652556045, 'nonce': '', 'from_type': 1}
-[2026-08-25 18:09:15.556] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:16.700] [DEBUG   ] (response_delivery:send_sentences:241) [f5df82dff1db4d89] 已发送第 2/2 条: 【运行原始输出】
-```
-fetching consumpt...
-[2026-08-25 18:09:16.701] [DEBUG   ] (response_delivery:send_sentences:243) [f5df82dff1db4d89] 分批发送完成: 共 2 条 → chat=1759953618
-[2026-08-25 18:09:16.701] [DEBUG   ] (context_manager:_on_task_done:139) [f5df82dff1db4d89] 发送任务已清理 [1759953618]
-[2026-08-25 18:09:16.703] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:17.656] [INFO    ] (llm:call_llm:489) [f5df82dff1db4d89] LLM [Qwen/Qwen3-235B-A22B] 返回 232字符 耗时2.6s → "[18:09:14] ywandwss, 茂密: ywandwss说了/help, /mc状态 mc..."
-[2026-08-25 18:09:17.659] [INFO    ] (memory:_compress_with_deepseek:210) [f5df82dff1db4d89] [1759953618] 压缩完成: 8条消息 → 保存
-[2026-08-25 18:09:25.621] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14522)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
-[2026-08-25 18:09:53.497] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:53.504] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc ' is_edit=False
-[2026-08-25 18:09:53.507] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a3db96efdad5430f] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:09:53.512] [INFO    ] (dispatcher:_dispatch_inner:308) [a3db96efdad5430f] 📩 消息 #7 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/mc '
+# 更新于 2026-08-25 19:14:36 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:09:53.514] [DEBUG   ] (queues:enqueue_message:75) [a3db96efdad5430f] [队列] 群1759953618 消息已入队 (队长度=1)
 [2026-08-25 18:09:53.517] [INFO    ] (memory:merge_overflow_memory:419) [5867e9e117064d7e] 长时记忆溢出缓冲: chat=1759953618 +1 = 7条 (阈值=10)
 [2026-08-25 18:09:53.520] [INFO    ] (pipeline:process_message:470) [5867e9e117064d7e] 指令拦截: '/mc ' from=ywandwss
@@ -1499,3 +1468,34 @@ fetching consumpt...
 [2026-08-25 19:13:44.433] [INFO    ] (commands:handle_command:4677) [3712f0281324482d] 指令执行完成 [mc]: 无返回值（已自行发送）
 [2026-08-25 19:13:44.433] [INFO    ] (logger:log_trace_summary:392) [3712f0281324482d] [TRACE 3712f0281324482d] total=1917.98ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1917.92ms(x1) (wall1917.92), queue_wait=0.38ms(x1)
 [2026-08-25 19:13:44.470] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:57.548] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:57.549] [DEBUG   ] (dispatcher:dispatch:47) [ed2fb19f51174fc2] dispatch 入口: type=9 content='/mc mc233.cn' is_edit=False
+[2026-08-25 19:13:57.549] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6daba1c279df4437] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 19:13:57.549] [INFO    ] (dispatcher:_dispatch_inner:308) [6daba1c279df4437] 📩 消息 #18 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/mc mc233.cn'
+[2026-08-25 19:13:57.549] [DEBUG   ] (queues:enqueue_message:75) [6daba1c279df4437] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 19:13:57.551] [INFO    ] (memory:merge_overflow_memory:419) [af6ced355dcb4bfa] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 6条 (阈值=10)
+[2026-08-25 19:13:57.551] [INFO    ] (pipeline:process_message:470) [af6ced355dcb4bfa] 指令拦截: '/mc mc233.cn' from=ywandwss
+[2026-08-25 19:13:57.552] [DEBUG   ] (commands:handle_command:4633) [af6ced355dcb4bfa] 指令解析: prefix=/ cmd=mc args=['mc233.cn'] user=1759953618
+[2026-08-25 19:14:03.977] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:14:03.977] [DEBUG   ] (dispatcher:dispatch:47) [ed2fb19f51174fc2] dispatch 入口: type=9 content='(emj)舔嘴(emj)[3090677846298039/Pv6WMzf9J10ni0n6] ' is_edit=False
+[2026-08-25 19:14:03.978] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6b70485308f84cf6] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 19:14:03.978] [INFO    ] (dispatcher:_dispatch_inner:194) [6b70485308f84cf6] 🧩 消息内解析到 1 个服务器表情
+[2026-08-25 19:14:03.978] [INFO    ] (dispatcher:_dispatch_inner:308) [6b70485308f84cf6] 📩 消息 #19 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='[表情] '
+[2026-08-25 19:14:03.980] [INFO    ] (dispatcher:_dispatch_inner:384) [6b70485308f84cf6] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-25 19:14:03.983] [DEBUG   ] (image_api:_load:50) [6b70485308f84cf6] 图片缓存已加载: 323 条
+[2026-08-25 19:14:03.983] [INFO    ] (image_api:recognize_image:152) [6b70485308f84cf6] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/Pv6WMzf9J10ni...
+[2026-08-25 19:14:04.279] [INFO    ] (image_api:recognize_image:168) [6b70485308f84cf6] [chat=6243254695867429] 图片下载成功: 47300 bytes
+[2026-08-25 19:14:04.280] [INFO    ] (image_api:get:86) [6b70485308f84cf6] 图片识别缓存命中 MD5=0814af4f727e... → '这是一张动漫风格的图片，描绘了一个可爱的卡通角色。她有着银白色的长发和蓝色的眼睛...'
+[2026-08-25 19:14:04.280] [INFO    ] (dispatcher:_do_recognize_image:914) [6b70485308f84cf6] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: '这是一张动漫风格的图片，描绘了一个可爱的卡通角色。她有着银白色的长发和蓝色的眼睛，脸颊上带有红晕，嘴角微微上扬，露出微笑的表情。她的耳朵是猫耳形状，头上还有一个...' (158字) url=https://img.kookapp.cn/emojis/3090677846298039/Pv6WMzf9J10ni
+[2026-08-25 19:14:04.281] [INFO    ] (dispatcher:_dispatch_inner:400) [6b70485308f84cf6] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: '这是一张动漫风格的图片，描绘了一个可爱的卡通角色。她有着银白色的长发和蓝色的眼睛，脸颊上带有红晕，嘴...'
+[2026-08-25 19:14:04.281] [DEBUG   ] (queues:enqueue_message:75) [6b70485308f84cf6] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 19:14:09.127] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:14:09.909] [INFO    ] (commands:handle_command:4677) [af6ced355dcb4bfa] 指令执行完成 [mc]: 无返回值（已自行发送）
+[2026-08-25 19:14:09.909] [INFO    ] (logger:log_trace_summary:392) [af6ced355dcb4bfa] [TRACE af6ced355dcb4bfa] total=12359.28ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=12359.23ms(x1) (wall12359.23), queue_wait=0.48ms(x1)
+[2026-08-25 19:14:09.909] [WARNING ] (logger:log_trace_summary:410) [af6ced355dcb4bfa] [VERY_SLOW af6ced355dcb4bfa] total=12359.67ms 需重点排查 | process=12359.23ms(x1) (wall12359.23), queue_wait=0.48ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.48ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=12359.23ms wall=12359.65ms dominant=other
+[2026-08-25 19:14:09.911] [INFO    ] (pipeline:process_message:367) [9cc7ba4109354db5] 附带图片已记录 [chat=6243254695867429] count=1
+[2026-08-25 19:14:09.912] [INFO    ] (memory:merge_overflow_memory:419) [9cc7ba4109354db5] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 7条 (阈值=10)
+[2026-08-25 19:14:09.913] [DEBUG   ] (pipeline:process_message:500) [9cc7ba4109354db5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+[2026-08-25 19:14:09.913] [INFO    ] (logger:log_trace_summary:392) [9cc7ba4109354db5] [TRACE 9cc7ba4109354db5] total=2.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.16ms(x1) (wall2.16), queue_wait=5630.14ms(x1)
+[2026-08-25 19:14:09.945] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:14:12.379] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
