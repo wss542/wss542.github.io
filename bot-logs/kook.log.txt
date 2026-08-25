@@ -1,30 +1,4 @@
-# 更新于 2026-08-25 20:24:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:07:55.262] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-25 19:07:55.266] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-25 19:07:55.266] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-25 19:07:55.268] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-25 19:07:55.268] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-25 19:07:55.268] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-25 19:07:55.269] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-25 19:07:55.269] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-25 19:07:55.579] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-25 19:07:55.580] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-25 19:07:55.591] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-25 19:07:55.591] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-25 19:07:55.784] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-25 19:07:55.804] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-25 19:07:55.805] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-25 19:07:55.806] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-25 19:07:55.807] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-25 19:07:55.808] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-25 19:07:55.808] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-25 19:07:55.811] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-25 19:07:55.811] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-25 19:07:55.811] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-25 19:07:55.811] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-25 19:07:55.816] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-25 19:07:55.817] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-25 19:07:55.817] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+# 更新于 2026-08-25 20:25:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:07:55.818] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 [2026-08-25 19:07:55.819] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 [2026-08-25 19:07:55.819] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
@@ -1499,3 +1473,29 @@
 [2026-08-25 20:23:40.205] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7993)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 20:24:10.806] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7993)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
 [2026-08-25 20:24:41.357] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7993)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:25:12.672] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7993)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:25:29.836] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=97 cpu=None mem=None
+[2026-08-25 20:25:29.836] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 20:25:30.920] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 20:25:30.920] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/names' is_edit=False
+[2026-08-25 20:25:30.920] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c981050de8744ca9] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 20:25:30.922] [INFO    ] (dispatcher:_dispatch_inner:308) [c981050de8744ca9] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/names'
+[2026-08-25 20:25:30.922] [INFO    ] (queues:_get_or_create_queue:32) [c981050de8744ca9] [队列] 创建群6243254695867429 的独立消息队列
+[2026-08-25 20:25:30.922] [DEBUG   ] (queues:enqueue_message:75) [c981050de8744ca9] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 20:25:30.924] [INFO    ] (memory:merge_overflow_memory:419) [223fab1bad804366] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-25 20:25:30.930] [INFO    ] (pipeline:process_message:470) [223fab1bad804366] 指令拦截: '/names' from=ywandwss
+[2026-08-25 20:25:30.931] [DEBUG   ] (commands:handle_command:4637) [223fab1bad804366] 指令解析: prefix=/ cmd=names args=[] user=1759953618
+[2026-08-25 20:25:32.533] [INFO    ] (guild_names:refresh_guild:163) [223fab1bad804366] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-08-25 20:25:32.534] [INFO    ] (commands:handle_command:4679) [223fab1bad804366] 指令执行完成 [names]: 返回129字符
+[2026-08-25 20:25:33.182] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 20:25:33.215] [INFO    ] (logger:log_trace_summary:392) [223fab1bad804366] [TRACE 223fab1bad804366] total=2292.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2292.43ms(x1) (wall2292.43), queue_wait=0.53ms(x1)
+[2026-08-25 20:25:43.437] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7993)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:25:51.177] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 20:25:51.177] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/跨服昵称' is_edit=False
+[2026-08-25 20:25:51.177] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d486c94a4d644b91] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 20:25:51.178] [INFO    ] (dispatcher:_dispatch_inner:308) [d486c94a4d644b91] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/跨服昵称'
+[2026-08-25 20:25:51.178] [DEBUG   ] (queues:enqueue_message:75) [d486c94a4d644b91] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 20:25:51.179] [INFO    ] (memory:merge_overflow_memory:419) [d3e9e47b72d14db4] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-25 20:25:51.180] [INFO    ] (pipeline:process_message:470) [d3e9e47b72d14db4] 指令拦截: '/跨服昵称' from=ywandwss
+[2026-08-25 20:25:51.180] [DEBUG   ] (commands:handle_command:4637) [d3e9e47b72d14db4] 指令解析: prefix=/ cmd=跨服昵称 args=[] user=1759953618
+[2026-08-25 20:25:51.180] [INFO    ] (commands:handle_command:4679) [d3e9e47b72d14db4] 指令执行完成 [跨服昵称]: 返回42字符
