@@ -1,8 +1,4 @@
-# 更新于 2026-08-25 11:01:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 00:18:47.871] [INFO    ] (dispatcher:_dispatch_inner:308) [7e53e719534940db] 📩 消息 #18 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/25\\/3GIeAkn2tK15s0c5.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1504,"height":437,"fileSize":1286479,"elements":[]}]}],"type":"card"}]'
-[2026-08-25 00:18:47.871] [INFO    ] (dispatcher:_dispatch_inner:384) [7e53e719534940db] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-25 00:18:47.872] [INFO    ] (image_api:recognize_image:152) [7e53e719534940db] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/25/3GIeAkn2tK15s0c5.pn...
-[2026-08-25 00:18:48.147] [INFO    ] (image_api:recognize_image:168) [7e53e719534940db] [chat=9231565360961340] 图片下载成功: 1286479 bytes
+# 更新于 2026-08-25 11:01:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:18:48.644] [INFO    ] (image_api:recognize_image:204) [7e53e719534940db] [chat=9231565360961340] 图片预处理: PNG(1504x437) → PNG 1286479 bytes → 899332 bytes
 [2026-08-25 00:18:48.647] [INFO    ] (image_api:recognize_image:251) [7e53e719534940db] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=5119c96cba7c...) model=deepseek-v4-flash-vision-exp
 [2026-08-25 00:18:50.953] [INFO    ] (image_api:recognize_image:268) [7e53e719534940db] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 游戏卡牌收集界面，六张科幻风格角色卡，有序号和数量，顶部有记录和赠送提示，画面充满科技感。...
@@ -1499,3 +1495,7 @@
 [2026-08-25 10:59:34.286] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 11:00:04.793] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 11:00:35.385] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 11:01:09.998] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
+[2026-08-25 11:01:09.998] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 11:01:10.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 11:01:40.074] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
