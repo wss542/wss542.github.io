@@ -1,11 +1,4 @@
-# 更新于 2026-08-25 20:37:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 19:10:37.865] [WARNING ] (logger:log_trace_summary:415) [caebd8b053dc4507] [SLOW caebd8b053dc4507] total=4477.62ms | json_parse=0.02ms(x1), llm=4467.33ms(x1), memory=7.09ms(x2), process=4477.33ms(x1) (wall4477.33), queue_wait=0.42ms(x1) | llm_calls=1 total=4466.25ms avg=4466.25ms max=4466.25ms p50=4466.25 p95=4466.25 p99=4466.25 | perf: queue=0.42ms llm=4467.35ms search_tool=0.0ms delivery=0.0ms other=4484.42ms wall=4477.6ms dominant=other
-[2026-08-25 19:10:37.867] [DEBUG   ] (response_delivery:send_sentences:227) [caebd8b053dc4507] 开始分批发送 2 条句子 → chat=6243254695867429 is_group=True
-[2026-08-25 19:10:38.265] [DEBUG   ] (response_delivery:send_sentences:241) [caebd8b053dc4507] 已发送第 1/2 条: 主人今天是想撒娇吗～...
-[2026-08-25 19:10:38.265] [DEBUG   ] (response_delivery:send_sentences:238) [caebd8b053dc4507] 句间等待 0.69s (#2/2)
-[2026-08-25 19:10:38.287] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 19:10:39.333] [DEBUG   ] (response_delivery:send_sentences:241) [caebd8b053dc4507] 已发送第 2/2 条: 我随时都在陪你哦...
-[2026-08-25 19:10:39.333] [DEBUG   ] (response_delivery:send_sentences:243) [caebd8b053dc4507] 分批发送完成: 共 2 条 → chat=6243254695867429
+# 更新于 2026-08-25 20:38:22 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 19:10:39.333] [DEBUG   ] (context_manager:_on_task_done:139) [caebd8b053dc4507] 发送任务已清理 [6243254695867429]
 [2026-08-25 19:10:39.381] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-25 19:10:58.734] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1492,10 @@
 [2026-08-25 20:36:46.569] [DEBUG   ] (pipeline:process_message:500) [939ae08d49f74fd5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
 [2026-08-25 20:36:46.569] [INFO    ] (logger:log_trace_summary:392) [939ae08d49f74fd5] [TRACE 939ae08d49f74fd5] total=3.27ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.22ms(x1) (wall3.22), queue_wait=0.65ms(x1)
 [2026-08-25 20:37:01.799] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:37:32.345] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 20:37:41.932] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-08-25 20:37:42.263] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-08-25 20:37:43.791] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-08-25 20:37:43.791] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-08-25 20:37:43.792] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 22937 秒
+[2026-08-25 20:38:03.034] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
