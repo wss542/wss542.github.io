@@ -1,33 +1,4 @@
-# 更新于 2026-08-25 19:13:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 18:08:59.278] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:08:59.278] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc.Hypixel net' is_edit=False
-[2026-08-25 18:08:59.279] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7b2ea1967dc441ad] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:08:59.279] [INFO    ] (dispatcher:_dispatch_inner:308) [7b2ea1967dc441ad] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/mc mc.Hypixel net'
-[2026-08-25 18:08:59.279] [DEBUG   ] (queues:enqueue_message:75) [7b2ea1967dc441ad] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:08:59.280] [INFO    ] (memory:merge_overflow_memory:419) [5207031440994a64] 长时记忆溢出缓冲: chat=1759953618 +1 = 5条 (阈值=10)
-[2026-08-25 18:08:59.280] [INFO    ] (pipeline:process_message:470) [5207031440994a64] 指令拦截: '/mc mc.Hypixel net' from=ywandwss
-[2026-08-25 18:08:59.281] [DEBUG   ] (commands:handle_command:4629) [5207031440994a64] 指令解析: prefix=/ cmd=mc args=['mc.Hypixel', 'net'] user=1759953618
-[2026-08-25 18:09:00.881] [INFO    ] (commands:handle_command:4671) [5207031440994a64] 指令执行完成 [mc]: 返回52字符
-[2026-08-25 18:09:00.991] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:00.992] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
-[2026-08-25 18:09:00.992] [DEBUG   ] (dispatcher:_dispatch_inner:110) [fe498e49537f45b3] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 18:09:00.993] [INFO    ] (dispatcher:_dispatch_inner:308) [fe498e49537f45b3] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='？'
-[2026-08-25 18:09:01.001] [DEBUG   ] (queues:enqueue_message:75) [fe498e49537f45b3] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 18:09:01.416] [INFO    ] (logger:log_trace_summary:392) [5207031440994a64] [TRACE 5207031440994a64] total=2136.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2136.38ms(x1) (wall2136.38), queue_wait=0.42ms(x1)
-[2026-08-25 18:09:01.418] [INFO    ] (memory:merge_overflow_memory:419) [f5df82dff1db4d89] 长时记忆溢出缓冲: chat=1759953618 +1 = 6条 (阈值=10)
-[2026-08-25 18:09:01.420] [DEBUG   ] (pipeline:process_message:500) [f5df82dff1db4d89] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='？'
-[2026-08-25 18:09:01.420] [DEBUG   ] (pipeline:process_message:531) [f5df82dff1db4d89] 私聊消息 → 直接回复
-[2026-08-25 18:09:01.514] [DEBUG   ] (pipeline:process_message:591) [f5df82dff1db4d89] 请求意图: intent=chat fast_search=False msg='？'
-[2026-08-25 18:09:01.570] [WARNING ] (pipeline:process_message:639) [f5df82dff1db4d89] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-25 18:09:01.614] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 18:09:01.663] [DEBUG   ] (memory:_record_memory_trace:318) [f5df82dff1db4d89] 记忆检索: source=legacy_file status=hit 命中注入=9 耗时=81.3ms
-[2026-08-25 18:09:01.669] [INFO    ] (pipeline:process_message:799) [f5df82dff1db4d89] 额外信息: 970字 (memory=436 search=0)
-[2026-08-25 18:09:01.675] [INFO    ] (pipeline:process_message:932) [f5df82dff1db4d89] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-25 18:09:01.680] [DEBUG   ] (pipeline:process_message:1061) [f5df82dff1db4d89] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-25 18:09:01.680] [INFO    ] (pipeline:process_message:1064) [f5df82dff1db4d89] 开始生成回复: speaker=ywandwss chat=1759953618
-[2026-08-25 18:09:10.143] [INFO    ] (llm:generate_multi_reply_with_tools:971) [f5df82dff1db4d89] LLM原始输出 [轮1]: content={"replies":["消耗数据已查","正在加载中"],"fav":0,"calls":[{"name":"run_code","arguments":{"language":"python","code":"print('fetching consumption data...')"}}],"face":"(emj)注视2（看）(emj)[3090677846298039/4KoWZFWIg | tool_calls=0
-[2026-08-25 18:09:10.144] [INFO    ] (llm:generate_multi_reply_with_tools:981) [f5df82dff1db4d89] 从 JSON content 提取到 1 个工具调用（非原生 FC）
-[2026-08-25 18:09:10.144] [INFO    ] (llm:generate_multi_reply_with_tools:1036) [f5df82dff1db4d89] FC: 轮1 检测到 1 个工具调用
+# 更新于 2026-08-25 19:13:56 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 18:09:10.220] [INFO    ] (main:_handle_run_code:289) [f5df82dff1db4d89] run_code 完成: lang=python rc=0 产物=0
 [2026-08-25 18:09:10.222] [INFO    ] (llm:generate_multi_reply_with_tools:1064) [f5df82dff1db4d89] FC: 工具 run_code 返回 35 字符
 [2026-08-25 18:09:10.224] [INFO    ] (llm:call_llm:427) [f5df82dff1db4d89] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=8000 temp=0.4 timeout=60.0s
@@ -1499,3 +1470,32 @@ fetching consumpt...
 [2026-08-25 19:13:13.612] [INFO    ] (commands:handle_command:4675) [7b5f2fd03b894c9e] 指令执行完成 [mc]: 返回41字符
 [2026-08-25 19:13:14.071] [INFO    ] (logger:log_trace_summary:392) [7b5f2fd03b894c9e] [TRACE 7b5f2fd03b894c9e] total=460.16ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=460.11ms(x1) (wall460.11), queue_wait=0.27ms(x1)
 [2026-08-25 19:13:14.082] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:25.193] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:25.193] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc.hypixel.net' is_edit=False
+[2026-08-25 19:13:25.193] [DEBUG   ] (dispatcher:_dispatch_inner:110) [23ac55d2b99e4e0c] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-25 19:13:25.194] [INFO    ] (dispatcher:_dispatch_inner:308) [23ac55d2b99e4e0c] 📩 消息 #16 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/mc mc.hypixel.net'
+[2026-08-25 19:13:25.194] [INFO    ] (queues:_get_or_create_queue:32) [23ac55d2b99e4e0c] [队列] 创建群1759953618 的独立消息队列
+[2026-08-25 19:13:25.194] [DEBUG   ] (queues:enqueue_message:75) [23ac55d2b99e4e0c] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-25 19:13:25.195] [INFO    ] (memory:merge_overflow_memory:419) [add099a1b06f4ae7] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-25 19:13:25.196] [INFO    ] (pipeline:process_message:470) [add099a1b06f4ae7] 指令拦截: '/mc mc.hypixel.net' from=ywandwss
+[2026-08-25 19:13:25.196] [DEBUG   ] (commands:handle_command:4633) [add099a1b06f4ae7] 指令解析: prefix=/ cmd=mc args=['mc.hypixel.net'] user=1759953618
+[2026-08-25 19:13:27.411] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:28.216] [INFO    ] (commands:handle_command:4677) [add099a1b06f4ae7] 指令执行完成 [mc]: 无返回值（已自行发送）
+[2026-08-25 19:13:28.216] [INFO    ] (logger:log_trace_summary:392) [add099a1b06f4ae7] [TRACE add099a1b06f4ae7] total=3021.51ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3021.47ms(x1) (wall3021.47), queue_wait=0.31ms(x1)
+[2026-08-25 19:13:28.216] [WARNING ] (logger:log_trace_summary:415) [add099a1b06f4ae7] [SLOW add099a1b06f4ae7] total=3021.69ms | process=3021.47ms(x1) (wall3021.47), queue_wait=0.31ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.31ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3021.47ms wall=3021.67ms dominant=other
+[2026-08-25 19:13:28.230] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:41.915] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3302)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 19:13:42.394] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:42.513] [INFO    ] (bot:_patched_consume_pkg:254) [-] ✏️ 编辑消息作者反查: id=1759953618 username=wss
+[2026-08-25 19:13:42.514] [INFO    ] (bot:_patched_consume_pkg:290) [-] ✏️ 编辑消息 → dispatcher: mid=39f828ea-bf70-44d3-ad2f-b38a12ccb8e3 chat=6243254695867429 type=255
+[2026-08-25 19:13:42.514] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=1 content='/mc mc.hypixel.net' is_edit=True
+[2026-08-25 19:13:42.514] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ed2fb19f51174fc2] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 19:13:42.514] [INFO    ] (dispatcher:_dispatch_inner:308) [ed2fb19f51174fc2] 📩 消息 #17 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/mc mc.hypixel.net'
+[2026-08-25 19:13:42.515] [DEBUG   ] (queues:enqueue_message:75) [ed2fb19f51174fc2] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 19:13:42.515] [INFO    ] (memory:merge_overflow_memory:419) [3712f0281324482d] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 5条 (阈值=10)
+[2026-08-25 19:13:42.516] [INFO    ] (pipeline:process_message:470) [3712f0281324482d] 指令拦截: '/mc mc.hypixel.net' from=ywandwss
+[2026-08-25 19:13:42.516] [DEBUG   ] (commands:handle_command:4633) [3712f0281324482d] 指令解析: prefix=/ cmd=mc args=['mc.hypixel.net'] user=1759953618
+[2026-08-25 19:13:44.126] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 19:13:44.433] [INFO    ] (commands:handle_command:4677) [3712f0281324482d] 指令执行完成 [mc]: 无返回值（已自行发送）
+[2026-08-25 19:13:44.433] [INFO    ] (logger:log_trace_summary:392) [3712f0281324482d] [TRACE 3712f0281324482d] total=1917.98ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1917.92ms(x1) (wall1917.92), queue_wait=0.38ms(x1)
+[2026-08-25 19:13:44.470] [DEBUG   ] (bot:_patched_consume_pkg:208) [ed2fb19f51174fc2] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
