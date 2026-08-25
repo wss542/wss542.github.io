@@ -1,10 +1,4 @@
-# 更新于 2026-08-25 11:02:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 00:18:48.647] [INFO    ] (image_api:recognize_image:251) [7e53e719534940db] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=5119c96cba7c...) model=deepseek-v4-flash-vision-exp
-[2026-08-25 00:18:50.953] [INFO    ] (image_api:recognize_image:268) [7e53e719534940db] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 游戏卡牌收集界面，六张科幻风格角色卡，有序号和数量，顶部有记录和赠送提示，画面充满科技感。...
-[2026-08-25 00:18:50.955] [DEBUG   ] (image_api:_save:64) [7e53e719534940db] 图片缓存已写入磁盘: 312 条
-[2026-08-25 00:18:50.957] [DEBUG   ] (image_api:_save_to_repo:303) [7e53e719534940db] 图片仓库追加: MD5=5119c96cba7c... → '游戏卡牌收集界面，六张科幻风格角色卡，有序号和数量，顶部有记'
-[2026-08-25 00:18:50.957] [INFO    ] (dispatcher:_do_recognize_image:914) [7e53e719534940db] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '游戏卡牌收集界面，六张科幻风格角色卡，有序号和数量，顶部有记录和赠送提示，画面充满科技感。...' (45字) url=https://img.kookapp.cn/assets/2026-08/25/3GIeAkn2tK15s0c5.pn
-[2026-08-25 00:18:50.958] [INFO    ] (dispatcher:_dispatch_inner:400) [7e53e719534940db] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '游戏卡牌收集界面，六张科幻风格角色卡，有序号和数量，顶部有记录和赠送提示，画面充满科技感。...'
+# 更新于 2026-08-25 11:03:13 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 00:18:50.958] [DEBUG   ] (queues:enqueue_message:75) [7e53e719534940db] [队列] 群9231565360961340 消息已入队 (队长度=1)
 [2026-08-25 00:18:50.958] [INFO    ] (pipeline:process_message:367) [d8ac5909b09a4368] 附带图片已记录 [chat=9231565360961340] count=1
 [2026-08-25 00:18:50.959] [INFO    ] (memory:merge_overflow_memory:419) [d8ac5909b09a4368] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 9条 (阈值=10)
@@ -1499,3 +1493,9 @@
 [2026-08-25 11:01:10.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 11:01:40.074] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 11:02:10.540] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 11:02:41.060] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 11:02:56.652] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
+[2026-08-25 11:02:56.652] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-25 11:03:11.416] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12296)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-25 11:03:11.900] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
+[2026-08-25 11:03:11.901] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
