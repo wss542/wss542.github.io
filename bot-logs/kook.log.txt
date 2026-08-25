@@ -1,47 +1,4 @@
-# 更新于 2026-08-25 18:51:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-25 15:41:41.724] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 29903 秒 (下次 00:00:05)
-[2026-08-25 15:41:42.221] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-25 15:41:44.144] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-25 15:41:44.151] [WARNING ] (agnes:_gen_image_zhipu:82) [-] ZHIPU_KEY 未配置，游戏类生图降级到 Pollinations
-[2026-08-25 15:41:55.839] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-25 15:42:11.424] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:42:42.143] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:43:12.742] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:43:43.378] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:44:14.013] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:44:44.616] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:45:14.977] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:45:45.464] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:45:57.266] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 15:45:57.268] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/draw 16:9 minecraft 1.8.9 bedwars pvp fov' is_edit=False
-[2026-08-25 15:45:57.269] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ab8c95e1e4234c89] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-25 15:45:57.271] [INFO    ] (dispatcher:_dispatch_inner:308) [ab8c95e1e4234c89] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/draw 16:9 minecraft 1.8.9 bedwars pvp fov'
-[2026-08-25 15:45:57.272] [INFO    ] (queues:_get_or_create_queue:32) [ab8c95e1e4234c89] [队列] 创建群1759953618 的独立消息队列
-[2026-08-25 15:45:57.272] [DEBUG   ] (queues:enqueue_message:75) [ab8c95e1e4234c89] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-25 15:45:57.276] [INFO    ] (memory:merge_overflow_memory:419) [ba345967cf464c48] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
-[2026-08-25 15:45:57.284] [INFO    ] (pipeline:process_message:470) [ba345967cf464c48] 指令拦截: '/draw 16:9 minecraft 1.8.9 bedwars pvp f' from=ywandwss
-[2026-08-25 15:45:57.284] [DEBUG   ] (commands:handle_command:4606) [ba345967cf464c48] 指令解析: prefix=/ cmd=draw args=['16:9', 'minecraft', '1.8.9', 'bedwars', 'pvp', 'fov'] user=1759953618
-[2026-08-25 15:45:57.869] [INFO    ] (commands:handle_command:4648) [ba345967cf464c48] 指令执行完成 [draw]: 返回28字符
-[2026-08-25 15:45:57.877] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 15:45:58.275] [INFO    ] (logger:log_trace_summary:392) [ba345967cf464c48] [TRACE ba345967cf464c48] total=1002.22ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1002.09ms(x1) (wall1002.09), queue_wait=1.22ms(x1)
-[2026-08-25 15:45:58.303] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 15:46:05.045] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 15:46:05.459] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-25 15:46:15.808] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:46:46.334] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:47:16.831] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:47:47.649] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:48:18.318] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:48:48.960] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:49:19.457] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:49:50.231] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:50:20.588] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:50:51.327] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:51:21.868] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:51:52.494] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:52:22.873] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:52:53.622] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-25 15:53:24.122] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-25 18:51:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-25 15:53:54.971] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-25 15:54:25.750] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-08-25 15:54:56.475] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10498)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1456,46 @@ fetching consumpt...
 [2026-08-25 18:51:09.318] [INFO    ] (commands:handle_command:4675) [6c4bc4d71fcf4a4c] 指令执行完成 [at]: 返回52字符
 [2026-08-25 18:51:09.736] [INFO    ] (logger:log_trace_summary:392) [6c4bc4d71fcf4a4c] [TRACE 6c4bc4d71fcf4a4c] total=424.49ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=424.44ms(x1) (wall424.44), queue_wait=0.37ms(x1)
 [2026-08-25 18:51:09.737] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:11.634] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:11.635] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵～' is_edit=False
+[2026-08-25 18:51:11.635] [DEBUG   ] (dispatcher:_dispatch_inner:110) [707472777cd14600] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 18:51:11.635] [INFO    ] (dispatcher:_dispatch_inner:288) [707472777cd14600] 🤖 正则自动回复命中: '喵～' -> '喵~'
+[2026-08-25 18:51:12.116] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:18.034] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:18.035] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你可以干什么呢' is_edit=False
+[2026-08-25 18:51:18.036] [DEBUG   ] (dispatcher:_dispatch_inner:110) [69dbabe397c34045] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-25 18:51:18.036] [INFO    ] (dispatcher:_dispatch_inner:308) [69dbabe397c34045] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='你可以干什么呢'
+[2026-08-25 18:51:18.038] [DEBUG   ] (queues:enqueue_message:75) [69dbabe397c34045] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-25 18:51:18.039] [INFO    ] (memory:merge_overflow_memory:419) [96b80ac43ecd4b71] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 4条 (阈值=10)
+[2026-08-25 18:51:18.040] [DEBUG   ] (pipeline:process_message:500) [96b80ac43ecd4b71] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='你可以干什么呢'
+[2026-08-25 18:51:18.040] [INFO    ] (pipeline:process_message:544) [96b80ac43ecd4b71] 免@模式 → 直接回复（跳过 judge）
+[2026-08-25 18:51:18.047] [DEBUG   ] (pipeline:process_message:591) [96b80ac43ecd4b71] 请求意图: intent=chat fast_search=False msg='你可以干什么呢'
+[2026-08-25 18:51:18.064] [WARNING ] (pipeline:process_message:639) [96b80ac43ecd4b71] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-25 18:51:18.073] [DEBUG   ] (memory:_record_memory_trace:318) [96b80ac43ecd4b71] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=6.6ms
+[2026-08-25 18:51:18.090] [DEBUG   ] (pipeline:process_message:795) [96b80ac43ecd4b71] extra_info 按预算丢弃 1 项: ['memory:memory']
+[2026-08-25 18:51:18.091] [INFO    ] (pipeline:process_message:799) [96b80ac43ecd4b71] 额外信息: 332字 (memory=0 search=0)
+[2026-08-25 18:51:18.092] [INFO    ] (pipeline:process_message:932) [96b80ac43ecd4b71] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-25 18:51:18.095] [DEBUG   ] (pipeline:process_message:1061) [96b80ac43ecd4b71] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-25 18:51:18.096] [INFO    ] (pipeline:process_message:1064) [96b80ac43ecd4b71] 开始生成回复: speaker=ywandwss chat=6243254695867429
+[2026-08-25 18:51:20.058] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14353)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=18
+[2026-08-25 18:51:23.507] [INFO    ] (llm:generate_multi_reply_with_tools:971) [96b80ac43ecd4b71] LLM原始输出 [轮1]: content={"replies":["我可以聊天、查资料、生成网页和小游戏喵～","还能讲笑话、搜视频，陪主人解闷！"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor | tool_calls=0
+[2026-08-25 18:51:23.511] [WARNING ] (face_lib:_init:29) [96b80ac43ecd4b71] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-08-25 18:51:23.512] [INFO    ] (llm:_parse_reply:1314) [96b80ac43ecd4b71] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
+[2026-08-25 18:51:23.516] [INFO    ] (fav:update_fav:105) [96b80ac43ecd4b71] 好感度更新: g6243254695867429:1759953618 +2 → 100
+[2026-08-25 18:51:23.516] [INFO    ] (pipeline:process_message:1547) [96b80ac43ecd4b71] 好感度调整: ywandwss +2 (chat=6243254695867429)
+[2026-08-25 18:51:23.517] [INFO    ] (memory:maybe_save_memory:401) [96b80ac43ecd4b71] 触发自动记忆 [6243254695867429]: 6 条
+[2026-08-25 18:51:23.517] [INFO    ] (pipeline:process_message:1553) [96b80ac43ecd4b71] ✅ 管道处理完成: 2句 sent chat=6243254695867429
+[2026-08-25 18:51:23.517] [DEBUG   ] (pipeline:process_message:1575) [96b80ac43ecd4b71] Fast Path 主题已记录: chat=6243254695867429 topic='你可以干什么呢'
+[2026-08-25 18:51:23.517] [INFO    ] (logger:log_trace_summary:392) [96b80ac43ecd4b71] [TRACE 96b80ac43ecd4b71] total=5478.74ms severity=slow_request | llm_calls=1 total=5366.51ms avg=5366.51ms max=5366.51ms p50=5366.51 p95=5366.51 p99=5366.51 | json_parse=1.9ms(x1), llm=5417.39ms(x1), memory=13.53ms(x2), process=5478.68ms(x1) (wall5478.68), queue_wait=0.46ms(x1)
+[2026-08-25 18:51:23.518] [WARNING ] (logger:log_trace_summary:415) [96b80ac43ecd4b71] [SLOW 96b80ac43ecd4b71] total=5479.0ms | json_parse=1.9ms(x1), llm=5417.39ms(x1), memory=13.53ms(x2), process=5478.68ms(x1) (wall5478.68), queue_wait=0.46ms(x1) | llm_calls=1 total=5366.51ms avg=5366.51ms max=5366.51ms p50=5366.51 p95=5366.51 p99=5366.51 | perf: queue=0.46ms llm=5419.29ms search_tool=0.0ms delivery=0.0ms other=5492.21ms wall=5478.99ms dominant=other
+[2026-08-25 18:51:23.519] [DEBUG   ] (response_delivery:send_sentences:227) [96b80ac43ecd4b71] 开始分批发送 2 条句子 → chat=6243254695867429 is_group=True
+[2026-08-25 18:51:23.520] [INFO    ] (llm:call_llm:427) [96b80ac43ecd4b71] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-25 18:51:24.071] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:24.082] [DEBUG   ] (response_delivery:send_sentences:241) [96b80ac43ecd4b71] 已发送第 1/2 条: 我可以聊天、查资料、生成网页和小游戏喵～...
+[2026-08-25 18:51:24.082] [DEBUG   ] (response_delivery:send_sentences:238) [96b80ac43ecd4b71] 句间等待 0.88s (#2/2)
+[2026-08-25 18:51:25.531] [DEBUG   ] (response_delivery:send_sentences:241) [96b80ac43ecd4b71] 已发送第 2/2 条: 还能讲笑话、搜视频，陪主人解闷！...
+[2026-08-25 18:51:25.531] [DEBUG   ] (response_delivery:send_sentences:243) [96b80ac43ecd4b71] 分批发送完成: 共 2 条 → chat=6243254695867429
+[2026-08-25 18:51:25.531] [DEBUG   ] (context_manager:_on_task_done:139) [96b80ac43ecd4b71] 发送任务已清理 [6243254695867429]
+[2026-08-25 18:51:25.653] [DEBUG   ] (bot:_patched_consume_pkg:208) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-25 18:51:26.541] [INFO    ] (llm:call_llm:489) [96b80ac43ecd4b71] LLM [Qwen/Qwen3-235B-A22B] 返回 161字符 耗时3.0s → "[18:51:23] ywandwss, 茂密: ywandwss说了你可以干什么呢, 茂密回复我可..."
+[2026-08-25 18:51:26.543] [INFO    ] (memory:_compress_with_deepseek:210) [96b80ac43ecd4b71] [6243254695867429] 压缩完成: 6条消息 → 保存
