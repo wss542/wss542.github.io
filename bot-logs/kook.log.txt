@@ -1,14 +1,4 @@
-# 更新于 2026-08-26 17:33:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:46:08.652] [DEBUG   ] (pipeline:process_message:591) [6a4e291156e246a1] 请求意图: intent=chat fast_search=False msg='嘻嘻'
-[2026-08-26 15:46:08.679] [WARNING ] (pipeline:process_message:639) [6a4e291156e246a1] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-26 15:46:08.692] [DEBUG   ] (memory:_record_memory_trace:318) [6a4e291156e246a1] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=10.2ms
-[2026-08-26 15:46:08.697] [DEBUG   ] (pipeline:process_message:795) [6a4e291156e246a1] extra_info 按预算丢弃 1 项: ['memory:memory']
-[2026-08-26 15:46:08.697] [INFO    ] (pipeline:process_message:799) [6a4e291156e246a1] 额外信息: 333字 (memory=0 search=0)
-[2026-08-26 15:46:08.699] [INFO    ] (pipeline:process_message:932) [6a4e291156e246a1] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-26 15:46:08.702] [DEBUG   ] (pipeline:process_message:1061) [6a4e291156e246a1] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-26 15:46:08.702] [INFO    ] (pipeline:process_message:1064) [6a4e291156e246a1] 开始生成回复: speaker=ywandwss chat=6243254695867429
-[2026-08-26 15:46:15.675] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 15:46:30.087] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-26 17:34:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:46:30.087] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你现在可以干什么' is_edit=False
 [2026-08-26 15:46:30.088] [DEBUG   ] (dispatcher:_dispatch_inner:110) [55ac268b7f3d4406] KMD 调试: is_group=False uid=1759953618 channel=1759953618
 [2026-08-26 15:46:30.088] [INFO    ] (dispatcher:_dispatch_inner:308) [55ac268b7f3d4406] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你现在可以干什么'
@@ -1499,3 +1489,13 @@
 [2026-08-26 17:33:06.006] [DEBUG   ] (pipeline:process_message:500) [bba2c6dd4915457c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我给删了（）'
 [2026-08-26 17:33:06.007] [INFO    ] (logger:log_trace_summary:392) [bba2c6dd4915457c] [TRACE bba2c6dd4915457c] total=1.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.86ms(x1) (wall1.86), queue_wait=0.3ms(x1)
 [2026-08-26 17:33:15.082] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:33:27.784] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:33:27.785] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='这东西在这里会暴露你的tunnel url' is_edit=False
+[2026-08-26 17:33:27.785] [DEBUG   ] (dispatcher:_dispatch_inner:110) [374087da3bb24795] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:33:27.785] [INFO    ] (dispatcher:_dispatch_inner:308) [374087da3bb24795] 📩 消息 #48 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='这东西在这里会暴露你的tunnel url'
+[2026-08-26 17:33:27.786] [DEBUG   ] (queues:enqueue_message:75) [374087da3bb24795] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:33:27.786] [INFO    ] (memory:merge_overflow_memory:419) [6de8b2d2533341fc] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
+[2026-08-26 17:33:27.787] [DEBUG   ] (pipeline:process_message:500) [6de8b2d2533341fc] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='这东西在这里会暴露你的tunnel url'
+[2026-08-26 17:33:27.787] [INFO    ] (logger:log_trace_summary:392) [6de8b2d2533341fc] [TRACE 6de8b2d2533341fc] total=1.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.29ms(x1) (wall1.29), queue_wait=0.45ms(x1)
+[2026-08-26 17:33:45.502] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:34:16.125] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
