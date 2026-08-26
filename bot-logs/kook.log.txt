@@ -1,25 +1,4 @@
-# 更新于 2026-08-26 17:19:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:08:44.426] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-26 15:08:44.427] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-26 15:08:44.428] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-26 15:08:44.428] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-26 15:08:44.429] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-26 15:08:44.430] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-26 15:08:44.430] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-26 15:08:44.431] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-26 15:08:44.431] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-26 15:08:44.432] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-26 15:08:44.432] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-26 15:08:44.432] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-26 15:08:44.437] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-26 15:08:44.437] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-26 15:08:44.438] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-26 15:08:44.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-26 15:08:44.439] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-26 15:08:44.444] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-26 15:08:44.445] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-26 15:08:44.445] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-26 15:08:44.446] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+# 更新于 2026-08-26 17:20:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:08:44.446] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
 [2026-08-26 15:08:44.447] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-08-26 15:08:44.447] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
@@ -1499,3 +1478,24 @@
 [2026-08-26 17:18:28.256] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 17:18:58.844] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 17:19:29.402] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:19:59.024] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:19:59.024] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.摸头 (met)337936062(met) ' is_edit=False
+[2026-08-26 17:19:59.024] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7afa437a80b94747] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:19:59.024] [INFO    ] (dispatcher:_dispatch_inner:308) [7afa437a80b94747] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.摸头 (met)337936062(met) '
+[2026-08-26 17:19:59.025] [DEBUG   ] (queues:enqueue_message:75) [7afa437a80b94747] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:19:59.027] [INFO    ] (memory:merge_overflow_memory:419) [8affa9349685409d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
+[2026-08-26 17:19:59.028] [DEBUG   ] (pipeline:process_message:500) [8affa9349685409d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.摸头 @제미니 (shuangzi_1228)  '
+[2026-08-26 17:19:59.028] [DEBUG   ] (pipeline:process_message:510) [8affa9349685409d] 点前缀消息忽略（其它 bot 命令）: '.摸头 @제미니 (shuangzi_1228)  '
+[2026-08-26 17:19:59.028] [INFO    ] (logger:log_trace_summary:392) [8affa9349685409d] [TRACE 8affa9349685409d] total=2.5ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.45ms(x1) (wall2.45), queue_wait=0.76ms(x1)
+[2026-08-26 17:20:00.068] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:20:00.884] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:20:00.884] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='❌ 摸头生成失败：' is_edit=False
+[2026-08-26 17:20:00.885] [DEBUG   ] (dispatcher:_dispatch_inner:107) [e182d1976802487f] 跳过 bot 消息: uid=1341019011
+[2026-08-26 17:20:19.169] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:20:19.169] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？！滚木！？' is_edit=False
+[2026-08-26 17:20:19.169] [DEBUG   ] (dispatcher:_dispatch_inner:110) [72d6827253f249fd] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:20:19.169] [INFO    ] (dispatcher:_dispatch_inner:308) [72d6827253f249fd] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='？！滚木！？'
+[2026-08-26 17:20:19.170] [DEBUG   ] (queues:enqueue_message:75) [72d6827253f249fd] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:20:19.171] [INFO    ] (memory:merge_overflow_memory:419) [488aafb8aeab4d44] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
+[2026-08-26 17:20:19.171] [DEBUG   ] (pipeline:process_message:500) [488aafb8aeab4d44] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？！滚木！？'
+[2026-08-26 17:20:19.172] [INFO    ] (logger:log_trace_summary:392) [488aafb8aeab4d44] [TRACE 488aafb8aeab4d44] total=1.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.99ms(x1) (wall0.99), queue_wait=0.33ms(x1)
