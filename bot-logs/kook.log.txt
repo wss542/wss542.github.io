@@ -1,8 +1,4 @@
-# 更新于 2026-08-26 19:37:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:51:15.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-26 16:51:15.572] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-26 16:51:15.573] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-26 16:51:15.573] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+# 更新于 2026-08-26 19:38:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:51:15.574] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
 [2026-08-26 16:51:15.574] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
 [2026-08-26 16:51:15.574] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
@@ -1499,3 +1495,7 @@
 [2026-08-26 19:37:39.995] [DEBUG   ] (pipeline:process_message:500) [944d551a1e7944c9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='可'
 [2026-08-26 19:37:39.995] [INFO    ] (logger:log_trace_summary:392) [944d551a1e7944c9] [TRACE 944d551a1e7944c9] total=3.18ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.14ms(x1) (wall3.14), queue_wait=1.27ms(x1)
 [2026-08-26 19:37:58.833] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-26 19:38:11.290] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=241ms]: '**爱真的需要勇气 来面对流言蜚语**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:38:19.217] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=600ms]: '**只要你一个眼神肯定 我的爱就有意义**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:38:28.253] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=554ms]: '**我们都需要勇气 去相信会在一起**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:38:29.370] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们都需要勇气 去相信会在一起**' keys=18
