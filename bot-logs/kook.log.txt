@@ -1,24 +1,4 @@
-# 更新于 2026-08-26 19:23:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:44:47.928] [DEBUG   ] (pipeline:process_message:1061) [7072d3c0c98e495b] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-26 16:44:47.928] [INFO    ] (pipeline:process_message:1064) [7072d3c0c98e495b] 开始生成回复: speaker=ywandwss chat=1759953618
-[2026-08-26 16:44:53.739] [ERROR   ] (llm:call_llm_with_tools:657) [7072d3c0c98e495b] LLM FC [openrouter:] 失败: Error code: 400 - {'error': {'message': 'openrouter: is not a valid model ID', 'code': 400}, 'user_id': 'user_3IROwjLfnhFTCsUmgpvIwDDVlI0'}
-[2026-08-26 16:44:53.740] [INFO    ] (llm:generate_multi_reply_with_tools:971) [7072d3c0c98e495b] LLM原始输出 [轮1]: content= | tool_calls=0
-[2026-08-26 16:44:53.740] [WARNING ] (llm:generate_multi_reply_with_tools:986) [7072d3c0c98e495b] LLM 返回空内容，重试...
-[2026-08-26 16:44:54.408] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:44:55.920] [ERROR   ] (llm:call_llm_with_tools:657) [7072d3c0c98e495b] LLM FC [openrouter:] 失败: Error code: 400 - {'error': {'message': 'openrouter: is not a valid model ID', 'code': 400}, 'user_id': 'user_3IROwjLfnhFTCsUmgpvIwDDVlI0'}
-[2026-08-26 16:44:55.921] [INFO    ] (llm:generate_multi_reply_with_tools:971) [7072d3c0c98e495b] LLM原始输出 [轮2]: content= | tool_calls=0
-[2026-08-26 16:44:55.921] [WARNING ] (llm:generate_multi_reply_with_tools:989) [7072d3c0c98e495b] LLM 连续返回空内容，用 json_mode 兜底...
-[2026-08-26 16:44:55.922] [INFO    ] (llm:call_llm:427) [7072d3c0c98e495b] 调用LLM [openrouter:] url=api tokens=800 temp=0.3 timeout=60.0s
-[2026-08-26 16:44:58.465] [ERROR   ] (llm:call_llm:520) [7072d3c0c98e495b] LLM [openrouter:] 调用失败 (2.5s): Error code: 400 - {'error': {'message': 'openrouter: is not a valid model ID', 'code': 400}, 'user_id': 'user_3IROwjLfnhFTCsUmgpvIwDDVlI0'}
-[2026-08-26 16:44:58.466] [ERROR   ] (llm:generate_multi_reply_with_tools:999) [7072d3c0c98e495b] json_mode 兜底仍失败，放弃
-[2026-08-26 16:44:59.052] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 16:44:59.056] [WARNING ] (pipeline:process_message:1095) [7072d3c0c98e495b] LLM 未返回有效句子，已发送失败提示
-[2026-08-26 16:44:59.057] [INFO    ] (logger:log_trace_summary:392) [7072d3c0c98e495b] [TRACE 7072d3c0c98e495b] total=11136.62ms severity=very_slow_request | llm_calls=3 total=10532.96ms avg=3510.99ms max=5811.01ms p50=2542.73 p95=5484.18 p99=5745.65 | llm=10539.01ms(x1), memory=6.67ms(x2), process=11136.53ms(x1) (wall11136.53), queue_wait=0.41ms(x1)
-[2026-08-26 16:44:59.057] [WARNING ] (logger:log_trace_summary:410) [7072d3c0c98e495b] [VERY_SLOW 7072d3c0c98e495b] total=11137.04ms 需重点排查 | llm=10539.01ms(x1), memory=6.67ms(x2), process=11136.53ms(x1) (wall11136.53), queue_wait=0.41ms(x1) | llm_calls=3 total=10532.96ms avg=3510.99ms max=5811.01ms p50=2542.73 p95=5484.18 p99=5745.65 | perf: queue=0.41ms llm=10539.01ms search_tool=0.0ms delivery=0.0ms other=11143.2ms wall=11136.96ms dominant=other
-[2026-08-26 16:45:24.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:45:55.863] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:46:26.446] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:46:57.389] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+# 更新于 2026-08-26 19:24:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:47:27.929] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 16:47:58.718] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 16:48:29.132] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
@@ -1499,3 +1479,23 @@
 [2026-08-26 19:23:42.283] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=779ms]: '**我愿意天涯海角都随你去 我知道一切不容易**' song=梁静茹 - 勇气 playing=True channel=None
 [2026-08-26 19:23:44.520] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我愿意天涯海角都随你去 我知道一切不容易**' keys=17
 [2026-08-26 19:23:50.196] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=498ms]: '**我的心一直温习说服自己 最怕你忽然说要放弃**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:23:55.871] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=832ms]: '**⏸ 已暂停**' song=梁静茹 - 勇气 playing=False channel=None
+[2026-08-26 19:23:57.042] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=exited_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:24:15.165] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 19:24:17.075] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:24:17.076] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='6咋跑了' is_edit=False
+[2026-08-26 19:24:17.076] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e03ed5c169d74746] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-26 19:24:17.076] [INFO    ] (dispatcher:_dispatch_inner:308) [e03ed5c169d74746] 📩 消息 #72 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='6咋跑了'
+[2026-08-26 19:24:17.079] [INFO    ] (queues:_get_or_create_queue:32) [e03ed5c169d74746] [队列] 创建群7274785942250691 的独立消息队列
+[2026-08-26 19:24:17.080] [DEBUG   ] (queues:enqueue_message:75) [e03ed5c169d74746] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-26 19:24:17.083] [INFO    ] (memory:merge_overflow_memory:419) [75767d43b3004f78] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-26 19:24:17.085] [DEBUG   ] (pipeline:process_message:500) [75767d43b3004f78] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6咋跑了'
+[2026-08-26 19:24:17.085] [INFO    ] (logger:log_trace_summary:392) [75767d43b3004f78] [TRACE 75767d43b3004f78] total=5.1ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5.05ms(x1) (wall5.05), queue_wait=0.71ms(x1)
+[2026-08-26 19:24:25.840] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:24:25.841] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='无聊qwq' is_edit=False
+[2026-08-26 19:24:25.842] [DEBUG   ] (dispatcher:_dispatch_inner:110) [fe2ae0deb711413c] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-26 19:24:25.842] [INFO    ] (dispatcher:_dispatch_inner:308) [fe2ae0deb711413c] 📩 消息 #73 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='无聊qwq'
+[2026-08-26 19:24:25.843] [DEBUG   ] (queues:enqueue_message:75) [fe2ae0deb711413c] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-26 19:24:25.844] [INFO    ] (memory:merge_overflow_memory:419) [e83f74cbaf554eae] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+[2026-08-26 19:24:25.844] [DEBUG   ] (pipeline:process_message:500) [e83f74cbaf554eae] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='无聊qwq'
+[2026-08-26 19:24:25.844] [INFO    ] (logger:log_trace_summary:392) [e83f74cbaf554eae] [TRACE e83f74cbaf554eae] total=1.25ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.21ms(x1) (wall1.21), queue_wait=0.6ms(x1)
