@@ -1,15 +1,4 @@
-# 更新于 2026-08-26 17:37:27 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:47:09.420] [DEBUG   ] (response_delivery:send_sentences:241) [1421068f80264115] 已发送第 2/2 条: 随时奉陪！...
-[2026-08-26 15:47:09.420] [DEBUG   ] (response_delivery:send_sentences:243) [1421068f80264115] 分批发送完成: 共 2 条 → chat=1759953618
-[2026-08-26 15:47:09.420] [DEBUG   ] (context_manager:_on_task_done:139) [1421068f80264115] 发送任务已清理 [1759953618]
-[2026-08-26 15:47:15.647] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-26 15:47:15.648] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-26 15:47:16.772] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 15:47:19.978] [INFO    ] (llm:generate_multi_reply_with_tools:971) [6a4e291156e246a1] LLM原始输出 [轮2]: content={"replies":["嘻嘻，主人今天心情不错嘛～(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":1,"calls":[],"face":"开心1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandwss","q | tool_calls=0
-[2026-08-26 15:47:19.978] [INFO    ] (llm:_parse_reply:1314) [6a4e291156e246a1] JSON回复解析: 1句 fav=+1 calls=0 mood=开心
-[2026-08-26 15:47:19.979] [INFO    ] (fav:update_fav:105) [6a4e291156e246a1] 好感度更新: g6243254695867429:1759953618 +1 → 100
-[2026-08-26 15:47:19.979] [INFO    ] (pipeline:process_message:1547) [6a4e291156e246a1] 好感度调整: ywandwss +1 (chat=6243254695867429)
-[2026-08-26 15:47:19.979] [INFO    ] (memory:maybe_save_memory:401) [6a4e291156e246a1] 触发自动记忆 [6243254695867429]: 3 条
+# 更新于 2026-08-26 17:38:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:47:19.980] [INFO    ] (pipeline:process_message:1553) [6a4e291156e246a1] ✅ 管道处理完成: 1句 sent chat=6243254695867429
 [2026-08-26 15:47:19.980] [INFO    ] (logger:log_trace_summary:392) [6a4e291156e246a1] [TRACE 6a4e291156e246a1] total=71335.55ms severity=very_slow_request | llm_calls=2 total=71263.3ms avg=35631.65ms max=60002.42ms p50=35631.65 p95=57565.35 p99=59515.01 | json_parse=0.03ms(x1), llm=71276.26ms(x1), memory=20.77ms(x2), process=71335.51ms(x1) (wall71335.51), queue_wait=0.48ms(x1)
 [2026-08-26 15:47:19.980] [WARNING ] (logger:log_trace_summary:410) [6a4e291156e246a1] [VERY_SLOW 6a4e291156e246a1] total=71335.85ms 需重点排查 | json_parse=0.03ms(x1), llm=71276.26ms(x1), memory=20.77ms(x2), process=71335.51ms(x1) (wall71335.51), queue_wait=0.48ms(x1) | llm_calls=2 total=71263.3ms avg=35631.65ms max=60002.42ms p50=35631.65 p95=57565.35 p99=59515.01 | perf: queue=0.48ms llm=71276.29ms search_tool=0.0ms delivery=0.0ms other=71356.28ms wall=71335.83ms dominant=other
@@ -1499,3 +1488,14 @@
 [2026-08-26 17:37:03.730] [DEBUG   ] (pipeline:process_message:500) [49f12cba18094308] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='😂'
 [2026-08-26 17:37:03.731] [INFO    ] (logger:log_trace_summary:392) [49f12cba18094308] [TRACE 49f12cba18094308] total=1.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.28ms(x1) (wall1.28), queue_wait=0.42ms(x1)
 [2026-08-26 17:37:19.429] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:37:38.117] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:37:38.117] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='6' is_edit=False
+[2026-08-26 17:37:38.117] [DEBUG   ] (dispatcher:_dispatch_inner:110) [091a0b5aa10342c7] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:37:38.118] [INFO    ] (dispatcher:_dispatch_inner:308) [091a0b5aa10342c7] 📩 消息 #56 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='6'
+[2026-08-26 17:37:38.119] [DEBUG   ] (queues:enqueue_message:75) [091a0b5aa10342c7] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:37:38.120] [INFO    ] (memory:merge_overflow_memory:419) [0ad0e20727f24784] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+[2026-08-26 17:37:38.121] [DEBUG   ] (pipeline:process_message:500) [0ad0e20727f24784] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6'
+[2026-08-26 17:37:38.122] [INFO    ] (logger:log_trace_summary:392) [0ad0e20727f24784] [TRACE 0ad0e20727f24784] total=1.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.67ms(x1) (wall1.67), queue_wait=0.75ms(x1)
+[2026-08-26 17:37:49.932] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:37:59.399] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:37:59.448] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
