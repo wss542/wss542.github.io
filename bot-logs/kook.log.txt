@@ -1,12 +1,4 @@
-# 更新于 2026-08-26 21:43:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:40:47.311] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:40:47.312] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 15/40: docs/PLUGIN_DEV.md' is_edit=False
-[2026-08-26 17:40:47.312] [DEBUG   ] (dispatcher:_dispatch_inner:107) [27501dfe9b1147e4] 跳过 bot 消息: uid=393688090
-[2026-08-26 17:40:48.151] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:40:48.152] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 16/40: docs/architecture/pipeline-audit.md' is_edit=False
-[2026-08-26 17:40:48.152] [DEBUG   ] (dispatcher:_dispatch_inner:107) [ba81e55b0f8c4e35] 跳过 bot 消息: uid=393688090
-[2026-08-26 17:40:48.948] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:40:48.948] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 17/40: main.py' is_edit=False
+# 更新于 2026-08-26 21:45:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:40:48.949] [DEBUG   ] (dispatcher:_dispatch_inner:107) [1f9149104efa499f] 跳过 bot 消息: uid=393688090
 [2026-08-26 17:40:49.813] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 17:40:49.814] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 18/40: modules/_auto_update/analyzer.py' is_edit=False
@@ -1499,3 +1491,11 @@
 [2026-08-26 21:42:27.538] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-26 21:42:27.538] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-26 21:42:52.855] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:43:23.454] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:43:54.028] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:44:24.448] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:44:29.462] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-26 21:44:29.462] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-26 21:44:55.026] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:44:59.907] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-26 21:44:59.907] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
