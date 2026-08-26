@@ -1,25 +1,4 @@
-# 更新于 2026-08-26 17:35:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:46:33.889] [WARNING ] (logger:log_trace_summary:415) [2efb121f0f5f47a6] [SLOW 2efb121f0f5f47a6] total=3800.36ms | json_parse=1.71ms(x1), llm=3781.37ms(x1), memory=10.37ms(x2), process=3799.92ms(x1) (wall3799.92), queue_wait=0.3ms(x1) | llm_calls=1 total=3775.54ms avg=3775.54ms max=3775.54ms p50=3775.54 p95=3775.54 p99=3775.54 | perf: queue=0.3ms llm=3783.08ms search_tool=0.0ms delivery=0.0ms other=3810.29ms wall=3800.34ms dominant=other
-[2026-08-26 15:46:33.890] [DEBUG   ] (response_delivery:send_sentences:227) [2efb121f0f5f47a6] 开始分批发送 3 条句子 → chat=1759953618 is_group=False
-[2026-08-26 15:46:33.891] [INFO    ] (llm:call_llm:427) [2efb121f0f5f47a6] 调用LLM [minimax/minimax-m3:f] url=api tokens=300 temp=0.2 timeout=15.0s
-[2026-08-26 15:46:34.419] [DEBUG   ] (response_delivery:send_sentences:241) [2efb121f0f5f47a6] 已发送第 1/3 条: 查天气搜百科...
-[2026-08-26 15:46:34.420] [DEBUG   ] (response_delivery:send_sentences:238) [2efb121f0f5f47a6] 句间等待 1.17s (#2/3)
-[2026-08-26 15:46:34.427] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:46:35.970] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:46:35.978] [DEBUG   ] (response_delivery:send_sentences:241) [2efb121f0f5f47a6] 已发送第 2/3 条: 算算式聊聊天...
-[2026-08-26 15:46:35.978] [DEBUG   ] (response_delivery:send_sentences:238) [2efb121f0f5f47a6] 句间等待 1.17s (#3/3)
-[2026-08-26 15:46:37.594] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:46:37.617] [DEBUG   ] (response_delivery:send_sentences:241) [2efb121f0f5f47a6] 已发送第 3/3 条: 还能查MC状态~...
-[2026-08-26 15:46:37.618] [DEBUG   ] (response_delivery:send_sentences:243) [2efb121f0f5f47a6] 分批发送完成: 共 3 条 → chat=1759953618
-[2026-08-26 15:46:37.618] [DEBUG   ] (context_manager:_on_task_done:139) [2efb121f0f5f47a6] 发送任务已清理 [1759953618]
-[2026-08-26 15:46:38.102] [INFO    ] (llm:call_llm:489) [2efb121f0f5f47a6] LLM [minimax/minimax-m3:f] 返回 140字符 耗时4.2s → "[15:46:33] ywandwss: 发送指令"/供应商"和"/供应商 OpenRouter",..."
-[2026-08-26 15:46:38.103] [INFO    ] (memory:_compress_with_deepseek:210) [2efb121f0f5f47a6] [1759953618] 压缩完成: 6条消息 → 保存
-[2026-08-26 15:46:46.200] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 15:47:03.248] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:47:03.249] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='能和我聊天不' is_edit=False
-[2026-08-26 15:47:03.249] [DEBUG   ] (dispatcher:_dispatch_inner:110) [79e783beffcd4a7e] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-26 15:47:03.249] [INFO    ] (dispatcher:_dispatch_inner:308) [79e783beffcd4a7e] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='能和我聊天不'
-[2026-08-26 15:47:03.250] [DEBUG   ] (queues:enqueue_message:75) [79e783beffcd4a7e] [队列] 群1759953618 消息已入队 (队长度=1)
+# 更新于 2026-08-26 17:36:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:47:03.252] [INFO    ] (memory:merge_overflow_memory:419) [1421068f80264115] 长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
 [2026-08-26 15:47:03.253] [DEBUG   ] (pipeline:process_message:500) [1421068f80264115] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='能和我聊天不'
 [2026-08-26 15:47:03.253] [DEBUG   ] (pipeline:process_message:531) [1421068f80264115] 私聊消息 → 直接回复
@@ -1499,3 +1478,24 @@
 [2026-08-26 17:35:40.986] [DEBUG   ] (pipeline:process_message:500) [edcc98bc7ccd49d5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='彳亍'
 [2026-08-26 17:35:40.986] [INFO    ] (logger:log_trace_summary:392) [edcc98bc7ccd49d5] [TRACE edcc98bc7ccd49d5] total=1.75ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.56ms(x1)
 [2026-08-26 17:35:47.878] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:35:57.985] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:35:57.986] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='去放学了吧应该' is_edit=False
+[2026-08-26 17:35:57.986] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3d8060a70c0c4848] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:35:57.986] [INFO    ] (dispatcher:_dispatch_inner:308) [3d8060a70c0c4848] 📩 消息 #51 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='去放学了吧应该'
+[2026-08-26 17:35:57.987] [DEBUG   ] (queues:enqueue_message:75) [3d8060a70c0c4848] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:35:57.988] [INFO    ] (memory:merge_overflow_memory:419) [58e445a75f584f1d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
+[2026-08-26 17:35:57.989] [DEBUG   ] (pipeline:process_message:500) [58e445a75f584f1d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='去放学了吧应该'
+[2026-08-26 17:35:57.989] [INFO    ] (logger:log_trace_summary:392) [58e445a75f584f1d] [TRACE 58e445a75f584f1d] total=1.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.37ms(x1) (wall1.37), queue_wait=0.55ms(x1)
+[2026-08-26 17:36:00.657] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:36:00.658] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='区' is_edit=False
+[2026-08-26 17:36:00.658] [DEBUG   ] (dispatcher:_dispatch_inner:110) [9545acc0df3140e7] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:36:00.658] [INFO    ] (dispatcher:_dispatch_inner:308) [9545acc0df3140e7] 📩 消息 #52 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='区'
+[2026-08-26 17:36:00.659] [DEBUG   ] (queues:enqueue_message:75) [9545acc0df3140e7] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:36:00.660] [INFO    ] (memory:merge_overflow_memory:419) [1f8028fcb9ac40e3] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-26 17:36:00.661] [DEBUG   ] (pipeline:process_message:500) [1f8028fcb9ac40e3] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='区'
+[2026-08-26 17:36:00.662] [INFO    ] (logger:log_trace_summary:392) [1f8028fcb9ac40e3] [TRACE 1f8028fcb9ac40e3] total=1.91ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.88ms(x1) (wall1.88), queue_wait=0.5ms(x1)
+[2026-08-26 17:36:00.663] [INFO    ] (llm:call_llm:427) [1f8028fcb9ac40e3] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-26 17:36:00.676] [INFO    ] (engine:_ingest:92) [1f8028fcb9ac40e3] 异步记忆提炼完成 chat=1010983873136793: 候选6 新增6
+[2026-08-26 17:36:01.770] [INFO    ] (llm:call_llm:489) [1f8028fcb9ac40e3] LLM [deepseek-v4-flash] 返回 183字符 耗时1.1s → "[17:21:03] Trusler: 发送图片并说"炸了", ywandwss回复😂😂😂😂, Tr..."
+[2026-08-26 17:36:01.772] [INFO    ] (memory:_compress_with_deepseek:210) [1f8028fcb9ac40e3] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-26 17:36:18.365] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
