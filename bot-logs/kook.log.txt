@@ -1,6 +1,4 @@
-# 更新于 2026-08-26 20:37:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:28:11.358] [DEBUG   ] (queues:enqueue_message:75) [72dc202a3f594284] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:28:11.358] [INFO    ] (memory:merge_overflow_memory:419) [b3c15018ba894a6e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+# 更新于 2026-08-26 20:38:10 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:28:11.359] [DEBUG   ] (pipeline:process_message:500) [b3c15018ba894a6e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
 [2026-08-26 17:28:11.359] [INFO    ] (logger:log_trace_summary:392) [b3c15018ba894a6e] [TRACE b3c15018ba894a6e] total=1.26ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.21ms(x1) (wall1.21), queue_wait=0.28ms(x1)
 [2026-08-26 17:28:17.024] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1497,5 @@
 [2026-08-26 20:36:08.090] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 20:36:38.683] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 20:37:09.028] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 20:37:39.623] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 20:38:09.960] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
