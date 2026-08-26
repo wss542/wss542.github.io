@@ -1,16 +1,4 @@
-# 更新于 2026-08-26 20:01:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:24:29.389] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq sub' is_edit=False
-[2026-08-26 17:24:29.390] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d15810cafecd4b88] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
-[2026-08-26 17:24:29.390] [INFO    ] (dispatcher:_dispatch_inner:308) [d15810cafecd4b88] 📩 消息 #24 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.eq sub'
-[2026-08-26 17:24:29.391] [DEBUG   ] (queues:enqueue_message:75) [d15810cafecd4b88] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:24:29.392] [INFO    ] (memory:merge_overflow_memory:419) [fcae4981ba434e1e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
-[2026-08-26 17:24:29.392] [DEBUG   ] (pipeline:process_message:500) [fcae4981ba434e1e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq sub'
-[2026-08-26 17:24:29.393] [DEBUG   ] (pipeline:process_message:510) [fcae4981ba434e1e] 点前缀消息忽略（其它 bot 命令）: '.eq sub'
-[2026-08-26 17:24:29.393] [INFO    ] (logger:log_trace_summary:392) [fcae4981ba434e1e] [TRACE fcae4981ba434e1e] total=1.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.74ms(x1) (wall1.74), queue_wait=0.39ms(x1)
-[2026-08-26 17:24:29.927] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:24:29.928] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='已订阅全国地震速报喵~ (M≥4.0)' is_edit=False
-[2026-08-26 17:24:29.928] [DEBUG   ] (dispatcher:_dispatch_inner:107) [c4a897e7011e4dd9] 跳过 bot 消息: uid=1341019011
-[2026-08-26 17:24:36.431] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+# 更新于 2026-08-26 20:01:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:24:42.470] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 17:24:42.470] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq unsub' is_edit=False
 [2026-08-26 17:24:42.470] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d02412bf159d4803] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
@@ -1499,3 +1487,15 @@
 [2026-08-26 20:00:50.015] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 20:01:00.012] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
 [2026-08-26 20:01:03.351] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-26 20:01:10.571] [INFO    ] (bot:_bg_wdsj_collector:695) [-] 日榜目标频道: [3649029148752421]
+[2026-08-26 20:01:11.809] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
+[2026-08-26 20:01:11.809] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 1 人 (2026-08-26)
+[2026-08-26 20:01:11.809] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (00:01)
+[2026-08-26 20:01:11.818] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 20:01:20.338] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 20:01:29.632] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-08-26 20:01:29.811] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-08-26 20:01:29.955] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-08-26 20:01:29.956] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-08-26 20:01:29.956] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 25111 秒
+[2026-08-26 20:01:51.009] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
