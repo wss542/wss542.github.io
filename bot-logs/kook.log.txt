@@ -1,14 +1,4 @@
-# 更新于 2026-08-26 17:34:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:46:30.103] [INFO    ] (pipeline:process_message:932) [2efb121f0f5f47a6] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-26 15:46:30.104] [DEBUG   ] (pipeline:process_message:1061) [2efb121f0f5f47a6] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-26 15:46:30.104] [INFO    ] (pipeline:process_message:1064) [2efb121f0f5f47a6] 开始生成回复: speaker=ywandwss chat=1759953618
-[2026-08-26 15:46:33.881] [INFO    ] (llm:generate_multi_reply_with_tools:971) [2efb121f0f5f47a6] LLM原始输出 [轮1]: content={"replies":["查天气搜百科","算算式聊聊天","还能查MC状态~"],"fav":0,"calls":[],"face":"(emj)开心2(emj)[3090677846298039/l6MxitZAjv0nm0o1]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"yw | tool_calls=0
-[2026-08-26 15:46:33.884] [WARNING ] (face_lib:_init:29) [2efb121f0f5f47a6] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-26 15:46:33.885] [INFO    ] (llm:_parse_reply:1314) [2efb121f0f5f47a6] JSON回复解析: 3句 fav=+0 calls=0 mood=开心
-[2026-08-26 15:46:33.888] [INFO    ] (memory:maybe_save_memory:401) [2efb121f0f5f47a6] 触发自动记忆 [1759953618]: 6 条
-[2026-08-26 15:46:33.888] [INFO    ] (pipeline:process_message:1553) [2efb121f0f5f47a6] ✅ 管道处理完成: 3句 sent chat=1759953618
-[2026-08-26 15:46:33.888] [DEBUG   ] (pipeline:process_message:1575) [2efb121f0f5f47a6] Fast Path 主题已记录: chat=1759953618 topic='你现在可以干什么'
-[2026-08-26 15:46:33.889] [INFO    ] (logger:log_trace_summary:392) [2efb121f0f5f47a6] [TRACE 2efb121f0f5f47a6] total=3799.98ms severity=slow_request | llm_calls=1 total=3775.54ms avg=3775.54ms max=3775.54ms p50=3775.54 p95=3775.54 p99=3775.54 | json_parse=1.71ms(x1), llm=3781.37ms(x1), memory=10.37ms(x2), process=3799.92ms(x1) (wall3799.92), queue_wait=0.3ms(x1)
+# 更新于 2026-08-26 17:35:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:46:33.889] [WARNING ] (logger:log_trace_summary:415) [2efb121f0f5f47a6] [SLOW 2efb121f0f5f47a6] total=3800.36ms | json_parse=1.71ms(x1), llm=3781.37ms(x1), memory=10.37ms(x2), process=3799.92ms(x1) (wall3799.92), queue_wait=0.3ms(x1) | llm_calls=1 total=3775.54ms avg=3775.54ms max=3775.54ms p50=3775.54 p95=3775.54 p99=3775.54 | perf: queue=0.3ms llm=3783.08ms search_tool=0.0ms delivery=0.0ms other=3810.29ms wall=3800.34ms dominant=other
 [2026-08-26 15:46:33.890] [DEBUG   ] (response_delivery:send_sentences:227) [2efb121f0f5f47a6] 开始分批发送 3 条句子 → chat=1759953618 is_group=False
 [2026-08-26 15:46:33.891] [INFO    ] (llm:call_llm:427) [2efb121f0f5f47a6] 调用LLM [minimax/minimax-m3:f] url=api tokens=300 temp=0.2 timeout=15.0s
@@ -1499,3 +1489,13 @@
 [2026-08-26 17:34:46.668] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 17:34:58.425] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 [2026-08-26 17:34:58.425] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-26 17:35:17.284] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:35:40.981] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:35:40.982] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='彳亍' is_edit=False
+[2026-08-26 17:35:40.982] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3adc125d4c764a68] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:35:40.983] [INFO    ] (dispatcher:_dispatch_inner:308) [3adc125d4c764a68] 📩 消息 #50 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='彳亍'
+[2026-08-26 17:35:40.984] [DEBUG   ] (queues:enqueue_message:75) [3adc125d4c764a68] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:35:40.985] [INFO    ] (memory:merge_overflow_memory:419) [edcc98bc7ccd49d5] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
+[2026-08-26 17:35:40.986] [DEBUG   ] (pipeline:process_message:500) [edcc98bc7ccd49d5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='彳亍'
+[2026-08-26 17:35:40.986] [INFO    ] (logger:log_trace_summary:392) [edcc98bc7ccd49d5] [TRACE edcc98bc7ccd49d5] total=1.75ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.56ms(x1)
+[2026-08-26 17:35:47.878] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
