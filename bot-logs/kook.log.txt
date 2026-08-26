@@ -1,35 +1,4 @@
-# 更新于 2026-08-26 16:43:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 14:54:20.584] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 14:54:30.522] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 14:54:30.522] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-26 14:54:30.526] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 14:54:30.547] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-26 14:54:30.548] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-26 14:54:30.556] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-26 14:54:30.557] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-26 14:54:30.557] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-26 14:54:30.557] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-26 14:54:30.557] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-26 14:54:30.805] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-26 14:54:30.807] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-26 14:54:30.884] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-26 14:54:30.886] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-26 14:54:32.376] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-26 14:54:32.434] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-26 14:54:32.435] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-26 14:54:32.443] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-26 14:54:32.446] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-26 14:54:32.446] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-26 14:54:32.449] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-26 14:54:32.449] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-26 14:54:32.449] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-26 14:54:32.461] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 14:54:32.461] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-26 14:54:32.461] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-26 14:54:32.462] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-26 14:54:32.543] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-26 14:54:32.544] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-26 14:54:32.549] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+# 更新于 2026-08-26 16:44:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 14:54:32.613] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 [2026-08-26 14:54:32.613] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 [2026-08-26 14:54:32.614] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
@@ -1499,3 +1468,34 @@
 [2026-08-26 16:43:25.445] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 16:43:25.446] [INFO    ] (logger:log_trace_summary:392) [3b3605abd8ec4ecd] [TRACE 3b3605abd8ec4ecd] total=775.43ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=775.39ms(x1) (wall775.39), queue_wait=0.27ms(x1)
 [2026-08-26 16:43:53.291] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 16:43:53.810] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 16:43:53.811] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你好啊 喵～' is_edit=False
+[2026-08-26 16:43:53.811] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2296d9341105474a] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-26 16:43:53.811] [INFO    ] (dispatcher:_dispatch_inner:308) [2296d9341105474a] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你好啊 喵～'
+[2026-08-26 16:43:53.812] [DEBUG   ] (queues:enqueue_message:75) [2296d9341105474a] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-26 16:43:53.813] [INFO    ] (memory:merge_overflow_memory:419) [12afbf52ea3b47ac] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+[2026-08-26 16:43:53.814] [DEBUG   ] (pipeline:process_message:500) [12afbf52ea3b47ac] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='你好啊 喵～'
+[2026-08-26 16:43:53.814] [DEBUG   ] (pipeline:process_message:531) [12afbf52ea3b47ac] 私聊消息 → 直接回复
+[2026-08-26 16:43:53.818] [DEBUG   ] (pipeline:process_message:591) [12afbf52ea3b47ac] 请求意图: intent=chat fast_search=False msg='你好啊 喵～'
+[2026-08-26 16:43:53.831] [WARNING ] (pipeline:process_message:639) [12afbf52ea3b47ac] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-26 16:43:53.842] [DEBUG   ] (memory:_record_memory_trace:318) [12afbf52ea3b47ac] 记忆检索: source=legacy_file status=hit 命中注入=9 耗时=7.5ms
+[2026-08-26 16:43:53.844] [INFO    ] (pipeline:process_message:799) [12afbf52ea3b47ac] 额外信息: 1186字 (memory=526 search=0)
+[2026-08-26 16:43:53.845] [INFO    ] (pipeline:process_message:932) [12afbf52ea3b47ac] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-26 16:43:53.847] [DEBUG   ] (pipeline:process_message:1061) [12afbf52ea3b47ac] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-26 16:43:53.847] [INFO    ] (pipeline:process_message:1064) [12afbf52ea3b47ac] 开始生成回复: speaker=ywandwss chat=1759953618
+[2026-08-26 16:44:02.801] [INFO    ] (llm:generate_multi_reply_with_tools:971) [12afbf52ea3b47ac] LLM原始输出 [轮1]: content={"replies":["你好呀～"],"fav":0,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandwss","qq":0}} | tool_calls=0
+[2026-08-26 16:44:02.802] [INFO    ] (llm:_parse_reply:1314) [12afbf52ea3b47ac] JSON回复解析: 1句 fav=+0 calls=0 mood=开心
+[2026-08-26 16:44:02.804] [INFO    ] (memory:maybe_save_memory:401) [12afbf52ea3b47ac] 触发自动记忆 [1759953618]: 3 条
+[2026-08-26 16:44:02.804] [INFO    ] (pipeline:process_message:1553) [12afbf52ea3b47ac] ✅ 管道处理完成: 1句 sent chat=1759953618
+[2026-08-26 16:44:02.804] [DEBUG   ] (pipeline:process_message:1575) [12afbf52ea3b47ac] Fast Path 主题已记录: chat=1759953618 topic='你好啊 喵～'
+[2026-08-26 16:44:02.805] [INFO    ] (logger:log_trace_summary:392) [12afbf52ea3b47ac] [TRACE 12afbf52ea3b47ac] total=8992.06ms severity=slow_request | llm_calls=1 total=8932.56ms avg=8932.56ms max=8932.56ms p50=8932.56 p95=8932.56 p99=8932.56 | json_parse=1.03ms(x1), llm=8955.22ms(x1), memory=15.27ms(x2), process=8992.01ms(x1) (wall8992.01), queue_wait=0.39ms(x1)
+[2026-08-26 16:44:02.805] [WARNING ] (logger:log_trace_summary:415) [12afbf52ea3b47ac] [SLOW 12afbf52ea3b47ac] total=8992.38ms | json_parse=1.03ms(x1), llm=8955.22ms(x1), memory=15.27ms(x2), process=8992.01ms(x1) (wall8992.01), queue_wait=0.39ms(x1) | llm_calls=1 total=8932.56ms avg=8932.56ms max=8932.56ms p50=8932.56 p95=8932.56 p99=8932.56 | perf: queue=0.39ms llm=8956.25ms search_tool=0.0ms delivery=0.0ms other=9007.28ms wall=8992.35ms dominant=other
+[2026-08-26 16:44:02.806] [DEBUG   ] (response_delivery:send_sentences:227) [12afbf52ea3b47ac] 开始分批发送 1 条句子 → chat=1759953618 is_group=False
+[2026-08-26 16:44:02.806] [INFO    ] (llm:call_llm:427) [12afbf52ea3b47ac] 调用LLM [nvidia/nemotron-3-su] url=api tokens=300 temp=0.2 timeout=15.0s
+[2026-08-26 16:44:03.361] [DEBUG   ] (response_delivery:send_sentences:241) [12afbf52ea3b47ac] 已发送第 1/1 条: 你好呀～...
+[2026-08-26 16:44:03.362] [DEBUG   ] (response_delivery:send_sentences:243) [12afbf52ea3b47ac] 分批发送完成: 共 1 条 → chat=1759953618
+[2026-08-26 16:44:03.362] [DEBUG   ] (context_manager:_on_task_done:139) [12afbf52ea3b47ac] 发送任务已清理 [1759953618]
+[2026-08-26 16:44:03.387] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 16:44:09.257] [INFO    ] (llm:call_llm:489) [12afbf52ea3b47ac] LLM [nvidia/nemotron-3-su] 返回 724字符 耗时6.4s → "We need to compress the chat record into one line ..."
+[2026-08-26 16:44:09.261] [INFO    ] (memory:_compress_with_deepseek:210) [12afbf52ea3b47ac] [1759953618] 压缩完成: 3条消息 → 保存
+[2026-08-26 16:44:23.693] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12520)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
