@@ -1,21 +1,4 @@
-# 更新于 2026-08-26 17:36:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:47:03.252] [INFO    ] (memory:merge_overflow_memory:419) [1421068f80264115] 长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
-[2026-08-26 15:47:03.253] [DEBUG   ] (pipeline:process_message:500) [1421068f80264115] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='能和我聊天不'
-[2026-08-26 15:47:03.253] [DEBUG   ] (pipeline:process_message:531) [1421068f80264115] 私聊消息 → 直接回复
-[2026-08-26 15:47:03.253] [DEBUG   ] (pipeline:process_message:591) [1421068f80264115] 请求意图: intent=chat fast_search=False msg='能和我聊天不'
-[2026-08-26 15:47:03.254] [WARNING ] (pipeline:process_message:639) [1421068f80264115] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-26 15:47:03.258] [DEBUG   ] (memory:_record_memory_trace:318) [1421068f80264115] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=3.9ms
-[2026-08-26 15:47:03.259] [INFO    ] (pipeline:process_message:799) [1421068f80264115] 额外信息: 1257字 (memory=559 search=0)
-[2026-08-26 15:47:03.259] [INFO    ] (pipeline:process_message:932) [1421068f80264115] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-26 15:47:03.259] [DEBUG   ] (pipeline:process_message:1061) [1421068f80264115] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-26 15:47:03.260] [INFO    ] (pipeline:process_message:1064) [1421068f80264115] 开始生成回复: speaker=ywandwss chat=1759953618
-[2026-08-26 15:47:07.545] [INFO    ] (llm:generate_multi_reply_with_tools:971) [1421068f80264115] LLM原始输出 [轮1]: content={"replies":["当然能喵~","随时奉陪！"],"fav":2,"calls":[],"face":"开心2","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ywandwss","qq":0}} | tool_calls=0
-[2026-08-26 15:47:07.545] [INFO    ] (llm:_parse_reply:1314) [1421068f80264115] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-08-26 15:47:07.546] [INFO    ] (fav:update_fav:105) [1421068f80264115] 好感度更新: p:1759953618 +2 → 58
-[2026-08-26 15:47:07.546] [INFO    ] (pipeline:process_message:1547) [1421068f80264115] 好感度调整: ywandwss +2 (chat=1759953618)
-[2026-08-26 15:47:07.546] [INFO    ] (pipeline:process_message:1553) [1421068f80264115] ✅ 管道处理完成: 2句 sent chat=1759953618
-[2026-08-26 15:47:07.546] [DEBUG   ] (pipeline:process_message:1575) [1421068f80264115] Fast Path 主题已记录: chat=1759953618 topic='能和我聊天不'
-[2026-08-26 15:47:07.547] [INFO    ] (logger:log_trace_summary:392) [1421068f80264115] [TRACE 1421068f80264115] total=4296.65ms severity=slow_request | llm_calls=1 total=4284.26ms avg=4284.26ms max=4284.26ms p50=4284.26 p95=4284.26 p99=4284.26 | json_parse=0.03ms(x1), llm=4285.52ms(x1), memory=8.0ms(x2), process=4296.6ms(x1) (wall4296.6), queue_wait=0.27ms(x1)
+# 更新于 2026-08-26 17:36:56 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:47:07.547] [WARNING ] (logger:log_trace_summary:415) [1421068f80264115] [SLOW 1421068f80264115] total=4296.88ms | json_parse=0.03ms(x1), llm=4285.52ms(x1), memory=8.0ms(x2), process=4296.6ms(x1) (wall4296.6), queue_wait=0.27ms(x1) | llm_calls=1 total=4284.26ms avg=4284.26ms max=4284.26ms p50=4284.26 p95=4284.26 p99=4284.26 | perf: queue=0.27ms llm=4285.55ms search_tool=0.0ms delivery=0.0ms other=4304.6ms wall=4296.86ms dominant=other
 [2026-08-26 15:47:07.548] [DEBUG   ] (response_delivery:send_sentences:227) [1421068f80264115] 开始分批发送 2 条句子 → chat=1759953618 is_group=False
 [2026-08-26 15:47:08.108] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1482,20 @@
 [2026-08-26 17:36:01.770] [INFO    ] (llm:call_llm:489) [1f8028fcb9ac40e3] LLM [deepseek-v4-flash] 返回 183字符 耗时1.1s → "[17:21:03] Trusler: 发送图片并说"炸了", ywandwss回复😂😂😂😂, Tr..."
 [2026-08-26 17:36:01.772] [INFO    ] (memory:_compress_with_deepseek:210) [1f8028fcb9ac40e3] [1010983873136793] 压缩完成: 10条消息 → 保存
 [2026-08-26 17:36:18.365] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:36:48.922] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:36:51.558] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:36:51.560] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='下雨' is_edit=False
+[2026-08-26 17:36:51.560] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8e92671119324372] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:36:51.560] [INFO    ] (dispatcher:_dispatch_inner:308) [8e92671119324372] 📩 消息 #53 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='下雨'
+[2026-08-26 17:36:51.561] [DEBUG   ] (queues:enqueue_message:75) [8e92671119324372] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:36:51.562] [INFO    ] (memory:merge_overflow_memory:419) [48a3571a269640cf] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-26 17:36:51.563] [DEBUG   ] (pipeline:process_message:500) [48a3571a269640cf] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='下雨'
+[2026-08-26 17:36:51.563] [INFO    ] (logger:log_trace_summary:392) [48a3571a269640cf] [TRACE 48a3571a269640cf] total=1.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.13ms(x1) (wall1.13), queue_wait=0.37ms(x1)
+[2026-08-26 17:36:56.015] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:36:56.016] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='还在学校' is_edit=False
+[2026-08-26 17:36:56.016] [DEBUG   ] (dispatcher:_dispatch_inner:110) [98931fd63ce34725] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:36:56.016] [INFO    ] (dispatcher:_dispatch_inner:308) [98931fd63ce34725] 📩 消息 #54 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='还在学校'
+[2026-08-26 17:36:56.017] [DEBUG   ] (queues:enqueue_message:75) [98931fd63ce34725] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:36:56.018] [INFO    ] (memory:merge_overflow_memory:419) [3dfff29f63ca42a9] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-26 17:36:56.018] [DEBUG   ] (pipeline:process_message:500) [3dfff29f63ca42a9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='还在学校'
+[2026-08-26 17:36:56.018] [INFO    ] (logger:log_trace_summary:392) [3dfff29f63ca42a9] [TRACE 3dfff29f63ca42a9] total=0.93ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.89ms(x1) (wall0.89), queue_wait=0.43ms(x1)
