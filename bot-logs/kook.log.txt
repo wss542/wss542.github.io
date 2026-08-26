@@ -1,6 +1,4 @@
-# 更新于 2026-08-26 17:50:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:19:42.275] [WARNING ] (llm:generate_multi_reply_with_tools:989) [9f2227e0c8b74380] LLM 连续返回空内容，用 json_mode 兜底...
-[2026-08-26 16:19:42.277] [INFO    ] (llm:call_llm:427) [9f2227e0c8b74380] 调用LLM [thinkingmachines/ink] url=api tokens=800 temp=0.3 timeout=60.0s
+# 更新于 2026-08-26 17:51:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:19:43.862] [ERROR   ] (llm:call_llm:520) [9f2227e0c8b74380] LLM [thinkingmachines/ink] 调用失败 (1.6s): Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
 [2026-08-26 16:19:43.864] [ERROR   ] (llm:generate_multi_reply_with_tools:999) [9f2227e0c8b74380] json_mode 兜底仍失败，放弃
 [2026-08-26 16:19:44.399] [WARNING ] (pipeline:process_message:1095) [9f2227e0c8b74380] LLM 未返回有效句子，已发送失败提示
@@ -1499,3 +1497,5 @@
 [2026-08-26 17:49:48.112] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=75 cpu=None mem=None
 [2026-08-26 17:49:48.113] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-26 17:50:01.300] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:50:31.963] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:51:02.304] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
