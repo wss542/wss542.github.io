@@ -1,18 +1,4 @@
-# 更新于 2026-08-26 10:58:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 00:09:02.354] [DEBUG   ] (queues:enqueue_message:75) [f1793bc17e1c4c7f] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 00:09:02.356] [INFO    ] (pipeline:process_message:367) [5e06006455424bb1] 附带图片已记录 [chat=1010983873136793] count=1
-[2026-08-26 00:09:02.357] [INFO    ] (memory:merge_overflow_memory:419) [5e06006455424bb1] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
-[2026-08-26 00:09:02.358] [DEBUG   ] (pipeline:process_message:500) [5e06006455424bb1] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
-[2026-08-26 00:09:02.358] [INFO    ] (logger:log_trace_summary:392) [5e06006455424bb1] [TRACE 5e06006455424bb1] total=3.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.14ms(x1) (wall3.14), queue_wait=1.02ms(x1)
-[2026-08-26 00:09:05.370] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
-[2026-08-26 00:09:35.964] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ しゃろう - 2:23 AM**' keys=17
-[2026-08-26 00:09:40.949] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 00:09:40.997] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 00:09:49.909] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-26 00:09:49.909] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-26 00:09:53.325] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 00:09:53.326] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='10连抽' is_edit=False
-[2026-08-26 00:09:53.326] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2c0fa0022d874981] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+# 更新于 2026-08-26 10:58:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 00:09:53.326] [INFO    ] (dispatcher:_dispatch_inner:308) [2c0fa0022d874981] 📩 消息 #28 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='10连抽'
 [2026-08-26 00:09:53.327] [INFO    ] (queues:_get_or_create_queue:32) [2c0fa0022d874981] [队列] 创建群7274785942250691 的独立消息队列
 [2026-08-26 00:09:53.327] [DEBUG   ] (queues:enqueue_message:75) [2c0fa0022d874981] [队列] 群7274785942250691 消息已入队 (队长度=1)
@@ -1499,3 +1485,17 @@
 [2026-08-26 10:57:45.834] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
 [2026-08-26 10:57:45.835] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-26 10:58:09.163] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 10:58:18.819] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 10:58:18.820] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/help' is_edit=False
+[2026-08-26 10:58:18.820] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a001713c12984941] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-26 10:58:18.820] [INFO    ] (dispatcher:_dispatch_inner:308) [a001713c12984941] 📩 消息 #37 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/help'
+[2026-08-26 10:58:18.820] [DEBUG   ] (queues:enqueue_message:75) [a001713c12984941] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-26 10:58:18.825] [INFO    ] (memory:merge_overflow_memory:419) [c1bdecef4cc84ea6] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-26 10:58:18.827] [INFO    ] (pipeline:process_message:470) [c1bdecef4cc84ea6] 指令拦截: '/help' from=ywandwss
+[2026-08-26 10:58:18.827] [DEBUG   ] (commands:handle_command:4637) [c1bdecef4cc84ea6] 指令解析: prefix=/ cmd=help args=[] user=1759953618
+[2026-08-26 10:58:18.827] [INFO    ] (commands:cmd_help:186) [c1bdecef4cc84ea6] 指令 /help 触发 user=1759953618 args=[]
+[2026-08-26 10:58:26.172] [INFO    ] (commands:handle_command:4681) [c1bdecef4cc84ea6] 指令执行完成 [help]: 无返回值（已自行发送）
+[2026-08-26 10:58:26.173] [INFO    ] (logger:log_trace_summary:392) [c1bdecef4cc84ea6] [TRACE c1bdecef4cc84ea6] total=7350.57ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7350.44ms(x1) (wall7350.44), queue_wait=2.3ms(x1)
+[2026-08-26 10:58:26.174] [WARNING ] (logger:log_trace_summary:415) [c1bdecef4cc84ea6] [SLOW c1bdecef4cc84ea6] total=7351.38ms | process=7350.44ms(x1) (wall7350.44), queue_wait=2.3ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=2.3ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=7350.44ms wall=7350.88ms dominant=other
+[2026-08-26 10:58:26.190] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 10:58:39.857] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
