@@ -1,8 +1,4 @@
-# 更新于 2026-08-26 10:57:29 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 00:09:02.350] [DEBUG   ] (image_api:_save:64) [f1793bc17e1c4c7f] 图片缓存已写入磁盘: 327 条
-[2026-08-26 00:09:02.353] [DEBUG   ] (image_api:_save_to_repo:303) [f1793bc17e1c4c7f] 图片仓库追加: MD5=a4766709f640... → 'Kook通知：2026-08-26，圈圈（BUFF小助手）凌'
-[2026-08-26 00:09:02.353] [INFO    ] (dispatcher:_do_recognize_image:914) [f1793bc17e1c4c7f] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: 'Kook通知：2026-08-26，圈圈（BUFF小助手）凌晨12:05发来恭喜抽中【屏幕分享+BUFF 360天】4折优惠券x1，底部含购买跳转链接。...' (76字) url=https://img.kookapp.cn/assets/2026-08/26/R2tee4PPmq0kc05i.pn
-[2026-08-26 00:09:02.354] [INFO    ] (dispatcher:_dispatch_inner:400) [f1793bc17e1c4c7f] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: 'Kook通知：2026-08-26，圈圈（BUFF小助手）凌晨12:05发来恭喜抽中【屏幕分享+BU...'
+# 更新于 2026-08-26 10:58:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 00:09:02.354] [DEBUG   ] (queues:enqueue_message:75) [f1793bc17e1c4c7f] [队列] 群1010983873136793 消息已入队 (队长度=1)
 [2026-08-26 00:09:02.356] [INFO    ] (pipeline:process_message:367) [5e06006455424bb1] 附带图片已记录 [chat=1010983873136793] count=1
 [2026-08-26 00:09:02.357] [INFO    ] (memory:merge_overflow_memory:419) [5e06006455424bb1] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
@@ -1499,3 +1495,7 @@
 [2026-08-26 10:56:06.826] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-08-26 10:56:37.350] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-08-26 10:57:07.971] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-08-26 10:57:38.579] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-08-26 10:57:45.834] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-08-26 10:57:45.835] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-26 10:58:09.163] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
