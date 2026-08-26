@@ -1,13 +1,4 @@
-# 更新于 2026-08-26 17:36:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:47:07.547] [WARNING ] (logger:log_trace_summary:415) [1421068f80264115] [SLOW 1421068f80264115] total=4296.88ms | json_parse=0.03ms(x1), llm=4285.52ms(x1), memory=8.0ms(x2), process=4296.6ms(x1) (wall4296.6), queue_wait=0.27ms(x1) | llm_calls=1 total=4284.26ms avg=4284.26ms max=4284.26ms p50=4284.26 p95=4284.26 p99=4284.26 | perf: queue=0.27ms llm=4285.55ms search_tool=0.0ms delivery=0.0ms other=4304.6ms wall=4296.86ms dominant=other
-[2026-08-26 15:47:07.548] [DEBUG   ] (response_delivery:send_sentences:227) [1421068f80264115] 开始分批发送 2 条句子 → chat=1759953618 is_group=False
-[2026-08-26 15:47:08.108] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:47:08.114] [DEBUG   ] (response_delivery:send_sentences:241) [1421068f80264115] 已发送第 1/2 条: 当然能喵~...
-[2026-08-26 15:47:08.114] [DEBUG   ] (response_delivery:send_sentences:238) [1421068f80264115] 句间等待 0.86s (#2/2)
-[2026-08-26 15:47:08.713] [ERROR   ] (llm:call_llm_with_tools:644) [6a4e291156e246a1] LLM FC [minimax/minimax-m3:f] 超时
-[2026-08-26 15:47:08.714] [INFO    ] (llm:generate_multi_reply_with_tools:971) [6a4e291156e246a1] LLM原始输出 [轮1]: content= | tool_calls=0
-[2026-08-26 15:47:08.715] [WARNING ] (llm:generate_multi_reply_with_tools:986) [6a4e291156e246a1] LLM 返回空内容，重试...
-[2026-08-26 15:47:09.406] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-26 17:37:27 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:47:09.420] [DEBUG   ] (response_delivery:send_sentences:241) [1421068f80264115] 已发送第 2/2 条: 随时奉陪！...
 [2026-08-26 15:47:09.420] [DEBUG   ] (response_delivery:send_sentences:243) [1421068f80264115] 分批发送完成: 共 2 条 → chat=1759953618
 [2026-08-26 15:47:09.420] [DEBUG   ] (context_manager:_on_task_done:139) [1421068f80264115] 发送任务已清理 [1759953618]
@@ -1499,3 +1490,12 @@
 [2026-08-26 17:36:56.018] [INFO    ] (memory:merge_overflow_memory:419) [3dfff29f63ca42a9] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
 [2026-08-26 17:36:56.018] [DEBUG   ] (pipeline:process_message:500) [3dfff29f63ca42a9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='还在学校'
 [2026-08-26 17:36:56.018] [INFO    ] (logger:log_trace_summary:392) [3dfff29f63ca42a9] [TRACE 3dfff29f63ca42a9] total=0.93ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.89ms(x1) (wall0.89), queue_wait=0.43ms(x1)
+[2026-08-26 17:37:03.726] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:37:03.727] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='😂' is_edit=False
+[2026-08-26 17:37:03.727] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2107af02fbab4815] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:37:03.728] [INFO    ] (dispatcher:_dispatch_inner:308) [2107af02fbab4815] 📩 消息 #55 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='😂'
+[2026-08-26 17:37:03.729] [DEBUG   ] (queues:enqueue_message:75) [2107af02fbab4815] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:37:03.729] [INFO    ] (memory:merge_overflow_memory:419) [49f12cba18094308] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+[2026-08-26 17:37:03.730] [DEBUG   ] (pipeline:process_message:500) [49f12cba18094308] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='😂'
+[2026-08-26 17:37:03.731] [INFO    ] (logger:log_trace_summary:392) [49f12cba18094308] [TRACE 49f12cba18094308] total=1.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.28ms(x1) (wall1.28), queue_wait=0.42ms(x1)
+[2026-08-26 17:37:19.429] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
