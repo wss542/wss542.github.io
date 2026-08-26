@@ -1,31 +1,4 @@
-# 更新于 2026-08-26 19:40:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:51:15.592] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-26 16:51:15.593] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-26 16:51:15.593] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-26 16:51:15.593] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-26 16:51:15.593] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-08-26 16:51:15.594] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-26 16:51:15.595] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-26 16:51:15.595] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-08-26 16:51:15.595] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-26 16:51:15.595] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 16:51:15.596] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-26 16:51:15.597] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 16:51:15.598] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-26 16:51:15.599] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-26 16:51:15.626] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-26 16:51:15.627] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-26 16:51:15.627] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h9m 后执行 (20:01)
-[2026-08-26 16:51:15.672] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-26 16:51:30.684] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-26 16:51:30.689] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 58s 前）
-[2026-08-26 16:51:30.689] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-26 16:51:30.699] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-26 16:51:30.700] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-26 16:51:30.700] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-26 16:51:30.700] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-26 16:51:30.700] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-26 16:51:30.701] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-08-26 19:40:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:51:30.816] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
 [2026-08-26 16:51:30.816] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-26 16:51:30.916] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
@@ -1499,3 +1472,30 @@
 [2026-08-26 19:40:12.771] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=982ms]: '**你能不能温柔提醒**' song=梁静茹 - 勇气 playing=True channel=None
 [2026-08-26 19:40:15.039] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=297ms]: '**我虽然心太急 更害怕错过你**' song=梁静茹 - 勇气 playing=True channel=None
 [2026-08-26 19:40:19.589] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=205ms]: '**爱真的需要勇气 来面对流言蜚语**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:40:24.433] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:40:24.434] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc' is_edit=False
+[2026-08-26 19:40:24.434] [DEBUG   ] (dispatcher:_dispatch_inner:110) [213a74b433bc48c3] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-26 19:40:24.434] [INFO    ] (dispatcher:_dispatch_inner:308) [213a74b433bc48c3] 📩 消息 #77 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/pc'
+[2026-08-26 19:40:24.434] [INFO    ] (queues:_get_or_create_queue:32) [213a74b433bc48c3] [队列] 创建群6243254695867429 的独立消息队列
+[2026-08-26 19:40:24.434] [DEBUG   ] (queues:enqueue_message:75) [213a74b433bc48c3] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-26 19:40:24.437] [INFO    ] (memory:merge_overflow_memory:419) [18341a977ce6452f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-26 19:40:24.438] [INFO    ] (pipeline:process_message:470) [18341a977ce6452f] 指令拦截: '/pc' from=ywandwss
+[2026-08-26 19:40:24.438] [DEBUG   ] (commands:handle_command:4717) [18341a977ce6452f] 指令解析: prefix=/ cmd=pc args=[] user=1759953618
+[2026-08-26 19:40:24.441] [INFO    ] (changelog:render_card_to_image:801) [18341a977ce6452f] [Card] 正在截图 → sys_f294c521.jpg (16246 bytes HTML)
+[2026-08-26 19:40:26.206] [INFO    ] (changelog:render_card_to_image:809) [18341a977ce6452f] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sys_f294c521.jpg size=97.5KB
+[2026-08-26 19:40:27.474] [INFO    ] (commands:handle_command:4761) [18341a977ce6452f] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-26 19:40:27.475] [INFO    ] (logger:log_trace_summary:392) [18341a977ce6452f] [TRACE 18341a977ce6452f] total=3039.59ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3039.55ms(x1) (wall3039.55), queue_wait=0.78ms(x1)
+[2026-08-26 19:40:27.475] [WARNING ] (logger:log_trace_summary:415) [18341a977ce6452f] [SLOW 18341a977ce6452f] total=3039.86ms | process=3039.55ms(x1) (wall3039.55), queue_wait=0.78ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.78ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3039.55ms wall=3039.84ms dominant=other
+[2026-08-26 19:40:27.518] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=338ms]: '**只要你一个眼神肯定 我的爱就有意义**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:40:32.050] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**只要你一个眼神肯定 我的爱就有意义**' keys=18
+[2026-08-26 19:40:36.555] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=597ms]: '**我们都需要勇气 去相信会在一起**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:40:44.445] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=635ms]: '**人潮拥挤我能感觉你 放在我手心里**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:40:54.077] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:40:54.077] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='>update' is_edit=False
+[2026-08-26 19:40:54.077] [DEBUG   ] (dispatcher:_dispatch_inner:110) [6fe0941c2b0d4c5f] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 19:40:54.078] [INFO    ] (dispatcher:_dispatch_inner:308) [6fe0941c2b0d4c5f] 📩 消息 #78 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>update'
+[2026-08-26 19:40:54.081] [DEBUG   ] (queues:enqueue_message:75) [6fe0941c2b0d4c5f] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 19:40:54.083] [INFO    ] (memory:merge_overflow_memory:419) [e274cbb446944bcd] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-26 19:40:54.084] [DEBUG   ] (context_manager:append_to_context:86) [e274cbb446944bcd] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-26 19:40:54.085] [DEBUG   ] (pipeline:process_message:500) [e274cbb446944bcd] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>update'
+[2026-08-26 19:40:54.085] [INFO    ] (logger:log_trace_summary:392) [e274cbb446944bcd] [TRACE e274cbb446944bcd] total=2.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.74ms(x1) (wall2.74), queue_wait=0.91ms(x1)
