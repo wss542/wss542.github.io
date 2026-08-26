@@ -1,7 +1,4 @@
-# 更新于 2026-08-26 16:20:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 14:28:45.862] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-26 14:28:46.309] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-26 14:28:46.328] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 60s 前）
+# 更新于 2026-08-26 16:21:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 14:28:46.331] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-08-26 14:28:46.354] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-08-26 14:28:46.355] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1496,6 @@
 [2026-08-26 16:19:44.403] [WARNING ] (logger:log_trace_summary:410) [9f2227e0c8b74380] [VERY_SLOW 9f2227e0c8b74380] total=10384.38ms 需重点排查 | llm=9785.64ms(x1), memory=30.86ms(x2), process=10382.85ms(x1) (wall10382.85), queue_wait=0.83ms(x1) | llm_calls=3 total=9733.64ms avg=3244.55ms max=6003.16ms p50=2146.57 p95=5617.5 p99=5926.03 | perf: queue=0.83ms llm=9785.64ms search_tool=0.0ms delivery=0.0ms other=10413.71ms wall=10384.34ms dominant=other
 [2026-08-26 16:19:44.409] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 16:19:57.935] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 16:20:28.542] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 16:20:39.510] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-26 16:20:39.510] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
