@@ -1,33 +1,4 @@
-# 更新于 2026-08-26 17:26:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:34:32.153] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-26 15:34:32.153] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 282, 'total_buffer_lines': 3, 'active_tasks': 0}
-[2026-08-26 15:34:32.154] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-26 15:34:32.155] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-26 15:34:32.156] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-26 15:34:32.568] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-26 15:34:33.474] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-26 15:34:33.503] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 15:34:35.121] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 15:34:35.121] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-26 15:34:35.121] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 15:34:35.125] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-26 15:34:35.126] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-26 15:34:35.127] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-26 15:34:35.128] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-26 15:34:35.129] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-26 15:34:35.129] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-26 15:34:35.130] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-26 15:34:35.393] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-26 15:34:35.394] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-26 15:34:35.401] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-26 15:34:35.401] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-26 15:34:35.634] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-26 15:34:35.651] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-26 15:34:35.652] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-26 15:34:35.652] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-26 15:34:35.653] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-26 15:34:35.653] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-26 15:34:35.654] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
+# 更新于 2026-08-26 17:26:56 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:34:35.654] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
 [2026-08-26 15:34:35.654] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
 [2026-08-26 15:34:35.657] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
@@ -1499,3 +1470,32 @@
 [2026-08-26 17:26:21.671] [DEBUG   ] (pipeline:process_message:500) [bed77e9a3fa74aaa] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq help'
 [2026-08-26 17:26:21.671] [DEBUG   ] (pipeline:process_message:510) [bed77e9a3fa74aaa] 点前缀消息忽略（其它 bot 命令）: '.eq help'
 [2026-08-26 17:26:21.671] [INFO    ] (logger:log_trace_summary:392) [bed77e9a3fa74aaa] [TRACE bed77e9a3fa74aaa] total=1.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.28ms(x1) (wall1.28), queue_wait=0.48ms(x1)
+[2026-08-26 17:26:24.606] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:24.606] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='[CENC] 没有匹配的地震数据 "help"喵~' is_edit=False
+[2026-08-26 17:26:24.607] [DEBUG   ] (dispatcher:_dispatch_inner:107) [aefa2b5f415f4bed] 跳过 bot 消息: uid=1341019011
+[2026-08-26 17:26:32.624] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:32.624] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='算了' is_edit=False
+[2026-08-26 17:26:32.625] [DEBUG   ] (dispatcher:_dispatch_inner:110) [541ed77033344a60] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:26:32.625] [INFO    ] (dispatcher:_dispatch_inner:308) [541ed77033344a60] 📩 消息 #37 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='算了'
+[2026-08-26 17:26:32.626] [DEBUG   ] (queues:enqueue_message:75) [541ed77033344a60] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:32.627] [INFO    ] (memory:merge_overflow_memory:419) [cab492924cae4ad4] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
+[2026-08-26 17:26:32.628] [DEBUG   ] (pipeline:process_message:500) [cab492924cae4ad4] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='算了'
+[2026-08-26 17:26:32.628] [INFO    ] (logger:log_trace_summary:392) [cab492924cae4ad4] [TRACE cab492924cae4ad4] total=1.87ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.82ms(x1) (wall1.82), queue_wait=0.47ms(x1)
+[2026-08-26 17:26:32.772] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:32.774] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='😂' is_edit=False
+[2026-08-26 17:26:32.774] [DEBUG   ] (dispatcher:_dispatch_inner:110) [65d92eb3d704435c] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:26:32.774] [INFO    ] (dispatcher:_dispatch_inner:308) [65d92eb3d704435c] 📩 消息 #38 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='😂'
+[2026-08-26 17:26:32.775] [DEBUG   ] (queues:enqueue_message:75) [65d92eb3d704435c] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:32.776] [INFO    ] (memory:merge_overflow_memory:419) [83ed9c0bdb904252] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
+[2026-08-26 17:26:32.778] [DEBUG   ] (pipeline:process_message:500) [83ed9c0bdb904252] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='😂'
+[2026-08-26 17:26:32.778] [INFO    ] (logger:log_trace_summary:392) [83ed9c0bdb904252] [TRACE 83ed9c0bdb904252] total=2.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.08ms(x1) (wall2.08), queue_wait=0.77ms(x1)
+[2026-08-26 17:26:38.498] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:26:49.986] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:49.987] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq 四川' is_edit=False
+[2026-08-26 17:26:49.987] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b215f8ebefb34579] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:26:49.987] [INFO    ] (dispatcher:_dispatch_inner:308) [b215f8ebefb34579] 📩 消息 #39 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.eq 四川'
+[2026-08-26 17:26:49.988] [DEBUG   ] (queues:enqueue_message:75) [b215f8ebefb34579] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:49.989] [INFO    ] (memory:merge_overflow_memory:419) [190c4e5462d8406d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
+[2026-08-26 17:26:49.989] [DEBUG   ] (pipeline:process_message:500) [190c4e5462d8406d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq 四川'
+[2026-08-26 17:26:49.989] [DEBUG   ] (pipeline:process_message:510) [190c4e5462d8406d] 点前缀消息忽略（其它 bot 命令）: '.eq 四川'
+[2026-08-26 17:26:49.989] [INFO    ] (logger:log_trace_summary:392) [190c4e5462d8406d] [TRACE 190c4e5462d8406d] total=1.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.99ms(x1) (wall0.99), queue_wait=0.55ms(x1)
