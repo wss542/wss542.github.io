@@ -1,22 +1,4 @@
-# 更新于 2026-08-26 19:26:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:51:12.614] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-26 16:51:12.615] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-26 16:51:12.616] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-26 16:51:12.616] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-26 16:51:12.616] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 279, 'total_buffer_lines': 6, 'active_tasks': 0}
-[2026-08-26 16:51:12.619] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-26 16:51:12.619] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-26 16:51:12.621] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-26 16:51:12.971] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-26 16:51:14.053] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-26 16:51:14.085] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 16:51:15.024] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 16:51:15.024] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+# 更新于 2026-08-26 19:26:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:51:15.025] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-08-26 16:51:15.028] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
 [2026-08-26 16:51:15.028] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
@@ -1499,3 +1481,21 @@
 [2026-08-26 19:26:06.428] [INFO    ] (logger:log_trace_summary:392) [ac229cf5c29745e9] [TRACE ac229cf5c29745e9] total=2.36ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.3ms(x1) (wall2.3), queue_wait=1.5ms(x1)
 [2026-08-26 19:26:06.429] [INFO    ] (llm:call_llm:427) [ac229cf5c29745e9] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-08-26 19:26:06.458] [INFO    ] (engine:_ingest:92) [ac229cf5c29745e9] 异步记忆提炼完成 chat=1010983873136793: 候选2 新增2
+[2026-08-26 19:26:07.353] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:26:07.353] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在获取远程版本…' is_edit=False
+[2026-08-26 19:26:07.353] [DEBUG   ] (dispatcher:_dispatch_inner:107) [6d7167fbbe5a462f] 跳过 bot 消息: uid=1341019011
+[2026-08-26 19:26:07.599] [INFO    ] (llm:call_llm:489) [ac229cf5c29745e9] LLM [deepseek-v4-flash] 返回 134字符 耗时1.2s → "[17:26:01-17:27:52] Trusler: 先发?, 后发.eq unsub, .eq..."
+[2026-08-26 19:26:07.602] [INFO    ] (memory:_compress_with_deepseek:210) [ac229cf5c29745e9] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-26 19:26:08.599] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:26:08.600] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='已是最新' is_edit=False
+[2026-08-26 19:26:08.600] [DEBUG   ] (dispatcher:_dispatch_inner:107) [0e7c5930c39e48ae] 跳过 bot 消息: uid=1341019011
+[2026-08-26 19:26:16.711] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:26:16.712] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='（）' is_edit=False
+[2026-08-26 19:26:16.712] [DEBUG   ] (dispatcher:_dispatch_inner:110) [59d2e57a392e4938] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 19:26:16.713] [INFO    ] (dispatcher:_dispatch_inner:308) [59d2e57a392e4938] 📩 消息 #75 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='（）'
+[2026-08-26 19:26:16.714] [DEBUG   ] (queues:enqueue_message:75) [59d2e57a392e4938] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 19:26:16.715] [INFO    ] (memory:merge_overflow_memory:419) [6e1f552418f04b6b] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-26 19:26:16.715] [DEBUG   ] (context_manager:append_to_context:86) [6e1f552418f04b6b] 上下文裁剪 [1010983873136793]: 移除 1 条 (上限=100)
+[2026-08-26 19:26:16.716] [DEBUG   ] (pipeline:process_message:500) [6e1f552418f04b6b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
+[2026-08-26 19:26:16.716] [INFO    ] (logger:log_trace_summary:392) [6e1f552418f04b6b] [TRACE 6e1f552418f04b6b] total=1.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.55ms(x1) (wall1.55), queue_wait=0.57ms(x1)
+[2026-08-26 19:26:17.297] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
