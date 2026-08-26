@@ -1,15 +1,4 @@
-# 更新于 2026-08-26 19:37:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:51:15.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-26 16:51:15.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-26 16:51:15.571] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-26 16:51:15.571] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-26 16:51:15.571] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-26 16:51:15.571] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-26 16:51:15.571] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-26 16:51:15.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-26 16:51:15.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-26 16:51:15.572] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-26 16:51:15.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+# 更新于 2026-08-26 19:37:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:51:15.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 [2026-08-26 16:51:15.572] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
 [2026-08-26 16:51:15.573] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
@@ -1499,3 +1488,14 @@
 [2026-08-26 19:36:57.612] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 19:37:00.510] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 19:37:19.153] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=26ms]: '**▶ 继续播放**' song=梁静茹 - 勇气 playing=True channel=None
+[2026-08-26 19:37:28.222] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-26 19:37:39.988] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:37:39.988] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='可' is_edit=False
+[2026-08-26 19:37:39.989] [DEBUG   ] (dispatcher:_dispatch_inner:110) [fd78f4e6a7ee421f] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-26 19:37:39.989] [INFO    ] (dispatcher:_dispatch_inner:308) [fd78f4e6a7ee421f] 📩 消息 #76 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='可'
+[2026-08-26 19:37:39.991] [INFO    ] (queues:_get_or_create_queue:32) [fd78f4e6a7ee421f] [队列] 创建群9231565360961340 的独立消息队列
+[2026-08-26 19:37:39.991] [DEBUG   ] (queues:enqueue_message:75) [fd78f4e6a7ee421f] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-26 19:37:39.994] [INFO    ] (memory:merge_overflow_memory:419) [944d551a1e7944c9] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 1条 (阈值=10)
+[2026-08-26 19:37:39.995] [DEBUG   ] (pipeline:process_message:500) [944d551a1e7944c9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='可'
+[2026-08-26 19:37:39.995] [INFO    ] (logger:log_trace_summary:392) [944d551a1e7944c9] [TRACE 944d551a1e7944c9] total=3.18ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.14ms(x1) (wall3.14), queue_wait=1.27ms(x1)
+[2026-08-26 19:37:58.833] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
