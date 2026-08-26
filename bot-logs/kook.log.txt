@@ -1,25 +1,4 @@
-# 更新于 2026-08-26 21:04:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:32:53.254] [INFO    ] (logger:log_trace_summary:392) [3755f2602c7d4ad3] [TRACE 3755f2602c7d4ad3] total=1.4ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.37ms(x1) (wall1.37), queue_wait=0.24ms(x1)
-[2026-08-26 17:33:00.994] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:33:00.995] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='原来这个tunnel是你整的' is_edit=False
-[2026-08-26 17:33:00.995] [DEBUG   ] (dispatcher:_dispatch_inner:110) [faa641abfd054c7b] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
-[2026-08-26 17:33:00.995] [INFO    ] (dispatcher:_dispatch_inner:308) [faa641abfd054c7b] 📩 消息 #46 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='原来这个tunnel是你整的'
-[2026-08-26 17:33:00.996] [DEBUG   ] (queues:enqueue_message:75) [faa641abfd054c7b] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:33:00.996] [INFO    ] (memory:merge_overflow_memory:419) [4024e7bafebc427e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
-[2026-08-26 17:33:00.997] [DEBUG   ] (pipeline:process_message:500) [4024e7bafebc427e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='原来这个tunnel是你整的'
-[2026-08-26 17:33:00.997] [INFO    ] (logger:log_trace_summary:392) [4024e7bafebc427e] [TRACE 4024e7bafebc427e] total=1.2ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.16ms(x1) (wall1.16), queue_wait=0.48ms(x1)
-[2026-08-26 17:33:06.003] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:33:06.003] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我给删了（）' is_edit=False
-[2026-08-26 17:33:06.003] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ce6598619ddb4eab] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
-[2026-08-26 17:33:06.004] [INFO    ] (dispatcher:_dispatch_inner:308) [ce6598619ddb4eab] 📩 消息 #47 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='我给删了（）'
-[2026-08-26 17:33:06.005] [DEBUG   ] (queues:enqueue_message:75) [ce6598619ddb4eab] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:33:06.006] [INFO    ] (memory:merge_overflow_memory:419) [bba2c6dd4915457c] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
-[2026-08-26 17:33:06.006] [DEBUG   ] (pipeline:process_message:500) [bba2c6dd4915457c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我给删了（）'
-[2026-08-26 17:33:06.007] [INFO    ] (logger:log_trace_summary:392) [bba2c6dd4915457c] [TRACE bba2c6dd4915457c] total=1.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.86ms(x1) (wall1.86), queue_wait=0.3ms(x1)
-[2026-08-26 17:33:15.082] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 17:33:27.784] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:33:27.785] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='这东西在这里会暴露你的tunnel url' is_edit=False
-[2026-08-26 17:33:27.785] [DEBUG   ] (dispatcher:_dispatch_inner:110) [374087da3bb24795] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+# 更新于 2026-08-26 21:05:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:33:27.785] [INFO    ] (dispatcher:_dispatch_inner:308) [374087da3bb24795] 📩 消息 #48 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='这东西在这里会暴露你的tunnel url'
 [2026-08-26 17:33:27.786] [DEBUG   ] (queues:enqueue_message:75) [374087da3bb24795] [队列] 群1010983873136793 消息已入队 (队长度=1)
 [2026-08-26 17:33:27.786] [INFO    ] (memory:merge_overflow_memory:419) [6de8b2d2533341fc] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
@@ -1499,3 +1478,24 @@
 [2026-08-26 21:03:12.780] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 21:03:43.107] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 21:04:13.669] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 21:04:22.517] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 21:04:22.517] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/MSB1imfcAa16x0j8.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1545,"height":692,"fileSize":649266,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-26 21:04:22.520] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8851495247854337] KMD 调试: is_group=True uid=337936062 channel=9231565360961340
+[2026-08-26 21:04:22.523] [INFO    ] (dispatcher:_dispatch_inner:177) [8851495247854337] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/MSB1imfcAa16x0j8.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1545,"height":692,"fileSize":649266,"elements":[]}]}],"type":"card"}]')
+[2026-08-26 21:04:22.523] [INFO    ] (dispatcher:_dispatch_inner:308) [8851495247854337] 📩 消息 #17 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/MSB1imfcAa16x0j8.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1545,"height":692,"fileSize":649266,"elements":[]}]}],"type":"card"}]'
+[2026-08-26 21:04:22.526] [INFO    ] (dispatcher:_dispatch_inner:384) [8851495247854337] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-26 21:04:22.532] [INFO    ] (image_api:recognize_image:152) [8851495247854337] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/26/MSB1imfcAa16x0j8.pn...
+[2026-08-26 21:04:23.194] [INFO    ] (image_api:recognize_image:168) [8851495247854337] [chat=9231565360961340] 图片下载成功: 649266 bytes
+[2026-08-26 21:04:23.965] [INFO    ] (image_api:recognize_image:204) [8851495247854337] [chat=9231565360961340] 图片预处理: PNG(1545x692) → PNG 649266 bytes → 507439 bytes
+[2026-08-26 21:04:23.968] [INFO    ] (image_api:recognize_image:251) [8851495247854337] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=88edbd8e65c6...) model=deepseek-v4-flash-vision-exp
+[2026-08-26 21:04:29.518] [INFO    ] (image_api:recognize_image:280) [8851495247854337] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 目标：直接描述图片内容。 约束：不输出任何推理或思考过程。 条件：如果图片是表达情绪的表情包，则重点...
+[2026-08-26 21:04:29.544] [DEBUG   ] (image_api:_save:64) [8851495247854337] 图片缓存已写入磁盘: 339 条
+[2026-08-26 21:04:29.561] [DEBUG   ] (image_api:_save_to_repo:315) [8851495247854337] 图片仓库追加: MD5=88edbd8e65c6... → '目标：直接描述图片内容。 约束：不输出任何推理或思考过程。 '
+[2026-08-26 21:04:29.562] [INFO    ] (dispatcher:_do_recognize_image:916) [8851495247854337] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '目标：直接描述图片内容。 约束：不输出任何推理或思考过程。 条件：如果图片是表达情绪的表情包，则重点输出情绪元素（至少4点），其他内容也要包含。 长度限制：不超...' (200字) url=https://img.kookapp.cn/assets/2026-08/26/MSB1imfcAa16x0j8.pn
+[2026-08-26 21:04:29.564] [INFO    ] (dispatcher:_dispatch_inner:400) [8851495247854337] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '目标：直接描述图片内容。 约束：不输出任何推理或思考过程。 条件：如果图片是表达情绪的表情包，则重点...'
+[2026-08-26 21:04:29.565] [DEBUG   ] (queues:enqueue_message:75) [8851495247854337] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-26 21:04:29.569] [INFO    ] (pipeline:process_message:367) [fd336bb3c2f64730] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-26 21:04:29.569] [INFO    ] (memory:merge_overflow_memory:419) [fd336bb3c2f64730] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 6条 (阈值=10)
+[2026-08-26 21:04:29.578] [DEBUG   ] (pipeline:process_message:500) [fd336bb3c2f64730] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-26 21:04:29.578] [INFO    ] (logger:log_trace_summary:392) [fd336bb3c2f64730] [TRACE fd336bb3c2f64730] total=11.82ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11.71ms(x1) (wall11.71), queue_wait=1.38ms(x1)
+[2026-08-26 21:04:44.311] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
