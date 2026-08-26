@@ -1,4 +1,4 @@
-# 更新于 2026-08-27 00:03:03 · 共 20 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-27 00:03:52 · 共 114 行（来源 huanmeng.log 末尾）
 [2026-08-27 00:00:06.109] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-27 → 周四
 [2026-08-27 00:00:06.114] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-08-27 00:00:09.702] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -19,3 +19,97 @@
 [2026-08-27 00:01:41.363] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 00:02:11.862] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 00:02:42.356] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 00:03:10.252] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:10.253] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='>签到' is_edit=False
+[2026-08-27 00:03:10.253] [DEBUG   ] (dispatcher:_dispatch_inner:110) [361cceb4655b4906] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:10.253] [INFO    ] (dispatcher:_dispatch_inner:308) [361cceb4655b4906] 📩 消息 #41 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='>签到'
+[2026-08-27 00:03:10.255] [DEBUG   ] (queues:enqueue_message:75) [361cceb4655b4906] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:10.256] [INFO    ] (memory:merge_overflow_memory:419) [6b966caa3d66470b] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+[2026-08-27 00:03:10.256] [DEBUG   ] (pipeline:process_message:500) [6b966caa3d66470b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
+[2026-08-27 00:03:10.257] [INFO    ] (logger:log_trace_summary:392) [6b966caa3d66470b] [TRACE 6b966caa3d66470b] total=1.68ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.64ms(x1) (wall1.64), queue_wait=0.42ms(x1)
+[2026-08-27 00:03:11.103] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:11.104] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：12\n🔥 连续签到：6 天' is_edit=False
+[2026-08-27 00:03:11.104] [DEBUG   ] (dispatcher:_dispatch_inner:107) [75c2680b82194973] 跳过 bot 消息: uid=393688090
+[2026-08-27 00:03:12.995] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 00:03:13.926] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:13.927] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='>luck' is_edit=False
+[2026-08-27 00:03:13.927] [DEBUG   ] (dispatcher:_dispatch_inner:110) [17d839ed35c649bb] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:13.927] [INFO    ] (dispatcher:_dispatch_inner:308) [17d839ed35c649bb] 📩 消息 #42 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='>luck'
+[2026-08-27 00:03:13.928] [DEBUG   ] (queues:enqueue_message:75) [17d839ed35c649bb] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:13.929] [INFO    ] (memory:merge_overflow_memory:419) [ff1a87cd3f7645a6] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
+[2026-08-27 00:03:13.930] [DEBUG   ] (pipeline:process_message:500) [ff1a87cd3f7645a6] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
+[2026-08-27 00:03:13.930] [INFO    ] (logger:log_trace_summary:392) [ff1a87cd3f7645a6] [TRACE ff1a87cd3f7645a6] total=1.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.28ms(x1)
+[2026-08-27 00:03:14.369] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:14.370] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 54 喵' is_edit=False
+[2026-08-27 00:03:14.370] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b7c437bf0f224263] 跳过 bot 消息: uid=393688090
+[2026-08-27 00:03:15.615] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:15.615] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='/签到' is_edit=False
+[2026-08-27 00:03:15.615] [DEBUG   ] (dispatcher:_dispatch_inner:110) [04187886cfb840e9] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:15.615] [INFO    ] (dispatcher:_dispatch_inner:308) [04187886cfb840e9] 📩 消息 #43 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/签到'
+[2026-08-27 00:03:15.616] [DEBUG   ] (queues:enqueue_message:75) [04187886cfb840e9] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:15.616] [INFO    ] (memory:merge_overflow_memory:419) [86d90d29954e4abc] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
+[2026-08-27 00:03:15.617] [INFO    ] (pipeline:process_message:470) [86d90d29954e4abc] 指令拦截: '/签到' from=ywandwss
+[2026-08-27 00:03:15.617] [DEBUG   ] (commands:handle_command:4717) [86d90d29954e4abc] 指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+[2026-08-27 00:03:15.621] [INFO    ] (checkin:do_checkin:109) [86d90d29954e4abc] 签到: u:1759953618 streak=12 +15分
+[2026-08-27 00:03:15.621] [INFO    ] (commands:handle_command:4759) [86d90d29954e4abc] 指令执行完成 [签到]: 返回42字符
+[2026-08-27 00:03:16.192] [INFO    ] (logger:log_trace_summary:392) [86d90d29954e4abc] [TRACE 86d90d29954e4abc] total=575.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=575.33ms(x1) (wall575.33), queue_wait=0.27ms(x1)
+[2026-08-27 00:03:17.580] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:17.581] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='/lyck' is_edit=False
+[2026-08-27 00:03:17.581] [DEBUG   ] (dispatcher:_dispatch_inner:110) [807cf6749ee04d02] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:17.581] [INFO    ] (dispatcher:_dispatch_inner:308) [807cf6749ee04d02] 📩 消息 #44 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/lyck'
+[2026-08-27 00:03:17.581] [DEBUG   ] (queues:enqueue_message:75) [807cf6749ee04d02] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:17.582] [INFO    ] (memory:merge_overflow_memory:419) [b926c7872f124192] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
+[2026-08-27 00:03:17.583] [INFO    ] (pipeline:process_message:470) [b926c7872f124192] 指令拦截: '/lyck' from=ywandwss
+[2026-08-27 00:03:17.583] [DEBUG   ] (commands:handle_command:4717) [b926c7872f124192] 指令解析: prefix=/ cmd=lyck args=[] user=1759953618
+[2026-08-27 00:03:17.583] [WARNING ] (commands:handle_command:4722) [b926c7872f124192] 未知指令: '/lyck'
+[2026-08-27 00:03:18.049] [INFO    ] (logger:log_trace_summary:392) [b926c7872f124192] [TRACE b926c7872f124192] total=467.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=467.57ms(x1) (wall467.57), queue_wait=0.26ms(x1)
+[2026-08-27 00:03:19.737] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:19.738] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='/luck' is_edit=False
+[2026-08-27 00:03:19.738] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e8813d2e99b14666] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:19.738] [INFO    ] (dispatcher:_dispatch_inner:308) [e8813d2e99b14666] 📩 消息 #45 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/luck'
+[2026-08-27 00:03:19.738] [DEBUG   ] (queues:enqueue_message:75) [e8813d2e99b14666] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:19.740] [INFO    ] (memory:merge_overflow_memory:419) [7e9d4816eced419e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
+[2026-08-27 00:03:19.741] [INFO    ] (pipeline:process_message:470) [7e9d4816eced419e] 指令拦截: '/luck' from=ywandwss
+[2026-08-27 00:03:19.742] [DEBUG   ] (commands:handle_command:4717) [7e9d4816eced419e] 指令解析: prefix=/ cmd=luck args=[] user=1759953618
+[2026-08-27 00:03:19.742] [INFO    ] (commands:cmd_luck:756) [7e9d4816eced419e] 指令 /luck 触发 user=1759953618
+[2026-08-27 00:03:19.744] [INFO    ] (commands:handle_command:4759) [7e9d4816eced419e] 指令执行完成 [luck]: 返回33字符
+[2026-08-27 00:03:20.197] [INFO    ] (logger:log_trace_summary:392) [7e9d4816eced419e] [TRACE 7e9d4816eced419e] total=458.59ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=458.52ms(x1) (wall458.52), queue_wait=0.39ms(x1)
+[2026-08-27 00:03:21.735] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:21.736] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='/fuck' is_edit=False
+[2026-08-27 00:03:21.736] [DEBUG   ] (dispatcher:_dispatch_inner:110) [366b90c0949841a2] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:21.737] [INFO    ] (dispatcher:_dispatch_inner:308) [366b90c0949841a2] 📩 消息 #46 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/fuck'
+[2026-08-27 00:03:21.737] [DEBUG   ] (queues:enqueue_message:75) [366b90c0949841a2] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:21.738] [INFO    ] (memory:merge_overflow_memory:419) [68433c1fdf73411f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
+[2026-08-27 00:03:21.739] [INFO    ] (pipeline:process_message:470) [68433c1fdf73411f] 指令拦截: '/fuck' from=ywandwss
+[2026-08-27 00:03:21.739] [DEBUG   ] (commands:handle_command:4717) [68433c1fdf73411f] 指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+[2026-08-27 00:03:21.740] [INFO    ] (commands:handle_command:4759) [68433c1fdf73411f] 指令执行完成 [fuck]: 返回30字符
+[2026-08-27 00:03:22.203] [INFO    ] (logger:log_trace_summary:392) [68433c1fdf73411f] [TRACE 68433c1fdf73411f] total=465.28ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=465.23ms(x1) (wall465.23), queue_wait=0.45ms(x1)
+[2026-08-27 00:03:24.242] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:24.243] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='.签到' is_edit=False
+[2026-08-27 00:03:24.243] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7a143fd9df24459f] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:24.243] [INFO    ] (dispatcher:_dispatch_inner:308) [7a143fd9df24459f] 📩 消息 #47 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='.签到'
+[2026-08-27 00:03:24.244] [DEBUG   ] (queues:enqueue_message:75) [7a143fd9df24459f] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:24.244] [INFO    ] (memory:merge_overflow_memory:419) [e9653e8aa1634768] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-27 00:03:24.245] [DEBUG   ] (pipeline:process_message:500) [e9653e8aa1634768] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.签到'
+[2026-08-27 00:03:24.245] [DEBUG   ] (pipeline:process_message:510) [e9653e8aa1634768] 点前缀消息忽略（其它 bot 命令）: '.签到'
+[2026-08-27 00:03:24.245] [INFO    ] (logger:log_trace_summary:392) [e9653e8aa1634768] [TRACE e9653e8aa1634768] total=1.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.12ms(x1) (wall1.12), queue_wait=0.33ms(x1)
+[2026-08-27 00:03:24.246] [INFO    ] (llm:call_llm:427) [e9653e8aa1634768] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-27 00:03:24.262] [INFO    ] (engine:_ingest:92) [e9653e8aa1634768] 异步记忆提炼完成 chat=1010983873136793: 候选3 新增3
+[2026-08-27 00:03:25.213] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:25.214] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='✅ 签到成功，ywandwss 获得 180 积分！\n（基础 100 + 连续 4 天加成 80）\n当前余额：600 积分，累计签到 4 天' is_edit=False
+[2026-08-27 00:03:25.214] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b406a4f678d04056] 跳过 bot 消息: uid=1341019011
+[2026-08-27 00:03:25.801] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:25.801] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='.luck' is_edit=False
+[2026-08-27 00:03:25.802] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8394e8cdf52c4780] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 00:03:25.802] [INFO    ] (dispatcher:_dispatch_inner:308) [8394e8cdf52c4780] 📩 消息 #48 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='.luck'
+[2026-08-27 00:03:25.802] [DEBUG   ] (queues:enqueue_message:75) [8394e8cdf52c4780] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 00:03:25.803] [INFO    ] (memory:merge_overflow_memory:419) [7aecce212a364f3d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-27 00:03:25.804] [DEBUG   ] (pipeline:process_message:500) [7aecce212a364f3d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.luck'
+[2026-08-27 00:03:25.804] [DEBUG   ] (pipeline:process_message:510) [7aecce212a364f3d] 点前缀消息忽略（其它 bot 命令）: '.luck'
+[2026-08-27 00:03:25.804] [INFO    ] (logger:log_trace_summary:392) [7aecce212a364f3d] [TRACE 7aecce212a364f3d] total=1.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.13ms(x1) (wall1.13), queue_wait=0.64ms(x1)
+[2026-08-27 00:03:26.116] [INFO    ] (llm:call_llm:489) [e9653e8aa1634768] LLM [deepseek-v4-flash] 返回 151字符 耗时1.9s → "[17:33:06-17:37:38] Trusler: 删了东西, 说会暴露tunnel url,..."
+[2026-08-27 00:03:26.118] [INFO    ] (memory:_compress_with_deepseek:210) [e9653e8aa1634768] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-27 00:03:26.290] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 00:03:26.290] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 77 喵' is_edit=False
+[2026-08-27 00:03:26.291] [DEBUG   ] (dispatcher:_dispatch_inner:107) [8747ddbd83c14b8d] 跳过 bot 消息: uid=1341019011
+[2026-08-27 00:03:43.560] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
