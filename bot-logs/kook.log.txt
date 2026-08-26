@@ -1,5 +1,4 @@
-# 更新于 2026-08-26 20:29:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:27:40.390] [DEBUG   ] (commands:handle_command:4717) [7c13d381713345be] 指令解析: prefix=/ cmd=eq args=[] user=656176615
+# 更新于 2026-08-26 20:30:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:27:47.087] [INFO    ] (commands:handle_command:4759) [7c13d381713345be] 指令执行完成 [eq]: 返回32字符
 [2026-08-26 17:27:48.095] [INFO    ] (logger:log_trace_summary:392) [7c13d381713345be] [TRACE 7c13d381713345be] total=7705.69ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7705.63ms(x1) (wall7705.63), queue_wait=0.58ms(x1)
 [2026-08-26 17:27:48.096] [WARNING ] (logger:log_trace_summary:415) [7c13d381713345be] [SLOW 7c13d381713345be] total=7706.2ms | process=7705.63ms(x1) (wall7705.63), queue_wait=0.58ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.58ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=7705.63ms wall=7706.18ms dominant=other
@@ -1499,3 +1498,4 @@
 [2026-08-26 20:28:29.929] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 20:29:00.436] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 20:29:30.925] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-26 20:30:01.281] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
