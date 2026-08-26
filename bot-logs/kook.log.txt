@@ -1,5 +1,4 @@
-# 更新于 2026-08-26 15:04:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 10:32:38.905] [INFO    ] (dispatcher:_dispatch_inner:400) [1f64d1d4adb3470b] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '这是一张游戏界面截图，中央弹窗展示“BUFF”会员卡图标，标注“BUFF (7天)”和“x1”，底部...'
+# 更新于 2026-08-26 15:05:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 10:32:38.905] [DEBUG   ] (queues:enqueue_message:75) [1f64d1d4adb3470b] [队列] 群7274785942250691 消息已入队 (队长度=1)
 [2026-08-26 10:32:38.906] [INFO    ] (pipeline:process_message:370) [e4088c7ca8714cbc] 引用附带图片已记录 [chat=7274785942250691] count=1
 [2026-08-26 10:32:38.906] [INFO    ] (pipeline:process_message:419) [e4088c7ca8714cbc] 📎 引用消息已注入上下文 [7274785942250691]: '[引用图片 1 张]'...
@@ -1499,3 +1498,4 @@
 [2026-08-26 15:04:16.209] [INFO    ] (image_api:recognize_image:251) [-] [chat=0] 调用主视觉模型识别图片 (MD5=5bdab8e2a42c...) model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
 [2026-08-26 15:04:20.723] [ERROR   ] (image_api:recognize_image:264) [-] [chat=0] 主视觉模型失败: 'NoneType' object is not subscriptable (model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free)
 [2026-08-26 15:04:42.567] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 15:05:13.188] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
