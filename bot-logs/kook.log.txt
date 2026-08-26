@@ -1,34 +1,4 @@
-# 更新于 2026-08-26 16:19:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 14:28:31.141] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-26 14:28:31.141] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-26 14:28:31.143] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-26 14:28:31.144] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-26 14:28:31.144] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-26 14:28:31.147] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-26 14:28:31.148] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-26 14:28:31.149] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-26 14:28:31.149] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-26 14:28:31.150] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-26 14:28:31.151] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-26 14:28:31.151] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-26 14:28:31.154] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-26 14:28:31.154] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-26 14:28:31.155] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-26 14:28:31.155] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-26 14:28:31.155] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-08-26 14:28:31.156] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-26 14:28:31.156] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-26 14:28:31.156] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-08-26 14:28:31.156] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-26 14:28:31.157] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 14:28:31.157] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-26 14:28:31.157] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 14:28:31.157] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-26 14:28:31.158] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-26 14:28:31.224] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-26 14:28:31.225] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-26 14:28:31.225] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 1h32m 后执行 (16:01)
-[2026-08-26 14:28:31.290] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+# 更新于 2026-08-26 16:19:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 14:28:45.862] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-26 14:28:46.309] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 [2026-08-26 14:28:46.328] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 60s 前）
@@ -1499,3 +1469,33 @@
 [2026-08-26 16:19:02.599] [INFO    ] (commands:handle_command:4752) [3dc8e0d016ec4922] 指令执行完成 [供应商]: 返回1215字符
 [2026-08-26 16:19:03.391] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 16:19:03.402] [INFO    ] (logger:log_trace_summary:392) [3dc8e0d016ec4922] [TRACE 3dc8e0d016ec4922] total=815.29ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=815.05ms(x1) (wall815.05), queue_wait=1.12ms(x1)
+[2026-08-26 16:19:27.369] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 16:19:34.013] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 16:19:34.014] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你好 喵～' is_edit=False
+[2026-08-26 16:19:34.014] [DEBUG   ] (dispatcher:_dispatch_inner:110) [522a3585573c41c3] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-26 16:19:34.014] [INFO    ] (dispatcher:_dispatch_inner:308) [522a3585573c41c3] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你好 喵～'
+[2026-08-26 16:19:34.017] [DEBUG   ] (queues:enqueue_message:75) [522a3585573c41c3] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-26 16:19:34.019] [INFO    ] (memory:merge_overflow_memory:419) [9f2227e0c8b74380] 长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+[2026-08-26 16:19:34.020] [DEBUG   ] (pipeline:process_message:500) [9f2227e0c8b74380] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='你好 喵～'
+[2026-08-26 16:19:34.020] [DEBUG   ] (pipeline:process_message:531) [9f2227e0c8b74380] 私聊消息 → 直接回复
+[2026-08-26 16:19:34.027] [DEBUG   ] (pipeline:process_message:591) [9f2227e0c8b74380] 请求意图: intent=chat fast_search=False msg='你好 喵～'
+[2026-08-26 16:19:34.051] [WARNING ] (pipeline:process_message:639) [9f2227e0c8b74380] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-26 16:19:34.070] [DEBUG   ] (memory:_record_memory_trace:318) [9f2227e0c8b74380] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=15.3ms
+[2026-08-26 16:19:34.074] [INFO    ] (pipeline:process_message:799) [9f2227e0c8b74380] 额外信息: 1228字 (memory=550 search=0)
+[2026-08-26 16:19:34.076] [INFO    ] (pipeline:process_message:932) [9f2227e0c8b74380] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-26 16:19:34.079] [DEBUG   ] (pipeline:process_message:1061) [9f2227e0c8b74380] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-26 16:19:34.079] [INFO    ] (pipeline:process_message:1064) [9f2227e0c8b74380] 开始生成回复: speaker=ywandwss chat=1759953618
+[2026-08-26 16:19:40.125] [ERROR   ] (llm:call_llm_with_tools:657) [9f2227e0c8b74380] LLM FC [thinkingmachines/ink] 失败: Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
+[2026-08-26 16:19:40.125] [INFO    ] (llm:generate_multi_reply_with_tools:971) [9f2227e0c8b74380] LLM原始输出 [轮1]: content= | tool_calls=0
+[2026-08-26 16:19:40.126] [WARNING ] (llm:generate_multi_reply_with_tools:986) [9f2227e0c8b74380] LLM 返回空内容，重试...
+[2026-08-26 16:19:42.273] [ERROR   ] (llm:call_llm_with_tools:657) [9f2227e0c8b74380] LLM FC [thinkingmachines/ink] 失败: Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
+[2026-08-26 16:19:42.275] [INFO    ] (llm:generate_multi_reply_with_tools:971) [9f2227e0c8b74380] LLM原始输出 [轮2]: content= | tool_calls=0
+[2026-08-26 16:19:42.275] [WARNING ] (llm:generate_multi_reply_with_tools:989) [9f2227e0c8b74380] LLM 连续返回空内容，用 json_mode 兜底...
+[2026-08-26 16:19:42.277] [INFO    ] (llm:call_llm:427) [9f2227e0c8b74380] 调用LLM [thinkingmachines/ink] url=api tokens=800 temp=0.3 timeout=60.0s
+[2026-08-26 16:19:43.862] [ERROR   ] (llm:call_llm:520) [9f2227e0c8b74380] LLM [thinkingmachines/ink] 调用失败 (1.6s): Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
+[2026-08-26 16:19:43.864] [ERROR   ] (llm:generate_multi_reply_with_tools:999) [9f2227e0c8b74380] json_mode 兜底仍失败，放弃
+[2026-08-26 16:19:44.399] [WARNING ] (pipeline:process_message:1095) [9f2227e0c8b74380] LLM 未返回有效句子，已发送失败提示
+[2026-08-26 16:19:44.401] [INFO    ] (logger:log_trace_summary:392) [9f2227e0c8b74380] [TRACE 9f2227e0c8b74380] total=10383.11ms severity=very_slow_request | llm_calls=3 total=9733.64ms avg=3244.55ms max=6003.16ms p50=2146.57 p95=5617.5 p99=5926.03 | llm=9785.64ms(x1), memory=30.86ms(x2), process=10382.85ms(x1) (wall10382.85), queue_wait=0.83ms(x1)
+[2026-08-26 16:19:44.403] [WARNING ] (logger:log_trace_summary:410) [9f2227e0c8b74380] [VERY_SLOW 9f2227e0c8b74380] total=10384.38ms 需重点排查 | llm=9785.64ms(x1), memory=30.86ms(x2), process=10382.85ms(x1) (wall10382.85), queue_wait=0.83ms(x1) | llm_calls=3 total=9733.64ms avg=3244.55ms max=6003.16ms p50=2146.57 p95=5617.5 p99=5926.03 | perf: queue=0.83ms llm=9785.64ms search_tool=0.0ms delivery=0.0ms other=10413.71ms wall=10384.34ms dominant=other
+[2026-08-26 16:19:44.409] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 16:19:57.935] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
