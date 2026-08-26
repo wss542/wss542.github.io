@@ -1,15 +1,4 @@
-# 更新于 2026-08-26 17:34:20 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:46:30.087] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你现在可以干什么' is_edit=False
-[2026-08-26 15:46:30.088] [DEBUG   ] (dispatcher:_dispatch_inner:110) [55ac268b7f3d4406] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-26 15:46:30.088] [INFO    ] (dispatcher:_dispatch_inner:308) [55ac268b7f3d4406] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你现在可以干什么'
-[2026-08-26 15:46:30.088] [DEBUG   ] (queues:enqueue_message:75) [55ac268b7f3d4406] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-26 15:46:30.089] [INFO    ] (memory:merge_overflow_memory:419) [2efb121f0f5f47a6] 长时记忆溢出缓冲: chat=1759953618 +1 = 3条 (阈值=10)
-[2026-08-26 15:46:30.090] [DEBUG   ] (pipeline:process_message:500) [2efb121f0f5f47a6] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='你现在可以干什么'
-[2026-08-26 15:46:30.090] [DEBUG   ] (pipeline:process_message:531) [2efb121f0f5f47a6] 私聊消息 → 直接回复
-[2026-08-26 15:46:30.091] [DEBUG   ] (pipeline:process_message:591) [2efb121f0f5f47a6] 请求意图: intent=chat fast_search=False msg='你现在可以干什么'
-[2026-08-26 15:46:30.091] [WARNING ] (pipeline:process_message:639) [2efb121f0f5f47a6] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-26 15:46:30.097] [DEBUG   ] (memory:_record_memory_trace:318) [2efb121f0f5f47a6] 记忆检索: source=legacy_file status=hit 命中注入=9 耗时=5.0ms
-[2026-08-26 15:46:30.100] [INFO    ] (pipeline:process_message:799) [2efb121f0f5f47a6] 额外信息: 1130字 (memory=489 search=0)
+# 更新于 2026-08-26 17:34:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:46:30.103] [INFO    ] (pipeline:process_message:932) [2efb121f0f5f47a6] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
 [2026-08-26 15:46:30.104] [DEBUG   ] (pipeline:process_message:1061) [2efb121f0f5f47a6] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-08-26 15:46:30.104] [INFO    ] (pipeline:process_message:1064) [2efb121f0f5f47a6] 开始生成回复: speaker=ywandwss chat=1759953618
@@ -1499,3 +1488,14 @@
 [2026-08-26 17:33:27.787] [INFO    ] (logger:log_trace_summary:392) [6de8b2d2533341fc] [TRACE 6de8b2d2533341fc] total=1.33ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.29ms(x1) (wall1.29), queue_wait=0.45ms(x1)
 [2026-08-26 17:33:45.502] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 17:34:16.125] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:34:38.226] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:34:38.226] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='中' is_edit=False
+[2026-08-26 17:34:38.226] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0bc120880abc4c3a] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:34:38.227] [INFO    ] (dispatcher:_dispatch_inner:308) [0bc120880abc4c3a] 📩 消息 #49 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='中'
+[2026-08-26 17:34:38.228] [DEBUG   ] (queues:enqueue_message:75) [0bc120880abc4c3a] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:34:38.229] [INFO    ] (memory:merge_overflow_memory:419) [24f85d7b1fc34ce2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
+[2026-08-26 17:34:38.230] [DEBUG   ] (pipeline:process_message:500) [24f85d7b1fc34ce2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='中'
+[2026-08-26 17:34:38.230] [INFO    ] (logger:log_trace_summary:392) [24f85d7b1fc34ce2] [TRACE 24f85d7b1fc34ce2] total=1.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.5ms(x1) (wall1.5), queue_wait=0.52ms(x1)
+[2026-08-26 17:34:46.668] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:34:58.425] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+[2026-08-26 17:34:58.425] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
