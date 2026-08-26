@@ -1,6 +1,4 @@
-# 更新于 2026-08-26 19:13:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:44:02.806] [INFO    ] (llm:call_llm:427) [12afbf52ea3b47ac] 调用LLM [nvidia/nemotron-3-su] url=api tokens=300 temp=0.2 timeout=15.0s
-[2026-08-26 16:44:03.361] [DEBUG   ] (response_delivery:send_sentences:241) [12afbf52ea3b47ac] 已发送第 1/1 条: 你好呀～...
+# 更新于 2026-08-26 19:14:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:44:03.362] [DEBUG   ] (response_delivery:send_sentences:243) [12afbf52ea3b47ac] 分批发送完成: 共 1 条 → chat=1759953618
 [2026-08-26 16:44:03.362] [DEBUG   ] (context_manager:_on_task_done:139) [12afbf52ea3b47ac] 发送任务已清理 [1759953618]
 [2026-08-26 16:44:03.387] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1497,5 @@
 [2026-08-26 19:13:24.531] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='以下 1 个文件未能应用更新（本地改动已保留，未被覆盖）：\n  - modules/commands.py\n未推进版本，可处理后重试 .update（已应用的更新会保留）' is_edit=False
 [2026-08-26 19:13:24.531] [DEBUG   ] (dispatcher:_dispatch_inner:107) [f44a731c29404dbd] 跳过 bot 消息: uid=1341019011
 [2026-08-26 19:13:34.012] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 19:14:03.476] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=12 extra.type=12 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 19:14:04.577] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
