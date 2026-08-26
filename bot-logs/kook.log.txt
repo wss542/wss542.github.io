@@ -1,25 +1,4 @@
-# 更新于 2026-08-26 21:05:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 17:34:38.226] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='中' is_edit=False
-[2026-08-26 17:34:38.226] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0bc120880abc4c3a] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-26 17:34:38.227] [INFO    ] (dispatcher:_dispatch_inner:308) [0bc120880abc4c3a] 📩 消息 #49 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='中'
-[2026-08-26 17:34:38.228] [DEBUG   ] (queues:enqueue_message:75) [0bc120880abc4c3a] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:34:38.229] [INFO    ] (memory:merge_overflow_memory:419) [24f85d7b1fc34ce2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
-[2026-08-26 17:34:38.230] [DEBUG   ] (pipeline:process_message:500) [24f85d7b1fc34ce2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='中'
-[2026-08-26 17:34:38.230] [INFO    ] (logger:log_trace_summary:392) [24f85d7b1fc34ce2] [TRACE 24f85d7b1fc34ce2] total=1.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.5ms(x1) (wall1.5), queue_wait=0.52ms(x1)
-[2026-08-26 17:34:46.668] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 17:34:58.425] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-08-26 17:34:58.425] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-26 17:35:17.284] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 17:35:40.981] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 17:35:40.982] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='彳亍' is_edit=False
-[2026-08-26 17:35:40.982] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3adc125d4c764a68] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
-[2026-08-26 17:35:40.983] [INFO    ] (dispatcher:_dispatch_inner:308) [3adc125d4c764a68] 📩 消息 #50 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='彳亍'
-[2026-08-26 17:35:40.984] [DEBUG   ] (queues:enqueue_message:75) [3adc125d4c764a68] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 17:35:40.985] [INFO    ] (memory:merge_overflow_memory:419) [edcc98bc7ccd49d5] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
-[2026-08-26 17:35:40.986] [DEBUG   ] (pipeline:process_message:500) [edcc98bc7ccd49d5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='彳亍'
-[2026-08-26 17:35:40.986] [INFO    ] (logger:log_trace_summary:392) [edcc98bc7ccd49d5] [TRACE edcc98bc7ccd49d5] total=1.75ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.56ms(x1)
-[2026-08-26 17:35:47.878] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 17:35:57.985] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-26 21:06:39 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 17:35:57.986] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='去放学了吧应该' is_edit=False
 [2026-08-26 17:35:57.986] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3d8060a70c0c4848] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
 [2026-08-26 17:35:57.986] [INFO    ] (dispatcher:_dispatch_inner:308) [3d8060a70c0c4848] 📩 消息 #51 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='去放学了吧应该'
@@ -1499,3 +1478,24 @@
 [2026-08-26 21:05:45.362] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 21:05:45.973] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-26 21:05:45.973] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-26 21:05:58.682] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 21:05:58.683] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/gj2Cei5LIO0b601j.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":402,"height":55,"fileSize":4511,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-26 21:05:58.683] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c515dbfe150a49fb] KMD 调试: is_group=True uid=656176615 channel=9231565360961340
+[2026-08-26 21:05:58.683] [INFO    ] (dispatcher:_dispatch_inner:177) [c515dbfe150a49fb] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/gj2Cei5LIO0b601j.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":402,"height":55,"fileSize":4511,"elements":[]}]}],"type":"card"}]')
+[2026-08-26 21:05:58.683] [INFO    ] (dispatcher:_dispatch_inner:308) [c515dbfe150a49fb] 📩 消息 #18 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=9231565360961340 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/26\\/gj2Cei5LIO0b601j.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":402,"height":55,"fileSize":4511,"elements":[]}]}],"type":"card"}]'
+[2026-08-26 21:05:58.684] [INFO    ] (dispatcher:_dispatch_inner:384) [c515dbfe150a49fb] 🖼️  [chat=9231565360961340] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-26 21:05:58.685] [INFO    ] (image_api:recognize_image:152) [c515dbfe150a49fb] [chat=9231565360961340] 开始获取图片: https://img.kookapp.cn/assets/2026-08/26/gj2Cei5LIO0b601j.pn...
+[2026-08-26 21:05:58.998] [INFO    ] (image_api:recognize_image:168) [c515dbfe150a49fb] [chat=9231565360961340] 图片下载成功: 4511 bytes
+[2026-08-26 21:05:59.003] [INFO    ] (image_api:recognize_image:204) [c515dbfe150a49fb] [chat=9231565360961340] 图片预处理: PNG(402x55) → PNG 4511 bytes → 4960 bytes
+[2026-08-26 21:05:59.003] [INFO    ] (image_api:recognize_image:251) [c515dbfe150a49fb] [chat=9231565360961340] 调用主视觉模型识别图片 (MD5=4e7cf3ba7b69...) model=deepseek-v4-flash-vision-exp
+[2026-08-26 21:06:01.493] [INFO    ] (image_api:recognize_image:280) [c515dbfe150a49fb] [chat=9231565360961340] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 聊天记录截图：评论图标，橙色标签“@Trusler”，灰色文字“要爆炸了！快跑！”，时间“今天 下午...
+[2026-08-26 21:06:01.495] [DEBUG   ] (image_api:_save:64) [c515dbfe150a49fb] 图片缓存已写入磁盘: 340 条
+[2026-08-26 21:06:01.500] [DEBUG   ] (image_api:_save_to_repo:315) [c515dbfe150a49fb] 图片仓库追加: MD5=4e7cf3ba7b69... → '聊天记录截图：评论图标，橙色标签“@Trusler”，灰色文'
+[2026-08-26 21:06:01.500] [INFO    ] (dispatcher:_do_recognize_image:916) [c515dbfe150a49fb] 🖼️  [chat=9231565360961340] 图#1/1 识别完成: '聊天记录截图：评论图标，橙色标签“@Trusler”，灰色文字“要爆炸了！快跑！”，时间“今天 下午 09:04”。作为表情包，表达紧急感、惊恐感、危机感、慌张...' (86字) url=https://img.kookapp.cn/assets/2026-08/26/gj2Cei5LIO0b601j.pn
+[2026-08-26 21:06:01.500] [INFO    ] (dispatcher:_dispatch_inner:400) [c515dbfe150a49fb] 🖼️  [chat=9231565360961340] 图1 识别完成并注入上下文: '聊天记录截图：评论图标，橙色标签“@Trusler”，灰色文字“要爆炸了！快跑！”，时间“今天 下午...'
+[2026-08-26 21:06:01.501] [DEBUG   ] (queues:enqueue_message:75) [c515dbfe150a49fb] [队列] 群9231565360961340 消息已入队 (队长度=1)
+[2026-08-26 21:06:01.503] [INFO    ] (pipeline:process_message:367) [1ceadcd92db04897] 附带图片已记录 [chat=9231565360961340] count=1
+[2026-08-26 21:06:01.504] [INFO    ] (memory:merge_overflow_memory:419) [1ceadcd92db04897] 长时记忆溢出缓冲: chat=9231565360961340 +1 = 7条 (阈值=10)
+[2026-08-26 21:06:01.505] [DEBUG   ] (pipeline:process_message:500) [1ceadcd92db04897] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-26 21:06:01.505] [INFO    ] (logger:log_trace_summary:392) [1ceadcd92db04897] [TRACE 1ceadcd92db04897] total=3.19ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.14ms(x1) (wall3.14), queue_wait=1.02ms(x1)
+[2026-08-26 21:06:15.731] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
