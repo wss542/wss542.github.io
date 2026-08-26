@@ -1,59 +1,4 @@
-# 更新于 2026-08-26 17:25:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:34:03.525] [INFO    ] (image_api:recognize_image:204) [fb1de1f832f64d60] [chat=1010983873136793] 图片预处理: PNG(336x486) → PNG 46108 bytes → 39405 bytes
-[2026-08-26 15:34:03.525] [INFO    ] (image_api:recognize_image:251) [fb1de1f832f64d60] [chat=1010983873136793] 调用主视觉模型识别图片 (MD5=90cc58c20fb4...) model=deepseek-v4-flash-vision-exp
-[2026-08-26 15:34:06.778] [INFO    ] (image_api:recognize_image:268) [fb1de1f832f64d60] [chat=1010983873136793] 图片识别成功 (model=deepseek-v4-flash-vision-exp): Discord机器人“幻梦#7071”主页，动漫头像，简介“this is test program...
-[2026-08-26 15:34:06.784] [DEBUG   ] (image_api:_save:64) [fb1de1f832f64d60] 图片缓存已写入磁盘: 331 条
-[2026-08-26 15:34:06.802] [DEBUG   ] (image_api:_save_to_repo:303) [fb1de1f832f64d60] 图片仓库追加: MD5=90cc58c20fb4... → 'Discord机器人“幻梦#7071”主页，动漫头像，简介“'
-[2026-08-26 15:34:06.802] [INFO    ] (dispatcher:_do_recognize_image:914) [fb1de1f832f64d60] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: 'Discord机器人“幻梦#7071”主页，动漫头像，简介“this is test program bot”，正在游玩《冰与火之舞》217小时56分钟，拥有“...' (91字) url=https://img.kookapp.cn/assets/2026-08/26/2wKNzbenD109c0di.pn
-[2026-08-26 15:34:06.803] [INFO    ] (dispatcher:_dispatch_inner:400) [fb1de1f832f64d60] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: 'Discord机器人“幻梦#7071”主页，动漫头像，简介“this is test program...'
-[2026-08-26 15:34:06.803] [INFO    ] (queues:_get_or_create_queue:32) [fb1de1f832f64d60] [队列] 创建群1010983873136793 的独立消息队列
-[2026-08-26 15:34:06.804] [DEBUG   ] (queues:enqueue_message:75) [fb1de1f832f64d60] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 15:34:06.806] [INFO    ] (pipeline:process_message:367) [567fc3df3b444748] 附带图片已记录 [chat=1010983873136793] count=1
-[2026-08-26 15:34:06.809] [INFO    ] (memory:merge_overflow_memory:419) [567fc3df3b444748] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
-[2026-08-26 15:34:06.819] [DEBUG   ] (pipeline:process_message:500) [567fc3df3b444748] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
-[2026-08-26 15:34:06.819] [INFO    ] (logger:log_trace_summary:392) [567fc3df3b444748] [TRACE 567fc3df3b444748] total=13.88ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13.71ms(x1) (wall13.71), queue_wait=2.26ms(x1)
-[2026-08-26 15:34:12.909] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:34:12.910] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)1759953618(met) 机器人玩的都比你久' is_edit=False
-[2026-08-26 15:34:12.910] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e72db925003b419e] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
-[2026-08-26 15:34:12.911] [INFO    ] (dispatcher:_dispatch_inner:308) [e72db925003b419e] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='(met)1759953618(met) 机器人玩的都比你久'
-[2026-08-26 15:34:12.912] [DEBUG   ] (queues:enqueue_message:75) [e72db925003b419e] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 15:34:12.913] [INFO    ] (memory:merge_overflow_memory:419) [363bd39fc7574b70] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
-[2026-08-26 15:34:12.914] [DEBUG   ] (pipeline:process_message:500) [363bd39fc7574b70] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='@ywandwss  机器人玩的都比你久'
-[2026-08-26 15:34:12.914] [INFO    ] (logger:log_trace_summary:392) [363bd39fc7574b70] [TRACE 363bd39fc7574b70] total=1.78ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.63ms(x1) (wall1.63), queue_wait=0.62ms(x1)
-[2026-08-26 15:34:20.771] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:34:20.772] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(emj)委屈(emj)[3090677846298039/P8BDw8HKb40go0gc] ' is_edit=False
-[2026-08-26 15:34:20.772] [DEBUG   ] (dispatcher:_dispatch_inner:110) [aff0bee8353a4365] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-26 15:34:20.772] [INFO    ] (dispatcher:_dispatch_inner:194) [aff0bee8353a4365] 🧩 消息内解析到 1 个服务器表情
-[2026-08-26 15:34:20.773] [INFO    ] (dispatcher:_dispatch_inner:308) [aff0bee8353a4365] 📩 消息 #3 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='[表情] '
-[2026-08-26 15:34:20.774] [INFO    ] (dispatcher:_dispatch_inner:384) [aff0bee8353a4365] 🖼️  [chat=1010983873136793] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-26 15:34:20.774] [INFO    ] (image_api:recognize_image:152) [aff0bee8353a4365] [chat=1010983873136793] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/P8BDw8HKb40go...
-[2026-08-26 15:34:21.060] [INFO    ] (image_api:recognize_image:168) [aff0bee8353a4365] [chat=1010983873136793] 图片下载成功: 40560 bytes
-[2026-08-26 15:34:21.061] [INFO    ] (image_api:get:86) [aff0bee8353a4365] 图片识别缓存命中 MD5=84fda496bab6... → '图片中展示了一个可爱的动漫女孩形象，她有着白色的长发和蓝色的眼睛，头发上戴着一个...'
-[2026-08-26 15:34:21.061] [INFO    ] (dispatcher:_do_recognize_image:914) [aff0bee8353a4365] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '图片中展示了一个可爱的动漫女孩形象，她有着白色的长发和蓝色的眼睛，头发上戴着一个带有“X”标志的发夹。她的表情看起来有些困惑或紧张，双手交叉放在胸前，似乎在思考...' (144字) url=https://img.kookapp.cn/emojis/3090677846298039/P8BDw8HKb40go
-[2026-08-26 15:34:21.061] [INFO    ] (dispatcher:_dispatch_inner:400) [aff0bee8353a4365] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: '图片中展示了一个可爱的动漫女孩形象，她有着白色的长发和蓝色的眼睛，头发上戴着一个带有“X”标志的发夹...'
-[2026-08-26 15:34:21.061] [DEBUG   ] (queues:enqueue_message:75) [aff0bee8353a4365] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-26 15:34:21.063] [INFO    ] (pipeline:process_message:367) [1a32704334d24ed0] 附带图片已记录 [chat=1010983873136793] count=1
-[2026-08-26 15:34:21.064] [INFO    ] (memory:merge_overflow_memory:419) [1a32704334d24ed0] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
-[2026-08-26 15:34:21.065] [DEBUG   ] (pipeline:process_message:500) [1a32704334d24ed0] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
-[2026-08-26 15:34:21.065] [INFO    ] (logger:log_trace_summary:392) [1a32704334d24ed0] [TRACE 1a32704334d24ed0] total=3.3ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.23ms(x1) (wall3.23), queue_wait=0.42ms(x1)
-[2026-08-26 15:34:28.310] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9510)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:34:32.138] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-26 15:34:32.139] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-26 15:34:32.139] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-26 15:34:32.139] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-26 15:34:32.139] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-26 15:34:32.139] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-26 15:34:32.139] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-26 15:34:32.139] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-26 15:34:32.140] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-26 15:34:32.140] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-26 15:34:32.140] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-26 15:34:32.140] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-26 15:34:32.150] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-26 15:34:32.151] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-26 15:34:32.151] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-26 15:34:32.153] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-26 15:34:32.153] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
+# 更新于 2026-08-26 17:26:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:34:32.153] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
 [2026-08-26 15:34:32.153] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 282, 'total_buffer_lines': 3, 'active_tasks': 0}
 [2026-08-26 15:34:32.154] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
@@ -1499,3 +1444,58 @@
 [2026-08-26 17:25:53.442] [INFO    ] (memory:merge_overflow_memory:419) [32306003e2294764] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
 [2026-08-26 17:25:53.443] [DEBUG   ] (pipeline:process_message:500) [32306003e2294764] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='给我插件升升级qwq'
 [2026-08-26 17:25:53.443] [INFO    ] (logger:log_trace_summary:392) [32306003e2294764] [TRACE 32306003e2294764] total=1.39ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.34ms(x1) (wall1.34), queue_wait=0.47ms(x1)
+[2026-08-26 17:25:55.887] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:25:55.888] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq sub  M3.0' is_edit=False
+[2026-08-26 17:25:55.888] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2c159137953f42dd] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:25:55.888] [INFO    ] (dispatcher:_dispatch_inner:308) [2c159137953f42dd] 📩 消息 #32 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.eq sub  M3.0'
+[2026-08-26 17:25:55.889] [DEBUG   ] (queues:enqueue_message:75) [2c159137953f42dd] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:25:55.890] [INFO    ] (memory:merge_overflow_memory:419) [153ab3ad67ab4350] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-26 17:25:55.890] [DEBUG   ] (pipeline:process_message:500) [153ab3ad67ab4350] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq sub  M3.0'
+[2026-08-26 17:25:55.890] [DEBUG   ] (pipeline:process_message:510) [153ab3ad67ab4350] 点前缀消息忽略（其它 bot 命令）: '.eq sub  M3.0'
+[2026-08-26 17:25:55.890] [INFO    ] (logger:log_trace_summary:392) [153ab3ad67ab4350] [TRACE 153ab3ad67ab4350] total=0.98ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.94ms(x1) (wall0.94), queue_wait=0.43ms(x1)
+[2026-08-26 17:25:55.891] [INFO    ] (llm:call_llm:427) [153ab3ad67ab4350] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-26 17:25:55.896] [INFO    ] (engine:_ingest:92) [153ab3ad67ab4350] 异步记忆提炼完成 chat=1010983873136793: 候选1 新增1
+[2026-08-26 17:25:56.329] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:25:56.329] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='已订阅 M3.0省 地震速报喵~ (M≥4.0)' is_edit=False
+[2026-08-26 17:25:56.329] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b77b271dcf3b4de5] 跳过 bot 消息: uid=1341019011
+[2026-08-26 17:25:57.145] [INFO    ] (llm:call_llm:489) [153ab3ad67ab4350] LLM [deepseek-v4-flash] 返回 213字符 耗时1.3s → "[00:08:36-00:09:02] 제미니 (shuangzi_1228): 发送>luck、>..."
+[2026-08-26 17:25:57.147] [INFO    ] (memory:_compress_with_deepseek:210) [153ab3ad67ab4350] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-26 17:26:01.857] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:01.858] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='?\n' is_edit=False
+[2026-08-26 17:26:01.858] [DEBUG   ] (dispatcher:_dispatch_inner:110) [64a92ef4c8eb4051] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:26:01.858] [INFO    ] (dispatcher:_dispatch_inner:308) [64a92ef4c8eb4051] 📩 消息 #33 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='?\n'
+[2026-08-26 17:26:01.859] [DEBUG   ] (queues:enqueue_message:75) [64a92ef4c8eb4051] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:01.860] [INFO    ] (memory:merge_overflow_memory:419) [37e1d19126bd4345] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-26 17:26:01.860] [DEBUG   ] (pipeline:process_message:500) [37e1d19126bd4345] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='?
+'
+[2026-08-26 17:26:01.860] [INFO    ] (logger:log_trace_summary:392) [37e1d19126bd4345] [TRACE 37e1d19126bd4345] total=1.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.99ms(x1) (wall0.99), queue_wait=0.49ms(x1)
+[2026-08-26 17:26:05.686] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:05.686] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
+[2026-08-26 17:26:05.686] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0edf275daaf64785] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:26:05.687] [INFO    ] (dispatcher:_dispatch_inner:308) [0edf275daaf64785] 📩 消息 #34 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='？'
+[2026-08-26 17:26:05.687] [DEBUG   ] (queues:enqueue_message:75) [0edf275daaf64785] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:05.688] [INFO    ] (memory:merge_overflow_memory:419) [ac624d54df334765] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-26 17:26:05.689] [DEBUG   ] (pipeline:process_message:500) [ac624d54df334765] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+[2026-08-26 17:26:05.689] [INFO    ] (logger:log_trace_summary:392) [ac624d54df334765] [TRACE ac624d54df334765] total=1.48ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.45ms(x1) (wall1.45), queue_wait=0.53ms(x1)
+[2026-08-26 17:26:07.889] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:26:11.280] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:11.280] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq unsub' is_edit=False
+[2026-08-26 17:26:11.280] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2b097c5af47a4cc9] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:26:11.281] [INFO    ] (dispatcher:_dispatch_inner:308) [2b097c5af47a4cc9] 📩 消息 #35 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.eq unsub'
+[2026-08-26 17:26:11.281] [DEBUG   ] (queues:enqueue_message:75) [2b097c5af47a4cc9] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:11.282] [INFO    ] (memory:merge_overflow_memory:419) [a151fd4dba934c37] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+[2026-08-26 17:26:11.283] [DEBUG   ] (pipeline:process_message:500) [a151fd4dba934c37] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq unsub'
+[2026-08-26 17:26:11.283] [DEBUG   ] (pipeline:process_message:510) [a151fd4dba934c37] 点前缀消息忽略（其它 bot 命令）: '.eq unsub'
+[2026-08-26 17:26:11.283] [INFO    ] (logger:log_trace_summary:392) [a151fd4dba934c37] [TRACE a151fd4dba934c37] total=1.57ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.53ms(x1) (wall1.53), queue_wait=0.39ms(x1)
+[2026-08-26 17:26:12.297] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:12.297] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='已取消地震速报订阅喵~' is_edit=False
+[2026-08-26 17:26:12.297] [DEBUG   ] (dispatcher:_dispatch_inner:107) [f3548f82177b4bb0] 跳过 bot 消息: uid=1341019011
+[2026-08-26 17:26:21.667] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:26:21.668] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.eq help' is_edit=False
+[2026-08-26 17:26:21.668] [DEBUG   ] (dispatcher:_dispatch_inner:110) [00a315345d304674] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-26 17:26:21.668] [INFO    ] (dispatcher:_dispatch_inner:308) [00a315345d304674] 📩 消息 #36 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.eq help'
+[2026-08-26 17:26:21.669] [DEBUG   ] (queues:enqueue_message:75) [00a315345d304674] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:26:21.670] [INFO    ] (memory:merge_overflow_memory:419) [bed77e9a3fa74aaa] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
+[2026-08-26 17:26:21.671] [DEBUG   ] (pipeline:process_message:500) [bed77e9a3fa74aaa] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.eq help'
+[2026-08-26 17:26:21.671] [DEBUG   ] (pipeline:process_message:510) [bed77e9a3fa74aaa] 点前缀消息忽略（其它 bot 命令）: '.eq help'
+[2026-08-26 17:26:21.671] [INFO    ] (logger:log_trace_summary:392) [bed77e9a3fa74aaa] [TRACE bed77e9a3fa74aaa] total=1.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.28ms(x1) (wall1.28), queue_wait=0.48ms(x1)
