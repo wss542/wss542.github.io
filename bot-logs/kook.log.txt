@@ -1,9 +1,4 @@
-# 更新于 2026-08-26 15:04:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 10:32:38.670] [INFO    ] (dispatcher:_dispatch_inner:384) [1f64d1d4adb3470b] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-26 10:32:38.671] [INFO    ] (image_api:recognize_image:152) [1f64d1d4adb3470b] [chat=7274785942250691] 开始获取图片: https://img.kookapp.cn/assets/2026-08/26/togUIHMXcv0s60dl.pn...
-[2026-08-26 10:32:38.899] [INFO    ] (image_api:recognize_image:168) [1f64d1d4adb3470b] [chat=7274785942250691] 图片下载成功: 285107 bytes
-[2026-08-26 10:32:38.902] [INFO    ] (image_api:get:86) [1f64d1d4adb3470b] 图片识别缓存命中 MD5=6724011cd2cc... → '这是一张游戏界面截图，中央弹窗展示“BUFF”会员卡图标，标注“BUFF (7天...'
-[2026-08-26 10:32:38.903] [INFO    ] (dispatcher:_do_recognize_image:914) [1f64d1d4adb3470b] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '这是一张游戏界面截图，中央弹窗展示“BUFF”会员卡图标，标注“BUFF (7天)”和“x1”，底部有绿色“知道了”按钮，背景为《使命召唤》游戏暗色画面，旁边有...' (87字) url=https://img.kookapp.cn/assets/2026-08/26/togUIHMXcv0s60dl.pn
+# 更新于 2026-08-26 15:04:47 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 10:32:38.905] [INFO    ] (dispatcher:_dispatch_inner:400) [1f64d1d4adb3470b] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '这是一张游戏界面截图，中央弹窗展示“BUFF”会员卡图标，标注“BUFF (7天)”和“x1”，底部...'
 [2026-08-26 10:32:38.905] [DEBUG   ] (queues:enqueue_message:75) [1f64d1d4adb3470b] [队列] 群7274785942250691 消息已入队 (队长度=1)
 [2026-08-26 10:32:38.906] [INFO    ] (pipeline:process_message:370) [e4088c7ca8714cbc] 引用附带图片已记录 [chat=7274785942250691] count=1
@@ -1499,3 +1494,8 @@
 [2026-08-26 15:04:14.110] [ERROR   ] (llm:call_llm:520) [-] LLM [z-ai/glm-5.2:free] 调用失败 (29.4s): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'z-ai/glm-5.2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Decart', 'is_byok': False, 'provider_error_code': 'upstream_429', 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'retry_after_seconds': 5, 'retry_after_seconds_raw': 5, 'headers': {'Retry-After': '5'}}}, 'user_id': 'user_3IROwjLfnhFTCsUmgpvIwDDVlI0'}
 [2026-08-26 15:04:14.117] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 330 条
 [2026-08-26 15:04:14.117] [INFO    ] (image_api:recognize_image:152) [-] [chat=0] 开始获取图片: https://picsum.photos/400...
+[2026-08-26 15:04:15.999] [INFO    ] (image_api:recognize_image:168) [-] [chat=0] 图片下载成功: 20451 bytes
+[2026-08-26 15:04:16.208] [INFO    ] (image_api:recognize_image:204) [-] [chat=0] 图片预处理: JPEG(400x400) → PNG 20451 bytes → 178459 bytes
+[2026-08-26 15:04:16.209] [INFO    ] (image_api:recognize_image:251) [-] [chat=0] 调用主视觉模型识别图片 (MD5=5bdab8e2a42c...) model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+[2026-08-26 15:04:20.723] [ERROR   ] (image_api:recognize_image:264) [-] [chat=0] 主视觉模型失败: 'NoneType' object is not subscriptable (model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free)
+[2026-08-26 15:04:42.567] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
