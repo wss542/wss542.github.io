@@ -1,72 +1,4 @@
-# 更新于 2026-08-26 17:28:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 15:34:35.745] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-26 15:34:50.761] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-26 15:34:50.773] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 79s 前）
-[2026-08-26 15:34:50.775] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-26 15:34:50.785] [INFO    ] (pc_status:start_pc_server:861) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-26 15:34:50.786] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-26 15:34:50.786] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-26 15:34:50.786] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-26 15:34:50.786] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-26 15:34:50.787] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-26 15:34:50.902] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-26 15:34:50.902] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-26 15:34:50.997] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-26 15:34:50.998] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-26 15:34:51.547] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-26 15:34:51.547] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-26 15:34:51.547] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-26 15:34:52.679] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-26 → 周三
-[2026-08-26 15:34:52.679] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-26 15:34:52.679] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 30312 秒 (下次 00:00:05)
-[2026-08-26 15:34:52.703] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-26 15:34:52.776] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-26 15:34:53.827] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:35:24.223] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:35:54.622] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:36:25.105] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:36:45.738] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-26 15:36:45.743] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 331 条
-[2026-08-26 15:36:45.743] [INFO    ] (image_api:recognize_image:152) [-] [chat=0] 开始获取图片: file://data/_nim_fb_test.png...
-[2026-08-26 15:36:45.744] [INFO    ] (image_api:recognize_image:159) [-] [chat=0] 本地图片读取成功: 273 bytes
-[2026-08-26 15:36:45.751] [INFO    ] (image_api:recognize_image:204) [-] [chat=0] 图片预处理: PNG(96x96) → PNG 273 bytes → 199 bytes
-[2026-08-26 15:36:45.752] [INFO    ] (image_api:recognize_image:251) [-] [chat=0] 调用主视觉模型识别图片 (MD5=071c4c11b89f...) model=bad-model-x
-[2026-08-26 15:36:48.459] [WARNING ] (image_api:recognize_image:264) [-] [chat=0] 主视觉模型失败（Connection error.），回退 fallback: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
-[2026-08-26 15:36:54.922] [INFO    ] (image_api:recognize_image:268) [-] [chat=0] fallback 识别成功 (model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning)
-[2026-08-26 15:36:54.923] [INFO    ] (image_api:recognize_image:280) [-] [chat=0] 图片识别成功 (model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning): Solid blue background....
-[2026-08-26 15:36:54.925] [DEBUG   ] (image_api:_save:64) [-] 图片缓存已写入磁盘: 332 条
-[2026-08-26 15:36:54.926] [DEBUG   ] (image_api:_save_to_repo:315) [-] 图片仓库追加: MD5=071c4c11b89f... → 'Solid blue background.'
-[2026-08-26 15:36:55.036] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 15:36:55.545] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:37:25.974] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:37:56.301] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:38:26.689] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:38:57.082] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:39:11.098] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-26 15:39:11.099] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-26 15:39:27.536] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:39:37.222] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
-[2026-08-26 15:39:37.382] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-[2026-08-26 15:39:37.543] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-[2026-08-26 15:39:37.544] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
-[2026-08-26 15:39:37.545] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 40823 秒
-[2026-08-26 15:39:58.030] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:40:28.483] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:41:09.686] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:41:40.004] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:42:10.657] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:42:41.379] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:43:11.961] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:43:42.584] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:44:13.382] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
-[2026-08-26 15:44:43.974] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 15:44:45.768] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 15:44:45.769] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商' is_edit=False
-[2026-08-26 15:44:45.770] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5cae9d22e0df4fd9] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-26 15:44:45.772] [INFO    ] (dispatcher:_dispatch_inner:308) [5cae9d22e0df4fd9] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商'
-[2026-08-26 15:44:45.772] [INFO    ] (queues:_get_or_create_queue:32) [5cae9d22e0df4fd9] [队列] 创建群1759953618 的独立消息队列
-[2026-08-26 15:44:45.773] [DEBUG   ] (queues:enqueue_message:75) [5cae9d22e0df4fd9] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-26 15:44:45.777] [INFO    ] (memory:merge_overflow_memory:419) [1b742b8495924618] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+# 更新于 2026-08-26 17:28:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 15:44:45.781] [INFO    ] (pipeline:process_message:470) [1b742b8495924618] 指令拦截: '/供应商' from=ywandwss
 [2026-08-26 15:44:45.781] [DEBUG   ] (commands:handle_command:4659) [1b742b8495924618] 指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
 [2026-08-26 15:44:45.782] [INFO    ] (commands:handle_command:4701) [1b742b8495924618] 指令执行完成 [供应商]: 返回384字符
@@ -1499,3 +1431,71 @@
 [2026-08-26 17:28:07.868] [INFO    ] (commands:handle_command:4759) [-] 指令执行完成 [testok]: 返回7字符
 [2026-08-26 17:28:08.413] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-26 17:28:08.414] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:10.150] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:28:11.356] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:11.357] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='qwq' is_edit=False
+[2026-08-26 17:28:11.357] [DEBUG   ] (dispatcher:_dispatch_inner:110) [72dc202a3f594284] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:28:11.357] [INFO    ] (dispatcher:_dispatch_inner:308) [72dc202a3f594284] 📩 消息 #44 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='qwq'
+[2026-08-26 17:28:11.358] [DEBUG   ] (queues:enqueue_message:75) [72dc202a3f594284] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:28:11.358] [INFO    ] (memory:merge_overflow_memory:419) [b3c15018ba894a6e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-26 17:28:11.359] [DEBUG   ] (pipeline:process_message:500) [b3c15018ba894a6e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
+[2026-08-26 17:28:11.359] [INFO    ] (logger:log_trace_summary:392) [b3c15018ba894a6e] [TRACE b3c15018ba894a6e] total=1.26ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.21ms(x1) (wall1.21), queue_wait=0.28ms(x1)
+[2026-08-26 17:28:17.024] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:17.024] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:18.336] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:18.337] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:18.486] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:18.486] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:18.755] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:18.755] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:19.218] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:19.218] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:19.362] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:19.363] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:19.437] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:19.438] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:19.788] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:19.788] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:19.874] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:19.874] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:20.208] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:20.208] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:20.349] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:20.350] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:20.496] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:20.497] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:20.605] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:20.605] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:20.806] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:20.807] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.093] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.093] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.169] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.170] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.383] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.384] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.527] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.528] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.702] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.703] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:21.861] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:21.862] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.025] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.026] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.303] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.303] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.526] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.527] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.663] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.664] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.822] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.823] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:22.929] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:22.930] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:23.132] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:23.132] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:23.274] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:23.275] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:23.436] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=message_btn_click keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:28:23.437] [INFO    ] (logger:info:335) [-] 按钮重复点击已忽略 key=25adb65d-551a-45dd-a477-e945950ddc8f:/testok value=/testok
+[2026-08-26 17:28:40.615] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
