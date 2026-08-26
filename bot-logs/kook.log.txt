@@ -1,97 +1,4 @@
-# 更新于 2026-08-26 17:40:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 16:07:39.950] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:08:10.365] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:08:10.558] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 16:08:10.559] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商 OpenRouter thinkingmachines/inkling:free' is_edit=False
-[2026-08-26 16:08:10.560] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7a643faf6549405e] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-26 16:08:10.560] [INFO    ] (dispatcher:_dispatch_inner:308) [7a643faf6549405e] 📩 消息 #7 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 OpenRouter thinkingmachines/inkling:free'
-[2026-08-26 16:08:10.560] [DEBUG   ] (queues:enqueue_message:75) [7a643faf6549405e] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-26 16:08:10.562] [INFO    ] (memory:merge_overflow_memory:419) [c52974631db64225] 长时记忆溢出缓冲: chat=1759953618 +1 = 5条 (阈值=10)
-[2026-08-26 16:08:10.563] [INFO    ] (pipeline:process_message:470) [c52974631db64225] 指令拦截: '/供应商 OpenRouter thinkingmachines/inkling' from=ywandwss
-[2026-08-26 16:08:10.563] [DEBUG   ] (commands:handle_command:4659) [c52974631db64225] 指令解析: prefix=/ cmd=供应商 args=['OpenRouter', 'thinkingmachines/inkling:free'] user=1759953618
-[2026-08-26 16:08:10.569] [INFO    ] (logger:info:335) [c52974631db64225] 保留 fetch_me 注入的 bot_id: 659688244
-[2026-08-26 16:08:10.569] [INFO    ] (logger:info:335) [c52974631db64225] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
-[2026-08-26 16:08:10.570] [INFO    ] (commands:cmd_provider:1464) [c52974631db64225] 供应商切换: OPENROUTER/minimax/minimax-m3:free -> OPENROUTER/thinkingmachines/inkling:free (by ywandwss)
-[2026-08-26 16:08:10.570] [INFO    ] (commands:handle_command:4701) [c52974631db64225] 指令执行完成 [供应商]: 返回87字符
-[2026-08-26 16:08:11.092] [INFO    ] (logger:log_trace_summary:392) [c52974631db64225] [TRACE c52974631db64225] total=531.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=531.36ms(x1) (wall531.36), queue_wait=0.34ms(x1)
-[2026-08-26 16:08:11.093] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 16:08:18.436] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 16:08:18.436] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='你好' is_edit=False
-[2026-08-26 16:08:18.436] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c302872b97a54f87] KMD 调试: is_group=False uid=1759953618 channel=1759953618
-[2026-08-26 16:08:18.436] [INFO    ] (dispatcher:_dispatch_inner:308) [c302872b97a54f87] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你好'
-[2026-08-26 16:08:18.438] [DEBUG   ] (queues:enqueue_message:75) [c302872b97a54f87] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-26 16:08:18.439] [INFO    ] (memory:merge_overflow_memory:419) [44e170954bc74850] 长时记忆溢出缓冲: chat=1759953618 +1 = 6条 (阈值=10)
-[2026-08-26 16:08:18.440] [DEBUG   ] (pipeline:process_message:500) [44e170954bc74850] 回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='你好'
-[2026-08-26 16:08:18.440] [DEBUG   ] (pipeline:process_message:531) [44e170954bc74850] 私聊消息 → 直接回复
-[2026-08-26 16:08:18.440] [DEBUG   ] (pipeline:process_message:591) [44e170954bc74850] 请求意图: intent=chat fast_search=False msg='你好'
-[2026-08-26 16:08:18.441] [WARNING ] (pipeline:process_message:639) [44e170954bc74850] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-26 16:08:18.448] [DEBUG   ] (memory:_record_memory_trace:318) [44e170954bc74850] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.8ms
-[2026-08-26 16:08:18.449] [INFO    ] (pipeline:process_message:799) [44e170954bc74850] 额外信息: 1228字 (memory=550 search=0)
-[2026-08-26 16:08:18.450] [INFO    ] (pipeline:process_message:932) [44e170954bc74850] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-26 16:08:18.451] [DEBUG   ] (pipeline:process_message:1061) [44e170954bc74850] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-26 16:08:18.451] [INFO    ] (pipeline:process_message:1064) [44e170954bc74850] 开始生成回复: speaker=ywandwss chat=1759953618
-[2026-08-26 16:08:23.055] [ERROR   ] (llm:call_llm_with_tools:657) [44e170954bc74850] LLM FC [thinkingmachines/ink] 失败: Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
-[2026-08-26 16:08:23.057] [INFO    ] (llm:generate_multi_reply_with_tools:971) [44e170954bc74850] LLM原始输出 [轮1]: content= | tool_calls=0
-[2026-08-26 16:08:23.057] [WARNING ] (llm:generate_multi_reply_with_tools:986) [44e170954bc74850] LLM 返回空内容，重试...
-[2026-08-26 16:08:26.735] [ERROR   ] (llm:call_llm_with_tools:657) [44e170954bc74850] LLM FC [thinkingmachines/ink] 失败: Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
-[2026-08-26 16:08:26.736] [INFO    ] (llm:generate_multi_reply_with_tools:971) [44e170954bc74850] LLM原始输出 [轮2]: content= | tool_calls=0
-[2026-08-26 16:08:26.736] [WARNING ] (llm:generate_multi_reply_with_tools:989) [44e170954bc74850] LLM 连续返回空内容，用 json_mode 兜底...
-[2026-08-26 16:08:26.738] [INFO    ] (llm:call_llm:427) [44e170954bc74850] 调用LLM [thinkingmachines/ink] url=api tokens=800 temp=0.3 timeout=60.0s
-[2026-08-26 16:08:31.406] [ERROR   ] (llm:call_llm:520) [44e170954bc74850] LLM [thinkingmachines/ink] 调用失败 (4.7s): Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403}}
-[2026-08-26 16:08:31.407] [ERROR   ] (llm:generate_multi_reply_with_tools:999) [44e170954bc74850] json_mode 兜底仍失败，放弃
-[2026-08-26 16:08:32.004] [WARNING ] (pipeline:process_message:1095) [44e170954bc74850] LLM 未返回有效句子，已发送失败提示
-[2026-08-26 16:08:32.006] [INFO    ] (logger:log_trace_summary:392) [44e170954bc74850] [TRACE 44e170954bc74850] total=13567.02ms severity=very_slow_request | llm_calls=3 total=12950.13ms avg=4316.71ms max=4668.13ms p50=4605.04 p95=4661.82 p99=4666.87 | llm=12956.77ms(x1), memory=11.87ms(x2), process=13566.96ms(x1) (wall13566.96), queue_wait=0.28ms(x1)
-[2026-08-26 16:08:32.006] [WARNING ] (logger:log_trace_summary:410) [44e170954bc74850] [VERY_SLOW 44e170954bc74850] total=13567.7ms 需重点排查 | llm=12956.77ms(x1), memory=11.87ms(x2), process=13566.96ms(x1) (wall13566.96), queue_wait=0.28ms(x1) | llm_calls=3 total=12950.13ms avg=4316.71ms max=4668.13ms p50=4605.04 p95=4661.82 p99=4666.87 | perf: queue=0.28ms llm=12956.77ms search_tool=0.0ms delivery=0.0ms other=13578.83ms wall=13567.68ms dominant=other
-[2026-08-26 16:08:32.010] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 16:08:40.969] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:09:11.701] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:09:42.464] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:10:12.946] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:10:43.555] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:11:14.102] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:11:44.737] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
-[2026-08-26 16:11:57.290] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-26 16:11:57.296] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-26 16:11:57.301] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-26 16:11:57.302] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-26 16:11:57.302] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-26 16:11:57.302] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-26 16:11:57.303] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-26 16:11:57.303] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-26 16:11:57.307] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-26 16:11:57.307] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-26 16:11:57.307] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-26 16:11:57.308] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-26 16:11:57.308] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-26 16:11:57.308] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 282, 'total_buffer_lines': 14, 'active_tasks': 0}
-[2026-08-26 16:11:57.309] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-26 16:11:57.309] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-26 16:11:57.311] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-26 16:11:57.724] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-26 16:11:59.214] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-26 16:11:59.234] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-26 16:12:00.553] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 16:12:00.553] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-26 16:12:00.553] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-26 16:12:00.556] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-26 16:12:00.557] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-26 16:12:00.560] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-26 16:12:00.561] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-26 16:12:00.561] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-26 16:12:00.562] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-26 16:12:00.562] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-26 16:12:00.854] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-26 16:12:00.855] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-26 16:12:00.874] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-26 16:12:00.874] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-26 16:12:01.273] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-26 16:12:01.292] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-26 16:12:01.292] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+# 更新于 2026-08-26 17:40:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 16:12:01.293] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
 [2026-08-26 16:12:01.295] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
 [2026-08-26 16:12:01.295] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
@@ -1499,3 +1406,96 @@
 [2026-08-26 17:40:01.720] [INFO    ] (memory:merge_overflow_memory:419) [04b00048160b4115] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
 [2026-08-26 17:40:01.720] [DEBUG   ] (pipeline:process_message:500) [04b00048160b4115] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>update'
 [2026-08-26 17:40:01.721] [INFO    ] (logger:log_trace_summary:392) [04b00048160b4115] [TRACE 04b00048160b4115] total=1.92ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.88ms(x1) (wall1.88), queue_wait=0.36ms(x1)
+[2026-08-26 17:40:13.394] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:13.394] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='>update' is_edit=False
+[2026-08-26 17:40:13.395] [DEBUG   ] (dispatcher:_dispatch_inner:110) [06820a6d8ae24756] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:40:13.396] [INFO    ] (dispatcher:_dispatch_inner:308) [06820a6d8ae24756] 📩 消息 #62 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>update'
+[2026-08-26 17:40:13.397] [DEBUG   ] (queues:enqueue_message:75) [06820a6d8ae24756] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:40:13.399] [INFO    ] (memory:merge_overflow_memory:419) [eab316dbb3aa4aa7] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-26 17:40:13.401] [DEBUG   ] (pipeline:process_message:500) [eab316dbb3aa4aa7] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>update'
+[2026-08-26 17:40:13.401] [INFO    ] (logger:log_trace_summary:392) [eab316dbb3aa4aa7] [TRACE eab316dbb3aa4aa7] total=3.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.45ms(x1) (wall3.45), queue_wait=0.57ms(x1)
+[2026-08-26 17:40:13.403] [INFO    ] (llm:call_llm:427) [eab316dbb3aa4aa7] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-26 17:40:13.423] [INFO    ] (engine:_ingest:92) [eab316dbb3aa4aa7] 异步记忆提炼完成 chat=1010983873136793: 候选7 新增7
+[2026-08-26 17:40:14.627] [INFO    ] (llm:call_llm:489) [eab316dbb3aa4aa7] LLM [deepseek-v4-flash] 返回 221字符 耗时1.2s → "[17:24:28] ywandwss, Trusler: ywandwss问?, Trusler执..."
+[2026-08-26 17:40:14.630] [INFO    ] (memory:_compress_with_deepseek:210) [eab316dbb3aa4aa7] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-26 17:40:18.911] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:22.650] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14783)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 17:40:24.634] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:24.635] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='>update' is_edit=False
+[2026-08-26 17:40:24.635] [DEBUG   ] (dispatcher:_dispatch_inner:110) [193a839e899841dd] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-26 17:40:24.635] [INFO    ] (dispatcher:_dispatch_inner:308) [193a839e899841dd] 📩 消息 #63 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>update'
+[2026-08-26 17:40:24.636] [DEBUG   ] (queues:enqueue_message:75) [193a839e899841dd] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:40:24.638] [INFO    ] (memory:merge_overflow_memory:419) [ce33ccb7815d4fa8] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-26 17:40:24.638] [DEBUG   ] (pipeline:process_message:500) [ce33ccb7815d4fa8] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>update'
+[2026-08-26 17:40:24.638] [INFO    ] (logger:log_trace_summary:392) [ce33ccb7815d4fa8] [TRACE ce33ccb7815d4fa8] total=1.68ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.65ms(x1) (wall1.65), queue_wait=1.08ms(x1)
+[2026-08-26 17:40:25.195] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:25.195] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在获取远程版本…' is_edit=False
+[2026-08-26 17:40:25.195] [DEBUG   ] (dispatcher:_dispatch_inner:107) [237290b2dcd743dd] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:28.335] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:28.335] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 发现 40 个待更新文件，开始分析…' is_edit=False
+[2026-08-26 17:40:28.336] [DEBUG   ] (dispatcher:_dispatch_inner:107) [3c0cd769c821483c] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:30.434] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:30.434] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 分析完成，风险等级 HIGH' is_edit=False
+[2026-08-26 17:40:30.435] [DEBUG   ] (dispatcher:_dispatch_inner:107) [bc856e16c07642d8] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:32.533] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:32.534] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在做语法检查…' is_edit=False
+[2026-08-26 17:40:32.535] [DEBUG   ] (dispatcher:_dispatch_inner:107) [ae2f05ad6fd1487b] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:33.743] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:33.743] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 已创建快照，准备应用…' is_edit=False
+[2026-08-26 17:40:33.744] [DEBUG   ] (dispatcher:_dispatch_inner:107) [68353aaae3364a5d] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:34.276] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:34.277] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 1/40: .gitignore' is_edit=False
+[2026-08-26 17:40:34.277] [DEBUG   ] (dispatcher:_dispatch_inner:107) [ee6f211241844989] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:35.127] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:35.128] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 2/40: bot.py' is_edit=False
+[2026-08-26 17:40:35.128] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b302e247613c4512] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:36.175] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:36.176] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 3/40: core/agent/executor.py' is_edit=False
+[2026-08-26 17:40:36.176] [DEBUG   ] (dispatcher:_dispatch_inner:107) [853019df13ae4c2c] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:37.348] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:37.349] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 4/40: core/agent/gateway.py' is_edit=False
+[2026-08-26 17:40:37.349] [DEBUG   ] (dispatcher:_dispatch_inner:107) [801829682ce64cf6] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:38.261] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:38.261] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 5/40: core/config.py' is_edit=False
+[2026-08-26 17:40:38.262] [DEBUG   ] (dispatcher:_dispatch_inner:107) [5ea8cfc04e374738] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:39.219] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:39.220] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 6/40: core/dispatcher.py' is_edit=False
+[2026-08-26 17:40:39.220] [DEBUG   ] (dispatcher:_dispatch_inner:107) [acd2fd48d0964d66] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:40.130] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:40.131] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 7/40: core/pipeline.py' is_edit=False
+[2026-08-26 17:40:40.131] [DEBUG   ] (dispatcher:_dispatch_inner:107) [4bdb7bb9164047e8] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:41.092] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:41.092] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 8/40: core/plugin/api.py' is_edit=False
+[2026-08-26 17:40:41.093] [DEBUG   ] (dispatcher:_dispatch_inner:107) [04c378f910074424] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:41.917] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:41.918] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 9/40: core/plugin/loader.py' is_edit=False
+[2026-08-26 17:40:41.918] [DEBUG   ] (dispatcher:_dispatch_inner:107) [207704cb5dd74251] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:42.720] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:42.721] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 10/40: core/plugin/manager.py' is_edit=False
+[2026-08-26 17:40:42.721] [DEBUG   ] (dispatcher:_dispatch_inner:107) [6f5528cdee74406d] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:43.602] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:43.602] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 11/40: core/token_tracker.py' is_edit=False
+[2026-08-26 17:40:43.603] [DEBUG   ] (dispatcher:_dispatch_inner:107) [615db36e83454ec3] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:44.453] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:44.453] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 12/40: core/tool_runtime/request.py' is_edit=False
+[2026-08-26 17:40:44.454] [DEBUG   ] (dispatcher:_dispatch_inner:107) [83f941e756b34504] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:45.444] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:45.444] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 13/40: core/tool_runtime/runtime.py' is_edit=False
+[2026-08-26 17:40:45.444] [DEBUG   ] (dispatcher:_dispatch_inner:107) [21954012e5754a1e] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:45.650] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:45.651] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='😂' is_edit=False
+[2026-08-26 17:40:45.651] [DEBUG   ] (dispatcher:_dispatch_inner:110) [834e642aec914958] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-26 17:40:45.651] [INFO    ] (dispatcher:_dispatch_inner:308) [834e642aec914958] 📩 消息 #64 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='😂'
+[2026-08-26 17:40:45.653] [DEBUG   ] (queues:enqueue_message:75) [834e642aec914958] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-26 17:40:45.654] [INFO    ] (memory:merge_overflow_memory:419) [9544d01e27b94a44] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-26 17:40:45.656] [DEBUG   ] (pipeline:process_message:500) [9544d01e27b94a44] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='😂'
+[2026-08-26 17:40:45.657] [INFO    ] (logger:log_trace_summary:392) [9544d01e27b94a44] [TRACE 9544d01e27b94a44] total=3.44ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.35ms(x1) (wall3.35), queue_wait=0.64ms(x1)
+[2026-08-26 17:40:46.285] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:46.285] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 14/40: core/tools.py' is_edit=False
+[2026-08-26 17:40:46.285] [DEBUG   ] (dispatcher:_dispatch_inner:107) [d890a94633b645c5] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:47.311] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:47.312] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 15/40: docs/PLUGIN_DEV.md' is_edit=False
+[2026-08-26 17:40:47.312] [DEBUG   ] (dispatcher:_dispatch_inner:107) [27501dfe9b1147e4] 跳过 bot 消息: uid=393688090
+[2026-08-26 17:40:48.151] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-26 17:40:48.152] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**[更新进度]** 正在应用 16/40: docs/architecture/pipeline-audit.md' is_edit=False
+[2026-08-26 17:40:48.152] [DEBUG   ] (dispatcher:_dispatch_inner:107) [ba81e55b0f8c4e35] 跳过 bot 消息: uid=393688090
