@@ -1,10 +1,4 @@
-# 更新于 2026-08-26 15:03:42 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 10:32:38.666] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-26 10:32:38.667] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)656176615(met) 开了' is_edit=False
-[2026-08-26 10:32:38.667] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1f64d1d4adb3470b] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-[2026-08-26 10:32:38.667] [INFO    ] (dispatcher:_dispatch_inner:237) [1f64d1d4adb3470b] 📎 引用消息原文 (10字)
-[2026-08-26 10:32:38.667] [INFO    ] (dispatcher:_dispatch_inner:239) [1f64d1d4adb3470b] 📎 引用消息含 1 张图片
-[2026-08-26 10:32:38.668] [INFO    ] (dispatcher:_dispatch_inner:308) [1f64d1d4adb3470b] 📩 消息 #34 | type=文字 | imgs=0 | videos=0 | quoted_imgs=1 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='(met)656176615(met) 开了'
+# 更新于 2026-08-26 15:04:14 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 10:32:38.670] [INFO    ] (dispatcher:_dispatch_inner:384) [1f64d1d4adb3470b] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
 [2026-08-26 10:32:38.671] [INFO    ] (image_api:recognize_image:152) [1f64d1d4adb3470b] [chat=7274785942250691] 开始获取图片: https://img.kookapp.cn/assets/2026-08/26/togUIHMXcv0s60dl.pn...
 [2026-08-26 10:32:38.899] [INFO    ] (image_api:recognize_image:168) [1f64d1d4adb3470b] [chat=7274785942250691] 图片下载成功: 285107 bytes
@@ -1499,3 +1493,9 @@
 [2026-08-26 15:03:10.874] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-08-26 15:03:10.894] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
 [2026-08-26 15:03:41.478] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 15:03:44.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-26 15:03:44.680] [INFO    ] (llm:call_llm:427) [-] 调用LLM [z-ai/glm-5.2:free] url=api tokens=80 temp=0.7 timeout=45.0s
+[2026-08-26 15:04:11.999] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1757)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=18
+[2026-08-26 15:04:14.110] [ERROR   ] (llm:call_llm:520) [-] LLM [z-ai/glm-5.2:free] 调用失败 (29.4s): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'z-ai/glm-5.2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Decart', 'is_byok': False, 'provider_error_code': 'upstream_429', 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'retry_after_seconds': 5, 'retry_after_seconds_raw': 5, 'headers': {'Retry-After': '5'}}}, 'user_id': 'user_3IROwjLfnhFTCsUmgpvIwDDVlI0'}
+[2026-08-26 15:04:14.117] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 330 条
+[2026-08-26 15:04:14.117] [INFO    ] (image_api:recognize_image:152) [-] [chat=0] 开始获取图片: https://picsum.photos/400...
