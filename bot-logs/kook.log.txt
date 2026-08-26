@@ -1,12 +1,4 @@
-# 更新于 2026-08-26 15:36:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-26 13:04:50.654] [DEBUG   ] (queues:enqueue_message:75) [94039d9b96a34f50] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-26 13:04:50.655] [INFO    ] (memory:merge_overflow_memory:419) [fc21475d67bc464f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-08-26 13:04:50.656] [INFO    ] (pipeline:process_message:470) [fc21475d67bc464f] 指令拦截: '/update check' from=ywandwss
-[2026-08-26 13:04:50.656] [DEBUG   ] (commands:handle_command:4637) [fc21475d67bc464f] 指令解析: prefix=/ cmd=update args=['check'] user=1759953618
-[2026-08-26 13:04:50.669] [INFO    ] (commands:handle_command:4679) [fc21475d67bc464f] 指令执行完成 [update]: 返回21字符
-[2026-08-26 13:04:51.292] [INFO    ] (logger:log_trace_summary:392) [fc21475d67bc464f] [TRACE fc21475d67bc464f] total=637.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=637.91ms(x1) (wall637.91), queue_wait=0.34ms(x1)
-[2026-08-26 13:05:06.184] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-26 13:05:36.768] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-26 15:36:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-26 13:06:07.365] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 13:06:37.954] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-26 13:07:08.466] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6347)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1491,11 @@
 [2026-08-26 15:34:53.827] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
 [2026-08-26 15:35:24.223] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
 [2026-08-26 15:35:54.622] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
+[2026-08-26 15:36:25.105] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8057)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 梁静茹 - 勇气**' keys=17
+[2026-08-26 15:36:45.738] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-26 15:36:45.743] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 331 条
+[2026-08-26 15:36:45.743] [INFO    ] (image_api:recognize_image:152) [-] [chat=0] 开始获取图片: file://data/_nim_fb_test.png...
+[2026-08-26 15:36:45.744] [INFO    ] (image_api:recognize_image:159) [-] [chat=0] 本地图片读取成功: 273 bytes
+[2026-08-26 15:36:45.751] [INFO    ] (image_api:recognize_image:204) [-] [chat=0] 图片预处理: PNG(96x96) → PNG 273 bytes → 199 bytes
+[2026-08-26 15:36:45.752] [INFO    ] (image_api:recognize_image:251) [-] [chat=0] 调用主视觉模型识别图片 (MD5=071c4c11b89f...) model=bad-model-x
+[2026-08-26 15:36:48.459] [WARNING ] (image_api:recognize_image:264) [-] [chat=0] 主视觉模型失败（Connection error.），回退 fallback: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
