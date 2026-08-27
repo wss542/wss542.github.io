@@ -1,15 +1,4 @@
-# 更新于 2026-08-27 16:25:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 11:11:27.787] [INFO    ] (dispatcher:_dispatch_inner:308) [a7b5216a0b404e5f] 📩 消息 #19 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.plugin -pack tuf'
-[2026-08-27 11:11:27.788] [DEBUG   ] (queues:enqueue_message:75) [a7b5216a0b404e5f] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 11:11:27.789] [INFO    ] (memory:merge_overflow_memory:419) [7bf5f89b255149e2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
-[2026-08-27 11:11:27.789] [DEBUG   ] (pipeline:process_message:500) [7bf5f89b255149e2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.plugin -pack tuf'
-[2026-08-27 11:11:27.790] [DEBUG   ] (pipeline:process_message:510) [7bf5f89b255149e2] 点前缀消息忽略（其它 bot 命令）: '.plugin -pack tuf'
-[2026-08-27 11:11:27.790] [INFO    ] (logger:log_trace_summary:392) [7bf5f89b255149e2] [TRACE 7bf5f89b255149e2] total=1.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.39ms(x1) (wall1.39), queue_wait=0.46ms(x1)
-[2026-08-27 11:11:29.033] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 11:11:29.034] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"type":"card","theme":"none","size":"lg","modules":[{"title":"tuf.hmp","src":"https:\\/\\/img.kookapp.cn\\/attachments\\/2026-08\\/27\\/6a8faae0d47cd.hmp","size":25137,"canDownload":true,"type":"file"}]}]' is_edit=False
-[2026-08-27 11:11:29.034] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b8c64fab06cd4c82] 跳过 bot 消息: uid=1341019011
-[2026-08-27 11:11:29.409] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 11:11:29.410] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='✅ 已打包 tuf.hmp（25137 字节，3 个文件）\n已将 .hmp 发到聊天，他人可引用后用 `.plugin -down -load` 导入' is_edit=False
+# 更新于 2026-08-27 16:26:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 11:11:29.410] [DEBUG   ] (dispatcher:_dispatch_inner:107) [79d5c1f4d84c4a54] 跳过 bot 消息: uid=1341019011
 [2026-08-27 11:11:41.407] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 11:12:11.847] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1488,14 @@
 [2026-08-27 16:25:42.835] [DEBUG   ] (pipeline:process_message:500) [497a78dfa5e04c3a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='到时候找尖尖去qwq'
 [2026-08-27 16:25:42.836] [INFO    ] (logger:log_trace_summary:392) [497a78dfa5e04c3a] [TRACE 497a78dfa5e04c3a] total=4.04ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.93ms(x1) (wall3.93), queue_wait=1.03ms(x1)
 [2026-08-27 16:25:45.626] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 16:26:09.802] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:26:09.802] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc jp' is_edit=False
+[2026-08-27 16:26:09.802] [DEBUG   ] (dispatcher:_dispatch_inner:110) [4dedab13139f45f1] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 16:26:09.803] [INFO    ] (dispatcher:_dispatch_inner:308) [4dedab13139f45f1] 📩 消息 #81 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/pc jp'
+[2026-08-27 16:26:09.805] [DEBUG   ] (queues:enqueue_message:75) [4dedab13139f45f1] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 16:26:09.806] [INFO    ] (memory:merge_overflow_memory:419) [5cf710f75f164850] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
+[2026-08-27 16:26:09.807] [INFO    ] (pipeline:process_message:470) [5cf710f75f164850] 指令拦截: '/pc jp' from=ywandwss
+[2026-08-27 16:26:09.808] [DEBUG   ] (commands:handle_command:4717) [5cf710f75f164850] 指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
+[2026-08-27 16:26:11.866] [INFO    ] (commands:handle_command:4761) [5cf710f75f164850] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-27 16:26:11.866] [INFO    ] (logger:log_trace_summary:392) [5cf710f75f164850] [TRACE 5cf710f75f164850] total=2061.26ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2061.17ms(x1) (wall2061.17), queue_wait=0.4ms(x1)
+[2026-08-27 16:26:16.206] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
