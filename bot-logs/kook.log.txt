@@ -1,23 +1,4 @@
-# 更新于 2026-08-27 18:41:43 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 17:55:30.479] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-27 17:55:30.479] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-27 17:55:30.481] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-27 17:55:30.481] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-27 17:55:30.481] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-27 17:55:30.482] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-27 17:55:30.483] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-27 17:55:30.485] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-27 17:55:30.486] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-27 17:55:30.486] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-27 17:55:30.493] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-27 17:55:30.493] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-27 17:55:30.494] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-27 17:55:30.495] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-27 17:55:30.496] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-27 17:55:30.498] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-27 17:55:30.498] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-27 17:55:30.498] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-27 17:55:30.499] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+# 更新于 2026-08-27 18:42:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 17:55:30.499] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
 [2026-08-27 17:55:30.501] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-08-27 17:55:30.502] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
@@ -1499,3 +1480,22 @@
 [2026-08-27 18:41:43.583] [INFO    ] (memory:merge_overflow_memory:419) [fc61ac968b6f4f0f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 7条 (阈值=10)
 [2026-08-27 18:41:43.583] [INFO    ] (pipeline:process_message:470) [fc61ac968b6f4f0f] 指令拦截: '/unmute @제미니 (shuangzi_1228)  ' from=ywandwss
 [2026-08-27 18:41:43.583] [DEBUG   ] (commands:handle_command:4756) [fc61ac968b6f4f0f] 指令解析: prefix=/ cmd=unmute args=['@제미니', '(shuangzi_1228)'] user=1759953618
+[2026-08-27 18:41:43.720] [INFO    ] (commands:handle_command:4798) [fc61ac968b6f4f0f] 指令执行完成 [unmute]: 返回25字符
+[2026-08-27 18:41:44.112] [INFO    ] (logger:log_trace_summary:392) [fc61ac968b6f4f0f] [TRACE fc61ac968b6f4f0f] total=529.87ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=529.82ms(x1) (wall529.82), queue_wait=0.88ms(x1)
+[2026-08-27 18:41:44.117] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:41:49.450] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:41:49.450] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"secondary","color":"#f0ad4e","size":"lg","expand":false,"modules":[{"type":"header","text":{"type":"plain-text","emoji":true,"content":"KOOK BOT · 检测到新版本","elements":[]},"elements":[]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"`更新等级`\u3000`核心漏洞修复 [CORE]`\\n`远程版本`\u3000`85def47`\\n`新增提交`\u3000`1 个`","elements":[]},"elements":[]},{"type":"divider","elements":[]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"**本次改动**","elements":[]},"elements":[]},{"type":"context","elements":[{"type":"kmarkdown","content":"· 修复 .run 输出回显没听清：core\\/sandbox.py 剥离 ANSI 转义与控制字符，避免 KOOK KMD ","elements":[]}]},{"type":"divider","elements":[]},{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"**更新内容**","elements":[]},"elements":[]},{"type":"context","elements":[{"type":"kmarkdown","content":"`修复 .run 输出回显没听清：core\\/sandbox.py 剥离 ANSI 转义与控制字符，避免 KOOK KMD 发送失败`","elements":[]}]},{"type":"divider","elements":[]},{"type":"action-group","elements":[{"type":"button","theme":"primary","value":".update check","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"查看更新","elements":[]},"external":true,"elements":[]},{"type":"button","theme":"danger","value":".update","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"确认更新","elements":[]},"external":true,"elements":[]}]},{"type":"context","elements":[{"type":"kmarkdown","content":"查看更新可先预览 diff；确认更新仅 admin 点击可生效","elements":[]}]},{"type":"context","elements":[{"type":"kmarkdown","content":"检测时间 18:41","elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-27 18:41:49.451] [DEBUG   ] (dispatcher:_dispatch_inner:107) [4e625297c12b4aaa] 跳过 bot 消息: uid=1341019011
+[2026-08-27 18:41:52.147] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2414)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:42:05.647] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:42:05.648] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
+[2026-08-27 18:42:05.648] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d40a34979c164415] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-27 18:42:05.648] [INFO    ] (dispatcher:_dispatch_inner:308) [d40a34979c164415] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='？'
+[2026-08-27 18:42:05.650] [INFO    ] (queues:_get_or_create_queue:32) [d40a34979c164415] [队列] 创建群1010983873136793 的独立消息队列
+[2026-08-27 18:42:05.650] [DEBUG   ] (queues:enqueue_message:75) [d40a34979c164415] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 18:42:05.652] [INFO    ] (memory:merge_overflow_memory:419) [6d61eb7f398d4cf4] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-27 18:42:05.652] [DEBUG   ] (pipeline:process_message:500) [6d61eb7f398d4cf4] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+[2026-08-27 18:42:05.653] [INFO    ] (logger:log_trace_summary:392) [6d61eb7f398d4cf4] [TRACE 6d61eb7f398d4cf4] total=1.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.76ms(x1) (wall1.76), queue_wait=0.75ms(x1)
+[2026-08-27 18:42:08.179] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:42:08.180] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**按钮点击记录**\n- 时间戳：`2026-08-27 18:42:07`\n- 点击人：`ywandwss`（ID `1759953618`）\n- 频道 ID：`1010983873136793`\n- 按钮值：`.update check`\n- 按钮返回内容：`权限不足喵~`\n\n---\n权限不足喵~' is_edit=False
+[2026-08-27 18:42:08.180] [DEBUG   ] (dispatcher:_dispatch_inner:107) [bc73d903530242c9] 跳过 bot 消息: uid=1341019011
