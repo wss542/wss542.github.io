@@ -1,11 +1,4 @@
-# 更新于 2026-08-27 18:23:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 16:29:37.086] [INFO    ] (image_api:recognize_image:280) [2062c423fe39429f] [chat=6243254695867429] 图片识别成功 (model=deepseek-v4-flash-vision-exp): **直接描述内容：** 不要输出任何推理或思考过程。 **情绪表情包场景：** 如果认为是表情包，着...
-[2026-08-27 16:29:37.089] [DEBUG   ] (image_api:_save:64) [2062c423fe39429f] 图片缓存已写入磁盘: 349 条
-[2026-08-27 16:29:37.090] [DEBUG   ] (image_api:_save_to_repo:315) [2062c423fe39429f] 图片仓库追加: MD5=cb02712658c2... → '**直接描述内容：** 不要输出任何推理或思考过程。 **情'
-[2026-08-27 16:29:37.091] [INFO    ] (dispatcher:_do_recognize_image:916) [2062c423fe39429f] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: '**直接描述内容：** 不要输出任何推理或思考过程。 **情绪表情包场景：** 如果认为是表情包，着重输出情绪元素（其他也要有，但情绪元素至少4点）。 **输出...' (200字) url=https://img.kookapp.cn/attachments/2026-08/27/onW7WupzFY0f00
-[2026-08-27 16:29:37.092] [INFO    ] (dispatcher:_dispatch_inner:400) [2062c423fe39429f] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: '**直接描述内容：** 不要输出任何推理或思考过程。 **情绪表情包场景：** 如果认为是表情包，着...'
-[2026-08-27 16:29:37.093] [DEBUG   ] (queues:enqueue_message:75) [2062c423fe39429f] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 16:29:37.093] [INFO    ] (pipeline:process_message:367) [3355e48666474cbf] 附带图片已记录 [chat=6243254695867429] count=1
+# 更新于 2026-08-27 18:24:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 16:29:37.094] [INFO    ] (memory:merge_overflow_memory:419) [3355e48666474cbf] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
 [2026-08-27 16:29:37.094] [DEBUG   ] (context_manager:append_to_context:86) [3355e48666474cbf] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
 [2026-08-27 16:29:37.094] [DEBUG   ] (pipeline:process_message:500) [3355e48666474cbf] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
@@ -1499,3 +1492,10 @@
 [2026-08-27 18:23:37.459] [INFO    ] (memory:merge_overflow_memory:419) [b7747b1f683f4fcc] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
 [2026-08-27 18:23:37.460] [INFO    ] (pipeline:process_message:470) [b7747b1f683f4fcc] 指令拦截: '/禁言 @제미니 (shuangzi_1228)  1' from=ywandwss
 [2026-08-27 18:23:37.460] [DEBUG   ] (commands:handle_command:4746) [b7747b1f683f4fcc] 指令解析: prefix=/ cmd=禁言 args=['@제미니', '(shuangzi_1228)', '1'] user=1759953618
+[2026-08-27 18:23:37.739] [INFO    ] (commands:handle_command:4788) [b7747b1f683f4fcc] 指令执行完成 [禁言]: 返回71字符
+[2026-08-27 18:23:38.187] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:23:38.241] [INFO    ] (logger:log_trace_summary:392) [b7747b1f683f4fcc] [TRACE b7747b1f683f4fcc] total=782.27ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=782.17ms(x1) (wall782.17), queue_wait=0.63ms(x1)
+[2026-08-27 18:23:49.391] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:24:02.566] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-08-27 18:24:02.566] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 18:24:20.075] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
