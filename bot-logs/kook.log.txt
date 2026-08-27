@@ -1,46 +1,4 @@
-# 更新于 2026-08-27 16:58:16 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 13:12:24.758] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-27 13:12:31.879] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:13:02.364] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:13:32.734] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:14:03.316] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:14:33.722] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:14:48.284] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 13:14:48.284] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(emj)卖掉了trusler嘻嘻(emj)[3090677846298039/7YteTbdzeu0dw0dw] ' is_edit=False
-[2026-08-27 13:14:48.284] [DEBUG   ] (dispatcher:_dispatch_inner:110) [4f282c469ff84cf0] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
-[2026-08-27 13:14:48.284] [INFO    ] (dispatcher:_dispatch_inner:194) [4f282c469ff84cf0] 🧩 消息内解析到 1 个服务器表情
-[2026-08-27 13:14:48.285] [INFO    ] (dispatcher:_dispatch_inner:308) [4f282c469ff84cf0] 📩 消息 #38 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='[表情] '
-[2026-08-27 13:14:48.286] [INFO    ] (dispatcher:_dispatch_inner:384) [4f282c469ff84cf0] 🖼️  [chat=1010983873136793] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-27 13:14:48.286] [INFO    ] (image_api:recognize_image:152) [4f282c469ff84cf0] [chat=1010983873136793] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/7YteTbdzeu0dw...
-[2026-08-27 13:14:48.398] [INFO    ] (image_api:recognize_image:168) [4f282c469ff84cf0] [chat=1010983873136793] 图片下载成功: 86444 bytes
-[2026-08-27 13:14:48.399] [INFO    ] (image_api:get:86) [4f282c469ff84cf0] 图片识别缓存命中 MD5=89018cdeaae4... → '这是一张动漫风格的图片，描绘了一个长着粉色头发的女孩，她的眼睛是紫色的，脸颊上有...'
-[2026-08-27 13:14:48.399] [INFO    ] (dispatcher:_do_recognize_image:916) [4f282c469ff84cf0] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '这是一张动漫风格的图片，描绘了一个长着粉色头发的女孩，她的眼睛是紫色的，脸颊上有一些粉红色的腮红。她穿着一件白色的连帽衫，头上戴着一个带有蝴蝶结的发饰。在图片的...' (195字) url=https://img.kookapp.cn/emojis/3090677846298039/7YteTbdzeu0dw
-[2026-08-27 13:14:48.400] [INFO    ] (dispatcher:_dispatch_inner:400) [4f282c469ff84cf0] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: '这是一张动漫风格的图片，描绘了一个长着粉色头发的女孩，她的眼睛是紫色的，脸颊上有一些粉红色的腮红。她...'
-[2026-08-27 13:14:48.400] [DEBUG   ] (queues:enqueue_message:75) [4f282c469ff84cf0] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 13:14:48.400] [INFO    ] (pipeline:process_message:367) [68d6f964eb754d5e] 附带图片已记录 [chat=1010983873136793] count=1
-[2026-08-27 13:14:48.401] [INFO    ] (memory:merge_overflow_memory:419) [68d6f964eb754d5e] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
-[2026-08-27 13:14:48.402] [DEBUG   ] (pipeline:process_message:500) [68d6f964eb754d5e] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
-[2026-08-27 13:14:48.402] [INFO    ] (logger:log_trace_summary:392) [68d6f964eb754d5e] [TRACE 68d6f964eb754d5e] total=1.5ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.46ms(x1) (wall1.46), queue_wait=0.33ms(x1)
-[2026-08-27 13:15:04.161] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:15:34.615] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:16:05.061] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:16:35.578] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:17:06.207] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:17:36.600] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:18:06.946] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:18:37.885] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:19:08.199] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:19:38.836] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:20:09.498] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:20:40.065] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:21:10.707] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:21:41.119] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:22:11.574] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:22:42.152] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:23:12.663] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:23:43.165] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:24:13.671] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 13:24:44.233] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-27 16:59:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 13:25:14.783] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 13:25:45.204] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 13:26:15.793] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1457,45 @@
 [2026-08-27 16:57:49.551] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-27 16:58:01.107] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-27 16:58:01.110] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 16:58:16.372] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-27 16:58:16.374] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 16:58:20.220] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 16:58:31.568] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-27 16:58:31.570] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 16:58:39.160] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:58:39.162] [DEBUG   ] (dispatcher:dispatch:47) [827e588a165d4f03] dispatch 入口: type=9 content='有没有人啊' is_edit=False
+[2026-08-27 16:58:39.164] [DEBUG   ] (dispatcher:_dispatch_inner:110) [58bd256ef1964b28] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
+[2026-08-27 16:58:39.165] [INFO    ] (dispatcher:_dispatch_inner:308) [58bd256ef1964b28] 📩 消息 #115 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='有没有人啊'
+[2026-08-27 16:58:39.167] [DEBUG   ] (queues:enqueue_message:75) [58bd256ef1964b28] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 16:58:39.169] [INFO    ] (memory:merge_overflow_memory:419) [5921e8b737294702] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
+[2026-08-27 16:58:39.170] [DEBUG   ] (context_manager:append_to_context:86) [5921e8b737294702] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
+[2026-08-27 16:58:39.171] [DEBUG   ] (pipeline:process_message:500) [5921e8b737294702] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='有没有人啊'
+[2026-08-27 16:58:39.171] [INFO    ] (logger:log_trace_summary:392) [5921e8b737294702] [TRACE 5921e8b737294702] total=2.85ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.71ms(x1) (wall2.71), queue_wait=1.23ms(x1)
+[2026-08-27 16:58:47.276] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:58:47.277] [DEBUG   ] (dispatcher:dispatch:47) [827e588a165d4f03] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/27/DRD9Hgqu5h0c10b4.png' is_edit=False
+[2026-08-27 16:58:47.277] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1714fd62e0064c92] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
+[2026-08-27 16:58:47.277] [INFO    ] (dispatcher:_dispatch_inner:211) [1714fd62e0064c92] 🔗 正文解析到 1 个图片直链
+[2026-08-27 16:58:47.277] [INFO    ] (dispatcher:_dispatch_inner:308) [1714fd62e0064c92] 📩 消息 #116 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='https://img.kookapp.cn/attachments/2026-08/27/DRD9Hgqu5h0c10b4.png'
+[2026-08-27 16:58:47.279] [INFO    ] (dispatcher:_dispatch_inner:384) [1714fd62e0064c92] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-27 16:58:47.279] [INFO    ] (image_api:recognize_image:152) [1714fd62e0064c92] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/attachments/2026-08/27/DRD9Hgqu5h0c10...
+[2026-08-27 16:58:47.731] [INFO    ] (image_api:recognize_image:168) [1714fd62e0064c92] [chat=6243254695867429] 图片下载成功: 280642 bytes
+[2026-08-27 16:58:47.933] [INFO    ] (image_api:recognize_image:204) [1714fd62e0064c92] [chat=6243254695867429] 图片预处理: PNG(433x400) → PNG 280642 bytes → 203158 bytes
+[2026-08-27 16:58:47.934] [INFO    ] (image_api:recognize_image:251) [1714fd62e0064c92] [chat=6243254695867429] 调用主视觉模型识别图片 (MD5=059977d1fc8b...) model=deepseek-v4-flash-vision-exp
+[2026-08-27 16:58:49.806] [INFO    ] (image_api:recognize_image:280) [1714fd62e0064c92] [chat=6243254695867429] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 二次元少女闭眼微笑，脸颊泛红，露出牙齿，侧马尾。情绪：开心、喜悦、满足、放松、可爱。...
+[2026-08-27 16:58:49.810] [DEBUG   ] (image_api:_save:64) [1714fd62e0064c92] 图片缓存已写入磁盘: 350 条
+[2026-08-27 16:58:49.811] [DEBUG   ] (image_api:_save_to_repo:315) [1714fd62e0064c92] 图片仓库追加: MD5=059977d1fc8b... → '二次元少女闭眼微笑，脸颊泛红，露出牙齿，侧马尾。情绪：开心、'
+[2026-08-27 16:58:49.811] [INFO    ] (dispatcher:_do_recognize_image:916) [1714fd62e0064c92] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: '二次元少女闭眼微笑，脸颊泛红，露出牙齿，侧马尾。情绪：开心、喜悦、满足、放松、可爱。...' (42字) url=https://img.kookapp.cn/attachments/2026-08/27/DRD9Hgqu5h0c10
+[2026-08-27 16:58:49.812] [DEBUG   ] (context_manager:append_to_context:86) [1714fd62e0064c92] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
+[2026-08-27 16:58:49.812] [INFO    ] (dispatcher:_dispatch_inner:400) [1714fd62e0064c92] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: '二次元少女闭眼微笑，脸颊泛红，露出牙齿，侧马尾。情绪：开心、喜悦、满足、放松、可爱。...'
+[2026-08-27 16:58:49.812] [DEBUG   ] (queues:enqueue_message:75) [1714fd62e0064c92] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 16:58:49.813] [DEBUG   ] (context_manager:append_to_context:86) [3bac54bd02ea45f5] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
+[2026-08-27 16:58:49.813] [INFO    ] (pipeline:process_message:367) [3bac54bd02ea45f5] 附带图片已记录 [chat=6243254695867429] count=1
+[2026-08-27 16:58:49.813] [INFO    ] (memory:merge_overflow_memory:419) [3bac54bd02ea45f5] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 10条 (阈值=10)
+[2026-08-27 16:58:49.814] [DEBUG   ] (context_manager:append_to_context:86) [3bac54bd02ea45f5] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
+[2026-08-27 16:58:49.815] [DEBUG   ] (pipeline:process_message:500) [3bac54bd02ea45f5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
+[2026-08-27 16:58:49.815] [INFO    ] (logger:log_trace_summary:392) [3bac54bd02ea45f5] [TRACE 3bac54bd02ea45f5] total=2.13ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.05ms(x1) (wall2.05), queue_wait=0.49ms(x1)
+[2026-08-27 16:58:49.817] [INFO    ] (llm:call_llm:427) [3bac54bd02ea45f5] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-27 16:58:49.851] [INFO    ] (engine:_ingest:92) [3bac54bd02ea45f5] 异步记忆提炼完成 chat=6243254695867429: 候选8 新增8
+[2026-08-27 16:58:50.681] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 16:58:51.553] [INFO    ] (llm:call_llm:489) [3bac54bd02ea45f5] LLM [deepseek-v4-flash] 返回 151字符 耗时1.7s → "[16:24:29-16:26:29] 名字: 名字: 下午吧, 一般不都是周六周日在家, 周一周四..."
+[2026-08-27 16:58:51.555] [INFO    ] (memory:_compress_with_deepseek:210) [3bac54bd02ea45f5] [6243254695867429] 压缩完成: 10条消息 → 保存
