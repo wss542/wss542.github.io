@@ -1,13 +1,4 @@
-# 更新于 2026-08-27 23:09:26 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:32:27.046] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-27 18:32:27.050] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-27 18:32:27.050] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-27 18:32:27.050] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-27 18:32:27.050] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-27 18:32:27.051] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-27 18:32:27.051] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-27 18:32:27.051] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-27 18:32:27.051] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+# 更新于 2026-08-27 23:10:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:32:27.052] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 [2026-08-27 18:32:27.052] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
 [2026-08-27 18:32:27.052] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
@@ -1499,3 +1490,12 @@
 [2026-08-27 23:09:16.170] [INFO    ] (bot:_patched_consume_pkg:262) [cf87385c6cf648e3] ✏️ 编辑消息作者反查: id=1759953618 username=wss
 [2026-08-27 23:09:18.056] [INFO    ] (commands:handle_command:4800) [55e1159755164d9e] 指令执行完成 [pc]: 无返回值（已自行发送）
 [2026-08-27 23:09:18.056] [INFO    ] (logger:log_trace_summary:392) [55e1159755164d9e] [TRACE 55e1159755164d9e] total=2036.3ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2036.25ms(x1) (wall2036.25), queue_wait=0.48ms(x1)
+[2026-08-27 23:09:29.241] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 23:09:32.222] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=57 cpu=None mem=None
+[2026-08-27 23:09:32.223] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 23:09:47.449] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=57 cpu=None mem=None
+[2026-08-27 23:09:47.449] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 23:09:51.767] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 23:09:51.768] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/27/cWwsY9LipK0dc0bc.png' is_edit=False
+[2026-08-27 23:09:51.768] [DEBUG   ] (dispatcher:_dispatch_inner:107) [3cd2731ec75c4294] 跳过 bot 消息: uid=1341019011
+[2026-08-27 23:09:59.744] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
