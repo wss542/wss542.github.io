@@ -1,4 +1,4 @@
-# 更新于 2026-08-28 00:07:21 · 共 153 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-28 00:08:17 · 共 213 行（来源 huanmeng.log 末尾）
 [2026-08-28 00:00:08.441] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-28 → 周五
 [2026-08-28 00:00:08.447] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86397 秒 (下次 00:00:05)
 [2026-08-28 00:00:18.929] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260828 — 发送昨日群聊日报
@@ -152,3 +152,63 @@
 [2026-08-28 00:06:30.236] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-28 00:07:00.791] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-28 00:07:04.499] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:07:31.221] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 00:07:54.161] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:07:54.161] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='>签到' is_edit=False
+[2026-08-28 00:07:54.161] [DEBUG   ] (dispatcher:_dispatch_inner:110) [627bc664802e4969] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-28 00:07:54.162] [INFO    ] (dispatcher:_dispatch_inner:308) [627bc664802e4969] 📩 消息 #23 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>签到'
+[2026-08-28 00:07:54.164] [DEBUG   ] (queues:enqueue_message:75) [627bc664802e4969] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-28 00:07:54.164] [INFO    ] (memory:merge_overflow_memory:419) [5ed449f8baf144d2] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
+[2026-08-28 00:07:54.166] [DEBUG   ] (pipeline:process_message:500) [5ed449f8baf144d2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
+[2026-08-28 00:07:54.166] [INFO    ] (logger:log_trace_summary:392) [5ed449f8baf144d2] [TRACE 5ed449f8baf144d2] total=1.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.59ms(x1) (wall1.59), queue_wait=0.7ms(x1)
+[2026-08-28 00:07:54.910] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:07:54.910] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：12\n🔥 连续签到：3 天' is_edit=False
+[2026-08-28 00:07:54.910] [DEBUG   ] (dispatcher:_dispatch_inner:107) [441a2c09c55e498e] 跳过 bot 消息: uid=393688090
+[2026-08-28 00:07:59.925] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:07:59.926] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='>luck' is_edit=False
+[2026-08-28 00:07:59.927] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ef3ae08a9e0c4fb2] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-28 00:07:59.928] [INFO    ] (dispatcher:_dispatch_inner:308) [ef3ae08a9e0c4fb2] 📩 消息 #24 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='>luck'
+[2026-08-28 00:07:59.929] [DEBUG   ] (queues:enqueue_message:75) [ef3ae08a9e0c4fb2] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-28 00:07:59.930] [INFO    ] (memory:merge_overflow_memory:419) [a51fe264e39e430d] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
+[2026-08-28 00:07:59.931] [DEBUG   ] (pipeline:process_message:500) [a51fe264e39e430d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
+[2026-08-28 00:07:59.931] [INFO    ] (logger:log_trace_summary:392) [a51fe264e39e430d] [TRACE a51fe264e39e430d] total=0.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.94ms(x1) (wall0.94), queue_wait=1.0ms(x1)
+[2026-08-28 00:07:59.932] [INFO    ] (llm:call_llm:427) [a51fe264e39e430d] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-28 00:07:59.978] [INFO    ] (engine:_ingest:92) [a51fe264e39e430d] 异步记忆提炼完成 chat=1010983873136793: 候选5 新增5
+[2026-08-28 00:08:00.486] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:08:00.487] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='(met)337936062(met) 你今天的运气是 67 喵' is_edit=False
+[2026-08-28 00:08:00.487] [DEBUG   ] (dispatcher:_dispatch_inner:107) [b23dac7dbf9245e0] 跳过 bot 消息: uid=393688090
+[2026-08-28 00:08:01.773] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 00:08:02.975] [INFO    ] (llm:call_llm:489) [a51fe264e39e430d] LLM [Qwen/Qwen3-235B-A22B] 返回 325字符 耗时3.0s → "[11:10:54 - 11:15:58] ywandwss, Trusler: ywandwss说..."
+[2026-08-28 00:08:02.979] [INFO    ] (memory:_compress_with_deepseek:210) [a51fe264e39e430d] [1010983873136793] 压缩完成: 10条消息 → 保存
+[2026-08-28 00:08:07.564] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:08:07.565] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='.luck' is_edit=False
+[2026-08-28 00:08:07.566] [DEBUG   ] (dispatcher:_dispatch_inner:110) [98f470f9c2be4408] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-28 00:08:07.566] [INFO    ] (dispatcher:_dispatch_inner:308) [98f470f9c2be4408] 📩 消息 #25 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='.luck'
+[2026-08-28 00:08:07.567] [DEBUG   ] (queues:enqueue_message:75) [98f470f9c2be4408] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-28 00:08:07.568] [INFO    ] (memory:merge_overflow_memory:419) [c46b3fe6dd9d4ffb] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-28 00:08:07.569] [DEBUG   ] (pipeline:process_message:500) [c46b3fe6dd9d4ffb] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.luck'
+[2026-08-28 00:08:07.569] [DEBUG   ] (pipeline:process_message:510) [c46b3fe6dd9d4ffb] 点前缀消息忽略（其它 bot 命令）: '.luck'
+[2026-08-28 00:08:07.569] [INFO    ] (logger:log_trace_summary:392) [c46b3fe6dd9d4ffb] [TRACE c46b3fe6dd9d4ffb] total=1.44ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.39ms(x1) (wall1.39), queue_wait=0.54ms(x1)
+[2026-08-28 00:08:08.456] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:08:08.456] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='(met)337936062(met) 你今天的运气是 48 喵' is_edit=False
+[2026-08-28 00:08:08.457] [DEBUG   ] (dispatcher:_dispatch_inner:107) [0de0fe790bf24f9a] 跳过 bot 消息: uid=1341019011
+[2026-08-28 00:08:13.664] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:08:13.664] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='/luck' is_edit=False
+[2026-08-28 00:08:13.664] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c6899b090e2c4a66] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-28 00:08:13.665] [INFO    ] (dispatcher:_dispatch_inner:308) [c6899b090e2c4a66] 📩 消息 #26 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='/luck'
+[2026-08-28 00:08:13.665] [DEBUG   ] (queues:enqueue_message:75) [c6899b090e2c4a66] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-28 00:08:13.666] [INFO    ] (memory:merge_overflow_memory:419) [ed7e9e944ad9424f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-28 00:08:13.667] [INFO    ] (pipeline:process_message:470) [ed7e9e944ad9424f] 指令拦截: '/luck' from=제미니 (shuangzi_1228)
+[2026-08-28 00:08:13.667] [DEBUG   ] (commands:handle_command:4756) [ed7e9e944ad9424f] 指令解析: prefix=/ cmd=luck args=[] user=337936062
+[2026-08-28 00:08:13.667] [INFO    ] (commands:cmd_luck:757) [ed7e9e944ad9424f] 指令 /luck 触发 user=337936062
+[2026-08-28 00:08:13.667] [INFO    ] (commands:handle_command:4798) [ed7e9e944ad9424f] 指令执行完成 [luck]: 返回32字符
+[2026-08-28 00:08:14.252] [INFO    ] (logger:log_trace_summary:392) [ed7e9e944ad9424f] [TRACE ed7e9e944ad9424f] total=586.01ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=585.95ms(x1) (wall585.95), queue_wait=0.55ms(x1)
+[2026-08-28 00:08:17.556] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:08:17.556] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='/fuck' is_edit=False
+[2026-08-28 00:08:17.557] [DEBUG   ] (dispatcher:_dispatch_inner:110) [972fa80c3df0497b] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-28 00:08:17.557] [INFO    ] (dispatcher:_dispatch_inner:308) [972fa80c3df0497b] 📩 消息 #27 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='/fuck'
+[2026-08-28 00:08:17.557] [DEBUG   ] (queues:enqueue_message:75) [972fa80c3df0497b] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-28 00:08:17.558] [INFO    ] (memory:merge_overflow_memory:419) [c40e2649cd494f97] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+[2026-08-28 00:08:17.558] [INFO    ] (pipeline:process_message:470) [c40e2649cd494f97] 指令拦截: '/fuck' from=제미니 (shuangzi_1228)
+[2026-08-28 00:08:17.559] [DEBUG   ] (commands:handle_command:4756) [c40e2649cd494f97] 指令解析: prefix=/ cmd=fuck args=[] user=337936062
+[2026-08-28 00:08:17.559] [INFO    ] (commands:handle_command:4798) [c40e2649cd494f97] 指令执行完成 [fuck]: 返回30字符
