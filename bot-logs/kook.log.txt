@@ -1,4 +1,4 @@
-# 更新于 2026-08-28 00:04:11 · 共 124 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-28 00:05:11 · 共 146 行（来源 huanmeng.log 末尾）
 [2026-08-28 00:00:08.441] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-28 → 周五
 [2026-08-28 00:00:08.447] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86397 秒 (下次 00:00:05)
 [2026-08-28 00:00:18.929] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260828 — 发送昨日群聊日报
@@ -123,3 +123,25 @@
 [2026-08-28 00:03:25.153] [DEBUG   ] (dispatcher:_dispatch_inner:107) [fc2f8996df034f57] 跳过 bot 消息: uid=1341019011
 [2026-08-28 00:03:26.929] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-28 00:03:57.475] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 00:04:28.026] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 00:04:40.671] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 00:04:40.672] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/28\\/P1iIpa7mdr04n01c.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":167,"height":48,"fileSize":1816,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-28 00:04:40.672] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ded6ddaa95be4583] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-28 00:04:40.673] [INFO    ] (dispatcher:_dispatch_inner:177) [ded6ddaa95be4583] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/28\\/P1iIpa7mdr04n01c.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":167,"height":48,"fileSize":1816,"elements":[]}]}],"type":"card"}]')
+[2026-08-28 00:04:40.673] [INFO    ] (dispatcher:_dispatch_inner:308) [ded6ddaa95be4583] 📩 消息 #22 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/28\\/P1iIpa7mdr04n01c.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":167,"height":48,"fileSize":1816,"elements":[]}]}],"type":"card"}]'
+[2026-08-28 00:04:40.674] [INFO    ] (dispatcher:_dispatch_inner:384) [ded6ddaa95be4583] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-28 00:04:40.675] [INFO    ] (image_api:recognize_image:152) [ded6ddaa95be4583] [chat=7274785942250691] 开始获取图片: https://img.kookapp.cn/assets/2026-08/28/P1iIpa7mdr04n01c.pn...
+[2026-08-28 00:04:40.781] [INFO    ] (image_api:recognize_image:168) [ded6ddaa95be4583] [chat=7274785942250691] 图片下载成功: 1816 bytes
+[2026-08-28 00:04:40.785] [INFO    ] (image_api:recognize_image:204) [ded6ddaa95be4583] [chat=7274785942250691] 图片预处理: PNG(167x48) → PNG 1816 bytes → 1632 bytes
+[2026-08-28 00:04:40.786] [INFO    ] (image_api:recognize_image:251) [ded6ddaa95be4583] [chat=7274785942250691] 调用主视觉模型识别图片 (MD5=1ff555c092a4...) model=deepseek-v4-flash-vision-exp
+[2026-08-28 00:04:42.202] [INFO    ] (image_api:recognize_image:280) [ded6ddaa95be4583] [chat=7274785942250691] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 深色圆角框内蓝字“即将掉宝 00:55”，右上角红点。表达期待、急切、紧张、兴奋。...
+[2026-08-28 00:04:42.204] [DEBUG   ] (image_api:_save:64) [ded6ddaa95be4583] 图片缓存已写入磁盘: 356 条
+[2026-08-28 00:04:42.205] [DEBUG   ] (image_api:_save_to_repo:315) [ded6ddaa95be4583] 图片仓库追加: MD5=1ff555c092a4... → '深色圆角框内蓝字“即将掉宝 00:55”，右上角红点。表达期'
+[2026-08-28 00:04:42.206] [INFO    ] (dispatcher:_do_recognize_image:916) [ded6ddaa95be4583] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '深色圆角框内蓝字“即将掉宝 00:55”，右上角红点。表达期待、急切、紧张、兴奋。...' (41字) url=https://img.kookapp.cn/assets/2026-08/28/P1iIpa7mdr04n01c.pn
+[2026-08-28 00:04:42.206] [INFO    ] (dispatcher:_dispatch_inner:400) [ded6ddaa95be4583] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '深色圆角框内蓝字“即将掉宝 00:55”，右上角红点。表达期待、急切、紧张、兴奋。...'
+[2026-08-28 00:04:42.206] [DEBUG   ] (queues:enqueue_message:75) [ded6ddaa95be4583] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-28 00:04:42.207] [INFO    ] (pipeline:process_message:367) [d9fc1e6712b14fc5] 附带图片已记录 [chat=7274785942250691] count=1
+[2026-08-28 00:04:42.208] [INFO    ] (memory:merge_overflow_memory:419) [d9fc1e6712b14fc5] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+[2026-08-28 00:04:42.208] [DEBUG   ] (pipeline:process_message:500) [d9fc1e6712b14fc5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-28 00:04:42.208] [INFO    ] (logger:log_trace_summary:392) [d9fc1e6712b14fc5] [TRACE d9fc1e6712b14fc5] total=1.84ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.8ms(x1) (wall1.8), queue_wait=0.33ms(x1)
+[2026-08-28 00:04:58.607] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
