@@ -1,25 +1,4 @@
-# 更新于 2026-08-27 23:07:00 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:32:24.202] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-27 18:32:24.202] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 11, 'total_context_lines': 277, 'total_buffer_lines': 13, 'active_tasks': 0}
-[2026-08-27 18:32:24.204] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-27 18:32:24.204] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-27 18:32:24.205] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-27 18:32:24.578] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-27 18:32:25.442] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-27 18:32:25.463] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-27 18:32:26.385] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:32:26.385] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-27 18:32:26.385] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:32:26.388] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-27 18:32:26.389] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-27 18:32:26.392] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-27 18:32:26.393] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-27 18:32:26.393] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-27 18:32:26.393] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-27 18:32:26.394] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-27 18:32:26.678] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-27 18:32:26.678] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-27 18:32:26.687] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+# 更新于 2026-08-27 23:08:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:32:26.687] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
 [2026-08-27 18:32:27.007] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
 [2026-08-27 18:32:27.025] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
@@ -1499,3 +1478,24 @@
 [2026-08-27 23:05:55.186] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 23:06:25.798] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 23:06:56.356] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 23:07:10.634] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 23:07:10.635] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/27/cWwsY9LipK0dc0bc.png' is_edit=False
+[2026-08-27 23:07:10.636] [DEBUG   ] (dispatcher:_dispatch_inner:107) [5bd73ed0ec7a47d7] 跳过 bot 消息: uid=1341019011
+[2026-08-27 23:07:12.207] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 23:07:12.207] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='好图偷了' is_edit=False
+[2026-08-27 23:07:12.208] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c3ce8d8e1c3f4aae] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
+[2026-08-27 23:07:12.208] [INFO    ] (dispatcher:_dispatch_inner:308) [c3ce8d8e1c3f4aae] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='好图偷了'
+[2026-08-27 23:07:12.210] [DEBUG   ] (queues:enqueue_message:75) [c3ce8d8e1c3f4aae] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 23:07:12.212] [INFO    ] (memory:merge_overflow_memory:419) [da56bd287db14fda] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-27 23:07:12.212] [DEBUG   ] (pipeline:process_message:500) [da56bd287db14fda] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='好图偷了'
+[2026-08-27 23:07:12.212] [INFO    ] (logger:log_trace_summary:392) [da56bd287db14fda] [TRACE da56bd287db14fda] total=1.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.85ms(x1) (wall1.85), queue_wait=0.38ms(x1)
+[2026-08-27 23:07:23.950] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 23:07:23.950] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='o' is_edit=False
+[2026-08-27 23:07:23.950] [DEBUG   ] (dispatcher:_dispatch_inner:110) [78d14c49a93f49d9] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 23:07:23.951] [INFO    ] (dispatcher:_dispatch_inner:308) [78d14c49a93f49d9] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='o'
+[2026-08-27 23:07:23.952] [DEBUG   ] (queues:enqueue_message:75) [78d14c49a93f49d9] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 23:07:23.954] [INFO    ] (memory:merge_overflow_memory:419) [7191444530564cd9] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-27 23:07:23.955] [DEBUG   ] (pipeline:process_message:500) [7191444530564cd9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='o'
+[2026-08-27 23:07:23.955] [INFO    ] (logger:log_trace_summary:392) [7191444530564cd9] [TRACE 7191444530564cd9] total=1.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.72ms(x1) (wall1.72), queue_wait=0.82ms(x1)
+[2026-08-27 23:07:26.919] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 23:07:57.597] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
