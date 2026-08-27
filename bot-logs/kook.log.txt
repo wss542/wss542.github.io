@@ -1,10 +1,4 @@
-# 更新于 2026-08-27 20:50:48 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:16:35.636] [DEBUG   ] (queues:enqueue_message:75) [3acca48f8fc14678] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 18:16:35.638] [INFO    ] (memory:merge_overflow_memory:419) [654d1501389d489b] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-08-27 18:16:35.641] [INFO    ] (pipeline:process_message:470) [654d1501389d489b] 指令拦截: '/禁言 @ywandwss  1' from=ywandwss
-[2026-08-27 18:16:35.642] [DEBUG   ] (commands:handle_command:4746) [654d1501389d489b] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '1'] user=1759953618
-[2026-08-27 18:16:35.642] [INFO    ] (commands:handle_command:4788) [654d1501389d489b] 指令执行完成 [禁言]: 返回48字符
-[2026-08-27 18:16:36.261] [INFO    ] (logger:log_trace_summary:392) [654d1501389d489b] [TRACE 654d1501389d489b] total=624.88ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=624.78ms(x1) (wall624.78), queue_wait=1.12ms(x1)
+# 更新于 2026-08-27 20:51:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:16:36.275] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 18:16:46.120] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 18:16:46.121] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)337936062(met)  1' is_edit=False
@@ -1499,3 +1493,9 @@
 [2026-08-27 20:49:32.897] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 20:50:03.503] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 20:50:34.083] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:51:09.991] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=92 cpu=None mem=None
+[2026-08-27 20:51:09.992] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 20:51:09.996] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:51:25.196] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
+[2026-08-27 20:51:25.196] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 20:51:40.893] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
