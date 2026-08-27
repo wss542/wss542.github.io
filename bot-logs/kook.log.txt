@@ -1,34 +1,4 @@
-# 更新于 2026-08-27 09:56:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 00:00:10.978] [INFO    ] (stats:midnight_report_loop:508) [-] 日报跳过(频道不在白名单): 频道=1759953618
-[2026-08-27 00:00:10.979] [INFO    ] (changelog:render_card_to_image:801) [-] [Card] 正在截图 → daily_3090677846298039_2026.08.26_20260827_000010.jpg (12512 bytes HTML)
-[2026-08-27 00:00:14.456] [INFO    ] (changelog:render_card_to_image:809) [-] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/daily_3090677846298039_2026.08.26_20260827_000010.jpg size=68.2KB
-[2026-08-27 00:00:15.484] [INFO    ] (stats:midnight_report_loop:561) [-] 服务器汇总日报已发送: 服务器=3090677846298039 频道=7274785942250691 昨日130条
-[2026-08-27 00:00:40.136] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:01:00.008] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
-[2026-08-27 00:01:03.876] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
-[2026-08-27 00:01:10.281] [INFO    ] (bot:_bg_wdsj_collector:695) [-] 日榜目标频道: [3649029148752421]
-[2026-08-27 00:01:10.806] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:01:11.660] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
-[2026-08-27 00:01:11.661] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 1 人 (2026-08-26)
-[2026-08-27 00:01:11.661] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (04:01)
-[2026-08-27 00:01:41.363] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:02:11.862] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:02:42.356] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:03:10.252] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 00:03:10.253] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='>签到' is_edit=False
-[2026-08-27 00:03:10.253] [DEBUG   ] (dispatcher:_dispatch_inner:110) [361cceb4655b4906] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-27 00:03:10.253] [INFO    ] (dispatcher:_dispatch_inner:308) [361cceb4655b4906] 📩 消息 #41 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='>签到'
-[2026-08-27 00:03:10.255] [DEBUG   ] (queues:enqueue_message:75) [361cceb4655b4906] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 00:03:10.256] [INFO    ] (memory:merge_overflow_memory:419) [6b966caa3d66470b] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
-[2026-08-27 00:03:10.256] [DEBUG   ] (pipeline:process_message:500) [6b966caa3d66470b] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
-[2026-08-27 00:03:10.257] [INFO    ] (logger:log_trace_summary:392) [6b966caa3d66470b] [TRACE 6b966caa3d66470b] total=1.68ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.64ms(x1) (wall1.64), queue_wait=0.42ms(x1)
-[2026-08-27 00:03:11.103] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 00:03:11.104] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：12\n🔥 连续签到：6 天' is_edit=False
-[2026-08-27 00:03:11.104] [DEBUG   ] (dispatcher:_dispatch_inner:107) [75c2680b82194973] 跳过 bot 消息: uid=393688090
-[2026-08-27 00:03:12.995] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 00:03:13.926] [DEBUG   ] (bot:_patched_consume_pkg:216) [475770c88f514971] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 00:03:13.927] [DEBUG   ] (dispatcher:dispatch:47) [475770c88f514971] dispatch 入口: type=9 content='>luck' is_edit=False
-[2026-08-27 00:03:13.927] [DEBUG   ] (dispatcher:_dispatch_inner:110) [17d839ed35c649bb] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+# 更新于 2026-08-27 09:56:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 00:03:13.927] [INFO    ] (dispatcher:_dispatch_inner:308) [17d839ed35c649bb] 📩 消息 #42 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='>luck'
 [2026-08-27 00:03:13.928] [DEBUG   ] (queues:enqueue_message:75) [17d839ed35c649bb] [队列] 群1010983873136793 消息已入队 (队长度=1)
 [2026-08-27 00:03:13.929] [INFO    ] (memory:merge_overflow_memory:419) [ff1a87cd3f7645a6] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 5条 (阈值=10)
@@ -1499,3 +1469,33 @@
 [2026-08-27 09:54:47.872] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 09:55:18.402] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 09:55:48.854] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 09:56:19.364] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 09:56:22.381] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 09:56:22.382] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.notify' is_edit=False
+[2026-08-27 09:56:22.382] [DEBUG   ] (dispatcher:_dispatch_inner:110) [dd1094f8d57d4361] KMD 调试: is_group=True uid=656176615 channel=7274785942250691
+[2026-08-27 09:56:22.382] [INFO    ] (dispatcher:_dispatch_inner:308) [dd1094f8d57d4361] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=7274785942250691 | group=True | content='.notify'
+[2026-08-27 09:56:22.383] [INFO    ] (queues:_get_or_create_queue:32) [dd1094f8d57d4361] [队列] 创建群7274785942250691 的独立消息队列
+[2026-08-27 09:56:22.383] [DEBUG   ] (queues:enqueue_message:75) [dd1094f8d57d4361] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-27 09:56:22.385] [INFO    ] (memory:merge_overflow_memory:419) [9b55295676ec47a0] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-27 09:56:22.386] [DEBUG   ] (pipeline:process_message:500) [9b55295676ec47a0] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.notify'
+[2026-08-27 09:56:22.386] [DEBUG   ] (pipeline:process_message:510) [9b55295676ec47a0] 点前缀消息忽略（其它 bot 命令）: '.notify'
+[2026-08-27 09:56:22.386] [INFO    ] (logger:log_trace_summary:392) [9b55295676ec47a0] [TRACE 9b55295676ec47a0] total=2.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.04ms(x1) (wall2.04), queue_wait=0.64ms(x1)
+[2026-08-27 09:56:22.905] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 09:56:22.905] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"secondary","color":"","size":"lg","expand":false,"modules":[{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"**KOOK BOT · 通知目标频道**\\n点击按钮选择通知发送目标：\\n\\n○ `trusler`（5779934475958727）\\n✓ `聊天`（7274785942250691）\\n","elements":[]},"elements":[]},{"type":"action-group","elements":[{"type":"button","theme":"primary","value":".notifyset 5779934475958727","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"trusler","elements":[]},"external":true,"elements":[]},{"type":"button","theme":"danger","value":".notifydel 7274785942250691","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"✕ 聊天","elements":[]},"external":true,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-27 09:56:22.906] [DEBUG   ] (dispatcher:_dispatch_inner:107) [ed15b41c76c74455] 跳过 bot 消息: uid=1341019011
+[2026-08-27 09:56:26.040] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 09:56:26.041] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='**按钮点击记录**\n- 时间戳：`2026-08-27 09:56:26`\n- 点击人：`Trusler`（ID `656176615`）\n- 频道 ID：`7274785942250691`\n- 按钮值：`.notifydel 7274785942250691`\n- 按钮返回内容：`已移除通知目标频道：7274785942250691`\n\n---\n已移除通知目标频道：7274785942250691' is_edit=False
+[2026-08-27 09:56:26.041] [DEBUG   ] (dispatcher:_dispatch_inner:107) [712f021ba78b4e81] 跳过 bot 消息: uid=1341019011
+[2026-08-27 09:56:31.557] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 09:56:31.557] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='.notify' is_edit=False
+[2026-08-27 09:56:31.557] [DEBUG   ] (dispatcher:_dispatch_inner:110) [03e7e22b22ee4da3] KMD 调试: is_group=True uid=656176615 channel=1010983873136793
+[2026-08-27 09:56:31.557] [INFO    ] (dispatcher:_dispatch_inner:308) [03e7e22b22ee4da3] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='.notify'
+[2026-08-27 09:56:31.558] [DEBUG   ] (queues:enqueue_message:75) [03e7e22b22ee4da3] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-27 09:56:31.559] [INFO    ] (memory:merge_overflow_memory:419) [bc368b639ab34a1f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-27 09:56:31.560] [DEBUG   ] (pipeline:process_message:500) [bc368b639ab34a1f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.notify'
+[2026-08-27 09:56:31.560] [DEBUG   ] (pipeline:process_message:510) [bc368b639ab34a1f] 点前缀消息忽略（其它 bot 命令）: '.notify'
+[2026-08-27 09:56:31.560] [INFO    ] (logger:log_trace_summary:392) [bc368b639ab34a1f] [TRACE bc368b639ab34a1f] total=1.34ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.31ms(x1) (wall1.31), queue_wait=0.36ms(x1)
+[2026-08-27 09:56:32.092] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 09:56:32.093] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"secondary","color":"","size":"lg","expand":false,"modules":[{"type":"section","mode":"left","accessory":null,"text":{"type":"kmarkdown","content":"**KOOK BOT · 通知目标频道**\\n点击按钮选择通知发送目标：\\n\\n○ `trusler`（5779934475958727）\\n○ `聊天`（7274785942250691）\\n✓ `综合`（1010983873136793）\\n","elements":[]},"elements":[]},{"type":"action-group","elements":[{"type":"button","theme":"primary","value":".notifyset 5779934475958727","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"trusler","elements":[]},"external":true,"elements":[]},{"type":"button","theme":"primary","value":".notifyset 7274785942250691","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"聊天","elements":[]},"external":true,"elements":[]},{"type":"button","theme":"danger","value":".notifydel 1010983873136793","click":"return-val","text":{"type":"plain-text","emoji":true,"content":"✕ 综合","elements":[]},"external":true,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-27 09:56:32.093] [DEBUG   ] (dispatcher:_dispatch_inner:107) [dc5cd92a1df944bd] 跳过 bot 消息: uid=1341019011
+[2026-08-27 09:56:50.194] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
