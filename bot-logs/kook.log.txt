@@ -1,34 +1,4 @@
-# 更新于 2026-08-27 16:27:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 11:20:01.878] [INFO    ] (dispatcher:_dispatch_inner:308) [6bfb0ea38c334cd5] 📩 消息 #30 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='(met)1759953618(met) /plugin -import [http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp](http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp)'
-[2026-08-27 11:20:01.880] [DEBUG   ] (queues:enqueue_message:75) [6bfb0ea38c334cd5] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 11:20:01.890] [INFO    ] (memory:merge_overflow_memory:419) [da95acae670e4614] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 9条 (阈值=10)
-[2026-08-27 11:20:01.900] [INFO    ] (pipeline:process_message:470) [da95acae670e4614] 指令拦截: '/plugin -import [http://01240820.xyz:200' from=Trusler
-[2026-08-27 11:20:01.901] [DEBUG   ] (commands:handle_command:4717) [da95acae670e4614] 指令解析: prefix=/ cmd=plugin args=['-import', '[http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp](http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp)'] user=656176615
-[2026-08-27 11:20:01.904] [INFO    ] (commands:handle_command:4759) [da95acae670e4614] 指令执行完成 [plugin]: 返回17字符
-[2026-08-27 11:20:02.549] [INFO    ] (logger:log_trace_summary:392) [da95acae670e4614] [TRACE da95acae670e4614] total=666.56ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=665.02ms(x1) (wall665.02), queue_wait=4.83ms(x1)
-[2026-08-27 11:20:02.551] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 11:20:14.402] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 11:20:14.402] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='？' is_edit=False
-[2026-08-27 11:20:14.403] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d693d6de439a4862] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-27 11:20:14.404] [INFO    ] (dispatcher:_dispatch_inner:308) [d693d6de439a4862] 📩 消息 #31 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='？'
-[2026-08-27 11:20:14.407] [DEBUG   ] (queues:enqueue_message:75) [d693d6de439a4862] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 11:20:14.409] [INFO    ] (memory:merge_overflow_memory:419) [f3bf10b5f3af4877] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 10条 (阈值=10)
-[2026-08-27 11:20:14.410] [DEBUG   ] (pipeline:process_message:500) [f3bf10b5f3af4877] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
-[2026-08-27 11:20:14.411] [INFO    ] (logger:log_trace_summary:392) [f3bf10b5f3af4877] [TRACE f3bf10b5f3af4877] total=2.04ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.0ms(x1) (wall2.0), queue_wait=1.18ms(x1)
-[2026-08-27 11:20:14.429] [INFO    ] (llm:call_llm:427) [f3bf10b5f3af4877] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-27 11:20:14.507] [INFO    ] (engine:_ingest:92) [f3bf10b5f3af4877] 异步记忆提炼完成 chat=1010983873136793: 候选1 新增1
-[2026-08-27 11:20:15.462] [INFO    ] (llm:call_llm:489) [f3bf10b5f3af4877] LLM [deepseek-v4-flash] 返回 114字符 耗时1.0s → "[21:08:37-00:03:25] ywandwss: 发了😂表情, 说炸吧, 尝试>签到、>l..."
-[2026-08-27 11:20:15.470] [INFO    ] (memory:_compress_with_deepseek:210) [f3bf10b5f3af4877] [1010983873136793] 压缩完成: 10条消息 → 保存
-[2026-08-27 11:20:21.639] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 11:20:52.507] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 11:21:09.736] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 11:21:09.736] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/plugin -import [http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp](http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp)' is_edit=False
-[2026-08-27 11:21:09.736] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a3e052e73d0646ed] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-27 11:21:09.737] [INFO    ] (dispatcher:_dispatch_inner:308) [a3e052e73d0646ed] 📩 消息 #32 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/plugin -import [http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp](http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp)'
-[2026-08-27 11:21:09.737] [DEBUG   ] (queues:enqueue_message:75) [a3e052e73d0646ed] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-27 11:21:09.738] [INFO    ] (memory:merge_overflow_memory:419) [9dc8c62af2bd49fd] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
-[2026-08-27 11:21:09.739] [INFO    ] (pipeline:process_message:470) [9dc8c62af2bd49fd] 指令拦截: '/plugin -import [http://01240820.xyz:200' from=ywandwss
-[2026-08-27 11:21:09.739] [DEBUG   ] (commands:handle_command:4717) [9dc8c62af2bd49fd] 指令解析: prefix=/ cmd=plugin args=['-import', '[http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp](http://01240820.xyz:20030/v1/plugin/hmp/tuf.hmp)'] user=1759953618
+# 更新于 2026-08-27 16:28:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 11:21:09.945] [INFO    ] (commands:handle_command:4759) [9dc8c62af2bd49fd] 指令执行完成 [plugin]: 返回62字符
 [2026-08-27 11:21:10.579] [INFO    ] (logger:log_trace_summary:392) [9dc8c62af2bd49fd] [TRACE 9dc8c62af2bd49fd] total=841.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=841.11ms(x1) (wall841.11), queue_wait=0.33ms(x1)
 [2026-08-27 11:21:10.580] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1469,33 @@
 [2026-08-27 16:27:50.021] [INFO    ] (logger:log_trace_summary:392) [5e7456c8f60e47ac] [TRACE 5e7456c8f60e47ac] total=1.44ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.34ms(x1) (wall1.34), queue_wait=0.44ms(x1)
 [2026-08-27 16:27:50.022] [INFO    ] (llm:call_llm:427) [5e7456c8f60e47ac] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-08-27 16:27:50.027] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 16:27:50.288] [INFO    ] (engine:_ingest:92) [5e7456c8f60e47ac] 异步记忆提炼完成 chat=6243254695867429: 候选8 新增8
+[2026-08-27 16:27:51.365] [INFO    ] (llm:call_llm:489) [5e7456c8f60e47ac] LLM [deepseek-v4-flash] 返回 124字符 耗时1.3s → "[16:21:14] 名字: 名字在QQ找大家, 一个也不见了, 问洛尘今天没在, 猜测洛尘拿不到手..."
+[2026-08-27 16:27:51.367] [INFO    ] (memory:_compress_with_deepseek:210) [5e7456c8f60e47ac] [6243254695867429] 压缩完成: 10条消息 → 保存
+[2026-08-27 16:27:58.318] [DEBUG   ] (bot:_patched_consume_pkg:216) [ff64443693554447] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:27:58.319] [DEBUG   ] (dispatcher:dispatch:47) [ff64443693554447] dispatch 入口: type=9 content='没怎么玩好' is_edit=False
+[2026-08-27 16:27:58.319] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8e8c7a4f03b9466f] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 16:27:58.319] [INFO    ] (dispatcher:_dispatch_inner:308) [8e8c7a4f03b9466f] 📩 消息 #93 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='没怎么玩好'
+[2026-08-27 16:27:58.321] [DEBUG   ] (queues:enqueue_message:75) [8e8c7a4f03b9466f] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 16:27:58.322] [INFO    ] (memory:merge_overflow_memory:419) [df8963c9225d417f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-27 16:27:58.324] [DEBUG   ] (pipeline:process_message:500) [df8963c9225d417f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='没怎么玩好'
+[2026-08-27 16:27:58.325] [INFO    ] (logger:log_trace_summary:392) [df8963c9225d417f] [TRACE df8963c9225d417f] total=3.21ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.15ms(x1) (wall3.15), queue_wait=0.76ms(x1)
+[2026-08-27 16:28:01.069] [DEBUG   ] (bot:_patched_consume_pkg:216) [ff64443693554447] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:28:01.069] [DEBUG   ] (dispatcher:dispatch:47) [ff64443693554447] dispatch 入口: type=9 content='骗你的，受伤没那么轻' is_edit=False
+[2026-08-27 16:28:01.069] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3a723bdca77d43e7] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
+[2026-08-27 16:28:01.070] [INFO    ] (dispatcher:_dispatch_inner:308) [3a723bdca77d43e7] 📩 消息 #94 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='骗你的，受伤没那么轻'
+[2026-08-27 16:28:01.070] [DEBUG   ] (queues:enqueue_message:75) [3a723bdca77d43e7] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 16:28:01.071] [INFO    ] (memory:merge_overflow_memory:419) [49e5bc42293e4576] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-27 16:28:01.072] [DEBUG   ] (pipeline:process_message:500) [49e5bc42293e4576] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='骗你的，受伤没那么轻'
+[2026-08-27 16:28:01.072] [INFO    ] (logger:log_trace_summary:392) [49e5bc42293e4576] [TRACE 49e5bc42293e4576] total=1.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.37ms(x1) (wall1.37), queue_wait=0.41ms(x1)
+[2026-08-27 16:28:21.148] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 16:28:26.125] [DEBUG   ] (bot:_patched_consume_pkg:216) [ff64443693554447] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 16:28:26.125] [DEBUG   ] (dispatcher:dispatch:47) [ff64443693554447] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/27/7panRjs2uh0xy0zk.jpeg' is_edit=False
+[2026-08-27 16:28:26.125] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d741106157d94a12] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
+[2026-08-27 16:28:26.126] [INFO    ] (dispatcher:_dispatch_inner:211) [d741106157d94a12] 🔗 正文解析到 1 个图片直链
+[2026-08-27 16:28:26.126] [INFO    ] (dispatcher:_dispatch_inner:308) [d741106157d94a12] 📩 消息 #95 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='https://img.kookapp.cn/attachments/2026-08/27/7panRjs2uh0xy0zk.jpeg'
+[2026-08-27 16:28:26.127] [INFO    ] (dispatcher:_dispatch_inner:384) [d741106157d94a12] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-27 16:28:26.127] [INFO    ] (image_api:recognize_image:152) [d741106157d94a12] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/attachments/2026-08/27/7panRjs2uh0xy0...
+[2026-08-27 16:28:26.509] [INFO    ] (image_api:recognize_image:168) [d741106157d94a12] [chat=6243254695867429] 图片下载成功: 249232 bytes
+[2026-08-27 16:28:27.705] [INFO    ] (image_api:recognize_image:204) [d741106157d94a12] [chat=6243254695867429] 图片预处理: JPEG(1222x1280) → PNG 249232 bytes → 1270557 bytes
+[2026-08-27 16:28:27.708] [INFO    ] (image_api:recognize_image:251) [d741106157d94a12] [chat=6243254695867429] 调用主视觉模型识别图片 (MD5=1c63cce631ba...) model=deepseek-v4-flash-vision-exp
