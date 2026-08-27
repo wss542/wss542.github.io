@@ -1,26 +1,4 @@
-# 更新于 2026-08-27 17:55:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 15:36:39.547] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 15:36:48.130] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 15:36:48.131] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc' is_edit=False
-[2026-08-27 15:36:48.131] [DEBUG   ] (dispatcher:_dispatch_inner:110) [57352b3bf2404a43] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-27 15:36:48.132] [INFO    ] (dispatcher:_dispatch_inner:308) [57352b3bf2404a43] 📩 消息 #42 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/pc'
-[2026-08-27 15:36:48.132] [INFO    ] (queues:_get_or_create_queue:32) [57352b3bf2404a43] [队列] 创建群6243254695867429 的独立消息队列
-[2026-08-27 15:36:48.132] [DEBUG   ] (queues:enqueue_message:75) [57352b3bf2404a43] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 15:36:48.136] [INFO    ] (memory:merge_overflow_memory:419) [997cce3c4ed04824] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-08-27 15:36:48.138] [INFO    ] (pipeline:process_message:470) [997cce3c4ed04824] 指令拦截: '/pc' from=ywandwss
-[2026-08-27 15:36:48.139] [DEBUG   ] (commands:handle_command:4717) [997cce3c4ed04824] 指令解析: prefix=/ cmd=pc args=[] user=1759953618
-[2026-08-27 15:36:48.140] [INFO    ] (changelog:render_card_to_image:801) [997cce3c4ed04824] [Card] 正在截图 → sys_98ea7d8d.jpg (16360 bytes HTML)
-[2026-08-27 15:36:50.894] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 15:36:50.894] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc jp' is_edit=False
-[2026-08-27 15:36:50.894] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3fef8cff61d44935] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-27 15:36:50.894] [INFO    ] (dispatcher:_dispatch_inner:308) [3fef8cff61d44935] 📩 消息 #43 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/pc jp'
-[2026-08-27 15:36:50.894] [DEBUG   ] (queues:enqueue_message:75) [3fef8cff61d44935] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 15:36:51.631] [INFO    ] (changelog:render_card_to_image:809) [997cce3c4ed04824] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sys_98ea7d8d.jpg size=98.7KB
-[2026-08-27 15:36:52.766] [INFO    ] (commands:handle_command:4761) [997cce3c4ed04824] 指令执行完成 [pc]: 无返回值（已自行发送）
-[2026-08-27 15:36:52.766] [INFO    ] (logger:log_trace_summary:392) [997cce3c4ed04824] [TRACE 997cce3c4ed04824] total=4633.13ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4633.08ms(x1) (wall4633.08), queue_wait=0.95ms(x1)
-[2026-08-27 15:36:52.766] [WARNING ] (logger:log_trace_summary:415) [997cce3c4ed04824] [SLOW 997cce3c4ed04824] total=4633.35ms | process=4633.08ms(x1) (wall4633.08), queue_wait=0.95ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.95ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4633.08ms wall=4633.29ms dominant=other
-[2026-08-27 15:36:52.770] [INFO    ] (memory:merge_overflow_memory:419) [b420f542a54844e1] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-[2026-08-27 15:36:52.772] [INFO    ] (pipeline:process_message:470) [b420f542a54844e1] 指令拦截: '/pc jp' from=ywandwss
+# 更新于 2026-08-27 17:56:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 15:36:52.772] [DEBUG   ] (commands:handle_command:4717) [b420f542a54844e1] 指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
 [2026-08-27 15:36:54.043] [INFO    ] (commands:handle_command:4761) [b420f542a54844e1] 指令执行完成 [pc]: 无返回值（已自行发送）
 [2026-08-27 15:36:54.043] [INFO    ] (logger:log_trace_summary:392) [b420f542a54844e1] [TRACE b420f542a54844e1] total=1274.66ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1274.61ms(x1) (wall1274.61), queue_wait=1874.09ms(x1)
@@ -1499,3 +1477,25 @@
 [2026-08-27 17:55:30.630] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-27 17:55:30.633] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 2h5m 后执行 (20:01)
 [2026-08-27 17:55:30.822] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-27 17:55:45.842] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-27 17:55:45.853] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 79s 前）
+[2026-08-27 17:55:45.856] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-27 17:55:45.867] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-27 17:55:45.867] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-27 17:55:45.868] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-27 17:55:45.868] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-27 17:55:45.868] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-27 17:55:45.868] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-27 17:55:46.003] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-27 17:55:46.003] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-27 17:55:46.104] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-27 17:55:46.104] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 17:55:46.215] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-27 17:55:46.248] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 17:55:47.167] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-27 → 周四
+[2026-08-27 17:55:47.171] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-27 17:55:47.171] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 21858 秒 (下次 00:00:05)
+[2026-08-27 17:55:47.911] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-27 17:55:51.498] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-27 17:55:51.500] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-27 17:55:51.501] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
