@@ -1,13 +1,4 @@
-# 更新于 2026-08-27 19:33:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:09:23.565] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:09:23.565] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-27 18:09:23.565] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:09:23.566] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-27 18:09:23.566] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-27 18:09:23.586] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-27 18:09:23.586] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-27 18:09:23.587] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 1h51m 后执行 (20:01)
-[2026-08-27 18:09:23.622] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+# 更新于 2026-08-27 19:34:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:09:38.640] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 [2026-08-27 18:09:38.645] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 30s 前）
 [2026-08-27 18:09:38.646] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
@@ -1499,3 +1490,12 @@
 [2026-08-27 19:32:50.349] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
 [2026-08-27 19:32:50.350] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 26830 秒
 [2026-08-27 19:33:11.361] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:33:41.832] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:34:04.770] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 19:34:04.771] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='6' is_edit=False
+[2026-08-27 19:34:04.771] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c5ef8c78dc6b44be] KMD 调试: is_group=True uid=1759953618 channel=8318134604058084
+[2026-08-27 19:34:04.771] [INFO    ] (dispatcher:_dispatch_inner:308) [c5ef8c78dc6b44be] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=8318134604058084 | group=True | content='6'
+[2026-08-27 19:34:04.773] [DEBUG   ] (queues:enqueue_message:75) [c5ef8c78dc6b44be] [队列] 群8318134604058084 消息已入队 (队长度=1)
+[2026-08-27 19:34:04.774] [INFO    ] (memory:merge_overflow_memory:419) [06bb99aa304848fd] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 4条 (阈值=10)
+[2026-08-27 19:34:04.776] [DEBUG   ] (pipeline:process_message:500) [06bb99aa304848fd] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6'
+[2026-08-27 19:34:04.776] [INFO    ] (logger:log_trace_summary:392) [06bb99aa304848fd] [TRACE 06bb99aa304848fd] total=2.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.04ms(x1) (wall2.04), queue_wait=0.36ms(x1)
