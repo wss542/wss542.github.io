@@ -1,16 +1,4 @@
-# 更新于 2026-08-27 18:30:00 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 16:32:03.123] [DEBUG   ] (context_manager:append_to_context:86) [d38df3c8fa8c4dc0] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
-[2026-08-27 16:32:03.123] [DEBUG   ] (pipeline:process_message:500) [d38df3c8fa8c4dc0] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='他不会提前开学了吧'
-[2026-08-27 16:32:03.123] [INFO    ] (logger:log_trace_summary:392) [d38df3c8fa8c4dc0] [TRACE d38df3c8fa8c4dc0] total=1.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.5ms(x1) (wall1.5), queue_wait=14.33ms(x1)
-[2026-08-27 16:32:03.124] [INFO    ] (memory:merge_overflow_memory:419) [a23f41fcca7848e1] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 7条 (阈值=10)
-[2026-08-27 16:32:03.124] [DEBUG   ] (context_manager:append_to_context:86) [a23f41fcca7848e1] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
-[2026-08-27 16:32:03.125] [DEBUG   ] (pipeline:process_message:500) [a23f41fcca7848e1] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='彳亍'
-[2026-08-27 16:32:03.125] [INFO    ] (logger:log_trace_summary:392) [a23f41fcca7848e1] [TRACE a23f41fcca7848e1] total=1.64ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.6ms(x1) (wall1.6), queue_wait=14.39ms(x1)
-[2026-08-27 16:32:06.293] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 16:32:06.293] [DEBUG   ] (dispatcher:dispatch:47) [827e588a165d4f03] dispatch 入口: type=9 content='不要啊。' is_edit=False
-[2026-08-27 16:32:06.294] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5e36f5e452c8409a] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
-[2026-08-27 16:32:06.294] [INFO    ] (dispatcher:_dispatch_inner:308) [5e36f5e452c8409a] 📩 消息 #110 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='不要啊。'
-[2026-08-27 16:32:06.295] [DEBUG   ] (queues:enqueue_message:75) [5e36f5e452c8409a] [队列] 群6243254695867429 消息已入队 (队长度=1)
+# 更新于 2026-08-27 18:30:37 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 16:32:06.295] [INFO    ] (memory:merge_overflow_memory:419) [3cb860ffa0454f03] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 8条 (阈值=10)
 [2026-08-27 16:32:06.296] [DEBUG   ] (context_manager:append_to_context:86) [3cb860ffa0454f03] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
 [2026-08-27 16:32:06.296] [DEBUG   ] (pipeline:process_message:500) [3cb860ffa0454f03] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='不要啊。'
@@ -1499,3 +1487,15 @@
 [2026-08-27 18:28:55.914] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 18:29:26.426] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 18:29:56.938] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:30:27.535] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:30:31.841] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:30:31.841] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言' is_edit=False
+[2026-08-27 18:30:31.842] [DEBUG   ] (dispatcher:_dispatch_inner:110) [faf11383a8f047d8] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 18:30:31.842] [INFO    ] (dispatcher:_dispatch_inner:308) [faf11383a8f047d8] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/禁言'
+[2026-08-27 18:30:31.843] [DEBUG   ] (queues:enqueue_message:75) [faf11383a8f047d8] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 18:30:31.843] [INFO    ] (memory:merge_overflow_memory:419) [1286ed4dfdff40dd] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
+[2026-08-27 18:30:31.844] [INFO    ] (pipeline:process_message:470) [1286ed4dfdff40dd] 指令拦截: '/禁言' from=ywandwss
+[2026-08-27 18:30:31.845] [DEBUG   ] (commands:handle_command:4746) [1286ed4dfdff40dd] 指令解析: prefix=/ cmd=禁言 args=[] user=1759953618
+[2026-08-27 18:30:31.845] [INFO    ] (commands:handle_command:4788) [1286ed4dfdff40dd] 指令执行完成 [禁言]: 返回27字符
+[2026-08-27 18:30:32.434] [INFO    ] (logger:log_trace_summary:392) [1286ed4dfdff40dd] [TRACE 1286ed4dfdff40dd] total=591.11ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=591.06ms(x1) (wall591.06), queue_wait=0.33ms(x1)
+[2026-08-27 18:30:32.458] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
