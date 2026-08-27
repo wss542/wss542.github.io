@@ -1,24 +1,4 @@
-# 更新于 2026-08-27 19:30:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:09:23.544] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-27 18:09:23.544] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-27 18:09:23.547] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-27 18:09:23.547] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-27 18:09:23.548] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-27 18:09:23.548] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-27 18:09:23.551] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-27 18:09:23.551] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-27 18:09:23.552] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-27 18:09:23.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-27 18:09:23.554] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-27 18:09:23.554] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-27 18:09:23.554] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-27 18:09:23.554] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+# 更新于 2026-08-27 19:31:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:09:23.555] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
 [2026-08-27 18:09:23.555] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 [2026-08-27 18:09:23.556] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
@@ -1499,3 +1479,23 @@
 [2026-08-27 19:29:49.425] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 19:30:00.531] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 19:30:08.281] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:30:38.858] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:31:09.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:31:09.807] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 19:31:09.807] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 19:31:09.810] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/53cS7f1kHb0a103n.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":361,"height":131,"fileSize":28248,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-27 19:31:09.810] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1194569d5e9648c1] KMD 调试: is_group=True uid=656176615 channel=8318134604058084
+[2026-08-27 19:31:09.810] [INFO    ] (dispatcher:_dispatch_inner:177) [1194569d5e9648c1] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/53cS7f1kHb0a103n.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":361,"height":131,"fileSize":28248,"elements":[]}]}],"type":"card"}]')
+[2026-08-27 19:31:09.811] [INFO    ] (dispatcher:_dispatch_inner:308) [1194569d5e9648c1] 📩 消息 #1 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=8318134604058084 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/53cS7f1kHb0a103n.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":361,"height":131,"fileSize":28248,"elements":[]}]}],"type":"card"}]'
+[2026-08-27 19:31:09.814] [INFO    ] (dispatcher:_dispatch_inner:384) [1194569d5e9648c1] 🖼️  [chat=8318134604058084] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-27 19:31:09.818] [DEBUG   ] (image_api:_load:50) [1194569d5e9648c1] 图片缓存已加载: 351 条
+[2026-08-27 19:31:09.818] [INFO    ] (image_api:recognize_image:152) [1194569d5e9648c1] [chat=8318134604058084] 开始获取图片: https://img.kookapp.cn/assets/2026-08/27/53cS7f1kHb0a103n.pn...
+[2026-08-27 19:31:09.822] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我怎么就练1000次了\n' is_edit=False
+[2026-08-27 19:31:09.822] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e7f44c40a0c64ae5] KMD 调试: is_group=True uid=656176615 channel=8318134604058084
+[2026-08-27 19:31:09.822] [INFO    ] (dispatcher:_dispatch_inner:308) [e7f44c40a0c64ae5] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=8318134604058084 | group=True | content='我怎么就练1000次了\n'
+[2026-08-27 19:31:09.823] [INFO    ] (queues:_get_or_create_queue:32) [e7f44c40a0c64ae5] [队列] 创建群8318134604058084 的独立消息队列
+[2026-08-27 19:31:09.823] [DEBUG   ] (queues:enqueue_message:75) [e7f44c40a0c64ae5] [队列] 群8318134604058084 消息已入队 (队长度=1)
+[2026-08-27 19:31:09.828] [INFO    ] (memory:merge_overflow_memory:419) [bdd389544f06458c] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 1条 (阈值=10)
+[2026-08-27 19:31:09.835] [DEBUG   ] (pipeline:process_message:500) [bdd389544f06458c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我怎么就练1000次了
+'
+[2026-08-27 19:31:09.835] [INFO    ] (logger:log_trace_summary:392) [bdd389544f06458c] [TRACE bdd389544f06458c] total=9.94ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9.88ms(x1) (wall9.88), queue_wait=2.19ms(x1)
