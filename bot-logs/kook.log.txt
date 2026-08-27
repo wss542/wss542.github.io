@@ -1,30 +1,4 @@
-# 更新于 2026-08-27 20:33:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:15:03.613] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-27 18:15:03.613] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-27 18:15:03.614] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-27 18:15:03.617] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-27 18:15:03.617] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-27 18:15:03.617] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-27 18:15:03.618] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-27 18:15:03.618] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-27 18:15:03.619] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-27 18:15:03.619] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-27 18:15:03.619] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-27 18:15:03.620] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-27 18:15:03.620] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-27 18:15:03.620] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-27 18:15:03.621] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-27 18:15:03.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-27 18:15:03.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-27 18:15:03.621] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-27 18:15:03.623] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-27 18:15:03.623] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-27 18:15:03.623] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-27 18:15:03.623] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-27 18:15:03.624] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-08-27 18:15:03.624] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-27 18:15:03.624] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-27 18:15:03.624] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+# 更新于 2026-08-27 20:34:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:15:03.625] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
 [2026-08-27 18:15:03.626] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-08-27 18:15:03.626] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
@@ -1499,3 +1473,29 @@
 [2026-08-27 20:31:43.836] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 20:32:14.466] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 20:32:45.188] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:33:15.808] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:33:26.674] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-27 20:33:26.674] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 20:33:29.239] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 20:33:29.239] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc jp' is_edit=False
+[2026-08-27 20:33:29.240] [DEBUG   ] (dispatcher:_dispatch_inner:110) [717a3bda960542da] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-27 20:33:29.240] [INFO    ] (dispatcher:_dispatch_inner:308) [717a3bda960542da] 📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/pc jp'
+[2026-08-27 20:33:29.240] [INFO    ] (queues:_get_or_create_queue:32) [717a3bda960542da] [队列] 创建群7274785942250691 的独立消息队列
+[2026-08-27 20:33:29.240] [DEBUG   ] (queues:enqueue_message:75) [717a3bda960542da] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-27 20:33:29.243] [INFO    ] (memory:merge_overflow_memory:419) [8a35de6cf4524728] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-27 20:33:29.243] [INFO    ] (pipeline:process_message:470) [8a35de6cf4524728] 指令拦截: '/pc jp' from=ywandwss
+[2026-08-27 20:33:29.244] [DEBUG   ] (commands:handle_command:4756) [8a35de6cf4524728] 指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
+[2026-08-27 20:33:30.892] [INFO    ] (commands:handle_command:4800) [8a35de6cf4524728] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-27 20:33:30.893] [INFO    ] (logger:log_trace_summary:392) [8a35de6cf4524728] [TRACE 8a35de6cf4524728] total=1652.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1651.97ms(x1) (wall1651.97), queue_wait=0.7ms(x1)
+[2026-08-27 20:33:41.867] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-27 20:33:41.867] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 20:33:46.388] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:34:07.116] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 20:34:07.117] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/pc jp' is_edit=False
+[2026-08-27 20:34:07.117] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ca4e25bb70e54ff2] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 20:34:07.117] [INFO    ] (dispatcher:_dispatch_inner:308) [ca4e25bb70e54ff2] 📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/pc jp'
+[2026-08-27 20:34:07.117] [INFO    ] (queues:_get_or_create_queue:32) [ca4e25bb70e54ff2] [队列] 创建群6243254695867429 的独立消息队列
+[2026-08-27 20:34:07.118] [DEBUG   ] (queues:enqueue_message:75) [ca4e25bb70e54ff2] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 20:34:07.118] [INFO    ] (memory:merge_overflow_memory:419) [84028a04a22e4c77] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-27 20:34:07.119] [INFO    ] (pipeline:process_message:470) [84028a04a22e4c77] 指令拦截: '/pc jp' from=ywandwss
+[2026-08-27 20:34:07.119] [DEBUG   ] (commands:handle_command:4756) [84028a04a22e4c77] 指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
