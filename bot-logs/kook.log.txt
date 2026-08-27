@@ -1,17 +1,4 @@
-# 更新于 2026-08-27 18:44:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 17:56:47.807] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:57:02.298] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
-[2026-08-27 17:57:02.299] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-27 17:57:18.666] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:57:49.468] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:58:20.108] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:58:50.713] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:59:21.620] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:59:52.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10149)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 18:00:17.230] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-27 18:00:17.233] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-27 18:00:17.236] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-27 18:00:17.237] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+# 更新于 2026-08-27 18:44:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:00:17.237] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
 [2026-08-27 18:00:17.238] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
 [2026-08-27 18:00:17.238] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
@@ -1499,3 +1486,16 @@
 [2026-08-27 18:43:59.922] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 18:44:03.626] [INFO    ] (llm:call_llm:489) [25d984277eb64b7d] LLM [Qwen/Qwen3-235B-A22B] 返回 153字符 耗时4.6s → "[17:26:48-18:16:35] 제미니 (shuangzi_1228): 彳亍, ywand..."
 [2026-08-27 18:44:03.627] [INFO    ] (memory:_compress_with_deepseek:210) [25d984277eb64b7d] [6243254695867429] 压缩完成: 10条消息 → 保存
+[2026-08-27 18:44:11.334] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:44:11.335] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/频道 delete 3413750216052781' is_edit=False
+[2026-08-27 18:44:11.335] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5d604d02d6bc4667] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 18:44:11.336] [INFO    ] (dispatcher:_dispatch_inner:308) [5d604d02d6bc4667] 📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/频道 delete 3413750216052781'
+[2026-08-27 18:44:11.336] [DEBUG   ] (queues:enqueue_message:75) [5d604d02d6bc4667] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 18:44:11.337] [INFO    ] (memory:merge_overflow_memory:419) [3dc374b448a34f3e] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-27 18:44:11.337] [INFO    ] (pipeline:process_message:470) [3dc374b448a34f3e] 指令拦截: '/频道 delete 3413750216052781' from=ywandwss
+[2026-08-27 18:44:11.338] [DEBUG   ] (commands:handle_command:4756) [3dc374b448a34f3e] 指令解析: prefix=/ cmd=频道 args=['delete', '3413750216052781'] user=1759953618
+[2026-08-27 18:44:11.642] [INFO    ] (commands:handle_command:4798) [3dc374b448a34f3e] 指令执行完成 [频道]: 返回22字符
+[2026-08-27 18:44:11.674] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=deleted_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:44:12.079] [INFO    ] (logger:log_trace_summary:392) [3dc374b448a34f3e] [TRACE 3dc374b448a34f3e] total=742.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=742.52ms(x1) (wall742.52), queue_wait=0.43ms(x1)
+[2026-08-27 18:44:12.080] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:44:24.932] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2414)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
