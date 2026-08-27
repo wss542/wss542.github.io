@@ -1,26 +1,4 @@
-# 更新于 2026-08-27 18:38:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 17:32:40.261] [INFO    ] (dispatcher:_dispatch_inner:308) [4b493500c9db476d] 📩 消息 #129 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 modelscope'
-[2026-08-27 17:32:40.261] [DEBUG   ] (queues:enqueue_message:75) [4b493500c9db476d] [队列] 群1759953618 消息已入队 (队长度=1)
-[2026-08-27 17:32:40.263] [INFO    ] (memory:merge_overflow_memory:419) [bf19413b19a34ab4] 长时记忆溢出缓冲: chat=1759953618 +1 = 3条 (阈值=10)
-[2026-08-27 17:32:40.264] [INFO    ] (pipeline:process_message:470) [bf19413b19a34ab4] 指令拦截: '/供应商 modelscope' from=ywandwss
-[2026-08-27 17:32:40.265] [DEBUG   ] (commands:handle_command:4717) [bf19413b19a34ab4] 指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
-[2026-08-27 17:32:40.273] [INFO    ] (logger:info:335) [bf19413b19a34ab4] 保留 fetch_me 注入的 bot_id: 659688244
-[2026-08-27 17:32:40.273] [INFO    ] (logger:info:335) [bf19413b19a34ab4] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
-[2026-08-27 17:32:40.273] [INFO    ] (commands:cmd_provider:1522) [bf19413b19a34ab4] 供应商切换: OPENROUTER/nvidia/nemotron-3-super-120b-a12b:free -> MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 (by ywandwss)
-[2026-08-27 17:32:40.273] [INFO    ] (commands:handle_command:4759) [bf19413b19a34ab4] 指令执行完成 [供应商]: 返回92字符
-[2026-08-27 17:32:40.904] [INFO    ] (logger:log_trace_summary:392) [bf19413b19a34ab4] [TRACE bf19413b19a34ab4] total=641.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=641.33ms(x1) (wall641.33), queue_wait=1.46ms(x1)
-[2026-08-27 17:32:40.904] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:33:01.697] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:33:32.378] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:34:03.142] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:34:33.804] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 17:34:43.070] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:34:43.093] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_role keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:34:52.166] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:34:52.173] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_role keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:34:59.280] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:34:59.303] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=255 extra.type=updated_role keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 17:35:04.421] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+# 更新于 2026-08-27 18:38:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 17:35:35.106] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-27 17:36:05.701] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-27 17:36:36.831] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
@@ -1499,3 +1477,25 @@
 [2026-08-27 18:38:02.585] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-27 18:38:02.586] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 1h22m 后执行 (20:01)
 [2026-08-27 18:38:02.620] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-27 18:38:17.636] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-27 18:38:17.644] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 36s 前）
+[2026-08-27 18:38:17.644] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-27 18:38:17.654] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-27 18:38:17.658] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-27 18:38:17.659] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-27 18:38:17.660] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-27 18:38:17.660] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-27 18:38:17.661] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-27 18:38:17.806] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-27 18:38:17.806] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-27 18:38:17.917] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-08-27 18:38:17.918] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 18:38:17.924] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-27 18:38:17.924] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2414)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:38:18.191] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-27 18:38:18.192] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-27 18:38:18.192] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-27 18:38:19.647] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-27 18:38:21.007] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-27 → 周四
+[2026-08-27 18:38:21.008] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-27 18:38:21.009] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 19304 秒 (下次 00:00:05)
