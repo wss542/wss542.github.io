@@ -1,29 +1,4 @@
-# 更新于 2026-08-27 18:22:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 16:29:14.458] [DEBUG   ] (queues:enqueue_message:75) [4500cf45003844ab] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 16:29:14.461] [INFO    ] (memory:merge_overflow_memory:419) [cb5fc6446f9540f2] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 7条 (阈值=10)
-[2026-08-27 16:29:14.462] [DEBUG   ] (pipeline:process_message:500) [cb5fc6446f9540f2] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
-[2026-08-27 16:29:14.462] [INFO    ] (logger:log_trace_summary:392) [cb5fc6446f9540f2] [TRACE cb5fc6446f9540f2] total=3.5ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.43ms(x1) (wall3.43), queue_wait=0.7ms(x1)
-[2026-08-27 16:29:17.527] [DEBUG   ] (bot:_patched_consume_pkg:216) [ff64443693554447] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 16:29:17.844] [INFO    ] (bot:_patched_consume_pkg:262) [ff64443693554447] ✏️ 编辑消息作者反查: id=3671686013 username=名字
-[2026-08-27 16:29:17.844] [INFO    ] (bot:_patched_consume_pkg:298) [ff64443693554447] ✏️ 编辑消息 → dispatcher: mid=aaab537a-5f60-49f8-b82e-3b881e72be2a chat=6243254695867429 type=255
-[2026-08-27 16:29:17.845] [DEBUG   ] (dispatcher:dispatch:47) [ff64443693554447] dispatch 入口: type=1 content='我在家的智商' is_edit=True
-[2026-08-27 16:29:17.845] [DEBUG   ] (dispatcher:_dispatch_inner:110) [827e588a165d4f03] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
-[2026-08-27 16:29:17.845] [INFO    ] (dispatcher:_dispatch_inner:308) [827e588a165d4f03] 📩 消息 #100 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='我在家的智商'
-[2026-08-27 16:29:17.845] [DEBUG   ] (queues:enqueue_message:75) [827e588a165d4f03] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 16:29:17.846] [INFO    ] (memory:merge_overflow_memory:419) [8c97acbdaf524a8c] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 8条 (阈值=10)
-[2026-08-27 16:29:17.847] [DEBUG   ] (pipeline:process_message:500) [8c97acbdaf524a8c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我在家的智商'
-[2026-08-27 16:29:17.847] [INFO    ] (logger:log_trace_summary:392) [8c97acbdaf524a8c] [TRACE 8c97acbdaf524a8c] total=1.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.68ms(x1) (wall1.68), queue_wait=0.26ms(x1)
-[2026-08-27 16:29:22.501] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4008)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-27 16:29:29.415] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 16:29:29.415] [DEBUG   ] (dispatcher:dispatch:47) [827e588a165d4f03] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/27/onW7WupzFY0f00qc.jpeg' is_edit=False
-[2026-08-27 16:29:29.415] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2062c423fe39429f] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
-[2026-08-27 16:29:29.416] [INFO    ] (dispatcher:_dispatch_inner:211) [2062c423fe39429f] 🔗 正文解析到 1 个图片直链
-[2026-08-27 16:29:29.416] [INFO    ] (dispatcher:_dispatch_inner:308) [2062c423fe39429f] 📩 消息 #101 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='https://img.kookapp.cn/attachments/2026-08/27/onW7WupzFY0f00qc.jpeg'
-[2026-08-27 16:29:29.417] [INFO    ] (dispatcher:_dispatch_inner:384) [2062c423fe39429f] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-27 16:29:29.417] [INFO    ] (image_api:recognize_image:152) [2062c423fe39429f] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/attachments/2026-08/27/onW7WupzFY0f00...
-[2026-08-27 16:29:29.710] [INFO    ] (image_api:recognize_image:168) [2062c423fe39429f] [chat=6243254695867429] 图片下载成功: 38348 bytes
-[2026-08-27 16:29:30.084] [INFO    ] (image_api:recognize_image:204) [2062c423fe39429f] [chat=6243254695867429] 图片预处理: JPEG(540x948) → PNG 38348 bytes → 426513 bytes
-[2026-08-27 16:29:30.085] [INFO    ] (image_api:recognize_image:251) [2062c423fe39429f] [chat=6243254695867429] 调用主视觉模型识别图片 (MD5=cb02712658c2...) model=deepseek-v4-flash-vision-exp
+# 更新于 2026-08-27 18:23:37 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 16:29:37.086] [INFO    ] (image_api:recognize_image:280) [2062c423fe39429f] [chat=6243254695867429] 图片识别成功 (model=deepseek-v4-flash-vision-exp): **直接描述内容：** 不要输出任何推理或思考过程。 **情绪表情包场景：** 如果认为是表情包，着...
 [2026-08-27 16:29:37.089] [DEBUG   ] (image_api:_save:64) [2062c423fe39429f] 图片缓存已写入磁盘: 349 条
 [2026-08-27 16:29:37.090] [DEBUG   ] (image_api:_save_to_repo:315) [2062c423fe39429f] 图片仓库追加: MD5=cb02712658c2... → '**直接描述内容：** 不要输出任何推理或思考过程。 **情'
@@ -1499,3 +1474,28 @@
 [2026-08-27 18:21:46.940] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 18:22:17.771] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 18:22:48.223] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:23:01.556] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
+[2026-08-27 18:23:01.557] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 18:23:07.657] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:23:07.658] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 1' is_edit=False
+[2026-08-27 18:23:07.658] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3a6e83aa1e76411b] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 18:23:07.659] [INFO    ] (dispatcher:_dispatch_inner:308) [3a6e83aa1e76411b] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/禁言 (met)1759953618(met) 1'
+[2026-08-27 18:23:07.660] [INFO    ] (queues:_get_or_create_queue:32) [3a6e83aa1e76411b] [队列] 创建群6243254695867429 的独立消息队列
+[2026-08-27 18:23:07.660] [DEBUG   ] (queues:enqueue_message:75) [3a6e83aa1e76411b] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 18:23:07.662] [INFO    ] (memory:merge_overflow_memory:419) [c0ac9f1202d44267] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
+[2026-08-27 18:23:07.668] [INFO    ] (pipeline:process_message:470) [c0ac9f1202d44267] 指令拦截: '/禁言 @ywandwss  1' from=ywandwss
+[2026-08-27 18:23:07.668] [DEBUG   ] (commands:handle_command:4746) [c0ac9f1202d44267] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '1'] user=1759953618
+[2026-08-27 18:23:07.934] [INFO    ] (commands:handle_command:4788) [c0ac9f1202d44267] 指令执行完成 [禁言]: 返回71字符
+[2026-08-27 18:23:08.327] [INFO    ] (logger:log_trace_summary:392) [c0ac9f1202d44267] [TRACE c0ac9f1202d44267] total=666.89ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=666.82ms(x1) (wall666.82), queue_wait=0.54ms(x1)
+[2026-08-27 18:23:08.333] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:23:19.046] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:23:32.044] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-08-27 18:23:32.044] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 18:23:37.457] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:23:37.458] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)337936062(met) 1' is_edit=False
+[2026-08-27 18:23:37.458] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0e8c6c36e00c421f] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 18:23:37.458] [INFO    ] (dispatcher:_dispatch_inner:308) [0e8c6c36e00c421f] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/禁言 (met)337936062(met) 1'
+[2026-08-27 18:23:37.459] [DEBUG   ] (queues:enqueue_message:75) [0e8c6c36e00c421f] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 18:23:37.459] [INFO    ] (memory:merge_overflow_memory:419) [b7747b1f683f4fcc] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-27 18:23:37.460] [INFO    ] (pipeline:process_message:470) [b7747b1f683f4fcc] 指令拦截: '/禁言 @제미니 (shuangzi_1228)  1' from=ywandwss
+[2026-08-27 18:23:37.460] [DEBUG   ] (commands:handle_command:4746) [b7747b1f683f4fcc] 指令解析: prefix=/ cmd=禁言 args=['@제미니', '(shuangzi_1228)', '1'] user=1759953618
