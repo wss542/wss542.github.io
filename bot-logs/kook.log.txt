@@ -1,35 +1,4 @@
-# 更新于 2026-08-27 22:59:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:30:31.845] [INFO    ] (commands:handle_command:4788) [1286ed4dfdff40dd] 指令执行完成 [禁言]: 返回27字符
-[2026-08-27 18:30:32.434] [INFO    ] (logger:log_trace_summary:392) [1286ed4dfdff40dd] [TRACE 1286ed4dfdff40dd] total=591.11ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=591.06ms(x1) (wall591.06), queue_wait=0.33ms(x1)
-[2026-08-27 18:30:32.458] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 18:30:40.670] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 18:30:40.671] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/解除禁言' is_edit=False
-[2026-08-27 18:30:40.671] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5344cc1048b24c6b] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-27 18:30:40.672] [INFO    ] (dispatcher:_dispatch_inner:308) [5344cc1048b24c6b] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/解除禁言'
-[2026-08-27 18:30:40.672] [DEBUG   ] (queues:enqueue_message:75) [5344cc1048b24c6b] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 18:30:40.673] [INFO    ] (memory:merge_overflow_memory:419) [dfac5ebed6ed4c4b] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 10条 (阈值=10)
-[2026-08-27 18:30:40.674] [INFO    ] (pipeline:process_message:470) [dfac5ebed6ed4c4b] 指令拦截: '/解除禁言' from=ywandwss
-[2026-08-27 18:30:40.674] [DEBUG   ] (commands:handle_command:4746) [dfac5ebed6ed4c4b] 指令解析: prefix=/ cmd=解除禁言 args=[] user=1759953618
-[2026-08-27 18:30:40.674] [WARNING ] (commands:handle_command:4751) [dfac5ebed6ed4c4b] 未知指令: '/解除禁言'
-[2026-08-27 18:30:40.740] [INFO    ] (llm:call_llm:427) [dfac5ebed6ed4c4b] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-27 18:30:41.156] [INFO    ] (logger:log_trace_summary:392) [dfac5ebed6ed4c4b] [TRACE dfac5ebed6ed4c4b] total=483.64ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=483.6ms(x1) (wall483.6), queue_wait=0.39ms(x1)
-[2026-08-27 18:30:41.170] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 18:30:47.998] [INFO    ] (llm:call_llm:489) [dfac5ebed6ed4c4b] LLM [Qwen/Qwen3-235B-A22B] 返回 275字符 耗时7.3s → "[16:28:30] 名字: 名字说了我在学校的智商, 发送了图片, 名字发送了图片, 名字说了我在..."
-[2026-08-27 18:30:48.002] [INFO    ] (memory:_compress_with_deepseek:210) [dfac5ebed6ed4c4b] [6243254695867429] 压缩完成: 10条消息 → 保存
-[2026-08-27 18:30:52.292] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 18:30:52.292] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='emm…' is_edit=False
-[2026-08-27 18:30:52.293] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7e73d1e7ef424010] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-27 18:30:52.294] [INFO    ] (dispatcher:_dispatch_inner:308) [7e73d1e7ef424010] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='emm…'
-[2026-08-27 18:30:52.295] [DEBUG   ] (queues:enqueue_message:75) [7e73d1e7ef424010] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 18:30:52.296] [INFO    ] (memory:merge_overflow_memory:419) [7c59c003b9224649] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-08-27 18:30:52.296] [DEBUG   ] (pipeline:process_message:500) [7c59c003b9224649] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='emm…'
-[2026-08-27 18:30:52.297] [INFO    ] (logger:log_trace_summary:392) [7c59c003b9224649] [TRACE 7c59c003b9224649] total=1.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.49ms(x1) (wall1.49), queue_wait=0.44ms(x1)
-[2026-08-27 18:31:09.600] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-27 18:31:09.605] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 18:31:09.605] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/封禁' is_edit=False
-[2026-08-27 18:31:09.605] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c9e66bfbc57f4aef] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-27 18:31:09.606] [INFO    ] (dispatcher:_dispatch_inner:308) [c9e66bfbc57f4aef] 📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/封禁'
-[2026-08-27 18:31:09.606] [DEBUG   ] (queues:enqueue_message:75) [c9e66bfbc57f4aef] [队列] 群6243254695867429 消息已入队 (队长度=1)
+# 更新于 2026-08-27 23:00:15 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:31:09.606] [INFO    ] (memory:merge_overflow_memory:419) [5407d60b4a1444ea] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
 [2026-08-27 18:31:09.607] [INFO    ] (pipeline:process_message:470) [5407d60b4a1444ea] 指令拦截: '/封禁' from=ywandwss
 [2026-08-27 18:31:09.607] [DEBUG   ] (commands:handle_command:4746) [5407d60b4a1444ea] 指令解析: prefix=/ cmd=封禁 args=[] user=1759953618
@@ -1499,3 +1468,34 @@
 [2026-08-27 22:58:16.973] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 22:58:47.436] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-27 22:59:18.010] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 22:59:48.371] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 23:00:08.912] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 23:00:08.913] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/cguTHNSDhy14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":339008,"elements":[]}]},{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/BnmdfwaiJF14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":340270,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-08-27 23:00:08.914] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f3972eb75ba64dd4] KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+[2026-08-27 23:00:08.914] [INFO    ] (dispatcher:_dispatch_inner:177) [f3972eb75ba64dd4] 🧩 CARD 消息解析到 2 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/cguTHNSDhy14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":339008,"elements":[]}]},{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/BnmdfwaiJF14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":340270,"elements":[]}]}],"type":"card"}]')
+[2026-08-27 23:00:08.915] [INFO    ] (dispatcher:_dispatch_inner:308) [f3972eb75ba64dd4] 📩 消息 #8 | type=图片 | imgs=2 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/cguTHNSDhy14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":339008,"elements":[]}]},{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/27\\/BnmdfwaiJF14a0i3.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1450,"height":651,"fileSize":340270,"elements":[]}]}],"type":"card"}]'
+[2026-08-27 23:00:08.917] [INFO    ] (dispatcher:_dispatch_inner:384) [f3972eb75ba64dd4] 🖼️  [chat=3649029148752421] 需回复的图文/引用图消息 → 同步识别 2 张（最多15s/张）
+[2026-08-27 23:00:08.918] [INFO    ] (image_api:recognize_image:152) [f3972eb75ba64dd4] [chat=3649029148752421] 开始获取图片: https://img.kookapp.cn/assets/2026-08/27/cguTHNSDhy14a0i3.pn...
+[2026-08-27 23:00:09.101] [INFO    ] (image_api:recognize_image:168) [f3972eb75ba64dd4] [chat=3649029148752421] 图片下载成功: 339008 bytes
+[2026-08-27 23:00:09.487] [INFO    ] (image_api:recognize_image:204) [f3972eb75ba64dd4] [chat=3649029148752421] 图片预处理: PNG(1450x651) → PNG 339008 bytes → 214825 bytes
+[2026-08-27 23:00:09.488] [INFO    ] (image_api:recognize_image:251) [f3972eb75ba64dd4] [chat=3649029148752421] 调用主视觉模型识别图片 (MD5=7a78581e16d4...) model=deepseek-v4-flash-vision-exp
+[2026-08-27 23:00:11.333] [INFO    ] (image_api:recognize_image:280) [f3972eb75ba64dd4] [chat=3649029148752421] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 这是一张《我的世界》游戏内截图，画面中央显示排行榜文本。左侧为时间月榜，列出玩家ID及分钟数，背景是...
+[2026-08-27 23:00:11.336] [DEBUG   ] (image_api:_save:64) [f3972eb75ba64dd4] 图片缓存已写入磁盘: 353 条
+[2026-08-27 23:00:11.344] [DEBUG   ] (image_api:_save_to_repo:315) [f3972eb75ba64dd4] 图片仓库追加: MD5=7a78581e16d4... → '这是一张《我的世界》游戏内截图，画面中央显示排行榜文本。左侧'
+[2026-08-27 23:00:11.344] [INFO    ] (dispatcher:_do_recognize_image:916) [f3972eb75ba64dd4] 🖼️  [chat=3649029148752421] 图#1/2 识别完成: '这是一张《我的世界》游戏内截图，画面中央显示排行榜文本。左侧为时间月榜，列出玩家ID及分钟数，背景是木质建筑。右侧为情侣亲密值月榜，列出名次、情侣ID及点数。画...' (131字) url=https://img.kookapp.cn/assets/2026-08/27/cguTHNSDhy14a0i3.pn
+[2026-08-27 23:00:11.344] [INFO    ] (dispatcher:_dispatch_inner:400) [f3972eb75ba64dd4] 🖼️  [chat=3649029148752421] 图1 识别完成并注入上下文: '这是一张《我的世界》游戏内截图，画面中央显示排行榜文本。左侧为时间月榜，列出玩家ID及分钟数，背景是...'
+[2026-08-27 23:00:11.344] [INFO    ] (image_api:recognize_image:152) [f3972eb75ba64dd4] [chat=3649029148752421] 开始获取图片: https://img.kookapp.cn/assets/2026-08/27/BnmdfwaiJF14a0i3.pn...
+[2026-08-27 23:00:11.591] [INFO    ] (image_api:recognize_image:168) [f3972eb75ba64dd4] [chat=3649029148752421] 图片下载成功: 340270 bytes
+[2026-08-27 23:00:11.951] [INFO    ] (image_api:recognize_image:204) [f3972eb75ba64dd4] [chat=3649029148752421] 图片预处理: PNG(1450x651) → PNG 340270 bytes → 220835 bytes
+[2026-08-27 23:00:11.952] [INFO    ] (image_api:recognize_image:251) [f3972eb75ba64dd4] [chat=3649029148752421] 调用主视觉模型识别图片 (MD5=5ee3f1070c0b...) model=deepseek-v4-flash-vision-exp
+[2026-08-27 23:00:15.771] [INFO    ] (image_api:recognize_image:280) [f3972eb75ba64dd4] [chat=3649029148752421] 图片识别成功 (model=deepseek-v4-flash-vision-exp): Minecraft服务器排行榜截图，灰白文字显示在线时长周榜，黄绿文字为情侣亲密值周榜，底部有排行榜...
+[2026-08-27 23:00:15.773] [DEBUG   ] (image_api:_save:64) [f3972eb75ba64dd4] 图片缓存已写入磁盘: 354 条
+[2026-08-27 23:00:15.774] [DEBUG   ] (image_api:_save_to_repo:315) [f3972eb75ba64dd4] 图片仓库追加: MD5=5ee3f1070c0b... → 'Minecraft服务器排行榜截图，灰白文字显示在线时长周榜'
+[2026-08-27 23:00:15.774] [INFO    ] (dispatcher:_do_recognize_image:916) [f3972eb75ba64dd4] 🖼️  [chat=3649029148752421] 图#2/2 识别完成: 'Minecraft服务器排行榜截图，灰白文字显示在线时长周榜，黄绿文字为情侣亲密值周榜，底部有排行榜模式及HUB04服务器信息，背景为木屋内部。...' (72字) url=https://img.kookapp.cn/assets/2026-08/27/BnmdfwaiJF14a0i3.pn
+[2026-08-27 23:00:15.775] [INFO    ] (dispatcher:_dispatch_inner:400) [f3972eb75ba64dd4] 🖼️  [chat=3649029148752421] 图2 识别完成并注入上下文: 'Minecraft服务器排行榜截图，灰白文字显示在线时长周榜，黄绿文字为情侣亲密值周榜，底部有排行榜...'
+[2026-08-27 23:00:15.775] [INFO    ] (queues:_get_or_create_queue:32) [f3972eb75ba64dd4] [队列] 创建群3649029148752421 的独立消息队列
+[2026-08-27 23:00:15.775] [DEBUG   ] (queues:enqueue_message:75) [f3972eb75ba64dd4] [队列] 群3649029148752421 消息已入队 (队长度=1)
+[2026-08-27 23:00:15.776] [INFO    ] (pipeline:process_message:367) [de75a47dd3a34d04] 附带图片已记录 [chat=3649029148752421] count=2
+[2026-08-27 23:00:15.777] [INFO    ] (memory:merge_overflow_memory:419) [de75a47dd3a34d04] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
+[2026-08-27 23:00:15.778] [DEBUG   ] (pipeline:process_message:500) [de75a47dd3a34d04] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-08-27 23:00:15.778] [INFO    ] (logger:log_trace_summary:392) [de75a47dd3a34d04] [TRACE de75a47dd3a34d04] total=2.94ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.89ms(x1) (wall2.89), queue_wait=0.48ms(x1)
