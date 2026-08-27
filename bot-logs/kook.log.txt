@@ -1,8 +1,4 @@
-# 更新于 2026-08-27 19:34:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:09:38.640] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-27 18:09:38.645] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 30s 前）
-[2026-08-27 18:09:38.646] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-27 18:09:38.656] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+# 更新于 2026-08-27 19:35:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:09:38.656] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 [2026-08-27 18:09:38.657] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 [2026-08-27 18:09:38.657] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
@@ -1499,3 +1495,7 @@
 [2026-08-27 19:34:04.774] [INFO    ] (memory:merge_overflow_memory:419) [06bb99aa304848fd] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 4条 (阈值=10)
 [2026-08-27 19:34:04.776] [DEBUG   ] (pipeline:process_message:500) [06bb99aa304848fd] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6'
 [2026-08-27 19:34:04.776] [INFO    ] (logger:log_trace_summary:392) [06bb99aa304848fd] [TRACE 06bb99aa304848fd] total=2.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.04ms(x1) (wall2.04), queue_wait=0.36ms(x1)
+[2026-08-27 19:34:11.212] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 19:34:12.583] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:34:42.786] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:34:48.571] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=255 extra.type=exited_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
