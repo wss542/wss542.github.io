@@ -1,18 +1,4 @@
-# 更新于 2026-08-27 18:24:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 16:29:37.094] [INFO    ] (memory:merge_overflow_memory:419) [3355e48666474cbf] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
-[2026-08-27 16:29:37.094] [DEBUG   ] (context_manager:append_to_context:86) [3355e48666474cbf] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
-[2026-08-27 16:29:37.094] [DEBUG   ] (pipeline:process_message:500) [3355e48666474cbf] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
-[2026-08-27 16:29:37.095] [INFO    ] (logger:log_trace_summary:392) [3355e48666474cbf] [TRACE 3355e48666474cbf] total=1.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.59ms(x1) (wall1.59), queue_wait=0.36ms(x1)
-[2026-08-27 16:29:37.100] [DEBUG   ] (bot:_patched_consume_pkg:216) [827e588a165d4f03] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-27 16:29:37.101] [DEBUG   ] (dispatcher:dispatch:47) [827e588a165d4f03] dispatch 入口: type=9 content='竞选班干部的小技巧，你看懂了吗？' is_edit=False
-[2026-08-27 16:29:37.101] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1df26ed5971040aa] KMD 调试: is_group=True uid=3671686013 channel=6243254695867429
-[2026-08-27 16:29:37.102] [INFO    ] (dispatcher:_dispatch_inner:308) [1df26ed5971040aa] 📩 消息 #102 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='竞选班干部的小技巧，你看懂了吗？'
-[2026-08-27 16:29:37.102] [DEBUG   ] (queues:enqueue_message:75) [1df26ed5971040aa] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 16:29:37.103] [INFO    ] (memory:merge_overflow_memory:419) [a470f9db00d3464f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 10条 (阈值=10)
-[2026-08-27 16:29:37.104] [DEBUG   ] (context_manager:append_to_context:86) [a470f9db00d3464f] 上下文裁剪 [6243254695867429]: 移除 1 条 (上限=100)
-[2026-08-27 16:29:37.104] [DEBUG   ] (pipeline:process_message:500) [a470f9db00d3464f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='竞选班干部的小技巧，你看懂了吗？'
-[2026-08-27 16:29:37.104] [INFO    ] (logger:log_trace_summary:392) [a470f9db00d3464f] [TRACE a470f9db00d3464f] total=1.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.54ms(x1) (wall1.54), queue_wait=0.44ms(x1)
-[2026-08-27 16:29:37.106] [INFO    ] (llm:call_llm:427) [a470f9db00d3464f] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+# 更新于 2026-08-27 18:25:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 16:29:37.124] [INFO    ] (engine:_ingest:92) [a470f9db00d3464f] 异步记忆提炼完成 chat=6243254695867429: 候选9 新增9
 [2026-08-27 16:29:38.338] [INFO    ] (llm:call_llm:489) [a470f9db00d3464f] LLM [deepseek-v4-flash] 返回 219字符 耗时1.2s → "[16:23:04-16:24:19] 名字: 名字说了“怎么说”, ywandwss回复“为什么外..."
 [2026-08-27 16:29:38.343] [INFO    ] (memory:_compress_with_deepseek:210) [a470f9db00d3464f] [6243254695867429] 压缩完成: 10条消息 → 保存
@@ -1499,3 +1485,17 @@
 [2026-08-27 18:24:02.566] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
 [2026-08-27 18:24:02.566] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-27 18:24:20.075] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:24:48.842] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:24:48.842] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/sys' is_edit=False
+[2026-08-27 18:24:48.842] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0fbe99dca7f14515] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-27 18:24:48.842] [INFO    ] (dispatcher:_dispatch_inner:308) [0fbe99dca7f14515] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/sys'
+[2026-08-27 18:24:48.843] [DEBUG   ] (queues:enqueue_message:75) [0fbe99dca7f14515] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-27 18:24:48.843] [INFO    ] (memory:merge_overflow_memory:419) [e5462cb97a944d1d] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-27 18:24:48.844] [INFO    ] (pipeline:process_message:470) [e5462cb97a944d1d] 指令拦截: '/sys' from=ywandwss
+[2026-08-27 18:24:48.844] [DEBUG   ] (commands:handle_command:4746) [e5462cb97a944d1d] 指令解析: prefix=/ cmd=sys args=[] user=1759953618
+[2026-08-27 18:24:48.845] [INFO    ] (changelog:render_card_to_image:801) [e5462cb97a944d1d] [Card] 正在截图 → sysiph_ccbd2052.jpg (15250 bytes HTML)
+[2026-08-27 18:24:49.750] [INFO    ] (changelog:render_card_to_image:809) [e5462cb97a944d1d] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_ccbd2052.jpg size=131.3KB
+[2026-08-27 18:24:50.445] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11340)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 18:24:50.951] [INFO    ] (commands:handle_command:4790) [e5462cb97a944d1d] 指令执行完成 [sys]: 无返回值（已自行发送）
+[2026-08-27 18:24:50.952] [INFO    ] (logger:log_trace_summary:392) [e5462cb97a944d1d] [TRACE e5462cb97a944d1d] total=2108.56ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2108.52ms(x1) (wall2108.52), queue_wait=0.43ms(x1)
+[2026-08-27 18:24:50.967] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
