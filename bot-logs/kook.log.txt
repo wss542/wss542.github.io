@@ -1,11 +1,4 @@
-# 更新于 2026-08-27 20:34:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:15:03.625] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-27 18:15:03.626] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:15:03.626] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-27 18:15:03.627] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-27 18:15:03.627] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-27 18:15:03.628] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-27 18:15:03.654] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+# 更新于 2026-08-27 20:36:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:15:03.654] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-27 18:15:03.655] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 1h45m 后执行 (20:01)
 [2026-08-27 18:15:03.702] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
@@ -1499,3 +1492,10 @@
 [2026-08-27 20:34:07.118] [INFO    ] (memory:merge_overflow_memory:419) [84028a04a22e4c77] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
 [2026-08-27 20:34:07.119] [INFO    ] (pipeline:process_message:470) [84028a04a22e4c77] 指令拦截: '/pc jp' from=ywandwss
 [2026-08-27 20:34:07.119] [DEBUG   ] (commands:handle_command:4756) [84028a04a22e4c77] 指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
+[2026-08-27 20:34:09.672] [INFO    ] (commands:handle_command:4800) [84028a04a22e4c77] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-27 20:34:09.672] [INFO    ] (logger:log_trace_summary:392) [84028a04a22e4c77] [TRACE 84028a04a22e4c77] total=2554.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2554.4ms(x1) (wall2554.4), queue_wait=0.42ms(x1)
+[2026-08-27 20:34:16.743] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:34:47.371] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:35:17.916] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:35:48.577] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 20:36:19.079] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
