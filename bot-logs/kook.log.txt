@@ -1,7 +1,4 @@
-# 更新于 2026-08-27 18:05:44 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 16:22:29.238] [INFO    ] (dispatcher:_dispatch_inner:308) [fd2c7640b57b4bac] 📩 消息 #59 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=名字(3671686013) | chat=6243254695867429 | group=True | content='呜呜呜'
-[2026-08-27 16:22:29.239] [DEBUG   ] (queues:enqueue_message:75) [fd2c7640b57b4bac] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-27 16:22:29.241] [INFO    ] (memory:merge_overflow_memory:419) [5d59b33431194146] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 7条 (阈值=10)
+# 更新于 2026-08-27 18:06:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 16:22:29.241] [DEBUG   ] (pipeline:process_message:500) [5d59b33431194146] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='呜呜呜'
 [2026-08-27 16:22:29.242] [INFO    ] (logger:log_trace_summary:392) [5d59b33431194146] [TRACE 5d59b33431194146] total=1.55ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.49ms(x1) (wall1.49), queue_wait=0.71ms(x1)
 [2026-08-27 16:22:34.360] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1496,6 @@
 [2026-08-27 18:05:28.758] [INFO    ] (logger:log_trace_summary:392) [86d4379b3b3643d8] [TRACE 86d4379b3b3643d8] total=564.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=564.59ms(x1) (wall564.59), queue_wait=0.44ms(x1)
 [2026-08-27 18:05:28.759] [DEBUG   ] (bot:_patched_consume_pkg:216) [565e785d30dc4849] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-27 18:05:44.216] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13980)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 18:06:15.023] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13980)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-27 18:06:20.746] [DEBUG   ] (bot:_patched_consume_pkg:216) [565e785d30dc4849] 🧩 _consume_pkg pkg type=255 extra.type=exited_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-27 18:06:45.552] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13980)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
