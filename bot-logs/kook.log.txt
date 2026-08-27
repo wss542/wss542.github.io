@@ -1,6 +1,4 @@
-# 更新于 2026-08-27 23:00:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:31:09.606] [INFO    ] (memory:merge_overflow_memory:419) [5407d60b4a1444ea] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-[2026-08-27 18:31:09.607] [INFO    ] (pipeline:process_message:470) [5407d60b4a1444ea] 指令拦截: '/封禁' from=ywandwss
+# 更新于 2026-08-27 23:01:00 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:31:09.607] [DEBUG   ] (commands:handle_command:4746) [5407d60b4a1444ea] 指令解析: prefix=/ cmd=封禁 args=[] user=1759953618
 [2026-08-27 18:31:09.608] [INFO    ] (commands:handle_command:4788) [5407d60b4a1444ea] 指令执行完成 [封禁]: 返回24字符
 [2026-08-27 18:31:10.148] [INFO    ] (logger:log_trace_summary:392) [5407d60b4a1444ea] [TRACE 5407d60b4a1444ea] total=541.84ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=541.76ms(x1) (wall541.76), queue_wait=0.27ms(x1)
@@ -1499,3 +1497,5 @@
 [2026-08-27 23:00:15.777] [INFO    ] (memory:merge_overflow_memory:419) [de75a47dd3a34d04] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
 [2026-08-27 23:00:15.778] [DEBUG   ] (pipeline:process_message:500) [de75a47dd3a34d04] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
 [2026-08-27 23:00:15.778] [INFO    ] (logger:log_trace_summary:392) [de75a47dd3a34d04] [TRACE de75a47dd3a34d04] total=2.94ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.89ms(x1) (wall2.89), queue_wait=0.48ms(x1)
+[2026-08-27 23:00:19.021] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 23:00:49.351] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
