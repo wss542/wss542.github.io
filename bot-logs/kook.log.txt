@@ -1,8 +1,4 @@
-# 更新于 2026-08-27 19:31:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-27 18:09:23.563] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-27 18:09:23.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-27 18:09:23.564] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-27 18:09:23.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+# 更新于 2026-08-27 19:32:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-27 18:09:23.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
 [2026-08-27 18:09:23.564] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
 [2026-08-27 18:09:23.565] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
@@ -1499,3 +1495,7 @@
 [2026-08-27 19:31:19.198] [DEBUG   ] (pipeline:process_message:500) [d4fefcbc26294339] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='乱打打了1000次'
 [2026-08-27 19:31:19.198] [INFO    ] (logger:log_trace_summary:392) [d4fefcbc26294339] [TRACE d4fefcbc26294339] total=3.73ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.67ms(x1) (wall3.67), queue_wait=1.1ms(x1)
 [2026-08-27 19:31:39.934] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:32:10.767] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-27 19:32:10.768] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-27 19:32:10.769] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-27 19:32:40.913] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
