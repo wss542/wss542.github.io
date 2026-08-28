@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:35:28 · 共 1197 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:36:07 · 共 1233 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -1196,3 +1196,39 @@
 [2026-08-29 00:34:12.302] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 00:34:42.734] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 00:35:13.702] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:35:29.360] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:29.360] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=9 content='/owner' is_edit=False
+[2026-08-29 00:35:29.361] [DEBUG   ] (dispatcher:_dispatch_inner:110) [bfbb3eca73f34f5c] KMD 调试: is_group=False uid=1759953618 channel=1759953618
+[2026-08-29 00:35:29.361] [INFO    ] (dispatcher:_dispatch_inner:308) [bfbb3eca73f34f5c] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/owner'
+[2026-08-29 00:35:29.361] [INFO    ] (queues:_get_or_create_queue:32) [bfbb3eca73f34f5c] [队列] 创建群1759953618 的独立消息队列
+[2026-08-29 00:35:29.361] [DEBUG   ] (queues:enqueue_message:75) [bfbb3eca73f34f5c] [队列] 群1759953618 消息已入队 (队长度=1)
+[2026-08-29 00:35:29.365] [INFO    ] (memory:merge_overflow_memory:419) [c8a17defd83944fb] 长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+[2026-08-29 00:35:29.366] [INFO    ] (pipeline:process_message:470) [c8a17defd83944fb] 指令拦截: '/owner' from=ywandwss
+[2026-08-29 00:35:29.366] [DEBUG   ] (commands:handle_command:4756) [c8a17defd83944fb] 指令解析: prefix=/ cmd=owner args=[] user=1759953618
+[2026-08-29 00:35:29.366] [INFO    ] (changelog:render_card_to_image:801) [c8a17defd83944fb] [Card] 正在截图 → owner_988b6cf3.jpg (4869 bytes HTML)
+[2026-08-29 00:35:31.519] [INFO    ] (changelog:render_card_to_image:809) [c8a17defd83944fb] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/owner_988b6cf3.jpg size=207.6KB
+[2026-08-29 00:35:32.729] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:32.730] [INFO    ] (commands:handle_command:4800) [c8a17defd83944fb] 指令执行完成 [owner]: 无返回值（已自行发送）
+[2026-08-29 00:35:32.731] [INFO    ] (logger:log_trace_summary:392) [c8a17defd83944fb] [TRACE c8a17defd83944fb] total=3369.01ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3368.97ms(x1) (wall3368.97), queue_wait=0.52ms(x1)
+[2026-08-29 00:35:32.731] [WARNING ] (logger:log_trace_summary:415) [c8a17defd83944fb] [SLOW c8a17defd83944fb] total=3369.21ms | process=3368.97ms(x1) (wall3368.97), queue_wait=0.52ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.52ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3368.97ms wall=3369.19ms dominant=other
+[2026-08-29 00:35:43.945] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:43.960] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:44.056] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:35:49.738] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:49.794] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=exited_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:52.478] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:35:52.525] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:36:02.627] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:36:02.627] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=9 content='/解禁 (met)1759953618(met) ' is_edit=False
+[2026-08-29 00:36:02.628] [DEBUG   ] (dispatcher:_dispatch_inner:110) [08af56673bbd448c] KMD 调试: is_group=True uid=1759953618 channel=9189917308805502
+[2026-08-29 00:36:02.628] [INFO    ] (dispatcher:_dispatch_inner:308) [08af56673bbd448c] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9189917308805502 | group=True | content='/解禁 (met)1759953618(met) '
+[2026-08-29 00:36:02.629] [INFO    ] (queues:_get_or_create_queue:32) [08af56673bbd448c] [队列] 创建群9189917308805502 的独立消息队列
+[2026-08-29 00:36:02.629] [DEBUG   ] (queues:enqueue_message:75) [08af56673bbd448c] [队列] 群9189917308805502 消息已入队 (队长度=1)
+[2026-08-29 00:36:02.630] [INFO    ] (fav:ensure_fav:141) [3f88d1e6456943ae] 好感度首次注册: g9189917308805502:1759953618 = 50
+[2026-08-29 00:36:02.632] [INFO    ] (pipeline:process_message:470) [3f88d1e6456943ae] 指令拦截: '/解禁 @ywandwss  ' from=ywandwss
+[2026-08-29 00:36:02.632] [DEBUG   ] (commands:handle_command:4756) [3f88d1e6456943ae] 指令解析: prefix=/ cmd=解禁 args=['@ywandwss'] user=1759953618
+[2026-08-29 00:36:03.110] [INFO    ] (commands:handle_command:4798) [3f88d1e6456943ae] 指令执行完成 [解禁]: 返回30字符
+[2026-08-29 00:36:03.136] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:36:03.168] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:36:03.723] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:36:03.742] [INFO    ] (logger:log_trace_summary:392) [3f88d1e6456943ae] [TRACE 3f88d1e6456943ae] total=1112.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1112.7ms(x1) (wall1112.7), queue_wait=0.57ms(x1)
