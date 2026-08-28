@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:32:25 · 共 1161 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:33:32 · 共 1193 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -1160,3 +1160,35 @@
 [2026-08-29 00:32:23.776] [DEBUG   ] (commands:handle_command:4756) [92bf63dc4ad74030] 指令解析: prefix=/ cmd=sys args=[] user=1759953618
 [2026-08-29 00:32:23.777] [INFO    ] (changelog:render_card_to_image:801) [92bf63dc4ad74030] [Card] 正在截图 → sysiph_dec9557b.jpg (15252 bytes HTML)
 [2026-08-29 00:32:25.094] [INFO    ] (changelog:render_card_to_image:809) [92bf63dc4ad74030] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_dec9557b.jpg size=131.6KB
+[2026-08-29 00:32:26.153] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:32:26.180] [INFO    ] (commands:handle_command:4800) [92bf63dc4ad74030] 指令执行完成 [sys]: 无返回值（已自行发送）
+[2026-08-29 00:32:26.180] [INFO    ] (logger:log_trace_summary:392) [92bf63dc4ad74030] [TRACE 92bf63dc4ad74030] total=2405.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2405.13ms(x1) (wall2405.13), queue_wait=0.44ms(x1)
+[2026-08-29 00:32:40.714] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:32:54.483] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-08-29 00:32:54.685] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-08-29 00:32:54.824] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-08-29 00:32:54.825] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-08-29 00:32:54.825] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 8826 秒
+[2026-08-29 00:32:55.661] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:32:55.662] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=9 content='/禁言 (met)659688244(met) ' is_edit=False
+[2026-08-29 00:32:55.662] [DEBUG   ] (dispatcher:_dispatch_inner:110) [9425fc8fbff648d6] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-29 00:32:55.662] [INFO    ] (dispatcher:_dispatch_inner:308) [9425fc8fbff648d6] 📩 消息 #7 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/禁言 (met)659688244(met) '
+[2026-08-29 00:32:55.662] [DEBUG   ] (queues:enqueue_message:75) [9425fc8fbff648d6] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-29 00:32:55.664] [INFO    ] (pipeline:process_message:470) [63021ac42fdd4d6e] 指令拦截: '/禁言 @659688244  ' from=ywandwss
+[2026-08-29 00:32:55.664] [DEBUG   ] (commands:handle_command:4756) [63021ac42fdd4d6e] 指令解析: prefix=/ cmd=禁言 args=['@659688244'] user=1759953618
+[2026-08-29 00:32:55.665] [INFO    ] (commands:handle_command:4798) [63021ac42fdd4d6e] 指令执行完成 [禁言]: 返回22字符
+[2026-08-29 00:32:56.395] [INFO    ] (logger:log_trace_summary:392) [63021ac42fdd4d6e] [TRACE 63021ac42fdd4d6e] total=732.27ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=732.2ms(x1) (wall732.2), queue_wait=0.23ms(x1)
+[2026-08-29 00:32:56.397] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:33:11.283] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:33:30.382] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:33:30.383] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=9 content='(met)337936062(met) 所以呢' is_edit=False
+[2026-08-29 00:33:30.383] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1311358dd30c4a79] KMD 调试: is_group=True uid=1759953618 channel=4027603694391663
+[2026-08-29 00:33:30.649] [WARNING ] (dispatcher:_resolve_quoted_media:887) [1311358dd30c4a79] 📎 反查引用消息 fda09b23-3492-431e-92da-f1235499cf46 失败(兜底用卡片预览): EventDispatcher._extract_image_urls() takes 1 positional argument but 2 were given
+[2026-08-29 00:33:30.650] [INFO    ] (dispatcher:_dispatch_inner:237) [1311358dd30c4a79] 📎 引用消息原文 (22字)
+[2026-08-29 00:33:30.651] [INFO    ] (dispatcher:_dispatch_inner:308) [1311358dd30c4a79] 📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=4027603694391663 | group=True | content='(met)337936062(met) 所以呢'
+[2026-08-29 00:33:30.652] [INFO    ] (queues:_get_or_create_queue:32) [1311358dd30c4a79] [队列] 创建群4027603694391663 的独立消息队列
+[2026-08-29 00:33:30.652] [DEBUG   ] (queues:enqueue_message:75) [1311358dd30c4a79] [队列] 群4027603694391663 消息已入队 (队长度=1)
+[2026-08-29 00:33:30.654] [INFO    ] (fav:ensure_fav:141) [69d3c70694b14b4d] 好感度首次注册: g4027603694391663:1759953618 = 50
+[2026-08-29 00:33:30.654] [INFO    ] (pipeline:process_message:419) [69d3c70694b14b4d] 📎 引用消息已注入上下文 [4027603694391663]: '好久没有更新服务器信息了，等我伤好了就写:)'...
+[2026-08-29 00:33:30.655] [DEBUG   ] (pipeline:process_message:500) [69d3c70694b14b4d] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='@제미니 (shuangzi_1228)  所以呢'
+[2026-08-29 00:33:30.655] [INFO    ] (logger:log_trace_summary:392) [69d3c70694b14b4d] [TRACE 69d3c70694b14b4d] total=2.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.0ms(x1) (wall2.0), queue_wait=0.89ms(x1)
