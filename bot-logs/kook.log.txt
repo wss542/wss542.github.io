@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:15:58 · 共 505 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:16:38 · 共 546 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -504,3 +504,44 @@
 [2026-08-29 00:15:58.441] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='喵～' is_edit=False
 [2026-08-29 00:15:58.441] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5640bc0b2d9a491b] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
 [2026-08-29 00:15:58.441] [INFO    ] (dispatcher:_dispatch_inner:288) [5640bc0b2d9a491b] 🤖 正则自动回复命中: '喵～' -> '喵~'
+[2026-08-29 00:16:00.041] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:16:00.042] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='hum...' is_edit=False
+[2026-08-29 00:16:00.042] [DEBUG   ] (dispatcher:_dispatch_inner:110) [82a85c26a3dd41c4] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-29 00:16:00.042] [INFO    ] (dispatcher:_dispatch_inner:308) [82a85c26a3dd41c4] 📩 消息 #45 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='hum...'
+[2026-08-29 00:16:00.043] [DEBUG   ] (queues:enqueue_message:75) [82a85c26a3dd41c4] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-29 00:16:00.043] [INFO    ] (memory:merge_overflow_memory:419) [3bf4fd4b445e46b9] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+[2026-08-29 00:16:00.044] [DEBUG   ] (pipeline:process_message:500) [3bf4fd4b445e46b9] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='hum...'
+[2026-08-29 00:16:00.044] [INFO    ] (logger:log_trace_summary:392) [3bf4fd4b445e46b9] [TRACE 3bf4fd4b445e46b9] total=1.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.22ms(x1) (wall1.22), queue_wait=0.31ms(x1)
+[2026-08-29 00:16:06.665] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild_member keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:16:15.176] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:16:25.168] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:16:25.169] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='(emj)脸红(emj)[3090677846298039/Be3yZcnj1L0nm0nf] ' is_edit=False
+[2026-08-29 00:16:25.169] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8412159f816943cd] KMD 调试: is_group=True uid=337936062 channel=1010983873136793
+[2026-08-29 00:16:25.170] [INFO    ] (dispatcher:_dispatch_inner:194) [8412159f816943cd] 🧩 消息内解析到 1 个服务器表情
+[2026-08-29 00:16:25.170] [INFO    ] (dispatcher:_dispatch_inner:308) [8412159f816943cd] 📩 消息 #46 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=1010983873136793 | group=True | content='[表情] '
+[2026-08-29 00:16:25.171] [INFO    ] (dispatcher:_dispatch_inner:384) [8412159f816943cd] 🖼️  [chat=1010983873136793] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-29 00:16:25.171] [INFO    ] (image_api:recognize_image:152) [8412159f816943cd] [chat=1010983873136793] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/Be3yZcnj1L0nm...
+[2026-08-29 00:16:25.285] [INFO    ] (image_api:recognize_image:168) [8412159f816943cd] [chat=1010983873136793] 图片下载成功: 67022 bytes
+[2026-08-29 00:16:25.775] [INFO    ] (image_api:recognize_image:204) [8412159f816943cd] [chat=1010983873136793] 图片预处理: WEBP(850x843) → PNG 67022 bytes → 643232 bytes
+[2026-08-29 00:16:25.777] [INFO    ] (image_api:recognize_image:251) [8412159f816943cd] [chat=1010983873136793] 调用主视觉模型识别图片 (MD5=3a365c86d5bd...) model=deepseek-v4-flash-vision-exp
+[2026-08-29 00:16:30.604] [INFO    ] (image_api:recognize_image:280) [8412159f816943cd] [chat=1010983873136793] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 直接描述图片内容。 不输出任何推理或思考过程。 如果图片是表情包，着重输出情绪元素（至少4点），但也...
+[2026-08-29 00:16:30.607] [DEBUG   ] (image_api:_save:64) [8412159f816943cd] 图片缓存已写入磁盘: 359 条
+[2026-08-29 00:16:30.609] [DEBUG   ] (image_api:_save_to_repo:315) [8412159f816943cd] 图片仓库追加: MD5=3a365c86d5bd... → '直接描述图片内容。 不输出任何推理或思考过程。 如果图片是表'
+[2026-08-29 00:16:30.609] [INFO    ] (dispatcher:_do_recognize_image:916) [8412159f816943cd] 🖼️  [chat=1010983873136793] 图#1/1 识别完成: '直接描述图片内容。 不输出任何推理或思考过程。 如果图片是表情包，着重输出情绪元素（至少4点），但也包含其他描述。 字数限制：不超过70字。  2.  **分析...' (200字) url=https://img.kookapp.cn/emojis/3090677846298039/Be3yZcnj1L0nm
+[2026-08-29 00:16:30.610] [INFO    ] (dispatcher:_dispatch_inner:400) [8412159f816943cd] 🖼️  [chat=1010983873136793] 图1 识别完成并注入上下文: '直接描述图片内容。 不输出任何推理或思考过程。 如果图片是表情包，着重输出情绪元素（至少4点），但也...'
+[2026-08-29 00:16:30.610] [DEBUG   ] (queues:enqueue_message:75) [8412159f816943cd] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-29 00:16:30.611] [INFO    ] (pipeline:process_message:367) [d897d92b36c241d3] 附带图片已记录 [chat=1010983873136793] count=1
+[2026-08-29 00:16:30.611] [INFO    ] (memory:merge_overflow_memory:419) [d897d92b36c241d3] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+[2026-08-29 00:16:30.612] [DEBUG   ] (pipeline:process_message:500) [d897d92b36c241d3] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+[2026-08-29 00:16:30.612] [INFO    ] (logger:log_trace_summary:392) [d897d92b36c241d3] [TRACE d897d92b36c241d3] total=2.45ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.41ms(x1) (wall2.41), queue_wait=0.25ms(x1)
+[2026-08-29 00:16:30.809] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:16:30.812] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 1' is_edit=False
+[2026-08-29 00:16:30.813] [DEBUG   ] (dispatcher:_dispatch_inner:110) [9ba158c7e71a4588] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:16:30.813] [INFO    ] (dispatcher:_dispatch_inner:308) [9ba158c7e71a4588] 📩 消息 #47 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/禁言 (met)1759953618(met) 1'
+[2026-08-29 00:16:30.814] [DEBUG   ] (queues:enqueue_message:75) [9ba158c7e71a4588] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:16:30.815] [INFO    ] (memory:merge_overflow_memory:419) [0f7eef1e6e914a2a] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
+[2026-08-29 00:16:30.817] [INFO    ] (pipeline:process_message:470) [0f7eef1e6e914a2a] 指令拦截: '/禁言 @ywandwss  1' from=ywandwss
+[2026-08-29 00:16:30.817] [DEBUG   ] (commands:handle_command:4756) [0f7eef1e6e914a2a] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '1'] user=1759953618
+[2026-08-29 00:16:30.988] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:16:31.095] [INFO    ] (commands:handle_command:4798) [0f7eef1e6e914a2a] 指令执行完成 [禁言]: 返回29字符
+[2026-08-29 00:16:31.513] [INFO    ] (logger:log_trace_summary:392) [0f7eef1e6e914a2a] [TRACE 0f7eef1e6e914a2a] total=698.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=697.93ms(x1) (wall697.93), queue_wait=0.95ms(x1)
