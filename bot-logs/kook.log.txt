@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:07:36 · 共 194 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:08:25 · 共 226 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -193,3 +193,35 @@
 [2026-08-29 00:07:26.377] [DEBUG   ] (pipeline:process_message:500) [19d4118f4f6b4997] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='olds-qualifier.tun.ply.gg那这个是啥'
 [2026-08-29 00:07:26.378] [INFO    ] (logger:log_trace_summary:392) [19d4118f4f6b4997] [TRACE 19d4118f4f6b4997] total=2.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.27ms(x1) (wall2.27), queue_wait=0.67ms(x1)
 [2026-08-29 00:07:28.585] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:07:57.546] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:07:57.547] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/29/2xZjYbhL6L0lq1b0.jpg' is_edit=False
+[2026-08-29 00:07:57.547] [DEBUG   ] (dispatcher:_dispatch_inner:110) [1fa19307e18d4305] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:07:57.547] [INFO    ] (dispatcher:_dispatch_inner:211) [1fa19307e18d4305] 🔗 正文解析到 1 个图片直链
+[2026-08-29 00:07:57.547] [INFO    ] (dispatcher:_dispatch_inner:308) [1fa19307e18d4305] 📩 消息 #19 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='https://img.kookapp.cn/attachments/2026-08/29/2xZjYbhL6L0lq1b0.jpg'
+[2026-08-29 00:07:57.548] [INFO    ] (dispatcher:_dispatch_inner:384) [1fa19307e18d4305] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-29 00:07:57.552] [DEBUG   ] (image_api:_load:50) [1fa19307e18d4305] 图片缓存已加载: 356 条
+[2026-08-29 00:07:57.552] [INFO    ] (image_api:recognize_image:152) [1fa19307e18d4305] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/attachments/2026-08/29/2xZjYbhL6L0lq1...
+[2026-08-29 00:07:57.683] [INFO    ] (image_api:recognize_image:168) [1fa19307e18d4305] [chat=6243254695867429] 图片下载成功: 198077 bytes
+[2026-08-29 00:07:57.966] [INFO    ] (image_api:recognize_image:204) [1fa19307e18d4305] [chat=6243254695867429] 图片预处理: JPEG(782x1692) → PNG 198077 bytes → 576485 bytes
+[2026-08-29 00:07:57.967] [INFO    ] (image_api:recognize_image:251) [1fa19307e18d4305] [chat=6243254695867429] 调用主视觉模型识别图片 (MD5=e1ab157e288c...) model=deepseek-v4-flash-vision-exp
+[2026-08-29 00:08:03.090] [INFO    ] (image_api:recognize_image:280) [1fa19307e18d4305] [chat=6243254695867429] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 聊天软件截图，机器人回复两个MC服务器信息，含...
+[2026-08-29 00:08:03.095] [DEBUG   ] (image_api:_save:64) [1fa19307e18d4305] 图片缓存已写入磁盘: 357 条
+[2026-08-29 00:08:03.111] [DEBUG   ] (image_api:_save_to_repo:315) [1fa19307e18d4305] 图片仓库追加: MD5=e1ab157e288c... → '聊天软件截图，机器人回复两个MC服务器信息，含'
+[2026-08-29 00:08:03.111] [INFO    ] (dispatcher:_do_recognize_image:916) [1fa19307e18d4305] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: '聊天软件截图，机器人回复两个MC服务器信息，含...' (23字) url=https://img.kookapp.cn/attachments/2026-08/29/2xZjYbhL6L0lq1
+[2026-08-29 00:08:03.111] [INFO    ] (dispatcher:_dispatch_inner:400) [1fa19307e18d4305] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: '聊天软件截图，机器人回复两个MC服务器信息，含...'
+[2026-08-29 00:08:03.112] [DEBUG   ] (queues:enqueue_message:75) [1fa19307e18d4305] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:08:03.113] [INFO    ] (pipeline:process_message:367) [55b67e457e17412a] 附带图片已记录 [chat=6243254695867429] count=1
+[2026-08-29 00:08:03.113] [INFO    ] (memory:merge_overflow_memory:419) [55b67e457e17412a] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-29 00:08:03.114] [DEBUG   ] (pipeline:process_message:500) [55b67e457e17412a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='https://img.kookapp.cn/attachments/2026-'
+[2026-08-29 00:08:03.114] [INFO    ] (logger:log_trace_summary:392) [55b67e457e17412a] [TRACE 55b67e457e17412a] total=1.93ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.89ms(x1) (wall1.89), queue_wait=0.32ms(x1)
+[2026-08-29 00:08:03.114] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:08:03.353] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-29 00:08:03.353] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-29 00:08:14.306] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:08:14.307] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='我忘记打开了' is_edit=False
+[2026-08-29 00:08:14.307] [DEBUG   ] (dispatcher:_dispatch_inner:110) [776f6db7e30343fe] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:08:14.307] [INFO    ] (dispatcher:_dispatch_inner:308) [776f6db7e30343fe] 📩 消息 #20 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='我忘记打开了'
+[2026-08-29 00:08:14.308] [DEBUG   ] (queues:enqueue_message:75) [776f6db7e30343fe] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:08:14.309] [INFO    ] (memory:merge_overflow_memory:419) [4cd9cb7d32f34789] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-29 00:08:14.310] [DEBUG   ] (pipeline:process_message:500) [4cd9cb7d32f34789] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我忘记打开了'
+[2026-08-29 00:08:14.310] [INFO    ] (logger:log_trace_summary:392) [4cd9cb7d32f34789] [TRACE 4cd9cb7d32f34789] total=1.64ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.6ms(x1) (wall1.6), queue_wait=0.35ms(x1)
