@@ -1,7 +1,4 @@
-# 更新于 2026-08-28 23:01:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 16:46:26.525] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-28 16:46:26.541] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-28 16:46:26.541] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+# 更新于 2026-08-28 23:02:26 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 16:46:26.542] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
 [2026-08-28 16:46:26.632] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
 [2026-08-28 16:46:26.633] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
@@ -1499,3 +1496,6 @@
 [2026-08-28 23:01:23.831] [INFO    ] (logger:log_trace_summary:392) [b554797c48bc4322] [TRACE b554797c48bc4322] total=13657.36ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13657.26ms(x1) (wall13657.26), queue_wait=8701.69ms(x1)
 [2026-08-28 23:01:23.832] [WARNING ] (logger:log_trace_summary:410) [b554797c48bc4322] [VERY_SLOW b554797c48bc4322] total=13658.42ms 需重点排查 | process=13657.26ms(x1) (wall13657.26), queue_wait=8701.69ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=8701.69ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=13657.26ms wall=13658.39ms dominant=other
 [2026-08-28 23:01:34.561] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 23:01:39.919] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-08-28 23:01:39.919] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-28 23:02:04.974] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
