@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:23:28 · 共 760 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:23:58 · 共 773 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -759,3 +759,16 @@
 [2026-08-29 00:23:23.639] [INFO    ] (engine:_ingest:92) [5c0feb05f7a8430a] 异步记忆提炼完成 chat=7274785942250691: 候选6 新增6
 [2026-08-29 00:23:28.328] [INFO    ] (llm:call_llm:489) [5c0feb05f7a8430a] LLM [Qwen/Qwen3-235B-A22B] 返回 363字符 耗时4.7s → "[00:01:49] ywandwss: ywandwss说了签到, ywandwss说了luck,..."
 [2026-08-29 00:23:28.336] [INFO    ] (memory:_compress_with_deepseek:210) [5c0feb05f7a8430a] [7274785942250691] 压缩完成: 10条消息 → 保存
+[2026-08-29 00:23:31.424] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:23:31.425] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='抱抱喵~' is_edit=False
+[2026-08-29 00:23:31.425] [DEBUG   ] (dispatcher:_dispatch_inner:110) [73c230eae19d4109] KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+[2026-08-29 00:23:31.425] [INFO    ] (dispatcher:_dispatch_inner:308) [73c230eae19d4109] 📩 消息 #66 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='抱抱喵~'
+[2026-08-29 00:23:31.426] [DEBUG   ] (queues:enqueue_message:75) [73c230eae19d4109] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-29 00:23:31.427] [INFO    ] (memory:merge_overflow_memory:419) [7a75f5ae94ed4236] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-08-29 00:23:31.427] [DEBUG   ] (pipeline:process_message:500) [7a75f5ae94ed4236] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='抱抱喵~'
+[2026-08-29 00:23:31.428] [INFO    ] (logger:log_trace_summary:392) [7a75f5ae94ed4236] [TRACE 7a75f5ae94ed4236] total=1.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.47ms(x1) (wall1.47), queue_wait=0.33ms(x1)
+[2026-08-29 00:23:39.630] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:23:39.631] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='喵～' is_edit=False
+[2026-08-29 00:23:39.631] [DEBUG   ] (dispatcher:_dispatch_inner:110) [4614aeaa3d684689] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-29 00:23:39.631] [INFO    ] (dispatcher:_dispatch_inner:288) [4614aeaa3d684689] 🤖 正则自动回复命中: '喵～' -> '喵~'
+[2026-08-29 00:23:52.697] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
