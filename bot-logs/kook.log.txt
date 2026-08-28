@@ -1,10 +1,4 @@
-# 更新于 2026-08-28 10:23:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 00:03:21.897] [DEBUG   ] (commands:handle_command:4756) [c07f0f73d2b0471f] 指令解析: prefix=/ cmd=fuck args=[] user=1759953618
-[2026-08-28 00:03:21.898] [INFO    ] (commands:handle_command:4798) [c07f0f73d2b0471f] 指令执行完成 [fuck]: 返回43字符
-[2026-08-28 00:03:22.310] [INFO    ] (logger:log_trace_summary:392) [c07f0f73d2b0471f] [TRACE c07f0f73d2b0471f] total=414.88ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=414.84ms(x1) (wall414.84), queue_wait=0.89ms(x1)
-[2026-08-28 00:03:22.787] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-28 00:03:22.788] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='.签到' is_edit=False
-[2026-08-28 00:03:22.788] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c6877c34398e4eec] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+# 更新于 2026-08-28 10:24:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 00:03:22.788] [INFO    ] (dispatcher:_dispatch_inner:308) [c6877c34398e4eec] 📩 消息 #19 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='.签到'
 [2026-08-28 00:03:22.789] [DEBUG   ] (queues:enqueue_message:75) [c6877c34398e4eec] [队列] 群1010983873136793 消息已入队 (队长度=1)
 [2026-08-28 00:03:22.790] [INFO    ] (memory:merge_overflow_memory:419) [d1dfa8a4ac9c48e8] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
@@ -1499,3 +1493,9 @@
 [2026-08-28 10:23:11.654] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-28 10:23:11.654] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-28 10:23:17.883] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 10:23:42.139] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-28 10:23:42.140] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-28 10:23:48.582] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 10:23:57.390] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-28 10:23:57.390] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-28 10:24:19.503] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
