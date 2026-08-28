@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:08:25 · 共 226 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:09:14 · 共 254 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -225,3 +225,31 @@
 [2026-08-29 00:08:14.309] [INFO    ] (memory:merge_overflow_memory:419) [4cd9cb7d32f34789] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
 [2026-08-29 00:08:14.310] [DEBUG   ] (pipeline:process_message:500) [4cd9cb7d32f34789] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我忘记打开了'
 [2026-08-29 00:08:14.310] [INFO    ] (logger:log_trace_summary:392) [4cd9cb7d32f34789] [TRACE 4cd9cb7d32f34789] total=1.64ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.6ms(x1) (wall1.6), queue_wait=0.35ms(x1)
+[2026-08-29 00:08:34.111] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:08:43.017] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:08:43.018] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc233.cn' is_edit=False
+[2026-08-29 00:08:43.018] [DEBUG   ] (dispatcher:_dispatch_inner:110) [77dc684546a040ce] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-29 00:08:43.018] [INFO    ] (dispatcher:_dispatch_inner:308) [77dc684546a040ce] 📩 消息 #21 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc mc233.cn'
+[2026-08-29 00:08:43.018] [DEBUG   ] (queues:enqueue_message:75) [77dc684546a040ce] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-29 00:08:43.022] [INFO    ] (pipeline:process_message:470) [49f1ef16da344409] 指令拦截: '/mc mc233.cn' from=ywandwss
+[2026-08-29 00:08:43.022] [DEBUG   ] (commands:handle_command:4756) [49f1ef16da344409] 指令解析: prefix=/ cmd=mc args=['mc233.cn'] user=1759953618
+[2026-08-29 00:08:51.064] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:08:51.065] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='6' is_edit=False
+[2026-08-29 00:08:51.065] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a998c098f1af422b] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
+[2026-08-29 00:08:51.065] [INFO    ] (dispatcher:_dispatch_inner:308) [a998c098f1af422b] 📩 消息 #22 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='6'
+[2026-08-29 00:08:51.067] [DEBUG   ] (queues:enqueue_message:75) [a998c098f1af422b] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:08:51.068] [INFO    ] (memory:merge_overflow_memory:419) [693038abcf5a4b8c] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 4条 (阈值=10)
+[2026-08-29 00:08:51.069] [DEBUG   ] (pipeline:process_message:500) [693038abcf5a4b8c] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6'
+[2026-08-29 00:08:51.069] [INFO    ] (logger:log_trace_summary:392) [693038abcf5a4b8c] [TRACE 693038abcf5a4b8c] total=1.67ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.63ms(x1) (wall1.63), queue_wait=0.36ms(x1)
+[2026-08-29 00:08:52.214] [INFO    ] (commands:handle_command:4798) [49f1ef16da344409] 指令执行完成 [mc]: 返回165字符
+[2026-08-29 00:08:52.804] [INFO    ] (logger:log_trace_summary:392) [49f1ef16da344409] [TRACE 49f1ef16da344409] total=9784.22ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9784.17ms(x1) (wall9784.17), queue_wait=1.44ms(x1)
+[2026-08-29 00:08:52.804] [WARNING ] (logger:log_trace_summary:415) [49f1ef16da344409] [SLOW 49f1ef16da344409] total=9784.55ms | process=9784.17ms(x1) (wall9784.17), queue_wait=1.44ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.44ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9784.17ms wall=9784.53ms dominant=other
+[2026-08-29 00:08:58.799] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:08:58.800] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='😪' is_edit=False
+[2026-08-29 00:08:58.800] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2a953101628248b7] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:08:58.800] [INFO    ] (dispatcher:_dispatch_inner:308) [2a953101628248b7] 📩 消息 #23 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='😪'
+[2026-08-29 00:08:58.801] [DEBUG   ] (queues:enqueue_message:75) [2a953101628248b7] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:08:58.802] [INFO    ] (memory:merge_overflow_memory:419) [cf7b5ab1a4f24707] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 5条 (阈值=10)
+[2026-08-29 00:08:58.802] [DEBUG   ] (pipeline:process_message:500) [cf7b5ab1a4f24707] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='😪'
+[2026-08-29 00:08:58.802] [INFO    ] (logger:log_trace_summary:392) [cf7b5ab1a4f24707] [TRACE cf7b5ab1a4f24707] total=1.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=0.95ms(x1) (wall0.95), queue_wait=0.69ms(x1)
+[2026-08-29 00:09:04.702] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
