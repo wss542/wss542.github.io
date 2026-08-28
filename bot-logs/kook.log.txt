@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:19:00 · 共 609 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:19:38 · 共 632 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -608,3 +608,26 @@
 [2026-08-29 00:19:00.920] [INFO    ] (memory:merge_overflow_memory:419) [74f5f1dba2b44b69] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 7条 (阈值=10)
 [2026-08-29 00:19:00.920] [INFO    ] (pipeline:process_message:470) [74f5f1dba2b44b69] 指令拦截: '/禁言 @ywandwss  1' from=ywandwss
 [2026-08-29 00:19:00.921] [DEBUG   ] (commands:handle_command:4756) [74f5f1dba2b44b69] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '1'] user=1759953618
+[2026-08-29 00:19:01.193] [INFO    ] (commands:handle_command:4798) [74f5f1dba2b44b69] 指令执行完成 [禁言]: 返回29字符
+[2026-08-29 00:19:01.623] [INFO    ] (logger:log_trace_summary:392) [74f5f1dba2b44b69] [TRACE 74f5f1dba2b44b69] total=704.48ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=704.43ms(x1) (wall704.43), queue_wait=0.3ms(x1)
+[2026-08-29 00:19:18.419] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-29 00:19:18.419] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-29 00:19:18.518] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:19:34.356] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:19:34.356] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='宝宝你服务器还没搞好对吧' is_edit=False
+[2026-08-29 00:19:34.357] [DEBUG   ] (dispatcher:_dispatch_inner:110) [131ee440df1e4196] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
+[2026-08-29 00:19:34.357] [INFO    ] (dispatcher:_dispatch_inner:237) [131ee440df1e4196] 📎 引用消息原文 (10字)
+[2026-08-29 00:19:34.357] [INFO    ] (dispatcher:_dispatch_inner:239) [131ee440df1e4196] 📎 引用消息含 1 张图片
+[2026-08-29 00:19:34.358] [INFO    ] (dispatcher:_dispatch_inner:308) [131ee440df1e4196] 📩 消息 #54 | type=文字 | imgs=0 | videos=0 | quoted_imgs=1 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='宝宝你服务器还没搞好对吧'
+[2026-08-29 00:19:34.359] [INFO    ] (dispatcher:_dispatch_inner:384) [131ee440df1e4196] 🖼️  [chat=6243254695867429] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-08-29 00:19:34.359] [INFO    ] (image_api:recognize_image:152) [131ee440df1e4196] [chat=6243254695867429] 开始获取图片: https://img.kookapp.cn/assets/2026-08/29/pqce6VJfWo0hm0c6.pn...
+[2026-08-29 00:19:34.408] [INFO    ] (image_api:recognize_image:168) [131ee440df1e4196] [chat=6243254695867429] 图片下载成功: 13933 bytes
+[2026-08-29 00:19:34.408] [INFO    ] (image_api:get:86) [131ee440df1e4196] 图片识别缓存命中 MD5=967f76fde410... → 'The user wants a direct description of t...'
+[2026-08-29 00:19:34.409] [INFO    ] (dispatcher:_do_recognize_image:916) [131ee440df1e4196] 🖼️  [chat=6243254695867429] 图#1/1 识别完成: 'The user wants a direct description of the image without any reasoning or thinki...' (200字) url=https://img.kookapp.cn/assets/2026-08/29/pqce6VJfWo0hm0c6.pn
+[2026-08-29 00:19:34.410] [INFO    ] (dispatcher:_dispatch_inner:400) [131ee440df1e4196] 🖼️  [chat=6243254695867429] 图1 识别完成并注入上下文: 'The user wants a direct description of the image w...'
+[2026-08-29 00:19:34.410] [DEBUG   ] (queues:enqueue_message:75) [131ee440df1e4196] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:19:34.411] [INFO    ] (pipeline:process_message:370) [19670172bf324032] 引用附带图片已记录 [chat=6243254695867429] count=1
+[2026-08-29 00:19:34.412] [INFO    ] (pipeline:process_message:419) [19670172bf324032] 📎 引用消息已注入上下文 [6243254695867429]: '[引用图片 1 张]'...
+[2026-08-29 00:19:34.412] [INFO    ] (memory:merge_overflow_memory:419) [19670172bf324032] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
+[2026-08-29 00:19:34.413] [DEBUG   ] (pipeline:process_message:500) [19670172bf324032] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='宝宝你服务器还没搞好对吧'
+[2026-08-29 00:19:34.413] [INFO    ] (logger:log_trace_summary:392) [19670172bf324032] [TRACE 19670172bf324032] total=2.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.95ms(x1) (wall2.95), queue_wait=0.39ms(x1)
