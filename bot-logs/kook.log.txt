@@ -1,6 +1,4 @@
-# 更新于 2026-08-29 03:58:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:15:12.505] [DEBUG   ] (queues:enqueue_message:75) [df1c4189b5584525] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-29 00:15:12.507] [INFO    ] (memory:merge_overflow_memory:419) [0789415b1ad046a0] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 6条 (阈值=10)
+# 更新于 2026-08-29 03:59:15 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:15:12.508] [DEBUG   ] (pipeline:process_message:500) [0789415b1ad046a0] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  进来了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊~！ '
 [2026-08-29 00:15:12.508] [INFO    ] (pipeline:process_message:535) [0789415b1ad046a0] @机器人检测(at_only) → 直接回复
 [2026-08-29 00:15:12.523] [DEBUG   ] (pipeline:process_message:591) [0789415b1ad046a0] 请求意图: intent=chat fast_search=False msg='@659688244  进来了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
@@ -1499,3 +1497,5 @@
 [2026-08-29 03:57:29.666] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 03:58:00.241] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 03:58:30.806] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 03:59:14.998] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-29 03:59:15.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
