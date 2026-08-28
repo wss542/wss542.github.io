@@ -1,9 +1,4 @@
-# 更新于 2026-08-29 04:00:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:15:12.508] [INFO    ] (pipeline:process_message:535) [0789415b1ad046a0] @机器人检测(at_only) → 直接回复
-[2026-08-29 00:15:12.523] [DEBUG   ] (pipeline:process_message:591) [0789415b1ad046a0] 请求意图: intent=chat fast_search=False msg='@659688244  进来了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
-[2026-08-29 00:15:12.552] [WARNING ] (pipeline:process_message:639) [0789415b1ad046a0] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-29 00:15:12.561] [DEBUG   ] (memory:_record_memory_trace:318) [0789415b1ad046a0] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=7.9ms
-[2026-08-29 00:15:12.565] [INFO    ] (pipeline:process_message:799) [0789415b1ad046a0] 额外信息: 1670字 (memory=623 search=0)
+# 更新于 2026-08-29 04:01:13 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:15:12.569] [INFO    ] (pipeline:process_message:932) [0789415b1ad046a0] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
 [2026-08-29 00:15:12.572] [DEBUG   ] (pipeline:process_message:1061) [0789415b1ad046a0] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-08-29 00:15:12.572] [INFO    ] (pipeline:process_message:1064) [0789415b1ad046a0] 开始生成回复: speaker=系统通知 chat=1010983873136793
@@ -1499,3 +1494,8 @@
 [2026-08-29 03:59:14.998] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 [2026-08-29 03:59:15.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 03:59:45.645] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 04:00:44.946] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>
+[2026-08-29 04:01:04.970] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>
+[2026-08-29 04:01:04.972] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 04:01:04.981] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
+[2026-08-29 04:01:13.049] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
