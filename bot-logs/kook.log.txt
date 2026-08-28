@@ -1,5 +1,4 @@
-# 更新于 2026-08-29 04:04:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:15:17.244] [WARNING ] (logger:log_trace_summary:415) [0789415b1ad046a0] [SLOW 0789415b1ad046a0] total=4738.35ms | json_parse=1.05ms(x1), llm=4666.9ms(x1), memory=15.94ms(x2), process=4737.28ms(x1) (wall4737.28), queue_wait=0.32ms(x1) | llm_calls=1 total=4661.7ms avg=4661.7ms max=4661.7ms p50=4661.7 p95=4661.7 p99=4661.7 | perf: queue=0.32ms llm=4667.95ms search_tool=0.0ms delivery=0.0ms other=4753.22ms wall=4738.33ms dominant=other
+# 更新于 2026-08-29 04:04:38 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:15:17.245] [DEBUG   ] (response_delivery:send_sentences:227) [0789415b1ad046a0] 开始分批发送 2 条句子 → chat=1010983873136793 is_group=True
 [2026-08-29 00:15:17.246] [INFO    ] (llm:call_llm:427) [0789415b1ad046a0] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-08-29 00:15:17.251] [INFO    ] (llm:call_llm:427) [0789415b1ad046a0] 调用LLM [deepseek-v4-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
@@ -1499,3 +1498,4 @@
 [2026-08-29 04:03:37.512] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-29 04:03:37.513] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-29 04:03:37.514] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 04:04:07.908] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
