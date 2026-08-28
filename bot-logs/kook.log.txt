@@ -1,9 +1,4 @@
-# 更新于 2026-08-29 04:01:13 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:15:12.569] [INFO    ] (pipeline:process_message:932) [0789415b1ad046a0] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-29 00:15:12.572] [DEBUG   ] (pipeline:process_message:1061) [0789415b1ad046a0] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-29 00:15:12.572] [INFO    ] (pipeline:process_message:1064) [0789415b1ad046a0] 开始生成回复: speaker=系统通知 chat=1010983873136793
-[2026-08-29 00:15:14.250] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
-[2026-08-29 00:15:17.235] [INFO    ] (llm:generate_multi_reply_with_tools:971) [0789415b1ad046a0] LLM原始输出 [轮1]: content={"replies":["欢迎新朋友 @659688244 来到频道！(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","一起玩点有趣的吧~"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":""," | tool_calls=0
+# 更新于 2026-08-29 04:01:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:15:17.238] [WARNING ] (face_lib:_init:29) [0789415b1ad046a0] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
 [2026-08-29 00:15:17.239] [INFO    ] (llm:_parse_reply:1314) [0789415b1ad046a0] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
 [2026-08-29 00:15:17.241] [INFO    ] (fav:update_fav:105) [0789415b1ad046a0] 好感度更新: g1010983873136793:3900775823 +2 → 52
@@ -1499,3 +1494,8 @@
 [2026-08-29 04:01:04.972] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 04:01:04.981] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
 [2026-08-29 04:01:13.049] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-29 04:01:14.224] [INFO    ] (bot:_bg_wdsj_collector:695) [-] 日榜目标频道: [3649029148752421]
+[2026-08-29 04:01:15.458] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
+[2026-08-29 04:01:15.458] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 2 人 (2026-08-29)
+[2026-08-29 04:01:15.458] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (08:01)
+[2026-08-29 04:01:35.352] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
