@@ -1,7 +1,4 @@
-# 更新于 2026-08-28 22:58:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 16:46:24.623] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-28 16:46:24.623] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-28 16:46:26.344] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+# 更新于 2026-08-28 22:59:14 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 16:46:26.411] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
 [2026-08-28 16:46:26.412] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
 [2026-08-28 16:46:26.416] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
@@ -1499,3 +1496,6 @@
 [2026-08-28 22:58:03.969] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
 [2026-08-28 22:58:03.969] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 3721 秒 (下次 00:00:05)
 [2026-08-28 22:58:31.866] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 22:59:02.078] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 22:59:02.338] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-28 22:59:02.338] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
