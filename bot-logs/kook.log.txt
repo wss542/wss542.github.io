@@ -1,21 +1,4 @@
-# 更新于 2026-08-28 23:00:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 16:46:26.416] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-28 16:46:26.418] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-28 16:46:26.418] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-28 16:46:26.421] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 11 个对话
-[2026-08-28 16:46:26.425] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-28 16:46:26.425] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-28 16:46:26.436] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-28 16:46:26.439] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-28 16:46:26.439] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-28 16:46:26.440] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-28 16:46:26.466] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-28 16:46:26.467] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-28 16:46:26.468] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-28 16:46:26.505] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-28 16:46:26.505] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+# 更新于 2026-08-28 23:01:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
 [2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
 [2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
@@ -1499,3 +1482,20 @@
 [2026-08-28 22:59:02.338] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-28 22:59:32.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-28 23:00:03.013] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 23:00:33.547] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 23:00:33.782] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-08-28 23:00:33.782] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-28 23:00:54.298] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 23:00:54.298] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc olds-qualifier.tun.ply.gg' is_edit=False
+[2026-08-28 23:00:54.299] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3af6429747fa4593] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-28 23:00:54.301] [INFO    ] (dispatcher:_dispatch_inner:308) [3af6429747fa4593] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc olds-qualifier.tun.ply.gg'
+[2026-08-28 23:00:54.301] [INFO    ] (queues:_get_or_create_queue:32) [3af6429747fa4593] [队列] 创建群9844130976336955 的独立消息队列
+[2026-08-28 23:00:54.302] [DEBUG   ] (queues:enqueue_message:75) [3af6429747fa4593] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-28 23:00:54.313] [INFO    ] (pipeline:process_message:470) [08b3f57d151b4d5d] 指令拦截: '/mc olds-qualifier.tun.ply.gg' from=ywandwss
+[2026-08-28 23:00:54.314] [DEBUG   ] (commands:handle_command:4756) [08b3f57d151b4d5d] 指令解析: prefix=/ cmd=mc args=['olds-qualifier.tun.ply.gg'] user=1759953618
+[2026-08-28 23:01:01.469] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 23:01:01.470] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc233.cn' is_edit=False
+[2026-08-28 23:01:01.470] [DEBUG   ] (dispatcher:_dispatch_inner:110) [3f3cf6f6835c47b2] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-28 23:01:01.470] [INFO    ] (dispatcher:_dispatch_inner:308) [3f3cf6f6835c47b2] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc mc233.cn'
+[2026-08-28 23:01:01.472] [DEBUG   ] (queues:enqueue_message:75) [3f3cf6f6835c47b2] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-28 23:01:04.030] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
