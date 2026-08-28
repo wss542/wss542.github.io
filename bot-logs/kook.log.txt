@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:48:35 · 共 1450 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:49:32 · 共 1480 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -1449,3 +1449,33 @@
 [2026-08-29 00:47:30.364] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 00:48:00.910] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 00:48:31.256] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:48:36.014] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:48:36.014] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=9 content='/角色 grant (met)1759953618(met) 茂密' is_edit=False
+[2026-08-29 00:48:36.014] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b0aa92828d264582] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:48:36.014] [INFO    ] (dispatcher:_dispatch_inner:308) [b0aa92828d264582] 📩 消息 #27 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/角色 grant (met)1759953618(met) 茂密'
+[2026-08-29 00:48:36.015] [DEBUG   ] (queues:enqueue_message:75) [b0aa92828d264582] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:48:36.016] [INFO    ] (memory:merge_overflow_memory:419) [088e3894da6948cf] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 9条 (阈值=10)
+[2026-08-29 00:48:36.016] [INFO    ] (pipeline:process_message:470) [088e3894da6948cf] 指令拦截: '/角色 grant @ywandwss  茂密' from=ywandwss
+[2026-08-29 00:48:36.016] [DEBUG   ] (commands:handle_command:4756) [088e3894da6948cf] 指令解析: prefix=/ cmd=角色 args=['grant', '@ywandwss', '茂密'] user=1759953618
+[2026-08-29 00:48:36.412] [INFO    ] (commands:handle_command:4798) [088e3894da6948cf] 指令执行完成 [角色]: 返回165字符
+[2026-08-29 00:48:36.845] [INFO    ] (logger:log_trace_summary:392) [088e3894da6948cf] [TRACE 088e3894da6948cf] total=830.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=830.11ms(x1) (wall830.11), queue_wait=0.26ms(x1)
+[2026-08-29 00:49:00.355] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:49:00.672] [INFO    ] (bot:_patched_consume_pkg:262) [1f0c14000d1943cb] ✏️ 编辑消息作者反查: id=1759953618 username=wss
+[2026-08-29 00:49:00.672] [INFO    ] (bot:_patched_consume_pkg:298) [1f0c14000d1943cb] ✏️ 编辑消息 → dispatcher: mid=777f3d07-2210-4019-ba14-07a884644bca chat=6243254695867429 type=255
+[2026-08-29 00:49:00.673] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=1 content='/角色 grant (met)337936062(met)  茂密' is_edit=True
+[2026-08-29 00:49:00.673] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0a4010be74b8485c] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:49:00.673] [INFO    ] (dispatcher:_dispatch_inner:308) [0a4010be74b8485c] 📩 消息 #28 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/角色 grant (met)337936062(met)  茂密'
+[2026-08-29 00:49:00.673] [DEBUG   ] (queues:enqueue_message:75) [0a4010be74b8485c] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:49:00.674] [INFO    ] (memory:merge_overflow_memory:419) [c2b2bed641af4e02] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 10条 (阈值=10)
+[2026-08-29 00:49:00.675] [INFO    ] (pipeline:process_message:470) [c2b2bed641af4e02] 指令拦截: '/角色 grant @제미니 (shuangzi_1228)   茂密' from=ywandwss
+[2026-08-29 00:49:00.675] [DEBUG   ] (commands:handle_command:4756) [c2b2bed641af4e02] 指令解析: prefix=/ cmd=角色 args=['grant', '@제미니', '(shuangzi_1228)', '茂密'] user=1759953618
+[2026-08-29 00:49:00.676] [INFO    ] (llm:call_llm:427) [c2b2bed641af4e02] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-29 00:49:00.695] [INFO    ] (engine:_ingest:92) [c2b2bed641af4e02] 异步记忆提炼完成 chat=6243254695867429: 候选2 新增2
+[2026-08-29 00:49:00.804] [INFO    ] (commands:handle_command:4798) [c2b2bed641af4e02] 指令执行完成 [角色]: 返回60字符
+[2026-08-29 00:49:01.253] [INFO    ] (logger:log_trace_summary:392) [c2b2bed641af4e02] [TRACE c2b2bed641af4e02] total=579.32ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=579.27ms(x1) (wall579.27), queue_wait=0.28ms(x1)
+[2026-08-29 00:49:01.590] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 00:49:04.785] [INFO    ] (llm:call_llm:489) [c2b2bed641af4e02] LLM [Qwen/Qwen3-235B-A22B] 返回 431字符 耗时4.1s → "[00:06:02] ywandwss, 제미니 (shuangzi_1228): ywandwss..."
+[2026-08-29 00:49:04.787] [INFO    ] (memory:_compress_with_deepseek:210) [c2b2bed641af4e02] [6243254695867429] 压缩完成: 10条消息 → 保存
+[2026-08-29 00:49:23.529] [DEBUG   ] (bot:_patched_consume_pkg:216) [0a4010be74b8485c] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:49:23.815] [INFO    ] (bot:_patched_consume_pkg:262) [0a4010be74b8485c] ✏️ 编辑消息作者反查: id=1759953618 username=wss
+[2026-08-29 00:49:31.998] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
