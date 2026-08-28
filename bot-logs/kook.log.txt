@@ -1,7 +1,4 @@
-# 更新于 2026-08-29 06:59:34 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:25:25.430] [DEBUG   ] (queues:enqueue_message:75) [58ed7881eded43d8] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-29 00:25:25.431] [INFO    ] (memory:merge_overflow_memory:419) [1d1c28a6eabc4553] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 8条 (阈值=10)
-[2026-08-29 00:25:25.432] [INFO    ] (pipeline:process_message:470) [1d1c28a6eabc4553] 指令拦截: '/解禁 @ywandwss  ' from=ywandwss
+# 更新于 2026-08-29 07:00:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:25:25.432] [DEBUG   ] (commands:handle_command:4756) [1d1c28a6eabc4553] 指令解析: prefix=/ cmd=解禁 args=['@ywandwss'] user=1759953618
 [2026-08-29 00:25:25.753] [INFO    ] (commands:handle_command:4798) [1d1c28a6eabc4553] 指令执行完成 [解禁]: 返回26字符
 [2026-08-29 00:25:26.256] [INFO    ] (logger:log_trace_summary:392) [1d1c28a6eabc4553] [TRACE 1d1c28a6eabc4553] total=825.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=825.51ms(x1) (wall825.51), queue_wait=0.71ms(x1)
@@ -1499,3 +1496,6 @@
 [2026-08-29 06:58:19.622] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 06:58:50.120] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 06:59:20.614] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 06:59:51.031] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 07:00:31.841] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-29 07:00:31.844] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
