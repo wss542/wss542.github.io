@@ -1,8 +1,4 @@
-# 更新于 2026-08-28 11:48:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 00:19:18.686] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-28 00:19:18.686] [DEBUG   ] (dispatcher:dispatch:47) [cf87385c6cf648e3] dispatch 入口: type=9 content='/emoji' is_edit=False
-[2026-08-28 00:19:18.687] [DEBUG   ] (dispatcher:_dispatch_inner:110) [7c8e6d070b3a4b06] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-[2026-08-28 00:19:18.687] [INFO    ] (dispatcher:_dispatch_inner:308) [7c8e6d070b3a4b06] 📩 消息 #31 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/emoji'
+# 更新于 2026-08-28 11:49:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 00:19:18.687] [INFO    ] (queues:_get_or_create_queue:32) [7c8e6d070b3a4b06] [队列] 创建群9844130976336955 的独立消息队列
 [2026-08-28 00:19:18.687] [DEBUG   ] (queues:enqueue_message:75) [7c8e6d070b3a4b06] [队列] 群9844130976336955 消息已入队 (队长度=1)
 [2026-08-28 00:19:18.691] [INFO    ] (fav:ensure_fav:141) [5440dfc4fe4845af] 好感度首次注册: g9844130976336955:1759953618 = 50
@@ -1499,3 +1495,7 @@
 [2026-08-28 11:47:44.930] [DEBUG   ] (bot:_patched_consume_pkg:216) [cf87385c6cf648e3] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-28 11:47:46.947] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-28 11:48:17.558] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 11:48:31.708] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+[2026-08-28 11:48:31.708] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-28 11:48:47.877] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-28 11:49:18.413] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 13396)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
