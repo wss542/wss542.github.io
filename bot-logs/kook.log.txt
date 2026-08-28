@@ -1,4 +1,4 @@
-# 更新于 2026-08-29 00:19:38 · 共 632 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-29 00:20:29 · 共 642 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:00:06.711] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-29 → 周六
 [2026-08-29 00:00:06.719] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-08-29 00:00:18.279] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260829 — 发送昨日群聊日报
@@ -631,3 +631,13 @@
 [2026-08-29 00:19:34.412] [INFO    ] (memory:merge_overflow_memory:419) [19670172bf324032] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
 [2026-08-29 00:19:34.413] [DEBUG   ] (pipeline:process_message:500) [19670172bf324032] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='宝宝你服务器还没搞好对吧'
 [2026-08-29 00:19:34.413] [INFO    ] (logger:log_trace_summary:392) [19670172bf324032] [TRACE 19670172bf324032] total=2.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.95ms(x1) (wall2.95), queue_wait=0.39ms(x1)
+[2026-08-29 00:19:49.116] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=17
+[2026-08-29 00:19:53.471] [DEBUG   ] (bot:_patched_consume_pkg:216) [7f11c0ea21254625] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-29 00:19:53.472] [DEBUG   ] (dispatcher:dispatch:47) [7f11c0ea21254625] dispatch 入口: type=9 content='嗯' is_edit=False
+[2026-08-29 00:19:53.472] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2d11ead1b86b4ba5] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+[2026-08-29 00:19:53.472] [INFO    ] (dispatcher:_dispatch_inner:308) [2d11ead1b86b4ba5] 📩 消息 #55 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='嗯'
+[2026-08-29 00:19:53.473] [DEBUG   ] (queues:enqueue_message:75) [2d11ead1b86b4ba5] [队列] 群6243254695867429 消息已入队 (队长度=1)
+[2026-08-29 00:19:53.474] [INFO    ] (memory:merge_overflow_memory:419) [cdeb94d5f1fa4c48] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+[2026-08-29 00:19:53.475] [DEBUG   ] (pipeline:process_message:500) [cdeb94d5f1fa4c48] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='嗯'
+[2026-08-29 00:19:53.475] [INFO    ] (logger:log_trace_summary:392) [cdeb94d5f1fa4c48] [TRACE cdeb94d5f1fa4c48] total=1.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.47ms(x1) (wall1.47), queue_wait=0.33ms(x1)
+[2026-08-29 00:20:19.423] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
