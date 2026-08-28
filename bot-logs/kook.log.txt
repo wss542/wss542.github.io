@@ -1,15 +1,4 @@
-# 更新于 2026-08-28 23:01:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-28 16:46:26.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-28 16:46:26.506] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-28 16:46:26.511] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-28 16:46:26.511] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-28 16:46:26.511] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-28 16:46:26.516] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-28 16:46:26.516] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-28 16:46:26.519] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-28 16:46:26.525] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+# 更新于 2026-08-28 23:01:38 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-28 16:46:26.525] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
 [2026-08-28 16:46:26.541] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
 [2026-08-28 16:46:26.541] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
@@ -1499,3 +1488,14 @@
 [2026-08-28 23:01:01.470] [INFO    ] (dispatcher:_dispatch_inner:308) [3f3cf6f6835c47b2] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc mc233.cn'
 [2026-08-28 23:01:01.472] [DEBUG   ] (queues:enqueue_message:75) [3f3cf6f6835c47b2] [队列] 群9844130976336955 消息已入队 (队长度=1)
 [2026-08-28 23:01:04.030] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-28 23:01:09.523] [INFO    ] (commands:handle_command:4798) [08b3f57d151b4d5d] 指令执行完成 [mc]: 返回137字符
+[2026-08-28 23:01:10.168] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 23:01:10.171] [INFO    ] (logger:log_trace_summary:392) [08b3f57d151b4d5d] [TRACE 08b3f57d151b4d5d] total=15869.32ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=15869.26ms(x1) (wall15869.26), queue_wait=0.79ms(x1)
+[2026-08-28 23:01:10.172] [WARNING ] (logger:log_trace_summary:410) [08b3f57d151b4d5d] [VERY_SLOW 08b3f57d151b4d5d] total=15869.82ms 需重点排查 | process=15869.26ms(x1) (wall15869.26), queue_wait=0.79ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.79ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=15869.26ms wall=15869.8ms dominant=other
+[2026-08-28 23:01:10.174] [INFO    ] (pipeline:process_message:470) [b554797c48bc4322] 指令拦截: '/mc mc233.cn' from=ywandwss
+[2026-08-28 23:01:10.174] [DEBUG   ] (commands:handle_command:4756) [b554797c48bc4322] 指令解析: prefix=/ cmd=mc args=['mc233.cn'] user=1759953618
+[2026-08-28 23:01:23.364] [INFO    ] (commands:handle_command:4798) [b554797c48bc4322] 指令执行完成 [mc]: 返回165字符
+[2026-08-28 23:01:23.827] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-28 23:01:23.831] [INFO    ] (logger:log_trace_summary:392) [b554797c48bc4322] [TRACE b554797c48bc4322] total=13657.36ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13657.26ms(x1) (wall13657.26), queue_wait=8701.69ms(x1)
+[2026-08-28 23:01:23.832] [WARNING ] (logger:log_trace_summary:410) [b554797c48bc4322] [VERY_SLOW b554797c48bc4322] total=13658.42ms 需重点排查 | process=13657.26ms(x1) (wall13657.26), queue_wait=8701.69ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=8701.69ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=13657.26ms wall=13658.39ms dominant=other
+[2026-08-28 23:01:34.561] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5680)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
