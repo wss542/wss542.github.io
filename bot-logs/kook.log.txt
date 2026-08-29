@@ -1,44 +1,4 @@
-# 更新于 2026-08-29 21:41:16 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:49:00.355] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-29 00:49:00.672] [INFO    ] (bot:_patched_consume_pkg:262) [1f0c14000d1943cb] ✏️ 编辑消息作者反查: id=1759953618 username=wss
-[2026-08-29 00:49:00.672] [INFO    ] (bot:_patched_consume_pkg:298) [1f0c14000d1943cb] ✏️ 编辑消息 → dispatcher: mid=777f3d07-2210-4019-ba14-07a884644bca chat=6243254695867429 type=255
-[2026-08-29 00:49:00.673] [DEBUG   ] (dispatcher:dispatch:47) [1f0c14000d1943cb] dispatch 入口: type=1 content='/角色 grant (met)337936062(met)  茂密' is_edit=True
-[2026-08-29 00:49:00.673] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0a4010be74b8485c] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-29 00:49:00.673] [INFO    ] (dispatcher:_dispatch_inner:308) [0a4010be74b8485c] 📩 消息 #28 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/角色 grant (met)337936062(met)  茂密'
-[2026-08-29 00:49:00.673] [DEBUG   ] (queues:enqueue_message:75) [0a4010be74b8485c] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-29 00:49:00.674] [INFO    ] (memory:merge_overflow_memory:419) [c2b2bed641af4e02] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 10条 (阈值=10)
-[2026-08-29 00:49:00.675] [INFO    ] (pipeline:process_message:470) [c2b2bed641af4e02] 指令拦截: '/角色 grant @제미니 (shuangzi_1228)   茂密' from=ywandwss
-[2026-08-29 00:49:00.675] [DEBUG   ] (commands:handle_command:4756) [c2b2bed641af4e02] 指令解析: prefix=/ cmd=角色 args=['grant', '@제미니', '(shuangzi_1228)', '茂密'] user=1759953618
-[2026-08-29 00:49:00.676] [INFO    ] (llm:call_llm:427) [c2b2bed641af4e02] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-29 00:49:00.695] [INFO    ] (engine:_ingest:92) [c2b2bed641af4e02] 异步记忆提炼完成 chat=6243254695867429: 候选2 新增2
-[2026-08-29 00:49:00.804] [INFO    ] (commands:handle_command:4798) [c2b2bed641af4e02] 指令执行完成 [角色]: 返回60字符
-[2026-08-29 00:49:01.253] [INFO    ] (logger:log_trace_summary:392) [c2b2bed641af4e02] [TRACE c2b2bed641af4e02] total=579.32ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=579.27ms(x1) (wall579.27), queue_wait=0.28ms(x1)
-[2026-08-29 00:49:01.590] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
-[2026-08-29 00:49:04.785] [INFO    ] (llm:call_llm:489) [c2b2bed641af4e02] LLM [Qwen/Qwen3-235B-A22B] 返回 431字符 耗时4.1s → "[00:06:02] ywandwss, 제미니 (shuangzi_1228): ywandwss..."
-[2026-08-29 00:49:04.787] [INFO    ] (memory:_compress_with_deepseek:210) [c2b2bed641af4e02] [6243254695867429] 压缩完成: 10条消息 → 保存
-[2026-08-29 00:49:23.529] [DEBUG   ] (bot:_patched_consume_pkg:216) [0a4010be74b8485c] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-29 00:49:23.815] [INFO    ] (bot:_patched_consume_pkg:262) [0a4010be74b8485c] ✏️ 编辑消息作者反查: id=1759953618 username=wss
-[2026-08-29 00:49:31.998] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
-[2026-08-29 00:50:00.238] [DEBUG   ] (bot:_patched_consume_pkg:216) [0a4010be74b8485c] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-29 00:50:00.238] [DEBUG   ] (dispatcher:dispatch:47) [0a4010be74b8485c] dispatch 入口: type=9 content='/角色 grant (met)337936062(met) 茂密' is_edit=False
-[2026-08-29 00:50:00.238] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ee1913e1b16a44af] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-29 00:50:00.239] [INFO    ] (dispatcher:_dispatch_inner:308) [ee1913e1b16a44af] 📩 消息 #29 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/角色 grant (met)337936062(met) 茂密'
-[2026-08-29 00:50:00.239] [DEBUG   ] (queues:enqueue_message:75) [ee1913e1b16a44af] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-29 00:50:00.240] [INFO    ] (memory:merge_overflow_memory:419) [585a1b2853b7496a] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-08-29 00:50:00.240] [INFO    ] (pipeline:process_message:470) [585a1b2853b7496a] 指令拦截: '/角色 grant @제미니 (shuangzi_1228)  茂密' from=ywandwss
-[2026-08-29 00:50:00.240] [DEBUG   ] (commands:handle_command:4756) [585a1b2853b7496a] 指令解析: prefix=/ cmd=角色 args=['grant', '@제미니', '(shuangzi_1228)', '茂密'] user=1759953618
-[2026-08-29 00:50:00.509] [INFO    ] (commands:handle_command:4798) [585a1b2853b7496a] 指令执行完成 [角色]: 返回60字符
-[2026-08-29 00:50:00.965] [INFO    ] (logger:log_trace_summary:392) [585a1b2853b7496a] [TRACE 585a1b2853b7496a] total=725.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=725.56ms(x1) (wall725.56), queue_wait=0.55ms(x1)
-[2026-08-29 00:50:02.424] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
-[2026-08-29 00:50:15.465] [DEBUG   ] (bot:_patched_consume_pkg:216) [0a4010be74b8485c] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-29 00:50:15.466] [DEBUG   ] (dispatcher:dispatch:47) [0a4010be74b8485c] dispatch 入口: type=9 content='/角色 grant (met)3671686013(met) 茂密' is_edit=False
-[2026-08-29 00:50:15.467] [DEBUG   ] (dispatcher:_dispatch_inner:110) [553ad0f209b64d16] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-08-29 00:50:15.467] [INFO    ] (dispatcher:_dispatch_inner:308) [553ad0f209b64d16] 📩 消息 #30 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/角色 grant (met)3671686013(met) 茂密'
-[2026-08-29 00:50:15.468] [DEBUG   ] (queues:enqueue_message:75) [553ad0f209b64d16] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-08-29 00:50:15.468] [INFO    ] (memory:merge_overflow_memory:419) [d527c4b2fcb5498f] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-[2026-08-29 00:50:15.469] [INFO    ] (pipeline:process_message:470) [d527c4b2fcb5498f] 指令拦截: '/角色 grant @名字  茂密' from=ywandwss
-[2026-08-29 00:50:15.469] [DEBUG   ] (commands:handle_command:4756) [d527c4b2fcb5498f] 指令解析: prefix=/ cmd=角色 args=['grant', '@名字', '茂密'] user=1759953618
-[2026-08-29 00:50:15.675] [INFO    ] (commands:handle_command:4798) [d527c4b2fcb5498f] 指令执行完成 [角色]: 返回165字符
+# 更新于 2026-08-29 21:41:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:50:16.076] [INFO    ] (logger:log_trace_summary:392) [d527c4b2fcb5498f] [TRACE d527c4b2fcb5498f] total=608.07ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=608.02ms(x1) (wall608.02), queue_wait=0.25ms(x1)
 [2026-08-29 00:50:19.470] [DEBUG   ] (bot:_patched_consume_pkg:216) [0a4010be74b8485c] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-29 00:50:19.470] [DEBUG   ] (dispatcher:dispatch:47) [0a4010be74b8485c] dispatch 入口: type=9 content='（）' is_edit=False
@@ -1499,3 +1459,43 @@
 [2026-08-29 21:40:00.479] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-08-29 21:40:00.491] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 [2026-08-29 21:40:55.378] [INFO    ] (bot:_bg_pc_offline_checker:780) [-] 主电脑掉线告警已发送: 611 分钟无心跳
+[2026-08-29 21:41:23.873] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-29 21:41:24.554] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3462)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-29 21:41:51.252] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=905ms]: '**▶ 萨顶顶 - 左手指月**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.304] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=956ms]: '**作词 : 喻江**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.356] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1006ms]: '**作曲 : 萨顶顶**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.358] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=997ms]: '**编曲 : 刘胡轶/常石磊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.359] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=987ms]: '**制作人 : 常石磊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.362] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=979ms]: '**弦乐编写 : 刘胡轶**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.362] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=970ms]: '**和声 : 萨顶顶**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.363] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=960ms]: '**人声录音 : 李杨/曹洋**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.364] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=949ms]: '**人声录音室 : 55Tec Studio/C-VOICE STUDIO**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.378] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=953ms]: '**人声编辑 : 曹洋**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.380] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=943ms]: '**混音师 : 赵靖**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.380] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=933ms]: '**制作出品 : 中英音乐**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.381] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=923ms]: '**监制 : 付宏声**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.381] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=913ms]: '**音乐发行 : 智慧大狗×天才联盟**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.382] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=902ms]: '**统筹 : 张葛 王明宇**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.382] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=882ms]: '**左手握大地右手握着天**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.382] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=871ms]: '**掌纹裂出了十方的闪电**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.383] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=861ms]: '**把时光匆匆兑换成了年**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.390] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=856ms]: '**三千世  如所不见**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.391] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=847ms]: '**左手拈着花右手舞着剑**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.391] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=837ms]: '**眉间落下了一万年的雪**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.392] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=826ms]: '**一滴泪 啊啊啊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.392] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=816ms]: '**那是我 啊啊啊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.392] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=806ms]: '**左手一弹指右手弹着弦**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.392] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=795ms]: '**舟楫摆渡在忘川的水间**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.393] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=784ms]: '**当烦恼能开出一朵红莲**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.393] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=774ms]: '**莫停歇 给我杂念**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.393] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=763ms]: '**左手指着月右手取红线**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.393] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=753ms]: '**赐予你和我如愿的情缘**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.393] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=743ms]: '**月光中 啊啊啊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.394] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=732ms]: '**你和我 啊啊啊**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.394] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=722ms]: '**左手化成羽右手成鳞片**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.394] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=711ms]: '**某世在云上某世在林间**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.394] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=700ms]: '**愿随你用一粒微尘的模样**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.395] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=689ms]: '**在所有 尘世浮现**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.395] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=679ms]: '**我左手拿起你右手放下你**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.395] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=668ms]: '**合掌时你全部被收回心间**' song=萨顶顶 - 左手指月 playing=False channel=None
+[2026-08-29 21:41:51.395] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=658ms]: '**一炷香 啊啊啊**' song=萨顶顶 - 左手指月 playing=False channel=None
