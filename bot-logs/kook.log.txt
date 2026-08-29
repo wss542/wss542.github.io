@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:32:08 · 共 1157 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:32:45 · 共 1163 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -1156,3 +1156,9 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 `大地上随处都将唱响：`' song=James Hannigan / The Skywalker playing=True channel=None
 [2026-08-30 00:32:04.548] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-492ms]: '**Столица, водка, Советский медведь наш!**
 `首都，伏特加，我们的苏维埃巨熊！' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-08-30 00:32:09.096] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-104ms]: '**Ура！！ ура а а а ......**
+`万岁！！万岁 啊啊啊……`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-08-30 00:32:17.050] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Ура！！ ура а а а ......**
+`万岁！！万岁 啊啊啊……`' keys=18
+[2026-08-30 00:32:19.317] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=527ms]: '**- END -**' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-08-30 00:32:23.904] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-145ms]: '**▶ Double X - Улеталиптицамигордыми**' song=Double X - Улеталиптицамигорды playing=True channel=None
