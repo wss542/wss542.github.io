@@ -1,8 +1,4 @@
-# 更新于 2026-08-29 10:31:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:36:02.632] [INFO    ] (pipeline:process_message:470) [3f88d1e6456943ae] 指令拦截: '/解禁 @ywandwss  ' from=ywandwss
-[2026-08-29 00:36:02.632] [DEBUG   ] (commands:handle_command:4756) [3f88d1e6456943ae] 指令解析: prefix=/ cmd=解禁 args=['@ywandwss'] user=1759953618
-[2026-08-29 00:36:03.110] [INFO    ] (commands:handle_command:4798) [3f88d1e6456943ae] 指令执行完成 [解禁]: 返回30字符
-[2026-08-29 00:36:03.136] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-08-29 10:32:28 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:36:03.168] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-29 00:36:03.723] [DEBUG   ] (bot:_patched_consume_pkg:216) [1f0c14000d1943cb] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-29 00:36:03.742] [INFO    ] (logger:log_trace_summary:392) [3f88d1e6456943ae] [TRACE 3f88d1e6456943ae] total=1112.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1112.7ms(x1) (wall1112.7), queue_wait=0.57ms(x1)
@@ -1499,3 +1495,7 @@
 [2026-08-29 10:30:06.135] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 10:30:36.705] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 10:31:09.689] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 10:31:39.864] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 10:31:55.423] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-29 10:31:55.423] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-29 10:32:10.351] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
