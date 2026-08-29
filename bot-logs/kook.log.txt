@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:15:18 · 共 240 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:16:03 · 共 244 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -239,3 +239,7 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 [2026-08-30 00:14:27.553] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-149ms]: '**发行 : 孔雀唱片**' song=凤凰传奇 - 郎的诱惑 playing=True channel=None
 [2026-08-30 00:14:32.096] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=392ms]: '**▶ ProleteR - Faidherbe Square (Remastered)**' song=ProleteR - Faidherbe Square (R playing=True channel=None
 [2026-08-30 00:14:54.157] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ ProleteR - Faidherbe Square (Remastered)**' keys=18
+[2026-08-30 00:15:26.398] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ ProleteR - Faidherbe Square (Remastered)**' keys=18
+[2026-08-30 00:15:44.038] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=64 cpu=None mem=None
+[2026-08-30 00:15:44.039] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 00:15:56.529] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ ProleteR - Faidherbe Square (Remastered)**' keys=18
