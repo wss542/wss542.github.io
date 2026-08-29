@@ -1,10 +1,4 @@
-# 更新于 2026-08-29 08:01:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:26:22.089] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-29 00:26:22.095] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-29 00:26:22.095] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-29 00:26:22.096] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-29 00:26:22.096] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-29 00:26:22.096] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+# 更新于 2026-08-29 08:02:38 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:26:22.097] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
 [2026-08-29 00:26:22.202] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
 [2026-08-29 00:26:22.203] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1493,9 @@
 [2026-08-29 08:01:11.818] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
 [2026-08-29 08:01:11.819] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 2 人 (2026-08-29)
 [2026-08-29 08:01:11.820] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (12:01)
+[2026-08-29 08:01:40.364] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-29 08:01:40.364] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-29 08:01:40.365] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 08:01:55.573] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-29 08:01:55.573] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-29 08:02:10.864] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
