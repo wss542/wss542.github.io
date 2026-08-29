@@ -1,7 +1,4 @@
-# 更新于 2026-08-29 11:29:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:44:42.823] [DEBUG   ] (dispatcher:_dispatch_inner:110) [2935b3170572462b] KMD 调试: is_group=True uid=337936062 channel=6243254695867429
-[2026-08-29 00:44:42.824] [INFO    ] (dispatcher:_dispatch_inner:308) [2935b3170572462b] 📩 消息 #19 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니(337936062) | chat=6243254695867429 | group=True | content='666'
-[2026-08-29 00:44:42.825] [DEBUG   ] (queues:enqueue_message:75) [2935b3170572462b] [队列] 群6243254695867429 消息已入队 (队长度=1)
+# 更新于 2026-08-29 21:39:49 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:44:42.826] [INFO    ] (memory:merge_overflow_memory:419) [04d46dd9884c4e9a] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
 [2026-08-29 00:44:42.826] [DEBUG   ] (pipeline:process_message:500) [04d46dd9884c4e9a] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='666'
 [2026-08-29 00:44:42.827] [INFO    ] (logger:log_trace_summary:392) [04d46dd9884c4e9a] [TRACE 04d46dd9884c4e9a] total=1.4ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.36ms(x1) (wall1.36), queue_wait=0.56ms(x1)
@@ -1499,3 +1496,6 @@
 [2026-08-29 11:27:52.388] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 11:28:22.975] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 11:28:53.538] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 11:29:24.037] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+                                                                                                                                                                                                                                                                                                                                                                                                                    [2026-08-29 21:39:39.821] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-29 21:39:40.013] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
