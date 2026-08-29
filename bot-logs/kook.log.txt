@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:18:35 · 共 381 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:19:38 · 共 415 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -380,3 +380,37 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 [2026-08-30 00:18:32.663] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-30 00:18:32.663] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h42m 后执行 (04:01)
 [2026-08-30 00:18:32.681] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-30 00:18:47.698] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-30 00:18:47.706] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 37s 前）
+[2026-08-30 00:18:47.709] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-30 00:18:47.718] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-30 00:18:47.719] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-30 00:18:47.719] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-30 00:18:47.719] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-30 00:18:47.720] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-30 00:18:47.720] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-30 00:18:47.861] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-30 00:18:47.865] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-30 00:18:47.999] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=64 cpu=None mem=None
+[2026-08-30 00:18:47.999] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 00:18:48.760] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-30 00:18:48.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1243)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**你这样一个女人 让我欢喜让我忧**' keys=18
+[2026-08-30 00:18:48.802] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=13120ms]: '**你这样一个女人 让我欢喜让我忧**' song=周华健 / 齐豫 - 神话·情话 playing=True channel=None
+[2026-08-30 00:18:48.803] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=4121ms]: '**让我甘心为了你 付出我所有**' song=周华健 / 齐豫 - 神话·情话 playing=True channel=None
+[2026-08-30 00:18:49.018] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
+[2026-08-30 00:18:49.019] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-30 00:18:49.020] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 85276 秒 (下次 00:00:05)
+[2026-08-30 00:18:49.734] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-30 00:18:50.756] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-30 00:18:50.756] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-30 00:18:50.759] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-08-30 00:18:50.759] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-30 00:18:51.057] [INFO    ] (qq_transport:_get_token:99) [-] QQ access_token 已刷新，有效期 5881s
+[2026-08-30 00:18:51.732] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 00:18:51.932] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
+[2026-08-30 00:18:59.046] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-83ms]: '**鼓：Nicanor D. Ledesma**' song=周华健 / 齐豫 - 神话·情话 playing=True channel=None
+[2026-08-30 00:19:00.188] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=257ms]: '**▶ Passion Pit - Take a Walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-08-30 00:19:00.189] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=255ms]: '**Take a walk, take a walk, take a walk**
+`漫步、漫步、漫步`' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-08-30 00:19:19.473] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1243)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Take a walk, take a walk, take a walk**
+`漫步、漫步、漫' keys=18
