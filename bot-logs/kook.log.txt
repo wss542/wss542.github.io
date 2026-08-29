@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:23:38 · 共 569 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:24:24 · 共 596 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -568,3 +568,30 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 `漫步、漫步、漫' keys=18
 [2026-08-30 00:23:24.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=114ms]: '**▶ 李翊君 - 雨蝶**' song=李翊君 - 雨蝶 playing=True channel=None
 [2026-08-30 00:23:24.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=114ms]: '**被爱的感觉**' song=李翊君 - 雨蝶 playing=True channel=None
+[2026-08-30 00:23:47.324] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1284)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**被爱的感觉**' keys=18
+[2026-08-30 00:24:08.379] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 00:24:09.647] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '喵～'
+[2026-08-30 00:24:09.649] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
+[2026-08-30 00:24:09.650] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
+[2026-08-30 00:24:09.651] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
+[2026-08-30 00:24:09.661] [DEBUG   ] (pipeline:process_message:508) [-] 回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='喵～'
+[2026-08-30 00:24:09.661] [DEBUG   ] (pipeline:process_message:539) [-] 私聊消息 → 直接回复
+[2026-08-30 00:24:09.665] [DEBUG   ] (pipeline:process_message:599) [57d094d822a64195] 请求意图: intent=chat fast_search=False msg='喵～'
+[2026-08-30 00:24:09.682] [WARNING ] (pipeline:process_message:647) [57d094d822a64195] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 00:24:09.691] [DEBUG   ] (memory:_record_memory_trace:318) [57d094d822a64195] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=6.4ms
+[2026-08-30 00:24:09.693] [INFO    ] (pipeline:process_message:807) [57d094d822a64195] 额外信息: 104字 (memory=0 search=0)
+[2026-08-30 00:24:09.695] [INFO    ] (pipeline:process_message:940) [57d094d822a64195] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 00:24:09.697] [DEBUG   ] (pipeline:process_message:1069) [57d094d822a64195] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-30 00:24:09.697] [INFO    ] (pipeline:process_message:1072) [57d094d822a64195] 开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 00:24:13.609] [INFO    ] (llm:generate_multi_reply_with_tools:971) [57d094d822a64195] LLM原始输出 [轮1]: content={"replies":["喵～你好呀！"],"fav":1,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"63C251709C77FDEE87FC50 | tool_calls=0
+[2026-08-30 00:24:13.612] [WARNING ] (face_lib:_init:29) [57d094d822a64195] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-08-30 00:24:13.614] [INFO    ] (llm:_parse_reply:1314) [57d094d822a64195] JSON回复解析: 1句 fav=+1 calls=0 mood=开心
+[2026-08-30 00:24:13.617] [INFO    ] (fav:update_fav:105) [57d094d822a64195] 好感度更新: p:qq:63C251709C77FDEE87FC502F866E3FB5 +1 → 51
+[2026-08-30 00:24:13.617] [INFO    ] (pipeline:process_message:1555) [57d094d822a64195] 好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +1 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 00:24:13.623] [INFO    ] (pipeline:process_message:1561) [57d094d822a64195] ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 00:24:13.623] [DEBUG   ] (response_delivery:send_sentences:264) [57d094d822a64195] 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
+[2026-08-30 00:24:13.624] [INFO    ] (llm:call_llm:427) [57d094d822a64195] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-30 00:24:14.646] [DEBUG   ] (response_delivery:send_sentences:278) [57d094d822a64195] 已发送第 1/1 条: 喵～你好呀！...
+[2026-08-30 00:24:14.646] [DEBUG   ] (response_delivery:send_sentences:280) [57d094d822a64195] 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 00:24:15.602] [INFO    ] (llm:call_llm:489) [57d094d822a64195] LLM [Qwen/Qwen3-235B-A22B] 返回 105字符 耗时2.0s → "[00:24:13] 63C251709C77FDE, 茂密: 63C251709C77FDE说了喵..."
+[2026-08-30 00:24:17.672] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1284)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**被爱的感觉**' keys=18
