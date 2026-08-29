@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:01:58 · 共 94 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:02:45 · 共 160 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -93,3 +93,69 @@
 [2026-08-30 00:01:55.686] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 98 喵' is_edit=False
 [2026-08-30 00:01:55.686] [DEBUG   ] (dispatcher:_dispatch_inner:107) [117a7105c55c4ae0] 跳过 bot 消息: uid=1341019011
 [2026-08-30 00:01:58.526] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=629ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:04.153] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**Be my shoe shine**' keys=18
+[2026-08-30 00:02:04.153] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-57ms]: '**Be my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:06.404] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=265ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:07.532] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-170ms]: '**Boy made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:12.015] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=586ms]: '**Be my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:14.252] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=379ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:15.388] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=25ms]: '**Boy made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:16.505] [DEBUG   ] (bot:_patched_consume_pkg:216) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 00:02:16.508] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)659688244(met) 夺少？！！！' is_edit=False
+[2026-08-30 00:02:16.508] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8fd2b774336e4d4f] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-08-30 00:02:16.799] [WARNING ] (dispatcher:_resolve_quoted_media:887) [8fd2b774336e4d4f] 📎 反查引用消息 198aac03-22bc-4ce6-8989-229f7ba81ce0 失败(兜底用卡片预览): EventDispatcher._extract_image_urls() takes 1 positional argument but 2 were given
+[2026-08-30 00:02:16.808] [INFO    ] (dispatcher:_dispatch_inner:237) [8fd2b774336e4d4f] 📎 引用消息原文 (34字)
+[2026-08-30 00:02:16.827] [INFO    ] (dispatcher:_dispatch_inner:308) [8fd2b774336e4d4f] 📩 消息 #22 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='(met)659688244(met) 夺少？！！！'
+[2026-08-30 00:02:16.917] [DEBUG   ] (queues:enqueue_message:75) [8fd2b774336e4d4f] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-08-30 00:02:16.947] [INFO    ] (pipeline:process_message:419) [1425128315414514] 📎 引用消息已注入上下文 [7274785942250691]: '(met)1759953618(met) 你今天的运气是 100 喵'...
+[2026-08-30 00:02:16.953] [INFO    ] (memory:merge_overflow_memory:419) [1425128315414514] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+[2026-08-30 00:02:16.955] [DEBUG   ] (pipeline:process_message:500) [1425128315414514] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  夺少？！！！'
+[2026-08-30 00:02:16.956] [INFO    ] (pipeline:process_message:535) [1425128315414514] @机器人检测(at_only) → 直接回复
+[2026-08-30 00:02:17.051] [DEBUG   ] (pipeline:process_message:591) [1425128315414514] 请求意图: intent=chat fast_search=False msg='@659688244  夺少？！！！'
+[2026-08-30 00:02:17.409] [WARNING ] (pipeline:process_message:639) [1425128315414514] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 00:02:17.461] [DEBUG   ] (memory:_record_memory_trace:318) [1425128315414514] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=44.7ms
+[2026-08-30 00:02:17.484] [INFO    ] (pipeline:process_message:799) [1425128315414514] 额外信息: 1692字 (memory=524 search=0)
+[2026-08-30 00:02:17.530] [INFO    ] (pipeline:process_message:932) [1425128315414514] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 00:02:17.559] [DEBUG   ] (pipeline:process_message:1061) [1425128315414514] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-30 00:02:17.559] [INFO    ] (pipeline:process_message:1064) [1425128315414514] 开始生成回复: speaker=ywandwss chat=7274785942250691
+[2026-08-30 00:02:18.787] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=8ms]: '**You're my servant boy**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:21.038] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=345ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:21.506] [INFO    ] (llm:generate_multi_reply_with_tools:971) [1425128315414514] LLM原始输出 [轮1]: content={"replies":["主人是在问运气值吗？","@659688244 你今天的运气是100喵~"],"fav":1,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":[659688244],"mode":null,"origin":"user","a | tool_calls=0
+[2026-08-30 00:02:21.572] [ERROR   ] (queues:_group_worker:63) [1425128315414514] [队列] 群7274785942250691 处理异常: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Traceback (most recent call last):
+  File "/home/qwq/huanmeng-bot-v2/services/llm.py", line 55, in _normalize_reply_json
+    out[key] = int(val)
+               ~~~^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qwq/huanmeng-bot-v2/core/queues.py", line 58, in _group_worker
+    await process_message(**kwargs)
+  File "/home/qwq/huanmeng-bot-v2/core/pipeline.py", line 1066, in process_message
+    sentences, fav_change, llm_calls, face_cq, mood, mood_detail, action, at_qq, mode_switch, origin, actor, _ = await generate_multi_reply_with_tools(
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "/home/qwq/huanmeng-bot-v2/services/llm.py", line 1182, in generate_multi_reply_with_tools
+    parsed = _parse_reply(raw, speaker_name, quiet=True)
+  File "/home/qwq/huanmeng-bot-v2/services/llm.py", line 1281, in _parse_reply
+    data = _normalize_reply_json(data)
+  File "/home/qwq/huanmeng-bot-v2/services/llm.py", line 57, in _normalize_reply_json
+    out[key] = int(field.get("default", 0))
+               ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+
+[2026-08-30 00:02:23.292] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=390ms]: '**Boy, let the dogs sleep in that cave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:26.671] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=5ms]: '**Servant boy**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:28.922] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=417ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:31.173] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=662ms]: '**Boy, let the dogs sleep in that cave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:34.570] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**Made my shoe shine**' keys=18
+[2026-08-30 00:02:34.571] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-31ms]: '**Made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:36.846] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=276ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:37.978] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-184ms]: '**Boy made my shoes shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:41.394] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=289ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:42.524] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=533ms]: '**Boy made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-08-30 00:02:44.848] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=98ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
