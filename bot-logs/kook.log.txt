@@ -1,4 +1,4 @@
-# 更新于 2026-08-30 00:32:45 · 共 1163 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-30 00:33:22 · 共 1175 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:00:02.003] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12883)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ HVOB - Dogs (Original Version)**' keys=17
 [2026-08-30 00:00:09.353] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
 [2026-08-30 00:00:09.354] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86396 秒 (下次 00:00:05)
@@ -1162,3 +1162,15 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 `万岁！！万岁 啊啊啊……`' keys=18
 [2026-08-30 00:32:19.317] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=527ms]: '**- END -**' song=James Hannigan / The Skywalker playing=True channel=None
 [2026-08-30 00:32:23.904] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-145ms]: '**▶ Double X - Улеталиптицамигордыми**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-08-30 00:32:48.055] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
+[2026-08-30 00:33:05.396] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/help'
+[2026-08-30 00:33:05.399] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=51
+[2026-08-30 00:33:05.399] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
+[2026-08-30 00:33:05.402] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
+[2026-08-30 00:33:05.405] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
+[2026-08-30 00:33:05.406] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
+[2026-08-30 00:33:05.436] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 00:33:05.437] [DEBUG   ] (commands:handle_command:4756) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 00:33:05.438] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
+[2026-08-30 00:33:09.580] [INFO    ] (commands:handle_command:4800) [-] 指令执行完成 [help]: 无返回值（已自行发送）
+[2026-08-30 00:33:19.118] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=17
