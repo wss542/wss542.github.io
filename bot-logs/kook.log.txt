@@ -1,9 +1,4 @@
-# 更新于 2026-08-29 08:01:03 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-29 00:26:20.818] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-29 00:26:20.818] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-29 00:26:20.820] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h34m 后执行 (04:01)
-[2026-08-29 00:26:20.851] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-29 00:26:22.086] [INFO    ] (bot:_bg_pc_offline_checker:750) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 64s 前）
+# 更新于 2026-08-29 08:01:38 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-29 00:26:22.089] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-08-29 00:26:22.095] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-08-29 00:26:22.095] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1494,8 @@
 [2026-08-29 08:00:34.273] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
 [2026-08-29 08:01:00.002] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
 [2026-08-29 08:01:03.603] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-29 08:01:09.937] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11907)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 喻江**' keys=18
+[2026-08-29 08:01:10.671] [INFO    ] (bot:_bg_wdsj_collector:695) [-] 日榜目标频道: [3649029148752421]
+[2026-08-29 08:01:11.818] [INFO    ] (bot:_bg_wdsj_collector:699) [-] 日榜已发到频道 3649029148752421
+[2026-08-29 08:01:11.819] [INFO    ] (bot:_bg_wdsj_collector:702) [-] 日榜已推送: 2 人 (2026-08-29)
+[2026-08-29 08:01:11.820] [INFO    ] (bot:_bg_wdsj_collector:652) [-] 战绩采集将在 3h59m 后执行 (12:01)
