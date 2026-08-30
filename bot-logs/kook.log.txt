@@ -1,25 +1,4 @@
-# 更新于 2026-08-30 13:30:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 12:10:58.401] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 12:10:58.401] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 12:10:58.401] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 12:10:58.406] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 2, 'active_tasks': 0}
-[2026-08-30 12:10:58.414] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-30 12:10:58.414] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-30 12:10:58.426] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-30 12:10:59.697] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-30 12:11:00.689] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:11:00.714] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 12:11:02.047] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:11:02.047] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-30 12:11:02.048] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:11:02.052] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-30 12:11:02.052] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-30 12:11:02.055] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-30 12:11:02.055] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-30 12:11:02.055] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-30 12:11:02.055] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+# 更新于 2026-08-30 13:31:08 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:11:02.056] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
 [2026-08-30 12:11:02.341] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
 [2026-08-30 12:11:02.341] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
@@ -1499,3 +1478,24 @@
 [2026-08-30 13:30:32.296] [INFO    ] (pipeline:process_message:940) [9062ad4bc78b4772] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
 [2026-08-30 13:30:32.299] [DEBUG   ] (pipeline:process_message:1069) [9062ad4bc78b4772] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-08-30 13:30:32.299] [INFO    ] (pipeline:process_message:1072) [9062ad4bc78b4772] 开始生成回复: speaker=若尘 ~喵 chat=qq:6EAA5C6B3896ED18FE5C82835C474A29
+[2026-08-30 13:30:33.381] [INFO    ] (qq_transport:_send_message:227) [9062ad4bc78b4772] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=57 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqh0.d.F6Lmokfhu5Jzm9gjLXeG.ATSWOq3aGsHflth6EwHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 13:30:33.382] [DEBUG   ] (response_delivery:send_sentences:297) [9062ad4bc78b4772] 已发送第 1/1 条: 喵呜～今天好开心！(emj)开心1(emj)[3090677...
+[2026-08-30 13:30:33.382] [DEBUG   ] (response_delivery:send_sentences:299) [9062ad4bc78b4772] 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:30:33.383] [DEBUG   ] (context_manager:_on_task_done:139) [9062ad4bc78b4772] 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
+[2026-08-30 13:30:34.371] [INFO    ] (llm:call_llm:489) [9062ad4bc78b4772] LLM [Qwen/Qwen3-235B-A22B] 返回 96字符 耗时2.1s → "[13:30:32] 63C251709C77FDE, 茂密: 63C251709C77FDE说了喵..."
+[2026-08-30 13:30:34.372] [INFO    ] (memory:_compress_with_deepseek:210) [9062ad4bc78b4772] [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
+[2026-08-30 13:30:36.696] [INFO    ] (llm:generate_multi_reply_with_tools:971) [9062ad4bc78b4772] LLM原始输出 [轮1]: content={"replies":["主人好呀～今天感觉特别开心呢！(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":2,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":nul | tool_calls=0
+[2026-08-30 13:30:36.697] [INFO    ] (llm:_parse_reply:1314) [9062ad4bc78b4772] JSON回复解析: 1句 fav=+2 calls=0 mood=开心
+[2026-08-30 13:30:36.697] [INFO    ] (fav:update_fav:126) [9062ad4bc78b4772] 好感度更新: gqq:6EAA5C6B3896ED18FE5C82835C474A29:1759953618 +2 → 52
+[2026-08-30 13:30:36.701] [INFO    ] (pipeline:process_message:1555) [9062ad4bc78b4772] 好感度调整: 若尘 ~喵 +2 (chat=qq:6EAA5C6B3896ED18FE5C82835C474A29)
+[2026-08-30 13:30:36.702] [INFO    ] (memory:maybe_save_memory:401) [9062ad4bc78b4772] 触发自动记忆 [qq:6EAA5C6B3896ED18FE5C82835C474A29]: 2 条
+[2026-08-30 13:30:36.702] [INFO    ] (pipeline:process_message:1561) [9062ad4bc78b4772] ✅ 管道处理完成: 1句 sent chat=qq:6EAA5C6B3896ED18FE5C82835C474A29
+[2026-08-30 13:30:36.702] [DEBUG   ] (response_delivery:send_sentences:283) [9062ad4bc78b4772] 开始分批发送 1 条句子 → chat=qq:6EAA5C6B3896ED18FE5C82835C474A29 is_group=True
+[2026-08-30 13:30:36.703] [INFO    ] (llm:call_llm:427) [9062ad4bc78b4772] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-30 13:30:38.315] [INFO    ] (qq_transport:_send_message:227) [9062ad4bc78b4772] QQ 群发送成功(被动) msg_type=0 openid=6EAA5C6B3896ED18FE5C82835C474A29 len=63 seq=1 id=ROBOT1.0_XYSRqzq99bzEow7R2PNN6bdwH60Fr3GowDq8Dkpra5KFxHgwgZCkItMv5oiKL88R9TXG2ijRvX.v.x6nJgblTQ!!
+[2026-08-30 13:30:38.315] [DEBUG   ] (response_delivery:send_sentences:297) [9062ad4bc78b4772] 已发送第 1/1 条: 主人好呀～今天感觉特别开心呢！(emj)开心1(emj)[3...
+[2026-08-30 13:30:38.315] [DEBUG   ] (response_delivery:send_sentences:299) [9062ad4bc78b4772] 分批发送完成: 共 1 条 → chat=qq:6EAA5C6B3896ED18FE5C82835C474A29
+[2026-08-30 13:30:38.315] [DEBUG   ] (context_manager:_on_task_done:139) [9062ad4bc78b4772] 发送任务已清理 [qq:6EAA5C6B3896ED18FE5C82835C474A29]
+[2026-08-30 13:30:38.330] [INFO    ] (llm:call_llm:489) [9062ad4bc78b4772] LLM [Qwen/Qwen3-235B-A22B] 返回 81字符 耗时1.6s → "[13:30:36] 若尘 ~喵, 茂密: 若尘 ~喵说了喵呜～, 茂密回复主人好呀～今天感觉特别开..."
+[2026-08-30 13:30:38.333] [INFO    ] (memory:_compress_with_deepseek:210) [9062ad4bc78b4772] [qq:6EAA5C6B3896ED18FE5C82835C474A29] 压缩完成: 2条消息 → 保存
+[2026-08-30 13:30:51.318] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
