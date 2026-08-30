@@ -1,111 +1,4 @@
-# 更新于 2026-08-30 13:03:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 11:18:56.163] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-30 11:18:56.164] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-30 11:18:56.164] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-30 11:18:56.164] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-30 11:18:56.164] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-30 11:18:56.342] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-30 11:18:56.344] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-30 11:18:56.450] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
-[2026-08-30 11:18:56.451] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-30 11:18:58.063] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 11:18:58.063] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 11:18:58.065] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45667 秒 (下次 00:00:05)
-[2026-08-30 11:18:58.310] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 11:18:59.976] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
-[2026-08-30 11:18:59.985] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 0h42m 后执行 (12:01)
-[2026-08-30 11:19:03.016] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 11:19:03.017] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 11:19:03.021] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 11:19:03.022] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 11:19:03.544] [INFO    ] (qq_transport:_get_token:99) [-] QQ access_token 已刷新，有效期 7200s
-[2026-08-30 11:19:04.040] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 11:19:04.375] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
-[2026-08-30 11:19:56.832] [INFO    ] (bot:_bg_pc_offline_checker:807) [-] 主电脑掉线告警已发送: 618 分钟无心跳
-[2026-08-30 11:20:06.629] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:20:06.638] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 5' is_edit=False
-[2026-08-30 11:20:06.638] [DEBUG   ] (dispatcher:_dispatch_inner:110) [46eed859822d41d8] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-30 11:20:06.643] [INFO    ] (dispatcher:_dispatch_inner:308) [46eed859822d41d8] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/禁言 (met)1759953618(met) 5'
-[2026-08-30 11:20:06.651] [INFO    ] (queues:_get_or_create_queue:32) [46eed859822d41d8] [队列] 创建群1010983873136793 的独立消息队列
-[2026-08-30 11:20:06.651] [DEBUG   ] (queues:enqueue_message:75) [46eed859822d41d8] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-30 11:20:06.658] [INFO    ] (memory:merge_overflow_memory:419) [84cef0e4e25f47a4] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
-[2026-08-30 11:20:06.697] [INFO    ] (pipeline:process_message:478) [84cef0e4e25f47a4] 指令拦截: '/禁言 @ywandwss  5' from=ywandwss
-[2026-08-30 11:20:06.698] [DEBUG   ] (commands:handle_command:4756) [84cef0e4e25f47a4] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '5'] user=1759953618
-[2026-08-30 11:20:07.039] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:20:07.147] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:20:07.484] [INFO    ] (commands:handle_command:4798) [84cef0e4e25f47a4] 指令执行完成 [禁言]: 返回42字符
-[2026-08-30 11:20:07.488] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:20:07.499] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:20:08.168] [INFO    ] (logger:log_trace_summary:392) [84cef0e4e25f47a4] [TRACE 84cef0e4e25f47a4] total=1515.25ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1515.17ms(x1) (wall1515.17), queue_wait=2.79ms(x1)
-[2026-08-30 11:20:56.305] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 11:20:56.909] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=[] lyric_event=False lyric='-' keys=17
-[2026-08-30 11:21:10.669] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-40ms]: '**▶ Double X - Улеталиптицамигордыми**' song=Double X - Улеталиптицамигорды playing=False channel=None
-[2026-08-30 11:21:17.251] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1090ms]: '**▶ 继续播放**' song=Double X - Улеталиптицамигорды playing=True channel=None
-[2026-08-30 11:21:27.460] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:21:45.788] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/help'
-[2026-08-30 11:21:45.791] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
-[2026-08-30 11:21:45.798] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
-[2026-08-30 11:21:45.799] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
-[2026-08-30 11:21:45.807] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 11:21:45.808] [DEBUG   ] (commands:handle_command:4756) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 11:21:45.809] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
-[2026-08-30 11:21:52.882] [INFO    ] (commands:handle_command:4800) [-] 指令执行完成 [help]: 无返回值（已自行发送）
-[2026-08-30 11:21:57.257] [INFO    ] (bot:_bg_pc_offline_checker:815) [-] 主电脑恢复通知已发送
-[2026-08-30 11:21:58.543] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:22:29.514] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:23:00.432] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:23:31.292] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:23:55.200] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
-[2026-08-30 11:23:55.348] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-[2026-08-30 11:23:55.487] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-[2026-08-30 11:23:55.488] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
-[2026-08-30 11:23:55.488] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 56165 秒
-[2026-08-30 11:24:01.900] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:24:33.143] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=17
-[2026-08-30 11:25:03.749] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:25:07.897] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:25:07.927] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:25:34.433] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:26:05.114] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:26:35.586] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:27:06.423] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=17
-[2026-08-30 11:27:37.214] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=17
-[2026-08-30 11:28:08.082] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:28:38.638] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:29:09.377] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:29:40.350] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:30:16.789] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:30:47.027] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:31:17.456] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-30 11:31:17.498] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/30\\/IPmuTd2bq30bf024.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":411,"height":76,"fileSize":22985,"elements":[]}]}],"type":"card"}]' is_edit=False
-[2026-08-30 11:31:17.515] [DEBUG   ] (dispatcher:_dispatch_inner:110) [fed48a79ac514769] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-[2026-08-30 11:31:17.518] [INFO    ] (dispatcher:_dispatch_inner:177) [fed48a79ac514769] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/30\\/IPmuTd2bq30bf024.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":411,"height":76,"fileSize":22985,"elements":[]}]}],"type":"card"}]')
-[2026-08-30 11:31:17.556] [INFO    ] (dispatcher:_dispatch_inner:308) [fed48a79ac514769] 📩 消息 #2 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-08\\/30\\/IPmuTd2bq30bf024.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":411,"height":76,"fileSize":22985,"elements":[]}]}],"type":"card"}]'
-[2026-08-30 11:31:17.580] [INFO    ] (dispatcher:_dispatch_inner:384) [fed48a79ac514769] 🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
-[2026-08-30 11:31:17.856] [DEBUG   ] (image_api:_load:50) [fed48a79ac514769] 图片缓存已加载: 364 条
-[2026-08-30 11:31:17.858] [INFO    ] (image_api:recognize_image:152) [fed48a79ac514769] [chat=7274785942250691] 开始获取图片: https://img.kookapp.cn/assets/2026-08/30/IPmuTd2bq30bf024.pn...
-[2026-08-30 11:31:17.878] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:31:19.880] [INFO    ] (image_api:recognize_image:168) [fed48a79ac514769] [chat=7274785942250691] 图片下载成功: 22985 bytes
-[2026-08-30 11:31:23.098] [INFO    ] (image_api:recognize_image:204) [fed48a79ac514769] [chat=7274785942250691] 图片预处理: PNG(411x76) → PNG 22985 bytes → 24308 bytes
-[2026-08-30 11:31:23.100] [INFO    ] (image_api:recognize_image:251) [fed48a79ac514769] [chat=7274785942250691] 调用主视觉模型识别图片 (MD5=47c3a6a4f1c3...) model=deepseek-v4-flash-vision-exp
-[2026-08-30 11:31:41.899] [INFO    ] (image_api:recognize_image:280) [fed48a79ac514769] [chat=7274785942250691] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 观察后视镜……下方两行测试结果：第一行在1368ms内到达https://app.ets2la.co...
-[2026-08-30 11:31:41.905] [DEBUG   ] (image_api:_save:64) [fed48a79ac514769] 图片缓存已写入磁盘: 365 条
-[2026-08-30 11:31:41.927] [DEBUG   ] (image_api:_save_to_repo:315) [fed48a79ac514769] 图片仓库追加: MD5=47c3a6a4f1c3... → '观察后视镜……下方两行测试结果：第一行在1368ms内到达h'
-[2026-08-30 11:31:41.928] [INFO    ] (dispatcher:_do_recognize_image:916) [fed48a79ac514769] 🖼️  [chat=7274785942250691] 图#1/1 识别完成: '观察后视镜……下方两行测试结果：第一行在1368ms内到达https://app.ets2la.com；第二行在(TIMEOUT)内到达https://app....' (90字) url=https://img.kookapp.cn/assets/2026-08/30/IPmuTd2bq30bf024.pn
-[2026-08-30 11:31:41.928] [INFO    ] (dispatcher:_dispatch_inner:400) [fed48a79ac514769] 🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '观察后视镜……下方两行测试结果：第一行在1368ms内到达https://app.ets2la.co...'
-[2026-08-30 11:31:41.929] [INFO    ] (queues:_get_or_create_queue:32) [fed48a79ac514769] [队列] 创建群7274785942250691 的独立消息队列
-[2026-08-30 11:31:41.930] [DEBUG   ] (queues:enqueue_message:75) [fed48a79ac514769] [队列] 群7274785942250691 消息已入队 (队长度=1)
-[2026-08-30 11:31:41.933] [INFO    ] (pipeline:process_message:375) [bb2c1a7dae1943c5] 附带图片已记录 [chat=7274785942250691] count=1
-[2026-08-30 11:31:41.936] [INFO    ] (memory:merge_overflow_memory:419) [bb2c1a7dae1943c5] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-[2026-08-30 11:31:41.939] [DEBUG   ] (pipeline:process_message:508) [bb2c1a7dae1943c5] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
-[2026-08-30 11:31:41.940] [INFO    ] (logger:log_trace_summary:392) [bb2c1a7dae1943c5] [TRACE bb2c1a7dae1943c5] total=7.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.49ms(x1) (wall7.49), queue_wait=3.11ms(x1)
-[2026-08-30 11:32:02.168] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>
-[2026-08-30 11:32:02.294] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:32:33.061] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:33:03.789] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:33:34.488] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:34:05.594] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:34:36.633] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+# 更新于 2026-08-30 13:03:53 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 11:35:06.648] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 11:35:37.518] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 11:36:08.628] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2597)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
@@ -1499,3 +1392,110 @@
 [2026-08-30 13:03:14.163] [INFO    ] (qq_transport:_pop_msg_id:179) [-] QQ 被动回复次数已用尽 openid=grp_2 (20/20)
 [2026-08-30 13:03:14.164] [INFO    ] (qq_transport:_pop_msg_id:179) [-] QQ 被动回复次数已用尽 openid=grp_2 (20/20)
 [2026-08-30 13:03:17.275] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:03:27.895] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
+[2026-08-30 13:03:27.976] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
+[2026-08-30 13:03:28.005] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+[2026-08-30 13:03:28.005] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+[2026-08-30 13:03:28.006] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
+[2026-08-30 13:03:28.007] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
+[2026-08-30 13:03:28.007] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
+[2026-08-30 13:03:28.008] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
+[2026-08-30 13:03:28.035] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
+[2026-08-30 13:03:28.036] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+[2026-08-30 13:03:28.036] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
+[2026-08-30 13:03:28.036] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+[2026-08-30 13:03:28.037] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+[2026-08-30 13:03:28.037] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
+[2026-08-30 13:03:28.037] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
+[2026-08-30 13:03:28.038] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
+[2026-08-30 13:03:28.038] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
+[2026-08-30 13:03:28.038] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
+[2026-08-30 13:03:28.041] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 4, 'active_tasks': 0}
+[2026-08-30 13:03:28.050] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+[2026-08-30 13:03:28.051] [INFO    ] (logger:info:335) [-] 👋 再见！
+[2026-08-30 13:03:28.066] [INFO    ] (logger:info:335) [-] 应用程序已退出
+[2026-08-30 13:03:40.731] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
+[2026-08-30 13:03:43.156] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 13:03:43.260] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 13:03:46.532] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:03:46.532] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-08-30 13:03:46.533] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:03:46.539] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+[2026-08-30 13:03:46.539] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-08-30 13:03:46.544] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-08-30 13:03:46.547] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-08-30 13:03:46.547] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-08-30 13:03:46.547] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-08-30 13:03:46.548] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-08-30 13:03:46.816] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-08-30 13:03:46.817] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-08-30 13:03:46.833] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-08-30 13:03:46.834] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+[2026-08-30 13:03:47.474] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+[2026-08-30 13:03:47.512] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+[2026-08-30 13:03:47.512] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+[2026-08-30 13:03:47.516] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+[2026-08-30 13:03:47.517] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
+[2026-08-30 13:03:47.517] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+[2026-08-30 13:03:47.518] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
+[2026-08-30 13:03:47.518] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+[2026-08-30 13:03:47.518] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+[2026-08-30 13:03:47.525] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 13:03:47.525] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+[2026-08-30 13:03:47.526] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[2026-08-30 13:03:47.526] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+[2026-08-30 13:03:47.541] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+[2026-08-30 13:03:47.541] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+[2026-08-30 13:03:47.541] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+[2026-08-30 13:03:47.549] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+[2026-08-30 13:03:47.550] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+[2026-08-30 13:03:47.550] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+[2026-08-30 13:03:47.551] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
+[2026-08-30 13:03:47.551] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+[2026-08-30 13:03:47.551] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+[2026-08-30 13:03:47.552] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+[2026-08-30 13:03:47.552] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
+[2026-08-30 13:03:47.554] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+[2026-08-30 13:03:47.555] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+[2026-08-30 13:03:47.556] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+[2026-08-30 13:03:47.556] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+[2026-08-30 13:03:47.556] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
+[2026-08-30 13:03:47.563] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+[2026-08-30 13:03:47.563] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+[2026-08-30 13:03:47.563] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
+[2026-08-30 13:03:47.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
+[2026-08-30 13:03:47.565] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+[2026-08-30 13:03:47.566] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+[2026-08-30 13:03:47.566] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+[2026-08-30 13:03:47.566] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
+[2026-08-30 13:03:47.567] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+[2026-08-30 13:03:47.568] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+[2026-08-30 13:03:47.568] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+[2026-08-30 13:03:47.569] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
+[2026-08-30 13:03:47.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+[2026-08-30 13:03:47.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+[2026-08-30 13:03:47.571] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+[2026-08-30 13:03:47.575] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+[2026-08-30 13:03:47.575] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+[2026-08-30 13:03:47.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+[2026-08-30 13:03:47.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
+[2026-08-30 13:03:47.577] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+[2026-08-30 13:03:47.577] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
+[2026-08-30 13:03:47.577] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+[2026-08-30 13:03:47.578] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+[2026-08-30 13:03:47.578] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[2026-08-30 13:03:47.578] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:03:47.578] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
+[2026-08-30 13:03:47.578] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:03:47.578] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+[2026-08-30 13:03:47.580] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+[2026-08-30 13:03:47.655] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-08-30 13:03:47.657] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+[2026-08-30 13:03:47.659] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 2h57m 后执行 (16:01)
+[2026-08-30 13:03:47.677] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
