@@ -1,14 +1,4 @@
-# 更新于 2026-08-30 19:04:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 15:46:40.183] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-30 15:46:40.439] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
-[2026-08-30 15:46:40.439] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-30 15:46:42.086] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 15:46:42.533] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 15:46:42.534] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 15:46:42.534] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 29602 秒 (下次 00:00:05)
-[2026-08-30 15:46:44.370] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 15:46:44.371] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 15:46:44.372] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+# 更新于 2026-08-30 19:05:02 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 15:46:44.372] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 [2026-08-30 15:46:44.642] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7093s
 [2026-08-30 15:46:45.122] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
@@ -1499,3 +1489,13 @@
 [2026-08-30 19:02:41.291] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 19:03:12.055] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 19:03:42.934] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:04:13.722] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:04:41.702] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj muyibo'
+[2026-08-30 19:04:41.704] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7IXBTSTVZQIyNHA.OfnGg7cuMhvHObk9i.H7sAnS-3egkFuZ7h-lIcbo.uyh7vA3Re-V7btyF8GWCClu4IZANuINIqrVm3QhC6-bhktADRFg
+[2026-08-30 19:04:41.708] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 19:04:41.716] [INFO    ] (pipeline:process_message:478) [0c9152509e06493c] 指令拦截: '/wdsj muyibo' from=繁
+[2026-08-30 19:04:41.717] [DEBUG   ] (commands:handle_command:4840) [0c9152509e06493c] 指令解析: prefix=/ cmd=wdsj args=['muyibo'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-08-30 19:04:41.719] [INFO    ] (commands:handle_command:4895) [0c9152509e06493c] 指令执行完成 [wdsj]: 返回56字符
+[2026-08-30 19:04:43.837] [INFO    ] (qq_transport:_send_message:234) [0c9152509e06493c] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=56 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3BIp95ugCDxlRGgOxZG9A4GqAO1mMIMeWsVlNSlEwciwzy5bO6CUlNUdOzmmKiAcCw!!
+[2026-08-30 19:04:43.838] [INFO    ] (logger:log_trace_summary:392) [0c9152509e06493c] [TRACE 0c9152509e06493c] total=2127.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2126.55ms(x1) (wall2126.55), queue_wait=2.86ms(x1)
+[2026-08-30 19:04:44.523] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
