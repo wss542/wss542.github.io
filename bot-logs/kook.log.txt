@@ -1,9 +1,4 @@
-# 更新于 2026-08-30 13:48:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:31:59.934] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:31:59.950] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
-[2026-08-30 12:32:10.714] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-30 12:32:10.716] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-30 12:32:10.716] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+# 更新于 2026-08-30 13:48:42 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:32:10.716] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
 [2026-08-30 12:32:10.716] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
 [2026-08-30 12:32:10.717] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
@@ -1499,3 +1494,8 @@
 [2026-08-30 13:48:11.105] [DEBUG   ] (response_delivery:send_sentences:294) [09777ad348984b5f] 句间等待 0.87s (#2/2)
 [2026-08-30 13:48:12.088] [INFO    ] (llm:call_llm:489) [09777ad348984b5f] LLM [Qwen/Qwen3-235B-A22B] 返回 122字符 耗时2.1s → "[13:48:09] 茂密: 发送了图片, 好美的黄昏呀～(emj)注视1(emj)[3090677..."
 [2026-08-30 13:48:12.089] [INFO    ] (memory:_compress_with_deepseek:210) [09777ad348984b5f] [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 3条消息 → 保存
+[2026-08-30 13:48:12.891] [INFO    ] (qq_transport:_send_message:227) [09777ad348984b5f] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=11 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqpF0hH4OJ0qdg7C1TRkNCaeLHb4hyJWdRomxSHvvqBMXwHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 13:48:12.892] [DEBUG   ] (response_delivery:send_sentences:297) [09777ad348984b5f] 已发送第 2/2 条: 金光透过云层，太治愈了...
+[2026-08-30 13:48:12.892] [DEBUG   ] (response_delivery:send_sentences:299) [09777ad348984b5f] 分批发送完成: 共 2 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:48:12.892] [DEBUG   ] (context_manager:_on_task_done:139) [09777ad348984b5f] 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
+[2026-08-30 13:48:16.834] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
