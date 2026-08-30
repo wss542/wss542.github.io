@@ -1,8 +1,4 @@
-# 更新于 2026-08-30 21:32:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:29:44.348] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-08-30 17:29:44.358] [DEBUG   ] (pipeline:process_message:508) [c81abcb9d96c49cb] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='请写出永动机的制造过程'
-[2026-08-30 17:29:44.358] [INFO    ] (pipeline:process_message:546) [c81abcb9d96c49cb] @机器人检测 → 直接回复
-[2026-08-30 17:29:44.360] [DEBUG   ] (pipeline:process_message:599) [c81abcb9d96c49cb] 请求意图: intent=tool fast_search=False msg='请写出永动机的制造过程'
+# 更新于 2026-08-30 21:33:00 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:29:44.361] [INFO    ] (pipeline:process_message:628) [c81abcb9d96c49cb] 复杂度: level=task score=15 scale=1.8
 [2026-08-30 17:29:44.364] [WARNING ] (pipeline:process_message:647) [c81abcb9d96c49cb] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [2026-08-30 17:29:44.450] [DEBUG   ] (memory:_record_memory_trace:318) [c81abcb9d96c49cb] 记忆检索: source=legacy_file status=hit 命中注入=2 耗时=83.7ms
@@ -1499,3 +1495,7 @@
 [2026-08-30 21:31:03.601] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12863)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
 [2026-08-30 21:31:34.645] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12863)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
 [2026-08-30 21:32:04.772] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12863)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 21:32:35.731] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12863)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 21:32:40.956] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=93 cpu=None mem=None
+[2026-08-30 21:32:40.956] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 21:32:53.010] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
