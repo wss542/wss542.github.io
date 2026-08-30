@@ -1,37 +1,4 @@
-# 更新于 2026-08-30 13:29:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:09:18.280] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:09:43.927] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/help'
-[2026-08-30 12:09:43.930] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
-[2026-08-30 12:09:43.932] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
-[2026-08-30 12:09:43.933] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
-[2026-08-30 12:09:43.946] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:09:43.946] [DEBUG   ] (commands:handle_command:4756) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:09:43.946] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
-[2026-08-30 12:09:47.722] [INFO    ] (qq_transport:upload_media_file:321) [-] QQ 分片上传成功 file=help_card.png size=435448 ttl=86400
-[2026-08-30 12:09:48.841] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:09:49.199] [INFO    ] (commands:handle_command:4800) [-] 指令执行完成 [help]: 无返回值（已自行发送）
-[2026-08-30 12:10:19.482] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:10:21.289] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/供应商'
-[2026-08-30 12:10:21.291] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
-[2026-08-30 12:10:21.292] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
-[2026-08-30 12:10:21.292] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
-[2026-08-30 12:10:21.293] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/供应商' from=63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:10:21.293] [DEBUG   ] (commands:handle_command:4756) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:10:21.298] [INFO    ] (commands:handle_command:4798) [-] 指令执行完成 [供应商]: 返回17字符
-[2026-08-30 12:10:50.006] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9830)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:10:58.332] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-30 12:10:58.370] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-30 12:10:58.372] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-30 12:10:58.373] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 12:10:58.373] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 12:10:58.373] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 12:10:58.375] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 12:10:58.376] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 12:10:58.399] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 12:10:58.399] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+# 更新于 2026-08-30 13:30:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
 [2026-08-30 12:10:58.400] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
 [2026-08-30 12:10:58.401] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
@@ -1499,3 +1466,36 @@
 [2026-08-30 13:29:17.122] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-30 13:29:19.719] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:29:50.230] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:30:20.762] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:30:23.131] [INFO    ] (qq_bot:_handle:167) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '喵呜～'
+[2026-08-30 13:30:23.136] [INFO    ] (qq_bot:_handle:176) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-qbXBkqHIMsVMRaKwYkfyZPVDnIQlGCqPezEkuHyB1HGW54zP-wapzDNsPMLztbMfLK7vOIcYRDE9IfsMXwqNnE!
+[2026-08-30 13:30:23.254] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
+[2026-08-30 13:30:23.443] [DEBUG   ] (pipeline:process_message:508) [-] 回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='喵呜～'
+[2026-08-30 13:30:23.443] [DEBUG   ] (pipeline:process_message:539) [-] 私聊消息 → 直接回复
+[2026-08-30 13:30:23.494] [DEBUG   ] (pipeline:process_message:599) [9062ad4bc78b4772] 请求意图: intent=chat fast_search=False msg='喵呜～'
+[2026-08-30 13:30:23.651] [WARNING ] (pipeline:process_message:647) [9062ad4bc78b4772] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 13:30:23.902] [DEBUG   ] (memory:_record_memory_trace:318) [9062ad4bc78b4772] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=147.8ms
+[2026-08-30 13:30:23.926] [INFO    ] (pipeline:process_message:807) [9062ad4bc78b4772] 额外信息: 163字 (memory=25 search=0)
+[2026-08-30 13:30:23.942] [INFO    ] (pipeline:process_message:940) [9062ad4bc78b4772] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 13:30:23.952] [DEBUG   ] (pipeline:process_message:1069) [9062ad4bc78b4772] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-30 13:30:23.953] [INFO    ] (pipeline:process_message:1072) [9062ad4bc78b4772] 开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:30:32.263] [INFO    ] (llm:generate_multi_reply_with_tools:971) [9062ad4bc78b4772] LLM原始输出 [轮1]: content={"replies":["喵呜～今天好开心！(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":2,"calls":[],"face":"开心1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"63C251709C77FDEE | tool_calls=0
+[2026-08-30 13:30:32.268] [WARNING ] (face_lib:_init:29) [9062ad4bc78b4772] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-08-30 13:30:32.271] [INFO    ] (llm:_parse_reply:1314) [9062ad4bc78b4772] JSON回复解析: 1句 fav=+2 calls=0 mood=开心
+[2026-08-30 13:30:32.276] [INFO    ] (fav:update_fav:126) [9062ad4bc78b4772] 好感度更新: p:1759953618 +2 → 60
+[2026-08-30 13:30:32.276] [INFO    ] (pipeline:process_message:1555) [9062ad4bc78b4772] 好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +2 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 13:30:32.276] [INFO    ] (memory:maybe_save_memory:401) [9062ad4bc78b4772] 触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
+[2026-08-30 13:30:32.276] [INFO    ] (pipeline:process_message:1561) [9062ad4bc78b4772] ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:30:32.276] [INFO    ] (qq_bot:_handle:167) [9062ad4bc78b4772] QQ 消息 [chat=qq:6EAA5C6B3896ED18FE5C82835C474A29 group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '喵呜～'
+[2026-08-30 13:30:32.277] [INFO    ] (qq_bot:_handle:176) [9062ad4bc78b4772] QQ 登记被动窗口 openid=6EAA5C6B3896ED18FE5C82835C474A29 group=True msg_id=ROBOT1.0_YxmTtz-NTQbFrJK.TurTmvs6dXCObTNW11nlZmStdG08oCkc0c2dmHcIwQUBtRB373Z7PtJi1CSxKdWvjEN7H4tFLO63SVIKZ-UV4I3iA4kNIqrVm3QhC6-bhktADRFg
+[2026-08-30 13:30:32.278] [DEBUG   ] (pipeline:process_message:508) [9062ad4bc78b4772] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵呜～'
+[2026-08-30 13:30:32.278] [INFO    ] (pipeline:process_message:546) [9062ad4bc78b4772] @机器人检测 → 直接回复
+[2026-08-30 13:30:32.279] [DEBUG   ] (pipeline:process_message:599) [9062ad4bc78b4772] 请求意图: intent=chat fast_search=False msg='喵呜～'
+[2026-08-30 13:30:32.279] [WARNING ] (pipeline:process_message:647) [9062ad4bc78b4772] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 13:30:32.280] [DEBUG   ] (response_delivery:send_sentences:283) [9062ad4bc78b4772] 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
+[2026-08-30 13:30:32.283] [INFO    ] (llm:call_llm:427) [9062ad4bc78b4772] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-30 13:30:32.291] [DEBUG   ] (memory:_record_memory_trace:318) [9062ad4bc78b4772] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=11.0ms
+[2026-08-30 13:30:32.291] [INFO    ] (pipeline:process_message:807) [9062ad4bc78b4772] 额外信息: 292字 (memory=25 search=0)
+[2026-08-30 13:30:32.296] [INFO    ] (pipeline:process_message:940) [9062ad4bc78b4772] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 13:30:32.299] [DEBUG   ] (pipeline:process_message:1069) [9062ad4bc78b4772] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-30 13:30:32.299] [INFO    ] (pipeline:process_message:1072) [9062ad4bc78b4772] 开始生成回复: speaker=若尘 ~喵 chat=qq:6EAA5C6B3896ED18FE5C82835C474A29
