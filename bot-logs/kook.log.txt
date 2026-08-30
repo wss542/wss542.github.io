@@ -1,9 +1,4 @@
-# 更新于 2026-08-31 03:00:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:03:42.385] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-31 00:03:42.387] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-31 00:03:42.388] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-31 00:03:42.388] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-31 00:03:42.392] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-08-31 03:00:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:03:42.392] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
 [2026-08-31 00:03:42.392] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 [2026-08-31 00:03:42.392] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
@@ -1499,3 +1494,8 @@
 [2026-08-31 03:00:00.956] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
 [2026-08-31 03:00:00.957] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
 [2026-08-31 03:00:00.957] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 86400 秒
+[2026-08-31 03:00:03.330] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=77.3 mem=51.6
+[2026-08-31 03:00:03.331] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:00:29.574] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 03:00:33.831] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=70.6 mem=51.6
+[2026-08-31 03:00:33.831] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
