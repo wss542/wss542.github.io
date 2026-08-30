@@ -1,4 +1,4 @@
-# 更新于 2026-08-31 00:05:09 · 共 121 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-31 00:05:45 · 共 124 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:03:22.955] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-31 00:03:23.501] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-31 00:03:40.769] [INFO    ] (logger:info:335) [-] ==================================================
@@ -120,3 +120,6 @@
 [2026-08-31 00:04:45.579] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 00:04:51.035] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=[] lyric_event=False lyric='-' keys=17
 [2026-08-31 00:04:52.246] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=587ms]: '**▶ 刀郎 - 冲动的惩罚**' song=刀郎 - 冲动的惩罚 playing=False channel=None
+[2026-08-31 00:05:16.112] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=99 cpu=63.5 mem=45.9
+[2026-08-31 00:05:16.113] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 00:05:21.633] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
