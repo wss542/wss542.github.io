@@ -1,15 +1,4 @@
-# 更新于 2026-08-30 16:09:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:10:46.884] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-30 13:10:46.884] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-30 13:10:46.898] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-30 13:10:46.898] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-30 13:10:46.898] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-30 13:10:46.899] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-30 13:10:46.899] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-30 13:10:46.901] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-30 13:10:46.902] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-30 13:10:46.902] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-30 13:10:46.903] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+# 更新于 2026-08-30 16:10:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:10:46.904] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
 [2026-08-30 13:10:46.905] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-08-30 13:10:46.905] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
@@ -1499,3 +1488,14 @@
 [2026-08-30 16:08:37.887] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 16:09:08.789] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 16:09:39.637] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 16:09:56.255] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/pc jp'
+[2026-08-30 16:09:56.257] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY7iWiS2T7HBQiUoupvUu9trd3UpBpmw-NUB93UjpYIHD179A9oyuGhPL3fUPAwUyfmeY55oMyHDKmpx5EuxKosJtxQCTepAyDNxCoDSX9nph
+[2026-08-30 16:09:56.262] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 16:09:56.287] [INFO    ] (pipeline:process_message:478) [57e5be5a2b2141b6] 指令拦截: '/pc jp' from=若尘 ~喵
+[2026-08-30 16:09:56.289] [DEBUG   ] (commands:handle_command:4881) [57e5be5a2b2141b6] 指令解析: prefix=/ cmd=pc args=['jp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 16:09:59.700] [INFO    ] (qq_transport:upload_media_file:413) [57e5be5a2b2141b6] QQ 分片上传成功 file=shot_f9335226.jpg size=356511 ttl=86400
+[2026-08-30 16:10:03.183] [INFO    ] (qq_transport:_send_message:234) [57e5be5a2b2141b6] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3GYd4agU6GbmnyRmgZ7FZipf21fqoEeTiluUZn3t6OLNsdn4no5O.h7BUt2gIWVvGg!!
+[2026-08-30 16:10:03.186] [INFO    ] (commands:handle_command:4938) [57e5be5a2b2141b6] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-30 16:10:03.187] [INFO    ] (logger:log_trace_summary:392) [57e5be5a2b2141b6] [TRACE 57e5be5a2b2141b6] total=6919.16ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6916.41ms(x1) (wall6916.41), queue_wait=9.41ms(x1)
+[2026-08-30 16:10:03.188] [WARNING ] (logger:log_trace_summary:415) [57e5be5a2b2141b6] [SLOW 57e5be5a2b2141b6] total=6920.49ms | process=6916.41ms(x1) (wall6916.41), queue_wait=9.41ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=9.41ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6916.41ms wall=6919.83ms dominant=other
+[2026-08-30 16:10:10.390] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
