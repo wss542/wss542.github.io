@@ -1,7 +1,4 @@
-# 更新于 2026-08-30 21:49:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:39:53.646] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-gXwB9WzCyVuAQkNnoMR6WmKzb3Omtld7GbSrwdn7JJQZKHoAgRfRjbo5kSURO.ASrK7vOIcYRDE9IfsMXwqNnE!
-[2026-08-30 17:39:53.646] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
-[2026-08-30 17:39:53.646] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+# 更新于 2026-08-30 21:49:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:39:53.649] [INFO    ] (pipeline:process_message:478) [e77d2e94c0934f91] 指令拦截: '/Steam' from=63C251709C77FDEE87FC502F866E3FB5
 [2026-08-30 17:39:53.649] [DEBUG   ] (commands:handle_command:4881) [e77d2e94c0934f91] 指令解析: prefix=/ cmd=steam args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-08-30 17:39:53.650] [INFO    ] (commands:handle_command:4936) [e77d2e94c0934f91] 指令执行完成 [steam]: 返回83字符
@@ -1499,3 +1496,6 @@
 [2026-08-30 21:48:03.712] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
 [2026-08-30 21:48:34.804] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
 [2026-08-30 21:49:05.739] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 21:49:34.837] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-08-30 21:49:34.837] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 21:49:35.932] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
