@@ -1,4 +1,4 @@
-# 更新于 2026-08-31 00:56:41 · 共 744 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-31 00:57:27 · 共 751 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:03:22.955] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-31 00:03:23.501] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-31 00:03:40.769] [INFO    ] (logger:info:335) [-] ==================================================
@@ -743,3 +743,10 @@
 [2026-08-31 00:56:19.737] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-223ms]: '**就把你忘记吧 应该把你忘了**' song=刀郎 - 冲动的惩罚 playing=False channel=None
 [2026-08-31 00:56:23.437] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-235ms]: '**这是对冲动最好的惩罚**' song=刀郎 - 冲动的惩罚 playing=False channel=None
 [2026-08-31 00:56:38.139] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
+[2026-08-31 00:56:45.228] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=35.1 mem=46.1
+[2026-08-31 00:56:45.228] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 00:56:45.364] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-08-31 00:56:45.365] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-31 00:57:08.793] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
+[2026-08-31 00:57:15.737] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=46.1
+[2026-08-31 00:57:15.738] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
