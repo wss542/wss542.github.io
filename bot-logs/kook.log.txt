@@ -1,137 +1,4 @@
-# 更新于 2026-08-30 13:44:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=at args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /at (user=qq:63C251709C77FDEE87FC502F866E3FB5)
-[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=emoji args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /emoji (user=qq:63C251709C77FDEE87FC502F866E3FB5)
-[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=mention args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /mention (user=qq:63C251709C77FDEE87FC502F866E3FB5)
-[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:36.353] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
-[2026-08-30 12:27:36.412] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-30 12:27:37.352] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 12:27:39.750] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 3084s
-[2026-08-30 12:27:42.798] [INFO    ] (qq_transport:upload_media_file:337) [-] QQ 分片上传成功 file=help_card.png size=435448 ttl=86400
-[2026-08-30 12:27:44.441] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(主动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqpqtvocdjSDEnBRUvVFRiPhv0XGT0asWd80WzUDa8zHhzPlo8.T0FtAntLLDKShawg!!
-[2026-08-30 12:27:44.442] [INFO    ] (commands:handle_command:4934) [-] 指令执行完成 [help]: 无返回值（已自行发送）
-[2026-08-30 12:27:44.442] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=身份 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:44.443] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 0 条
-[2026-08-30 12:27:44.443] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [身份]: 返回170字符
-[2026-08-30 12:27:44.443] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=身份列表 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [身份列表]: 返回14字符
-[2026-08-30 12:27:44.444] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=禁言 args=[] user=1759953618
-[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [禁言]: 返回17字符
-[2026-08-30 12:27:44.444] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=role args=[] user=1759953618
-[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [role]: 返回17字符
-[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=退群 args=[] user=1759953618
-[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [退群]: 返回59字符
-[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=at args=[] user=1759953618
-[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [at]: 返回21字符
-[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=emoji args=[] user=1759953618
-[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [emoji]: 返回35字符
-[2026-08-30 12:27:57.310] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:28:27.766] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:28:58.357] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:29:28.855] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:29:46.293] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:29:46.298] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 0 条
-[2026-08-30 12:29:46.299] [INFO    ] (fav:update_fav:126) [-] 好感度更新: p:qq:BBBB1111BBBB1111BBBB1111BBBB1111 +7 → 57
-[2026-08-30 12:29:46.299] [INFO    ] (identity:bind:167) [-] 身份绑定成功 QQ 63C251709C77FDEE87FC502F866E3FB5 ↔ KOOK 1759953618
-[2026-08-30 12:29:46.300] [INFO    ] (fav:update_fav:126) [-] 好感度更新: p:1759953618 +10 → 68
-[2026-08-30 12:29:46.300] [INFO    ] (identity:unbind:190) [-] 身份解绑成功 QQ 63C251709C77FDEE87FC502F866E3FB5 ↔ KOOK 1759953618
-[2026-08-30 12:29:59.486] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:30:19.168] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:30:19.173] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 0 条
-[2026-08-30 12:30:19.174] [INFO    ] (identity:bind:167) [-] 身份绑定成功 QQ 63C251709C77FDEE87FC502F866E3FB5 ↔ KOOK 1759953618
-[2026-08-30 12:30:19.220] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-30 12:30:19.258] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-30 12:30:19.267] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-30 12:30:19.273] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 12:30:19.273] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 12:30:19.274] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 12:30:19.274] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 12:30:19.274] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-30 12:30:19.343] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 12:30:19.344] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 12:30:19.344] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 12:30:19.344] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 12:30:19.344] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 12:30:19.345] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-08-30 12:30:19.409] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-30 12:30:19.409] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-30 12:30:19.410] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-30 12:30:19.830] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-30 12:30:20.490] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:30:20.511] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 12:30:21.750] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:30:21.750] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-30 12:30:21.750] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:30:21.754] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-30 12:30:21.754] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-30 12:30:21.755] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-30 12:30:21.756] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-30 12:30:21.756] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-30 12:30:21.756] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-30 12:30:21.757] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-30 12:30:22.052] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-30 12:30:22.052] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-30 12:30:22.064] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-30 12:30:22.064] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-30 12:30:22.395] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-30 12:30:22.416] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-30 12:30:22.416] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-30 12:30:22.417] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-30 12:30:22.419] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-30 12:30:22.419] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-30 12:30:22.419] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-30 12:30:22.420] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-30 12:30:22.420] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-30 12:30:22.425] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 12:30:22.425] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-30 12:30:22.426] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-30 12:30:22.426] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-30 12:30:22.437] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 12:30:22.438] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 12:30:22.438] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-30 12:30:22.450] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-30 12:30:22.450] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-30 12:30:22.451] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-30 12:30:22.451] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-30 12:30:22.451] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-30 12:30:22.451] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-30 12:30:22.451] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-30 12:30:22.451] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-30 12:30:22.452] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-30 12:30:22.452] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-30 12:30:22.452] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-30 12:30:22.453] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-30 12:30:22.453] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-30 12:30:22.453] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-30 12:30:22.454] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-08-30 12:30:22.454] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-08-30 12:30:22.455] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-08-30 12:30:22.456] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-30 12:30:22.456] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-30 12:30:22.460] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-30 12:30:22.460] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-30 12:30:22.460] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-30 12:30:22.461] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-30 12:30:22.461] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-30 12:30:22.462] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-30 12:30:22.462] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-30 12:30:22.462] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-30 12:30:22.463] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-30 12:30:22.463] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-30 12:30:22.464] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-30 12:30:22.464] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-30 12:30:22.465] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-30 12:30:22.465] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-30 12:30:22.465] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-30 12:30:22.468] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+# 更新于 2026-08-30 13:45:28 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:30:22.468] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
 [2026-08-30 12:30:22.469] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
 [2026-08-30 12:30:22.470] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
@@ -1499,3 +1366,136 @@
 [2026-08-30 13:44:24.908] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1501)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:44:41.001] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-30 13:44:41.034] [INFO    ] (identity:_ensure_loaded:92) [-] 身份映射已载入 1 条
+[2026-08-30 13:44:50.569] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
+[2026-08-30 13:44:50.588] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
+[2026-08-30 13:44:50.588] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+[2026-08-30 13:44:50.589] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
+[2026-08-30 13:44:50.590] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
+[2026-08-30 13:44:50.590] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
+[2026-08-30 13:44:50.590] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
+[2026-08-30 13:44:50.590] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
+[2026-08-30 13:44:50.623] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
+[2026-08-30 13:44:50.624] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+[2026-08-30 13:44:50.625] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
+[2026-08-30 13:44:50.625] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+[2026-08-30 13:44:50.625] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+[2026-08-30 13:44:50.625] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
+[2026-08-30 13:44:50.626] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
+[2026-08-30 13:44:50.626] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
+[2026-08-30 13:44:50.626] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
+[2026-08-30 13:44:50.627] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
+[2026-08-30 13:44:50.628] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
+[2026-08-30 13:44:50.632] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+[2026-08-30 13:44:50.632] [INFO    ] (logger:info:335) [-] 👋 再见！
+[2026-08-30 13:44:50.636] [INFO    ] (logger:info:335) [-] 应用程序已退出
+[2026-08-30 13:44:51.088] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
+[2026-08-30 13:44:52.149] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 13:44:52.173] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 13:44:53.878] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:44:53.879] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-08-30 13:44:53.880] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:44:53.885] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+[2026-08-30 13:44:53.885] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-08-30 13:44:53.888] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-08-30 13:44:53.889] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-08-30 13:44:53.889] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-08-30 13:44:53.889] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-08-30 13:44:53.889] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-08-30 13:44:54.135] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-08-30 13:44:54.135] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-08-30 13:44:54.149] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-08-30 13:44:54.149] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+[2026-08-30 13:44:54.493] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+[2026-08-30 13:44:54.516] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+[2026-08-30 13:44:54.516] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+[2026-08-30 13:44:54.518] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+[2026-08-30 13:44:54.519] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
+[2026-08-30 13:44:54.519] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+[2026-08-30 13:44:54.519] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
+[2026-08-30 13:44:54.520] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+[2026-08-30 13:44:54.520] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+[2026-08-30 13:44:54.524] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 13:44:54.525] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+[2026-08-30 13:44:54.525] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[2026-08-30 13:44:54.525] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+[2026-08-30 13:44:54.538] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+[2026-08-30 13:44:54.539] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+[2026-08-30 13:44:54.540] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+[2026-08-30 13:44:54.553] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+[2026-08-30 13:44:54.554] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+[2026-08-30 13:44:54.555] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+[2026-08-30 13:44:54.555] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
+[2026-08-30 13:44:54.555] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+[2026-08-30 13:44:54.556] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+[2026-08-30 13:44:54.556] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+[2026-08-30 13:44:54.556] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
+[2026-08-30 13:44:54.558] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+[2026-08-30 13:44:54.558] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+[2026-08-30 13:44:54.559] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+[2026-08-30 13:44:54.559] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+[2026-08-30 13:44:54.559] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
+[2026-08-30 13:44:54.566] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+[2026-08-30 13:44:54.566] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+[2026-08-30 13:44:54.566] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
+[2026-08-30 13:44:54.568] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
+[2026-08-30 13:44:54.568] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+[2026-08-30 13:44:54.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+[2026-08-30 13:44:54.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+[2026-08-30 13:44:54.570] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
+[2026-08-30 13:44:54.571] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+[2026-08-30 13:44:54.571] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+[2026-08-30 13:44:54.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+[2026-08-30 13:44:54.572] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
+[2026-08-30 13:44:54.574] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+[2026-08-30 13:44:54.574] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+[2026-08-30 13:44:54.574] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+[2026-08-30 13:44:54.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+[2026-08-30 13:44:54.576] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+[2026-08-30 13:44:54.577] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+[2026-08-30 13:44:54.578] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
+[2026-08-30 13:44:54.578] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+[2026-08-30 13:44:54.579] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
+[2026-08-30 13:44:54.579] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+[2026-08-30 13:44:54.579] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+[2026-08-30 13:44:54.579] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[2026-08-30 13:44:54.579] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:44:54.579] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
+[2026-08-30 13:44:54.579] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 13:44:54.580] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+[2026-08-30 13:44:54.582] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+[2026-08-30 13:44:54.638] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-08-30 13:44:54.640] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+[2026-08-30 13:44:54.641] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 2h16m 后执行 (16:01)
+[2026-08-30 13:44:54.658] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-30 13:45:09.666] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-30 13:45:09.673] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 48s 前）
+[2026-08-30 13:45:09.675] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-30 13:45:09.686] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-30 13:45:09.686] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-30 13:45:09.686] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-30 13:45:09.686] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-30 13:45:09.687] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-30 13:45:09.688] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-30 13:45:09.804] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-30 13:45:09.805] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-30 13:45:09.910] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-30 13:45:09.910] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 13:45:11.275] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-30 13:45:11.524] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
+[2026-08-30 13:45:11.524] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-30 13:45:11.524] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 36893 秒 (下次 00:00:05)
+[2026-08-30 13:45:11.698] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-30 13:45:12.043] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-30 13:45:12.043] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-30 13:45:12.045] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-08-30 13:45:12.045] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-30 13:45:12.347] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 5627s
+[2026-08-30 13:45:12.906] [INFO    ] (qq_bot:_run_once:99) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 13:45:12.929] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:45:13.144] [INFO    ] (qq_bot:_run_once:116) [-] QQ HELLO interval=41250
