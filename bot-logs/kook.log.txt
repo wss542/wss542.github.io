@@ -1,19 +1,4 @@
-# 更新于 2026-08-30 11:20:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:22:29.588] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-30 00:22:29.588] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-30 00:22:29.797] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-30 00:22:29.816] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-30 00:22:29.816] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-30 00:22:29.817] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-30 00:22:29.818] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-30 00:22:29.818] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-30 00:22:29.819] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-30 00:22:29.819] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-30 00:22:29.819] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-30 00:22:29.822] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 00:22:29.822] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-30 00:22:29.822] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-30 00:22:29.822] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+# 更新于 2026-08-30 11:20:47 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:22:29.828] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
 [2026-08-30 00:22:29.828] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 [2026-08-30 00:22:29.828] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
@@ -1499,3 +1484,18 @@
 [2026-08-30 11:19:04.040] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-08-30 11:19:04.375] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
 [2026-08-30 11:19:56.832] [INFO    ] (bot:_bg_pc_offline_checker:807) [-] 主电脑掉线告警已发送: 618 分钟无心跳
+[2026-08-30 11:20:06.629] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 11:20:06.638] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 5' is_edit=False
+[2026-08-30 11:20:06.638] [DEBUG   ] (dispatcher:_dispatch_inner:110) [46eed859822d41d8] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-08-30 11:20:06.643] [INFO    ] (dispatcher:_dispatch_inner:308) [46eed859822d41d8] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/禁言 (met)1759953618(met) 5'
+[2026-08-30 11:20:06.651] [INFO    ] (queues:_get_or_create_queue:32) [46eed859822d41d8] [队列] 创建群1010983873136793 的独立消息队列
+[2026-08-30 11:20:06.651] [DEBUG   ] (queues:enqueue_message:75) [46eed859822d41d8] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-08-30 11:20:06.658] [INFO    ] (memory:merge_overflow_memory:419) [84cef0e4e25f47a4] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-08-30 11:20:06.697] [INFO    ] (pipeline:process_message:478) [84cef0e4e25f47a4] 指令拦截: '/禁言 @ywandwss  5' from=ywandwss
+[2026-08-30 11:20:06.698] [DEBUG   ] (commands:handle_command:4756) [84cef0e4e25f47a4] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '5'] user=1759953618
+[2026-08-30 11:20:07.039] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 11:20:07.147] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 11:20:07.484] [INFO    ] (commands:handle_command:4798) [84cef0e4e25f47a4] 指令执行完成 [禁言]: 返回42字符
+[2026-08-30 11:20:07.488] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 11:20:07.499] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 11:20:08.168] [INFO    ] (logger:log_trace_summary:392) [84cef0e4e25f47a4] [TRACE 84cef0e4e25f47a4] total=1515.25ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1515.17ms(x1) (wall1515.17), queue_wait=2.79ms(x1)
