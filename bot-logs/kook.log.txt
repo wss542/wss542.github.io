@@ -1,15 +1,4 @@
-# 更新于 2026-08-31 04:01:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:30:51.838] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-31 00:30:52.162] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-08-31 00:30:52.163] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-31 00:30:52.180] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-31 00:30:52.181] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-31 00:30:52.555] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-31 00:30:52.575] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-31 00:30:52.575] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-31 00:30:52.576] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-31 00:30:52.577] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-31 00:30:52.578] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+# 更新于 2026-08-31 04:02:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:30:52.578] [WARNING ] (context_manager:_load_from_disk:55) [-] 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
 [2026-08-31 00:30:52.579] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
 [2026-08-31 00:30:52.580] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
@@ -1499,3 +1488,14 @@
 [2026-08-31 04:01:48.749] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: sent 1011 (internal error) keepalive ping timeout; no close frame received，5s 后重连
 [2026-08-31 04:01:54.281] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-08-31 04:01:54.435] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-31 04:02:03.893] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=70.5
+[2026-08-31 04:02:03.893] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 04:02:05.790] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-31 04:02:09.683] [ERROR   ] (kook_transport:get_channel:80) [-] fetch_public_channel 失败 3649029148752421: Cannot connect to host www.kookapp.cn:443 ssl:default [Connect call failed ('172.31.255.254', 443)]
+[2026-08-31 04:02:09.684] [INFO    ] (bot:_bg_wdsj_collector:726) [-] 日榜已发到频道 3649029148752421
+[2026-08-31 04:02:09.685] [INFO    ] (bot:_bg_wdsj_collector:729) [-] 日榜已推送: 3 人 (2026-08-31)
+[2026-08-31 04:02:09.685] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h58m 后执行 (08:01)
+[2026-08-31 04:02:28.659] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-31 04:02:28.665] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 04:02:28.764] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=24.4 mem=70.5
+[2026-08-31 04:02:28.765] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
