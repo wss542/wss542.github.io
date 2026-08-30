@@ -1,19 +1,4 @@
-# 更新于 2026-08-30 22:32:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:45:40.392] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
-[2026-08-30 17:45:41.459] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 17:45:41.461] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 17:45:41.461] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 22464 秒 (下次 00:00:05)
-[2026-08-30 17:45:42.203] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 17:45:42.638] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 17:45:42.639] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 17:45:42.640] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 17:45:42.640] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 17:45:42.888] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7195s
-[2026-08-30 17:45:43.480] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 17:45:43.675] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-08-30 17:46:10.864] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
-[2026-08-30 17:46:41.477] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
-[2026-08-30 17:47:11.945] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+# 更新于 2026-08-30 22:33:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:47:42.673] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:48:13.282] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:48:44.310] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11922)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
@@ -1499,3 +1484,18 @@
 [2026-08-30 22:32:46.345] [INFO    ] (commands:handle_command:4897) [3fb3ffecdf0448fd] 指令执行完成 [wdsj]: 无返回值（已自行发送）
 [2026-08-30 22:32:46.345] [INFO    ] (logger:log_trace_summary:392) [3fb3ffecdf0448fd] [TRACE 3fb3ffecdf0448fd] total=18412.65ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=18412.56ms(x1) (wall18412.56), queue_wait=0.49ms(x1)
 [2026-08-30 22:32:46.345] [WARNING ] (logger:log_trace_summary:410) [3fb3ffecdf0448fd] [VERY_SLOW 3fb3ffecdf0448fd] total=18412.97ms 需重点排查 | process=18412.56ms(x1) (wall18412.56), queue_wait=0.49ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.49ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=18412.56ms wall=18412.94ms dominant=other
+[2026-08-30 22:32:48.148] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 22:33:07.435] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-08-30 22:33:08.017] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 22:33:08.237] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-30 22:33:18.178] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 22:33:42.359] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj me'
+[2026-08-30 22:33:42.360] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7JzHIjjXSHFS3q9v3jfeFQTJhR1DslBOXau227HVB95f3RmXGAspwM1B6hLdqbRoTbmxF-idjmj9RP1R-k3Y7twNIqrVm3QhC6-bhktADRFg
+[2026-08-30 22:33:42.360] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 22:33:42.362] [INFO    ] (pipeline:process_message:478) [dca28516a0bd4fee] 指令拦截: '/wdsj me' from=繁
+[2026-08-30 22:33:42.362] [DEBUG   ] (commands:handle_command:4840) [dca28516a0bd4fee] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-08-30 22:33:42.363] [INFO    ] (commands:_wdsj_send_one:2504) [dca28516a0bd4fee] wdsj 单模板查询: player=muyibo template=bw(bedwars-stats) img=True
+[2026-08-30 22:33:48.246] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 22:33:48.826] [INFO    ] (qq_transport:upload_media_file:413) [dca28516a0bd4fee] QQ 分片上传成功 file=wdsj_20260830_67230711.png size=217370 ttl=86400
+[2026-08-30 22:33:51.357] [INFO    ] (qq_transport:_send_message:234) [dca28516a0bd4fee] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3D1wYzteQpcA16uaNGzPWogNFi323qs7.trBwUqMX7oorKI2nqOkksFElBKktmjuIg!!
+[2026-08-30 22:33:51.357] [INFO    ] (commands:_wdsj_send_one:2504) [dca28516a0bd4fee] wdsj 单模板查询: player=muyibo template=jjc(arena-stats) img=True
