@@ -1,31 +1,4 @@
-# 更新于 2026-08-30 13:01:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 11:18:54.627] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-30 11:18:54.630] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-30 11:18:54.630] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-30 11:18:54.632] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-30 11:18:54.632] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-30 11:18:54.632] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-30 11:18:54.634] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-30 11:18:54.634] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-30 11:18:54.635] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-30 11:18:54.636] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-30 11:18:54.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-30 11:18:54.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-30 11:18:54.638] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-30 11:18:54.642] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-30 11:18:54.643] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-30 11:18:54.646] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-30 11:18:54.647] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-30 11:18:54.647] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-08-30 11:18:54.648] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-30 11:18:54.649] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-30 11:18:54.649] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-08-30 11:18:54.649] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-30 11:18:54.650] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 11:18:54.650] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-30 11:18:54.650] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 11:18:54.650] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-30 11:18:54.652] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+# 更新于 2026-08-30 13:02:15 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 11:18:54.758] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
 [2026-08-30 11:18:54.763] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-30 11:18:54.765] [INFO    ] (bot:_bg_wdsj_collector:664) [-] 上次采集 2026-08-30T00:01 距今超过 4h，启动时立即补采
@@ -1499,3 +1472,30 @@
 [2026-08-30 13:00:30.708] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 1113s
 [2026-08-30 13:00:42.915] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:01:13.731] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:01:29.609] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 13:01:29.909] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 1054s
+[2026-08-30 13:01:44.378] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:01:48.190] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 13:01:48.221] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/绑定' is_edit=False
+[2026-08-30 13:01:48.228] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8c0e5e79e9664916] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-30 13:01:48.234] [INFO    ] (dispatcher:_dispatch_inner:308) [8c0e5e79e9664916] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/绑定'
+[2026-08-30 13:01:48.238] [INFO    ] (queues:_get_or_create_queue:32) [8c0e5e79e9664916] [队列] 创建群9844130976336955 的独立消息队列
+[2026-08-30 13:01:48.239] [DEBUG   ] (queues:enqueue_message:75) [8c0e5e79e9664916] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-30 13:01:48.245] [INFO    ] (memory:merge_overflow_memory:419) [178028526964457d] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-08-30 13:01:48.246] [INFO    ] (pipeline:process_message:478) [178028526964457d] 指令拦截: '/绑定' from=ywandwss
+[2026-08-30 13:01:48.248] [DEBUG   ] (commands:handle_command:4881) [178028526964457d] 指令解析: prefix=/ cmd=绑定 args=[] user=1759953618
+[2026-08-30 13:01:48.262] [INFO    ] (commands:handle_command:4936) [178028526964457d] 指令执行完成 [绑定]: 返回40字符
+[2026-08-30 13:01:48.975] [INFO    ] (logger:log_trace_summary:392) [178028526964457d] [TRACE 178028526964457d] total=734.19ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=732.74ms(x1) (wall732.74), queue_wait=1.73ms(x1)
+[2026-08-30 13:01:48.987] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 13:01:54.404] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 13:01:54.405] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/身份' is_edit=False
+[2026-08-30 13:01:54.405] [DEBUG   ] (dispatcher:_dispatch_inner:110) [e3bb916b79464ae6] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-30 13:01:54.405] [INFO    ] (dispatcher:_dispatch_inner:308) [e3bb916b79464ae6] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/身份'
+[2026-08-30 13:01:54.406] [DEBUG   ] (queues:enqueue_message:75) [e3bb916b79464ae6] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-30 13:01:54.407] [INFO    ] (memory:merge_overflow_memory:419) [23a9a989b9f64b1c] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+[2026-08-30 13:01:54.409] [INFO    ] (pipeline:process_message:478) [23a9a989b9f64b1c] 指令拦截: '/身份' from=ywandwss
+[2026-08-30 13:01:54.409] [DEBUG   ] (commands:handle_command:4881) [23a9a989b9f64b1c] 指令解析: prefix=/ cmd=身份 args=[] user=1759953618
+[2026-08-30 13:01:54.409] [INFO    ] (commands:handle_command:4936) [23a9a989b9f64b1c] 指令执行完成 [身份]: 返回67字符
+[2026-08-30 13:01:54.825] [INFO    ] (logger:log_trace_summary:392) [23a9a989b9f64b1c] [TRACE 23a9a989b9f64b1c] total=417.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=417.62ms(x1) (wall417.62), queue_wait=1.18ms(x1)
+[2026-08-30 13:01:54.838] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 13:02:15.150] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
