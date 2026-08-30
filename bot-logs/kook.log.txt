@@ -1,20 +1,4 @@
-# 更新于 2026-08-30 14:33:03 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 12:52:55.073] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 12:52:55.079] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-08-30 12:52:55.247] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-30 12:52:55.248] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-30 12:52:55.253] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-30 12:52:56.289] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-30 12:52:58.773] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 12:52:58.805] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 12:53:00.569] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:53:00.569] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-30 12:53:00.570] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:53:00.573] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+# 更新于 2026-08-30 14:33:38 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:53:00.573] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
 [2026-08-30 12:53:00.575] [INFO    ] (logger:info:335) [-] 语言文件已加载
 [2026-08-30 12:53:00.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
@@ -1499,3 +1483,19 @@
 [2026-08-30 14:33:03.732] [DEBUG   ] (commands:handle_command:4881) [227de32cdcef41a1] 指令解析: prefix=/ cmd=歌词 args=['on'] user=1759953618
 [2026-08-30 14:33:03.732] [INFO    ] (commands:cmd_lyric:3440) [227de32cdcef41a1] 🎵 歌词推送开启: channel=9844130976336955 user=ywandwss(1759953618)
 [2026-08-30 14:33:03.732] [INFO    ] (commands:handle_command:4936) [227de32cdcef41a1] 指令执行完成 [歌词]: 返回43字符
+[2026-08-30 14:33:04.286] [INFO    ] (pc_status:_handle_client:119) [-] 切歌兜底推送 [old=(空) new=Double X - Улеталиптицамигорды has_lyric_event=False channel=9844130976336955]
+[2026-08-30 14:33:04.287] [INFO    ] (pc_status:_send_lyric:225) [-] _send_lyric 被调用: text=**▶ Double X - Улеталиптицамиг channel=9844130976336955
+[2026-08-30 14:33:04.402] [INFO    ] (logger:log_trace_summary:392) [227de32cdcef41a1] [TRACE 227de32cdcef41a1] total=673.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=673.04ms(x1) (wall673.04), queue_wait=0.99ms(x1)
+[2026-08-30 14:33:04.997] [INFO    ] (pc_status:_send_lyric:244) [-] 歌词已发送到 KOOK: **▶ Double X - Улеталиптицамигордыми**
+[2026-08-30 14:33:16.259] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 14:33:16.259] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/歌词 off' is_edit=False
+[2026-08-30 14:33:16.260] [DEBUG   ] (dispatcher:_dispatch_inner:110) [99b98e0d7d6b472d] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-30 14:33:16.260] [INFO    ] (dispatcher:_dispatch_inner:308) [99b98e0d7d6b472d] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/歌词 off'
+[2026-08-30 14:33:16.260] [DEBUG   ] (queues:enqueue_message:75) [99b98e0d7d6b472d] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-30 14:33:16.262] [INFO    ] (memory:merge_overflow_memory:419) [a91c9104e1bf4844] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+[2026-08-30 14:33:16.263] [INFO    ] (pipeline:process_message:478) [a91c9104e1bf4844] 指令拦截: '/歌词 off' from=ywandwss
+[2026-08-30 14:33:16.263] [DEBUG   ] (commands:handle_command:4881) [a91c9104e1bf4844] 指令解析: prefix=/ cmd=歌词 args=['off'] user=1759953618
+[2026-08-30 14:33:16.263] [INFO    ] (commands:cmd_lyric:3446) [a91c9104e1bf4844] 🎵 歌词推送关闭: user=ywandwss(1759953618)
+[2026-08-30 14:33:16.264] [INFO    ] (commands:handle_command:4936) [a91c9104e1bf4844] 指令执行完成 [歌词]: 返回10字符
+[2026-08-30 14:33:16.641] [INFO    ] (logger:log_trace_summary:392) [a91c9104e1bf4844] [TRACE a91c9104e1bf4844] total=379.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=379.94ms(x1) (wall379.94), queue_wait=1.13ms(x1)
+[2026-08-30 14:33:32.425] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
