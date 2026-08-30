@@ -1,29 +1,4 @@
-# 更新于 2026-08-30 16:04:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:10:46.274] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-30 13:10:46.803] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-30 13:10:46.841] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-30 13:10:46.841] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-30 13:10:46.844] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-30 13:10:46.847] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-30 13:10:46.847] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-30 13:10:46.849] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-30 13:10:46.849] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-30 13:10:46.849] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-30 13:10:46.853] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 13:10:46.853] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-30 13:10:46.854] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-30 13:10:46.854] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-30 13:10:46.871] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 13:10:46.871] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 13:10:46.871] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-30 13:10:46.879] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-30 13:10:46.879] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-30 13:10:46.879] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-30 13:10:46.879] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-30 13:10:46.880] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-30 13:10:46.880] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-30 13:10:46.880] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-30 13:10:46.880] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+# 更新于 2026-08-30 16:05:10 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:10:46.881] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 [2026-08-30 13:10:46.881] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
 [2026-08-30 13:10:46.881] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
@@ -1499,3 +1474,28 @@
 [2026-08-30 16:04:07.798] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=632ms]: '**柴米油盐的麻烦**' song=阿肆 - 喜欢 playing=True channel=None
 [2026-08-30 16:04:10.068] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=166ms]: '**扛住了**' song=阿肆 - 喜欢 playing=True channel=None
 [2026-08-30 16:04:11.197] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=696ms]: '**朋友聚会的调侃**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:13.469] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=184ms]: '**扛住了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:14.606] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=632ms]: '**世俗生活的刁难**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:16.869] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=120ms]: '**却扛不住**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:19.157] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=559ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:21.440] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1150ms]: '**躲过了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:21.442] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=521ms]: '**世界末日的灾难**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:23.711] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=57ms]: '**明白了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:24.846] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=560ms]: '**真心是千金不换**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:27.115] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=73ms]: '**躲过了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:28.247] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=590ms]: '**大悲狂喜的极端**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:30.511] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=54ms]: '**却躲不过**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:32.768] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**对你的喜欢**' keys=18
+[2026-08-30 16:04:32.768] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=372ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:36.161] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=323ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:39.552] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=225ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:42.940] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=413ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:46.330] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=339ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:50.857] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=982ms]: '**对你越喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:53.127] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=29ms]: '**让我越难堪**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:56.517] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=65ms]: '**然而再难堪**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:04:59.937] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=66ms]: '**我依然**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:05:01.073] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-92ms]: '**喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:05:03.354] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**喜欢**' keys=18
+[2026-08-30 16:05:04.501] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=329ms]: '**键盘 : 张伟**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:05:05.641] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1038ms]: '**混音 : YOCHO**' song=阿肆 - 喜欢 playing=True channel=None
