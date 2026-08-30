@@ -1,11 +1,4 @@
-# 更新于 2026-08-30 21:33:00 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:29:44.361] [INFO    ] (pipeline:process_message:628) [c81abcb9d96c49cb] 复杂度: level=task score=15 scale=1.8
-[2026-08-30 17:29:44.364] [WARNING ] (pipeline:process_message:647) [c81abcb9d96c49cb] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-30 17:29:44.450] [DEBUG   ] (memory:_record_memory_trace:318) [c81abcb9d96c49cb] 记忆检索: source=legacy_file status=hit 命中注入=2 耗时=83.7ms
-[2026-08-30 17:29:44.457] [INFO    ] (pipeline:process_message:807) [c81abcb9d96c49cb] 额外信息: 640字 (memory=158 search=0)
-[2026-08-30 17:29:44.464] [INFO    ] (pipeline:process_message:940) [c81abcb9d96c49cb] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-30 17:29:44.469] [INFO    ] (llm:call_llm:427) [c81abcb9d96c49cb] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=10 temp=0.1 timeout=5.0s
-[2026-08-30 17:29:45.427] [INFO    ] (llm:call_llm:489) [c81abcb9d96c49cb] LLM [Qwen/Qwen3-235B-A22B] 返回 7字符 耗时0.9s → "writing"
+# 更新于 2026-08-30 21:33:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:29:45.428] [INFO    ] (writing:is_writing_request:72) [c81abcb9d96c49cb] 意图判断: '请写出永动机的制造过程' → writing
 [2026-08-30 17:29:45.429] [INFO    ] (pipeline:process_message:953) [c81abcb9d96c49cb] 写作请求检测: from=若尘 ~喵
 [2026-08-30 17:29:45.429] [INFO    ] (writing:generate_and_send_file:114) [c81abcb9d96c49cb] 写作管道启动: from=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F len=11
@@ -1499,3 +1492,10 @@
 [2026-08-30 21:32:40.956] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=93 cpu=None mem=None
 [2026-08-30 21:32:40.956] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-30 21:32:53.010] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
+[2026-08-30 21:33:05.007] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=93 cpu=None mem=None
+[2026-08-30 21:33:05.008] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 21:33:05.936] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 21:33:06.153] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-30 21:33:13.421] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-30 21:33:13.469] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
+[2026-08-30 21:33:44.465] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
