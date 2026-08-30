@@ -1,9 +1,4 @@
-# 更新于 2026-08-30 19:28:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 15:49:54.882] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/luck'
-[2026-08-30 15:49:54.882] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY5QScyB6m2MIPZN56Vlj9u1vQMP9oV2nndoMhWzwKKzcjb0h8fHXvQW2J4iJyx.yb0f-zpX2BsTkJWGT2L7Rb6JtxQCTepAyDNxCoDSX9nph
-[2026-08-30 15:49:54.883] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-08-30 15:49:54.885] [INFO    ] (pipeline:process_message:478) [837861ef33d6492e] 指令拦截: '/luck' from=若尘 ~喵
-[2026-08-30 15:49:54.886] [DEBUG   ] (commands:handle_command:4881) [837861ef33d6492e] 指令解析: prefix=/ cmd=luck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+# 更新于 2026-08-30 19:29:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 15:49:54.886] [INFO    ] (commands:cmd_luck:757) [837861ef33d6492e] 指令 /luck 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-08-30 15:49:54.887] [INFO    ] (commands:handle_command:4936) [837861ef33d6492e] 指令执行完成 [luck]: 返回58字符
 [2026-08-30 15:49:56.512] [INFO    ] (qq_transport:_send_message:234) [837861ef33d6492e] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=58 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Hzm3hS5UGpyuj01XRDhyHZw9JvB67.NXF93X7iA0P7HRuW3TPyVtCHOsBfinPbp.g!!
@@ -1499,3 +1494,8 @@
 [2026-08-30 19:27:17.714] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 19:27:48.477] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 19:28:19.082] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:28:41.022] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-30 19:28:41.033] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-08-30 19:28:41.798] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 19:28:41.990] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-30 19:28:49.795] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
