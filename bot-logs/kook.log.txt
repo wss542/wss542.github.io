@@ -1,9 +1,4 @@
-# 更新于 2026-08-31 03:36:29 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:16:55.670] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-08-31 00:16:55.673] [INFO    ] (memory:merge_overflow_memory:419) [18b96ee5b8924405] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 5条 (阈值=10)
-[2026-08-31 00:16:55.673] [INFO    ] (pipeline:process_message:478) [18b96ee5b8924405] 指令拦截: '/help' from=ᗜ𖥦ᗜ
-[2026-08-31 00:16:55.673] [DEBUG   ] (commands:handle_command:4840) [18b96ee5b8924405] 指令解析: prefix=/ cmd=help args=[] user=qq:65CF09CABE1EF16FA2EA2EC26F8B57C4
-[2026-08-31 00:16:55.675] [INFO    ] (commands:cmd_help:187) [18b96ee5b8924405] 指令 /help 触发 user=qq:65CF09CABE1EF16FA2EA2EC26F8B57C4 args=[]
+# 更新于 2026-08-31 03:37:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:17:02.167] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
 [2026-08-31 00:17:02.638] [INFO    ] (qq_transport:upload_media_file:413) [18b96ee5b8924405] QQ 分片上传成功 file=help_card.png size=435480 ttl=86400
 [2026-08-31 00:17:05.423] [INFO    ] (qq_transport:_send_message:234) [18b96ee5b8924405] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3DmlwPrMOQ78Kb9qc8TBe2bUwnzW3uIlk.G9rFYGaljmiWJ2AaFguOPjxyIVEKPT4g!!
@@ -1499,3 +1494,8 @@
 [2026-08-31 03:35:44.563] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 03:35:47.625] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
 [2026-08-31 03:36:18.451] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
+[2026-08-31 03:36:30.244] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=54.0 mem=66.0
+[2026-08-31 03:36:30.245] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:36:49.073] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 53694)]: music=[] lyric_event=False lyric='-' keys=16
+[2026-08-31 03:37:00.731] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=92.9 mem=66.7
+[2026-08-31 03:37:00.731] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
