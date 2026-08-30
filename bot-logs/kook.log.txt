@@ -1,27 +1,4 @@
-# 更新于 2026-08-30 12:35:33 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:45:53.785] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-30 00:45:53.785] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-30 00:46:14.069] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-30 00:46:20.108] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 00:46:20.133] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 00:46:21.782] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 00:46:21.783] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-30 00:46:21.783] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 00:46:21.787] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-30 00:46:21.788] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-30 00:46:21.790] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-30 00:46:21.791] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-30 00:46:21.791] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-30 00:46:21.791] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-30 00:46:21.791] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-30 00:46:41.814] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Temporary failure in name resolution]（启动后仍可工作，但 @检测可能受影响）
-[2026-08-30 00:46:41.818] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-08-30 00:46:41.832] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-08-30 00:46:41.832] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-08-30 00:46:42.207] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-08-30 00:46:42.230] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-30 00:46:42.230] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-30 00:46:42.231] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+# 更新于 2026-08-30 12:36:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:46:42.233] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
 [2026-08-30 00:46:42.234] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
 [2026-08-30 00:46:42.234] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
@@ -1499,3 +1476,26 @@
 [2026-08-30 12:35:00.573] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [供应商]: 返回17字符
 [2026-08-30 12:35:01.409] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=17 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqlkU62abKLw5nIrZvUzD3yYC5ano3EtwA1Jiv3YlTCd4Sot1byGQg7wF6LoKu49DBQ!!
 [2026-08-30 12:35:05.153] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:35:35.542] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-08-30 12:35:45.070] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 12:35:45.071] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/身份' is_edit=False
+[2026-08-30 12:35:45.071] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5507f825ad1b47db] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-30 12:35:45.074] [INFO    ] (dispatcher:_dispatch_inner:308) [5507f825ad1b47db] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/身份'
+[2026-08-30 12:35:45.074] [INFO    ] (queues:_get_or_create_queue:32) [5507f825ad1b47db] [队列] 创建群9844130976336955 的独立消息队列
+[2026-08-30 12:35:45.075] [DEBUG   ] (queues:enqueue_message:75) [5507f825ad1b47db] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-30 12:35:45.082] [INFO    ] (pipeline:process_message:478) [f0b58c9e22ef4b34] 指令拦截: '/身份' from=ywandwss
+[2026-08-30 12:35:45.082] [DEBUG   ] (commands:handle_command:4877) [f0b58c9e22ef4b34] 指令解析: prefix=/ cmd=身份 args=[] user=1759953618
+[2026-08-30 12:35:45.082] [INFO    ] (commands:handle_command:4932) [f0b58c9e22ef4b34] 指令执行完成 [身份]: 返回67字符
+[2026-08-30 12:35:45.657] [INFO    ] (logger:log_trace_summary:392) [f0b58c9e22ef4b34] [TRACE f0b58c9e22ef4b34] total=580.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=580.46ms(x1) (wall580.46), queue_wait=1.5ms(x1)
+[2026-08-30 12:35:45.671] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 12:35:57.112] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 12:35:57.133] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 12:35:57.456] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
+[2026-08-30 12:35:57.457] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [供应商]: 返回1000字符
+[2026-08-30 12:35:57.458] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=model args=[] user=1759953618
+[2026-08-30 12:35:57.460] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [model]: 返回1000字符
+[2026-08-30 12:35:57.460] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=模型 args=[] user=1759953618
+[2026-08-30 12:35:57.461] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [模型]: 返回1000字符
+[2026-08-30 12:35:57.461] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:35:57.463] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [供应商]: 返回17字符
+[2026-08-30 12:36:06.205] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
