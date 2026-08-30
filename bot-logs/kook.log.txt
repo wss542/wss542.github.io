@@ -1,11 +1,4 @@
-# 更新于 2026-08-31 04:31:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:37:50.756] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-08-31 00:37:50.756] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/luck' is_edit=False
-[2026-08-31 00:37:50.757] [DEBUG   ] (dispatcher:_dispatch_inner:110) [b1bb1aacfda64237] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-08-31 00:37:50.757] [INFO    ] (dispatcher:_dispatch_inner:308) [b1bb1aacfda64237] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/luck'
-[2026-08-31 00:37:50.757] [DEBUG   ] (queues:enqueue_message:75) [b1bb1aacfda64237] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-08-31 00:37:50.758] [INFO    ] (memory:merge_overflow_memory:419) [18545fd89e1c45c9] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
-[2026-08-31 00:37:50.759] [INFO    ] (pipeline:process_message:478) [18545fd89e1c45c9] 指令拦截: '/luck' from=ywandwss
+# 更新于 2026-08-31 04:32:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:37:50.759] [DEBUG   ] (commands:handle_command:4840) [18545fd89e1c45c9] 指令解析: prefix=/ cmd=luck args=[] user=1759953618
 [2026-08-31 00:37:50.760] [INFO    ] (commands:cmd_luck:716) [18545fd89e1c45c9] 指令 /luck 触发 user=1759953618
 [2026-08-31 00:37:50.762] [INFO    ] (commands:handle_command:4895) [18545fd89e1c45c9] 指令执行完成 [luck]: 返回33字符
@@ -1499,3 +1492,10 @@
 [2026-08-31 04:31:24.975] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=44.5 mem=70.8
 [2026-08-31 04:31:24.975] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 04:31:29.487] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 56422)]: music=[] lyric_event=False lyric='-' keys=16
+[2026-08-31 04:31:54.578] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-08-31 04:31:54.987] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 5667s
+[2026-08-31 04:31:55.522] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-31 04:31:55.628] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=27.1 mem=70.8
+[2026-08-31 04:31:55.630] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 04:31:55.915] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-31 04:31:59.548] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
