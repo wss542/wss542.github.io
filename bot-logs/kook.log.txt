@@ -1,7 +1,4 @@
-# 更新于 2026-08-30 21:34:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:29:45.429] [INFO    ] (writing:generate_and_send_file:114) [c81abcb9d96c49cb] 写作管道启动: from=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F len=11
-[2026-08-30 17:29:45.430] [INFO    ] (llm:call_llm:427) [c81abcb9d96c49cb] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=4000 temp=0.8 timeout=120.0s
-[2026-08-30 17:29:55.914] [INFO    ] (llm:call_llm:489) [c81abcb9d96c49cb] LLM [Qwen/Qwen3-235B-A22B] 返回 737字符 耗时10.5s → "永动机的制造过程（科学解释版）\n\n根据当前科学认知，永动机（即不消耗能量而能永远对外做功的机器）是不..."
+# 更新于 2026-08-30 21:35:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:29:55.917] [INFO    ] (writing:generate_and_send_file:160) [c81abcb9d96c49cb] 写作管道: 永动机的制造过程（科学解释版）.txt (737 字)
 [2026-08-30 17:29:58.150] [INFO    ] (qq_transport:_send_message:234) [c81abcb9d96c49cb] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=32 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LSaGETx2nQ1QmPtyKiIEh3DS0IXQJ4-cSqKPxUbdObSMZ.vA1vBxtkOKmyzb256jQ!!
 [2026-08-30 17:29:58.239] [INFO    ] (qq_transport:_send_message:234) [-] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=16 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LtMB7vueAnaFdELjc4vWJONMT5ExA.NSFc6wcHyfkOPMZ.vA1vBxtkOKmyzb256jQ!!
@@ -1499,3 +1496,6 @@
 [2026-08-30 21:33:44.465] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
 [2026-08-30 21:34:15.490] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
 [2026-08-30 21:34:45.883] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
+[2026-08-30 21:34:51.756] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=92 cpu=None mem=None
+[2026-08-30 21:34:51.756] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 21:35:16.811] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=17
