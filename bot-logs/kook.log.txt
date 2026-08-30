@@ -1,7 +1,4 @@
-# 更新于 2026-08-31 03:31:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:15:58.703] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYzI5sBVOLdGzfzS1wl1rVgbO96T6WMAhrPkInmOOLPeaSYgRdBwxRoBTwYPPSqfmxLneYiNU.UcKWB8lWfDe0pNtxQCTepAyDNxCoDSX9nph
-[2026-08-31 00:15:58.703] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-08-31 00:15:58.704] [INFO    ] (memory:merge_overflow_memory:419) [5e3cd8a4c1a34c3d] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+# 更新于 2026-08-31 03:32:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:15:58.705] [INFO    ] (pipeline:process_message:478) [5e3cd8a4c1a34c3d] 指令拦截: '/fuck' from=若尘 ~喵
 [2026-08-31 00:15:58.705] [DEBUG   ] (commands:handle_command:4840) [5e3cd8a4c1a34c3d] 指令解析: prefix=/ cmd=fuck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-08-31 00:15:58.710] [INFO    ] (commands:handle_command:4895) [5e3cd8a4c1a34c3d] 指令执行完成 [fuck]: 返回56字符
@@ -1499,3 +1496,6 @@
 [2026-08-31 03:31:14.058] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 53694)]: music=[] lyric_event=False lyric='-' keys=16
 [2026-08-31 03:31:24.857] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=65.8
 [2026-08-31 03:31:24.857] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:31:44.507] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 53694)]: music=[] lyric_event=False lyric='-' keys=16
+[2026-08-31 03:31:55.332] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=73.2 mem=65.8
+[2026-08-31 03:31:55.333] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
