@@ -1,17 +1,4 @@
-# 更新于 2026-08-30 18:24:57 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 14:17:11.428] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-30 14:17:11.429] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-30 14:17:11.429] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-30 14:17:11.429] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-30 14:17:11.432] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 14:17:11.432] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-30 14:17:11.433] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-30 14:17:11.433] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-30 14:17:11.437] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 14:17:11.437] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 14:17:11.438] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-30 14:17:11.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-30 14:17:11.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+# 更新于 2026-08-30 18:25:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 14:17:11.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 [2026-08-30 14:17:11.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
 [2026-08-30 14:17:11.439] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
@@ -1499,3 +1486,16 @@
 [2026-08-30 18:24:07.261] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-30 18:24:13.192] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 18:24:43.745] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 18:25:00.090] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 18:25:13.813] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 18:25:42.288] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/pc jp'
+[2026-08-30 18:25:42.289] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY9jUFwikriF5AhDoRU9TskwaQbLxAX9ZgSpT4h86pFph.oFQlvloRjGSlnihILKPK0zGVdsZ6ZlBX3ZEGQp3K7ltxQCTepAyDNxCoDSX9nph
+[2026-08-30 18:25:42.289] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 18:25:42.291] [INFO    ] (pipeline:process_message:478) [35c7bd74806e46fe] 指令拦截: '/pc jp' from=若尘 ~喵
+[2026-08-30 18:25:42.292] [DEBUG   ] (commands:handle_command:4840) [35c7bd74806e46fe] 指令解析: prefix=/ cmd=pc args=['jp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 18:25:44.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 18:25:45.481] [INFO    ] (qq_transport:upload_media_file:413) [35c7bd74806e46fe] QQ 分片上传成功 file=shot_0f4ba04a.jpg size=253384 ttl=86400
+[2026-08-30 18:25:47.997] [INFO    ] (qq_transport:_send_message:234) [35c7bd74806e46fe] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3NzULPqHtWC9jRjjuwXB6wOnUTudMAIoTjhtIUdRt2qShwUvzM.zfl5JfUNV6G4V9A!!
+[2026-08-30 18:25:47.998] [INFO    ] (commands:handle_command:4897) [35c7bd74806e46fe] 指令执行完成 [pc]: 无返回值（已自行发送）
+[2026-08-30 18:25:47.999] [INFO    ] (logger:log_trace_summary:392) [35c7bd74806e46fe] [TRACE 35c7bd74806e46fe] total=5708.57ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5708.39ms(x1) (wall5708.39), queue_wait=1.35ms(x1)
+[2026-08-30 18:25:47.000] [WARNING ] (logger:log_trace_summary:415) [35c7bd74806e46fe] [SLOW 35c7bd74806e46fe] total=5709.25ms | process=5708.39ms(x1) (wall5708.39), queue_wait=1.35ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.35ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5708.39ms wall=5709.16ms dominant=other
