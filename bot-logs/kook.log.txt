@@ -1,7 +1,4 @@
-# 更新于 2026-08-31 03:41:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:17:50.548] [INFO    ] (llm:generate_multi_reply_with_tools:979) [956e87d510a94811] LLM原始输出 [轮1]: content= | tool_calls=0
-[2026-08-31 00:17:50.549] [WARNING ] (llm:generate_multi_reply_with_tools:994) [956e87d510a94811] LLM 返回空内容，重试...
-[2026-08-31 00:17:52.202] [ERROR   ] (llm:call_llm_with_tools:665) [956e87d510a94811] LLM FC [Qwen/Qwen3-235B-A22B] 失败: Error code: 429 - {'error': {'message': 'We have to rate limit you for model Qwen/Qwen3-235B-A22B-Instruct-2507. If you need higher limits, please consider other (commercial) API providers.', 'request_id': '3ca2cf0b-6eb8-4847-a9da-18d4846463df'}}
+# 更新于 2026-08-31 03:42:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:17:52.203] [INFO    ] (llm:generate_multi_reply_with_tools:979) [956e87d510a94811] LLM原始输出 [轮2]: content= | tool_calls=0
 [2026-08-31 00:17:52.204] [WARNING ] (llm:generate_multi_reply_with_tools:997) [956e87d510a94811] LLM 连续返回空内容，用 json_mode 兜底...
 [2026-08-31 00:17:52.204] [INFO    ] (llm:call_llm:435) [956e87d510a94811] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=800 temp=0.3 timeout=60.0s
@@ -1499,3 +1496,6 @@
 [2026-08-31 03:41:25.183] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=27.1 mem=66.7
 [2026-08-31 03:41:25.184] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 03:41:25.302] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 03:41:55.595] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=62.0 mem=66.7
+[2026-08-31 03:41:55.595] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:41:56.090] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
