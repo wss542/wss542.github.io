@@ -1,7 +1,4 @@
-# 更新于 2026-08-31 03:39:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:17:45.139] [DEBUG   ] (pipeline:process_message:508) [956e87d510a94811] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='你好'
-[2026-08-31 00:17:45.140] [INFO    ] (pipeline:process_message:546) [956e87d510a94811] @机器人检测 → 直接回复
-[2026-08-31 00:17:45.160] [DEBUG   ] (pipeline:process_message:599) [956e87d510a94811] 请求意图: intent=chat fast_search=False msg='你好'
+# 更新于 2026-08-31 03:40:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:17:45.415] [WARNING ] (pipeline:process_message:647) [956e87d510a94811] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [2026-08-31 00:17:45.832] [DEBUG   ] (memory:_record_memory_trace:318) [956e87d510a94811] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=36.5ms
 [2026-08-31 00:17:45.839] [INFO    ] (pipeline:process_message:807) [956e87d510a94811] 额外信息: 166字 (memory=0 search=0)
@@ -1499,3 +1496,6 @@
 [2026-08-31 03:39:02.544] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=69.8 mem=66.6
 [2026-08-31 03:39:02.544] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 03:39:21.788] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 03:39:48.261] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=36.2 mem=66.9
+[2026-08-31 03:39:48.261] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:39:52.655] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
