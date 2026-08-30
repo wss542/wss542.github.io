@@ -1,26 +1,4 @@
-# 更新于 2026-08-30 12:41:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:46:42.266] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-08-30 00:46:42.266] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-08-30 00:46:42.270] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-08-30 00:46:42.271] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-08-30 00:46:42.271] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-08-30 00:46:42.272] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-08-30 00:46:42.272] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-08-30 00:46:42.273] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-08-30 00:46:42.273] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-08-30 00:46:42.274] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-08-30 00:46:42.274] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-30 00:46:42.274] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-30 00:46:42.275] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-30 00:46:42.275] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-30 00:46:42.275] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-30 00:46:42.276] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-30 00:46:42.276] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-30 00:46:42.277] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-30 00:46:42.278] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-30 00:46:42.278] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-08-30 00:46:42.278] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-08-30 00:46:42.278] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+# 更新于 2026-08-30 12:41:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:46:42.279] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
 [2026-08-30 00:46:42.279] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
 [2026-08-30 00:46:42.279] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
@@ -1499,3 +1477,25 @@
 [2026-08-30 12:41:09.927] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-08-30 12:41:09.927] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-30 12:41:11.929] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:41:25.013] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 12:41:25.030] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 12:41:25.203] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
+[2026-08-30 12:41:25.204] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:41:25.205] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [供应商]: 返回1000字符
+[2026-08-30 12:41:25.205] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
+[2026-08-30 12:41:25.206] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [供应商]: 返回1000字符
+[2026-08-30 12:41:25.206] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=ignore args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:41:25.206] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [ignore]: 返回39字符
+[2026-08-30 12:41:25.206] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=ignore args=[] user=qq:DEADBEEFDEADBEEFDEADBEEFDEADBEEF
+[2026-08-30 12:41:25.206] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [ignore]: 返回10字符
+[2026-08-30 12:41:25.206] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=unignore args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:41:25.207] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [unignore]: 返回49字符
+[2026-08-30 12:41:25.207] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=unignore args=[] user=qq:DEADBEEFDEADBEEFDEADBEEFDEADBEEF
+[2026-08-30 12:41:25.207] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [unignore]: 返回10字符
+[2026-08-30 12:41:25.207] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=ignore args=[] user=999999
+[2026-08-30 12:41:25.207] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [ignore]: 返回10字符
+[2026-08-30 12:41:25.207] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=999999
+[2026-08-30 12:41:25.211] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [供应商]: 返回17字符
+[2026-08-30 12:41:25.243] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-30 12:41:25.243] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 12:41:42.401] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
