@@ -1,19 +1,4 @@
-# 更新于 2026-08-30 12:58:49 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 11:18:54.560] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-30 11:18:54.561] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-08-30 11:18:54.561] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-08-30 11:18:54.561] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-08-30 11:18:54.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-08-30 11:18:54.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-08-30 11:18:54.564] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-08-30 11:18:54.564] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-08-30 11:18:54.568] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-08-30 11:18:54.568] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-08-30 11:18:54.568] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-08-30 11:18:54.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-08-30 11:18:54.572] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-08-30 11:18:54.572] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-08-30 11:18:54.574] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+# 更新于 2026-08-30 12:59:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 11:18:54.574] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
 [2026-08-30 11:18:54.575] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
 [2026-08-30 11:18:54.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
@@ -1499,3 +1484,18 @@
 [2026-08-30 12:58:01.979] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 50519 秒
 [2026-08-30 12:58:09.114] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:58:39.911] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:58:52.914] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/身份'
+[2026-08-30 12:58:52.915] [INFO    ] (qq_bot:_handle:166) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-tSP2hP.ghF2rRWAwPxJwvGojKv6RPuPD8gBkYFJYQOAUnpSt4xMOsDZbgkZ9JjwlPpYgaf4C5XyaLdtdKVzqgg!
+[2026-08-30 12:58:52.919] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
+[2026-08-30 12:58:52.941] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/身份' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:58:52.941] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=身份 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:58:52.941] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [身份]: 返回83字符
+[2026-08-30 12:58:54.100] [INFO    ] (qq_transport:_send_message:224) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=83 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqoXfn60rPF6W0Uf5QL9ueo5RChCeLl3g8KSCJ5dXMFp8Sot1byGQg7wF6LoKu49DBQ!!
+[2026-08-30 12:58:54.443] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/身份'
+[2026-08-30 12:58:54.443] [INFO    ] (qq_bot:_handle:166) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-mE2tOfCQMBu6bgiY6FWi-KP2ibqB5Ar5tnmOaM06GZPcgi2H7NygL6R1dQY.DFWYvpYgaf4C5XyaLdtdKVzqgg!
+[2026-08-30 12:58:54.444] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/身份' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:58:54.444] [DEBUG   ] (commands:handle_command:4881) [-] 指令解析: prefix=/ cmd=身份 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:58:54.444] [INFO    ] (commands:handle_command:4936) [-] 指令执行完成 [身份]: 返回83字符
+[2026-08-30 12:58:55.397] [INFO    ] (qq_transport:_send_message:224) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=83 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqsI-V9txFUTJ-r3XYhAX-n5HAJa.VtZOmFWyA4P-6hFoSot1byGQg7wF6LoKu49DBQ!!
+[2026-08-30 12:59:10.682] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14601)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:59:16.188] [WARNING ] (qq_bot:_handle:150) [-] QQ 事件缺少 openid，跳过: event_id=ROBOT1.0_YxmTtz-NTQbFrJK.TurTmhy9DlIJGZNilTQWV56WnJydwJB776ASaeBX1XLn2XYbMqPONPLZ47IpQ5qd0TdE28baikNQ7SQoOI4A4GT.hKMNIqrVm3QhC6-bhktADRFg
