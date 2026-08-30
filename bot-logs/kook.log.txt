@@ -1,7 +1,4 @@
-# 更新于 2026-08-31 03:28:39 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:15:48.712] [INFO    ] (identity:_ensure_loaded:92) [ca9585e8ee6546f5] 身份映射已载入 1 条
-[2026-08-31 00:15:48.728] [INFO    ] (memory:merge_overflow_memory:419) [ca9585e8ee6546f5] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
-[2026-08-31 00:15:48.758] [INFO    ] (pipeline:process_message:478) [ca9585e8ee6546f5] 指令拦截: '/签到' from=若尘 ~喵
+# 更新于 2026-08-31 03:29:11 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:15:48.762] [DEBUG   ] (commands:handle_command:4840) [ca9585e8ee6546f5] 指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-08-31 00:15:48.770] [INFO    ] (checkin:do_checkin:117) [ca9585e8ee6546f5] 签到: u:1759953618 streak=16 +15分
 [2026-08-31 00:15:48.771] [INFO    ] (commands:handle_command:4895) [ca9585e8ee6546f5] 指令执行完成 [签到]: 返回42字符
@@ -1499,3 +1496,6 @@
 [2026-08-31 03:28:16.536] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=48.8 mem=68.4
 [2026-08-31 03:28:16.536] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 03:28:39.789] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
+[2026-08-31 03:28:47.043] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=41.8 mem=67.2
+[2026-08-31 03:28:47.044] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 03:29:10.587] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=18
