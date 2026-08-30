@@ -1,21 +1,4 @@
-# 更新于 2026-08-30 22:34:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 17:51:21.774] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 17:51:21.774] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 17:51:21.774] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 17:51:21.774] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 17:51:21.774] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 17:51:21.775] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 17:51:21.776] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-30 17:51:21.776] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-30 17:51:21.776] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 17:51:21.776] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-30 17:51:21.777] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 17:51:21.777] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 17:51:21.777] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 17:51:21.777] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 17:51:21.778] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 17:51:21.779] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-08-30 17:51:21.781] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+# 更新于 2026-08-30 22:35:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 17:51:21.782] [INFO    ] (logger:info:335) [-] 👋 再见！
 [2026-08-30 17:51:21.785] [INFO    ] (logger:info:335) [-] 应用程序已退出
 [2026-08-30 17:51:22.344] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
@@ -1499,3 +1482,20 @@
 [2026-08-30 22:34:01.932] [INFO    ] (logger:log_trace_summary:392) [8d028d388f024253] [TRACE 8d028d388f024253] total=1621.82ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1621.78ms(x1) (wall1621.78), queue_wait=1948.46ms(x1)
 [2026-08-30 22:34:19.354] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
 [2026-08-30 22:34:49.456] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 22:35:16.815] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=阿星 role=member union=-]: '/wdsj me'
+[2026-08-30 22:35:16.816] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_TLvlBXoVJIEpUNA1mkIQG4yiPX9upmHHmqSN6g46prae-bERV7VaWJufOZOCp3DQhF4XZC5tCvkjUNLLmFvqEnyS6otJMJQ95mzvU20ZJj5txQCTepAyDNxCoDSX9nph
+[2026-08-30 22:35:16.816] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 22:35:16.818] [INFO    ] (pipeline:process_message:478) [43f66179f89e4b50] 指令拦截: '/wdsj me' from=阿星
+[2026-08-30 22:35:16.818] [DEBUG   ] (commands:handle_command:4840) [43f66179f89e4b50] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:6BB53C0DFDC5187162F1CE6E868AF0EB
+[2026-08-30 22:35:16.819] [INFO    ] (commands:handle_command:4895) [43f66179f89e4b50] 指令执行完成 [wdsj]: 返回49字符
+[2026-08-30 22:35:18.622] [INFO    ] (qq_transport:_send_message:234) [43f66179f89e4b50] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=49 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LKphURHGVS1ejDdPRCMt84rWbItNG5UuOmfOqNNrZI-wd9QpAftl.lagHCxPEydHg!!
+[2026-08-30 22:35:18.623] [INFO    ] (logger:log_trace_summary:392) [43f66179f89e4b50] [TRACE 43f66179f89e4b50] total=1805.5ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1805.44ms(x1) (wall1805.44), queue_wait=1.04ms(x1)
+[2026-08-30 22:35:20.576] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8954)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-30 22:35:30.411] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/wdsj bd yzandwss'
+[2026-08-30 22:35:30.412] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYzexYCGEFrSKUomelt1VBIALJp.K04lvdXyrtQF3GwBksepVrdBulolloBQND2Bp09SJguZ9LghhACFUeV657-RtxQCTepAyDNxCoDSX9nph
+[2026-08-30 22:35:30.412] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 22:35:30.413] [INFO    ] (pipeline:process_message:478) [1c9442d47b4a461b] 指令拦截: '/wdsj bd yzandwss' from=若尘 ~喵
+[2026-08-30 22:35:30.413] [DEBUG   ] (commands:handle_command:4840) [1c9442d47b4a461b] 指令解析: prefix=/ cmd=wdsj args=['bd', 'yzandwss'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 22:35:30.414] [INFO    ] (commands:handle_command:4895) [1c9442d47b4a461b] 指令执行完成 [wdsj]: 返回43字符
+[2026-08-30 22:35:32.215] [INFO    ] (qq_transport:_send_message:234) [1c9442d47b4a461b] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=43 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Bqc8jQBgP.khaSX3OqkaPV5CyC-94b.NHxTm6zK74TA3XV8wX4e9eWjvu1cUUutSA!!
+[2026-08-30 22:35:32.216] [INFO    ] (logger:log_trace_summary:392) [1c9442d47b4a461b] [TRACE 1c9442d47b4a461b] total=1803.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1803.5ms(x1) (wall1803.5), queue_wait=0.23ms(x1)
