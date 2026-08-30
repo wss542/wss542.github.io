@@ -1,10 +1,4 @@
-# 更新于 2026-08-30 12:34:05 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:45:04.633] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 00:45:04.636] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Temporary failure in name resolution]
-[2026-08-30 00:45:04.642] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-08-30 00:45:33.752] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-08-30 00:45:53.765] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -3] Temporary failure in name resolution>
-[2026-08-30 00:45:53.767] [ERROR   ] (qq_bot:start:80) [-] QQBot 运行异常: <urlopen error [Errno -3] Temporary failure in name resolution>，5s 后重连
+# 更新于 2026-08-30 12:34:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:45:53.774] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 00:45:53.780] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
 [2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
@@ -1499,3 +1493,9 @@
 [2026-08-30 12:33:02.727] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:33:33.359] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:34:03.931] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:34:34.798] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:34:48.541] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/help'
+[2026-08-30 12:34:48.544] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
+[2026-08-30 12:34:48.557] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:48.557] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:48.557] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
