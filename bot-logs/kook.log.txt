@@ -1,11 +1,4 @@
-# 更新于 2026-08-30 19:05:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 15:48:04.151] [INFO    ] (pipeline:process_message:940) [8d83f9b3f6e44565] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-30 15:48:04.159] [DEBUG   ] (pipeline:process_message:1069) [8d83f9b3f6e44565] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-30 15:48:04.159] [INFO    ] (pipeline:process_message:1072) [8d83f9b3f6e44565] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-08-30 15:48:10.090] [INFO    ] (llm:generate_multi_reply_with_tools:971) [8d83f9b3f6e44565] LLM原始输出 [轮1]: content={"replies":["主人好呀～今天过得怎么样呀？(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":1,"calls":[],"face":"开心1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq" | tool_calls=0
-[2026-08-30 15:48:10.095] [WARNING ] (face_lib:_init:29) [8d83f9b3f6e44565] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-30 15:48:10.097] [INFO    ] (llm:_parse_reply:1314) [8d83f9b3f6e44565] JSON回复解析: 1句 fav=+1 calls=0 mood=开心
-[2026-08-30 15:48:10.103] [INFO    ] (fav:update_fav:126) [8d83f9b3f6e44565] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:1759953618 +1 → 51
+# 更新于 2026-08-30 19:06:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 15:48:10.103] [INFO    ] (pipeline:process_message:1555) [8d83f9b3f6e44565] 好感度调整: 若尘 ~喵 +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
 [2026-08-30 15:48:10.103] [INFO    ] (memory:maybe_save_memory:401) [8d83f9b3f6e44565] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
 [2026-08-30 15:48:10.104] [INFO    ] (pipeline:process_message:1561) [8d83f9b3f6e44565] ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
@@ -1499,3 +1492,10 @@
 [2026-08-30 19:05:33.999] [INFO    ] (logger:log_trace_summary:392) [a9d7b5d59374470d] [TRACE a9d7b5d59374470d] total=4983.98ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4983.84ms(x1) (wall4983.84), queue_wait=1.73ms(x1)
 [2026-08-30 19:05:33.999] [WARNING ] (logger:log_trace_summary:415) [a9d7b5d59374470d] [SLOW a9d7b5d59374470d] total=4984.45ms | process=4983.84ms(x1) (wall4983.84), queue_wait=1.73ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.73ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4983.84ms wall=4984.42ms dominant=other
 [2026-08-30 19:05:46.041] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:06:16.804] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:06:20.898] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj me'
+[2026-08-30 19:06:20.898] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7M3UEBjaCLAgKma2WLzcfHwiKlETlsOazwtWbcxuJH1093Y-L-43BsDyq3Hi5AK6-VpYnAiWjKH94lG51Q12EJ7vJYw94Gf2XvduFhFPmyNe
+[2026-08-30 19:06:20.898] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 19:06:20.901] [INFO    ] (pipeline:process_message:478) [fe38d48122314645] 指令拦截: '/wdsj me' from=繁
+[2026-08-30 19:06:20.902] [DEBUG   ] (commands:handle_command:4840) [fe38d48122314645] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-08-30 19:06:20.902] [INFO    ] (commands:_wdsj_send_one:2504) [fe38d48122314645] wdsj 单模板查询: player=muyibo template=bw(bedwars-stats) img=True
