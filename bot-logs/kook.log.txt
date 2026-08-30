@@ -1,31 +1,4 @@
-# 更新于 2026-08-30 18:18:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 14:16:14.634] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8286)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 14:16:17.433] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 14:16:17.591] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 14:16:17.601] [WARNING ] (qq_bot:_qq_probe_duration:509) [-] QQ 解析视频时长失败: expected str, bytes or os.PathLike object, not int
-[2026-08-30 14:16:17.604] [WARNING ] (qq_bot:_qq_extract_frames:455) [-] QQ 抽帧 t=1.0s 失败: expected str, bytes or os.PathLike object, not int
-[2026-08-30 14:16:17.607] [WARNING ] (qq_bot:_qq_extract_frames:455) [-] QQ 抽帧 t=3.0s 失败: expected str, bytes or os.PathLike object, not int
-[2026-08-30 14:16:45.163] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8286)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 14:16:54.448] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 14:16:54.625] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 14:16:55.750] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 366 条
-[2026-08-30 14:16:55.750] [INFO    ] (image_api:recognize_image:152) [-] [chat=qq:test] 开始获取图片: file:///tmp/tmpk7f9fr6i/frame_1.jpg...
-[2026-08-30 14:16:55.751] [INFO    ] (image_api:recognize_image:159) [-] [chat=qq:test] 本地图片读取成功: 8145 bytes
-[2026-08-30 14:16:55.836] [INFO    ] (image_api:recognize_image:204) [-] [chat=qq:test] 图片预处理: JPEG(320x240) → PNG 8145 bytes → 25432 bytes
-[2026-08-30 14:16:55.837] [INFO    ] (image_api:recognize_image:251) [-] [chat=qq:test] 调用主视觉模型识别图片 (MD5=551a2c3eddcb...) model=deepseek-v4-flash-vision-exp
-[2026-08-30 14:16:58.455] [INFO    ] (image_api:recognize_image:280) [-] [chat=qq:test] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 彩色圆盘上竖条纹（青、品红、蓝、黄、绿、红），中间横穿彩虹条，右侧有黑底白框小矩形。情绪：困惑、震惊...
-[2026-08-30 14:16:58.458] [DEBUG   ] (image_api:_save:64) [-] 图片缓存已写入磁盘: 367 条
-[2026-08-30 14:16:58.474] [DEBUG   ] (image_api:_save_to_repo:315) [-] 图片仓库追加: MD5=551a2c3eddcb... → '彩色圆盘上竖条纹（青、品红、蓝、黄、绿、红），中间横穿彩虹条'
-[2026-08-30 14:17:08.918] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-30 14:17:08.931] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-30 14:17:08.931] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-30 14:17:08.932] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 14:17:08.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 14:17:08.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 14:17:08.935] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 14:17:08.936] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 14:17:08.937] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 14:17:08.938] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+# 更新于 2026-08-30 18:18:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 14:17:08.940] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
 [2026-08-30 14:17:08.942] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
 [2026-08-30 14:17:08.943] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
@@ -1499,3 +1472,30 @@
 [2026-08-30 18:18:03.633] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-08-30 18:18:03.635] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 1h42m 后执行 (20:01)
 [2026-08-30 18:18:03.694] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-30 18:18:18.718] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-08-30 18:18:18.754] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 48s 前）
+[2026-08-30 18:18:18.758] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-30 18:18:18.806] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-30 18:18:18.809] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-30 18:18:18.810] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-30 18:18:18.811] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-30 18:18:18.817] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-30 18:18:18.819] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-30 18:18:18.971] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-30 18:18:18.973] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-30 18:18:19.111] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-30 18:18:19.113] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 18:18:19.227] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-08-30 18:18:19.300] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 18:18:20.147] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
+[2026-08-30 18:18:20.155] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-30 18:18:20.157] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 20505 秒 (下次 00:00:05)
+[2026-08-30 18:18:20.779] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-30 18:18:22.167] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-30 18:18:22.169] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-30 18:18:22.173] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-08-30 18:18:22.175] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-30 18:18:22.550] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 5236s
+[2026-08-30 18:18:23.238] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 18:18:23.663] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-08-30 18:18:49.704] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1844)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
