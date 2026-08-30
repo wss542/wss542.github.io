@@ -1,6 +1,4 @@
-# 更新于 2026-08-30 17:44:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:30:32.283] [INFO    ] (llm:call_llm:427) [9062ad4bc78b4772] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-30 13:30:32.291] [DEBUG   ] (memory:_record_memory_trace:318) [9062ad4bc78b4772] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=11.0ms
+# 更新于 2026-08-30 17:45:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:30:32.291] [INFO    ] (pipeline:process_message:807) [9062ad4bc78b4772] 额外信息: 292字 (memory=25 search=0)
 [2026-08-30 13:30:32.296] [INFO    ] (pipeline:process_message:940) [9062ad4bc78b4772] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
 [2026-08-30 13:30:32.299] [DEBUG   ] (pipeline:process_message:1069) [9062ad4bc78b4772] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
@@ -1499,3 +1497,5 @@
 [2026-08-30 17:43:18.005] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:43:48.720] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:44:19.431] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:44:37.156] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 17:44:50.049] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
