@@ -1,25 +1,4 @@
-# 更新于 2026-08-30 19:05:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 15:46:44.372] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 15:46:44.642] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7093s
-[2026-08-30 15:46:45.122] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 15:46:45.349] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-08-30 15:47:12.205] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 15:47:12.802] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**▶ 阿肆 - 喜欢**' keys=18
-[2026-08-30 15:47:12.802] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1427040ms]: '**▶ 阿肆 - 喜欢**' song=阿肆 - 喜欢 playing=False channel=None
-[2026-08-30 15:47:12.802] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1427040ms]: '**作词 : 阿肆**' song=阿肆 - 喜欢 playing=False channel=None
-[2026-08-30 15:47:43.564] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 阿肆**' keys=18
-[2026-08-30 15:48:03.454] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '喵呜～'
-[2026-08-30 15:48:03.456] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY-bFHHn72XJO.FIvxmlIRL92K9BNoJbTtz.CaKIRE2KgSBN62DWBzzLKKrVZIAjX0sBZ575S8JFSthHcYxXX7bJtxQCTepAyDNxCoDSX9nph
-[2026-08-30 15:48:03.462] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
-[2026-08-30 15:48:03.463] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-08-30 15:48:03.475] [INFO    ] (identity:_ensure_loaded:92) [8d83f9b3f6e44565] 身份映射已载入 1 条
-[2026-08-30 15:48:03.478] [INFO    ] (fav:ensure_fav:163) [8d83f9b3f6e44565] 好感度首次注册: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:1759953618 = 50
-[2026-08-30 15:48:03.546] [DEBUG   ] (pipeline:process_message:508) [8d83f9b3f6e44565] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵呜～'
-[2026-08-30 15:48:03.546] [INFO    ] (pipeline:process_message:546) [8d83f9b3f6e44565] @机器人检测 → 直接回复
-[2026-08-30 15:48:03.564] [DEBUG   ] (pipeline:process_message:599) [8d83f9b3f6e44565] 请求意图: intent=chat fast_search=False msg='喵呜～'
-[2026-08-30 15:48:03.700] [WARNING ] (pipeline:process_message:647) [8d83f9b3f6e44565] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-08-30 15:48:04.102] [DEBUG   ] (memory:_record_memory_trace:318) [8d83f9b3f6e44565] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=365.5ms
-[2026-08-30 15:48:04.115] [INFO    ] (pipeline:process_message:807) [8d83f9b3f6e44565] 额外信息: 292字 (memory=25 search=0)
+# 更新于 2026-08-30 19:05:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 15:48:04.151] [INFO    ] (pipeline:process_message:940) [8d83f9b3f6e44565] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
 [2026-08-30 15:48:04.159] [DEBUG   ] (pipeline:process_message:1069) [8d83f9b3f6e44565] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-08-30 15:48:04.159] [INFO    ] (pipeline:process_message:1072) [8d83f9b3f6e44565] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
@@ -1499,3 +1478,24 @@
 [2026-08-30 19:04:43.837] [INFO    ] (qq_transport:_send_message:234) [0c9152509e06493c] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=56 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3BIp95ugCDxlRGgOxZG9A4GqAO1mMIMeWsVlNSlEwciwzy5bO6CUlNUdOzmmKiAcCw!!
 [2026-08-30 19:04:43.838] [INFO    ] (logger:log_trace_summary:392) [0c9152509e06493c] [TRACE 0c9152509e06493c] total=2127.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2126.55ms(x1) (wall2126.55), queue_wait=2.86ms(x1)
 [2026-08-30 19:04:44.523] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:05:08.884] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj bd muyibo'
+[2026-08-30 19:05:08.884] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7JFXKyaMk3rnXigXPCVGLEaUF-c9-0pPF1EA.jfcsiAAZH.02GypN2HuvU0zSHp0AjZ4LzUOu.MEg3FOMjwDX5oNIqrVm3QhC6-bhktADRFg
+[2026-08-30 19:05:08.885] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 19:05:08.887] [INFO    ] (pipeline:process_message:478) [d54ba6c027f140af] 指令拦截: '/wdsj bd muyibo' from=繁
+[2026-08-30 19:05:08.887] [DEBUG   ] (commands:handle_command:4840) [d54ba6c027f140af] 指令解析: prefix=/ cmd=wdsj args=['bd', 'muyibo'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-08-30 19:05:08.888] [INFO    ] (commands:handle_command:4895) [d54ba6c027f140af] 指令执行完成 [wdsj]: 返回41字符
+[2026-08-30 19:05:10.583] [INFO    ] (qq_transport:_send_message:234) [d54ba6c027f140af] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=41 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Oc2oTlvaRcJTDTtTXvI1KAFmm1IPrhXMc10S.Ll7Nspt8DgX1rH0y2BrY8RGuNFvA!!
+[2026-08-30 19:05:10.584] [INFO    ] (logger:log_trace_summary:392) [d54ba6c027f140af] [TRACE d54ba6c027f140af] total=1698.76ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1698.67ms(x1) (wall1698.67), queue_wait=0.53ms(x1)
+[2026-08-30 19:05:15.285] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 19:05:29.013] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj jjc'
+[2026-08-30 19:05:29.013] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7Fykx.-qHFbtpJevdGZ55WAFgYCTaLbcwqrb88In5QphIQosn5lTYcOxd1QHNY0m7IXFqrArcHZ9LuGc2Ab2bfUNIqrVm3QhC6-bhktADRFg
+[2026-08-30 19:05:29.013] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 19:05:29.016] [INFO    ] (pipeline:process_message:478) [a9d7b5d59374470d] 指令拦截: '/wdsj jjc' from=繁
+[2026-08-30 19:05:29.016] [DEBUG   ] (commands:handle_command:4840) [a9d7b5d59374470d] 指令解析: prefix=/ cmd=wdsj args=['jjc'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-08-30 19:05:29.017] [INFO    ] (commands:cmd_wdsj:2814) [a9d7b5d59374470d] 查询wdsj战绩: player=muyibo template=arena-stats img=False
+[2026-08-30 19:05:30.686] [INFO    ] (qq_transport:_send_message:234) [a9d7b5d59374470d] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=27 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3F6ddir-NDkqO.auemG95u86fTAgxSn..A22V-va6oPRi6jKSmfvUnDrDCmt4f2Dvg!!
+[2026-08-30 19:05:32.360] [INFO    ] (commands:handle_command:4895) [a9d7b5d59374470d] 指令执行完成 [wdsj]: 返回436字符
+[2026-08-30 19:05:33.997] [INFO    ] (qq_transport:_send_message:234) [a9d7b5d59374470d] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=436 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3EdawyqwfOg7iqZ.zc25YdkohbO9a0H3XZJCKVSESFBzxlauoLI1xXg0RzTMmOB0oA!!
+[2026-08-30 19:05:33.999] [INFO    ] (logger:log_trace_summary:392) [a9d7b5d59374470d] [TRACE a9d7b5d59374470d] total=4983.98ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4983.84ms(x1) (wall4983.84), queue_wait=1.73ms(x1)
+[2026-08-30 19:05:33.999] [WARNING ] (logger:log_trace_summary:415) [a9d7b5d59374470d] [SLOW a9d7b5d59374470d] total=4984.45ms | process=4983.84ms(x1) (wall4983.84), queue_wait=1.73ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.73ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4983.84ms wall=4984.42ms dominant=other
+[2026-08-30 19:05:46.041] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
