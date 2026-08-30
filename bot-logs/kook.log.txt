@@ -1,13 +1,4 @@
-# 更新于 2026-08-30 19:06:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 15:48:10.103] [INFO    ] (pipeline:process_message:1555) [8d83f9b3f6e44565] 好感度调整: 若尘 ~喵 +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
-[2026-08-30 15:48:10.103] [INFO    ] (memory:maybe_save_memory:401) [8d83f9b3f6e44565] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
-[2026-08-30 15:48:10.104] [INFO    ] (pipeline:process_message:1561) [8d83f9b3f6e44565] ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-08-30 15:48:10.105] [INFO    ] (logger:log_trace_summary:392) [8d83f9b3f6e44565] [TRACE 8d83f9b3f6e44565] total=6635.22ms severity=slow_request | llm_calls=1 total=5793.32ms avg=5793.32ms max=5793.32ms p50=5793.32 p95=5793.32 p99=5793.32 | json_parse=1.44ms(x1), llm=5937.77ms(x1), memory=732.15ms(x2), message_retrieval=2.89ms(x2), process=6633.58ms(x1) (wall6633.58), queue_wait=8.83ms(x1)
-[2026-08-30 15:48:10.106] [WARNING ] (logger:log_trace_summary:415) [8d83f9b3f6e44565] [SLOW 8d83f9b3f6e44565] total=6636.89ms | json_parse=1.44ms(x1), llm=5937.77ms(x1), memory=732.15ms(x2), message_retrieval=2.89ms(x2), process=6633.58ms(x1) (wall6633.58), queue_wait=8.83ms(x1) | llm_calls=1 total=5793.32ms avg=5793.32ms max=5793.32ms p50=5793.32 p95=5793.32 p99=5793.32 | perf: queue=8.83ms llm=5939.21ms search_tool=0.0ms delivery=0.0ms other=7368.62ms wall=6636.09ms dominant=other
-[2026-08-30 15:48:10.108] [DEBUG   ] (response_delivery:send_sentences:283) [8d83f9b3f6e44565] 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-[2026-08-30 15:48:10.111] [INFO    ] (llm:call_llm:427) [8d83f9b3f6e44565] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-08-30 15:48:11.955] [INFO    ] (qq_transport:_send_message:234) [8d83f9b3f6e44565] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=62 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3BsIsD0M.t9nF4YQ0MV.nzwvPw9mgleP96hW.TINOPdDm8sJizfZ48YLPstCyAyyVw!!
-[2026-08-30 15:48:11.956] [DEBUG   ] (response_delivery:send_sentences:297) [8d83f9b3f6e44565] 已发送第 1/1 条: 主人好呀～今天过得怎么样呀？(emj)开心1(emj)[30...
+# 更新于 2026-08-30 19:07:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 15:48:11.956] [DEBUG   ] (response_delivery:send_sentences:299) [8d83f9b3f6e44565] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-08-30 15:48:11.958] [INFO    ] (llm:call_llm:489) [8d83f9b3f6e44565] LLM [Qwen/Qwen3-235B-A22B] 返回 80字符 耗时1.8s → "[15:48:10] 若尘 ~喵, 茂密: 若尘 ~喵说了喵呜～, 茂密回复主人好呀～今天过得怎么样..."
 [2026-08-30 15:48:11.959] [INFO    ] (memory:_compress_with_deepseek:210) [8d83f9b3f6e44565] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
@@ -1499,3 +1490,12 @@
 [2026-08-30 19:06:20.901] [INFO    ] (pipeline:process_message:478) [fe38d48122314645] 指令拦截: '/wdsj me' from=繁
 [2026-08-30 19:06:20.902] [DEBUG   ] (commands:handle_command:4840) [fe38d48122314645] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
 [2026-08-30 19:06:20.902] [INFO    ] (commands:_wdsj_send_one:2504) [fe38d48122314645] wdsj 单模板查询: player=muyibo template=bw(bedwars-stats) img=True
+[2026-08-30 19:06:27.935] [INFO    ] (qq_transport:upload_media_file:413) [fe38d48122314645] QQ 分片上传成功 file=wdsj_20260830_44e596cf.png size=217334 ttl=86400
+[2026-08-30 19:06:30.951] [INFO    ] (qq_transport:_send_message:234) [fe38d48122314645] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3A9ZbUHOIt7fdsjpGc2WmKYDnZSkCa5ArBonlqd4ruQVtBYGHYcdlfTew3VMaQpxWA!!
+[2026-08-30 19:06:30.952] [INFO    ] (commands:_wdsj_send_one:2504) [fe38d48122314645] wdsj 单模板查询: player=muyibo template=jjc(arena-stats) img=True
+[2026-08-30 19:06:36.515] [INFO    ] (qq_transport:upload_media_file:413) [fe38d48122314645] QQ 分片上传成功 file=wdsj_20260830_bb97774e.png size=157700 ttl=86400
+[2026-08-30 19:06:38.833] [INFO    ] (qq_transport:_send_message:234) [fe38d48122314645] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3MUKS7MONru8nvWOGjlduNI8TeC8VFw2mY24-4bHfD13mCPJ3eLQ0s2TB7xyJT-T-A!!
+[2026-08-30 19:06:38.834] [INFO    ] (commands:handle_command:4897) [fe38d48122314645] 指令执行完成 [wdsj]: 无返回值（已自行发送）
+[2026-08-30 19:06:38.834] [INFO    ] (logger:log_trace_summary:392) [fe38d48122314645] [TRACE fe38d48122314645] total=17935.51ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=17935.43ms(x1) (wall17935.43), queue_wait=0.28ms(x1)
+[2026-08-30 19:06:38.835] [WARNING ] (logger:log_trace_summary:410) [fe38d48122314645] [VERY_SLOW fe38d48122314645] total=17935.9ms 需重点排查 | process=17935.43ms(x1) (wall17935.43), queue_wait=0.28ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.28ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=17935.43ms wall=17935.84ms dominant=other
+[2026-08-30 19:06:47.617] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9561)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
