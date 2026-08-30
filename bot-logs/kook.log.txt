@@ -1,31 +1,4 @@
-# 更新于 2026-08-30 17:29:44 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:19:20.672] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 33s 前）
-[2026-08-30 13:19:20.674] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-30 13:19:20.683] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-30 13:19:20.684] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-30 13:19:20.684] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-30 13:19:20.685] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-30 13:19:20.685] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-30 13:19:20.686] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-30 13:19:20.839] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-30 13:19:20.840] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-30 13:19:21.069] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-30 13:19:21.069] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-30 13:19:21.075] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 13:19:21.075] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:19:22.685] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 13:19:23.166] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 13:19:23.167] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 13:19:23.167] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 38442 秒 (下次 00:00:05)
-[2026-08-30 13:19:25.588] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 13:19:25.588] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 13:19:25.589] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 13:19:25.589] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 13:19:25.955] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7173s
-[2026-08-30 13:19:26.528] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 13:19:26.855] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
-[2026-08-30 13:19:51.778] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:20:22.337] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+# 更新于 2026-08-30 17:30:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:21:09.407] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:21:39.598] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:22:10.182] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5209)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1472,30 @@
 [2026-08-30 17:29:44.360] [DEBUG   ] (pipeline:process_message:599) [c81abcb9d96c49cb] 请求意图: intent=tool fast_search=False msg='请写出永动机的制造过程'
 [2026-08-30 17:29:44.361] [INFO    ] (pipeline:process_message:628) [c81abcb9d96c49cb] 复杂度: level=task score=15 scale=1.8
 [2026-08-30 17:29:44.364] [WARNING ] (pipeline:process_message:647) [c81abcb9d96c49cb] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 17:29:44.450] [DEBUG   ] (memory:_record_memory_trace:318) [c81abcb9d96c49cb] 记忆检索: source=legacy_file status=hit 命中注入=2 耗时=83.7ms
+[2026-08-30 17:29:44.457] [INFO    ] (pipeline:process_message:807) [c81abcb9d96c49cb] 额外信息: 640字 (memory=158 search=0)
+[2026-08-30 17:29:44.464] [INFO    ] (pipeline:process_message:940) [c81abcb9d96c49cb] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 17:29:44.469] [INFO    ] (llm:call_llm:427) [c81abcb9d96c49cb] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=10 temp=0.1 timeout=5.0s
+[2026-08-30 17:29:45.427] [INFO    ] (llm:call_llm:489) [c81abcb9d96c49cb] LLM [Qwen/Qwen3-235B-A22B] 返回 7字符 耗时0.9s → "writing"
+[2026-08-30 17:29:45.428] [INFO    ] (writing:is_writing_request:72) [c81abcb9d96c49cb] 意图判断: '请写出永动机的制造过程' → writing
+[2026-08-30 17:29:45.429] [INFO    ] (pipeline:process_message:953) [c81abcb9d96c49cb] 写作请求检测: from=若尘 ~喵
+[2026-08-30 17:29:45.429] [INFO    ] (writing:generate_and_send_file:114) [c81abcb9d96c49cb] 写作管道启动: from=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F len=11
+[2026-08-30 17:29:45.430] [INFO    ] (llm:call_llm:427) [c81abcb9d96c49cb] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=4000 temp=0.8 timeout=120.0s
+[2026-08-30 17:29:55.914] [INFO    ] (llm:call_llm:489) [c81abcb9d96c49cb] LLM [Qwen/Qwen3-235B-A22B] 返回 737字符 耗时10.5s → "永动机的制造过程（科学解释版）\n\n根据当前科学认知，永动机（即不消耗能量而能永远对外做功的机器）是不..."
+[2026-08-30 17:29:55.917] [INFO    ] (writing:generate_and_send_file:160) [c81abcb9d96c49cb] 写作管道: 永动机的制造过程（科学解释版）.txt (737 字)
+[2026-08-30 17:29:58.150] [INFO    ] (qq_transport:_send_message:234) [c81abcb9d96c49cb] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=32 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LSaGETx2nQ1QmPtyKiIEh3DS0IXQJ4-cSqKPxUbdObSMZ.vA1vBxtkOKmyzb256jQ!!
+[2026-08-30 17:29:58.239] [INFO    ] (qq_transport:_send_message:234) [-] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=16 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LtMB7vueAnaFdELjc4vWJONMT5ExA.NSFc6wcHyfkOPMZ.vA1vBxtkOKmyzb256jQ!!
+[2026-08-30 17:29:59.834] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:30:02.077] [INFO    ] (qq_transport:upload_media_file:413) [c81abcb9d96c49cb] QQ 分片上传成功 file=永动机的制造过程（科学解释版）.txt size=1981 ttl=86400
+[2026-08-30 17:30:03.709] [INFO    ] (qq_transport:_send_message:234) [c81abcb9d96c49cb] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=3 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3FElJENAe8ti58iQd2g3.Rq5q-KPYfu0iuQ2dTPJpqil3kOzb-ZLM47zL78-Cug4Ow!!
+[2026-08-30 17:30:03.710] [INFO    ] (response_delivery:_send_segment:183) [c81abcb9d96c49cb] CQ:file 已发送: /tmp/永动机的制造过程（科学解释版）.txt
+[2026-08-30 17:30:03.711] [INFO    ] (llm:call_llm:427) [c81abcb9d96c49cb] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=60 temp=0.8 timeout=15.0s
+[2026-08-30 17:30:06.720] [INFO    ] (llm:call_llm:489) [c81abcb9d96c49cb] LLM [Qwen/Qwen3-235B-A22B] 返回 128字符 耗时3.0s → "```json\n{\n  "replies": ["写完啦，希望若尘喜欢喵~"],\n  "fav": ..."
+[2026-08-30 17:30:09.218] [INFO    ] (qq_transport:_send_message:234) [c81abcb9d96c49cb] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=128 seq=4 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3CMEYHcrfeeuHM-xKdr8MlPSqoDNPQKE4zkvttdACFtMKxYKmw5wN-wnwMlKfNba8Q!!
+[2026-08-30 17:30:09.218] [INFO    ] (pipeline:process_message:963) [c81abcb9d96c49cb] 写作管道处理完成: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-08-30 17:30:09.219] [INFO    ] (logger:log_trace_summary:392) [c81abcb9d96c49cb] [TRACE c81abcb9d96c49cb] total=24867.34ms severity=very_slow_request | llm_calls=3 total=14437.03ms avg=4812.34ms max=10482.76ms p50=3007.76 p95=9735.26 p99=10333.26 | memory=167.9ms(x2), message_retrieval=8.01ms(x2), process=24867.16ms(x1) (wall24867.16), queue_wait=4.07ms(x1)
+[2026-08-30 17:30:09.220] [WARNING ] (logger:log_trace_summary:410) [c81abcb9d96c49cb] [VERY_SLOW c81abcb9d96c49cb] total=24868.33ms 需重点排查 | memory=167.9ms(x2), message_retrieval=8.01ms(x2), process=24867.16ms(x1) (wall24867.16), queue_wait=4.07ms(x1) | llm_calls=3 total=14437.03ms avg=4812.34ms max=10482.76ms p50=3007.76 p95=9735.26 p99=10333.26 | perf: queue=4.07ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=25043.07ms wall=24868.31ms dominant=other
+[2026-08-30 17:30:20.762] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 17:30:20.766] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=2 content='https://img.kookapp.cn/attachments/2026-08/30/TeSaKta54X0dc0bc.png' is_edit=False
+[2026-08-30 17:30:20.767] [DEBUG   ] (dispatcher:_dispatch_inner:107) [07a66b78c28d4ec2] 跳过 bot 消息: uid=1341019011
+[2026-08-30 17:30:30.541] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
