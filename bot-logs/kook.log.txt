@@ -1,23 +1,4 @@
-# 更新于 2026-08-30 12:34:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:45:53.774] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 00:45:53.780] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 00:45:53.781] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 00:45:53.782] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 00:45:53.782] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-30 00:45:53.782] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-30 00:45:53.782] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 00:45:53.783] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-30 00:45:53.783] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 00:45:53.783] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 00:45:53.783] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 00:45:53.783] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 00:45:53.783] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 00:45:53.783] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-08-30 00:45:53.784] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
+# 更新于 2026-08-30 12:35:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:45:53.785] [INFO    ] (logger:info:335) [-] 👋 再见！
 [2026-08-30 00:45:53.785] [INFO    ] (logger:info:335) [-] 应用程序已退出
 [2026-08-30 00:46:14.069] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
@@ -1499,3 +1480,22 @@
 [2026-08-30 12:34:48.557] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
 [2026-08-30 12:34:48.557] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-08-30 12:34:48.557] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
+[2026-08-30 12:34:55.735] [INFO    ] (qq_transport:upload_media_file:337) [-] QQ 分片上传成功 file=help_card.png size=435448 ttl=86400
+[2026-08-30 12:34:57.081] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqumyVYwZAHt35HZeTY70qxmVuL5SbnE6eib2UPurluqfSot1byGQg7wF6LoKu49DBQ!!
+[2026-08-30 12:34:57.082] [INFO    ] (commands:handle_command:4934) [-] 指令执行完成 [help]: 无返回值（已自行发送）
+[2026-08-30 12:34:57.082] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/身份'
+[2026-08-30 12:34:57.083] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/身份' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:57.083] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=身份 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:57.083] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [身份]: 返回83字符
+[2026-08-30 12:34:58.012] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=83 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqp-NhlFv02Azt6N0k9G9EEffR2OCMLCAib2M.rsCzt5WSot1byGQg7wF6LoKu49DBQ!!
+[2026-08-30 12:34:58.012] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/禁言'
+[2026-08-30 12:34:58.013] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/禁言' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:58.013] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=禁言 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:34:58.013] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /禁言 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:34:58.882] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=59 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqrnL8TD6fcXWtyZOv-THdSmCcXR8gfz9L0KTg0wxSz9rwHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 12:35:00.572] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/供应商'
+[2026-08-30 12:35:00.573] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/供应商' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:35:00.573] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=供应商 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:35:00.573] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [供应商]: 返回17字符
+[2026-08-30 12:35:01.409] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=17 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqlkU62abKLw5nIrZvUzD3yYC5ano3EtwA1Jiv3YlTCd4Sot1byGQg7wF6LoKu49DBQ!!
+[2026-08-30 12:35:05.153] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10315)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
