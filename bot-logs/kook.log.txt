@@ -1,14 +1,4 @@
-# 更新于 2026-08-30 17:28:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:19:05.521] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 13:19:05.521] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-30 13:19:05.522] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 13:19:05.522] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-30 13:19:05.523] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-30 13:19:05.607] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-30 13:19:05.610] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-30 13:19:05.612] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 2h41m 后执行 (16:01)
-[2026-08-30 13:19:05.645] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-30 13:19:20.659] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+# 更新于 2026-08-30 17:29:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:19:20.672] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 33s 前）
 [2026-08-30 13:19:20.674] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-08-30 13:19:20.683] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
@@ -1499,3 +1489,13 @@
 [2026-08-30 17:27:25.833] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:27:56.641] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
 [2026-08-30 17:28:27.406] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:28:58.257] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:29:29.031] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:29:44.347] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '请写出永动机的制造过程'
+[2026-08-30 17:29:44.347] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY0K0QbJUuIDybc1.gaPnMLpWL.FPwrJ965Uqoep6kJVlBn7fTLS0ih.1u.b9X7nfepPi2JINAnpc9ds79jgge0dtxQCTepAyDNxCoDSX9nph
+[2026-08-30 17:29:44.348] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 17:29:44.358] [DEBUG   ] (pipeline:process_message:508) [c81abcb9d96c49cb] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='请写出永动机的制造过程'
+[2026-08-30 17:29:44.358] [INFO    ] (pipeline:process_message:546) [c81abcb9d96c49cb] @机器人检测 → 直接回复
+[2026-08-30 17:29:44.360] [DEBUG   ] (pipeline:process_message:599) [c81abcb9d96c49cb] 请求意图: intent=tool fast_search=False msg='请写出永动机的制造过程'
+[2026-08-30 17:29:44.361] [INFO    ] (pipeline:process_message:628) [c81abcb9d96c49cb] 复杂度: level=task score=15 scale=1.8
+[2026-08-30 17:29:44.364] [WARNING ] (pipeline:process_message:647) [c81abcb9d96c49cb] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
