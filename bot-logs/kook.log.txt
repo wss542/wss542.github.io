@@ -1,21 +1,4 @@
-# 更新于 2026-08-31 04:00:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 00:30:44.364] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 14, 'total_context_lines': 289, 'total_buffer_lines': 6, 'active_tasks': 0}
-[2026-08-31 00:30:44.371] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-31 00:30:44.372] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-31 00:30:44.414] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-31 00:30:49.250] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-31 00:30:49.489] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-31 00:30:50.808] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-31 00:30:50.847] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-31 00:30:51.828] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-31 00:30:51.829] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-31 00:30:51.829] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-31 00:30:51.833] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-08-31 00:30:51.834] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-31 00:30:51.837] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-31 00:30:51.838] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-31 00:30:51.838] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-31 00:30:51.838] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+# 更新于 2026-08-31 04:01:55 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:30:51.838] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
 [2026-08-31 00:30:52.162] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
 [2026-08-31 00:30:52.163] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
@@ -1499,3 +1482,20 @@
 [2026-08-31 04:00:03.186] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=27.1 mem=70.5
 [2026-08-31 04:00:03.187] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 04:00:23.178] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 53694)]: music=[] lyric_event=False lyric='-' keys=16
+[2026-08-31 04:00:53.572] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>
+[2026-08-31 04:01:13.608] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>
+[2026-08-31 04:01:13.610] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 04:01:13.638] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
+[2026-08-31 04:01:18.666] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:18.670] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:18.675] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:23.879] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:23.892] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:23.894] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+[2026-08-31 04:01:24.103] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 0 条新记录
+[2026-08-31 04:01:28.604] [INFO    ] (bot:_bg_wdsj_collector:722) [-] 日榜目标频道: [3649029148752421]
+[2026-08-31 04:01:48.625] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>
+[2026-08-31 04:01:48.745] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 04:01:48.749] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: sent 1011 (internal error) keepalive ping timeout; no close frame received，5s 后重连
+[2026-08-31 04:01:54.281] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-31 04:01:54.435] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
