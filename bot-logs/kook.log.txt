@@ -1,14 +1,4 @@
-# 更新于 2026-08-30 15:57:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:03:47.567] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-08-30 13:03:47.568] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-08-30 13:03:47.568] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-08-30 13:03:47.569] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-08-30 13:03:47.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-08-30 13:03:47.570] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-08-30 13:03:47.571] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-08-30 13:03:47.575] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-08-30 13:03:47.575] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-08-30 13:03:47.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+# 更新于 2026-08-30 15:58:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:03:47.576] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
 [2026-08-30 13:03:47.577] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
 [2026-08-30 13:03:47.577] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
@@ -1499,3 +1489,13 @@
 [2026-08-30 15:57:23.434] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 阿肆**' keys=18
 [2026-08-30 15:57:30.985] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
 [2026-08-30 15:57:30.985] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 15:57:46.826] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/余额'
+[2026-08-30 15:57:46.827] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY330nQVu5XtGswKOxOWo3Z5OmikasYw9vkiTRz-ZSpIFp8iD3tkVO99eSzVYDeAYMjkGMvGaKPnQdpVkZZZ1OJRtxQCTepAyDNxCoDSX9nph
+[2026-08-30 15:57:46.827] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-30 15:57:46.829] [INFO    ] (pipeline:process_message:478) [f9a8349f4dff4603] 指令拦截: '/余额' from=若尘 ~喵
+[2026-08-30 15:57:46.829] [DEBUG   ] (commands:handle_command:4881) [f9a8349f4dff4603] 指令解析: prefix=/ cmd=余额 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 15:57:46.893] [INFO    ] (engine:_ingest:92) [f9a8349f4dff4603] 异步记忆提炼完成 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F: 候选1 新增1
+[2026-08-30 15:57:46.997] [INFO    ] (commands:handle_command:4936) [f9a8349f4dff4603] 指令执行完成 [余额]: 返回509字符
+[2026-08-30 15:57:48.674] [INFO    ] (qq_transport:_send_message:234) [f9a8349f4dff4603] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=509 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Fi9XGzKqaXskMTsUC6HLV16sVgWjaY6-.E2.SOjACwTlGsVPG.dYvvc7iYjsVnVzA!!
+[2026-08-30 15:57:48.674] [INFO    ] (logger:log_trace_summary:392) [f9a8349f4dff4603] [TRACE f9a8349f4dff4603] total=1846.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1846.29ms(x1) (wall1846.29), queue_wait=0.9ms(x1)
+[2026-08-30 15:57:53.945] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**作词 : 阿肆**' keys=18
