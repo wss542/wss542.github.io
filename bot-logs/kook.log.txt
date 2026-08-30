@@ -1,6 +1,4 @@
-# 更新于 2026-08-30 12:51:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:50:12.540] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-30 00:50:12.540] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+# 更新于 2026-08-30 12:52:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:50:12.540] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
 [2026-08-30 00:50:28.661] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
 [2026-08-30 00:58:04.068] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
@@ -1499,3 +1497,5 @@
 [2026-08-30 12:50:07.333] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6782)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:50:37.945] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6782)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:51:09.601] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6782)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:51:25.748] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 12:51:40.218] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6782)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
