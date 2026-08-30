@@ -1,4 +1,4 @@
-# 更新于 2026-08-31 01:09:45 · 共 854 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-31 01:10:31 · 共 858 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:03:22.955] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-31 00:03:23.501] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-31 00:03:40.769] [INFO    ] (logger:info:335) [-] ==================================================
@@ -853,3 +853,7 @@
 [2026-08-31 01:09:33.848] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 01:09:33.957] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 [2026-08-31 01:09:33.958] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-31 01:09:54.237] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 51456)]: music=[] lyric_event=False lyric='-' keys=17
+[2026-08-31 01:10:04.277] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=35.3 mem=46.1
+[2026-08-31 01:10:04.277] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 01:10:24.704] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 51456)]: music=[] lyric_event=False lyric='-' keys=17
