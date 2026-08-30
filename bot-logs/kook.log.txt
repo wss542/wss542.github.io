@@ -1,10 +1,4 @@
-# 更新于 2026-08-30 13:15:26 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 11:57:44.245] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 11:57:44.632] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 4879s
-[2026-08-30 11:57:47.357] [INFO    ] (qq_transport:upload_media_file:321) [-] QQ 分片上传成功 file=tiny.png size=79 ttl=86400
-[2026-08-30 11:57:48.986] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6770)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
-[2026-08-30 11:57:50.310] [INFO    ] (qq_transport:upload_media_file:321) [-] QQ 分片上传成功 file=help_card.png size=435448 ttl=86400
-[2026-08-30 11:57:59.145] [INFO    ] (qq_transport:upload_media_file:321) [-] QQ 分片上传成功 file=big.bin size=11534344 ttl=86400
+# 更新于 2026-08-30 13:16:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 11:58:16.273] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
 [2026-08-30 11:58:16.384] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
 [2026-08-30 11:58:16.385] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
@@ -1499,3 +1493,9 @@
 [2026-08-30 13:14:38.323] [INFO    ] (commands:handle_command:4938) [-] 指令执行完成 [help]: 无返回值（已自行发送）
 [2026-08-30 13:14:54.925] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9406)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:15:25.798] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9406)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:15:47.508] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-08-30 13:15:47.683] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-08-30 13:15:47.919] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-08-30 13:15:47.923] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-08-30 13:15:47.925] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 49453 秒
+[2026-08-30 13:15:56.474] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9406)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
