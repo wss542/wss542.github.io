@@ -1,4 +1,4 @@
-# 更新于 2026-08-31 00:15:45 · 共 191 行（来源 huanmeng.log 末尾）
+# 更新于 2026-08-31 00:16:43 · 共 236 行（来源 huanmeng.log 末尾）
 [2026-08-31 00:03:22.955] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-31 00:03:23.501] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-08-31 00:03:40.769] [INFO    ] (logger:info:335) [-] ==================================================
@@ -190,3 +190,48 @@
 [2026-08-31 00:15:29.082] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=40.4 mem=45.8
 [2026-08-31 00:15:29.083] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-08-31 00:15:30.779] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-31 00:15:48.688] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/签到'
+[2026-08-31 00:15:48.690] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY6CUn-aaPT70eaf7qjkUDl3HvLm7BDWNrBP8FvcWld-z1i66NQi9Aw8XqjD5hqyXDLvGUJDPPV.SlI5vBT7G4SoNIqrVm3QhC6-bhktADRFg
+[2026-08-31 00:15:48.693] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
+[2026-08-31 00:15:48.693] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-31 00:15:48.712] [INFO    ] (identity:_ensure_loaded:92) [ca9585e8ee6546f5] 身份映射已载入 1 条
+[2026-08-31 00:15:48.728] [INFO    ] (memory:merge_overflow_memory:419) [ca9585e8ee6546f5] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+[2026-08-31 00:15:48.758] [INFO    ] (pipeline:process_message:478) [ca9585e8ee6546f5] 指令拦截: '/签到' from=若尘 ~喵
+[2026-08-31 00:15:48.762] [DEBUG   ] (commands:handle_command:4840) [ca9585e8ee6546f5] 指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-31 00:15:48.770] [INFO    ] (checkin:do_checkin:117) [ca9585e8ee6546f5] 签到: u:1759953618 streak=16 +15分
+[2026-08-31 00:15:48.771] [INFO    ] (commands:handle_command:4895) [ca9585e8ee6546f5] 指令执行完成 [签到]: 返回42字符
+[2026-08-31 00:15:50.501] [INFO    ] (qq_transport:_send_message:234) [ca9585e8ee6546f5] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=42 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3BvyhQNhmn0f4odaJQb54PxeQfNHD27s9AdTs.n7Io7hERVMnyVS-msso7a51CgOQg!!
+[2026-08-31 00:15:50.506] [INFO    ] (logger:log_trace_summary:392) [ca9585e8ee6546f5] [TRACE ca9585e8ee6546f5] total=1804.97ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1795.61ms(x1) (wall1795.61), queue_wait=9.35ms(x1)
+[2026-08-31 00:15:54.185] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/luck'
+[2026-08-31 00:15:54.185] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY486f9jWmN9JUTWV0fl03kRMXulPgmHaGdL8VPNO28oJ2rI0n3siHuYtlZu9TSjZlod9k6t-zVKscq6hi8j0l0ltxQCTepAyDNxCoDSX9nph
+[2026-08-31 00:15:54.185] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-31 00:15:54.188] [INFO    ] (memory:merge_overflow_memory:419) [fe4a24bbbd594e6a] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+[2026-08-31 00:15:54.189] [INFO    ] (pipeline:process_message:478) [fe4a24bbbd594e6a] 指令拦截: '/luck' from=若尘 ~喵
+[2026-08-31 00:15:54.189] [DEBUG   ] (commands:handle_command:4840) [fe4a24bbbd594e6a] 指令解析: prefix=/ cmd=luck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-31 00:15:54.191] [INFO    ] (commands:cmd_luck:716) [fe4a24bbbd594e6a] 指令 /luck 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-31 00:15:54.198] [INFO    ] (commands:handle_command:4895) [fe4a24bbbd594e6a] 指令执行完成 [luck]: 返回57字符
+[2026-08-31 00:15:55.760] [INFO    ] (qq_transport:_send_message:234) [fe4a24bbbd594e6a] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=57 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3JWh4052Xm0Sw4q04MUwr-ZwARNZYwwwtLvrnngxnrUtMMqaiLG4OrMzstUOsdXm1Q!!
+[2026-08-31 00:15:55.761] [INFO    ] (logger:log_trace_summary:392) [fe4a24bbbd594e6a] [TRACE fe4a24bbbd594e6a] total=1575.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1574.97ms(x1) (wall1574.97), queue_wait=0.41ms(x1)
+[2026-08-31 00:15:58.703] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/fuck'
+[2026-08-31 00:15:58.703] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYzI5sBVOLdGzfzS1wl1rVgbO96T6WMAhrPkInmOOLPeaSYgRdBwxRoBTwYPPSqfmxLneYiNU.UcKWB8lWfDe0pNtxQCTepAyDNxCoDSX9nph
+[2026-08-31 00:15:58.703] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-31 00:15:58.704] [INFO    ] (memory:merge_overflow_memory:419) [5e3cd8a4c1a34c3d] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+[2026-08-31 00:15:58.705] [INFO    ] (pipeline:process_message:478) [5e3cd8a4c1a34c3d] 指令拦截: '/fuck' from=若尘 ~喵
+[2026-08-31 00:15:58.705] [DEBUG   ] (commands:handle_command:4840) [5e3cd8a4c1a34c3d] 指令解析: prefix=/ cmd=fuck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-31 00:15:58.710] [INFO    ] (commands:handle_command:4895) [5e3cd8a4c1a34c3d] 指令执行完成 [fuck]: 返回56字符
+[2026-08-31 00:16:00.244] [INFO    ] (qq_transport:_send_message:234) [5e3cd8a4c1a34c3d] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=56 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3MZ2BSweDNmysjpHboF3M7BknIBTUTM57MqOJxoUXd3ZmEi.RnYBOfAmzNDT66mH9w!!
+[2026-08-31 00:16:00.244] [INFO    ] (logger:log_trace_summary:392) [5e3cd8a4c1a34c3d] [TRACE 5e3cd8a4c1a34c3d] total=1540.28ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1540.23ms(x1) (wall1540.23), queue_wait=0.39ms(x1)
+[2026-08-31 00:16:01.155] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-31 00:16:10.070] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-31 00:16:14.826] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=36.9 mem=45.8
+[2026-08-31 00:16:14.827] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 00:16:30.170] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=ᗜ𖥦ᗜ role=member union=-]: '/'
+[2026-08-31 00:16:30.170] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_DsbLEZB1pWbsScpLUh7KjTo.nDbRtubK4j6JKQRonq.OA5B44vtxgWRvQiKukKVO3TJEHeXSbgJmF91pnI-Hav14aNo7c4bNqPNB9mXFOtNtxQCTepAyDNxCoDSX9nph
+[2026-08-31 00:16:30.170] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-08-31 00:16:30.172] [INFO    ] (fav:ensure_fav:163) [5eeef605f0a5425c] 好感度首次注册: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:65CF09CABE1EF16FA2EA2EC26F8B57C4 = 50
+[2026-08-31 00:16:30.172] [INFO    ] (memory:merge_overflow_memory:419) [5eeef605f0a5425c] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 4条 (阈值=10)
+[2026-08-31 00:16:30.173] [INFO    ] (pipeline:process_message:478) [5eeef605f0a5425c] 指令拦截: '/' from=ᗜ𖥦ᗜ
+[2026-08-31 00:16:30.173] [WARNING ] (commands:handle_command:4832) [5eeef605f0a5425c] 空指令内容: '/'
+[2026-08-31 00:16:30.187] [INFO    ] (logger:log_trace_summary:392) [5eeef605f0a5425c] [TRACE 5eeef605f0a5425c] total=15.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=15.32ms(x1) (wall15.32), queue_wait=0.94ms(x1)
+[2026-08-31 00:16:31.783] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 7106)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-08-31 00:16:43.863] [INFO    ] (qq_transport:_send_message:234) [-] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=16 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LOOPnkQm4yHloCBnMSxzXVCeSryKzulUuqsHfxVO3FwCGunl8RPYKSFqUiaVsrkFw!!
