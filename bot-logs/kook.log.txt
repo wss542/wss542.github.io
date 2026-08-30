@@ -1,7 +1,4 @@
-# 更新于 2026-08-30 12:24:11 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:31:40.799] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h29m 后执行 (04:01)
-[2026-08-30 00:31:40.809] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-30 00:31:42.433] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 178s 前）
+# 更新于 2026-08-30 12:24:42 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:31:42.434] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-08-30 00:31:42.438] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-08-30 00:31:42.439] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1496,6 @@
 [2026-08-30 12:23:12.264] [INFO    ] (identity:unbind:190) [-] 身份解绑成功 QQ 63C251709C77FDEE87FC502F866E3FB5 ↔ KOOK 1759953618
 [2026-08-30 12:23:22.445] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:23:53.034] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:24:23.576] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:24:42.763] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-08-30 12:24:42.763] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
