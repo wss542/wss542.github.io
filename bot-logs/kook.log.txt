@@ -1,15 +1,4 @@
-# 更新于 2026-08-30 17:40:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:30:23.926] [INFO    ] (pipeline:process_message:807) [9062ad4bc78b4772] 额外信息: 163字 (memory=25 search=0)
-[2026-08-30 13:30:23.942] [INFO    ] (pipeline:process_message:940) [9062ad4bc78b4772] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
-[2026-08-30 13:30:23.952] [DEBUG   ] (pipeline:process_message:1069) [9062ad4bc78b4772] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-08-30 13:30:23.953] [INFO    ] (pipeline:process_message:1072) [9062ad4bc78b4772] 开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 13:30:32.263] [INFO    ] (llm:generate_multi_reply_with_tools:971) [9062ad4bc78b4772] LLM原始输出 [轮1]: content={"replies":["喵呜～今天好开心！(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":2,"calls":[],"face":"开心1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"63C251709C77FDEE | tool_calls=0
-[2026-08-30 13:30:32.268] [WARNING ] (face_lib:_init:29) [9062ad4bc78b4772] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-08-30 13:30:32.271] [INFO    ] (llm:_parse_reply:1314) [9062ad4bc78b4772] JSON回复解析: 1句 fav=+2 calls=0 mood=开心
-[2026-08-30 13:30:32.276] [INFO    ] (fav:update_fav:126) [9062ad4bc78b4772] 好感度更新: p:1759953618 +2 → 60
-[2026-08-30 13:30:32.276] [INFO    ] (pipeline:process_message:1555) [9062ad4bc78b4772] 好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +2 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
-[2026-08-30 13:30:32.276] [INFO    ] (memory:maybe_save_memory:401) [9062ad4bc78b4772] 触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
-[2026-08-30 13:30:32.276] [INFO    ] (pipeline:process_message:1561) [9062ad4bc78b4772] ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+# 更新于 2026-08-30 17:41:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:30:32.276] [INFO    ] (qq_bot:_handle:167) [9062ad4bc78b4772] QQ 消息 [chat=qq:6EAA5C6B3896ED18FE5C82835C474A29 group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '喵呜～'
 [2026-08-30 13:30:32.277] [INFO    ] (qq_bot:_handle:176) [9062ad4bc78b4772] QQ 登记被动窗口 openid=6EAA5C6B3896ED18FE5C82835C474A29 group=True msg_id=ROBOT1.0_YxmTtz-NTQbFrJK.TurTmvs6dXCObTNW11nlZmStdG08oCkc0c2dmHcIwQUBtRB373Z7PtJi1CSxKdWvjEN7H4tFLO63SVIKZ-UV4I3iA4kNIqrVm3QhC6-bhktADRFg
 [2026-08-30 13:30:32.278] [DEBUG   ] (pipeline:process_message:508) [9062ad4bc78b4772] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵呜～'
@@ -1499,3 +1488,14 @@
 [2026-08-30 17:40:14.681] [INFO    ] (commands:handle_command:4936) [c63223b27eb54f52] 指令执行完成 [steam绑定]: 返回77字符
 [2026-08-30 17:40:15.644] [INFO    ] (qq_transport:_send_message:234) [c63223b27eb54f52] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=77 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqjSybHraJkxUEGUsYn3nNIZBKc8c8d-GlUP2deszMhK9wHlrsHYn0brMKnbZ-H-N.A!!
 [2026-08-30 17:40:15.644] [INFO    ] (logger:log_trace_summary:392) [c63223b27eb54f52] [TRACE c63223b27eb54f52] total=966.01ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=965.94ms(x1) (wall965.94), queue_wait=0.48ms(x1)
+[2026-08-30 17:40:44.420] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/Steam'
+[2026-08-30 17:40:44.420] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-rONM-0lBWdu7hzNdK9k.KtzsGBWntMIeWIHgSgShgorY3nK1A5b4F7Eof3QOAN0BLK7vOIcYRDE9IfsMXwqNnE!
+[2026-08-30 17:40:44.420] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+[2026-08-30 17:40:44.422] [INFO    ] (pipeline:process_message:478) [650fc41de70a4208] 指令拦截: '/Steam' from=63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 17:40:44.422] [DEBUG   ] (commands:handle_command:4881) [650fc41de70a4208] 指令解析: prefix=/ cmd=steam args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 17:40:44.750] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**混音 : YOCHO**' keys=18
+[2026-08-30 17:40:45.455] [INFO    ] (qq_transport:_send_message:234) [650fc41de70a4208] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=20 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqrVDmGj9-kJIFArGHmhWA6j26zlgaL78UNe0O8t-ZNzbwHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 17:41:03.141] [INFO    ] (commands:handle_command:4936) [650fc41de70a4208] 指令执行完成 [steam]: 返回68字符
+[2026-08-30 17:41:04.388] [INFO    ] (qq_transport:_send_message:234) [650fc41de70a4208] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=68 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqmR3U5u.DB1zc7aeRZMDm-mZUkvioEqQqoxgENfvacSlwHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 17:41:04.388] [INFO    ] (logger:log_trace_summary:392) [650fc41de70a4208] [TRACE 650fc41de70a4208] total=19967.04ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=19966.98ms(x1) (wall19966.98), queue_wait=0.94ms(x1)
+[2026-08-30 17:41:04.388] [WARNING ] (logger:log_trace_summary:410) [650fc41de70a4208] [VERY_SLOW 650fc41de70a4208] total=19967.27ms 需重点排查 | process=19966.98ms(x1) (wall19966.98), queue_wait=0.94ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.94ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=19966.98ms wall=19967.24ms dominant=other
