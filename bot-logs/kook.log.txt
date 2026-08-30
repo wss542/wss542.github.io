@@ -1,29 +1,4 @@
-# 更新于 2026-08-30 16:01:11 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 13:04:02.736] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-30 13:04:02.737] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-30 13:04:02.737] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-30 13:04:02.738] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-30 13:04:02.870] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-30 13:04:02.872] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-30 13:04:03.015] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-30 13:04:03.017] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-30 13:04:03.040] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 13:04:03.965] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 13:04:03.969] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 13:04:03.971] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 39361 秒 (下次 00:00:05)
-[2026-08-30 13:04:04.080] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:04:04.812] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 13:04:07.396] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 13:04:07.398] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 13:04:07.398] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 13:04:07.399] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 13:04:07.696] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 896s
-[2026-08-30 13:04:08.288] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 13:04:08.603] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
-[2026-08-30 13:04:34.815] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:05:05.717] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:05:36.523] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 13:06:07.251] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-30 16:02:06 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 13:06:37.919] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:07:08.694] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:07:39.412] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4372)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1474,28 @@
 [2026-08-30 16:01:11.036] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-30 16:01:11.039] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=6219ms]: '**扛住了 朋友聚会的调侃**' song=阿肆 - 喜欢 playing=True channel=None
 [2026-08-30 16:01:11.040] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=2798ms]: '**扛住了 世俗生活的刁难**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:12.589] [INFO    ] (bot:_bg_wdsj_collector:722) [-] 日榜目标频道: [3649029148752421]
+[2026-08-30 16:01:12.787] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1128ms]: '**却扛不住**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:13.836] [INFO    ] (bot:_bg_wdsj_collector:726) [-] 日榜已发到频道 3649029148752421
+[2026-08-30 16:01:13.837] [INFO    ] (bot:_bg_wdsj_collector:729) [-] 日榜已推送: 3 人 (2026-08-30)
+[2026-08-30 16:01:13.837] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h59m 后执行 (20:01)
+[2026-08-30 16:01:13.906] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=511ms]: '**对你的喜欢**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:17.282] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1080ms]: '**亦步亦趋 随你至深不可测**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:20.686] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1134ms]: '**患得患失 唯恐你遥不可得**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:26.338] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=812ms]: '**却只面不改色**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:28.612] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**为你我认了**' keys=18
+[2026-08-30 16:01:28.613] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1054ms]: '**为你我认了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:30.865] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=900ms]: '**一朝一夕 使我已固不可彻**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:34.253] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=991ms]: '**若即若离 本应是罪不可赦**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:39.905] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=578ms]: '**怎不忍心怪你**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:42.157] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=813ms]: '**对我太独特**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:46.675] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=863ms]: '**无时无刻**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:50.071] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=908ms]: '**像是一首**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:51.195] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1182ms]: '**无法停止单曲循环的无名歌**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:56.864] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1267ms]: '**扛住了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:57.994] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1078ms]: '**柴米油盐的麻烦**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:01:59.119] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5785)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**柴米油盐的麻烦**' keys=18
+[2026-08-30 16:02:00.250] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=605ms]: '**扛住了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:02:01.376] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1149ms]: '**朋友聚会的调侃**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:02:03.625] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=528ms]: '**扛住了**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-08-30 16:02:04.759] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1076ms]: '**世俗生活的刁难**' song=阿肆 - 喜欢 playing=True channel=None
