@@ -1,45 +1,4 @@
-# 更新于 2026-08-30 13:47:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:30:22.471] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-08-30 12:30:22.471] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-08-30 12:30:22.471] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-08-30 12:30:22.471] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-08-30 12:30:22.472] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:30:22.472] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-08-30 12:30:22.472] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 12:30:22.472] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-08-30 12:30:22.474] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-08-30 12:30:22.510] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-08-30 12:30:22.511] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-08-30 12:30:22.512] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h30m 后执行 (16:01)
-[2026-08-30 12:30:22.528] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-08-30 12:30:37.531] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-08-30 12:30:37.539] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 34s 前）
-[2026-08-30 12:30:37.540] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-08-30 12:30:37.549] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-08-30 12:30:37.550] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-08-30 12:30:37.551] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-08-30 12:30:37.552] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-08-30 12:30:37.553] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-08-30 12:30:37.553] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-08-30 12:30:37.690] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
-[2026-08-30 12:30:37.690] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-08-30 12:30:37.798] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-08-30 12:30:37.799] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-08-30 12:30:39.253] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 12:30:39.260] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 12:30:39.261] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 41366 秒 (下次 00:00:05)
-[2026-08-30 12:30:39.561] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 12:30:39.579] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-08-30 12:30:39.579] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 12:30:39.580] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 12:30:39.580] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 12:30:39.842] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 2903s
-[2026-08-30 12:30:40.296] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 12:30:40.331] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 12:30:40.502] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
-[2026-08-30 12:30:41.058] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9741)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:31:11.894] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9741)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-08-30 12:31:42.519] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9741)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-08-30 13:48:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:31:59.934] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-08-30 12:31:59.950] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 1 条
 [2026-08-30 12:32:10.714] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
@@ -1499,3 +1458,44 @@
 [2026-08-30 13:46:13.754] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:46:44.468] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 13:47:15.196] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:47:46.190] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 5651)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 13:47:55.075] [INFO    ] (qq_bot:_handle:220) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '[图片]' (图1 视0)
+[2026-08-30 13:47:55.076] [INFO    ] (qq_bot:_handle:231) [-] QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-nYB2TqxySUPPX4nZvz25RJYszyuZUu5jFFMejk7OLDaq4xv4eOPL1YdyMGe9vhal7K7vOIcYRDE9IfsMXwqNnE!
+[2026-08-30 13:47:55.084] [DEBUG   ] (image_api:_load:50) [-] 图片缓存已加载: 365 条
+[2026-08-30 13:47:55.085] [INFO    ] (image_api:recognize_image:152) [-] [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 开始获取图片: https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=E...
+[2026-08-30 13:47:56.033] [INFO    ] (image_api:recognize_image:168) [-] [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片下载成功: 1274918 bytes
+[2026-08-30 13:48:00.683] [INFO    ] (image_api:recognize_image:204) [-] [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片预处理: JPEG(4032x2268) → PNG 1274918 bytes → 2199480 bytes
+[2026-08-30 13:48:00.698] [INFO    ] (image_api:recognize_image:251) [-] [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 调用主视觉模型识别图片 (MD5=aa47c61cfa0e...) model=deepseek-v4-flash-vision-exp
+[2026-08-30 13:48:04.953] [INFO    ] (image_api:recognize_image:280) [-] [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 城市黄昏，灰云中透出耀眼金光，高楼剪影立于江畔，前景白色铁栏杆蜿蜒。情绪：宁静、温暖、开阔、释然、治...
+[2026-08-30 13:48:04.959] [DEBUG   ] (image_api:_save:64) [-] 图片缓存已写入磁盘: 366 条
+[2026-08-30 13:48:04.976] [DEBUG   ] (image_api:_save_to_repo:315) [-] 图片仓库追加: MD5=aa47c61cfa0e... → '城市黄昏，灰云中透出耀眼金光，高楼剪影立于江畔，前景白色铁栏'
+[2026-08-30 13:48:04.978] [INFO    ] (qq_bot:_qq_recognize_images:329) [-] QQ 图1 识别完成并注入上下文: '城市黄昏，灰云中透出耀眼金光，高楼剪影立于江畔，前景白色铁栏杆蜿蜒。情绪：宁静、温暖、开阔、释然、治...'
+[2026-08-30 13:48:04.978] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
+[2026-08-30 13:48:04.978] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+[2026-08-30 13:48:04.979] [INFO    ] (pipeline:process_message:375) [09777ad348984b5f] 附带图片已记录 [chat=qq:63C251709C77FDEE87FC502F866E3FB5] count=1
+[2026-08-30 13:48:04.982] [INFO    ] (identity:_ensure_loaded:92) [09777ad348984b5f] 身份映射已载入 1 条
+[2026-08-30 13:48:05.007] [DEBUG   ] (pipeline:process_message:508) [09777ad348984b5f] 回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='[图片]'
+[2026-08-30 13:48:05.008] [DEBUG   ] (pipeline:process_message:539) [09777ad348984b5f] 私聊消息 → 直接回复
+[2026-08-30 13:48:05.018] [DEBUG   ] (pipeline:process_message:599) [09777ad348984b5f] 请求意图: intent=chat fast_search=False msg='[图片]'
+[2026-08-30 13:48:05.094] [WARNING ] (pipeline:process_message:647) [09777ad348984b5f] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-08-30 13:48:05.462] [DEBUG   ] (memory:_record_memory_trace:318) [09777ad348984b5f] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=360.0ms
+[2026-08-30 13:48:05.469] [INFO    ] (pipeline:process_message:807) [09777ad348984b5f] 额外信息: 340字 (memory=89 search=0)
+[2026-08-30 13:48:05.474] [INFO    ] (pipeline:process_message:940) [09777ad348984b5f] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-08-30 13:48:05.478] [DEBUG   ] (pipeline:process_message:1069) [09777ad348984b5f] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-08-30 13:48:05.479] [INFO    ] (pipeline:process_message:1072) [09777ad348984b5f] 开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:48:09.924] [INFO    ] (llm:generate_multi_reply_with_tools:971) [09777ad348984b5f] LLM原始输出 [轮1]: content={"replies":["好美的黄昏呀～(emj)注视1(emj)[3090677846298039/h4BzFCdzH20nm0nm]","金光透过云层，太治愈了"],"fav":2,"calls":[],"face":"(emj)注视1(emj)[3090677846298039/h4BzFCdzH20nm0nm]","mood":"温暖","action":"","at":null,"mod | tool_calls=0
+[2026-08-30 13:48:09.927] [WARNING ] (face_lib:_init:29) [09777ad348984b5f] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-08-30 13:48:09.927] [INFO    ] (llm:_parse_reply:1314) [09777ad348984b5f] JSON回复解析: 2句 fav=+2 calls=0 mood=温暖
+[2026-08-30 13:48:09.930] [INFO    ] (fav:update_fav:126) [09777ad348984b5f] 好感度更新: p:1759953618 +2 → 62
+[2026-08-30 13:48:09.931] [INFO    ] (pipeline:process_message:1555) [09777ad348984b5f] 好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +2 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 13:48:09.931] [INFO    ] (memory:maybe_save_memory:401) [09777ad348984b5f] 触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 3 条
+[2026-08-30 13:48:09.931] [INFO    ] (pipeline:process_message:1561) [09777ad348984b5f] ✅ 管道处理完成: 2句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 13:48:09.932] [INFO    ] (logger:log_trace_summary:392) [09777ad348984b5f] [TRACE 09777ad348984b5f] total=4952.84ms severity=slow_request | llm_calls=1 total=4444.53ms avg=4444.53ms max=4444.53ms p50=4444.53 p95=4444.53 p99=4444.53 | json_parse=0.83ms(x1), llm=4448.93ms(x1), memory=720.66ms(x2), message_retrieval=1.51ms(x2), process=4952.61ms(x1) (wall4952.61), queue_wait=0.77ms(x1)
+[2026-08-30 13:48:09.932] [WARNING ] (logger:log_trace_summary:415) [09777ad348984b5f] [SLOW 09777ad348984b5f] total=4953.3ms | json_parse=0.83ms(x1), llm=4448.93ms(x1), memory=720.66ms(x2), message_retrieval=1.51ms(x2), process=4952.61ms(x1) (wall4952.61), queue_wait=0.77ms(x1) | llm_calls=1 total=4444.53ms avg=4444.53ms max=4444.53ms p50=4444.53 p95=4444.53 p99=4444.53 | perf: queue=0.77ms llm=4449.76ms search_tool=0.0ms delivery=0.0ms other=5674.78ms wall=4953.26ms dominant=other
+[2026-08-30 13:48:09.933] [DEBUG   ] (response_delivery:send_sentences:283) [09777ad348984b5f] 开始分批发送 2 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
+[2026-08-30 13:48:09.937] [INFO    ] (llm:call_llm:427) [09777ad348984b5f] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-08-30 13:48:11.104] [INFO    ] (qq_transport:_send_message:227) [09777ad348984b5f] QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=55 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqiaS5FiKbIDpbbH5tbBRu0lzD.8pqri28BH-GvmHF40awHlrsHYn0brMKnbZ-H-N.A!!
+[2026-08-30 13:48:11.105] [DEBUG   ] (response_delivery:send_sentences:297) [09777ad348984b5f] 已发送第 1/2 条: 好美的黄昏呀～(emj)注视1(emj)[309067784...
+[2026-08-30 13:48:11.105] [DEBUG   ] (response_delivery:send_sentences:294) [09777ad348984b5f] 句间等待 0.87s (#2/2)
+[2026-08-30 13:48:12.088] [INFO    ] (llm:call_llm:489) [09777ad348984b5f] LLM [Qwen/Qwen3-235B-A22B] 返回 122字符 耗时2.1s → "[13:48:09] 茂密: 发送了图片, 好美的黄昏呀～(emj)注视1(emj)[3090677..."
+[2026-08-30 13:48:12.089] [INFO    ] (memory:_compress_with_deepseek:210) [09777ad348984b5f] [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 3条消息 → 保存
