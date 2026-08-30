@@ -1,8 +1,4 @@
-# 更新于 2026-08-31 05:36:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-31 01:24:17.280] [INFO    ] (queues:_get_or_create_queue:32) [931306ed18d3401a] [队列] 创建群9844130976336955 的独立消息队列
-[2026-08-31 01:24:17.290] [DEBUG   ] (queues:enqueue_message:75) [931306ed18d3401a] [队列] 群9844130976336955 消息已入队 (队长度=1)
-[2026-08-31 01:24:17.445] [INFO    ] (memory:merge_overflow_memory:419) [8c7e98a85c6046e8] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
-[2026-08-31 01:24:17.514] [INFO    ] (pipeline:process_message:478) [8c7e98a85c6046e8] 指令拦截: '/mc  240e:394:3048:9cd1:b900:df0c:d0e7:f' from=ywandwss
+# 更新于 2026-08-31 05:37:07 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-31 01:24:17.543] [DEBUG   ] (commands:handle_command:4840) [8c7e98a85c6046e8] 指令解析: prefix=/ cmd=mc args=['240e:394:3048:9cd1:b900:df0c:d0e7:fe65:25566'] user=1759953618
 [2026-08-31 01:24:26.587] [INFO    ] (commands:handle_command:4895) [8c7e98a85c6046e8] 指令执行完成 [mc]: 返回99字符
 [2026-08-31 01:24:28.476] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=81.7 mem=46.1
@@ -1499,3 +1495,7 @@
 [2026-08-31 05:36:05.774] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
 [2026-08-31 05:36:18.172] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=71.0
 [2026-08-31 05:36:18.173] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 05:36:36.858] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4375)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**这是对冲动最好的惩罚**' keys=13
+[2026-08-31 05:36:48.630] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=46.0 mem=71.0
+[2026-08-31 05:36:48.630] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-31 05:37:07.471] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('100.83.105.123', 56422)]: music=[] lyric_event=False lyric='-' keys=16
