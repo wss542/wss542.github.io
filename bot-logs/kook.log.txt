@@ -1,21 +1,4 @@
-# 更新于 2026-08-30 14:36:08 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:53:01.218] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-08-30 12:53:01.218] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-08-30 12:53:01.219] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-08-30 12:53:01.220] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-08-30 12:53:01.221] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-08-30 12:53:01.221] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-08-30 12:53:01.221] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-08-30 12:53:01.221] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-08-30 12:53:01.224] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 12:53:01.224] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-08-30 12:53:01.225] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-08-30 12:53:01.225] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-08-30 12:53:01.239] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 12:53:01.239] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-08-30 12:53:01.240] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-08-30 12:53:01.253] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-08-30 12:53:01.253] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+# 更新于 2026-08-30 15:46:37 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:53:01.253] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 [2026-08-30 12:53:01.254] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
 [2026-08-30 12:53:01.254] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
@@ -1499,3 +1482,20 @@
 [2026-08-30 14:35:34.380] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-08-30 14:35:34.611] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 14:36:05.161] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 14:36:35.685] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+                                                                                                                                                                                                                                                                                                                                          [2026-08-30 15:46:22.101] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 15:46:22.193] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 15:46:36.213] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 15:46:36.213] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-08-30 15:46:36.214] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-08-30 15:46:36.222] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
+[2026-08-30 15:46:36.223] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-08-30 15:46:36.230] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-08-30 15:46:36.231] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-08-30 15:46:36.233] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-08-30 15:46:36.233] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-08-30 15:46:36.233] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-08-30 15:46:36.637] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-08-30 15:46:36.637] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-08-30 15:46:36.676] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-08-30 15:46:36.677] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
