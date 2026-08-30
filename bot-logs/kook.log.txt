@@ -1,56 +1,4 @@
-# 更新于 2026-08-30 12:27:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:31:42.953] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-08-30 00:31:42.953] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-08-30 00:31:42.953] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-08-30 00:31:43.763] [INFO    ] (qq_transport:_get_token:99) [-] QQ access_token 已刷新，有效期 5108s
-[2026-08-30 00:31:44.295] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-08-30 00:31:44.324] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
-[2026-08-30 00:31:44.324] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-08-30 00:31:44.324] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 84501 秒 (下次 00:00:05)
-[2026-08-30 00:31:44.436] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-08-30 00:31:44.527] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
-[2026-08-30 00:31:45.359] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 00:31:46.481] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Весь мир от Европы к Неве на восто-ок**
-`从欧洲穿过涅瓦' keys=18
-[2026-08-30 00:32:01.166] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-215ms]: '**Над землёой везде будут петь:**
-`大地上随处都将唱响：`' song=James Hannigan / The Skywalker playing=True channel=None
-[2026-08-30 00:32:04.548] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-492ms]: '**Столица, водка, Советский медведь наш!**
-`首都，伏特加，我们的苏维埃巨熊！' song=James Hannigan / The Skywalker playing=True channel=None
-[2026-08-30 00:32:09.096] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-104ms]: '**Ура！！ ура а а а ......**
-`万岁！！万岁 啊啊啊……`' song=James Hannigan / The Skywalker playing=True channel=None
-[2026-08-30 00:32:17.050] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Ура！！ ура а а а ......**
-`万岁！！万岁 啊啊啊……`' keys=18
-[2026-08-30 00:32:19.317] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=527ms]: '**- END -**' song=James Hannigan / The Skywalker playing=True channel=None
-[2026-08-30 00:32:23.904] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-145ms]: '**▶ Double X - Улеталиптицамигордыми**' song=Double X - Улеталиптицамигорды playing=True channel=None
-[2026-08-30 00:32:48.055] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
-[2026-08-30 00:33:05.396] [INFO    ] (qq_bot:_handle:160) [-] QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5]: '/help'
-[2026-08-30 00:33:05.399] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=51
-[2026-08-30 00:33:05.399] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
-[2026-08-30 00:33:05.402] [INFO    ] (fav:ensure_fav:141) [-] 好感度首次注册: p:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
-[2026-08-30 00:33:05.405] [DEBUG   ] (fav:_load_fav:56) [-] 跳过旧格式好感度条目: p:qq:63C251709C77FDEE87FC502F866E3FB5=50
-[2026-08-30 00:33:05.406] [INFO    ] (fav:_load_fav:59) [-] 检测到旧格式好感度数据，已自动清理不兼容条目
-[2026-08-30 00:33:05.436] [INFO    ] (pipeline:process_message:478) [-] 指令拦截: '/help' from=63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 00:33:05.437] [DEBUG   ] (commands:handle_command:4756) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-08-30 00:33:05.438] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
-[2026-08-30 00:33:09.580] [INFO    ] (commands:handle_command:4800) [-] 指令执行完成 [help]: 无返回值（已自行发送）
-[2026-08-30 00:33:19.118] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=17
-[2026-08-30 00:33:54.457] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-08-30 00:34:05.542] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-08-30 00:34:05.622] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1968)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
-[2026-08-30 00:34:05.663] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 00:34:12.149] [ERROR   ] (qq_bot:start:80) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
-[2026-08-30 00:34:37.186] [ERROR   ] (qq_bot:start:80) [-] QQBot 运行异常: <urlopen error [Errno -3] Temporary failure in name resolution>，5s 后重连
-[2026-08-30 00:34:57.209] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -3] Temporary failure in name resolution>
-[2026-08-30 00:35:17.232] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -3] Temporary failure in name resolution>
-[2026-08-30 00:35:31.638] [ERROR   ] (qq_bot:start:80) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-08-30 00:35:31.652] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-08-30 00:35:31.652] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4079)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
-[2026-08-30 00:35:31.656] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Temporary failure in name resolution]
-[2026-08-30 00:35:31.670] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-08-30 00:35:52.248] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -3] Temporary failure in name resolution>
-[2026-08-30 00:36:11.576] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-08-30 00:36:11.586] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4079)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
-[2026-08-30 00:36:11.586] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=32446ms]: '**⏸ 已暂停**' song=Double X - Улеталиптицамигорды playing=False channel=None
+# 更新于 2026-08-30 12:28:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:36:26.937] [ERROR   ] (qq_bot:start:80) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
 [2026-08-30 00:36:45.016] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -3] Temporary failure in name resolution>
 [2026-08-30 00:37:00.724] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
@@ -1499,3 +1447,55 @@
 [2026-08-30 12:26:29.516] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-08-30 12:26:56.274] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-08-30 12:27:26.747] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-08-30 12:27:36.195] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
+[2026-08-30 12:27:36.213] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-08-30 12:27:36.349] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=禁言 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.349] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /禁言 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.349] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=mute args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.349] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /mute (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.349] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=踢出 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.350] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /踢出 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.350] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=封禁 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.350] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /封禁 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.350] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=解封 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.350] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /解封 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.351] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=角色 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.351] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /角色 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.351] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=频道 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.351] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /频道 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.351] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=退群 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.351] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /退群 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.351] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=撤回 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.351] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /撤回 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.351] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=昵称 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /昵称 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=at args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /at (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=emoji args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /emoji (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=mention args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.352] [INFO    ] (commands:handle_command:4884) [-] QQ 通道拦截 KOOK 专属命令: /mention (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-08-30 12:27:36.352] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=help args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:36.353] [INFO    ] (commands:cmd_help:187) [-] 指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
+[2026-08-30 12:27:36.412] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-08-30 12:27:37.352] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-30 12:27:39.750] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 3084s
+[2026-08-30 12:27:42.798] [INFO    ] (qq_transport:upload_media_file:337) [-] QQ 分片上传成功 file=help_card.png size=435448 ttl=86400
+[2026-08-30 12:27:44.441] [INFO    ] (qq_transport:_send_message:183) [-] QQ 单聊发送成功(主动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqpqtvocdjSDEnBRUvVFRiPhv0XGT0asWd80WzUDa8zHhzPlo8.T0FtAntLLDKShawg!!
+[2026-08-30 12:27:44.442] [INFO    ] (commands:handle_command:4934) [-] 指令执行完成 [help]: 无返回值（已自行发送）
+[2026-08-30 12:27:44.442] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=身份 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:44.443] [INFO    ] (identity:_ensure_loaded:91) [-] 身份映射已载入 0 条
+[2026-08-30 12:27:44.443] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [身份]: 返回170字符
+[2026-08-30 12:27:44.443] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=身份列表 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [身份列表]: 返回14字符
+[2026-08-30 12:27:44.444] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=禁言 args=[] user=1759953618
+[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [禁言]: 返回17字符
+[2026-08-30 12:27:44.444] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=role args=[] user=1759953618
+[2026-08-30 12:27:44.444] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [role]: 返回17字符
+[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=退群 args=[] user=1759953618
+[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [退群]: 返回59字符
+[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=at args=[] user=1759953618
+[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [at]: 返回21字符
+[2026-08-30 12:27:44.445] [DEBUG   ] (commands:handle_command:4877) [-] 指令解析: prefix=/ cmd=emoji args=[] user=1759953618
+[2026-08-30 12:27:44.445] [INFO    ] (commands:handle_command:4932) [-] 指令执行完成 [emoji]: 返回35字符
+[2026-08-30 12:27:57.310] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 8393)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
