@@ -1,29 +1,4 @@
-# 更新于 2026-08-30 11:18:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 00:22:27.248] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 00:22:27.248] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-08-30 00:22:27.249] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-08-30 00:22:27.249] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-08-30 00:22:27.249] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-08-30 00:22:27.249] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-08-30 00:22:27.249] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-08-30 00:22:27.250] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-08-30 00:22:27.251] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-08-30 00:22:27.251] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-08-30 00:22:27.252] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-08-30 00:22:27.594] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-08-30 00:22:28.323] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-08-30 00:22:28.342] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-08-30 00:22:29.292] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 00:22:29.293] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-08-30 00:22:29.293] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-08-30 00:22:29.296] [INFO    ] (llm:_load_skill_sections:154) [-] main_skill.md 已加载: 12 个章节
-[2026-08-30 00:22:29.296] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-08-30 00:22:29.299] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-08-30 00:22:29.299] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-08-30 00:22:29.300] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-08-30 00:22:29.300] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-08-30 00:22:29.300] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-08-30 00:22:29.580] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+# 更新于 2026-08-30 11:19:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 00:22:29.581] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
 [2026-08-30 00:22:29.588] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
 [2026-08-30 00:22:29.588] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
@@ -1499,3 +1474,28 @@
 [2026-08-30 11:18:54.765] [INFO    ] (bot:_bg_wdsj_collector:664) [-] 上次采集 2026-08-30T00:01 距今超过 4h，启动时立即补采
 [2026-08-30 11:18:54.773] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 2 个玩家 x 2 模板
 [2026-08-30 11:18:54.800] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-08-30 11:18:56.129] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 37050s 前）
+[2026-08-30 11:18:56.133] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-08-30 11:18:56.163] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-08-30 11:18:56.163] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-08-30 11:18:56.164] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-08-30 11:18:56.164] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-08-30 11:18:56.164] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-08-30 11:18:56.164] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-08-30 11:18:56.342] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=68.7 mem=45.3
+[2026-08-30 11:18:56.344] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-08-30 11:18:56.450] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-08-30 11:18:56.451] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-08-30 11:18:58.063] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-08-30 → 周日
+[2026-08-30 11:18:58.063] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-08-30 11:18:58.065] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45667 秒 (下次 00:00:05)
+[2026-08-30 11:18:58.310] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-08-30 11:18:59.976] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 4 条新记录
+[2026-08-30 11:18:59.985] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 0h42m 后执行 (12:01)
+[2026-08-30 11:19:03.016] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-08-30 11:19:03.017] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-08-30 11:19:03.021] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-08-30 11:19:03.022] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-08-30 11:19:03.544] [INFO    ] (qq_transport:_get_token:99) [-] QQ access_token 已刷新，有效期 7200s
+[2026-08-30 11:19:04.040] [INFO    ] (qq_bot:_run_once:89) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-08-30 11:19:04.375] [INFO    ] (qq_bot:_run_once:106) [-] QQ HELLO interval=41250
