@@ -1,17 +1,4 @@
-# 更新于 2026-08-30 14:32:00 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-08-30 12:52:53.974] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-08-30 12:52:54.060] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-08-30 12:52:54.060] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-08-30 12:52:54.061] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-08-30 12:52:54.061] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-08-30 12:52:54.061] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-08-30 12:52:54.061] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-08-30 12:52:54.062] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-08-30 12:52:55.072] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-08-30 12:52:55.072] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
+# 更新于 2026-08-30 14:33:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
 [2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
 [2026-08-30 12:52:55.073] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
@@ -1499,3 +1486,16 @@
 [2026-08-30 14:30:59.386] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 14:31:29.818] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-08-30 14:32:00.638] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 14:32:31.124] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 14:33:01.992] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 9905)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-08-30 14:33:03.724] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-08-30 14:33:03.724] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/歌词 on' is_edit=False
+[2026-08-30 14:33:03.724] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d9e2be9e36f5443a] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-08-30 14:33:03.727] [INFO    ] (dispatcher:_dispatch_inner:308) [d9e2be9e36f5443a] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/歌词 on'
+[2026-08-30 14:33:03.728] [INFO    ] (queues:_get_or_create_queue:32) [d9e2be9e36f5443a] [队列] 创建群9844130976336955 的独立消息队列
+[2026-08-30 14:33:03.728] [DEBUG   ] (queues:enqueue_message:75) [d9e2be9e36f5443a] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-08-30 14:33:03.731] [INFO    ] (memory:merge_overflow_memory:419) [227de32cdcef41a1] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-08-30 14:33:03.732] [INFO    ] (pipeline:process_message:478) [227de32cdcef41a1] 指令拦截: '/歌词 on' from=ywandwss
+[2026-08-30 14:33:03.732] [DEBUG   ] (commands:handle_command:4881) [227de32cdcef41a1] 指令解析: prefix=/ cmd=歌词 args=['on'] user=1759953618
+[2026-08-30 14:33:03.732] [INFO    ] (commands:cmd_lyric:3440) [227de32cdcef41a1] 🎵 歌词推送开启: channel=9844130976336955 user=ywandwss(1759953618)
+[2026-08-30 14:33:03.732] [INFO    ] (commands:handle_command:4936) [227de32cdcef41a1] 指令执行完成 [歌词]: 返回43字符
