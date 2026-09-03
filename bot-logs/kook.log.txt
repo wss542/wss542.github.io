@@ -1,4 +1,4 @@
-# 更新于 2026-09-03 12:53:16 · 共 111 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-03 12:53:48 · 共 136 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:27.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-03 12:52:27.703] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:47.414] [INFO    ] (logger:info:335) [-] ==================================================
@@ -110,3 +110,28 @@
 [2026-09-03 12:52:59.056] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
 [2026-09-03 12:52:59.863] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-03 12:53:00.790] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-03 12:53:18.138] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-09-03 12:53:21.550] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
+[2026-09-03 12:53:21.551] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=571397ms]: '**▶ 刀郎 - 冲动的惩罚**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.628] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=189178ms]: '**▶ 继续播放**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.629] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=130383ms]: '**伤悲 伤悲 伤悲 ...**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.630] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=112064ms]: '**所以我伤悲**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.630] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=107946ms]: '**尽管手中还残留着你的香味**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.630] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=101420ms]: '**如果那天你不知道我喝了多少杯**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.631] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=96717ms]: '**你就不会明白你究竟有多美**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.631] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=92913ms]: '**我也不会相信第一次看见你**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.632] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=89194ms]: '**就爱你爱的那么干脆**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.632] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=86051ms]: '**可是我相信我心中的感觉**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.632] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=82366ms]: '**它来的那么快来的那么直接**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=78290ms]: '**就算我心狂野 无法将火熄灭**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=74646ms]: '**我依然相信是老天让你我相约**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=71026ms]: '**如果说没有闻到残留手中你的香水**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.633] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=67239ms]: '**我绝对不会辗转反侧难以入睡**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.641] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=63498ms]: '**就想着你的美 闻着你的香味**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.642] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=59819ms]: '**在冰与火的情欲中挣扎徘徊**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.643] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=54521ms]: '**如果说不是老天让缘分把我捉弄**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.644] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=50662ms]: '**想到你我就不会那么心痛**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.644] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=46842ms]: '**就把你忘记吧 应该把你忘了**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:21.646] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=43070ms]: '**这是对冲动最好的惩罚**' song=刀郎 - 冲动的惩罚 playing=True channel=None
+[2026-09-03 12:53:22.436] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
+[2026-09-03 12:53:22.440] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
