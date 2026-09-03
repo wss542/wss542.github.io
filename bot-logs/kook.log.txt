@@ -1,4 +1,4 @@
-# 更新于 2026-09-03 16:10:00 · 共 774 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-03 16:11:00 · 共 789 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:27.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-03 12:52:27.703] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:47.414] [INFO    ] (logger:info:335) [-] ==================================================
@@ -773,3 +773,18 @@
 [2026-09-03 16:08:42.310] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-09-03 16:09:13.444] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
 [2026-09-03 16:09:44.337] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-09-03 16:10:03.355] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-09-03 16:10:03.356] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 16:10:15.181] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-09-03 16:10:23.608] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:10:23.608] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/update check' is_edit=False
+[2026-09-03 16:10:23.610] [DEBUG   ] (dispatcher:_dispatch_inner:110) [717e6351aca04be2] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-03 16:10:23.615] [INFO    ] (dispatcher:_dispatch_inner:308) [717e6351aca04be2] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/update check'
+[2026-09-03 16:10:23.616] [INFO    ] (queues:_get_or_create_queue:32) [717e6351aca04be2] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-03 16:10:23.616] [DEBUG   ] (queues:enqueue_message:75) [717e6351aca04be2] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-03 16:10:23.623] [INFO    ] (memory:merge_overflow_memory:419) [e3d37b13bfa04e60] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-03 16:10:23.633] [INFO    ] (pipeline:process_message:478) [e3d37b13bfa04e60] 指令拦截: '/update check' from=ywandwss
+[2026-09-03 16:10:23.634] [DEBUG   ] (commands:handle_command:4840) [e3d37b13bfa04e60] 指令解析: prefix=/ cmd=update args=['check'] user=1759953618
+[2026-09-03 16:10:23.635] [INFO    ] (commands:handle_command:4895) [e3d37b13bfa04e60] 指令执行完成 [update]: 返回21字符
+[2026-09-03 16:10:24.311] [INFO    ] (logger:log_trace_summary:392) [e3d37b13bfa04e60] [TRACE e3d37b13bfa04e60] total=695.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=695.01ms(x1) (wall695.01), queue_wait=0.64ms(x1)
+[2026-09-03 16:10:46.152] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
