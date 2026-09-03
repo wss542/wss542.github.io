@@ -1,4 +1,4 @@
-# 更新于 2026-09-03 16:33:37 · 共 935 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-03 16:34:13 · 共 951 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:27.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-03 12:52:27.703] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:47.414] [INFO    ] (logger:info:335) [-] ==================================================
@@ -934,3 +934,19 @@
 [2026-09-03 16:32:56.193] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
 [2026-09-03 16:32:56.698] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1335ms]: '**▶ Dino Sor - Geisha**' song=Dino Sor - Geisha playing=False channel=None
 [2026-09-03 16:33:19.165] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11301)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Dino Sor - Geisha**' keys=18
+[2026-09-03 16:33:49.189] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11301)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Dino Sor - Geisha**' keys=18
+[2026-09-03 16:33:54.028] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:33:54.042] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 120' is_edit=False
+[2026-09-03 16:33:54.049] [DEBUG   ] (dispatcher:_dispatch_inner:110) [450bc505e10541ea] KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+[2026-09-03 16:33:54.058] [INFO    ] (dispatcher:_dispatch_inner:308) [450bc505e10541ea] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/禁言 (met)1759953618(met) 120'
+[2026-09-03 16:33:54.070] [INFO    ] (queues:_get_or_create_queue:32) [450bc505e10541ea] [队列] 创建群7274785942250691 的独立消息队列
+[2026-09-03 16:33:54.070] [DEBUG   ] (queues:enqueue_message:75) [450bc505e10541ea] [队列] 群7274785942250691 消息已入队 (队长度=1)
+[2026-09-03 16:33:54.098] [INFO    ] (memory:merge_overflow_memory:419) [9ab20b263baf4aea] 长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+[2026-09-03 16:33:54.170] [INFO    ] (pipeline:process_message:478) [9ab20b263baf4aea] 指令拦截: '/禁言 @ywandwss  120' from=ywandwss
+[2026-09-03 16:33:54.172] [DEBUG   ] (commands:handle_command:4840) [9ab20b263baf4aea] 指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '120'] user=1759953618
+[2026-09-03 16:33:54.569] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:33:54.600] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:33:54.855] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:33:54.884] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 16:33:54.890] [INFO    ] (commands:handle_command:4895) [9ab20b263baf4aea] 指令执行完成 [禁言]: 返回44字符
+[2026-09-03 16:33:55.319] [INFO    ] (logger:log_trace_summary:392) [9ab20b263baf4aea] [TRACE 9ab20b263baf4aea] total=1240.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1239.68ms(x1) (wall1239.68), queue_wait=9.58ms(x1)
