@@ -1,16 +1,4 @@
-# 更新于 2026-09-03 21:05:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:32:32.272] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 16:32:32.272] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-03 16:32:32.272] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 16:32:32.273] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-03 16:32:32.278] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-03 16:32:32.447] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-03 16:32:32.453] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-03 16:32:32.455] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h28m 后执行 (20:01)
-[2026-09-03 16:32:32.480] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-03 16:32:47.484] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-03 16:32:47.502] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 787s 前）
-[2026-09-03 16:32:47.504] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+# 更新于 2026-09-03 21:06:43 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:32:47.525] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-09-03 16:32:47.525] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 [2026-09-03 16:32:47.526] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
@@ -1499,3 +1487,15 @@
 [2026-09-03 21:05:47.206] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Oh no oh no oh no no no no no**' keys=18
 [2026-09-03 21:05:48.473] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=377ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
 [2026-09-03 21:05:53.596] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=69ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:00.758] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=243ms]: '**Whatever happened to**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:02.453] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**The boy that I once knew**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:05.412] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=789ms]: '**The boy who said he'd be true**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:10.390] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=567ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:16.562] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1219ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:17.781] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Oh no oh no oh no no no no no**' keys=18
+[2026-09-03 21:06:21.511] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=594ms]: '**Whatever happened to**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:23.968] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=318ms]: '**The boy that I once knew**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:26.462] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=39ms]: '**The boy who said he'd be true**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:32.714] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1080ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:37.679] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:42.745] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=58ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
