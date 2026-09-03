@@ -1,7 +1,4 @@
-# 更新于 2026-09-03 21:47:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:38:42.717] [ERROR   ] (qq_transport:_send_message:219) [615afbf7c49d493a] QQ 群发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"8279d887074dfccf03604c6d1b1c3e80"}
-[2026-09-03 16:38:42.717] [INFO    ] (qq_transport:_pop_msg_id:182) [615afbf7c49d493a] QQ 被动回复次数已用尽 openid=6EAA5C6B3896ED18FE5C82835C474A29 (20/20)
-[2026-09-03 16:38:43.071] [ERROR   ] (qq_transport:_send_message:219) [615afbf7c49d493a] QQ 群发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"065ebb5310acac5446c67443348ff176"}
+# 更新于 2026-09-03 21:48:16 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:38:43.074] [INFO    ] (qq_transport:_pop_msg_id:182) [615afbf7c49d493a] QQ 被动回复次数已用尽 openid=6EAA5C6B3896ED18FE5C82835C474A29 (20/20)
 [2026-09-03 16:38:43.434] [ERROR   ] (qq_transport:_send_message:219) [615afbf7c49d493a] QQ 群发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"cc4cf8dd01808ea051e274e89f8e9287"}
 [2026-09-03 16:38:43.435] [INFO    ] (qq_transport:_pop_msg_id:182) [615afbf7c49d493a] QQ 被动回复次数已用尽 openid=6EAA5C6B3896ED18FE5C82835C474A29 (20/20)
@@ -1499,3 +1496,6 @@
 [2026-09-03 21:46:17.644] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 郭静 - 心墙**' keys=18
 [2026-09-03 21:46:47.847] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 郭静 - 心墙**' keys=18
 [2026-09-03 21:47:17.922] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 郭静 - 心墙**' keys=18
+[2026-09-03 21:47:48.262] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 郭静 - 心墙**' keys=18
+[2026-09-03 21:48:01.688] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 21:48:01.689] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
