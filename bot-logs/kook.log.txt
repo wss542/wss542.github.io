@@ -1,7 +1,4 @@
-# 更新于 2026-09-03 20:29:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:10:23.615] [INFO    ] (dispatcher:_dispatch_inner:308) [717e6351aca04be2] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/update check'
-[2026-09-03 16:10:23.616] [INFO    ] (queues:_get_or_create_queue:32) [717e6351aca04be2] [队列] 创建群9844130976336955 的独立消息队列
-[2026-09-03 16:10:23.616] [DEBUG   ] (queues:enqueue_message:75) [717e6351aca04be2] [队列] 群9844130976336955 消息已入队 (队长度=1)
+# 更新于 2026-09-03 20:30:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:10:23.623] [INFO    ] (memory:merge_overflow_memory:419) [e3d37b13bfa04e60] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
 [2026-09-03 16:10:23.633] [INFO    ] (pipeline:process_message:478) [e3d37b13bfa04e60] 指令拦截: '/update check' from=ywandwss
 [2026-09-03 16:10:23.634] [DEBUG   ] (commands:handle_command:4840) [e3d37b13bfa04e60] 指令解析: prefix=/ cmd=update args=['check'] user=1759953618
@@ -1499,3 +1496,6 @@
 [2026-09-03 20:28:34.683] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-03 20:28:59.803] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jannik - 浮光 (The History)**' keys=18
 [2026-09-03 20:29:29.975] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jannik - 浮光 (The History)**' keys=18
+[2026-09-03 20:30:00.460] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jannik - 浮光 (The History)**' keys=18
+[2026-09-03 20:30:11.995] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=874ms]: '**▶ 火风 - 大花轿**' song=火风 - 大花轿 playing=True channel=None
+[2026-09-03 20:30:11.996] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=874ms]: '**抱着我那妹妹呀上花轿**' song=火风 - 大花轿 playing=True channel=None
