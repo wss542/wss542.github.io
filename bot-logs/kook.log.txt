@@ -1,4 +1,4 @@
-# 更新于 2026-09-03 14:45:27 · 共 535 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-03 14:46:01 · 共 561 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:27.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-03 12:52:27.703] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:47.414] [INFO    ] (logger:info:335) [-] ==================================================
@@ -534,3 +534,29 @@
 [2026-09-03 14:45:20.495] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-09-03 14:45:20.498] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 1h15m 后执行 (16:01)
 [2026-09-03 14:45:20.544] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-09-03 14:45:35.557] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-09-03 14:45:35.572] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 81s 前）
+[2026-09-03 14:45:35.575] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-09-03 14:45:35.586] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-09-03 14:45:35.586] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-09-03 14:45:35.587] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-09-03 14:45:35.587] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-09-03 14:45:35.588] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-09-03 14:45:35.588] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-09-03 14:45:35.702] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+[2026-09-03 14:45:35.703] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-09-03 14:45:35.811] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 14:45:35.811] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 14:45:37.268] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-03 → 周四
+[2026-09-03 14:45:37.269] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-09-03 14:45:37.269] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 33268 秒 (下次 00:00:05)
+[2026-09-03 14:45:37.649] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-09-03 14:45:37.775] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-09-03 14:45:37.942] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1542)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 继续播放**' keys=18
+[2026-09-03 14:45:39.801] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-09-03 14:45:39.802] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-09-03 14:45:39.803] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-09-03 14:45:39.806] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-03 14:45:40.692] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 438s
+[2026-09-03 14:45:41.626] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-03 14:45:42.305] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
