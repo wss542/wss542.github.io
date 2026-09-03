@@ -1,4 +1,4 @@
-# 更新于 2026-09-03 16:34:13 · 共 951 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-03 16:34:44 · 共 962 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:27.575] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-03 12:52:27.703] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:47.414] [INFO    ] (logger:info:335) [-] ==================================================
@@ -950,3 +950,14 @@
 [2026-09-03 16:33:54.884] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-09-03 16:33:54.890] [INFO    ] (commands:handle_command:4895) [9ab20b263baf4aea] 指令执行完成 [禁言]: 返回44字符
 [2026-09-03 16:33:55.319] [INFO    ] (logger:log_trace_summary:392) [9ab20b263baf4aea] [TRACE 9ab20b263baf4aea] total=1240.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1239.68ms(x1) (wall1239.68), queue_wait=9.58ms(x1)
+[2026-09-03 16:34:20.112] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11301)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Dino Sor - Geisha**' keys=18
+[2026-09-03 16:34:26.308] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:6EAA5C6B3896ED18FE5C82835C474A29 group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/禁言'
+[2026-09-03 16:34:26.309] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=6EAA5C6B3896ED18FE5C82835C474A29 group=True msg_id=ROBOT1.0_YxmTtz-NTQbFrJK.TurTmkJgEhKYLh5I-LAN8VE-uKPqkYdanbCrPJKEGlIAQdv8Y8ikKD7EtgsUXtGXFrhuiQFN4.4Vp.x.i1J3bbsm34YNIqrVm3QhC6-bhktADRFg
+[2026-09-03 16:34:26.310] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:6EAA5C6B3896ED18FE5C82835C474A29 的独立消息队列
+[2026-09-03 16:34:26.310] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:6EAA5C6B3896ED18FE5C82835C474A29 消息已入队 (队长度=1)
+[2026-09-03 16:34:26.312] [INFO    ] (identity:_ensure_loaded:92) [31640fad7b0b43f4] 身份映射已载入 1 条
+[2026-09-03 16:34:26.314] [INFO    ] (pipeline:process_message:478) [31640fad7b0b43f4] 指令拦截: '/禁言' from=若尘 ~喵
+[2026-09-03 16:34:26.314] [DEBUG   ] (commands:handle_command:4840) [31640fad7b0b43f4] 指令解析: prefix=/ cmd=禁言 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-03 16:34:26.314] [INFO    ] (commands:handle_command:4847) [31640fad7b0b43f4] QQ 通道拦截 KOOK 专属命令: /禁言 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
+[2026-09-03 16:34:28.270] [INFO    ] (qq_transport:_send_message:234) [31640fad7b0b43f4] QQ 群发送成功(被动) msg_type=0 openid=6EAA5C6B3896ED18FE5C82835C474A29 len=59 seq=1 id=ROBOT1.0_XYSRqzq99bzEow7R2PNN6VFI10v4uSQl31OJZhEBF-5oLvADM1U-eWq9h6EQU0-p2WZOBVkheUeaO7vLjspLyA!!
+[2026-09-03 16:34:28.271] [INFO    ] (logger:log_trace_summary:392) [31640fad7b0b43f4] [TRACE 31640fad7b0b43f4] total=1959.87ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1959.81ms(x1) (wall1959.81), queue_wait=1.62ms(x1)
