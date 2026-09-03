@@ -1,20 +1,4 @@
-# 更新于 2026-09-03 21:52:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:38:56.300] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-03 16:38:56.300] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-03 16:38:56.607] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-03 16:38:56.608] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-03 16:38:56.619] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-03 16:38:56.619] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-03 16:38:56.944] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-03 16:38:56.970] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-03 16:38:56.970] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-03 16:38:56.971] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-03 16:38:56.972] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-03 16:38:56.972] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-03 16:38:56.977] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-03 16:38:56.977] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-03 16:38:56.977] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-03 16:38:56.980] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-09-03 21:52:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:38:56.980] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
 [2026-09-03 16:38:56.981] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 [2026-09-03 16:38:56.981] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
@@ -1499,3 +1483,19 @@
 [2026-09-03 21:51:50.207] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=593ms]: '**作词 : 暗号**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
 [2026-09-03 21:51:50.208] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=329ms]: '**作曲 : 暗号**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
 [2026-09-03 21:51:50.208] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=66ms]: '**编曲 : 暗号**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:10.938] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=379ms]: '**耳机里的富士山下响了起来**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:14.577] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=267ms]: '**我还是放不下你自从分开以来**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:16.988] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=179ms]: '**那天夜里终究没能等到你来**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:20.629] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**那之后再没遇过和你像的女孩**' keys=18
+[2026-09-03 21:52:20.630] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=75ms]: '**那之后再没遇过和你像的女孩**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:24.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=693ms]: '**是你说的对 爱比恨要疲惫多**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:26.692] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=140ms]: '**反正我不会难过 反正我的迷妹多**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:30.346] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=775ms]: '**反正我被围绕在粉丝给的花和美酒里**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:33.960] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=891ms]: '**反正我不会想起她 但不能没有你**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:36.365] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-208ms]: '**我希望赚很多钱 用手数着money**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:40.030] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=719ms]: '**我希望站你面前 亲口问你说Do you love me**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:42.467] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=148ms]: '**但回忆没法再现 来做个总结**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:46.151] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=594ms]: '**明明说了再见 其实也等于永别**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:49.762] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=959ms]: '**我希望赚很多钱 用手数着money**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
+[2026-09-03 21:52:50.971] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我希望赚很多钱 用手数着money**' keys=18
+[2026-09-03 21:52:52.186] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=629ms]: '**我希望站你面前 亲口问你说Do you love me**' song=暗号 / 小表哥 - Peison Soul playing=True channel=None
