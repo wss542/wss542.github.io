@@ -1,12 +1,4 @@
-# 更新于 2026-09-03 21:07:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:32:47.693] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-03 16:32:47.836] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
-[2026-09-03 16:32:47.837] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-03 16:32:47.979] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-03 16:32:49.114] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11301)]: music=[] lyric_event=False lyric='-' keys=16
-[2026-09-03 16:32:49.475] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-03 → 周四
-[2026-09-03 16:32:49.475] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-03 16:32:49.476] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 26836 秒 (下次 00:00:05)
+# 更新于 2026-09-03 21:08:14 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:32:49.604] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
 [2026-09-03 16:32:54.949] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-09-03 16:32:54.949] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
@@ -1499,3 +1491,11 @@
 [2026-09-03 21:07:00.867] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1656ms]: '**The boy who said he'd be true**' song=МиДо - Как вы playing=True channel=None
 [2026-09-03 21:07:05.163] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=847ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
 [2026-09-03 21:07:10.066] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=224ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:16.274] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=674ms]: '**Whatever happened to**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:18.768] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**The boy that I once knew**' keys=18
+[2026-09-03 21:07:18.769] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=658ms]: '**The boy that I once knew**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:21.198] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=330ms]: '**The boy who said he'd be true**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:27.300] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1020ms]: '**Oh no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:28.549] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=751ms]: '**▶ Dick Dale - Misirlou**' song=Dick Dale - Misirlou playing=True channel=None
+[2026-09-03 21:07:28.550] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=751ms]: '**Misirlou**' song=Dick Dale - Misirlou playing=True channel=None
+[2026-09-03 21:07:49.479] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Misirlou**' keys=18
