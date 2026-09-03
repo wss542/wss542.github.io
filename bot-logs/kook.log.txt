@@ -1,28 +1,4 @@
-# 更新于 2026-09-03 19:53:30 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 14:45:20.370] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-03 14:45:20.371] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-03 14:45:20.373] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-03 14:45:20.373] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-03 14:45:20.373] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-03 14:45:20.373] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-03 14:45:20.373] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 14:45:20.374] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-03 14:45:20.374] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 14:45:20.374] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-03 14:45:20.376] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-03 14:45:20.492] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-03 14:45:20.495] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-03 14:45:20.498] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 1h15m 后执行 (16:01)
-[2026-09-03 14:45:20.544] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-03 14:45:35.557] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-03 14:45:35.572] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 81s 前）
-[2026-09-03 14:45:35.575] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-03 14:45:35.586] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-03 14:45:35.586] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-03 14:45:35.587] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-03 14:45:35.587] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-03 14:45:35.588] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-03 14:45:35.588] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-09-03 19:54:25 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 14:45:35.702] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
 [2026-09-03 14:45:35.703] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-09-03 14:45:35.811] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
@@ -1499,3 +1475,27 @@
 [2026-09-03 19:53:26.798] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-317ms]: '**只能决定听天由命**' song=蒼狼風亞 - FindersX playing=True channel=None
 [2026-09-03 19:53:29.438] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=400ms]: '**茕茕孑立 迎接最后 可想而知 预料灭亡**' song=蒼狼風亞 - FindersX playing=True channel=None
 [2026-09-03 19:53:30.753] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-226ms]: '**悲观情绪浮现 蔓延到心上**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:34.574] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-57ms]: '**似跷跷板 猛然反弹**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:37.128] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=655ms]: '**已经明白 不再躲闪**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:38.350] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-19ms]: '**几时轮回 便是真相**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:40.843] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=891ms]: '**荒谬至极 无法逃亡**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:42.099] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-29ms]: '**已是囹圄 何必反抗**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:44.625] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=648ms]: '**不如接受 走向远方**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:45.884] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**被卷入其中坦然相当**' keys=18
+[2026-09-03 19:53:45.886] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=69ms]: '**被卷入其中坦然相当**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:49.735] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-22ms]: '**重回到起点 仍选择同样**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:52.261] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=722ms]: '**旧时的反抗 却打破幻想**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:54.739] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=836ms]: '**本必死无疑 然而信 帮忙** *(念)*' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:55.965] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=421ms]: '**扭转了命运 不再彷徨**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:57.201] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-289ms]: '**回首看往事 佩服自己不变思想**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:53:59.688] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=11ms]: '**一路过虎口 经历无数磨难**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:02.204] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=876ms]: '**被命运捉弄 也不坠落堕落孤单**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:03.461] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=479ms]: '**轮回的真相 仅仅一次考验**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:04.781] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-292ms]: '**与速度无关 却不容改变**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:07.264] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=310ms]: '**最初的梦想 何时能实现**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:08.509] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-323ms]: '**坚持走下去 绝对不改变**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:10.990] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=329ms]: '**命运就不是 昙花一现**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:13.479] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=885ms]: '**轮回之谜 也不是 无药可见**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:14.725] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=468ms]: '**有始有终者 显而易见**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:54:15.967] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**有始有终者 显而易见**' keys=18
+[2026-09-03 19:54:15.968] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-297ms]: '**会获得最终 胜利的大典**' song=蒼狼風亞 - FindersX playing=True channel=None
