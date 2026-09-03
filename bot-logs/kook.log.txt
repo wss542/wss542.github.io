@@ -1,7 +1,4 @@
-# 更新于 2026-09-03 21:19:44 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:34:26.310] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:6EAA5C6B3896ED18FE5C82835C474A29 的独立消息队列
-[2026-09-03 16:34:26.310] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:6EAA5C6B3896ED18FE5C82835C474A29 消息已入队 (队长度=1)
-[2026-09-03 16:34:26.312] [INFO    ] (identity:_ensure_loaded:92) [31640fad7b0b43f4] 身份映射已载入 1 条
+# 更新于 2026-09-03 21:20:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:34:26.314] [INFO    ] (pipeline:process_message:478) [31640fad7b0b43f4] 指令拦截: '/禁言' from=若尘 ~喵
 [2026-09-03 16:34:26.314] [DEBUG   ] (commands:handle_command:4840) [31640fad7b0b43f4] 指令解析: prefix=/ cmd=禁言 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-09-03 16:34:26.314] [INFO    ] (commands:handle_command:4847) [31640fad7b0b43f4] QQ 通道拦截 KOOK 专属命令: /禁言 (user=qq:63C251709C77FDEE87FC502F866E3FB5)
@@ -1499,3 +1496,6 @@
 [2026-09-03 21:18:21.105] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jacoo - Towards the Light**' keys=18
 [2026-09-03 21:18:52.010] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jacoo - Towards the Light**' keys=18
 [2026-09-03 21:19:22.657] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Jacoo - Towards the Light**' keys=18
+[2026-09-03 21:19:46.775] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1852ms]: '**▶ 羽肿 - Windy Hill**' song=羽肿 - Windy Hill playing=True channel=None
+[2026-09-03 21:19:54.430] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 羽肿 - Windy Hill**' keys=18
+[2026-09-03 21:20:24.971] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 羽肿 - Windy Hill**' keys=18
