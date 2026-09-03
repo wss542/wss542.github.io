@@ -1,11 +1,4 @@
-# 更新于 2026-09-03 21:06:43 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:32:47.525] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-03 16:32:47.525] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-03 16:32:47.526] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-03 16:32:47.526] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-03 16:32:47.527] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-03 16:32:47.527] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-03 16:32:47.688] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+# 更新于 2026-09-03 21:07:14 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:32:47.693] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-09-03 16:32:47.836] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 [2026-09-03 16:32:47.837] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1492,10 @@
 [2026-09-03 21:06:32.714] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1080ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
 [2026-09-03 21:06:37.679] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
 [2026-09-03 21:06:42.745] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=58ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:47.824] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Oh no oh no oh no no no no no**' keys=18
+[2026-09-03 21:06:49.196] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1181ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:54.104] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=304ms]: '**Whatever happened to**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:06:56.554] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=39ms]: '**The boy that I once knew**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:00.867] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1656ms]: '**The boy who said he'd be true**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:05.163] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=847ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
+[2026-09-03 21:07:10.066] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=224ms]: '**Oh no oh no oh no no no no no**' song=МиДо - Как вы playing=True channel=None
