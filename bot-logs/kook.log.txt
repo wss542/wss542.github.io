@@ -1,6 +1,4 @@
-# 更新于 2026-09-03 21:44:16 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:38:40.105] [WARNING ] (qq_transport:_send_message:222) [615afbf7c49d493a] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"cc8316623cb332086c3277582ec109c4"})，降级为主动消息
-[2026-09-03 16:38:40.411] [ERROR   ] (qq_transport:_send_message:228) [615afbf7c49d493a] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"65d9dff80dc6f8bc83931854a8774ec4"}
+# 更新于 2026-09-03 21:45:13 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:38:40.755] [WARNING ] (qq_transport:_send_message:222) [615afbf7c49d493a] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"bcfaa5908d66b8f955796b7fdc28aea8"})，降级为主动消息
 [2026-09-03 16:38:41.030] [ERROR   ] (qq_transport:_send_message:228) [615afbf7c49d493a] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"a9b9ad2f7a8a7623ef5e1e97a0002610"}
 [2026-09-03 16:38:41.667] [WARNING ] (qq_transport:_send_message:222) [615afbf7c49d493a] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/6EAA5C6B3896ED18FE5C82835C474A29/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"8848357e4b29e6c538057a97a16ae10f"})，降级为主动消息
@@ -1498,4 +1496,6 @@
 [2026-09-03 21:43:46.028] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**But I settle for a ghost**
 `但我却爱上了一个幽灵`' keys=18
 [2026-09-03 21:44:16.431] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**But I settle for a ghost**
+`但我却爱上了一个幽灵`' keys=18
+[2026-09-03 21:44:46.685] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**But I settle for a ghost**
 `但我却爱上了一个幽灵`' keys=18
