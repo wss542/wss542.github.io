@@ -1,19 +1,4 @@
-# 更新于 2026-09-03 18:50:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 12:52:47.486] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-03 12:52:47.486] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-03 12:52:47.487] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-03 12:52:47.770] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-03 12:52:47.771] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-03 12:52:47.808] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-03 12:52:47.809] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-03 12:52:48.592] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-03 12:52:48.629] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-03 12:52:48.630] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-03 12:52:48.631] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-03 12:52:48.635] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-03 12:52:48.635] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-03 12:52:48.639] [WARNING ] (context_manager:_load_from_disk:55) [-] 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
-[2026-09-03 12:52:48.646] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+# 更新于 2026-09-03 18:51:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:52:48.647] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
 [2026-09-03 12:52:48.659] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-03 12:52:48.659] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
@@ -1499,3 +1484,18 @@
 [2026-09-03 18:49:20.601] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=582ms]: '**You're my servant boy**' song=HVOB - Dogs (Original Version) playing=True channel=None
 [2026-09-03 18:49:25.545] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**You're my servant boy**' keys=18
 [2026-09-03 18:49:56.824] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**You're my servant boy**' keys=18
+[2026-09-03 18:50:27.966] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**You're my servant boy**' keys=18
+[2026-09-03 18:50:48.430] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=249ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:50:50.861] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=552ms]: '**Boy, let the dogs sleep in that cave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.715] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**Servant boy**' keys=18
+[2026-09-03 18:51:09.716] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=16270ms]: '**Servant boy**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.716] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=13701ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.718] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=7385ms]: '**Be my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.719] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=5452ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.719] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=3894ms]: '**Boy made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:09.719] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=169ms]: '**Be my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:12.011] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=13ms]: '**Shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:13.235] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-278ms]: '**Boy made my shoe shine**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:16.909] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=12ms]: '**You're my servant boy**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:19.372] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=547ms]: '**Handsome slave**' song=HVOB - Dogs (Original Version) playing=True channel=None
+[2026-09-03 18:51:21.819] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=800ms]: '**Boy, let the dogs sleep in that cave**' song=HVOB - Dogs (Original Version) playing=True channel=None
