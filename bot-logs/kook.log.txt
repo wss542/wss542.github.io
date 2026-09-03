@@ -1,13 +1,4 @@
-# 更新于 2026-09-03 20:49:30 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 16:32:32.151] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-03 16:32:32.152] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-03 16:32:32.155] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-03 16:32:32.155] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-03 16:32:32.155] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-03 16:32:32.167] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-03 16:32:32.167] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-03 16:32:32.167] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-03 16:32:32.167] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+# 更新于 2026-09-03 20:50:19 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 16:32:32.189] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
 [2026-09-03 16:32:32.189] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 [2026-09-03 16:32:32.190] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
@@ -1499,3 +1490,12 @@
 [2026-09-03 20:48:58.570] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 容祖儿 - 挥着翅膀的女孩**' keys=18
 [2026-09-03 20:49:02.266] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=319ms]: '**▶ VZEUS - Melodic Minor（Phonk）**' song=VZEUS - Melodic Minor（Phonk） playing=True channel=None
 [2026-09-03 20:49:29.463] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ VZEUS - Melodic Minor（Phonk）**' keys=18
+[2026-09-03 20:49:33.096] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 20:49:33.096] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 20:49:48.323] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 20:49:48.323] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 20:49:59.875] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ VZEUS - Melodic Minor（Phonk）**' keys=18
+[2026-09-03 20:50:03.583] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 20:50:03.583] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 20:50:18.867] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-03 20:50:18.868] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
