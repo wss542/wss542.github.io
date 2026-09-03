@@ -1,50 +1,4 @@
-# 更新于 2026-09-03 19:04:20 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 12:52:48.807] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-03 12:52:48.807] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-03 12:52:48.812] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-03 12:52:48.812] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-03 12:52:48.816] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-03 12:52:48.817] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-03 12:52:48.820] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-03 12:52:48.822] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-03 12:52:48.822] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-03 12:52:48.823] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-03 12:52:48.823] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-03 12:52:48.823] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 12:52:48.823] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-03 12:52:48.823] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-03 12:52:48.823] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-03 12:52:48.828] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-03 12:52:48.975] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-03 12:52:48.977] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-03 12:52:48.978] [INFO    ] (bot:_bg_wdsj_collector:664) [-] 上次采集 2026-08-31T12:01 距今超过 4h，启动时立即补采
-[2026-09-03 12:52:48.990] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
-[2026-09-03 12:52:49.025] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-03 12:52:50.272] [INFO    ] (notify_system:check_github_update:737) [-] 更新检查跳过: 本地 09a8ac5 非远程 ff3ec91 祖先（已领先/分叉），不弹卡片
-[2026-09-03 12:52:50.304] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 258620s 前）
-[2026-09-03 12:52:50.309] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-03 12:52:50.354] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-03 12:52:50.355] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-03 12:52:50.355] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-03 12:52:50.356] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-03 12:52:50.357] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-03 12:52:50.358] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-03 12:52:50.907] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-03 12:52:50.909] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-03 12:52:51.259] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-[2026-09-03 12:52:51.259] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-03 12:52:52.361] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-03 12:52:53.145] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-03 → 周四
-[2026-09-03 12:52:53.146] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-03 12:52:53.149] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 40032 秒 (下次 00:00:05)
-[2026-09-03 12:52:56.290] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 6 条新记录
-[2026-09-03 12:52:56.292] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 3h8m 后执行 (16:01)
-[2026-09-03 12:52:57.934] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-03 12:52:57.934] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-03 12:52:57.941] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-03 12:52:57.943] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-03 12:52:59.056] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
-[2026-09-03 12:52:59.863] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+# 更新于 2026-09-03 19:05:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 12:53:00.790] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
 [2026-09-03 12:53:18.138] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-09-03 12:53:21.550] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 6481)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**▶ 刀郎 - 冲动的惩罚**' keys=18
@@ -1499,3 +1453,49 @@
 [2026-09-03 19:02:48.677] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-03 19:03:18.843] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-03 19:03:50.031] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-03 19:04:21.415] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-03 19:04:33.580] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 19:04:33.583] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/Jog4bORV5O1hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":7208,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-09-03 19:04:33.589] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ae21784293394745] KMD 调试: is_group=True uid=1759953618 channel=8318134604058084
+[2026-09-03 19:04:33.591] [INFO    ] (dispatcher:_dispatch_inner:177) [ae21784293394745] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/Jog4bORV5O1hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":7208,"elements":[]}]}],"type":"card"}]')
+[2026-09-03 19:04:33.593] [INFO    ] (dispatcher:_dispatch_inner:308) [ae21784293394745] 📩 消息 #2 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=8318134604058084 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/Jog4bORV5O1hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":7208,"elements":[]}]}],"type":"card"}]'
+[2026-09-03 19:04:33.607] [INFO    ] (dispatcher:_dispatch_inner:384) [ae21784293394745] 🖼️  [chat=8318134604058084] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-09-03 19:04:33.691] [DEBUG   ] (image_api:_load:50) [ae21784293394745] 图片缓存已加载: 367 条
+[2026-09-03 19:04:33.693] [INFO    ] (image_api:recognize_image:152) [ae21784293394745] [chat=8318134604058084] 开始获取图片: https://img.kookapp.cn/assets/2026-09/03/Jog4bORV5O1hc0u0.pn...
+[2026-09-03 19:04:33.862] [INFO    ] (image_api:recognize_image:168) [ae21784293394745] [chat=8318134604058084] 图片下载成功: 7208 bytes
+[2026-09-03 19:04:34.200] [INFO    ] (image_api:recognize_image:204) [ae21784293394745] [chat=8318134604058084] 图片预处理: PNG(1920x1080) → PNG 7208 bytes → 6957 bytes
+[2026-09-03 19:04:34.202] [INFO    ] (image_api:recognize_image:251) [ae21784293394745] [chat=8318134604058084] 调用主视觉模型识别图片 (MD5=bb6d9034a845...) model=deepseek-v4-flash-vision-exp
+[2026-09-03 19:04:39.818] [INFO    ] (image_api:recognize_image:280) [ae21784293394745] [chat=8318134604058084] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 全黑画面，底部偏左有微小白色标志。情绪元素：空虚、绝望、无助、压抑、虚无。...
+[2026-09-03 19:04:39.825] [DEBUG   ] (image_api:_save:64) [ae21784293394745] 图片缓存已写入磁盘: 368 条
+[2026-09-03 19:04:39.855] [DEBUG   ] (image_api:_save_to_repo:315) [ae21784293394745] 图片仓库追加: MD5=bb6d9034a845... → '全黑画面，底部偏左有微小白色标志。情绪元素：空虚、绝望、无助'
+[2026-09-03 19:04:39.855] [INFO    ] (dispatcher:_do_recognize_image:916) [ae21784293394745] 🖼️  [chat=8318134604058084] 图#1/1 识别完成: '全黑画面，底部偏左有微小白色标志。情绪元素：空虚、绝望、无助、压抑、虚无。...' (37字) url=https://img.kookapp.cn/assets/2026-09/03/Jog4bORV5O1hc0u0.pn
+[2026-09-03 19:04:39.856] [INFO    ] (dispatcher:_dispatch_inner:400) [ae21784293394745] 🖼️  [chat=8318134604058084] 图1 识别完成并注入上下文: '全黑画面，底部偏左有微小白色标志。情绪元素：空虚、绝望、无助、压抑、虚无。...'
+[2026-09-03 19:04:39.856] [INFO    ] (queues:_get_or_create_queue:32) [ae21784293394745] [队列] 创建群8318134604058084 的独立消息队列
+[2026-09-03 19:04:39.857] [DEBUG   ] (queues:enqueue_message:75) [ae21784293394745] [队列] 群8318134604058084 消息已入队 (队长度=1)
+[2026-09-03 19:04:39.858] [INFO    ] (pipeline:process_message:375) [2fba5252cfa34f84] 附带图片已记录 [chat=8318134604058084] count=1
+[2026-09-03 19:04:39.867] [INFO    ] (memory:merge_overflow_memory:419) [2fba5252cfa34f84] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 1条 (阈值=10)
+[2026-09-03 19:04:39.881] [DEBUG   ] (pipeline:process_message:508) [2fba5252cfa34f84] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-09-03 19:04:39.882] [INFO    ] (logger:log_trace_summary:392) [2fba5252cfa34f84] [TRACE 2fba5252cfa34f84] total=24.69ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=24.48ms(x1) (wall24.48), queue_wait=1.29ms(x1)
+[2026-09-03 19:04:39.893] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 19:04:48.704] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-03 19:04:48.705] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/BX50AaumZ21hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":368185,"elements":[]}]}],"type":"card"}]' is_edit=False
+[2026-09-03 19:04:48.705] [DEBUG   ] (dispatcher:_dispatch_inner:110) [ce0e3eb7c2914be7] KMD 调试: is_group=True uid=1759953618 channel=8318134604058084
+[2026-09-03 19:04:48.706] [INFO    ] (dispatcher:_dispatch_inner:177) [ce0e3eb7c2914be7] 🧩 CARD 消息解析到 1 张图片 (attachments=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/BX50AaumZ21hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":368185,"elements":[]}]}],"type":"card"}]')
+[2026-09-03 19:04:48.706] [INFO    ] (dispatcher:_dispatch_inner:308) [ce0e3eb7c2914be7] 📩 消息 #3 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=8318134604058084 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/img.kookapp.cn\\/assets\\/2026-09\\/03\\/BX50AaumZ21hc0u0.png","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1920,"height":1080,"fileSize":368185,"elements":[]}]}],"type":"card"}]'
+[2026-09-03 19:04:48.710] [INFO    ] (dispatcher:_dispatch_inner:384) [ce0e3eb7c2914be7] 🖼️  [chat=8318134604058084] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+[2026-09-03 19:04:48.711] [INFO    ] (image_api:recognize_image:152) [ce0e3eb7c2914be7] [chat=8318134604058084] 开始获取图片: https://img.kookapp.cn/assets/2026-09/03/BX50AaumZ21hc0u0.pn...
+[2026-09-03 19:04:48.951] [INFO    ] (image_api:recognize_image:168) [ce0e3eb7c2914be7] [chat=8318134604058084] 图片下载成功: 368185 bytes
+[2026-09-03 19:04:49.288] [INFO    ] (image_api:recognize_image:204) [ce0e3eb7c2914be7] [chat=8318134604058084] 图片预处理: PNG(1920x1080) → PNG 368185 bytes → 384663 bytes
+[2026-09-03 19:04:49.294] [INFO    ] (image_api:recognize_image:251) [ce0e3eb7c2914be7] [chat=8318134604058084] 调用主视觉模型识别图片 (MD5=aaac65b97e92...) model=deepseek-v4-flash-vision-exp
+[2026-09-03 19:04:52.737] [INFO    ] (image_api:recognize_image:280) [ce0e3eb7c2914be7] [chat=8318134604058084] 图片识别成功 (model=deepseek-v4-flash-vision-exp): 游戏通关截图，大号“恭喜”和“Perfect 4”，显示严格模式通关、数据与按键。情绪：喜悦、自豪、...
+[2026-09-03 19:04:52.746] [DEBUG   ] (image_api:_save:64) [ce0e3eb7c2914be7] 图片缓存已写入磁盘: 369 条
+[2026-09-03 19:04:52.751] [DEBUG   ] (image_api:_save_to_repo:315) [ce0e3eb7c2914be7] 图片仓库追加: MD5=aaac65b97e92... → '游戏通关截图，大号“恭喜”和“Perfect 4”，显示严格'
+[2026-09-03 19:04:52.752] [INFO    ] (dispatcher:_do_recognize_image:916) [ce0e3eb7c2914be7] 🖼️  [chat=8318134604058084] 图#1/1 识别完成: '游戏通关截图，大号“恭喜”和“Perfect 4”，显示严格模式通关、数据与按键。情绪：喜悦、自豪、成就感、满足、兴奋。...' (60字) url=https://img.kookapp.cn/assets/2026-09/03/BX50AaumZ21hc0u0.pn
+[2026-09-03 19:04:52.753] [INFO    ] (dispatcher:_dispatch_inner:400) [ce0e3eb7c2914be7] 🖼️  [chat=8318134604058084] 图1 识别完成并注入上下文: '游戏通关截图，大号“恭喜”和“Perfect 4”，显示严格模式通关、数据与按键。情绪：喜悦、自豪、...'
+[2026-09-03 19:04:52.753] [DEBUG   ] (queues:enqueue_message:75) [ce0e3eb7c2914be7] [队列] 群8318134604058084 消息已入队 (队长度=1)
+[2026-09-03 19:04:52.754] [INFO    ] (pipeline:process_message:375) [6b705626ffc64c61] 附带图片已记录 [chat=8318134604058084] count=1
+[2026-09-03 19:04:52.756] [INFO    ] (memory:merge_overflow_memory:419) [6b705626ffc64c61] 长时记忆溢出缓冲: chat=8318134604058084 +1 = 2条 (阈值=10)
+[2026-09-03 19:04:52.761] [DEBUG   ] (pipeline:process_message:508) [6b705626ffc64c61] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+[2026-09-03 19:04:52.762] [INFO    ] (logger:log_trace_summary:392) [6b705626ffc64c61] [TRACE 6b705626ffc64c61] total=7.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.34ms(x1) (wall7.34), queue_wait=1.03ms(x1)
+[2026-09-03 19:04:52.762] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-03 19:05:05.658] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
