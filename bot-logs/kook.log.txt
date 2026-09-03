@@ -1,37 +1,4 @@
-# 更新于 2026-09-03 19:52:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-03 14:45:19.106] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-03 14:45:20.188] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-03 14:45:20.213] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-03 14:45:20.214] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-03 14:45:20.247] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-03 14:45:20.248] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-03 14:45:20.248] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-03 14:45:20.249] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-03 14:45:20.250] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-03 14:45:20.250] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-03 14:45:20.256] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-03 14:45:20.256] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-03 14:45:20.257] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-03 14:45:20.257] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-03 14:45:20.284] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-03 14:45:20.286] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-03 14:45:20.291] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-03 14:45:20.319] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-03 14:45:20.322] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-03 14:45:20.323] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-03 14:45:20.323] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-03 14:45:20.323] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-03 14:45:20.323] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-03 14:45:20.324] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-03 14:45:20.324] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-03 14:45:20.327] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-03 14:45:20.327] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-03 14:45:20.327] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-03 14:45:20.329] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-03 14:45:20.329] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-03 14:45:20.329] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-03 14:45:20.331] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-03 14:45:20.331] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+# 更新于 2026-09-03 19:52:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-03 14:45:20.332] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
 [2026-09-03 14:45:20.333] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
 [2026-09-03 14:45:20.333] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
@@ -1499,3 +1466,36 @@
 [2026-09-03 19:51:26.179] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-09-03 19:51:44.299] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ Double X - Улеталиптицамигордыми**' keys=18
 [2026-09-03 19:52:03.996] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1051ms]: '**▶ 蒼狼風亞 - FindersX**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.256] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=529ms]: '**作词 : 牛奶先生Milk**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.257] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=530ms]: '**作曲 : 蒼狼風亞**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=530ms]: '**调教：隔壁滑稽的MouWang**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=530ms]: '**演唱：洛天依、言和**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**从起点出发 采一朵鲜花**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**前方的道路 漫长又喧哗**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:09.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=531ms]: '**我望着脚下 白色的土地**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:10.710] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-09-03 19:52:10.711] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-03 19:52:10.711] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=415ms]: '**和黑色星空 有点害怕**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:13.175] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=976ms]: '**敲击的手指 激烈的节奏**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:14.417] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=True lyric='**对前方迷途 未知的想法**' keys=18
+[2026-09-03 19:52:14.417] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=313ms]: '**对前方迷途 未知的想法**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:15.658] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-127ms]: '**我知道 千里之行始于足下**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:20.046] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=532ms]: '**手里的花 盛开怒放**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:21.794] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-295ms]: '**一步又一步地 不停拾级而上**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:23.381] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-327ms]: '**偶尔抬头 眺望远方**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:25.999] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=704ms]: '**只是 看见 一路 大雾 茫茫**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:27.224] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=31ms]: '**打开尘封的收音机**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:29.734] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=620ms]: '**调频道 听音效 没成想 是徒劳**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:30.973] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=36ms]: '**旅途漫漫 无人打扰**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:33.614] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=803ms]: '**有时 加快 步伐 开始 奔跑**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:34.847] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=163ms]: '**时间流逝 滴答滴答 一刻不停在流动**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:37.339] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=801ms]: '**彭罗斯阶梯 轮回 吹过清风**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:38.634] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=272ms]: '**白日的景色 午夜的噩梦**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:41.244] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=899ms]: '**都为这旅途不停地添加内容**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:42.433] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=196ms]: '**克莱因瓶何时才能装满清水不虚空**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:43.733] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-331ms]: '**只有 搭配上 时间轮回流动**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:45.018] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 4346)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**只有 搭配上 时间轮回流动**' keys=18
+[2026-09-03 19:52:46.287] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=338ms]: '**无尽的阶梯 永久的空洞**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:47.567] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-124ms]: '**真相大白 离去的从容**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:50.124] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=398ms]: '**黄色的土地 已变化为透明**' song=蒼狼風亞 - FindersX playing=True channel=None
+[2026-09-03 19:52:51.407] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-287ms]: '**只有凭着勇气才能前进**' song=蒼狼風亞 - FindersX playing=True channel=None
