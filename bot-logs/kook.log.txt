@@ -1,15 +1,4 @@
-# 更新于 2026-09-04 22:44:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:24.031] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-04 06:37:24.032] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-04 06:37:24.032] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-04 06:37:24.033] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-04 06:37:24.033] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-04 06:37:24.034] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-04 06:37:24.035] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-04 06:37:24.035] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-04 06:37:24.036] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-04 06:37:24.037] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-04 06:37:24.037] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+# 更新于 2026-09-04 22:44:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:24.038] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
 [2026-09-04 06:37:24.038] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
 [2026-09-04 06:37:24.040] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
@@ -1499,3 +1488,14 @@
 [2026-09-04 22:30:39.957] [DEBUG   ] (response_delivery:send_sentences:297) [9977f12e50234df7] 已发送第 1/1 条: 好呀~给你想几个喵！『摸鱼大师』『群宠小可爱』『喵界顶流』，...
 [2026-09-04 22:30:39.957] [DEBUG   ] (response_delivery:send_sentences:299) [9977f12e50234df7] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-04 22:30:39.957] [DEBUG   ] (context_manager:_on_task_done:139) [9977f12e50234df7] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+[2026-09-04 22:44:37.702] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '/wdsj me'
+[2026-09-04 22:44:37.702] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7BjLlzii1zMDXoTUXujPvecXJO1K.7LzbnShOuN09BTwT8oa7GWAcVo6f48BsPkwat7cbH4PMNDcKXQJkTJN1SLvJYw94Gf2XvduFhFPmyNe
+[2026-09-04 22:44:37.703] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-04 22:44:37.705] [INFO    ] (memory:merge_overflow_memory:419) [1a03791f02e34e8c] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+[2026-09-04 22:44:37.708] [INFO    ] (pipeline:process_message:478) [1a03791f02e34e8c] 指令拦截: '/wdsj me' from=繁
+[2026-09-04 22:44:37.710] [DEBUG   ] (commands:handle_command:4840) [1a03791f02e34e8c] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:E11FED81D54B54D9E8971983BB5C3A95
+[2026-09-04 22:44:37.719] [INFO    ] (commands:_wdsj_send_one:2504) [1a03791f02e34e8c] wdsj 单模板查询: player=muyibo template=bw(bedwars-stats) img=True
+[2026-09-04 22:44:46.820] [INFO    ] (qq_transport:upload_media_file:413) [1a03791f02e34e8c] QQ 分片上传成功 file=wdsj_20260904_a509a3e0.png size=218884 ttl=86400
+[2026-09-04 22:44:49.444] [INFO    ] (qq_transport:_send_message:234) [1a03791f02e34e8c] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3P7LTZGkiLXYg7gIcbBblGm8CCvKyLhUED.8dP2O1WYSKZ8kMvAMY2OVPlvh-O9Waw!!
+[2026-09-04 22:44:49.445] [INFO    ] (commands:_wdsj_send_one:2504) [1a03791f02e34e8c] wdsj 单模板查询: player=muyibo template=jjc(arena-stats) img=True
+[2026-09-04 22:44:55.778] [INFO    ] (qq_transport:upload_media_file:413) [1a03791f02e34e8c] QQ 分片上传成功 file=wdsj_20260904_19780b4c.png size=158956 ttl=86400
