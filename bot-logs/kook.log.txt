@@ -1,8 +1,4 @@
-# 更新于 2026-09-04 22:26:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:23.998] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-04 06:37:23.999] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-04 06:37:23.000] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-04 06:37:24.000] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+# 更新于 2026-09-04 22:27:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:24.001] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
 [2026-09-04 06:37:24.002] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
 [2026-09-04 06:37:24.002] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
@@ -1499,3 +1495,7 @@
 [2026-09-04 22:22:23.545] [INFO    ] (memory:merge_overflow_memory:419) [c89a5bb53d07466f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
 [2026-09-04 22:22:23.550] [DEBUG   ] (pipeline:process_message:508) [c89a5bb53d07466f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
 [2026-09-04 22:22:23.551] [INFO    ] (logger:log_trace_summary:392) [c89a5bb53d07466f] [TRACE c89a5bb53d07466f] total=11.92ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11.69ms(x1) (wall11.69), queue_wait=5.28ms(x1)
+[2026-09-04 22:27:06.653] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-09-04 22:27:06.673] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-04 22:27:07.552] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-04 22:27:07.709] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
