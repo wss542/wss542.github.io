@@ -1,4 +1,4 @@
-# 更新于 2026-09-05 00:52:32 · 共 116 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-05 00:53:06 · 共 120 行（来源 huanmeng.log 末尾）
 [2026-09-05 00:00:06.917] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-05 → 周六
 [2026-09-05 00:00:06.922] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-05 00:00:29.986] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260905 — 发送昨日群聊日报
@@ -115,3 +115,7 @@
 [2026-09-05 00:45:04.863] [DEBUG   ] (context_manager:_on_task_done:139) [2d9473762a254d84] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
 [2026-09-05 00:49:33.062] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
 [2026-09-05 00:49:33.062] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-05 00:53:00.292] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-09-05 00:53:00.297] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-05 00:53:01.099] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-05 00:53:01.300] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
