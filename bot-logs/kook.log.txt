@@ -1,16 +1,4 @@
-# 更新于 2026-09-04 23:37:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-09-04 21:27:25.934] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-09-04 21:27:26.030] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 288, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-09-04 21:27:26.034] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-09-04 21:27:26.034] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-09-04 21:27:26.120] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-04 21:27:28.823] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-04 21:27:28.861] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-09-04 23:37:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 21:27:30.808] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-09-04 21:27:30.809] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
 [2026-09-04 21:27:30.809] [INFO    ] (logger:info:335) [-] ==================================================
@@ -1499,3 +1487,15 @@ HPV是一大类病毒的总称，有200...
 - 交易前尽量签书面约定、留凭证，把价格写...
 [2026-09-04 23:35:15.167] [DEBUG   ] (response_delivery:send_sentences:299) [09378bd277694f65] 分批发送完成: 共 6 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-04 23:35:15.170] [DEBUG   ] (context_manager:_on_task_done:139) [09378bd277694f65] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+[2026-09-04 23:37:39.281] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-04 23:37:39.282] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商' is_edit=False
+[2026-09-04 23:37:39.283] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d614cdf2557d4124] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-04 23:37:39.286] [INFO    ] (dispatcher:_dispatch_inner:316) [d614cdf2557d4124] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商'
+[2026-09-04 23:37:39.286] [INFO    ] (queues:_get_or_create_queue:32) [d614cdf2557d4124] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-04 23:37:39.287] [DEBUG   ] (queues:enqueue_message:75) [d614cdf2557d4124] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-04 23:37:39.289] [INFO    ] (memory:merge_overflow_memory:419) [f7d8d7287d534599] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-04 23:37:39.289] [INFO    ] (pipeline:process_message:478) [f7d8d7287d534599] 指令拦截: '/供应商' from=ywandwss
+[2026-09-04 23:37:39.290] [DEBUG   ] (commands:handle_command:4840) [f7d8d7287d534599] 指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
+[2026-09-04 23:37:39.291] [INFO    ] (commands:handle_command:4895) [f7d8d7287d534599] 指令执行完成 [供应商]: 返回981字符
+[2026-09-04 23:37:40.023] [INFO    ] (logger:log_trace_summary:392) [f7d8d7287d534599] [TRACE f7d8d7287d534599] total=736.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=736.32ms(x1) (wall736.32), queue_wait=0.47ms(x1)
+[2026-09-04 23:37:40.046] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
