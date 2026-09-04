@@ -1,49 +1,4 @@
-# 更新于 2026-09-04 23:34:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 20:31:40.237] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:31:55.477] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=75 cpu=None mem=None
-[2026-09-04 20:31:55.478] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:35:45.148] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-09-04 20:35:45.149] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:43:11.588] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-[2026-09-04 20:43:11.589] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:43:16.595] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
-[2026-09-04 20:43:17.515] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-04 20:43:17.684] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-04 20:43:44.486] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-04 20:45:16.454] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-[2026-09-04 20:45:16.454] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:49:44.945] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
-[2026-09-04 20:49:52.848] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-04 20:49:56.574] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-04 20:51:24.068] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
-[2026-09-04 20:51:34.277] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-04 20:51:34.470] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-04 20:58:25.441] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-[2026-09-04 20:58:25.442] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 20:59:26.416] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-[2026-09-04 20:59:26.417] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 21:02:10.907] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=92 cpu=None mem=None
-[2026-09-04 21:02:10.908] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 21:13:59.982] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-04 21:21:34.033] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
-[2026-09-04 21:21:34.751] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-04 21:21:34.904] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-04 21:22:10.419] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
-[2026-09-04 21:22:10.420] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 21:23:26.867] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
-[2026-09-04 21:23:26.867] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 21:27:25.193] [INFO    ] (logger:info:335) [-] 收到终止信号，开始优雅退出...
-[2026-09-04 21:27:25.197] [INFO    ] (logger:info:335) [-] khl_bot 主循环已被取消（优雅退出）
-[2026-09-04 21:27:25.199] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-09-04 21:27:25.201] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-09-04 21:27:25.201] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-09-04 21:27:25.201] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-04 21:27:25.202] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-04 21:27:25.202] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-09-04 21:27:25.933] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
+# 更新于 2026-09-04 23:36:06 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
 [2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
 [2026-09-04 21:27:25.934] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
@@ -1499,3 +1454,48 @@ HPV是一大类病毒的总称，有200...
 [2026-09-04 23:34:52.384] [DEBUG   ] (pipeline:process_message:1069) [09378bd277694f65] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-09-04 23:34:52.384] [INFO    ] (pipeline:process_message:1072) [09378bd277694f65] 开始生成回复: speaker=繁 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-04 23:34:53.406] [WARNING ] (llm:call_llm_with_tools:610) [09378bd277694f65] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-04 23:34:59.931] [INFO    ] (llm:generate_multi_reply_with_tools:996) [09378bd277694f65] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["**一句话结论**\n坐地起价，喵~ 就是指卖家在谈好价钱之后，临时反悔抬高价格，或者故意把价格抬得很高来宰人，是一种不讲信用的抬价行为喵！(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","**字面拆解**\n- 坐地：待在原地不动，指交易进行到一半、对方已经骑虎难下的那个节骨眼上。\n- 起价：把价格抬起来。\n合起来就... tool_calls=0)
+[2026-09-04 23:34:59.932] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [09378bd277694f65] LLM原始输出 [轮1]: content={"replies":["**一句话结论**\n坐地起价，喵~ 就是指卖家在谈好价钱之后，临时反悔抬高价格，或者故意把价格抬得很高来宰人，是一种不讲信用的抬价行为喵！(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","**字面拆解**\n- 坐地：待在原地不动，指交易进行到一半、对方已经骑虎难下的那个节骨眼上。\n- 起价：把价格抬起来。\n合起来就 | tool_calls=0
+[2026-09-04 23:34:59.938] [INFO    ] (llm:_parse_reply:1358) [09378bd277694f65] JSON回复解析: 6句 fav=+1 calls=0 mood=开心
+[2026-09-04 23:34:59.943] [INFO    ] (fav:update_fav:126) [09378bd277694f65] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:E11FED81D54B54D9E8971983BB5C3A95 +1 → 53
+[2026-09-04 23:34:59.944] [INFO    ] (pipeline:process_message:1555) [09378bd277694f65] 好感度调整: 繁 +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-04 23:34:59.944] [INFO    ] (memory:maybe_save_memory:401) [09378bd277694f65] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 7 条
+[2026-09-04 23:34:59.944] [INFO    ] (pipeline:process_message:1561) [09378bd277694f65] ✅ 管道处理完成: 6句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 23:34:59.945] [INFO    ] (logger:log_trace_summary:392) [09378bd277694f65] [TRACE 09378bd277694f65] total=7682.43ms severity=slow_request | llm_calls=1 total=7502.06ms avg=7502.06ms max=7502.06ms p50=7502.06 p95=7502.06 p99=7502.06 | json_parse=2.74ms(x1), llm=7555.16ms(x1), memory=14.67ms(x2), message_retrieval=7.17ms(x2), process=7682.23ms(x1) (wall7682.23), queue_wait=0.41ms(x1)
+[2026-09-04 23:34:59.946] [WARNING ] (logger:log_trace_summary:415) [09378bd277694f65] [SLOW 09378bd277694f65] total=7683.79ms | json_parse=2.74ms(x1), llm=7555.16ms(x1), memory=14.67ms(x2), message_retrieval=7.17ms(x2), process=7682.23ms(x1) (wall7682.23), queue_wait=0.41ms(x1) | llm_calls=1 total=7502.06ms avg=7502.06ms max=7502.06ms p50=7502.06 p95=7502.06 p99=7502.06 | perf: queue=0.41ms llm=7557.9ms search_tool=0.0ms delivery=0.0ms other=7704.07ms wall=7683.75ms dominant=other
+[2026-09-04 23:34:59.949] [DEBUG   ] (response_delivery:send_sentences:283) [09378bd277694f65] 开始分批发送 6 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-04 23:34:59.954] [INFO    ] (llm:call_llm:435) [09378bd277694f65] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-04 23:35:01.768] [INFO    ] (llm:call_llm:497) [09378bd277694f65] LLM [deepseek-v4-flash] 返回 108字符 耗时1.8s → "[23:34:59] 繁: 问了坐地起价是什么意思, 茂密: 回复了一句话结论、字面拆解、常见场景举..."
+[2026-09-04 23:35:01.770] [INFO    ] (memory:_compress_with_deepseek:210) [09378bd277694f65] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 7条消息 → 保存
+[2026-09-04 23:35:01.991] [INFO    ] (qq_transport:_send_message:250) [09378bd277694f65] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=73 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3O7F3-c3QubuzCloBSnEfpJ33UR6peS4HBqyqUIY6gCryKn2pNxhuUqAy4FeooK8wg!!
+[2026-09-04 23:35:01.992] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 1/6 条: **一句话结论**
+坐地起价，喵~ 就是指卖家在谈好价钱之后...
+[2026-09-04 23:35:01.992] [DEBUG   ] (response_delivery:send_sentences:294) [09378bd277694f65] 句间等待 0.92s (#2/6)
+[2026-09-04 23:35:04.581] [INFO    ] (qq_transport:_send_message:250) [09378bd277694f65] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=107 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3PrT6aEHUP8D6FcJjx.8BaiC9SHBqq-8JpoAYXErIqLT1Md6zo0VqQVy6Em7-qQnCA!!
+[2026-09-04 23:35:04.582] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 2/6 条: **字面拆解**
+- 坐地：待在原地不动，指交易进行到一半、...
+[2026-09-04 23:35:04.582] [DEBUG   ] (response_delivery:send_sentences:294) [09378bd277694f65] 句间等待 0.55s (#3/6)
+[2026-09-04 23:35:06.786] [INFO    ] (qq_transport:_send_message:250) [09378bd277694f65] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=142 seq=3 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Pf6i0x.3McukkSwQhF3UrgI0rZYtXvwS9kY6DfAFkVlXx0OGQ0ULbQt3JAS59FORQ!!
+[2026-09-04 23:35:06.786] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 3/6 条: **常见场景举例**
+- 装修：师傅报价一万，干到一半说材料...
+[2026-09-04 23:35:06.786] [DEBUG   ] (response_delivery:send_sentences:294) [09378bd277694f65] 句间等待 0.38s (#4/6)
+[2026-09-04 23:35:08.682] [INFO    ] (qq_transport:_send_message:250) [09378bd277694f65] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=91 seq=4 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3DRjqak4QuGlJZau8TYVyBQUrX3tdrCnP15f6qyt-NUjfRoHXbxsxb89.NyntNotqw!!
+[2026-09-04 23:35:08.683] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 4/6 条: **为什么叫"坐地"**
+因为买家往往已经"上了船"——货搬...
+[2026-09-04 23:35:08.683] [DEBUG   ] (response_delivery:send_sentences:294) [09378bd277694f65] 句间等待 0.66s (#5/6)
+[2026-09-04 23:35:10.767] [INFO    ] (qq_transport:_send_message:250) [09378bd277694f65] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=110 seq=5 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3HaTvLQazSQnuaVyc4I6NvL4bLSQOqT8yEFb73ZI00SpJQS82.RUkkUvrYrcCi8QcA!!
+[2026-09-04 23:35:10.768] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 5/6 条: **和相近词的区别**
+- 漫天要价：一开始就报天价，还没开...
+[2026-09-04 23:35:10.768] [DEBUG   ] (response_delivery:send_sentences:294) [09378bd277694f65] 句间等待 0.50s (#6/6)
+[2026-09-04 23:35:11.929] [WARNING ] (qq_transport:_send_message:238) [09378bd277694f65] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"85aeb6c4f849ed01bba86d74d9dfac62"})，降级为主动消息
+[2026-09-04 23:35:12.526] [ERROR   ] (qq_transport:_send_message:244) [09378bd277694f65] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"89e4bc1ff7a8993537823b202c7b2080"}
+[2026-09-04 23:35:13.053] [WARNING ] (qq_transport:_send_message:238) [09378bd277694f65] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"e39f75f3f57315f70862e2c2d00cc09f"})，降级为主动消息
+[2026-09-04 23:35:13.394] [ERROR   ] (qq_transport:_send_message:244) [09378bd277694f65] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"5105539707a7c88c0b63eca2f0f1b58d"}
+[2026-09-04 23:35:13.840] [WARNING ] (qq_transport:_send_message:238) [09378bd277694f65] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"89ecb9121b3f0ceb2feb006394a43b86"})，降级为主动消息
+[2026-09-04 23:35:14.362] [ERROR   ] (qq_transport:_send_message:244) [09378bd277694f65] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"240c29425bc45f691bea0e13d38e447b"}
+[2026-09-04 23:35:14.688] [WARNING ] (qq_transport:_send_message:238) [09378bd277694f65] QQ 被动回复失败(QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"回复消息失败，被动回复时间或者次数超过限制","code":40034128,"err_code":40034128,"trace_id":"2e875ad7eb9de103378de572cca756db"})，降级为主动消息
+[2026-09-04 23:35:15.163] [ERROR   ] (qq_transport:_send_message:244) [09378bd277694f65] QQ 群主动发送失败 msg_type=0: QQ API HTTP 400 https://api.sgroup.qq.com/v2/groups/59B3DFC78FF2CF2CF3C1C9A25E3F617F/messages -> {"message":"主动消息失败, 无权限","code":40034105,"err_code":40034105,"trace_id":"f1b8657eaaf699571af4594942e97d70"}
+[2026-09-04 23:35:15.166] [DEBUG   ] (response_delivery:send_sentences:297) [09378bd277694f65] 已发送第 6/6 条: **怎么应对**
+- 交易前尽量签书面约定、留凭证，把价格写...
+[2026-09-04 23:35:15.167] [DEBUG   ] (response_delivery:send_sentences:299) [09378bd277694f65] 分批发送完成: 共 6 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 23:35:15.170] [DEBUG   ] (context_manager:_on_task_done:139) [09378bd277694f65] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
