@@ -1,18 +1,4 @@
-# 更新于 2026-09-04 23:38:25 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 21:27:31.641] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-04 21:27:31.641] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-04 21:27:31.642] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-04 21:27:31.642] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-04 21:27:31.646] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-04 21:27:31.646] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-04 21:27:31.647] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-04 21:27:31.647] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-04 21:27:31.662] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-04 21:27:31.663] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-04 21:27:31.664] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-04 21:27:31.675] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-04 21:27:31.675] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-04 21:27:31.675] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+# 更新于 2026-09-04 23:38:57 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 21:27:31.675] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
 [2026-09-04 21:27:31.675] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
 [2026-09-04 21:27:31.676] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
@@ -1499,3 +1485,17 @@ HPV是一大类病毒的总称，有200...
 [2026-09-04 23:38:13.699] [WARNING ] (qq_transport:send_card:303) [4474e7e6f6b54cfa] QQ 不支持 card，降级为纯文本
 [2026-09-04 23:38:15.357] [INFO    ] (qq_transport:_send_message:250) [4474e7e6f6b54cfa] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=385 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3NNCPO7ZPb9RbAkcMEPYgvs11NlJEWVRqp4lxM.J1tw5CPcsK6rK6-l-99ECX1jcGQ!!
 [2026-09-04 23:38:15.358] [INFO    ] (logger:log_trace_summary:392) [4474e7e6f6b54cfa] [TRACE 4474e7e6f6b54cfa] total=1676.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1676.7ms(x1) (wall1676.7), queue_wait=0.82ms(x1)
+[2026-09-04 23:38:49.059] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-04 23:38:49.060] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商 modelscope' is_edit=False
+[2026-09-04 23:38:49.061] [DEBUG   ] (dispatcher:_dispatch_inner:110) [fa94bf0424d74295] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-04 23:38:49.062] [INFO    ] (dispatcher:_dispatch_inner:316) [fa94bf0424d74295] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商 modelscope'
+[2026-09-04 23:38:49.062] [DEBUG   ] (queues:enqueue_message:75) [fa94bf0424d74295] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-04 23:38:49.064] [INFO    ] (memory:merge_overflow_memory:419) [965c84dbe388401c] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+[2026-09-04 23:38:49.065] [INFO    ] (pipeline:process_message:478) [965c84dbe388401c] 指令拦截: '/供应商 modelscope' from=ywandwss
+[2026-09-04 23:38:49.065] [DEBUG   ] (commands:handle_command:4840) [965c84dbe388401c] 指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
+[2026-09-04 23:38:49.074] [INFO    ] (logger:info:335) [965c84dbe388401c] 保留 fetch_me 注入的 bot_id: 659688244
+[2026-09-04 23:38:49.074] [INFO    ] (logger:info:335) [965c84dbe388401c] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+[2026-09-04 23:38:49.075] [INFO    ] (commands:cmd_provider:1485) [965c84dbe388401c] 供应商切换: DEEPSEEK/deepseek-v4-flash -> MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 (by ywandwss)
+[2026-09-04 23:38:49.075] [INFO    ] (commands:handle_command:4895) [965c84dbe388401c] 指令执行完成 [供应商]: 返回92字符
+[2026-09-04 23:38:49.674] [INFO    ] (logger:log_trace_summary:392) [965c84dbe388401c] [TRACE 965c84dbe388401c] total=611.34ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=611.27ms(x1) (wall611.27), queue_wait=0.94ms(x1)
+[2026-09-04 23:38:49.689] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
