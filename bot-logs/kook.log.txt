@@ -1,4 +1,4 @@
-# 更新于 2026-09-05 00:02:10 · 共 17 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-05 00:02:56 · 共 57 行（来源 huanmeng.log 末尾）
 [2026-09-05 00:00:06.917] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-05 → 周六
 [2026-09-05 00:00:06.922] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-05 00:00:29.986] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260905 — 发送昨日群聊日报
@@ -16,3 +16,43 @@
 [2026-09-05 00:01:16.264] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-09-05 00:01:40.877] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-09-05 00:01:40.877] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-05 00:02:12.130] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/签到'
+[2026-09-05 00:02:12.130] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYxTz1MHLqSIQN8xHlMen7DhXCxdzVWN3iMbLWgPjOQ1u0GvPKCnaXCmk0xSVgaV3xkcMmgSQ.17QBmcYsOeFAi9txQCTepAyDNxCoDSX9nph
+[2026-09-05 00:02:12.130] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
+[2026-09-05 00:02:12.131] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 00:02:12.133] [INFO    ] (identity:_ensure_loaded:92) [f8db8a2734094ea6] 身份映射已载入 1 条
+[2026-09-05 00:02:12.136] [INFO    ] (memory:merge_overflow_memory:419) [f8db8a2734094ea6] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+[2026-09-05 00:02:12.144] [INFO    ] (pipeline:process_message:478) [f8db8a2734094ea6] 指令拦截: '/签到' from=若尘 ~喵
+[2026-09-05 00:02:12.145] [DEBUG   ] (commands:handle_command:4840) [f8db8a2734094ea6] 指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 00:02:12.146] [INFO    ] (checkin:do_checkin:117) [f8db8a2734094ea6] 签到: u:1759953618 streak=1 +5分
+[2026-09-05 00:02:12.147] [INFO    ] (commands:handle_command:4895) [f8db8a2734094ea6] 指令执行完成 [签到]: 返回40字符
+[2026-09-05 00:02:13.900] [INFO    ] (qq_transport:_send_message:250) [f8db8a2734094ea6] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=40 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LkF51MkT7QbMslzl0Ye1tyWzm7Z-f0KR8R1sXlYPt1TTEXF6wVNd3FCVeP80YAsWg!!
+[2026-09-05 00:02:13.901] [INFO    ] (logger:log_trace_summary:392) [f8db8a2734094ea6] [TRACE f8db8a2734094ea6] total=1769.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1769.25ms(x1) (wall1769.25), queue_wait=1.28ms(x1)
+[2026-09-05 00:02:20.649] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/lucl'
+[2026-09-05 00:02:20.650] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY8jz4tBEBjrfdHnnbFyJJCKgxJVAzJz.hd-2mZ0zG4N6GM.XkmLqJZVfVfUwl5pUG0odFB25XmI7uzNIWeUGY.JtxQCTepAyDNxCoDSX9nph
+[2026-09-05 00:02:20.650] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 00:02:20.651] [INFO    ] (memory:merge_overflow_memory:419) [2599f01c153f4347] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+[2026-09-05 00:02:20.652] [INFO    ] (pipeline:process_message:478) [2599f01c153f4347] 指令拦截: '/lucl' from=若尘 ~喵
+[2026-09-05 00:02:20.652] [DEBUG   ] (commands:handle_command:4840) [2599f01c153f4347] 指令解析: prefix=/ cmd=lucl args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 00:02:20.653] [WARNING ] (commands:handle_command:4858) [2599f01c153f4347] 未知指令: '/lucl'
+[2026-09-05 00:02:22.288] [INFO    ] (qq_transport:_send_message:250) [2599f01c153f4347] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=28 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3NOxT.TUkm2UEuvOgNg2j.4XxFQ9bWmR2owwB5I.A6jLOoQ4sZojDy3QPEPuS2.lDg!!
+[2026-09-05 00:02:22.289] [INFO    ] (logger:log_trace_summary:392) [2599f01c153f4347] [TRACE 2599f01c153f4347] total=1638.64ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1638.55ms(x1) (wall1638.55), queue_wait=0.5ms(x1)
+[2026-09-05 00:02:36.122] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/luck'
+[2026-09-05 00:02:36.123] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY9aPmHfdH0WJ5HBIhpxgh8qik33LL-eDrUJVQBV07hB.4LyRzuQbrq681yWlP0qyQNaHunkr1hAdAyyn1MrIG1RtxQCTepAyDNxCoDSX9nph
+[2026-09-05 00:02:36.123] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 00:02:36.124] [INFO    ] (memory:merge_overflow_memory:419) [0a7dc3ff9495446b] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+[2026-09-05 00:02:36.125] [INFO    ] (pipeline:process_message:478) [0a7dc3ff9495446b] 指令拦截: '/luck' from=若尘 ~喵
+[2026-09-05 00:02:36.125] [DEBUG   ] (commands:handle_command:4840) [0a7dc3ff9495446b] 指令解析: prefix=/ cmd=luck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 00:02:36.125] [INFO    ] (commands:cmd_luck:716) [0a7dc3ff9495446b] 指令 /luck 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 00:02:36.127] [INFO    ] (commands:handle_command:4895) [0a7dc3ff9495446b] 指令执行完成 [luck]: 返回58字符
+[2026-09-05 00:02:38.052] [INFO    ] (qq_transport:_send_message:250) [0a7dc3ff9495446b] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=58 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3I92pAkWMoG0..pul5LgyD4hiSjdkU2n6L0Mcd6JYEzCqSVVLnsryJt-tdzyo8tDNg!!
+[2026-09-05 00:02:38.053] [INFO    ] (logger:log_trace_summary:392) [0a7dc3ff9495446b] [TRACE 0a7dc3ff9495446b] total=1929.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1929.19ms(x1) (wall1929.19), queue_wait=0.63ms(x1)
+[2026-09-05 00:02:47.682] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/fuck'
+[2026-09-05 00:02:47.682] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY1NFxmXmtzio8DXVrKjWIWB9SFIHb3C2jsIx5CCewKJEUFgNNa8h1OuQnbw0TfFzGQrD.wRAHsb0UnQs.dniJTFtxQCTepAyDNxCoDSX9nph
+[2026-09-05 00:02:47.683] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 00:02:47.684] [INFO    ] (memory:merge_overflow_memory:419) [0e419afc2ba24702] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 4条 (阈值=10)
+[2026-09-05 00:02:47.685] [INFO    ] (pipeline:process_message:478) [0e419afc2ba24702] 指令拦截: '/fuck' from=若尘 ~喵
+[2026-09-05 00:02:47.685] [DEBUG   ] (commands:handle_command:4840) [0e419afc2ba24702] 指令解析: prefix=/ cmd=fuck args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 00:02:47.686] [INFO    ] (commands:handle_command:4895) [0e419afc2ba24702] 指令执行完成 [fuck]: 返回68字符
+[2026-09-05 00:02:49.466] [INFO    ] (qq_transport:_send_message:250) [0e419afc2ba24702] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=68 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3HyhRSgHZMkhhrrawGo2DxHpW3WgCnJwzA51XDlqdPIQRCVrvA4udDH4JhmIF-jTGA!!
+[2026-09-05 00:02:49.466] [INFO    ] (logger:log_trace_summary:392) [0e419afc2ba24702] [TRACE 0e419afc2ba24702] total=1783.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1783.07ms(x1) (wall1783.07), queue_wait=0.52ms(x1)
