@@ -1,4 +1,4 @@
-# 更新于 2026-09-05 00:45:02 · 共 108 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-05 00:45:59 · 共 114 行（来源 huanmeng.log 末尾）
 [2026-09-05 00:00:06.917] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-05 → 周六
 [2026-09-05 00:00:06.922] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-05 00:00:29.986] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260905 — 发送昨日群聊日报
@@ -107,3 +107,9 @@
 [2026-09-05 00:45:02.796] [INFO    ] (qq_transport:_send_message:250) [2d9473762a254d84] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=12 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3D-bYWnBPlO0mekDYRNvh29iv27NrHuBFcy8o.AlxQTC4vMEyu3QEM62ScouvloQ6g!!
 [2026-09-05 00:45:02.796] [DEBUG   ] (response_delivery:send_sentences:297) [2d9473762a254d84] 已发送第 1/2 条: 我是茂密，你的小助手喵~...
 [2026-09-05 00:45:02.796] [DEBUG   ] (response_delivery:send_sentences:294) [2d9473762a254d84] 句间等待 0.58s (#2/2)
+[2026-09-05 00:45:03.210] [INFO    ] (llm:call_llm:497) [2d9473762a254d84] LLM [Qwen/Qwen3-235B-A22B] 返回 115字符 耗时2.4s → "[00:45:00] 若尘 ~喵, 茂密: 若尘 ~喵说了/签到, /lucl, /luck, /f..."
+[2026-09-05 00:45:03.213] [INFO    ] (memory:_compress_with_deepseek:210) [2d9473762a254d84] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 7条消息 → 保存
+[2026-09-05 00:45:04.861] [INFO    ] (qq_transport:_send_message:250) [2d9473762a254d84] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=8 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3NiVb5c0jRWxrt7NFXc4PWuUgol6e8O0sANC.vg7bF3Ql8m9JVsnuAjntUvUX-.igg!!
+[2026-09-05 00:45:04.863] [DEBUG   ] (response_delivery:send_sentences:297) [2d9473762a254d84] 已发送第 2/2 条: 随时准备帮忙哦！...
+[2026-09-05 00:45:04.863] [DEBUG   ] (response_delivery:send_sentences:299) [2d9473762a254d84] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-05 00:45:04.863] [DEBUG   ] (context_manager:_on_task_done:139) [2d9473762a254d84] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
