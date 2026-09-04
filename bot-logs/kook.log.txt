@@ -1,8 +1,4 @@
-# 更新于 2026-09-04 22:44:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:24.038] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-04 06:37:24.038] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-04 06:37:24.040] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-04 06:37:24.040] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+# 更新于 2026-09-04 22:45:59 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:24.041] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
 [2026-09-04 06:37:24.041] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
 [2026-09-04 06:37:24.041] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
@@ -1499,3 +1495,7 @@
 [2026-09-04 22:44:49.444] [INFO    ] (qq_transport:_send_message:234) [1a03791f02e34e8c] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3P7LTZGkiLXYg7gIcbBblGm8CCvKyLhUED.8dP2O1WYSKZ8kMvAMY2OVPlvh-O9Waw!!
 [2026-09-04 22:44:49.445] [INFO    ] (commands:_wdsj_send_one:2504) [1a03791f02e34e8c] wdsj 单模板查询: player=muyibo template=jjc(arena-stats) img=True
 [2026-09-04 22:44:55.778] [INFO    ] (qq_transport:upload_media_file:413) [1a03791f02e34e8c] QQ 分片上传成功 file=wdsj_20260904_19780b4c.png size=158956 ttl=86400
+[2026-09-04 22:44:58.584] [INFO    ] (qq_transport:_send_message:234) [1a03791f02e34e8c] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3CRsyu.VVFriTQIP4cee2.cHI5IGxi1eqgOLNUHXdTsv8pEliQssVSamC7rHH0QzZA!!
+[2026-09-04 22:44:58.586] [INFO    ] (commands:handle_command:4897) [1a03791f02e34e8c] 指令执行完成 [wdsj]: 无返回值（已自行发送）
+[2026-09-04 22:44:58.586] [INFO    ] (logger:log_trace_summary:392) [1a03791f02e34e8c] [TRACE 1a03791f02e34e8c] total=20882.84ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=20881.83ms(x1) (wall20881.83), queue_wait=1.21ms(x1)
+[2026-09-04 22:44:58.587] [WARNING ] (logger:log_trace_summary:410) [1a03791f02e34e8c] [VERY_SLOW 1a03791f02e34e8c] total=20883.62ms 需重点排查 | process=20881.83ms(x1) (wall20881.83), queue_wait=1.21ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.21ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=20881.83ms wall=20883.56ms dominant=other
