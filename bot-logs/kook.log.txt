@@ -1,13 +1,4 @@
-# 更新于 2026-09-04 22:22:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:23.460] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-04 06:37:23.460] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-04 06:37:23.461] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-04 06:37:23.695] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-04 06:37:23.695] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-04 06:37:23.708] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-04 06:37:23.708] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-04 06:37:23.976] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-04 06:37:23.998] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+# 更新于 2026-09-04 22:22:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:23.998] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
 [2026-09-04 06:37:23.999] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
 [2026-09-04 06:37:23.000] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
@@ -1499,3 +1490,12 @@
 [2026-09-04 22:18:30.389] [DEBUG   ] (response_delivery:send_sentences:297) [81ea7f5150994fb6] 已发送第 1/1 条: 我在这儿呢主人~刚在群里溜达了一圈，有啥吩咐呀？(emj)开...
 [2026-09-04 22:18:30.389] [DEBUG   ] (response_delivery:send_sentences:299) [81ea7f5150994fb6] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-04 22:18:30.390] [DEBUG   ] (context_manager:_on_task_done:139) [81ea7f5150994fb6] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+[2026-09-04 22:22:23.460] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-04 22:22:23.469] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='（）' is_edit=False
+[2026-09-04 22:22:23.472] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f9fde6305cf44240] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+[2026-09-04 22:22:23.506] [INFO    ] (dispatcher:_dispatch_inner:316) [f9fde6305cf44240] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='（）'
+[2026-09-04 22:22:23.534] [INFO    ] (queues:_get_or_create_queue:32) [f9fde6305cf44240] [队列] 创建群1010983873136793 的独立消息队列
+[2026-09-04 22:22:23.537] [DEBUG   ] (queues:enqueue_message:75) [f9fde6305cf44240] [队列] 群1010983873136793 消息已入队 (队长度=1)
+[2026-09-04 22:22:23.545] [INFO    ] (memory:merge_overflow_memory:419) [c89a5bb53d07466f] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+[2026-09-04 22:22:23.550] [DEBUG   ] (pipeline:process_message:508) [c89a5bb53d07466f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
+[2026-09-04 22:22:23.551] [INFO    ] (logger:log_trace_summary:392) [c89a5bb53d07466f] [TRACE c89a5bb53d07466f] total=11.92ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11.69ms(x1) (wall11.69), queue_wait=5.28ms(x1)
