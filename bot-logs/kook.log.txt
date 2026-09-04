@@ -1,34 +1,4 @@
-# 更新于 2026-09-04 22:30:34 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:24.002] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-04 06:37:24.002] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-04 06:37:24.008] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-04 06:37:24.008] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-04 06:37:24.008] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-04 06:37:24.008] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-04 06:37:24.015] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-04 06:37:24.015] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-04 06:37:24.015] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-04 06:37:24.021] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-04 06:37:24.022] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-04 06:37:24.022] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-04 06:37:24.022] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-04 06:37:24.023] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-04 06:37:24.023] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-04 06:37:24.023] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-04 06:37:24.023] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-04 06:37:24.024] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-04 06:37:24.024] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-04 06:37:24.024] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-04 06:37:24.025] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-04 06:37:24.025] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-04 06:37:24.026] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-04 06:37:24.026] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-04 06:37:24.026] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-04 06:37:24.027] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-04 06:37:24.027] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-04 06:37:24.027] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-04 06:37:24.031] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-04 06:37:24.031] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+# 更新于 2026-09-04 22:31:10 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:24.031] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
 [2026-09-04 06:37:24.032] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
 [2026-09-04 06:37:24.032] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
@@ -1499,3 +1469,33 @@
 [2026-09-04 22:27:07.552] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-04 22:27:07.709] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
 [2026-09-04 22:29:46.864] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-04 22:30:36.444] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=繁 role=member union=-]: '帮我想一个群头衔喵'
+[2026-09-04 22:30:36.445] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_qNeBPhBnuexLAaucYu4L7PXBz0eqETWPWJewmC.zU2mFhrxEzdLbbWlKedriF8WeZkGwb73dTuNieqZLB0Jz3dABzKIE5b88hB.UysU9E2oNIqrVm3QhC6-bhktADRFg
+[2026-09-04 22:30:36.445] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-04 22:30:36.450] [INFO    ] (memory:merge_overflow_memory:419) [9977f12e50234df7] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+[2026-09-04 22:30:36.453] [DEBUG   ] (pipeline:process_message:508) [9977f12e50234df7] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='帮我想一个群头衔喵'
+[2026-09-04 22:30:36.453] [INFO    ] (pipeline:process_message:546) [9977f12e50234df7] @机器人检测 → 直接回复
+[2026-09-04 22:30:36.454] [DEBUG   ] (pipeline:process_message:599) [9977f12e50234df7] 请求意图: intent=chat fast_search=False msg='帮我想一个群头衔喵'
+[2026-09-04 22:30:36.454] [WARNING ] (pipeline:process_message:647) [9977f12e50234df7] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-04 22:30:36.469] [DEBUG   ] (memory:_record_memory_trace:318) [9977f12e50234df7] 记忆检索: source=legacy_file status=hit 命中注入=5 耗时=11.1ms
+[2026-09-04 22:30:36.471] [INFO    ] (pipeline:process_message:807) [9977f12e50234df7] 额外信息: 475字 (memory=181 search=0)
+[2026-09-04 22:30:36.472] [INFO    ] (pipeline:process_message:940) [9977f12e50234df7] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-09-04 22:30:36.473] [DEBUG   ] (pipeline:process_message:1069) [9977f12e50234df7] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-04 22:30:36.473] [INFO    ] (pipeline:process_message:1072) [9977f12e50234df7] 开始生成回复: speaker=繁 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:30:36.661] [WARNING ] (llm:call_llm_with_tools:610) [9977f12e50234df7] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-04 22:30:38.003] [INFO    ] (llm:generate_multi_reply_with_tools:996) [9977f12e50234df7] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["好呀~给你想几个喵！『摸鱼大师』『群宠小可爱』『喵界顶流』，喜欢哪个呀？(emj)开心2(emj)[3090677846298039/l6MxitZAjv0nm0o1]"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor"... tool_calls=0)
+[2026-09-04 22:30:38.004] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [9977f12e50234df7] LLM原始输出 [轮1]: content={"replies":["好呀~给你想几个喵！『摸鱼大师』『群宠小可爱』『喵界顶流』，喜欢哪个呀？(emj)开心2(emj)[3090677846298039/l6MxitZAjv0nm0o1]"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor" | tool_calls=0
+[2026-09-04 22:30:38.005] [INFO    ] (llm:_parse_reply:1358) [9977f12e50234df7] JSON回复解析: 1句 fav=+1 calls=0 mood=开心
+[2026-09-04 22:30:38.005] [INFO    ] (fav:update_fav:126) [9977f12e50234df7] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:E11FED81D54B54D9E8971983BB5C3A95 +1 → 51
+[2026-09-04 22:30:38.005] [INFO    ] (pipeline:process_message:1555) [9977f12e50234df7] 好感度调整: 繁 +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-04 22:30:38.006] [INFO    ] (memory:maybe_save_memory:401) [9977f12e50234df7] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 4 条
+[2026-09-04 22:30:38.006] [INFO    ] (pipeline:process_message:1561) [9977f12e50234df7] ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:30:38.006] [INFO    ] (logger:log_trace_summary:392) [9977f12e50234df7] [TRACE 9977f12e50234df7] total=1560.08ms severity=normal | llm_calls=1 total=1528.84ms avg=1528.84ms max=1528.84ms p50=1528.84 p95=1528.84 p99=1528.84 | json_parse=0.08ms(x1), llm=1531.58ms(x1), memory=22.41ms(x2), process=1559.69ms(x1) (wall1559.69), queue_wait=1.0ms(x1)
+[2026-09-04 22:30:38.007] [DEBUG   ] (response_delivery:send_sentences:283) [9977f12e50234df7] 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-04 22:30:38.008] [INFO    ] (llm:call_llm:435) [9977f12e50234df7] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-04 22:30:39.339] [INFO    ] (llm:call_llm:497) [9977f12e50234df7] LLM [deepseek-v4-flash] 返回 174字符 耗时1.3s → "[22:30:38] 若尘~喵: 问"你呢", 茂密: 回复"我在这儿呢主人~刚在群里溜达了一圈，有..."
+[2026-09-04 22:30:39.340] [INFO    ] (memory:_compress_with_deepseek:210) [9977f12e50234df7] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 4条消息 → 保存
+[2026-09-04 22:30:39.957] [INFO    ] (qq_transport:_send_message:234) [9977f12e50234df7] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=84 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3BpO7T6fhD-AMKq7srZYmQBKWMoWMaAnnOqsBCF3huV5-YQiAMLCSBzprZGhKlP0cg!!
+[2026-09-04 22:30:39.957] [DEBUG   ] (response_delivery:send_sentences:297) [9977f12e50234df7] 已发送第 1/1 条: 好呀~给你想几个喵！『摸鱼大师』『群宠小可爱』『喵界顶流』，...
+[2026-09-04 22:30:39.957] [DEBUG   ] (response_delivery:send_sentences:299) [9977f12e50234df7] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:30:39.957] [DEBUG   ] (context_manager:_on_task_done:139) [9977f12e50234df7] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
