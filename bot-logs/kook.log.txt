@@ -1,19 +1,4 @@
-# 更新于 2026-09-04 23:31:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 18:12:48.289] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-04 18:12:48.293] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-04 18:12:48.294] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-04 18:12:48.294] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-04 18:12:48.298] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-04 18:12:48.300] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-04 18:12:48.302] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-04 18:12:48.302] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-04 18:12:48.302] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-04 18:12:48.323] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-04 18:12:48.323] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-04 18:12:48.324] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-04 18:12:48.326] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-04 18:12:48.326] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-04 18:12:48.329] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+# 更新于 2026-09-04 23:32:24 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 18:12:48.329] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
 [2026-09-04 18:12:48.330] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
 [2026-09-04 18:12:48.332] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
@@ -1499,3 +1484,18 @@ HPV是一大类病毒的总称，有200...
 [2026-09-04 23:31:54.400] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
 [2026-09-04 23:31:54.400] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
 [2026-09-04 23:31:54.400] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-09-04 23:31:54.558] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+[2026-09-04 23:31:54.559] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-09-04 23:31:54.695] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-04 23:31:54.696] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-04 23:31:55.281] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-09-04 23:31:55.283] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-09-04 23:31:55.284] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-09-04 23:31:55.285] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-04 23:31:55.610] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 2793s
+[2026-09-04 23:31:56.180] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-04 23:31:56.211] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-04 → 周五
+[2026-09-04 23:31:56.212] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-09-04 23:31:56.212] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 1689 秒 (下次 00:00:05)
+[2026-09-04 23:31:56.388] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-09-04 23:31:56.422] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
