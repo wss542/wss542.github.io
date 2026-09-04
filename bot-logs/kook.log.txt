@@ -1,37 +1,4 @@
-# 更新于 2026-09-04 22:18:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 06:37:14.670] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-04 06:37:14.671] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-04 06:37:14.761] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-04 06:37:14.768] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-04 06:37:14.773] [INFO    ] (bot:_bg_wdsj_collector:679) [-] 战绩采集将在 1h23m 后执行 (08:01)
-[2026-09-04 06:37:14.804] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-04 06:37:16.118] [INFO    ] (bot:_bg_pc_offline_checker:777) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 33s 前）
-[2026-09-04 06:37:16.119] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-04 06:37:16.135] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-04 06:37:16.135] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-04 06:37:16.136] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-04 06:37:16.136] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-04 06:37:16.138] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-04 06:37:16.139] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-04 06:37:16.250] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-04 06:37:16.250] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-04 06:37:16.382] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-09-04 06:37:16.382] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-04 06:37:17.482] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-04 → 周五
-[2026-09-04 06:37:17.483] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-04 06:37:17.483] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 62568 秒 (下次 00:00:05)
-[2026-09-04 06:37:18.079] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-04 06:37:18.137] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-04 06:37:18.170] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3391)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-04 06:37:21.850] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-04 06:37:21.888] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-04 06:37:23.445] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-04 06:37:23.445] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-04 06:37:23.446] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-04 06:37:23.452] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-04 06:37:23.453] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-04 06:37:23.457] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-04 06:37:23.460] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+# 更新于 2026-09-04 22:19:02 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 06:37:23.460] [INFO    ] (logger:info:335) [-] 日志系统已初始化
 [2026-09-04 06:37:23.460] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
 [2026-09-04 06:37:23.461] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
@@ -1499,3 +1466,36 @@
 [2026-09-04 22:01:50.948] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 17890 秒
 [2026-09-04 22:03:26.960] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-09-04 22:03:26.962] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-04 22:18:25.096] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '你呢'
+[2026-09-04 22:18:25.104] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY50sB91r0o4YUYfmZhd0pA4Dapanz7BK.hotPteWlY4PkV.dPx0OFWhnAN2PwE.c1KTlwW2zwoaGF6WlYByNckRtxQCTepAyDNxCoDSX9nph
+[2026-09-04 22:18:25.106] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
+[2026-09-04 22:18:25.107] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-04 22:18:25.116] [INFO    ] (identity:_ensure_loaded:92) [81ea7f5150994fb6] 身份映射已载入 1 条
+[2026-09-04 22:18:25.128] [INFO    ] (memory:merge_overflow_memory:419) [81ea7f5150994fb6] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+[2026-09-04 22:18:25.171] [DEBUG   ] (pipeline:process_message:508) [81ea7f5150994fb6] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='你呢'
+[2026-09-04 22:18:25.171] [INFO    ] (pipeline:process_message:546) [81ea7f5150994fb6] @机器人检测 → 直接回复
+[2026-09-04 22:18:25.182] [DEBUG   ] (pipeline:process_message:599) [81ea7f5150994fb6] 请求意图: intent=chat fast_search=False msg='你呢'
+[2026-09-04 22:18:25.231] [WARNING ] (pipeline:process_message:647) [81ea7f5150994fb6] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-04 22:18:25.315] [DEBUG   ] (memory:_record_memory_trace:318) [81ea7f5150994fb6] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=66.3ms
+[2026-09-04 22:18:25.323] [INFO    ] (pipeline:process_message:807) [81ea7f5150994fb6] 额外信息: 210字 (memory=0 search=0)
+[2026-09-04 22:18:25.327] [INFO    ] (pipeline:process_message:940) [81ea7f5150994fb6] system_context: 4000字 caps=1 tools=1 (system=1841 skill=0)
+[2026-09-04 22:18:25.332] [DEBUG   ] (pipeline:process_message:1069) [81ea7f5150994fb6] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-04 22:18:25.332] [INFO    ] (pipeline:process_message:1072) [81ea7f5150994fb6] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:18:26.750] [WARNING ] (llm:call_llm_with_tools:610) [81ea7f5150994fb6] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-04 22:18:28.046] [INFO    ] (llm:generate_multi_reply_with_tools:996) [81ea7f5150994fb6] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["我在这儿呢主人~刚在群里溜达了一圈，有啥吩咐呀？(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘... tool_calls=0)
+[2026-09-04 22:18:28.046] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [81ea7f5150994fb6] LLM原始输出 [轮1]: content={"replies":["我在这儿呢主人~刚在群里溜达了一圈，有啥吩咐呀？(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 | tool_calls=0
+[2026-09-04 22:18:28.048] [INFO    ] (llm:_parse_reply:1358) [81ea7f5150994fb6] JSON回复解析: 1句 fav=+1 calls=0 mood=开心
+[2026-09-04 22:18:28.052] [INFO    ] (fav:update_fav:126) [81ea7f5150994fb6] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:1759953618 +1 → 53
+[2026-09-04 22:18:28.052] [INFO    ] (pipeline:process_message:1555) [81ea7f5150994fb6] 好感度调整: 若尘 ~喵 +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-04 22:18:28.052] [INFO    ] (memory:maybe_save_memory:401) [81ea7f5150994fb6] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
+[2026-09-04 22:18:28.053] [INFO    ] (pipeline:process_message:1561) [81ea7f5150994fb6] ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:18:28.054] [INFO    ] (logger:log_trace_summary:392) [81ea7f5150994fb6] [TRACE 81ea7f5150994fb6] total=2944.01ms severity=normal | llm_calls=1 total=2638.84ms avg=2638.84ms max=2638.84ms p50=2638.84 p95=2638.84 p99=2638.84 | json_parse=1.71ms(x1), llm=2715.98ms(x1), memory=133.03ms(x2), message_retrieval=0.07ms(x1), process=2943.49ms(x1) (wall2943.49), queue_wait=3.69ms(x1)
+[2026-09-04 22:18:28.055] [DEBUG   ] (response_delivery:send_sentences:283) [81ea7f5150994fb6] 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-04 22:18:28.057] [INFO    ] (llm:call_llm:435) [81ea7f5150994fb6] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-04 22:18:28.562] [INFO    ] (qq_transport:_get_token:113) [81ea7f5150994fb6] QQ access_token 已刷新，有效期 7200s
+[2026-09-04 22:18:29.477] [INFO    ] (llm:call_llm:497) [81ea7f5150994fb6] LLM [deepseek-v4-flash] 返回 129字符 耗时1.4s → "[22:18:28] 若尘~喵: 问"你呢", 茂密: 回复"我在这儿呢主人~刚在群里溜达了一圈，有..."
+[2026-09-04 22:18:29.478] [INFO    ] (memory:_compress_with_deepseek:210) [81ea7f5150994fb6] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
+[2026-09-04 22:18:30.388] [INFO    ] (qq_transport:_send_message:234) [81ea7f5150994fb6] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=72 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3DqFRCS6BWAh37K04AwRIr2YNrrvBVorZ-nHkM-xD8S4eG8sFEGWyb8bCJr8wC2vEA!!
+[2026-09-04 22:18:30.389] [DEBUG   ] (response_delivery:send_sentences:297) [81ea7f5150994fb6] 已发送第 1/1 条: 我在这儿呢主人~刚在群里溜达了一圈，有啥吩咐呀？(emj)开...
+[2026-09-04 22:18:30.389] [DEBUG   ] (response_delivery:send_sentences:299) [81ea7f5150994fb6] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-04 22:18:30.390] [DEBUG   ] (context_manager:_on_task_done:139) [81ea7f5150994fb6] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
