@@ -1,4 +1,4 @@
-# 更新于 2026-09-05 00:44:12 · 共 80 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-05 00:45:02 · 共 108 行（来源 huanmeng.log 末尾）
 [2026-09-05 00:00:06.917] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-05 → 周六
 [2026-09-05 00:00:06.922] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-05 00:00:29.986] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260905 — 发送昨日群聊日报
@@ -79,3 +79,31 @@
 [2026-09-05 00:38:01.327] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-05 00:38:16.584] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
 [2026-09-05 00:38:16.584] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-05 00:44:55.917] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '你是谁 喵？'
+[2026-09-05 00:44:55.918] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY1R7o.k7mwfx-VrKV8RuA7Ucizlh6rBq8HwmNE-pTjiG8Y5vqRf8BoXHZVTB8sUF9wB0icevTCJIXOp7BIHFUj5txQCTepAyDNxCoDSX9nph
+[2026-09-05 00:44:55.918] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 00:44:55.919] [INFO    ] (memory:merge_overflow_memory:419) [2d9473762a254d84] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 5条 (阈值=10)
+[2026-09-05 00:44:55.920] [DEBUG   ] (pipeline:process_message:508) [2d9473762a254d84] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='你是谁 喵？'
+[2026-09-05 00:44:55.921] [INFO    ] (pipeline:process_message:546) [2d9473762a254d84] @机器人检测 → 直接回复
+[2026-09-05 00:44:55.932] [DEBUG   ] (pipeline:process_message:599) [2d9473762a254d84] 请求意图: intent=chat fast_search=False msg='你是谁 喵？'
+[2026-09-05 00:44:55.961] [WARNING ] (pipeline:process_message:647) [2d9473762a254d84] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-05 00:44:55.996] [DEBUG   ] (memory:_record_memory_trace:318) [2d9473762a254d84] 记忆检索: source=legacy_file status=hit 命中注入=1 耗时=32.0ms
+[2026-09-05 00:44:56.020] [INFO    ] (pipeline:process_message:807) [2d9473762a254d84] 额外信息: 383字 (memory=85 search=0)
+[2026-09-05 00:44:56.023] [INFO    ] (pipeline:process_message:944) [2d9473762a254d84] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+[2026-09-05 00:44:56.026] [DEBUG   ] (pipeline:process_message:1073) [2d9473762a254d84] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-05 00:44:56.026] [INFO    ] (pipeline:process_message:1080) [2d9473762a254d84] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-05 00:45:00.827] [INFO    ] (llm:generate_multi_reply_with_tools:996) [2d9473762a254d84] LLM 首调用选择模型: Qwen/Qwen3-235B-A22B-Instruct-2507 (content={"replies":["我是茂密，你的小助手喵~","随时准备帮忙哦！"],"fav":5,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵... tool_calls=0)
+[2026-09-05 00:45:00.827] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [2d9473762a254d84] LLM原始输出 [轮1]: content={"replies":["我是茂密，你的小助手喵~","随时准备帮忙哦！"],"fav":5,"calls":[],"face":"(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵 | tool_calls=0
+[2026-09-05 00:45:00.829] [WARNING ] (face_lib:_init:29) [2d9473762a254d84] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-09-05 00:45:00.830] [INFO    ] (llm:_parse_reply:1358) [2d9473762a254d84] JSON回复解析: 2句 fav=+5 calls=0 mood=开心
+[2026-09-05 00:45:00.834] [INFO    ] (fav:update_fav:126) [2d9473762a254d84] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:1759953618 +5 → 58
+[2026-09-05 00:45:00.834] [INFO    ] (pipeline:process_message:1563) [2d9473762a254d84] 好感度调整: 若尘 ~喵 +5 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-05 00:45:00.834] [INFO    ] (memory:maybe_save_memory:401) [2d9473762a254d84] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 7 条
+[2026-09-05 00:45:00.835] [INFO    ] (pipeline:process_message:1569) [2d9473762a254d84] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-05 00:45:00.835] [INFO    ] (logger:log_trace_summary:392) [2d9473762a254d84] [TRACE 2d9473762a254d84] total=4916.91ms severity=slow_request | llm_calls=1 total=4756.6ms avg=4756.6ms max=4756.6ms p50=4756.6 p95=4756.6 p99=4756.6 | json_parse=0.78ms(x1), llm=4804.71ms(x1), memory=64.45ms(x2), message_retrieval=8.57ms(x2), process=4916.83ms(x1) (wall4916.83), queue_wait=0.3ms(x1)
+[2026-09-05 00:45:00.835] [WARNING ] (logger:log_trace_summary:415) [2d9473762a254d84] [SLOW 2d9473762a254d84] total=4917.23ms | json_parse=0.78ms(x1), llm=4804.71ms(x1), memory=64.45ms(x2), message_retrieval=8.57ms(x2), process=4916.83ms(x1) (wall4916.83), queue_wait=0.3ms(x1) | llm_calls=1 total=4756.6ms avg=4756.6ms max=4756.6ms p50=4756.6 p95=4756.6 p99=4756.6 | perf: queue=0.3ms llm=4805.49ms search_tool=0.0ms delivery=0.0ms other=4989.85ms wall=4917.21ms dominant=other
+[2026-09-05 00:45:00.836] [DEBUG   ] (response_delivery:send_sentences:283) [2d9473762a254d84] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-05 00:45:00.839] [INFO    ] (llm:call_llm:435) [2d9473762a254d84] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-05 00:45:02.796] [INFO    ] (qq_transport:_send_message:250) [2d9473762a254d84] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=12 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3D-bYWnBPlO0mekDYRNvh29iv27NrHuBFcy8o.AlxQTC4vMEyu3QEM62ScouvloQ6g!!
+[2026-09-05 00:45:02.796] [DEBUG   ] (response_delivery:send_sentences:297) [2d9473762a254d84] 已发送第 1/2 条: 我是茂密，你的小助手喵~...
+[2026-09-05 00:45:02.796] [DEBUG   ] (response_delivery:send_sentences:294) [2d9473762a254d84] 句间等待 0.58s (#2/2)
