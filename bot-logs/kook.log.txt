@@ -1,8 +1,4 @@
-# 更新于 2026-09-04 23:51:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 21:37:12.190] [DEBUG   ] (queues:enqueue_message:75) [8c25f07369584065] [队列] 群9844130976336955 消息已入队 (队长度=1)
-[2026-09-04 21:37:12.191] [INFO    ] (pipeline:process_message:427) [fc77d48081144253] 📎 引用消息已注入上下文 [9844130976336955]: '不过具体操作细节得仔细看才能发现，要我帮你分析下吗？'...
-[2026-09-04 21:37:12.191] [INFO    ] (memory:merge_overflow_memory:419) [fc77d48081144253] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
-[2026-09-04 21:37:12.192] [DEBUG   ] (pipeline:process_message:508) [fc77d48081144253] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  可以'
+# 更新于 2026-09-04 23:51:59 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 21:37:12.192] [INFO    ] (pipeline:process_message:543) [fc77d48081144253] @机器人检测(at_only) → 直接回复
 [2026-09-04 21:37:12.192] [DEBUG   ] (pipeline:process_message:599) [fc77d48081144253] 请求意图: intent=chat fast_search=False msg='@659688244  可以'
 [2026-09-04 21:37:12.192] [WARNING ] (pipeline:process_message:647) [fc77d48081144253] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
@@ -1499,3 +1495,7 @@ HPV是一大类病毒的总称，有200...
 [2026-09-04 23:49:32.320] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
 [2026-09-04 23:49:32.322] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
 [2026-09-04 23:49:32.322] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 11428 秒
+[2026-09-04 23:51:40.068] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-04 23:51:40.068] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-04 23:51:55.281] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-04 23:51:55.282] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
