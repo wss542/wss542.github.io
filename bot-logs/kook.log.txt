@@ -1,5 +1,4 @@
-# 更新于 2026-09-04 21:44:56 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 05:32:16.904] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2796)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-09-04 21:45:35 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 05:32:47.992] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2796)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-04 05:33:19.148] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2796)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-04 05:33:50.177] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 2796)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1498,4 @@
 [2026-09-04 21:44:20.567] [INFO    ] (dispatcher:_do_recognize_video:1053) [be7c958ffb02462e] 🎬 yt-dlp 下载完成: 22.2MB
 [2026-09-04 21:44:27.005] [WARNING ] (dispatcher:_do_recognize_video:1113) [be7c958ffb02462e] 🎬 Qwen3-VL 视频识别失败 code=429: {"error":{"message":"insufficient balance","request_id":"c7507133-9dbd-47c5-9d19-4450bc44362f"}}，降级 Gemini
 [2026-09-04 21:44:27.013] [INFO    ] (dispatcher:_do_recognize_video:1141) [be7c958ffb02462e] 🎬 未配置 GEMINI_KEY，跳过 Gemini，直接用智谱
+[2026-09-04 21:45:33.890] [WARNING ] (dispatcher:_do_recognize_video:1201) [be7c958ffb02462e] 🎬 智谱 glm-4.6v-flash 视频识别失败(HTTP 429)，换下一个模型
