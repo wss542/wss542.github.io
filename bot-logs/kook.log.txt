@@ -1,9 +1,4 @@
-# 更新于 2026-09-04 23:49:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-04 21:37:12.061] [DEBUG   ] (dispatcher:dispatch:47) [422ed87e7cec40cc] dispatch 入口: type=9 content='(met)659688244(met) 可以' is_edit=False
-[2026-09-04 21:37:12.061] [DEBUG   ] (dispatcher:_dispatch_inner:110) [8c25f07369584065] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-[2026-09-04 21:37:12.186] [WARNING ] (dispatcher:_resolve_quoted_media:887) [8c25f07369584065] 📎 反查引用消息 6fce93e6-4f08-4c9e-8730-f288708e7290 失败(兜底用卡片预览): EventDispatcher._extract_image_urls() takes 1 positional argument but 2 were given
-[2026-09-04 21:37:12.187] [INFO    ] (dispatcher:_dispatch_inner:237) [8c25f07369584065] 📎 引用消息原文 (26字)
-[2026-09-04 21:37:12.188] [INFO    ] (dispatcher:_dispatch_inner:308) [8c25f07369584065] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='(met)659688244(met) 可以'
+# 更新于 2026-09-04 23:49:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-04 21:37:12.190] [DEBUG   ] (queues:enqueue_message:75) [8c25f07369584065] [队列] 群9844130976336955 消息已入队 (队长度=1)
 [2026-09-04 21:37:12.191] [INFO    ] (pipeline:process_message:427) [fc77d48081144253] 📎 引用消息已注入上下文 [9844130976336955]: '不过具体操作细节得仔细看才能发现，要我帮你分析下吗？'...
 [2026-09-04 21:37:12.191] [INFO    ] (memory:merge_overflow_memory:419) [fc77d48081144253] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
@@ -1499,3 +1494,8 @@ HPV是一大类病毒的总称，有200...
 [2026-09-04 23:44:35.707] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-04 23:44:35.730] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
 [2026-09-04 23:44:35.908] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-04 23:49:32.010] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-09-04 23:49:32.178] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-09-04 23:49:32.320] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-09-04 23:49:32.322] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-09-04 23:49:32.322] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 11428 秒
