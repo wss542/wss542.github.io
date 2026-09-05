@@ -1,24 +1,4 @@
-# 更新于 2026-09-05 20:42:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 14:18:19.199] [DEBUG   ] (context_manager:_on_task_done:139) [0655d40fa5c644ee] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
-[2026-09-05 14:18:19.667] [INFO    ] (llm:call_llm:497) [0655d40fa5c644ee] LLM [Qwen/Qwen3-235B-A22B] 返回 81字符 耗时2.4s → "[14:18:17] 若尘 ~喵, 茂密: 若尘 ~喵说了你知道吗 喵？, 茂密回复知道什么呀主人？..."
-[2026-09-05 14:18:19.669] [INFO    ] (memory:_compress_with_deepseek:210) [0655d40fa5c644ee] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
-[2026-09-05 14:18:30.612] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:19:00.844] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:19:31.847] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:19:32.833] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=77 cpu=None mem=None
-[2026-09-05 14:19:32.833] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 14:20:01.978] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:20:32.069] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:21:02.094] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:21:32.144] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:21:42.530] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=77 cpu=None mem=None
-[2026-09-05 14:21:42.531] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 14:22:02.188] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:22:25.077] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-05 14:22:32.617] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:23:03.723] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:23:34.812] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
-[2026-09-05 14:24:04.835] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+# 更新于 2026-09-05 20:43:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 14:24:35.806] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 14:25:05.833] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 14:25:36.952] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
@@ -1499,3 +1479,23 @@
 `她已经下定决心`' song=Feint / Veela - Vagrant playing=True channel=None
 [2026-09-05 20:42:52.942] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=877ms]: '**She'll talk about it later on**
 `某日她重新说起`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:56.296] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=605ms]: '**From seeing sights**
+`那些过眼云烟`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:58.538] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=904ms]: '**There's something wonderful and odd about the escape**
+`一路' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:03.063] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=4ms]: '**And while you want them to be gone**
+`当你想要挥散它们之时`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:04.296] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**And while you want them to be gone**
+`当你想要挥散它们之时' keys=17
+[2026-09-05 20:43:07.710] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1079ms]: '**You want them to stay**
+`却又希望它们能够停留`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:12.294] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=358ms]: '**And impress her it's just so damn hard**
+`想走进她的心？——太难了`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:17.962] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=456ms]: '**I want her back, please don't go too far**
+`我呼唤她归来，请不要走远`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:23.691] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=750ms]: '**If I see her again promise I won't**
+`若与她再度相会，我将不再`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:27.053] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=366ms]: '**Cry**
+`泪流满面`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:43:35.041] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Cry**
+`泪流满面`' keys=17
