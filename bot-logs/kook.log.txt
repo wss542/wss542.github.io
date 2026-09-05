@@ -1,40 +1,4 @@
-# 更新于 2026-09-05 22:07:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 20:03:09.859] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f2f4bf1d029f4b66] KMD 调试: is_group=True uid=337936062 channel=3649029148752421
-[2026-09-05 20:03:09.860] [INFO    ] (dispatcher:_dispatch_inner:316) [f2f4bf1d029f4b66] 📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='都玩不了TAT'
-[2026-09-05 20:03:09.863] [DEBUG   ] (queues:enqueue_message:75) [f2f4bf1d029f4b66] [队列] 群3649029148752421 消息已入队 (队长度=1)
-[2026-09-05 20:03:09.865] [INFO    ] (memory:merge_overflow_memory:419) [eb997166d6ac415f] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 5条 (阈值=10)
-[2026-09-05 20:03:09.866] [DEBUG   ] (pipeline:process_message:508) [eb997166d6ac415f] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='都玩不了TAT'
-[2026-09-05 20:03:09.866] [INFO    ] (logger:log_trace_summary:392) [eb997166d6ac415f] [TRACE eb997166d6ac415f] total=2.22ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.04ms(x1) (wall2.04), queue_wait=1.12ms(x1)
-[2026-09-05 20:03:11.050] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
-[2026-09-05 20:03:23.185] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-05 20:03:23.186] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='喵…' is_edit=False
-[2026-09-05 20:03:23.186] [DEBUG   ] (dispatcher:_dispatch_inner:110) [32e35f3c9d784dea] KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-[2026-09-05 20:03:23.186] [INFO    ] (dispatcher:_dispatch_inner:316) [32e35f3c9d784dea] 📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='喵…'
-[2026-09-05 20:03:23.187] [DEBUG   ] (queues:enqueue_message:75) [32e35f3c9d784dea] [队列] 群3649029148752421 消息已入队 (队长度=1)
-[2026-09-05 20:03:23.188] [INFO    ] (memory:merge_overflow_memory:419) [bf3a1507e58947ff] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 6条 (阈值=10)
-[2026-09-05 20:03:23.190] [DEBUG   ] (pipeline:process_message:508) [bf3a1507e58947ff] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵…'
-[2026-09-05 20:03:23.191] [INFO    ] (logger:log_trace_summary:392) [bf3a1507e58947ff] [TRACE bf3a1507e58947ff] total=3.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.19ms(x1) (wall3.19), queue_wait=0.44ms(x1)
-[2026-09-05 20:03:27.348] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-05 20:03:27.349] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='繁也在玩？' is_edit=False
-[2026-09-05 20:03:27.349] [DEBUG   ] (dispatcher:_dispatch_inner:110) [abe41aac13674470] KMD 调试: is_group=True uid=337936062 channel=3649029148752421
-[2026-09-05 20:03:27.349] [INFO    ] (dispatcher:_dispatch_inner:316) [abe41aac13674470] 📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='繁也在玩？'
-[2026-09-05 20:03:27.350] [DEBUG   ] (queues:enqueue_message:75) [abe41aac13674470] [队列] 群3649029148752421 消息已入队 (队长度=1)
-[2026-09-05 20:03:27.351] [INFO    ] (memory:merge_overflow_memory:419) [27a488404c474927] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 7条 (阈值=10)
-[2026-09-05 20:03:27.352] [DEBUG   ] (pipeline:process_message:508) [27a488404c474927] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='繁也在玩？'
-[2026-09-05 20:03:27.352] [INFO    ] (logger:log_trace_summary:392) [27a488404c474927] [TRACE 27a488404c474927] total=1.26ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.21ms(x1) (wall1.21), queue_wait=0.45ms(x1)
-[2026-09-05 20:03:40.304] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-05 20:03:40.305] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='应该是' is_edit=False
-[2026-09-05 20:03:40.305] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a2f90f52d1094140] KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-[2026-09-05 20:03:40.305] [INFO    ] (dispatcher:_dispatch_inner:316) [a2f90f52d1094140] 📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='应该是'
-[2026-09-05 20:03:40.306] [DEBUG   ] (queues:enqueue_message:75) [a2f90f52d1094140] [队列] 群3649029148752421 消息已入队 (队长度=1)
-[2026-09-05 20:03:40.307] [INFO    ] (memory:merge_overflow_memory:419) [1d1d8dd1525a4510] 长时记忆溢出缓冲: chat=3649029148752421 +1 = 8条 (阈值=10)
-[2026-09-05 20:03:40.308] [DEBUG   ] (pipeline:process_message:508) [1d1d8dd1525a4510] 回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='应该是'
-[2026-09-05 20:03:40.308] [INFO    ] (logger:log_trace_summary:392) [1d1d8dd1525a4510] [TRACE 1d1d8dd1525a4510] total=1.48ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.44ms(x1) (wall1.44), queue_wait=0.84ms(x1)
-[2026-09-05 20:03:41.380] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
-[2026-09-05 20:04:12.070] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
-[2026-09-05 20:04:12.792] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
-[2026-09-05 20:04:12.792] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 20:04:42.519] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
+# 更新于 2026-09-05 22:10:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 20:05:13.284] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
 [2026-09-05 20:05:43.589] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
 [2026-09-05 20:06:14.161] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 毛不易**' keys=17
@@ -1499,3 +1463,39 @@
 [2026-09-05 22:06:54.930] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1017ms]: '**作曲 : Mike Klubnika**' song=Mike Klubnika - General Releas playing=True channel=None
 [2026-09-05 22:06:54.933] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=976ms]: '**纯音乐，请欣赏**' song=Mike Klubnika - General Releas playing=True channel=None
 [2026-09-05 22:07:01.952] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=17
+[2026-09-05 22:07:33.052] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=17
+[2026-09-05 22:08:03.138] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=17
+[2026-09-05 22:08:05.469] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=261ms]: '**作曲 : Mike Klubnika**' song=Mike Klubnika - General Releas playing=True channel=None
+[2026-09-05 22:08:06.589] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=618ms]: '**▶ 古巨基 - 必杀技**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:13.070] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=54ms]: '**你近來又 再有空 我在防備 別發功**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:17.854] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=696ms]: '**你近來又 再有空 我在防備 別發功**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:20.123] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=157ms]: '**能勉強戒絕心痛 但喉嚨還在痛**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:27.074] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=219ms]: '**你在懷舊 我也懂 還稱讚我夠上進**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:34.049] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**但可惜那時你都不相信**' keys=17
+[2026-09-05 22:08:34.050] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=596ms]: '**但可惜那時你都不相信**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:41.206] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=555ms]: '**我道行都低估了你 我以為 撐得起**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:48.265] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=829ms]: '**一句為甚麼不找找你**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:51.722] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=796ms]: '**我練到 再倔強 再絕也 也永沒法比**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:08:58.635] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1045ms]: '**求你別要 如從前 純熟地碰我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:02.110] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=643ms]: '**而我問我 為何還 能夠碰傷我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:04.436] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**而我問我 為何還 能夠碰傷我**' keys=17
+[2026-09-05 22:09:05.993] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=784ms]: '**不要讓我 一敗塗地 輸得更多 oh**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:11.687] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=207ms]: '**求你別説 錯過我 其實亦愛我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:15.254] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-144ms]: '**何以技癢 放過我 你已彷彿有神助**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:21.049] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=268ms]: '**一關心我已經 等於 再殺死我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:34.755] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**一關心我已經 等於 再殺死我**' keys=17
+[2026-09-05 22:09:37.092] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-232ms]: '**你未提及 我也知 既是前度 沒法子**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:44.121] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=382ms]: '**如這聖伯納得意 分予你當玩意**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:51.165] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=468ms]: '**數十年後 我也知 如果見你我願意**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:09:58.215] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=502ms]: '**像一關過完 再單打一次**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:05.260] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**我道行都低估了你 我以為 撐得起**' keys=17
+[2026-09-05 22:10:05.268] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=713ms]: '**我道行都低估了你 我以為 撐得起**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:13.609] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=2153ms]: '**一句為甚麼不找找你**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:16.968] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1731ms]: '**我練到 再倔強 再絕也 也永沒法比**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:21.537] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=117ms]: '**求你別要 如從前 純熟地碰我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:26.150] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=385ms]: '**而我問我 為何還 能夠碰傷我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:29.603] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=477ms]: '**不要讓我 一敗塗地 輸得更多 oh**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:35.190] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-290ms]: '**求你別説 錯過我 其實亦愛我**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:36.324] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**求你別説 錯過我 其實亦愛我**' keys=17
+[2026-09-05 22:10:39.684] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=76ms]: '**何以技癢 放過我 你已彷彿有神助**' song=古巨基 - 必杀技 playing=True channel=None
+[2026-09-05 22:10:45.434] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=432ms]: '**一關心我已經 等於 再殺死我**' song=古巨基 - 必杀技 playing=True channel=None
