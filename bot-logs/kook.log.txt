@@ -1,9 +1,4 @@
-# 更新于 2026-09-05 17:13:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 00:38:01.326] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
-[2026-09-05 00:38:01.327] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 00:38:16.584] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
-[2026-09-05 00:38:16.584] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 00:44:55.917] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '你是谁 喵？'
+# 更新于 2026-09-05 17:14:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 00:44:55.918] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY1R7o.k7mwfx-VrKV8RuA7Ucizlh6rBq8HwmNE-pTjiG8Y5vqRf8BoXHZVTB8sUF9wB0icevTCJIXOp7BIHFUj5txQCTepAyDNxCoDSX9nph
 [2026-09-05 00:44:55.918] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
 [2026-09-05 00:44:55.919] [INFO    ] (memory:merge_overflow_memory:419) [2d9473762a254d84] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 5条 (阈值=10)
@@ -1499,3 +1494,8 @@
 [2026-09-05 17:12:23.032] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 17:12:54.207] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 17:13:24.315] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:13:54.367] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:14:05.374] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-05 17:14:05.965] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
+[2026-09-05 17:14:06.646] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-05 17:14:06.803] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
