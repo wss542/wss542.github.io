@@ -1,32 +1,4 @@
-# 更新于 2026-09-05 20:42:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 14:18:12.425] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
-[2026-09-05 14:18:12.425] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-05 14:18:12.429] [INFO    ] (identity:_ensure_loaded:92) [0655d40fa5c644ee] 身份映射已载入 1 条
-[2026-09-05 14:18:12.442] [INFO    ] (memory:merge_overflow_memory:419) [0655d40fa5c644ee] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
-[2026-09-05 14:18:12.471] [DEBUG   ] (pipeline:process_message:508) [0655d40fa5c644ee] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='你知道吗 喵？'
-[2026-09-05 14:18:12.472] [INFO    ] (pipeline:process_message:546) [0655d40fa5c644ee] @机器人检测 → 直接回复
-[2026-09-05 14:18:12.480] [DEBUG   ] (pipeline:process_message:599) [0655d40fa5c644ee] 请求意图: intent=chat fast_search=False msg='你知道吗 喵？'
-[2026-09-05 14:18:12.520] [WARNING ] (pipeline:process_message:647) [0655d40fa5c644ee] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-09-05 14:18:12.574] [DEBUG   ] (memory:_record_memory_trace:318) [0655d40fa5c644ee] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=46.7ms
-[2026-09-05 14:18:12.583] [INFO    ] (pipeline:process_message:807) [0655d40fa5c644ee] 额外信息: 292字 (memory=29 search=0)
-[2026-09-05 14:18:12.589] [INFO    ] (pipeline:process_message:944) [0655d40fa5c644ee] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-[2026-09-05 14:18:12.595] [DEBUG   ] (pipeline:process_message:1073) [0655d40fa5c644ee] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-09-05 14:18:12.596] [INFO    ] (pipeline:process_message:1080) [0655d40fa5c644ee] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-05 14:18:17.250] [INFO    ] (llm:generate_multi_reply_with_tools:996) [0655d40fa5c644ee] LLM 首调用选择模型: Qwen/Qwen3-235B-A22B-Instruct-2507 (content={"replies":["知道什么呀主人？快告诉我喵~"],"fav":3,"calls":[],"face":"(emj)注视2（看）(emj)[3090677846298039/4KoWZFWIgZ0nm0nm]","mood":"好奇","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq"... tool_calls=0)
-[2026-09-05 14:18:17.250] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [0655d40fa5c644ee] LLM原始输出 [轮1]: content={"replies":["知道什么呀主人？快告诉我喵~"],"fav":3,"calls":[],"face":"(emj)注视2（看）(emj)[3090677846298039/4KoWZFWIgZ0nm0nm]","mood":"好奇","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq" | tool_calls=0
-[2026-09-05 14:18:17.253] [WARNING ] (face_lib:_init:29) [0655d40fa5c644ee] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-09-05 14:18:17.254] [INFO    ] (llm:_parse_reply:1358) [0655d40fa5c644ee] JSON回复解析: 1句 fav=+3 calls=0 mood=好奇
-[2026-09-05 14:18:17.258] [INFO    ] (fav:update_fav:126) [0655d40fa5c644ee] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:1759953618 +3 → 61
-[2026-09-05 14:18:17.258] [INFO    ] (pipeline:process_message:1563) [0655d40fa5c644ee] 好感度调整: 若尘 ~喵 +3 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
-[2026-09-05 14:18:17.258] [INFO    ] (memory:maybe_save_memory:401) [0655d40fa5c644ee] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
-[2026-09-05 14:18:17.259] [INFO    ] (pipeline:process_message:1569) [0655d40fa5c644ee] ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-05 14:18:17.259] [INFO    ] (logger:log_trace_summary:392) [0655d40fa5c644ee] [TRACE 0655d40fa5c644ee] total=4833.2ms severity=slow_request | llm_calls=1 total=4608.52ms avg=4608.52ms max=4608.52ms p50=4608.52 p95=4608.52 p99=4608.52 | json_parse=1.22ms(x1), llm=4659.13ms(x1), memory=93.65ms(x2), message_retrieval=10.44ms(x2), process=4833.09ms(x1) (wall4833.09), queue_wait=0.38ms(x1)
-[2026-09-05 14:18:17.259] [WARNING ] (logger:log_trace_summary:415) [0655d40fa5c644ee] [SLOW 0655d40fa5c644ee] total=4833.52ms | json_parse=1.22ms(x1), llm=4659.13ms(x1), memory=93.65ms(x2), message_retrieval=10.44ms(x2), process=4833.09ms(x1) (wall4833.09), queue_wait=0.38ms(x1) | llm_calls=1 total=4608.52ms avg=4608.52ms max=4608.52ms p50=4608.52 p95=4608.52 p99=4608.52 | perf: queue=0.38ms llm=4660.35ms search_tool=0.0ms delivery=0.0ms other=4937.18ms wall=4833.49ms dominant=other
-[2026-09-05 14:18:17.262] [DEBUG   ] (response_delivery:send_sentences:283) [0655d40fa5c644ee] 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-[2026-09-05 14:18:17.263] [INFO    ] (llm:call_llm:435) [0655d40fa5c644ee] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-09-05 14:18:19.198] [INFO    ] (qq_transport:_send_message:250) [0655d40fa5c644ee] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=14 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Dr.3GNJnrgFaQAxvW20LuzYu.GIx0atIG.W8Tk9HYr24-UDMyvkVZI7ho7RxX.yKg!!
-[2026-09-05 14:18:19.199] [DEBUG   ] (response_delivery:send_sentences:297) [0655d40fa5c644ee] 已发送第 1/1 条: 知道什么呀主人？快告诉我喵~...
-[2026-09-05 14:18:19.199] [DEBUG   ] (response_delivery:send_sentences:299) [0655d40fa5c644ee] 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+# 更新于 2026-09-05 20:42:55 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 14:18:19.199] [DEBUG   ] (context_manager:_on_task_done:139) [0655d40fa5c644ee] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
 [2026-09-05 14:18:19.667] [INFO    ] (llm:call_llm:497) [0655d40fa5c644ee] LLM [Qwen/Qwen3-235B-A22B] 返回 81字符 耗时2.4s → "[14:18:17] 若尘 ~喵, 茂密: 若尘 ~喵说了你知道吗 喵？, 茂密回复知道什么呀主人？..."
 [2026-09-05 14:18:19.669] [INFO    ] (memory:_compress_with_deepseek:210) [0655d40fa5c644ee] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
@@ -1499,3 +1471,31 @@
 `泪流满面`' song=Feint / Veela - Vagrant playing=True channel=None
 [2026-09-05 20:42:02.748] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Cry**
 `泪流满面`' keys=17
+[2026-09-05 20:42:06.188] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=229ms]: '**To impress her - it's too damn hard**
+`想走进她的心？——太难了`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:11.928] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=31ms]: '**To stay loyal without going too far**
+`誓忠于她，但请止步于此吧`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:17.563] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=658ms]: '**If I see her again promise I won't**
+`若与她再度相会，我将不再`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:21.049] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=223ms]: '**Cry**
+`泪流满面`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:27.837] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=865ms]: '**She wasn't back tonight**
+`今夜她终是不归`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:30.088] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=494ms]: '**And I don't know about you**
+`我本并不了解你`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:32.307] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=104ms]: '**My money's on the night**
+`今夜漆黑夜幕，笼罩我的财富`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:33.440] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 11851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**My money's on the night**
+`今夜漆黑夜幕，笼罩我的财富`' keys=17
+[2026-09-05 20:42:35.755] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=925ms]: '**It takes her away like I do**
+`她随财富而去，如同曾经的我`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:38.034] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=338ms]: '**My charm is twinkling out of her eyes**
+`我的魅力正消散于她的双眸`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:44.855] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=706ms]: '**Of her eyes**
+`她的双眸`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:48.289] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=975ms]: '**She will never grow old**
+`她将会永葆青春`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:50.588] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=205ms]: '**Or change her mind**
+`她已经下定决心`' song=Feint / Veela - Vagrant playing=True channel=None
+[2026-09-05 20:42:52.942] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=877ms]: '**She'll talk about it later on**
+`某日她重新说起`' song=Feint / Veela - Vagrant playing=True channel=None
