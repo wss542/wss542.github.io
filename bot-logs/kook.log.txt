@@ -1,13 +1,4 @@
-# 更新于 2026-09-05 17:47:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 10:50:59.494] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-05 10:50:59.495] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-05 10:50:59.495] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-05 10:50:59.500] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-05 10:50:59.501] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-05 10:50:59.504] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-05 10:50:59.506] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-05 10:50:59.507] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-05 10:50:59.510] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+# 更新于 2026-09-05 17:48:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 10:50:59.512] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
 [2026-09-05 10:50:59.518] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-09-05 10:50:59.520] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
@@ -1499,3 +1490,12 @@
 [2026-09-05 17:46:02.072] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 17:46:32.176] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 17:47:02.253] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:47:32.271] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:48:02.495] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:48:03.414] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/wdsj me'
+[2026-09-05 17:48:03.415] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY0zkhb5A80Hl6.10ckm.mzMHWUYG.PQ0U30hJbjOplL09rfKU7r0nBdmHfyYQxpPc7Vp37zp9lgGjcc3oyx0L.sNIqrVm3QhC6-bhktADRFg
+[2026-09-05 17:48:03.416] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 17:48:03.423] [INFO    ] (memory:merge_overflow_memory:419) [21761be50a6a49fe] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+[2026-09-05 17:48:03.425] [INFO    ] (pipeline:process_message:478) [21761be50a6a49fe] 指令拦截: '/wdsj me' from=若尘 ~喵
+[2026-09-05 17:48:03.426] [DEBUG   ] (commands:handle_command:4840) [21761be50a6a49fe] 指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 17:48:03.438] [INFO    ] (commands:_wdsj_send_one:2504) [21761be50a6a49fe] wdsj 单模板查询: player=yzandwss template=bw(bedwars-stats) img=True
