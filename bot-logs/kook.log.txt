@@ -1,30 +1,4 @@
-# 更新于 2026-09-05 21:33:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 18:31:11.140] [INFO    ] (memory:merge_overflow_memory:419) [04b03b55fcd945a9] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
-[2026-09-05 18:31:11.141] [INFO    ] (pipeline:process_message:478) [04b03b55fcd945a9] 指令拦截: '/fuck' from=ywandwss
-[2026-09-05 18:31:11.142] [DEBUG   ] (commands:handle_command:4840) [04b03b55fcd945a9] 指令解析: prefix=/ cmd=fuck args=[] user=1759953618
-[2026-09-05 18:31:11.146] [INFO    ] (commands:handle_command:4895) [04b03b55fcd945a9] 指令执行完成 [fuck]: 返回43字符
-[2026-09-05 18:31:11.571] [INFO    ] (logger:log_trace_summary:392) [04b03b55fcd945a9] [TRACE 04b03b55fcd945a9] total=435.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=435.46ms(x1) (wall435.46), queue_wait=0.67ms(x1)
-[2026-09-05 18:31:18.649] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Or am I a fool**
-`或许其实我是个傻瓜`' keys=18
-[2026-09-05 18:31:49.512] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Or am I a fool**
-`或许其实我是个傻瓜`' keys=18
-[2026-09-05 18:32:20.357] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**Or am I a fool**
-`或许其实我是个傻瓜`' keys=18
-[2026-09-05 18:32:28.977] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1063ms]: '**who sits alone**
-`一个独自坐着`' song=Bruno Mars - Talking to the Mo playing=True channel=None
-[2026-09-05 18:32:31.425] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1074ms]: '**Talking to the moon**
-`和月亮说话的傻瓜`' song=Bruno Mars - Talking to the Mo playing=True channel=None
-[2026-09-05 18:32:40.020] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=682ms]: '**I know you're somewhere out there**
-`我知道你就在某处`' song=Bruno Mars - Talking to the Mo playing=True channel=None
-[2026-09-05 18:32:43.785] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1029ms]: '**Somewhere far away**
-`某个远方`' song=Bruno Mars - Talking to the Mo playing=True channel=None
-[2026-09-05 18:32:45.107] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=738ms]: '**▶ 隔壁老樊 - 多想在平庸的生活拥抱你**' song=隔壁老樊 - 多想在平庸的生活拥抱你 playing=True channel=None
-[2026-09-05 18:32:45.108] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=736ms]: '**平平淡淡安安静静的老去**' song=隔壁老樊 - 多想在平庸的生活拥抱你 playing=True channel=None
-[2026-09-05 18:32:51.503] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**平平淡淡安安静静的老去**' keys=18
-[2026-09-05 18:32:55.288] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=737ms]: '**我们拼命的相拥**' song=隔壁老樊 - 多想在平庸的生活拥抱你 playing=True channel=None
-[2026-09-05 18:33:22.346] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=18
-[2026-09-05 18:33:53.187] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=18
-[2026-09-05 18:34:23.605] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=18
+# 更新于 2026-09-05 21:35:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 18:34:54.170] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=18
 [2026-09-05 18:35:24.734] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=18
 [2026-09-05 18:35:55.681] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**我们拼命的相拥**' keys=17
@@ -1499,3 +1473,29 @@
 [2026-09-05 21:33:36.093] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=319ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
 [2026-09-05 21:33:43.000] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='*(Take a walk, take a walk, take a walk, take a wa' keys=17
 [2026-09-05 21:33:45.109] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=481ms]: '**Practice isn't perfect but the market cuts the loss**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:49.610] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=519ms]: '**I remind myself that times could be much worse**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:54.348] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=463ms]: '**My wife won't ask me questions**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:56.685] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=753ms]: '**There's not so much to ask**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:58.996] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=704ms]: '**And she'll never flaunt around an empty purse**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:03.480] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=290ms]: '**Once my mother-in-law came just to stay a couple nights**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:08.106] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=461ms]: '**Then decided she would stay the rest of her life**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:12.607] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=347ms]: '**I watch my little children play some board game in the kit' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:14.888] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**I watch my little children play some board game ' keys=17
+[2026-09-05 21:34:18.354] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1028ms]: '**And I sit and pray they never feel my strife**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:22.888] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=409ms]: '**But then my partner called to say the pension funds were g' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:27.367] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=152ms]: '**He made some bad investments now the accounts are overdraw' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:31.885] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=475ms]: '**I take a walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:33.000] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=188ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:40.969] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=39ms]: '**I take a walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:43.234] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=769ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:45.508] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='*(Take a walk, take a walk, take a walk, take a wa' keys=17
+[2026-09-05 21:34:51.152] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=45ms]: '**Honey, it's your son I think I borrowed just too much**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:34:55.786] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=122ms]: '**We had taxes, we had bills, we had a lifestyle to front**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:00.308] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=35ms]: '**And tonight I swear I'll come home and we'll make love lik' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:04.795] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-25ms]: '**And tomorrow you'll cook dinner for the neighbors and thei' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:10.506] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=792ms]: '**We can rip apart those socialists and all their damn taxes' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:15.102] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=474ms]: '**But see I am no criminal, I'm down on both bad knees**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:16.214] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**But see I am no criminal, I'm down on both bad k' keys=17
+[2026-09-05 21:35:19.571] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=282ms]: '**I'm just too much a coward, to admit when I'm in need**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:24.058] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=486ms]: '**I take a walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:35:25.250] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=103ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
