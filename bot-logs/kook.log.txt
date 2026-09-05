@@ -1,4 +1,4 @@
-# 更新于 2026-09-06 04:00:32 · 共 641 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-06 04:01:12 · 共 651 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:00:06.055] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
 [2026-09-06 00:00:06.061] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-09-06 00:00:13.624] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260906 — 发送昨日群聊日报
@@ -640,3 +640,13 @@
 [2026-09-06 03:59:19.564] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-09-06 03:59:49.983] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-09-06 04:00:13.147] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
+[2026-09-06 04:00:34.199] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>
+[2026-09-06 04:00:34.206] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-09-06 04:00:34.212] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: sent 1011 (internal error) keepalive ping timeout; no close frame received，5s 后重连
+[2026-09-06 04:00:54.249] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error timed out>，5s 后重连
+[2026-09-06 04:01:10.184] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-09-06 04:01:10.655] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-06 04:01:10.673] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
+[2026-09-06 04:01:10.703] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1
+[2026-09-06 04:01:10.723] [INFO    ] (logger:info:335) [-] 5 秒后重试...
+[2026-09-06 04:01:10.889] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
