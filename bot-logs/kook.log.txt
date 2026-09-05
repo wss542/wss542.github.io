@@ -1,4 +1,4 @@
-# 更新于 2026-09-06 00:07:11 · 共 29 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-06 00:07:42 · 共 45 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:00:06.055] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
 [2026-09-06 00:00:06.061] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-09-06 00:00:13.624] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260906 — 发送昨日群聊日报
@@ -28,3 +28,19 @@
 [2026-09-06 00:06:32.341] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
 [2026-09-06 00:06:32.342] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-06 00:06:54.213] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
+[2026-09-06 00:07:14.697] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " /签到", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_ewMwg-PzBMtkBayQTstAY72C.W99ZUdFIQIN.s6eLYInfptDJ3LDwiLAjDp5UiOzxBkIDtG653zgB9Ato1aukRJxMtxXzfp0t5lBXGZJS7sNIqrVm3QhC6-bhktADRFg", "message_scene": {"ext": ["msg_idx=REFIDX_jpW0DC80YIDj2kfWola0zbt+x66b+73BB9wGdLxr3NM5XeoW9s2+Zz2Cl1BW1wp6NYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=FyrVOgfE7W0J1DkcaTPf-iiAOnXg_2nMHAOMYiU4UpgrAB1_NIOBXlldZ4i9foTzkYiF2Do08JznAkFixaTmMqL3hCsJpD5sDBzLZLD4xuDPlct-9ycvzpJl7NHV"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-06T00:07:13+08:00"}
+[2026-09-06 00:07:14.707] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/签到'
+[2026-09-06 00:07:14.710] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY72C.W99ZUdFIQIN.s6eLYInfptDJ3LDwiLAjDp5UiOzxBkIDtG653zgB9Ato1aukRJxMtxXzfp0t5lBXGZJS7sNIqrVm3QhC6-bhktADRFg
+[2026-09-06 00:07:14.723] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-06 00:07:14.784] [INFO    ] (memory:merge_overflow_memory:419) [f8434fb3b0854f06] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 10条 (阈值=10)
+[2026-09-06 00:07:14.815] [INFO    ] (pipeline:process_message:478) [f8434fb3b0854f06] 指令拦截: '/签到' from=若尘 ~喵
+[2026-09-06 00:07:14.818] [DEBUG   ] (commands:handle_command:4840) [f8434fb3b0854f06] 指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-06 00:07:14.845] [INFO    ] (checkin:do_checkin:117) [f8434fb3b0854f06] 签到: u:1759953618 streak=2 +6分
+[2026-09-06 00:07:14.846] [INFO    ] (commands:handle_command:4895) [f8434fb3b0854f06] 指令执行完成 [签到]: 返回40字符
+[2026-09-06 00:07:14.980] [INFO    ] (llm:call_llm:435) [f8434fb3b0854f06] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-06 00:07:16.801] [INFO    ] (engine:_ingest:92) [f8434fb3b0854f06] 异步记忆提炼完成 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F: 候选2 新增2
+[2026-09-06 00:07:16.806] [INFO    ] (qq_transport:_send_message:250) [f8434fb3b0854f06] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=40 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3PqG--5gLH..LjQlXAeUYxTUQ1Nan8-BsTgsO2.ZAYCBBKq8XC928jVdrUcCf8SH5Q!!
+[2026-09-06 00:07:16.811] [INFO    ] (logger:log_trace_summary:392) [f8434fb3b0854f06] [TRACE f8434fb3b0854f06] total=2065.99ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2053.91ms(x1) (wall2053.91), queue_wait=32.03ms(x1)
+[2026-09-06 00:07:17.181] [INFO    ] (llm:call_llm:497) [f8434fb3b0854f06] LLM [deepseek-v4-flash] 返回 241字符 耗时2.2s → "[00:16:30-00:17:45] ᗜ𖥦ᗜ: 发送"/"、"/help"、"你好" (指令)\n[..."
+[2026-09-06 00:07:17.192] [INFO    ] (memory:_compress_with_deepseek:210) [f8434fb3b0854f06] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 10条消息 → 保存
+[2026-09-06 00:07:25.226] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
