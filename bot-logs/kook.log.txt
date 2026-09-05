@@ -1,24 +1,4 @@
-# 更新于 2026-09-05 21:32:20 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 18:31:09.834] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/luck' is_edit=False
-[2026-09-05 18:31:09.834] [DEBUG   ] (dispatcher:_dispatch_inner:110) [93103f47a80845d1] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-[2026-09-05 18:31:09.834] [INFO    ] (dispatcher:_dispatch_inner:316) [93103f47a80845d1] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/luck'
-[2026-09-05 18:31:09.835] [DEBUG   ] (queues:enqueue_message:75) [93103f47a80845d1] [队列] 群9844130976336955 消息已入队 (队长度=2)
-[2026-09-05 18:31:09.841] [INFO    ] (memory:merge_overflow_memory:419) [aade5c26a0c04dc7] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
-[2026-09-05 18:31:09.843] [INFO    ] (pipeline:process_message:478) [aade5c26a0c04dc7] 指令拦截: '/签到' from=ywandwss
-[2026-09-05 18:31:09.843] [DEBUG   ] (commands:handle_command:4840) [aade5c26a0c04dc7] 指令解析: prefix=/ cmd=签到 args=[] user=1759953618
-[2026-09-05 18:31:09.848] [INFO    ] (commands:handle_command:4895) [aade5c26a0c04dc7] 指令执行完成 [签到]: 返回41字符
-[2026-09-05 18:31:10.527] [INFO    ] (logger:log_trace_summary:392) [aade5c26a0c04dc7] [TRACE aade5c26a0c04dc7] total=689.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=689.28ms(x1) (wall689.28), queue_wait=3.92ms(x1)
-[2026-09-05 18:31:10.529] [INFO    ] (memory:merge_overflow_memory:419) [a39930dfe11d497d] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
-[2026-09-05 18:31:10.532] [INFO    ] (pipeline:process_message:478) [a39930dfe11d497d] 指令拦截: '/luck' from=ywandwss
-[2026-09-05 18:31:10.532] [DEBUG   ] (commands:handle_command:4840) [a39930dfe11d497d] 指令解析: prefix=/ cmd=luck args=[] user=1759953618
-[2026-09-05 18:31:10.533] [INFO    ] (commands:cmd_luck:716) [a39930dfe11d497d] 指令 /luck 触发 user=1759953618
-[2026-09-05 18:31:10.535] [INFO    ] (commands:handle_command:4895) [a39930dfe11d497d] 指令执行完成 [luck]: 返回33字符
-[2026-09-05 18:31:11.006] [INFO    ] (logger:log_trace_summary:392) [a39930dfe11d497d] [TRACE a39930dfe11d497d] total=477.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=477.62ms(x1) (wall477.62), queue_wait=693.32ms(x1)
-[2026-09-05 18:31:11.133] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-05 18:31:11.134] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/fuck' is_edit=False
-[2026-09-05 18:31:11.134] [DEBUG   ] (dispatcher:_dispatch_inner:110) [83d323b821354d63] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-[2026-09-05 18:31:11.135] [INFO    ] (dispatcher:_dispatch_inner:316) [83d323b821354d63] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/fuck'
-[2026-09-05 18:31:11.135] [DEBUG   ] (queues:enqueue_message:75) [83d323b821354d63] [队列] 群9844130976336955 消息已入队 (队长度=1)
+# 更新于 2026-09-05 21:33:47 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 18:31:11.140] [INFO    ] (memory:merge_overflow_memory:419) [04b03b55fcd945a9] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
 [2026-09-05 18:31:11.141] [INFO    ] (pipeline:process_message:478) [04b03b55fcd945a9] 指令拦截: '/fuck' from=ywandwss
 [2026-09-05 18:31:11.142] [DEBUG   ] (commands:handle_command:4840) [04b03b55fcd945a9] 指令解析: prefix=/ cmd=fuck args=[] user=1759953618
@@ -1499,3 +1479,23 @@
 [2026-09-05 21:31:40.680] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**至你與我此生永不闊別時**' keys=17
 [2026-09-05 21:31:54.674] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1052ms]: '**▶ Passion Pit - Take a Walk**' song=Passion Pit - Take a Walk playing=True channel=None
 [2026-09-05 21:32:11.156] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Passion Pit - Take a Walk**' keys=17
+[2026-09-05 21:32:38.677] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=282ms]: '**All these kinds of places make it seem like it's been ages' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:32:42.044] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**All these kinds of places make it seem like it's' keys=17
+[2026-09-05 21:32:43.192] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=738ms]: '**Tomorrow some new building will scrape the sky**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:32:47.772] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=764ms]: '**I love this country dearly**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:32:50.051] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=498ms]: '**I can feel the ladder clearly**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:32:52.471] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=606ms]: '**But I never thought I'd be alone to try**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:32:57.059] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=356ms]: '**Once I was outside Penn Station selling red and white carn' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:02.794] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1089ms]: '**We were still alone my wife and I**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:07.284] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1012ms]: '**Before we married saved my money**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:09.524] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=519ms]: '**Brought my dear wife over**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:11.806] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=639ms]: '**Now I work to bring my family stateside**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:12.925] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Now I work to bring my family stateside**' keys=17
+[2026-09-05 21:33:16.269] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=566ms]: '**But off the boat they stayed awhile then scattered across ' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:20.798] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=107ms]: '**Once a year I'll see them for a week or so at most**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:25.386] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=420ms]: '**I take a walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:26.920] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=659ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:34.982] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=599ms]: '**I take a walk**' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:36.093] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=319ms]: '*(Take a walk, take a walk, take a walk, take a walk...)*' song=Passion Pit - Take a Walk playing=True channel=None
+[2026-09-05 21:33:43.000] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='*(Take a walk, take a walk, take a walk, take a wa' keys=17
+[2026-09-05 21:33:45.109] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=481ms]: '**Practice isn't perfect but the market cuts the loss**' song=Passion Pit - Take a Walk playing=True channel=None
