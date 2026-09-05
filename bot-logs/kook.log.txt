@@ -1,13 +1,4 @@
-# 更新于 2026-09-05 17:58:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 10:51:01.894] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-05 10:51:01.895] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-05 10:51:01.895] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-05 10:51:09.911] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-05 10:51:09.911] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-05 10:51:10.165] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-09-05 10:51:10.165] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-05 10:51:10.176] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-05 10:51:10.183] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
+# 更新于 2026-09-05 17:58:36 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 10:51:10.185] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
 [2026-09-05 10:51:10.188] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
 [2026-09-05 10:51:11.282] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-05 → 周六
@@ -1499,3 +1490,12 @@
 [2026-09-05 17:57:01.526] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-05 17:57:17.552] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
 [2026-09-05 17:57:48.734] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:58:18.838] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**⏸ 已暂停**' keys=18
+[2026-09-05 17:58:31.834] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/sys'
+[2026-09-05 17:58:31.834] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYwZIubD9Ayrn1InKgcONr4xjQtobUvSoEXbUV-0mAA0pDdbR-IgxFmriLjp36nb5BPe1g-kPflshYaX3QyfDsxJtxQCTepAyDNxCoDSX9nph
+[2026-09-05 17:58:31.835] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-05 17:58:31.836] [INFO    ] (memory:merge_overflow_memory:419) [53ed9285fdb04c59] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+[2026-09-05 17:58:31.837] [INFO    ] (pipeline:process_message:478) [53ed9285fdb04c59] 指令拦截: '/sys' from=若尘 ~喵
+[2026-09-05 17:58:31.837] [DEBUG   ] (commands:handle_command:4840) [53ed9285fdb04c59] 指令解析: prefix=/ cmd=sys args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+[2026-09-05 17:58:31.842] [INFO    ] (changelog:render_card_to_image:801) [53ed9285fdb04c59] [Card] 正在截图 → sysiph_96ec647a.jpg (15293 bytes HTML)
+[2026-09-05 17:58:36.105] [INFO    ] (changelog:render_card_to_image:809) [53ed9285fdb04c59] [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_96ec647a.jpg size=132.9KB
