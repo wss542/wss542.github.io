@@ -1,35 +1,4 @@
-# 更新于 2026-09-05 21:44:27 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 19:05:50.661] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/pc jp'
-[2026-09-05 19:05:50.663] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY2wtVyC5FJ7AQQ-ypXphqKkZMxva06vJyQBrB7AMYZI9zpjjdT1lce6JmhGVGa209L.rVH-Zf2tstyBi-h1MJChtxQCTepAyDNxCoDSX9nph
-[2026-09-05 19:05:50.664] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-05 19:05:50.671] [INFO    ] (memory:merge_overflow_memory:419) [adf0bebe5b4a4d22] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 7条 (阈值=10)
-[2026-09-05 19:05:50.673] [INFO    ] (pipeline:process_message:478) [adf0bebe5b4a4d22] 指令拦截: '/pc jp' from=若尘 ~喵
-[2026-09-05 19:05:50.674] [DEBUG   ] (commands:handle_command:4840) [adf0bebe5b4a4d22] 指令解析: prefix=/ cmd=pc args=['jp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-09-05 19:05:54.687] [INFO    ] (qq_transport:upload_media_file:542) [adf0bebe5b4a4d22] QQ 分片上传成功 file=shot_6869780d.jpg size=307893 ttl=86400
-[2026-09-05 19:05:57.056] [INFO    ] (qq_transport:_send_message:250) [adf0bebe5b4a4d22] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3DwDXaX-rtaC1RXS1TprSGsPtEJEda9xV9jReuxnHeaB6CARTgE-.A1I-x.Py-4qSg!!
-[2026-09-05 19:05:57.057] [INFO    ] (commands:handle_command:4897) [adf0bebe5b4a4d22] 指令执行完成 [pc]: 无返回值（已自行发送）
-[2026-09-05 19:05:57.058] [INFO    ] (logger:log_trace_summary:392) [adf0bebe5b4a4d22] [TRACE adf0bebe5b4a4d22] total=6390.01ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6389.67ms(x1) (wall6389.67), queue_wait=3.95ms(x1)
-[2026-09-05 19:05:57.058] [WARNING ] (logger:log_trace_summary:415) [adf0bebe5b4a4d22] [SLOW adf0bebe5b4a4d22] total=6390.69ms | process=6389.67ms(x1) (wall6389.67), queue_wait=3.95ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.95ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6389.67ms wall=6390.49ms dominant=other
-[2026-09-05 19:06:17.675] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 西郷憲一郎 - おとぼけなヤツら**' keys=18
-[2026-09-05 19:06:47.958] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 西郷憲一郎 - おとぼけなヤツら**' keys=18
-[2026-09-05 19:06:59.338] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=321ms]: '**▶ 広橋真紀子 - いのちの名前**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:07:18.813] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 広橋真紀子 - いのちの名前**' keys=18
-[2026-09-05 19:07:37.825] [WARNING ] (pc_status:_handle_client:167) [-] PC 客户端连接重置: [Errno 104] Connection reset by peer
-[2026-09-05 19:07:37.830] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-09-05 19:12:37.092] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-05 19:12:37.098] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12190)]: music=[] lyric_event=False lyric='-' keys=16
-[2026-09-05 19:12:38.215] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=561ms]: '**▶ 広橋真紀子 - いのちの名前**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:40.512] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=723ms]: '**作词 : 覚和歌子**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:40.516] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=461ms]: '**编曲 : 久石譲**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:40.516] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=197ms]: '**作曲 : 広桥真纪子**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:40.516] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-68ms]: '**纯音乐，请欣赏**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:48.436] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=134ms]: '**作词 : 覚和歌子**' song=広橋真紀子 - いのちの名前 playing=True channel=None
-[2026-09-05 19:12:49.552] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=747ms]: '**▶ 毛不易 - 一程山路**' song=毛不易 - 一程山路 playing=True channel=None
-[2026-09-05 19:12:52.942] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=296ms]: '**一程山路 - 毛不易**' song=毛不易 - 一程山路 playing=True channel=None
-[2026-09-05 19:12:52.943] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=297ms]: '**词Lyricist：毛不易 Mao Buyi**' song=毛不易 - 一程山路 playing=True channel=None
-[2026-09-05 19:12:52.946] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=299ms]: '**一程山路 - 毛不易**' song=毛不易 - 一程山路 playing=True channel=None
-[2026-09-05 19:12:52.946] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=36ms]: '**词Lyricist：毛不易 Mao Buyi**' song=毛不易 - 一程山路 playing=True channel=None
-[2026-09-05 19:12:55.189] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=527ms]: '**曲Composer：毛不易 Mao Buyi**' song=毛不易 - 一程山路 playing=True channel=None
+# 更新于 2026-09-05 21:45:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 19:12:56.591] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=120ms]: '**曲Composer：毛不易 Mao Buyi**' song=毛不易 - 一程山路 playing=True channel=None
 [2026-09-05 19:12:57.529] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=113ms]: '**编曲Arrangement：韦伟 Oldbanana**' song=毛不易 - 一程山路 playing=True channel=None
 [2026-09-05 19:12:59.790] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-117ms]: '**制作人 Producer：韦伟 Oldbanana**' song=毛不易 - 一程山路 playing=True channel=None
@@ -1499,3 +1468,34 @@
 `向我们世界上最最强大的苏维埃`' song=James Hannigan / The Skywalker playing=True channel=None
 [2026-09-05 21:44:04.623] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=414ms]: '**Ура ！！ ура！！**
 `万岁！！万岁！！`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:28.613] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Ура ！！ ура！！**
+`万岁！！万岁！！`' keys=17
+[2026-09-05 21:44:31.983] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=370ms]: '**Наш Советский Союз покарает**
+`我们的苏维埃将惩戒全世界`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:35.384] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-29ms]: '**Весь мир от Европы к Неве на восто-ок**
+`从欧洲穿过涅瓦河直到远东`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:39.890] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=351ms]: '**Над землёой везде будут петь:**
+`大地上随处都将唱响：`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:44.405] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1015ms]: '**Столица, водка, Советский медведь наш!**
+`首都，伏特加，我们的苏维埃巨熊！' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:47.857] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=447ms]: '**Наш Советский Союз покарает**
+`我们的苏维埃将惩戒全世界`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:51.273] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-20ms]: '**Весь мир от Европы к Неве на восто-ок**
+`从欧洲穿过涅瓦河直到远东`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:55.830] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=532ms]: '**Над землёой везде будут петь:**
+`大地上随处都将唱响：`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:59.242] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Столица, водка, Советский медведь наш!**
+`首都，伏特加' keys=17
+[2026-09-05 21:44:59.245] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=277ms]: '**Столица, водка, Советский медведь наш!**
+`首都，伏特加，我们的苏维埃巨熊！' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:45:03.725] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=614ms]: '**Ура！！ ура а а а ......**
+`万岁！！万岁 啊啊啊……`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:45:12.790] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=76ms]: '**- END -**' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:45:18.447] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=924ms]: '**▶ Double X - Улеталиптицамигордыми**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:28.841] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=179ms]: '**作曲 : Double X**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:28.843] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=180ms]: '**编曲 : Double X**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:28.844] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=180ms]: '**纯音乐，请欣赏**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:28.844] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=180ms]: '**作曲 : Double X**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:28.844] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-83ms]: '**编曲 : Double X**' song=Double X - Улеталиптицамигорды playing=True channel=None
+[2026-09-05 21:45:30.198] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**纯音乐，请欣赏**' keys=17
+[2026-09-05 21:45:30.200] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=647ms]: '**纯音乐，请欣赏**' song=Double X - Улеталиптицамигорды playing=True channel=None
