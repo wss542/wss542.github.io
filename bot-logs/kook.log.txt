@@ -1,30 +1,4 @@
-# 更新于 2026-09-05 21:43:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-05 18:58:15.790] [INFO    ] (memory:merge_overflow_memory:419) [2a35911ff6d74a29] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 6条 (阈值=10)
-[2026-09-05 18:58:15.806] [INFO    ] (pipeline:process_message:478) [2a35911ff6d74a29] 指令拦截: '/pc jp' from=若尘 ~喵
-[2026-09-05 18:58:15.813] [DEBUG   ] (commands:handle_command:4840) [2a35911ff6d74a29] 指令解析: prefix=/ cmd=pc args=['jp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-[2026-09-05 18:58:20.545] [INFO    ] (qq_transport:upload_media_file:542) [2a35911ff6d74a29] QQ 分片上传成功 file=shot_d09af0da.jpg size=527549 ttl=86400
-[2026-09-05 18:58:23.170] [INFO    ] (qq_transport:_send_message:250) [2a35911ff6d74a29] QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3M.WJzWq2v4vkUgAybaG1TBoxJr96J3c6rCNd-oFXBTHdQY8oomujQH5V8tPkj5lGw!!
-[2026-09-05 18:58:23.178] [INFO    ] (commands:handle_command:4897) [2a35911ff6d74a29] 指令执行完成 [pc]: 无返回值（已自行发送）
-[2026-09-05 18:58:23.181] [INFO    ] (logger:log_trace_summary:392) [2a35911ff6d74a29] [TRACE 2a35911ff6d74a29] total=7439.19ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7430.48ms(x1) (wall7430.48), queue_wait=31.54ms(x1)
-[2026-09-05 18:58:23.185] [WARNING ] (logger:log_trace_summary:415) [2a35911ff6d74a29] [SLOW 2a35911ff6d74a29] total=7443.28ms | process=7430.48ms(x1) (wall7430.48), queue_wait=31.54ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=31.54ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=7430.48ms wall=7440.11ms dominant=other
-[2026-09-05 18:58:28.782] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 18:58:59.263] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 18:59:30.024] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 19:00:01.083] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 19:00:31.671] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 19:01:09.804] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ October - Time To Love**' keys=18
-[2026-09-05 19:01:09.807] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=2502ms]: '**▶ 宝石Gem - 野狼disco**' song=宝石Gem - 野狼disco playing=True channel=None
-[2026-09-05 19:01:09.808] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=2501ms]: '**给你大姨夫打电话吧 拜拜**' song=宝石Gem - 野狼disco playing=True channel=None
-[2026-09-05 19:01:40.585] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:02:11.224] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:02:41.748] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:03:12.966] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:03:44.290] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:04:15.512] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:04:46.668] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**给你大姨夫打电话吧 拜拜**' keys=18
-[2026-09-05 19:05:06.993] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=69ms]: '**▶ 西郷憲一郎 - おとぼけなヤツら**' song=西郷憲一郎 - おとぼけなヤツら playing=True channel=None
-[2026-09-05 19:05:16.708] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 西郷憲一郎 - おとぼけなヤツら**' keys=18
-[2026-09-05 19:05:47.393] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 14142)]: music=['song', 'cover', 'duration', 'duration_sec', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong'] lyric_event=False lyric='**▶ 西郷憲一郎 - おとぼけなヤツら**' keys=18
+# 更新于 2026-09-05 21:44:27 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-05 19:05:50.661] [INFO    ] (qq_bot:_handle:225) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/pc jp'
 [2026-09-05 19:05:50.663] [INFO    ] (qq_bot:_handle:236) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY2wtVyC5FJ7AQQ-ypXphqKkZMxva06vJyQBrB7AMYZI9zpjjdT1lce6JmhGVGa209L.rVH-Zf2tstyBi-h1MJChtxQCTepAyDNxCoDSX9nph
 [2026-09-05 19:05:50.664] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
@@ -1499,3 +1473,29 @@
 `我们的苏维埃将惩戒全世界`' song=James Hannigan / The Skywalker playing=True channel=None
 [2026-09-05 21:43:13.532] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=665ms]: '**Весь мир от Европы к Неве на восто-ок**
 `从欧洲穿过涅瓦河直到远东`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:16.960] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=206ms]: '**Над землёой везде будут петь:**
+`大地上随处都将唱响：`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:21.476] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=975ms]: '**Столица, водка, Советский медведь наш!**
+`首都，伏特加，我们的苏维埃巨熊！' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:27.234] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Столица, водка, Советский медведь наш!**
+`首都，伏特加' keys=17
+[2026-09-05 21:43:32.963] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=361ms]: '**Все народы здесь стоят того,**
+`所有民族在此都将面临这个事实`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:36.445] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-28ms]: '**Что мы все воплотили на свет,**
+`苏维埃已经成为现实`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:40.971] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=447ms]: '**Благодарный низкий поклон**
+`充满敬意与感谢地深深鞠躬吧！`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:44.333] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=97ms]: '**От са-мой мо-гу-щес-твенной в мире!**
+`向我们世界上最最强大的苏维埃`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:48.837] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=459ms]: '**Все народы здесь стоят того,**
+`所有民族在此都将面临这个事实`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:52.214] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=11ms]: '**Что мы все воплотили на свет,**
+`苏维埃已经成为现实`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:56.713] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=486ms]: '**Благодарный низкий поклон**
+`充满敬意与感谢地深深鞠躬吧！`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:43:57.829] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Благодарный низкий поклон**
+`充满敬意与感谢地深深鞠躬吧！`' keys=17
+[2026-09-05 21:44:00.102] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=177ms]: '**От са-мой мо-гу-щес-твенной в мире!**
+`向我们世界上最最强大的苏维埃`' song=James Hannigan / The Skywalker playing=True channel=None
+[2026-09-05 21:44:04.623] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=414ms]: '**Ура ！！ ура！！**
+`万岁！！万岁！！`' song=James Hannigan / The Skywalker playing=True channel=None
