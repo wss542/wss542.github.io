@@ -1,13 +1,4 @@
-# 更新于 2026-09-06 15:09:34 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:30:58.692] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-06 13:30:58.692] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-06 13:30:58.692] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 13:30:58.692] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-06 13:30:58.692] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 13:30:58.692] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-06 13:30:58.697] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-06 13:30:58.878] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-06 13:30:58.882] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+# 更新于 2026-09-06 15:10:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:30:58.885] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 2h30m 后执行 (16:01)
 [2026-09-06 13:30:58.934] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
 [2026-09-06 13:31:13.970] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
@@ -1499,3 +1490,12 @@
 [2026-09-06 15:09:23.665] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=22ms]: '**Now please don't go**' song=Joel Adams - Please Don't Go playing=True channel=None
 [2026-09-06 15:09:30.413] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=9ms]: '**Most nights I hardly sleep**' song=Joel Adams - Please Don't Go playing=True channel=None
 [2026-09-06 15:09:32.687] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=47ms]: '**When I'm alone**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:36.055] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=802ms]: '**Now please don't go, oh no**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:41.661] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=376ms]: '**I think of you whenever I'm alone**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:46.181] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1001ms]: '**So please don't go**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:49.280] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**So please don't go**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:09:49.608] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=254ms]: '**I sent so many messages**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:51.941] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=499ms]: '**You don't reply**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:56.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=793ms]: '**Gotta figure out, what am I missing babe?**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:09:58.904] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=983ms]: '**Singing now, oh oh oh**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:01.138] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=304ms]: '**And I need you now, I need your love, oh**' song=Joel Adams - Please Don't Go playing=True channel=None
