@@ -1,13 +1,4 @@
-# 更新于 2026-09-06 15:24:26 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:36:36.181] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-06 13:36:36.181] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-06 13:36:36.184] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-06 13:36:36.195] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-06 13:36:36.342] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 13:36:36.343] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-09-06 15:25:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:36:36.346] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
 [2026-09-06 13:36:36.482] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 [2026-09-06 13:36:36.488] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
@@ -1499,3 +1490,12 @@
 [2026-09-06 15:24:14.555] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 张紫豪 - 可不可以**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 15:24:19.093] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=798ms]: '**说好带你流浪 而我却半路返航**' song=张紫豪 - 可不可以 playing=True channel=None
 [2026-09-06 15:24:26.346] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=827ms]: '**坠落自责的海洋**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:33.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=474ms]: '**发现离不开你 我开始决定回去**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:39.917] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=197ms]: '**你已不在原地**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:45.615] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**你已不在原地**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:24:46.728] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1034ms]: '**我可以接受你的所有 所有小脾气**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:50.071] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=741ms]: '**我可以带你去吃很多 很多好东西**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:53.556] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=770ms]: '**我可以偶尔给你带来 带来小甜蜜**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:57.062] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=828ms]: '**就像前几年那样 每天都会**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:24:59.356] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=682ms]: '**给你制造很多惊喜**' song=张紫豪 - 可不可以 playing=True channel=None
+[2026-09-06 15:25:01.640] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=885ms]: '**你的心伤 我能治愈**' song=张紫豪 - 可不可以 playing=True channel=None
