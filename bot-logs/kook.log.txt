@@ -1,29 +1,4 @@
-# 更新于 2026-09-06 15:35:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:39:42.689] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-06 13:39:43.070] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-06 13:39:43.092] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-06 13:39:43.093] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-06 13:39:43.094] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-06 13:39:43.095] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-06 13:39:43.095] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-06 13:39:43.096] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-06 13:39:43.096] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-06 13:39:43.096] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-06 13:39:43.099] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-06 13:39:43.099] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-06 13:39:43.100] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-06 13:39:43.100] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-06 13:39:43.118] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 13:39:43.118] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 13:39:43.119] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-06 13:39:43.128] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-06 13:39:43.129] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+# 更新于 2026-09-06 15:36:34 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:39:43.129] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 [2026-09-06 13:39:43.129] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
 [2026-09-06 13:39:43.129] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
@@ -1499,3 +1474,28 @@
 [2026-09-06 15:34:34.024] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=474ms]: '**酒香穿过这小巷**' song=徐梦圆 - color-X playing=True channel=None
 [2026-09-06 15:34:36.258] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=498ms]: '**愿听君来详**' song=徐梦圆 - color-X playing=True channel=None
 [2026-09-06 15:34:56.587] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**愿听君来详**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:35:26.846] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**愿听君来详**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-06 15:35:49.161] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=832ms]: '**谁在梳妆**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:35:50.346] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=426ms]: '**惹来邻家少年郎**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:35:52.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=417ms]: '**哦心在荡漾**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:35:54.867] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=627ms]: '**春风微扬**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:35:57.090] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**春风微扬**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:35:58.245] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1147ms]: '**花在开放**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:35:59.352] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=723ms]: '**迸发一院子芬芳**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:01.584] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=787ms]: '**心头小鹿撞**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:03.862] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=863ms]: '**碧波轻荡**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:06.078] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=226ms]: '**是谁在歌唱**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:08.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1005ms]: '**吵醒谁家的姑娘**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:10.754] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1155ms]: '**下床披起了衣裳**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:11.866] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=94ms]: '**月光格外亮**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:14.624] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=238ms]: '**小院外门廊**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:25.144] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=331ms]: '**少年独自倚着墙**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:25.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=328ms]: '**看往这里的目光**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:25.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=328ms]: '**羞涩又明朗**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:25.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=226ms]: '**雨在落下**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:25.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=211ms]: '**屋檐上溅起水花**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:27.516] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**哦心在荡漾**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:36:27.517] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=368ms]: '**哦心在荡漾**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:29.765] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=503ms]: '**春风微扬**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:32.070] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=89ms]: '**你在街巷**' song=徐梦圆 - color-X playing=True channel=None
+[2026-09-06 15:36:34.273] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=723ms]: '**依稀朦胧的模样**' song=徐梦圆 - color-X playing=True channel=None
