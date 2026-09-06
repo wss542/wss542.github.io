@@ -1,13 +1,4 @@
-# 更新于 2026-09-06 13:55:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 11:18:23.654] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-06 11:18:23.654] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 11:18:23.654] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-06 11:18:23.654] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 11:18:23.654] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-06 11:18:23.656] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-06 11:18:23.728] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-06 11:18:23.730] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-06 11:18:23.732] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h42m 后执行 (12:01)
+# 更新于 2026-09-06 13:56:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 11:18:23.751] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
 [2026-09-06 11:18:25.479] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 46s 前）
 [2026-09-06 11:18:25.481] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
@@ -1499,3 +1490,12 @@
 [2026-09-06 13:54:58.890] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**哦，宝贝，我爱你**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 13:55:29.505] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**哦，宝贝，我爱你**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 13:55:46.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=364ms]: '**▶ Silent Partner - Spring In My Step**' song=Silent Partner - Spring In My  playing=True channel=None
+[2026-09-06 13:55:49.683] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=39ms]: '**▶ 王强 - 秋天不回来**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:55:56.434] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-13ms]: '**作词 : 王强**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:55:57.550] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=836ms]: '**作曲 : 胡力**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:55:59.835] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作曲 : 胡力**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:56:05.497] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=120ms]: '**初秋的天冰冷的夜**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:07.774] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=891ms]: '**回忆慢慢袭来**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:11.271] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1020ms]: '**真心的爱就像落叶**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:13.531] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=374ms]: '**为何却要分开**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:17.148] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1035ms]: '**灰色的天独自彷徨**' song=王强 - 秋天不回来 playing=True channel=None
