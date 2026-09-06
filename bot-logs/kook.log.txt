@@ -1,16 +1,4 @@
-# 更新于 2026-09-06 15:10:05 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:30:58.885] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 2h30m 后执行 (16:01)
-[2026-09-06 13:30:58.934] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-06 13:31:13.970] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-06 13:31:14.031] [INFO    ] (bot:_bg_pc_offline_checker:812) [-] PC 掉线检测: 启动时心跳已超时(1690s 前)，掉线状态延续，不重复告警
-[2026-09-06 13:31:14.031] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 1690s 前）
-[2026-09-06 13:31:14.045] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-06 13:31:14.069] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-06 13:31:14.070] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-06 13:31:14.070] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-06 13:31:14.070] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-06 13:31:14.117] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-06 13:31:14.118] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-09-06 15:10:36 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:31:14.341] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
 [2026-09-06 13:31:14.342] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-09-06 13:31:14.443] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=95 cpu=None mem=None
@@ -1499,3 +1487,15 @@
 [2026-09-06 15:09:56.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=793ms]: '**Gotta figure out, what am I missing babe?**' song=Joel Adams - Please Don't Go playing=True channel=None
 [2026-09-06 15:09:58.904] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=983ms]: '**Singing now, oh oh oh**' song=Joel Adams - Please Don't Go playing=True channel=None
 [2026-09-06 15:10:01.138] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=304ms]: '**And I need you now, I need your love, oh**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:11.348] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=405ms]: '**Now please don't go**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:16.987] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=392ms]: '**I said well, most nights I hardly sleep**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:18.507] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-06 15:10:19.185] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
+[2026-09-06 15:10:19.834] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-06 15:10:19.842] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**I said well, most nights I hardly sleep**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:10:20.378] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=482ms]: '**When I'm alone**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:20.393] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-06 15:10:22.611] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=179ms]: '**Now please don't go, oh no**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:28.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=155ms]: '**I think of you whenever I'm alone**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:32.781] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=385ms]: '**So please don't**' song=Joel Adams - Please Don't Go playing=True channel=None
+[2026-09-06 15:10:35.012] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=631ms]: '**Please don't go**' song=Joel Adams - Please Don't Go playing=True channel=None
