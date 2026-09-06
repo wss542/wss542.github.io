@@ -1,19 +1,4 @@
-# 更新于 2026-09-06 13:50:48 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 11:18:23.591] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-06 11:18:23.594] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-06 11:18:23.595] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-06 11:18:23.595] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-06 11:18:23.595] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-06 11:18:23.610] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 11:18:23.610] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 11:18:23.611] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-06 11:18:23.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-06 11:18:23.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-06 11:18:23.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-06 11:18:23.621] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-06 11:18:23.622] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-06 11:18:23.622] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-06 11:18:23.622] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+# 更新于 2026-09-06 13:51:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 11:18:23.622] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
 [2026-09-06 11:18:23.623] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 [2026-09-06 11:18:23.623] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
@@ -1499,3 +1484,18 @@
 [2026-09-06 13:50:39.516] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1038ms]: '**"Marry me, Juliet, you'll never have to be alone**' song=Taylor Swift - Love Story playing=True channel=None
 [2026-09-06 13:50:42.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=691ms]: '**I love you, and that's all I really know**' song=Taylor Swift - Love Story playing=True channel=None
 [2026-09-06 13:50:46.275] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-14ms]: '**I talked to your dad, go pick out a white dress**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:50.777] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=606ms]: '**It's a love story, baby, just say yes"**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:54.156] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**It's a love story, baby, just say yes"**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:50:57.568] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=102ms]: '**Oh, oh-oh**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:51:02.099] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=614ms]: '**Oh, oh-oh, oh**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:51:10.026] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-06 13:51:10.026] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-06 13:51:10.028] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3641ms]: '**'Cause we were both young when I first saw you**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:51:16.922] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=176ms]: '**▶ TangTian - You Love Me**' song=TangTian - You Love Me playing=True channel=None
+[2026-09-06 13:51:24.346] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**作词 : TangTian**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:51:24.346] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=335ms]: '**作词 : TangTian**' song=TangTian - You Love Me playing=True channel=None
+[2026-09-06 13:51:24.347] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=336ms]: '**作曲 : TangTian**' song=TangTian - You Love Me playing=True channel=None
+[2026-09-06 13:51:24.348] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=303ms]: '**作词 : TangTian**' song=TangTian - You Love Me playing=True channel=None
+[2026-09-06 13:51:25.295] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-06 13:51:25.295] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-06 13:51:25.678] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1201ms]: '**作曲 : TangTian**' song=TangTian - You Love Me playing=True channel=None
