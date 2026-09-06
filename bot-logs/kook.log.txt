@@ -1,15 +1,4 @@
-# 更新于 2026-09-06 15:30:11 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:36:38.806] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-06 13:36:38.806] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-06 13:36:38.808] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-06 13:36:38.808] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-06 13:36:38.808] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-06 13:36:38.960] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-06 13:36:38.961] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-06 13:36:39.120] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=95 cpu=None mem=None
-[2026-09-06 13:36:39.121] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-06 13:36:40.312] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
-[2026-09-06 13:36:40.316] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+# 更新于 2026-09-06 15:30:43 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:36:40.316] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 37405 秒 (下次 00:00:05)
 [2026-09-06 13:36:40.783] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-09-06 13:36:40.834] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
@@ -1499,3 +1488,14 @@
 [2026-09-06 15:29:52.768] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=625ms]: '**Passo bem solto**' song=Lunak - PASSO FUNK playing=True channel=None
 [2026-09-06 15:30:02.832] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1146ms]: '**Passo bem solto**' song=Lunak - PASSO FUNK playing=True channel=None
 [2026-09-06 15:30:11.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1048ms]: '**▶ Imagine Dragons - Natural**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:21.785] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Will you hold the line**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:30:21.785] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1085ms]: '**Will you hold the line**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:24.282] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=966ms]: '**When every one of them has given up and given in? Tell me*' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:26.562] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1113ms]: '**Will you hold the line**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:26.563] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1070ms]: '**When every one of them has given up and given in? Tell me*' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:26.564] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=621ms]: '**In this house of mine**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:28.798] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=344ms]: '**Nothing ever comes without a consequence or cost, tell me*' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:31.254] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=263ms]: '**Will the stars align?**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:34.747] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1109ms]: '**Will heaven step in? Will it save us from our sin, will it' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:36.982] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1112ms]: '**'Cause this house of mine stands strong**' song=Imagine Dragons - Natural playing=True channel=None
+[2026-09-06 15:30:39.267] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=139ms]: '**That's the price you pay**' song=Imagine Dragons - Natural playing=True channel=None
