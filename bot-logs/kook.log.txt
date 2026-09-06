@@ -1,21 +1,4 @@
-# 更新于 2026-09-06 14:34:40 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 12:58:49.711] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-06 12:58:49.711] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-06 12:58:49.712] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-06 12:58:49.712] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-06 12:58:50.008] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-06 12:58:50.009] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-06 12:58:50.026] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-06 12:58:50.026] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-06 12:58:50.584] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-06 12:58:50.612] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-06 12:58:50.613] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-06 12:58:50.614] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-06 12:58:50.615] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-06 12:58:50.616] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-06 12:58:50.617] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-06 12:58:50.617] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-06 12:58:50.617] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+# 更新于 2026-09-06 14:35:50 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 12:58:50.623] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-06 12:58:50.623] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
 [2026-09-06 12:58:50.624] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
@@ -1499,3 +1482,20 @@
 [2026-09-06 14:34:26.208] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1034ms]: '**All I need is someone who makes me wanna sing**' song=Michael Learns To Rock - Take  playing=True channel=None
 [2026-09-06 14:34:34.120] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=410ms]: '**Take me to your heart, take me to your soul**' song=Michael Learns To Rock - Take  playing=True channel=None
 [2026-09-06 14:34:38.642] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=588ms]: '**Give me your hand before I'm old**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:34:43.396] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1152ms]: '**Show me what love is, haven't got a clue**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:34:46.638] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=475ms]: '**Show me that wonders can be true**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:34:50.074] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=155ms]: '**They say nothing lasts forever**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:34:53.550] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**They say nothing lasts forever**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:34:54.660] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=689ms]: '**We're only here today**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:34:59.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=739ms]: '**Love is now or never**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:03.680] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=709ms]: '**Bring me far away**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:05.997] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=417ms]: '**Take me to your heart, take me to your soul**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:11.513] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=302ms]: '**Give me your hand and hold me**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:14.117] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=460ms]: '**Show me what love is, be my guiding star**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:18.114] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=20ms]: '**It's easy, take me to your heart**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:23.823] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='*(Take me, take me)*' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:35:23.823] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=598ms]: '*(Take me, take me)*' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:26.165] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=612ms]: '**Take me to your heart, take me to your soul**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:30.755] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=463ms]: '**Give me your hand and hold me**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:34.184] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=691ms]: '**Show me what love is, be my guiding star**' song=Michael Learns To Rock - Take  playing=True channel=None
+[2026-09-06 14:35:37.608] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=0ms]: '**It's easy, take me to your heart**' song=Michael Learns To Rock - Take  playing=True channel=None
