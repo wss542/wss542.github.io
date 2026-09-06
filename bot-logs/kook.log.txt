@@ -1,4 +1,4 @@
-# 更新于 2026-09-06 10:53:19 · 共 1353 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-06 10:53:47 · 共 1358 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:00:06.055] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
 [2026-09-06 00:00:06.061] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-09-06 00:00:13.624] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260906 — 发送昨日群聊日报
@@ -1352,3 +1352,8 @@
 [2026-09-06 10:51:53.030] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**弹指间 一场梦 一光年**' keys=17
 [2026-09-06 10:52:23.186] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**弹指间 一场梦 一光年**' keys=17
 [2026-09-06 10:52:54.136] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**弹指间 一场梦 一光年**' keys=17
+[2026-09-06 10:53:22.515] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
+[2026-09-06 10:53:32.952] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
+[2026-09-06 10:53:33.692] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
+[2026-09-06 10:53:39.832] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-06 10:53:40.265] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
