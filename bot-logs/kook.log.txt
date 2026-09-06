@@ -1,18 +1,4 @@
-# 更新于 2026-09-06 15:03:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:02:03.362] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-06 13:02:03.363] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-06 13:02:03.363] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-06 13:02:03.364] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-06 13:02:03.364] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-06 13:02:03.364] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-06 13:02:03.365] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-06 13:02:03.365] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-06 13:02:03.366] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-06 13:02:03.370] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-06 13:02:03.371] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-06 13:02:03.372] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-06 13:02:03.374] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-06 13:02:03.374] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+# 更新于 2026-09-06 15:03:57 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:02:03.375] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
 [2026-09-06 13:02:03.376] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
 [2026-09-06 13:02:03.376] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
@@ -1499,3 +1485,17 @@
 [2026-09-06 15:02:05.434] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 15:02:35.794] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 15:03:06.469] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:03:23.648] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=0ms]: '**이젠 남  - 노블레스** *(Now, we are strangers)* *(Now, we are str' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:24.865] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1205ms]: '**내 두 눈은 그대를 못 보고**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:24.912] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1242ms]: '**분명한건 이젠 남이란거**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:27.301] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=253ms]: '**난 미련이 남았나봐**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:31.647] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=359ms]: '**아직도 널 사랑하나봐**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:37.283] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**지금도 저 멀리서**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:03:37.283] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=768ms]: '**지금도 저 멀리서**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:39.550] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=604ms]: '**내게 달려와 안길것만 같아**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:46.376] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=248ms]: '**혹시나 우리가 다시만나면**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:48.676] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=667ms]: '**웃으며 인사는 할 수 있을까**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:50.911] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=601ms]: '**단 한번 도 본적없는**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:53.183] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=773ms]: '**그런 사람들 처럼 스쳐가겠지**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:55.422] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=792ms]: '**혹시나 또 다른 사랑을하면**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 15:03:57.880] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1172ms]: '**꼭 나보다 좋은 사람 만나**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
