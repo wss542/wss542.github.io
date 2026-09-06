@@ -1,16 +1,4 @@
-# 更新于 2026-09-06 13:50:13 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 11:18:23.174] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-06 11:18:23.175] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-06 11:18:23.189] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-06 11:18:23.189] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-06 11:18:23.566] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-06 11:18:23.588] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-06 11:18:23.588] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-06 11:18:23.589] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-06 11:18:23.590] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-06 11:18:23.590] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-06 11:18:23.591] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-06 11:18:23.591] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+# 更新于 2026-09-06 13:50:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 11:18:23.591] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
 [2026-09-06 11:18:23.594] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-06 11:18:23.595] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
@@ -1499,3 +1487,15 @@
 [2026-09-06 13:49:53.164] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=13ms]: '**Oh, oh-oh**' song=Taylor Swift - Love Story playing=True channel=None
 [2026-09-06 13:50:05.672] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=461ms]: '**I got tired of waiting**' song=Taylor Swift - Love Story playing=True channel=None
 [2026-09-06 13:50:09.079] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=133ms]: '**Wondering if you were ever coming around**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:13.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=880ms]: '**My faith in you was fading**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:18.085] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=739ms]: '**When I met you on the outskirts of town**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:21.482] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=501ms]: '**And I said**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:22.592] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=385ms]: '**"Romeo, save me, I've been feeling so alone**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:23.709] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**"Romeo, save me, I've been feeling so alone**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:50:27.114] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1013ms]: '**I keep waiting for you, but you never come**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:30.503] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=473ms]: '**Is this in my head? I don't know what to think"**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:34.986] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=893ms]: '**He knelt to the ground and pulled out a ring**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:38.408] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=883ms]: '**And said**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:39.516] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1038ms]: '**"Marry me, Juliet, you'll never have to be alone**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:42.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=691ms]: '**I love you, and that's all I really know**' song=Taylor Swift - Love Story playing=True channel=None
+[2026-09-06 13:50:46.275] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-14ms]: '**I talked to your dad, go pick out a white dress**' song=Taylor Swift - Love Story playing=True channel=None
