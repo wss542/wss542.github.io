@@ -1,15 +1,4 @@
-# 更新于 2026-09-06 13:56:52 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 11:18:25.674] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-06 11:18:25.785] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
-[2026-09-06 11:18:25.786] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-06 11:18:25.792] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-06 11:18:26.663] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 11:18:27.497] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-06 11:18:27.902] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-06 11:18:27.902] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-06 11:18:27.902] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-06 11:18:27.902] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-06 11:18:27.958] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
+# 更新于 2026-09-06 13:57:34 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 11:18:27.959] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
 [2026-09-06 11:18:27.959] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45697 秒 (下次 00:00:05)
 [2026-09-06 11:18:28.268] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 5301s
@@ -1499,3 +1488,14 @@
 [2026-09-06 13:56:41.248] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=585ms]: '**告诉你 在每个**' song=王强 - 秋天不回来 playing=True channel=None
 [2026-09-06 13:56:43.578] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=119ms]: '**想你的夜里**' song=王强 - 秋天不回来 playing=True channel=None
 [2026-09-06 13:56:48.060] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=117ms]: '**我哭的好无力**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:53.704] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=934ms]: '**就让秋风带走我的思念**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:56:57.139] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=738ms]: '**带走我的泪**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:00.471] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**我还一直静静守候在**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:57:00.472] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=621ms]: '**我还一直静静守候在**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:02.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=625ms]: '**相约的地点**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:06.320] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=676ms]: '**求求老天淋湿我的双眼**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:09.760] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1012ms]: '**冰冻我的心**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:11.978] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=859ms]: '**让我不再苦苦奢求你还**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:16.495] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=556ms]: '**回来我身边**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:18.851] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=394ms]: '**我身边**' song=王强 - 秋天不回来 playing=True channel=None
+[2026-09-06 13:57:31.359] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**我身边**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
