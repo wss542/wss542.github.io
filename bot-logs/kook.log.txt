@@ -1,7 +1,4 @@
-# 更新于 2026-09-06 16:02:59 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:41:41.621] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3111ms]: '**为什么还要不理我**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
-[2026-09-06 13:41:42.736] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=263ms]: '**你什么都不肯对我说**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
-[2026-09-06 13:41:46.531] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=605ms]: '**请你不要再沉默**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
+# 更新于 2026-09-06 16:03:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:41:51.039] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=210ms]: '**沉默不是代表我的错**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
 [2026-09-06 13:41:55.518] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1058ms]: '**分手不是唯一的结果**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
 [2026-09-06 13:41:58.907] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1033ms]: '**我只是还没有想好该怎么对你说**' song=顾峰 / 斯琴高丽 - 犯错 playing=True channel=None
@@ -1499,3 +1496,6 @@
 [2026-09-06 16:02:11.870] [INFO    ] (logger:log_trace_summary:392) [8d0f28da161b4dc3] [TRACE 8d0f28da161b4dc3] total=11.68ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11.46ms(x1) (wall11.46), queue_wait=5.12ms(x1)
 [2026-09-06 16:02:22.336] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 16:02:52.632] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 16:03:22.939] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 16:03:27.491] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-06 16:03:27.492] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
