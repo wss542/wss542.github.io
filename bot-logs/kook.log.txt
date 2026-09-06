@@ -1,24 +1,4 @@
-# 更新于 2026-09-06 14:12:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 12:21:45.679] [INFO    ] (commands:handle_command:4897) [6bcc028c32174d94] 指令执行完成 [wdsj]: 无返回值（已自行发送）
-[2026-09-06 12:21:45.680] [INFO    ] (logger:log_trace_summary:392) [6bcc028c32174d94] [TRACE 6bcc028c32174d94] total=5583.32ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5583.05ms(x1) (wall5583.05), queue_wait=1.28ms(x1)
-[2026-09-06 12:21:45.681] [WARNING ] (logger:log_trace_summary:415) [6bcc028c32174d94] [SLOW 6bcc028c32174d94] total=5584.39ms | process=5583.05ms(x1) (wall5583.05), queue_wait=1.28ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.28ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5583.05ms wall=5584.13ms dominant=other
-[2026-09-06 12:21:48.653] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:22:19.434] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:22:49.841] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:23:20.215] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:23:50.667] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:24:21.077] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:24:51.465] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 1792)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 12:25:08.762] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-06 12:25:13.884] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
-[2026-09-06 12:25:16.409] [WARNING ] (pc_status:_handle_client:167) [-] PC 客户端连接重置: [Errno 104] Connection reset by peer
-[2026-09-06 12:25:16.463] [INFO    ] (pc_status:_handle_client:177) [-] PC 客户端断开连接
-[2026-09-06 12:25:18.249] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-06 12:25:18.341] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=20ms]: '**▶ JORDANN - Dehors**' song=JORDANN - Dehors playing=True channel=None
-[2026-09-06 12:25:19.463] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-06 12:25:19.675] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-06 12:25:21.710] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 10249)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ JORDANN - Dehors**' keys=17
-[2026-09-06 12:25:38.421] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=661ms]: '**作词 : Jordan Hébert/Marc André Brunelle**' song=JORDANN - Dehors playing=True channel=None
+# 更新于 2026-09-06 14:13:34 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 12:25:38.422] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=378ms]: '**作曲 : Jordan Hébert/Marc André Brunelle**' song=JORDANN - Dehors playing=True channel=None
 [2026-09-06 12:25:38.422] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=112ms]: '**La fanfare frémit au carrefour de ta forme**
 `号角声幻化成你的身形在十' song=JORDANN - Dehors playing=True channel=None
@@ -1499,3 +1479,23 @@
 [2026-09-06 14:12:37.885] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=208ms]: '**nino na-ra-na-na-na**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
 [2026-09-06 14:12:41.313] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=818ms]: '*(人は猫)*' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
 [2026-09-06 14:12:47.030] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=246ms]: '*(絶対にそう)*' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:12:51.606] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='*(絶対にそう)*' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:12:53.897] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=503ms]: '**说白了泡面 辣条 充电线**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:12:56.142] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=59ms]: '**它们本质上就是**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:12:57.300] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=218ms]: '**罐头 猫条 毛线球**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:04.362] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1104ms]: '**猫咪就是喜欢装模作样**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:04.396] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1033ms]: '**大模大样 装得像模像样**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:04.414] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=879ms]: '**觉得我们多高尚 它们多低档**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:06.363] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=993ms]: '**到头来还不是一模一样**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:07.473] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=680ms]: '**这独来独往的身影**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:09.790] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=106ms]: '**和那目中无人的神情**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:13.490] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=402ms]: '**这无法无天的行径**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:16.978] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1067ms]: '**似曾相识**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:20.873] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1383ms]: '**人は猫dala-da-da-da**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:21.979] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Pico bala-ba-ba-ba**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:13:21.980] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=512ms]: '**Pico bala-ba-ba-ba**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:23.224] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=179ms]: '**Bibo bala-ba-ba-ba**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:26.741] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1030ms]: '**本当にそう ny-ny-nya-nya-nya**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:29.140] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1153ms]: '**Dido ba-ra-ba-ba-ba**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:30.261] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=713ms]: '**nino na-ra-na-na-na**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
+[2026-09-06 14:13:34.008] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=215ms]: '**人は猫dala-da-da-da**' song=张卡斯 / 洛天依 - 人是猫 playing=True channel=None
