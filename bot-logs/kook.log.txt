@@ -1,30 +1,4 @@
-# 更新于 2026-09-06 15:06:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 13:30:57.153] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-06 13:30:57.335] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-06 13:30:57.336] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-06 13:30:58.400] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-06 13:30:58.488] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-06 13:30:58.488] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-06 13:30:58.490] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-06 13:30:58.491] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-06 13:30:58.492] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-06 13:30:58.493] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-06 13:30:58.494] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-06 13:30:58.494] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-06 13:30:58.500] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-06 13:30:58.501] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-06 13:30:58.501] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-06 13:30:58.502] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-06 13:30:58.553] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 13:30:58.553] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 13:30:58.555] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-06 13:30:58.599] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-06 13:30:58.600] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-06 13:30:58.600] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-06 13:30:58.600] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-06 13:30:58.601] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-06 13:30:58.601] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-06 13:30:58.602] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+# 更新于 2026-09-06 15:07:10 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 13:30:58.603] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
 [2026-09-06 13:30:58.607] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 [2026-09-06 13:30:58.607] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
@@ -1499,3 +1473,29 @@
 [2026-09-06 15:06:30.332] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-09-06 15:06:30.336] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-06 15:06:31.565] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=191ms]: '**Oh no**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:33.830] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1144ms]: '**Oh-oh-oh**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:34.947] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=539ms]: '**I can't shake**
+`我不能动摇`' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:35.992] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-06 15:06:35.998] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/mc mc233.cn' is_edit=False
+[2026-09-06 15:06:36.001] [DEBUG   ] (dispatcher:_dispatch_inner:110) [d223ced879304ad0] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-06 15:06:36.006] [INFO    ] (dispatcher:_dispatch_inner:316) [d223ced879304ad0] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc mc233.cn'
+[2026-09-06 15:06:36.009] [INFO    ] (queues:_get_or_create_queue:32) [d223ced879304ad0] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-06 15:06:36.010] [DEBUG   ] (queues:enqueue_message:75) [d223ced879304ad0] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-06 15:06:36.022] [INFO    ] (memory:merge_overflow_memory:419) [80c74735ad474c5d] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-06 15:06:36.025] [INFO    ] (pipeline:process_message:478) [80c74735ad474c5d] 指令拦截: '/mc mc233.cn' from=ywandwss
+[2026-09-06 15:06:36.026] [DEBUG   ] (commands:handle_command:4840) [80c74735ad474c5d] 指令解析: prefix=/ cmd=mc args=['mc233.cn'] user=1759953618
+[2026-09-06 15:06:36.128] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=405ms]: '**This one This one**
+`我不能被这样的爱给动摇`' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:39.884] [INFO    ] (commands:handle_command:4895) [80c74735ad474c5d] 指令执行完成 [mc]: 返回165字符
+[2026-09-06 15:06:40.940] [INFO    ] (logger:log_trace_summary:392) [80c74735ad474c5d] [TRACE 80c74735ad474c5d] total=4928.04ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4927.56ms(x1) (wall4927.56), queue_wait=3.41ms(x1)
+[2026-09-06 15:06:40.942] [WARNING ] (logger:log_trace_summary:415) [80c74735ad474c5d] [SLOW 80c74735ad474c5d] total=4929.73ms | process=4927.56ms(x1) (wall4927.56), queue_wait=3.41ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.41ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4927.56ms wall=4929.28ms dominant=other
+[2026-09-06 15:06:43.763] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Oh no**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 15:06:43.765] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3277ms]: '**Oh no**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:43.766] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2515ms]: '**Oh-oh-oh**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:45.130] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=940ms]: '**Oo-whoa-oh-oh-oo-whoa-oh-oh-oo-whoa-oh**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:06:53.136] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=360ms]: '**Oo-whoa-oh-oh-oo-whoa-oh-oh-oo-whoa-oh**' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:07:02.155] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=875ms]: '**As she walks, see my world crash down**
+`她钻进人群 我的世界天翻地覆`' song=Jori King - Fatal Love playing=True channel=None
+[2026-09-06 15:07:10.097] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=315ms]: '**As she walks, see my world crash down**
+`她钻进人群 我的世界天翻地覆`' song=Jori King - Fatal Love playing=True channel=None
