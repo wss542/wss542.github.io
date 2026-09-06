@@ -1,8 +1,4 @@
-# 更新于 2026-09-06 14:39:27 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 12:58:53.347] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-06 12:58:53.348] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-06 12:58:53.482] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-06 12:58:53.482] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-09-06 14:41:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 12:58:53.637] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 [2026-09-06 12:58:53.638] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-06 12:58:54.497] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
@@ -1499,3 +1495,7 @@
 [2026-09-06 14:38:36.573] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1053ms]: '**⏸ 已暂停**' song=Noblesse - 이젠 남 (MR) playing=False channel=None
 [2026-09-06 14:38:56.642] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-06 14:39:27.396] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:39:57.850] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:40:17.082] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-06 14:40:18.077] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-06 14:40:18.542] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
