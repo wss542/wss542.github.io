@@ -1,136 +1,4 @@
-# 更新于 2026-09-06 13:36:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 10:46:21.257] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-06 10:46:21.261] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-06 10:46:21.264] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-06 10:46:21.267] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-06 10:46:21.658] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-06 10:46:21.661] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-06 10:46:21.803] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-06 10:46:21.809] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-06 10:46:26.836] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-06 10:46:27.510] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-06 10:46:27.513] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-06 10:46:27.602] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-06 10:46:27.631] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-06 10:46:27.632] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-06 10:46:27.636] [WARNING ] (context_manager:_load_from_disk:55) [-] 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
-[2026-09-06 10:46:27.639] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-06 10:46:27.646] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-06 10:46:27.665] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-06 10:46:27.667] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-06 10:46:27.669] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-06 10:46:27.670] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-06 10:46:28.094] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 10:46:28.102] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-06 10:46:28.135] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-06 10:46:28.824] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-06 10:46:28.826] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-06 10:46:28.827] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-06 10:46:28.829] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-06 10:46:28.830] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-06 10:46:28.830] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-06 10:46:28.830] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-06 10:46:28.830] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-06 10:46:28.837] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-06 10:46:28.840] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-06 10:46:28.844] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-06 10:46:28.849] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-06 10:46:28.855] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-06 10:46:28.860] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-06 10:46:28.907] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-06 10:46:28.916] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-06 10:46:28.933] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-06 10:46:28.952] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-06 10:46:28.958] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-06 10:46:29.173] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-06 10:46:29.174] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-06 10:46:29.177] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-06 10:46:29.262] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-06 10:46:29.263] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-06 10:46:29.286] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-06 10:46:29.314] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-06 10:46:29.315] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-06 10:46:29.420] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-06 10:46:29.424] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-06 10:46:29.443] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-06 10:46:29.459] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-06 10:46:29.538] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-06 10:46:29.551] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-06 10:46:29.557] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-06 10:46:29.780] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-06 10:46:29.780] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-06 10:46:29.812] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-06 10:46:29.813] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-06 10:46:29.826] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-06 10:46:29.843] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-06 10:46:29.856] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-06 10:46:29.873] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-06 10:46:29.874] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-06 10:46:29.874] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 10:46:29.874] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-06 10:46:29.874] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-06 10:46:29.895] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-06 10:46:30.595] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-06 10:46:33.374] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-06 10:46:33.391] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-06 10:46:33.421] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 1h14m 后执行 (12:01)
-[2026-09-06 10:46:33.780] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-06 10:46:37.599] [INFO    ] (bot:_bg_pc_offline_checker:812) [-] PC 掉线检测: 启动时心跳已超时(8755s 前)，掉线状态延续，不重复告警
-[2026-09-06 10:46:37.602] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 8755s 前）
-[2026-09-06 10:46:37.607] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-06 10:46:37.932] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-06 10:46:37.934] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-06 10:46:37.934] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-06 10:46:37.934] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-06 10:46:38.451] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-06 10:46:38.452] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-06 10:46:38.612] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-06 10:46:38.613] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-06 10:46:38.736] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
-[2026-09-06 10:46:38.737] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-06 10:46:38.856] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-06 10:46:38.857] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ BLACKDD / CYTEAM / PICK / 知晏 - Time Stop**' keys=17
-[2026-09-06 10:46:38.857] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=142784ms]: '**▶ BLACKDD / CYTEAM / PICK / 知晏 - Time Stop**' song=BLACKDD / CYTEAM / PICK / 知晏 - playing=True channel=None
-[2026-09-06 10:46:39.655] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-06 10:46:40.633] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
-[2026-09-06 10:46:40.634] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-06 10:46:40.634] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 47604 秒 (下次 00:00:05)
-[2026-09-06 10:46:48.739] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-06 10:46:48.740] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-06 10:46:48.741] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-06 10:46:48.741] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-06 10:46:49.277] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
-[2026-09-06 10:46:49.914] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-06 10:46:50.233] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-06 10:47:09.490] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ BLACKDD / CYTEAM / PICK / 知晏 - Time Stop**' keys=17
-[2026-09-06 10:47:38.270] [INFO    ] (bot:_bg_pc_offline_checker:852) [-] 主电脑恢复通知已发送
-[2026-09-06 10:47:41.315] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ BLACKDD / CYTEAM / PICK / 知晏 - Time Stop**' keys=17
-[2026-09-06 10:47:47.500] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=2126ms]: '**▶ МиДо - Как вы**' song=МиДо - Как вы playing=True channel=None
-[2026-09-06 10:47:56.923] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=823ms]: '**I love you Honey Bunny**' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:47:57.001] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=871ms]: '*(stand up  take out a pistol )*' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:47:57.031] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=792ms]: '**Everybody be cool this is robbery**' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:47:58.890] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=333ms]: '**Any of you f**king b**ch move**' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:48:01.442] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=130ms]: '**And I'll kill every mother f**king last one of you**' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:48:05.240] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=15ms]: '**Misirlou**' song=Dick Dale - Misirlou playing=True channel=None
-[2026-09-06 10:48:12.042] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Misirlou**' keys=17
-[2026-09-06 10:48:42.977] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Misirlou**' keys=17
-[2026-09-06 10:49:13.497] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Misirlou**' keys=17
-[2026-09-06 10:49:44.534] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Misirlou**' keys=17
-[2026-09-06 10:50:05.985] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=544ms]: '**▶ AniFace - 夜、萤火虫和你**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:12.575] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=224ms]: '**夜、萤火虫和你 - AniFace**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:14.950] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**夜、萤火虫和你 - AniFace**' keys=17
-[2026-09-06 10:50:30.917] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=457ms]: '**是谁 黑夜都掀翻**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:32.037] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=104ms]: '**星河落地面 流放到你身边**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:35.465] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=474ms]: '**是谁 停住了时间**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:36.587] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-25ms]: '**明灭了芊芊 偷一秒 笑靥**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:39.364] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=-79ms]: '**又是谁 如花般美眷**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:42.813] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=1430ms]: '**如水般流年 偏让人晃了眼**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:50:45.085] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**弹指间 一场梦 一光年**' keys=17
-[2026-09-06 10:50:45.086] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=822ms]: '**弹指间 一场梦 一光年**' song=AniFace - 夜、萤火虫和你 playing=True channel=None
-[2026-09-06 10:51:15.229] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**弹指间 一场梦 一光年**' keys=17
-[2026-09-06 10:51:30.440] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
-[2026-09-06 10:51:30.696] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-[2026-09-06 10:51:30.856] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+# 更新于 2026-09-06 13:37:27 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 10:51:30.861] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
 [2026-09-06 10:51:30.863] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 58110 秒
 [2026-09-06 10:51:53.030] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**弹指间 一场梦 一光年**' keys=17
@@ -1499,3 +1367,135 @@
 [2026-09-06 13:33:38.567] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=427ms]: '**I love you so** *(ooh-ooh)*' song=The Walters - I Love You So playing=True channel=None
 [2026-09-06 13:36:16.549] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-06 13:36:16.932] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-09-06 13:36:32.596] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-06 13:36:32.597] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-09-06 13:36:32.600] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-06 13:36:32.768] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
+[2026-09-06 13:36:32.770] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-09-06 13:36:32.869] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-09-06 13:36:32.873] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-09-06 13:36:32.876] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-09-06 13:36:32.876] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-09-06 13:36:32.877] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-09-06 13:36:33.131] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-09-06 13:36:33.132] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-09-06 13:36:34.123] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-09-06 13:36:34.124] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+[2026-09-06 13:36:35.925] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+[2026-09-06 13:36:36.153] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+[2026-09-06 13:36:36.154] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+[2026-09-06 13:36:36.164] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+[2026-09-06 13:36:36.169] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
+[2026-09-06 13:36:36.169] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+[2026-09-06 13:36:36.181] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
+[2026-09-06 13:36:36.181] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+[2026-09-06 13:36:36.184] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+[2026-09-06 13:36:36.195] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[2026-09-06 13:36:36.196] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+[2026-09-06 13:36:36.342] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+[2026-09-06 13:36:36.343] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+[2026-09-06 13:36:36.346] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+[2026-09-06 13:36:36.482] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+[2026-09-06 13:36:36.488] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+[2026-09-06 13:36:36.488] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+[2026-09-06 13:36:36.488] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+[2026-09-06 13:36:36.490] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+[2026-09-06 13:36:36.491] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+[2026-09-06 13:36:36.492] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+[2026-09-06 13:36:36.493] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+[2026-09-06 13:36:36.507] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+[2026-09-06 13:36:36.508] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
+[2026-09-06 13:36:36.509] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+[2026-09-06 13:36:36.520] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+[2026-09-06 13:36:36.520] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+[2026-09-06 13:36:36.520] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
+[2026-09-06 13:36:36.532] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+[2026-09-06 13:36:36.533] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+[2026-09-06 13:36:36.541] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+[2026-09-06 13:36:36.542] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+[2026-09-06 13:36:36.542] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
+[2026-09-06 13:36:36.593] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+[2026-09-06 13:36:36.594] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+[2026-09-06 13:36:36.595] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
+[2026-09-06 13:36:36.601] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
+[2026-09-06 13:36:36.601] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+[2026-09-06 13:36:36.606] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+[2026-09-06 13:36:36.606] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+[2026-09-06 13:36:36.607] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
+[2026-09-06 13:36:36.609] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+[2026-09-06 13:36:36.611] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+[2026-09-06 13:36:36.619] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+[2026-09-06 13:36:36.620] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
+[2026-09-06 13:36:36.632] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+[2026-09-06 13:36:36.633] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+[2026-09-06 13:36:36.633] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+[2026-09-06 13:36:36.644] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+[2026-09-06 13:36:36.644] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+[2026-09-06 13:36:36.652] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+[2026-09-06 13:36:36.653] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
+[2026-09-06 13:36:36.654] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+[2026-09-06 13:36:36.659] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
+[2026-09-06 13:36:36.660] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+[2026-09-06 13:36:36.660] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+[2026-09-06 13:36:36.660] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[2026-09-06 13:36:36.661] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-06 13:36:36.662] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
+[2026-09-06 13:36:36.662] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-06 13:36:36.662] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+[2026-09-06 13:36:36.669] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+[2026-09-06 13:36:37.107] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-09-06 13:36:37.114] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+[2026-09-06 13:36:37.124] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 2h24m 后执行 (16:01)
+[2026-09-06 13:36:37.257] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-09-06 13:36:38.783] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 204s 前）
+[2026-09-06 13:36:38.787] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-09-06 13:36:38.806] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-09-06 13:36:38.806] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-09-06 13:36:38.806] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-09-06 13:36:38.808] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-09-06 13:36:38.808] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-09-06 13:36:38.808] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-09-06 13:36:38.960] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+[2026-09-06 13:36:38.961] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-09-06 13:36:39.120] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=95 cpu=None mem=None
+[2026-09-06 13:36:39.121] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-06 13:36:40.312] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
+[2026-09-06 13:36:40.316] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-09-06 13:36:40.316] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 37405 秒 (下次 00:00:05)
+[2026-09-06 13:36:40.783] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
+[2026-09-06 13:36:40.834] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-09-06 13:36:49.299] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-09-06 13:36:49.300] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-09-06 13:36:49.315] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-09-06 13:36:49.317] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-06 13:36:49.646] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 4919s
+[2026-09-06 13:36:50.314] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-06 13:36:51.500] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-06 13:36:54.482] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3821)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ Achim Reichel - Aloha Heja He**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 13:36:54.504] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=106616ms]: '**▶ Achim Reichel - Aloha Heja He**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.513] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=87941ms]: '**Hab die ganze Welt geseh'n**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.521] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=83851ms]: '**Von Singapur bis Aberdeen**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.521] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=79564ms]: '**Wenn du mich fragst, wo's am schönsten war**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.526] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=75107ms]: '**Sag ich "Sansibar"**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.536] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=70871ms]: '**Es war 'ne harte Überfahrt**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.536] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=66802ms]: '**Zehn Wochen nur das Deck geschrubbt**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.536] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=62970ms]: '**Hab die Welt verflucht, in den Wind gespuckt**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=57430ms]: '**Und salziges Wasser geschluckt**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=44868ms]: '**Als wir den Anker warfen, war es himmlische Ruh**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=41151ms]: '**Und die Sonne stand senkrecht am Himmel**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.549] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=36708ms]: '**Als ich über die Reling sah, da glaubte ich zu träumen**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.550] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=30595ms]: '**Da war'n tausend Boote und sie hielten auf uns zu**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.550] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=14192ms]: '**Das kam mir seltsam bekannt vor**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.553] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=13492ms]: '**Aber so hatt ich's noch nie gehört**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.553] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=11213ms]: '**Uh, so hatt ich's noch nie gehört**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:54.560] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=628ms]: '**Aloha heja he, aloha heja he, aloha heja he**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:36:58.207] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=430ms]: '**Aloha heja he, aloha heja he, aloha heja he**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:07.359] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=716ms]: '**Ihre Boote machten längsseits fest**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:10.759] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1060ms]: '**Und mit dem Wind wehte Gelächter herüber**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:14.626] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=1 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-06 13:37:15.301] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=105ms]: '**Sie nahmen ihre Blumenkränze ab**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:19.814] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=980ms]: '**Und warfen sie zu uns herüber**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:23.166] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=615ms]: '**Heh, und schon war die Party im Gange**' song=Achim Reichel - Aloha Heja He playing=True channel=None
+[2026-09-06 13:37:25.414] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3821)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Heh, und schon war die Party im Gange**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
