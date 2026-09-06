@@ -1,12 +1,4 @@
-# 更新于 2026-09-06 11:12:22 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 00:06:54.213] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
-[2026-09-06 00:07:14.697] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " /签到", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_ewMwg-PzBMtkBayQTstAY72C.W99ZUdFIQIN.s6eLYInfptDJ3LDwiLAjDp5UiOzxBkIDtG653zgB9Ato1aukRJxMtxXzfp0t5lBXGZJS7sNIqrVm3QhC6-bhktADRFg", "message_scene": {"ext": ["msg_idx=REFIDX_jpW0DC80YIDj2kfWola0zbt+x66b+73BB9wGdLxr3NM5XeoW9s2+Zz2Cl1BW1wp6NYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=FyrVOgfE7W0J1DkcaTPf-iiAOnXg_2nMHAOMYiU4UpgrAB1_NIOBXlldZ4i9foTzkYiF2Do08JznAkFixaTmMqL3hCsJpD5sDBzLZLD4xuDPlct-9ycvzpJl7NHV"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-06T00:07:13+08:00"}
-[2026-09-06 00:07:14.707] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/签到'
-[2026-09-06 00:07:14.710] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY72C.W99ZUdFIQIN.s6eLYInfptDJ3LDwiLAjDp5UiOzxBkIDtG653zgB9Ato1aukRJxMtxXzfp0t5lBXGZJS7sNIqrVm3QhC6-bhktADRFg
-[2026-09-06 00:07:14.723] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-06 00:07:14.784] [INFO    ] (memory:merge_overflow_memory:419) [f8434fb3b0854f06] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 10条 (阈值=10)
-[2026-09-06 00:07:14.815] [INFO    ] (pipeline:process_message:478) [f8434fb3b0854f06] 指令拦截: '/签到' from=若尘 ~喵
-[2026-09-06 00:07:14.818] [DEBUG   ] (commands:handle_command:4840) [f8434fb3b0854f06] 指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+# 更新于 2026-09-06 11:12:53 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:07:14.845] [INFO    ] (checkin:do_checkin:117) [f8434fb3b0854f06] 签到: u:1759953618 streak=2 +6分
 [2026-09-06 00:07:14.846] [INFO    ] (commands:handle_command:4895) [f8434fb3b0854f06] 指令执行完成 [签到]: 返回40字符
 [2026-09-06 00:07:14.980] [INFO    ] (llm:call_llm:435) [f8434fb3b0854f06] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
@@ -1499,3 +1491,11 @@
 [2026-09-06 11:12:11.281] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=19ms]: '**卻躲不過 對你的喜歡**' song=阿肆 - 喜欢 playing=True channel=None
 [2026-09-06 11:12:16.897] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=380ms]: '**對你的喜歡**' song=阿肆 - 喜欢 playing=True channel=None
 [2026-09-06 11:12:20.296] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=662ms]: '**對你的喜歡**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:23.653] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=457ms]: '**對你的喜歡**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:24.793] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**對你的喜歡**' keys=17
+[2026-09-06 11:12:27.032] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=354ms]: '**對你的喜歡**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:30.437] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=160ms]: '**對你越喜歡**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:33.873] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=251ms]: '**讓我越難堪**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:37.336] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=18ms]: '**然而再難堪**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:40.781] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=104ms]: '**我依然喜歡**' song=阿肆 - 喜欢 playing=True channel=None
+[2026-09-06 11:12:52.204] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=31ms]: '**▶ 刘珂矣 - 半壶纱**' song=刘珂矣 - 半壶纱 playing=True channel=None
