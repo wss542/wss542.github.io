@@ -1,10 +1,4 @@
-# 更新于 2026-09-06 11:13:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 00:07:14.980] [INFO    ] (llm:call_llm:435) [f8434fb3b0854f06] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
-[2026-09-06 00:07:16.801] [INFO    ] (engine:_ingest:92) [f8434fb3b0854f06] 异步记忆提炼完成 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F: 候选2 新增2
-[2026-09-06 00:07:16.806] [INFO    ] (qq_transport:_send_message:250) [f8434fb3b0854f06] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=40 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3PqG--5gLH..LjQlXAeUYxTUQ1Nan8-BsTgsO2.ZAYCBBKq8XC928jVdrUcCf8SH5Q!!
-[2026-09-06 00:07:16.811] [INFO    ] (logger:log_trace_summary:392) [f8434fb3b0854f06] [TRACE f8434fb3b0854f06] total=2065.99ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2053.91ms(x1) (wall2053.91), queue_wait=32.03ms(x1)
-[2026-09-06 00:07:17.181] [INFO    ] (llm:call_llm:497) [f8434fb3b0854f06] LLM [deepseek-v4-flash] 返回 241字符 耗时2.2s → "[00:16:30-00:17:45] ᗜ𖥦ᗜ: 发送"/"、"/help"、"你好" (指令)\n[..."
-[2026-09-06 00:07:17.192] [INFO    ] (memory:_compress_with_deepseek:210) [f8434fb3b0854f06] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 10条消息 → 保存
+# 更新于 2026-09-06 11:13:54 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:07:25.226] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-09-06 00:07:56.093] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
 [2026-09-06 00:08:27.237] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 12720)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=17
@@ -1499,3 +1493,9 @@
 [2026-09-06 11:12:52.204] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=31ms]: '**▶ 刘珂矣 - 半壶纱**' song=刘珂矣 - 半壶纱 playing=True channel=None
 [2026-09-06 11:12:55.568] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 刘珂矣 - 半壶纱**' keys=17
 [2026-09-06 11:13:18.441] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=316ms]: '**墨已入水 渡一池青花**' song=刘珂矣 - 半壶纱 playing=True channel=None
+[2026-09-06 11:13:25.258] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=773ms]: '**攬五分紅霞 采竹回家**' song=刘珂矣 - 半壶纱 playing=True channel=None
+[2026-09-06 11:13:26.392] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**攬五分紅霞 采竹回家**' keys=17
+[2026-09-06 11:13:30.913] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=305ms]: '**悠悠風來 埋一地桑麻**' song=刘珂矣 - 半壶纱 playing=True channel=None
+[2026-09-06 11:13:36.599] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=846ms]: '**一身袈裟 把相思放下**' song=刘珂矣 - 半壶纱 playing=True channel=None
+[2026-09-06 11:13:43.439] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=402ms]: '**十里桃花 待嫁的年華**' song=刘珂矣 - 半壶纱 playing=True channel=None
+[2026-09-06 11:13:49.134] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=187ms]: '**鳳冠的珍珠 挽進頭髮**' song=刘珂矣 - 半壶纱 playing=True channel=None
