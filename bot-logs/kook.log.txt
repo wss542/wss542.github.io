@@ -1,11 +1,4 @@
-# 更新于 2026-09-06 14:38:09 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-06 12:58:50.778] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-06 12:58:50.780] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h2m 后执行 (16:01)
-[2026-09-06 12:58:50.800] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-06 12:58:53.329] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 56s 前）
-[2026-09-06 12:58:53.331] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-06 12:58:53.345] [INFO    ] (pc_status:start_pc_server:874) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-06 12:58:53.346] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+# 更新于 2026-09-06 14:38:42 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-06 12:58:53.346] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 [2026-09-06 12:58:53.346] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
 [2026-09-06 12:58:53.347] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
@@ -1499,3 +1492,10 @@
 [2026-09-06 14:38:03.902] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=780ms]: '**사랑따위에 이렇게힘들어**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
 [2026-09-06 14:38:05.014] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=692ms]: '**내 두 눈은 그대를 못 보고**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
 [2026-09-06 14:38:08.414] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=343ms]: '**내 두 귀는 그대를 못 듣고**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:12.904] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=455ms]: '**내 심장은 그대를 못 느껴**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:17.394] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=689ms]: '**이젠 남이니까**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:21.879] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=685ms]: '**하염없이 한숨만 나와**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:26.378] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4244)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**소리없이 눈물만 나와**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-06 14:38:26.379] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=875ms]: '**소리없이 눈물만 나와**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:30.879] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=176ms]: '**분명한건 이젠 남이란거**' song=Noblesse - 이젠 남 (MR) playing=True channel=None
+[2026-09-06 14:38:36.573] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1053ms]: '**⏸ 已暂停**' song=Noblesse - 이젠 남 (MR) playing=False channel=None
