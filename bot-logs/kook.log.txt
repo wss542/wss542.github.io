@@ -1,4 +1,4 @@
-# 更新于 2026-09-06 11:06:46 · 共 1438 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-06 11:07:17 · 共 1448 行（来源 huanmeng.log 末尾）
 [2026-09-06 00:00:06.055] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-06 → 周日
 [2026-09-06 00:00:06.061] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 [2026-09-06 00:00:13.624] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260906 — 发送昨日群聊日报
@@ -1437,3 +1437,13 @@
 [2026-09-06 11:06:44.160] [INFO    ] (logger:log_trace_summary:392) [064987df4c6246a1] [TRACE 064987df4c6246a1] total=6239.97ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6239.72ms(x1) (wall6239.72), queue_wait=0.81ms(x1)
 [2026-09-06 11:06:44.161] [WARNING ] (logger:log_trace_summary:415) [064987df4c6246a1] [SLOW 064987df4c6246a1] total=6240.78ms | process=6239.72ms(x1) (wall6239.72), queue_wait=0.81ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.81ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6239.72ms wall=6240.67ms dominant=other
 [2026-09-06 11:06:45.527] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=548ms]: '**如果場景里出現一架鋼琴**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:06:47.819] [INFO    ] (pc_status:_handle_client:93) [-] PC 数据心跳 [('192.168.48.1', 3427)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**我會唱歌給你聽**' keys=17
+[2026-09-06 11:06:47.820] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=293ms]: '**我會唱歌給你聽**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:06:50.125] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=334ms]: '**哪怕多盆水往下淋**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:06:55.897] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=716ms]: '**夏天快要過去**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:06:58.190] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=908ms]: '**請你少買冰淇淋 天涼就別穿短裙**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:07:01.879] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=208ms]: '**別再那麼淘氣**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:07:04.932] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=685ms]: '**如果有時不那麼開心**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:07:07.250] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=804ms]: '**我願意將格洛米借給你**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:07:09.508] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=473ms]: '**你其實明白我心意**' song=许嵩 - 有何不可 playing=True channel=None
+[2026-09-06 11:07:12.890] [INFO    ] (pc_status:_handle_client:141) [-] 收到 lyric_event [延迟=772ms]: '**為你唱這首歌 沒有什麼風格**' song=许嵩 - 有何不可 playing=True channel=None
