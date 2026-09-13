@@ -1,4 +1,4 @@
-# 更新于 2026-09-13 20:29:29 · 共 429 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-13 20:29:59 · 共 451 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:25.655] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-13 20:11:25.836] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-13 20:11:42.626] [INFO    ] (logger:info:335) [-] ==================================================
@@ -428,3 +428,25 @@
 [2026-09-13 20:29:05.518] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2393)]: music=[] lyric_event=False lyric='-' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 20:29:24.151] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=971ms]: '**▶ HyuN - Infinity Heaven**' song=HyuN - Infinity Heaven playing=False channel=None
 [2026-09-13 20:29:26.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1409ms]: '**▶ 继续播放**' song=HyuN - Infinity Heaven playing=True channel=None
+[2026-09-13 20:29:33.243] [INFO    ] (bot:_bg_pc_offline_checker:852) [-] 主电脑恢复通知已发送
+[2026-09-13 20:29:33.253] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 20:29:36.851] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2393)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 继续播放**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 20:29:39.457] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=830ms]: '**作曲 : Kang Sung-Hyun**' song=HyuN - Infinity Heaven playing=True channel=None
+[2026-09-13 20:29:39.457] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=831ms]: '**纯音乐，请欣赏**' song=HyuN - Infinity Heaven playing=True channel=None
+[2026-09-13 20:29:39.458] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=832ms]: '**作曲 : Kang Sung-Hyun**' song=HyuN - Infinity Heaven playing=True channel=None
+[2026-09-13 20:29:39.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=563ms]: '**纯音乐，请欣赏**' song=HyuN - Infinity Heaven playing=True channel=None
+[2026-09-13 20:29:44.920] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 20:29:44.923] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/update' is_edit=False
+[2026-09-13 20:29:44.926] [DEBUG   ] (dispatcher:_dispatch_inner:110) [043cfaa90d374799] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 20:29:44.933] [INFO    ] (dispatcher:_dispatch_inner:316) [043cfaa90d374799] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/update'
+[2026-09-13 20:29:44.942] [INFO    ] (queues:_get_or_create_queue:32) [043cfaa90d374799] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-13 20:29:44.943] [DEBUG   ] (queues:enqueue_message:75) [043cfaa90d374799] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 20:29:44.968] [INFO    ] (memory:merge_overflow_memory:419) [7c34018b1d28463d] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-13 20:29:45.022] [INFO    ] (pipeline:process_message:478) [7c34018b1d28463d] 指令拦截: '/update' from=ywandwss
+[2026-09-13 20:29:45.022] [DEBUG   ] (commands:handle_command:4840) [7c34018b1d28463d] 指令解析: prefix=/ cmd=update args=[] user=1759953618
+[2026-09-13 20:29:45.036] [INFO    ] (commands:handle_command:4895) [7c34018b1d28463d] 指令执行完成 [update]: 返回21字符
+[2026-09-13 20:29:45.456] [INFO    ] (logger:log_trace_summary:392) [7c34018b1d28463d] [TRACE 7c34018b1d28463d] total=509.36ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=507.93ms(x1) (wall507.93), queue_wait=7.31ms(x1)
+[2026-09-13 20:29:50.373] [INFO    ] (snapshot:create_snapshot:79) [7c34018b1d28463d] 创建快照 f1b545f932db: 备份 1 个文件
+[2026-09-13 20:29:50.815] [WARNING ] (safe_update:_apply_production:678) [7c34018b1d28463d] 文件 phone_tunnel_url.txt 本地 blob 与记录不一致（外部改动），先尝试行级合并
+[2026-09-13 20:29:52.602] [INFO    ] (auto_update:_run_update_pipeline:173) [7c34018b1d28463d] 更新成功，已安排 5 秒后自动重启
+[2026-09-13 20:29:57.604] [INFO    ] (auto_update:_restart_after:36) [7c34018b1d28463d] 更新完成，自动重启进程...
