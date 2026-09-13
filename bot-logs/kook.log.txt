@@ -1,4 +1,4 @@
-# 更新于 2026-09-14 00:16:32 · 共 105 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-14 00:17:02 · 共 119 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:00:06.591] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
 [2026-09-14 00:00:06.596] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-14 00:00:10.198] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260914 — 发送昨日群聊日报
@@ -104,3 +104,17 @@
 [2026-09-14 00:16:32.240] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [456ddc8176714bb1] LLM原始输出 [轮1]: content=茂密: 哇，英国解体了？这可是个大新闻呢！让我查查最新的消息喵~search\n英国解体 最新消息 | tool_calls=0
 [2026-09-14 00:16:32.240] [INFO    ] (llm:generate_multi_reply_with_tools:1065) [456ddc8176714bb1] LLM 输出非 JSON，强制重试...
 [2026-09-14 00:16:32.241] [INFO    ] (llm:call_llm:435) [456ddc8176714bb1] 调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=60.0s
+[2026-09-14 00:16:34.023] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 10566)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 00:16:40.337] [INFO    ] (llm:call_llm:497) [456ddc8176714bb1] LLM [glm-4-flash] 返回 263字符 耗时8.1s → "[[3090677846298039, "9saMVKjGB0k00k0"], {"replies"..."
+[2026-09-14 00:16:40.339] [INFO    ] (memory:maybe_save_memory:401) [456ddc8176714bb1] 触发自动记忆 [9844130976336955]: 5 条
+[2026-09-14 00:16:40.340] [INFO    ] (pipeline:process_message:1603) [456ddc8176714bb1] ✅ 管道处理完成: 1句 sent chat=9844130976336955
+[2026-09-14 00:16:40.340] [DEBUG   ] (pipeline:process_message:1625) [456ddc8176714bb1] Fast Path 主题已记录: chat=9844130976336955 topic='@659688244  英国解体了？'
+[2026-09-14 00:16:40.340] [INFO    ] (logger:log_trace_summary:392) [456ddc8176714bb1] [TRACE 456ddc8176714bb1] total=14366.31ms severity=very_slow_request | llm_calls=4 total=14258.76ms avg=3564.69ms max=8095.01ms p50=2941.06 p95=7637.85 p99=8003.58 | json_parse=0.07ms(x1), llm=14298.4ms(x1), memory=29.54ms(x2), process=14366.24ms(x1) (wall14366.24), queue_wait=0.69ms(x1)
+[2026-09-14 00:16:40.341] [WARNING ] (logger:log_trace_summary:410) [456ddc8176714bb1] [VERY_SLOW 456ddc8176714bb1] total=14366.6ms 需重点排查 | json_parse=0.07ms(x1), llm=14298.4ms(x1), memory=29.54ms(x2), process=14366.24ms(x1) (wall14366.24), queue_wait=0.69ms(x1) | llm_calls=4 total=14258.76ms avg=3564.69ms max=8095.01ms p50=2941.06 p95=7637.85 p99=8003.58 | perf: queue=0.69ms llm=14298.47ms search_tool=0.0ms delivery=0.0ms other=14395.78ms wall=14366.58ms dominant=other
+[2026-09-14 00:16:40.342] [DEBUG   ] (response_delivery:send_sentences:283) [456ddc8176714bb1] 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
+[2026-09-14 00:16:40.343] [INFO    ] (llm:call_llm:435) [456ddc8176714bb1] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-14 00:16:40.934] [DEBUG   ] (response_delivery:send_sentences:297) [456ddc8176714bb1] 已发送第 1/1 条: 茂密: 哇，英国解体了？这可是个大新闻呢！让我查查最新的消息...
+[2026-09-14 00:16:40.935] [DEBUG   ] (response_delivery:send_sentences:299) [456ddc8176714bb1] 分批发送完成: 共 1 条 → chat=9844130976336955
+[2026-09-14 00:16:40.935] [DEBUG   ] (context_manager:_on_task_done:139) [456ddc8176714bb1] 发送任务已清理 [9844130976336955]
+[2026-09-14 00:16:40.951] [ERROR   ] (llm:call_llm:528) [456ddc8176714bb1] LLM [Qwen/Qwen3-235B-A22B] 调用失败 (0.6s): Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-235B-A22B-Instruct-2507 , has no provider supported', 'request_id': '7e3ebc19-aabc-4978-adee-7d7d356985da'}}
+[2026-09-14 00:16:40.952] [WARNING ] (memory:_compress_with_deepseek:198) [456ddc8176714bb1] [9844130976336955] 压缩结果为空
