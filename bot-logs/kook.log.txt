@@ -1,31 +1,4 @@
-# 更新于 2026-09-13 21:43:02 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:40.028] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [d41164f3b4f84d72] LLM原始输出 [轮1]: content={"replies":["诶？那可能是我读的时间源没更新喵~","不过没关系啦，你说周几就周几，我信你！"],"fav":1,"calls":[],"face":null,"mood":"调皮","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}} | tool_calls=0
-[2026-09-13 20:13:40.028] [INFO    ] (llm:_parse_reply:1358) [d41164f3b4f84d72] JSON回复解析: 2句 fav=+1 calls=0 mood=调皮
-[2026-09-13 20:13:40.030] [INFO    ] (fav:update_fav:128) [d41164f3b4f84d72] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:50D2D55CE2DC9A68D87C0106AB6D5237 +1 → 53
-[2026-09-13 20:13:40.031] [INFO    ] (pipeline:process_message:1563) [d41164f3b4f84d72] 好感度调整: Trusler +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
-[2026-09-13 20:13:40.032] [INFO    ] (pipeline:process_message:1569) [d41164f3b4f84d72] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-13 20:13:40.034] [INFO    ] (logger:log_trace_summary:392) [d41164f3b4f84d72] [TRACE d41164f3b4f84d72] total=1322.52ms severity=normal | llm_calls=1 total=1287.37ms avg=1287.37ms max=1287.37ms p50=1287.37 p95=1287.37 p99=1287.37 | json_parse=0.07ms(x1), llm=1290.54ms(x1), memory=25.44ms(x2), process=1322.26ms(x1) (wall1322.26), queue_wait=1.48ms(x1)
-[2026-09-13 20:13:40.037] [DEBUG   ] (response_delivery:send_sentences:283) [d41164f3b4f84d72] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-[2026-09-13 20:13:41.539] [INFO    ] (qq_transport:_send_message:250) [d41164f3b4f84d72] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=17 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3ENbqio6cW-RTTPdRu3C33W-jJ3LJav.kqlu24e7a7nYNgdOZ2UQ3EyOreTQrpZsmQ!!
-[2026-09-13 20:13:41.541] [DEBUG   ] (response_delivery:send_sentences:297) [d41164f3b4f84d72] 已发送第 1/2 条: 诶？那可能是我读的时间源没更新喵~...
-[2026-09-13 20:13:41.542] [DEBUG   ] (response_delivery:send_sentences:294) [d41164f3b4f84d72] 句间等待 1.11s (#2/2)
-[2026-09-13 20:13:43.231] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " 那就是看错了", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_ewMwg-PzBMtkBayQTstAY8tbRFuT0j-arB5-lBDy0NAQNR.iCHedge-U6EC31Ztg6AJX5DHBR66XQTkH0l.T.CTSSObnLRfsmMy1KJ80GjdtxQCTepAyDNxCoDSX9nph", "message_scene": {"ext": ["msg_idx=REFIDX_Madmf0LGseGJI4NGE4GTu7t+x66b+73BB9wGdLxr3NM5XeoW9s2+Zz2Cl1BW1wp6NYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=hoS2-012I-RjGABvgF6x4rm3J97nrlbuArs26zHgdSox-nyLdElsgI6o0MI-40geOgZKNiftJZPlW5GeLgkohHVF0iL5x5DGzUZwpssagRDabL4PtZXWYH6XFfqMCg"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-13T20:13:42+08:00"}
-[2026-09-13 20:13:43.234] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '那就是看错了'
-[2026-09-13 20:13:43.235] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY8tbRFuT0j-arB5-lBDy0NAQNR.iCHedge-U6EC31Ztg6AJX5DHBR66XQTkH0l.T.CTSSObnLRfsmMy1KJ80GjdtxQCTepAyDNxCoDSX9nph
-[2026-09-13 20:13:43.236] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-13 20:13:43.238] [INFO    ] (memory:merge_overflow_memory:419) [d2b36c7f3e8f479a] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 5条 (阈值=10)
-[2026-09-13 20:13:43.241] [DEBUG   ] (pipeline:process_message:508) [d2b36c7f3e8f479a] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='那就是看错了'
-[2026-09-13 20:13:43.242] [INFO    ] (pipeline:process_message:546) [d2b36c7f3e8f479a] @机器人检测 → 直接回复
-[2026-09-13 20:13:43.242] [DEBUG   ] (pipeline:process_message:599) [d2b36c7f3e8f479a] 请求意图: intent=chat fast_search=False msg='那就是看错了'
-[2026-09-13 20:13:43.243] [WARNING ] (pipeline:process_message:647) [d2b36c7f3e8f479a] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-09-13 20:13:43.260] [DEBUG   ] (memory:_record_memory_trace:318) [d2b36c7f3e8f479a] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=11.6ms
-[2026-09-13 20:13:43.261] [INFO    ] (pipeline:process_message:807) [d2b36c7f3e8f479a] 额外信息: 1089字 (memory=526 search=0)
-[2026-09-13 20:13:43.262] [INFO    ] (pipeline:process_message:944) [d2b36c7f3e8f479a] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-[2026-09-13 20:13:43.263] [DEBUG   ] (pipeline:process_message:1073) [d2b36c7f3e8f479a] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-09-13 20:13:43.263] [INFO    ] (pipeline:process_message:1080) [d2b36c7f3e8f479a] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-13 20:13:43.428] [WARNING ] (llm:call_llm_with_tools:610) [d2b36c7f3e8f479a] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[2026-09-13 20:13:44.169] [INFO    ] (qq_transport:_send_message:250) [d41164f3b4f84d72] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=19 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Kz06RUigvZrAw2aPI9RpFXOCTrL54gBpT4qSX46.Hf4R6gy7.Vc.X0HaSiiytvN9A!!
-[2026-09-13 20:13:44.170] [DEBUG   ] (response_delivery:send_sentences:297) [d41164f3b4f84d72] 已发送第 2/2 条: 不过没关系啦，你说周几就周几，我信你！...
+# 更新于 2026-09-13 21:43:43 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:44.171] [DEBUG   ] (response_delivery:send_sentences:299) [d41164f3b4f84d72] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-13 20:13:44.171] [DEBUG   ] (context_manager:_on_task_done:139) [d41164f3b4f84d72] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
 [2026-09-13 20:13:44.394] [INFO    ] (llm:generate_multi_reply_with_tools:996) [d2b36c7f3e8f479a] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["好嘞主人~那就是我看错啦，不纠结这个了喵！","那主人今晚想让我陪你做点啥呀？"],"fav":2,"calls":[],"face":"开心1","mood":"开心","action":"歪头","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}}... tool_calls=0)
@@ -1499,3 +1472,30 @@
 [2026-09-13 21:41:42.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:42:22.918] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-09-13 21:42:22.919] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 21:43:08.757] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 21:43:08.757] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 21:43:10.559] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ 郭静 - 下一个天亮**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:43:10.560] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=174ms]: '**▶ 郭静 - 下一个天亮**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.040] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=943ms]: '**下一个天亮 - 郭静** *(Claire Guo)*' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.040] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=781ms]: '**词：姚若龙**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=619ms]: '**曲：陈小霞**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=456ms]: '**编曲：洪敬尧/谢明祥**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=294ms]: '**制作人：陈俊廷**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:13.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=132ms]: '**用起伏的背影**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.158] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1085ms]: '**挡住哭泣的心**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=923ms]: '**有些故事不必说给每个人听**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=760ms]: '**许多眼睛看的太浅太近**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=598ms]: '**错过我没被看见**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=435ms]: '**那个自己**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=272ms]: '**用简单的言语**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:14.159] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=110ms]: '**解开超载的心**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:15.263] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1049ms]: '**有些情绪是该说给懂的人听**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:15.263] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=888ms]: '**你的热泪比我激动怜惜**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:15.263] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=874ms]: '**我发誓要更努力更有勇气**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:21.930] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=592ms]: '**等下一个天亮**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:25.268] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=751ms]: '**去上次牵手赏花那里散步好吗**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:29.705] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=21ms]: '**有些积雪会自己融化**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:34.163] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=783ms]: '**你的肩膀是我豁达的天堂**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:38.656] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=876ms]: '**等下一个天亮**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:40.893] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**把偷拍我看海的照片送我好吗**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:43:40.893] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=567ms]: '**把偷拍我看海的照片送我好吗**' song=郭静 - 下一个天亮 playing=True channel=None
