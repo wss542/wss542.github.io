@@ -1,10 +1,4 @@
-# 更新于 2026-09-13 21:31:59 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:12:54.136] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ G.E.M.邓紫棋 - 句号**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:12:55.645] [WARNING ] (llm:call_llm_with_tools:610) [83c9ba70c88d40c1] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[2026-09-13 20:12:56.809] [INFO    ] (llm:generate_multi_reply_with_tools:996) [83c9ba70c88d40c1] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["喵~主人晚上好呀！","今天周日过得怎么样？有什么想让我帮忙的嘛~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}}... tool_calls=0)
-[2026-09-13 20:12:56.810] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [83c9ba70c88d40c1] LLM原始输出 [轮1]: content={"replies":["喵~主人晚上好呀！","今天周日过得怎么样？有什么想让我帮忙的嘛~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}} | tool_calls=0
-[2026-09-13 20:12:56.814] [INFO    ] (llm:_parse_reply:1358) [83c9ba70c88d40c1] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-09-13 20:12:56.823] [INFO    ] (fav:update_fav:128) [83c9ba70c88d40c1] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 66
+# 更新于 2026-09-13 21:32:43 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:12:56.823] [INFO    ] (pipeline:process_message:1563) [83c9ba70c88d40c1] 好感度调整: 若尘 ~喵 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
 [2026-09-13 20:12:56.824] [INFO    ] (memory:maybe_save_memory:401) [83c9ba70c88d40c1] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 3 条
 [2026-09-13 20:12:56.824] [INFO    ] (pipeline:process_message:1569) [83c9ba70c88d40c1] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
@@ -1499,3 +1493,9 @@
 [2026-09-13 21:31:51.825] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=29ms]: '**银河已凝结成冰**' song=白挺 - 你从未离去 playing=True channel=None
 [2026-09-13 21:31:55.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=312ms]: '**记忆划过泪滴**' song=白挺 - 你从未离去 playing=True channel=None
 [2026-09-13 21:31:58.472] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=141ms]: '**想象能回到过去**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:32:01.800] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=122ms]: '**终会存在我心底**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:32:04.023] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=142ms]: '**虽然逃避**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:32:07.394] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-09-13 21:32:07.394] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 21:32:07.395] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=704ms]: '**她消失在梦里**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:32:11.797] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=125ms]: '**日出的幻境**' song=白挺 - 你从未离去 playing=True channel=None
