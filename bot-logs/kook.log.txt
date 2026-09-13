@@ -1,4 +1,4 @@
-# 更新于 2026-09-13 20:12:44 · 共 118 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-13 20:13:16 · 共 184 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:25.655] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-13 20:11:25.836] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-13 20:11:42.626] [INFO    ] (logger:info:335) [-] ==================================================
@@ -117,3 +117,69 @@
 [2026-09-13 20:12:23.530] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ MOONBOI - 左边画个虫虫**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 20:12:23.541] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**▶ MOONBOI - 左边画个虫虫**' song=MOONBOI - 左边画个虫虫 playing=True channel=None
 [2026-09-13 20:12:27.273] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=679ms]: '**▶ G.E.M.邓紫棋 - 句号**' song=G.E.M.邓紫棋 - 句号 playing=True channel=None
+[2026-09-13 20:12:47.799] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " 喵~", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_ewMwg-PzBMtkBayQTstAY7MApS8.D3KmesWrcfbtPmkqzljmX3PIo2Jq1Ia9tb-VNfZHkeug6c2uwDbSjffoCvd5FxiyxvRjIxgRaAvnmgxtxQCTepAyDNxCoDSX9nph", "message_scene": {"ext": ["msg_idx=REFIDX_SX1XqdMI0a74SMzZYjsH2rt+x66b+73BB9wGdLxr3NM5XeoW9s2+Zz2Cl1BW1wp6NYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=OKrM4z4gD0mdH85lEEECTiV9MMAJm1-6NDGBuLMmsINQEHuWmcENbCaIOgy4XjqFK6d1PD6tok7VKg3KGxtgx6iwBIdAaMa9MFPknX2EyO80vxdIjOsSqmnbprzdpg"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-13T20:12:46+08:00"}
+[2026-09-13 20:12:47.844] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '喵~'
+[2026-09-13 20:12:47.845] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY7MApS8.D3KmesWrcfbtPmkqzljmX3PIo2Jq1Ia9tb-VNfZHkeug6c2uwDbSjffoCvd5FxiyxvRjIxgRaAvnmgxtxQCTepAyDNxCoDSX9nph
+[2026-09-13 20:12:47.873] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
+[2026-09-13 20:12:47.875] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-13 20:12:48.185] [INFO    ] (identity:_ensure_loaded:92) [83c9ba70c88d40c1] 身份映射已载入 1 条
+[2026-09-13 20:12:48.221] [INFO    ] (memory:merge_overflow_memory:419) [83c9ba70c88d40c1] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+[2026-09-13 20:12:48.395] [DEBUG   ] (pipeline:process_message:508) [83c9ba70c88d40c1] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵~'
+[2026-09-13 20:12:48.400] [INFO    ] (pipeline:process_message:546) [83c9ba70c88d40c1] @机器人检测 → 直接回复
+[2026-09-13 20:12:48.466] [DEBUG   ] (pipeline:process_message:599) [83c9ba70c88d40c1] 请求意图: intent=chat fast_search=False msg='喵~'
+[2026-09-13 20:12:48.991] [WARNING ] (pipeline:process_message:647) [83c9ba70c88d40c1] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-13 20:12:49.359] [INFO    ] (bot:_bg_pc_offline_checker:852) [-] 主电脑恢复通知已发送
+[2026-09-13 20:12:49.678] [DEBUG   ] (memory:_record_memory_trace:318) [83c9ba70c88d40c1] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=583.8ms
+[2026-09-13 20:12:49.696] [INFO    ] (pipeline:process_message:807) [83c9ba70c88d40c1] 额外信息: 229字 (memory=0 search=0)
+[2026-09-13 20:12:49.744] [INFO    ] (pipeline:process_message:944) [83c9ba70c88d40c1] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+[2026-09-13 20:12:49.758] [DEBUG   ] (pipeline:process_message:1073) [83c9ba70c88d40c1] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-13 20:12:49.759] [INFO    ] (pipeline:process_message:1080) [83c9ba70c88d40c1] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 20:12:54.136] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ G.E.M.邓紫棋 - 句号**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 20:12:55.645] [WARNING ] (llm:call_llm_with_tools:610) [83c9ba70c88d40c1] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-13 20:12:56.809] [INFO    ] (llm:generate_multi_reply_with_tools:996) [83c9ba70c88d40c1] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["喵~主人晚上好呀！","今天周日过得怎么样？有什么想让我帮忙的嘛~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}}... tool_calls=0)
+[2026-09-13 20:12:56.810] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [83c9ba70c88d40c1] LLM原始输出 [轮1]: content={"replies":["喵~主人晚上好呀！","今天周日过得怎么样？有什么想让我帮忙的嘛~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}} | tool_calls=0
+[2026-09-13 20:12:56.814] [INFO    ] (llm:_parse_reply:1358) [83c9ba70c88d40c1] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
+[2026-09-13 20:12:56.823] [INFO    ] (fav:update_fav:128) [83c9ba70c88d40c1] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 66
+[2026-09-13 20:12:56.823] [INFO    ] (pipeline:process_message:1563) [83c9ba70c88d40c1] 好感度调整: 若尘 ~喵 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-13 20:12:56.824] [INFO    ] (memory:maybe_save_memory:401) [83c9ba70c88d40c1] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 3 条
+[2026-09-13 20:12:56.824] [INFO    ] (pipeline:process_message:1569) [83c9ba70c88d40c1] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 20:12:56.826] [INFO    ] (logger:log_trace_summary:392) [83c9ba70c88d40c1] [TRACE 83c9ba70c88d40c1] total=8770.07ms severity=slow_request | llm_calls=1 total=6753.0ms avg=6753.0ms max=6753.0ms p50=6753.0 p95=6753.0 p99=6753.0 | json_parse=1.37ms(x1), llm=7055.22ms(x1), memory=1167.97ms(x2), message_retrieval=0.42ms(x1), process=8738.41ms(x1) (wall8738.41), queue_wait=200.59ms(x1)
+[2026-09-13 20:12:56.828] [WARNING ] (logger:log_trace_summary:415) [83c9ba70c88d40c1] [SLOW 83c9ba70c88d40c1] total=8772.6ms | json_parse=1.37ms(x1), llm=7055.22ms(x1), memory=1167.97ms(x2), message_retrieval=0.42ms(x1), process=8738.41ms(x1) (wall8738.41), queue_wait=200.59ms(x1) | llm_calls=1 total=6753.0ms avg=6753.0ms max=6753.0ms p50=6753.0 p95=6753.0 p99=6753.0 | perf: queue=200.59ms llm=7056.59ms search_tool=0.0ms delivery=0.0ms other=9906.8ms wall=8772.57ms dominant=other
+[2026-09-13 20:12:56.829] [DEBUG   ] (response_delivery:send_sentences:283) [83c9ba70c88d40c1] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-13 20:12:56.833] [INFO    ] (llm:call_llm:435) [83c9ba70c88d40c1] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-13 20:12:57.972] [INFO    ] (llm:call_llm:497) [83c9ba70c88d40c1] LLM [deepseek-v4-flash] 返回 95字符 耗时1.1s → "[20:12:56] 若尘 ~喵: 喵~, 茂密回复喵~主人晚上好呀！并问今天周日过得怎么样、有什么..."
+[2026-09-13 20:12:57.980] [INFO    ] (memory:_compress_with_deepseek:210) [83c9ba70c88d40c1] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 3条消息 → 保存
+[2026-09-13 20:12:58.494] [INFO    ] (qq_transport:_send_message:250) [83c9ba70c88d40c1] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=9 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3G-YTqHvXjafqvOJ5O81pWJ0KuJ-xOPNVF69mDIlcxy9hIWZ0GVcIqwS.gXNI.wZXA!!
+[2026-09-13 20:12:58.494] [DEBUG   ] (response_delivery:send_sentences:297) [83c9ba70c88d40c1] 已发送第 1/2 条: 喵~主人晚上好呀！...
+[2026-09-13 20:12:58.494] [DEBUG   ] (response_delivery:send_sentences:294) [83c9ba70c88d40c1] 句间等待 0.54s (#2/2)
+[2026-09-13 20:13:00.475] [INFO    ] (qq_transport:_send_message:250) [83c9ba70c88d40c1] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=21 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3PUrvWP53x2H3VBRDQiwxftJdaFvHsjfsZ2y6J.TGrjYb9ng5X7vbEKwc6bdJMHAnw!!
+[2026-09-13 20:13:00.476] [DEBUG   ] (response_delivery:send_sentences:297) [83c9ba70c88d40c1] 已发送第 2/2 条: 今天周日过得怎么样？有什么想让我帮忙的嘛~...
+[2026-09-13 20:13:00.476] [DEBUG   ] (response_delivery:send_sentences:299) [83c9ba70c88d40c1] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 20:13:00.477] [DEBUG   ] (context_manager:_on_task_done:139) [83c9ba70c88d40c1] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+[2026-09-13 20:13:11.990] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "50D2D55CE2DC9A68D87C0106AB6D5237", "member_openid": "50D2D55CE2DC9A68D87C0106AB6D5237", "member_role": "member", "union_openid": "", "username": "Trusler"}, "content": "  今天不是周一吗()", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_pemTQgndrCqYt8zhb3tGbO5gKxPA2-h15.SSeFgSBOmJR8R79i-wXajJ-pMZtY8fNeOKZiYpShV5PZ7LJUiM19IufQEe5RwYBi8dAbo0fIFtxQCTepAyDNxCoDSX9nph", "message_scene": {"ext": ["ref_msg_idx=REFIDX_TGnFVbLlo9J++yp4D/zG7TQuyM1EIpkMiDzdJ1ShB/QCrBxPDGYu3KLGeCZKa8szNYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "msg_idx=REFIDX_G3LqmNEiFv9yZL+zXSiimOQidyPeYU2MWGP2+hANQS6LQtfVJsgDwX8/kZW3F1fQNYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=I8OdKBOzQrJoTDLLf4CwaxKg48RaTnRvzl9422uDrP4W75GZrdBbh6Qt_CRCzNSvcc43V84uyBz0ueCbNz9YwFoQNHqzpps3EX2Mk
+[2026-09-13 20:13:11.990] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=Trusler role=member union=-]: '今天不是周一吗()'
+[2026-09-13 20:13:11.991] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_pemTQgndrCqYt8zhb3tGbO5gKxPA2-h15.SSeFgSBOmJR8R79i-wXajJ-pMZtY8fNeOKZiYpShV5PZ7LJUiM19IufQEe5RwYBi8dAbo0fIFtxQCTepAyDNxCoDSX9nph
+[2026-09-13 20:13:11.991] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-13 20:13:11.992] [INFO    ] (memory:merge_overflow_memory:419) [c66fe557e0f04559] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+[2026-09-13 20:13:11.995] [DEBUG   ] (pipeline:process_message:508) [c66fe557e0f04559] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='今天不是周一吗()'
+[2026-09-13 20:13:11.996] [INFO    ] (pipeline:process_message:546) [c66fe557e0f04559] @机器人检测 → 直接回复
+[2026-09-13 20:13:11.996] [DEBUG   ] (pipeline:process_message:599) [c66fe557e0f04559] 请求意图: intent=chat fast_search=False msg='今天不是周一吗()'
+[2026-09-13 20:13:11.996] [WARNING ] (pipeline:process_message:647) [c66fe557e0f04559] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-13 20:13:12.003] [DEBUG   ] (memory:_record_memory_trace:318) [c66fe557e0f04559] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.8ms
+[2026-09-13 20:13:12.003] [INFO    ] (pipeline:process_message:807) [c66fe557e0f04559] 额外信息: 1112字 (memory=587 search=0)
+[2026-09-13 20:13:12.005] [INFO    ] (pipeline:process_message:944) [c66fe557e0f04559] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+[2026-09-13 20:13:12.006] [DEBUG   ] (pipeline:process_message:1073) [c66fe557e0f04559] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-13 20:13:12.006] [INFO    ] (pipeline:process_message:1080) [c66fe557e0f04559] 开始生成回复: speaker=Trusler chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 20:13:12.186] [WARNING ] (llm:call_llm_with_tools:610) [c66fe557e0f04559] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-13 20:13:13.345] [INFO    ] (llm:generate_multi_reply_with_tools:996) [c66fe557e0f04559] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["诶？让我看看……今天确实是周日呀喵~","2026年9月13号，日历上写的是星期日哦！"],"fav":1,"calls":[],"face":"疑问","mood":"好奇","action":"歪头看日历","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}}... tool_calls=0)
+[2026-09-13 20:13:13.346] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [c66fe557e0f04559] LLM原始输出 [轮1]: content={"replies":["诶？让我看看……今天确实是周日呀喵~","2026年9月13号，日历上写的是星期日哦！"],"fav":1,"calls":[],"face":"疑问","mood":"好奇","action":"歪头看日历","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}} | tool_calls=0
+[2026-09-13 20:13:13.347] [WARNING ] (face_lib:_init:29) [c66fe557e0f04559] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-09-13 20:13:13.348] [INFO    ] (llm:_parse_reply:1358) [c66fe557e0f04559] JSON回复解析: 2句 fav=+1 calls=0 mood=好奇
+[2026-09-13 20:13:13.349] [INFO    ] (fav:update_fav:128) [c66fe557e0f04559] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:50D2D55CE2DC9A68D87C0106AB6D5237 +1 → 51
+[2026-09-13 20:13:13.349] [INFO    ] (pipeline:process_message:1563) [c66fe557e0f04559] 好感度调整: Trusler +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-13 20:13:13.349] [INFO    ] (pipeline:process_message:1569) [c66fe557e0f04559] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 20:13:13.349] [INFO    ] (logger:log_trace_summary:392) [c66fe557e0f04559] [TRACE c66fe557e0f04559] total=1357.77ms severity=normal | llm_calls=1 total=1338.2ms avg=1338.2ms max=1338.2ms p50=1338.2 p95=1338.2 p99=1338.2 | json_parse=0.03ms(x1), llm=1342.17ms(x1), memory=11.85ms(x2), process=1357.7ms(x1) (wall1357.7), queue_wait=0.66ms(x1)
+[2026-09-13 20:13:13.350] [DEBUG   ] (response_delivery:send_sentences:283) [c66fe557e0f04559] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-13 20:13:14.877] [INFO    ] (qq_transport:_send_message:250) [c66fe557e0f04559] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=18 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3D9R7CSrJjcMmw-773f20HcdTCJAn.YA6Cv3jjm.43sliOoYXN3JZoVkD9S9URv3kg!!
+[2026-09-13 20:13:14.878] [DEBUG   ] (response_delivery:send_sentences:297) [c66fe557e0f04559] 已发送第 1/2 条: 诶？让我看看……今天确实是周日呀喵~...
+[2026-09-13 20:13:14.878] [DEBUG   ] (response_delivery:send_sentences:294) [c66fe557e0f04559] 句间等待 1.44s (#2/2)
