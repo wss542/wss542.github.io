@@ -1,4 +1,4 @@
-# 更新于 2026-09-14 01:07:13 · 共 445 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-14 01:07:43 · 共 463 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:00:06.591] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
 [2026-09-14 00:00:06.596] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-14 00:00:10.198] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260914 — 发送昨日群聊日报
@@ -444,3 +444,21 @@
 [2026-09-14 01:07:11.654] [INFO    ] (pipeline:process_message:978) [b19eee68b7844f5b] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
 [2026-09-14 01:07:11.656] [DEBUG   ] (pipeline:process_message:1107) [b19eee68b7844f5b] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 [2026-09-14 01:07:11.656] [INFO    ] (pipeline:process_message:1114) [b19eee68b7844f5b] 开始生成回复: speaker=ywandwss chat=9844130976336955
+[2026-09-14 01:07:13.942] [INFO    ] (llm:generate_multi_reply_with_tools:1048) [b19eee68b7844f5b] LLM 首调用选择模型: Qwen/Qwen3-Next-80B-A3B-Instruct (content={"replies":["英国没解体啦，还是联合王国喵~","你是不是看到什么假新闻啦？(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]"],"fav":0,"calls":[],"face":"疑问","mood":"好奇","action":"","at":null,"mode":null,"origin":"user","actor":{"nam... tool_calls=0)
+[2026-09-14 01:07:13.943] [INFO    ] (llm:generate_multi_reply_with_tools:1067) [b19eee68b7844f5b] LLM原始输出 [轮1]: content={"replies":["英国没解体啦，还是联合王国喵~","你是不是看到什么假新闻啦？(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]"],"fav":0,"calls":[],"face":"疑问","mood":"好奇","action":"","at":null,"mode":null,"origin":"user","actor":{"nam | tool_calls=0
+[2026-09-14 01:07:13.952] [WARNING ] (face_lib:_init:29) [b19eee68b7844f5b] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
+[2026-09-14 01:07:13.954] [INFO    ] (llm:_parse_reply:1410) [b19eee68b7844f5b] JSON回复解析: 2句 fav=+0 calls=0 mood=好奇
+[2026-09-14 01:07:13.959] [INFO    ] (memory:maybe_save_memory:414) [b19eee68b7844f5b] 触发自动记忆 [9844130976336955]: 2 条
+[2026-09-14 01:07:13.960] [INFO    ] (pipeline:process_message:1603) [b19eee68b7844f5b] ✅ 管道处理完成: 1句 sent chat=9844130976336955
+[2026-09-14 01:07:13.961] [DEBUG   ] (pipeline:process_message:1625) [b19eee68b7844f5b] Fast Path 主题已记录: chat=9844130976336955 topic='@659688244  英国解体了？'
+[2026-09-14 01:07:13.962] [INFO    ] (logger:log_trace_summary:392) [b19eee68b7844f5b] [TRACE b19eee68b7844f5b] total=2588.83ms severity=normal | llm_calls=1 total=2267.32ms avg=2267.32ms max=2267.32ms p50=2267.32 p95=2267.32 p99=2267.32 | json_parse=2.6ms(x1), llm=2297.47ms(x1), memory=54.48ms(x2), process=2588.72ms(x1) (wall2588.72), queue_wait=0.54ms(x1)
+[2026-09-14 01:07:13.963] [DEBUG   ] (response_delivery:send_sentences:283) [b19eee68b7844f5b] 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
+[2026-09-14 01:07:13.964] [INFO    ] (llm:call_llm:435) [b19eee68b7844f5b] 调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+[2026-09-14 01:07:15.019] [DEBUG   ] (response_delivery:send_sentences:297) [b19eee68b7844f5b] 已发送第 1/1 条: 英国没解体啦，还是联合王国喵~
+
+你是不是看到什么假新闻啦？...
+[2026-09-14 01:07:15.019] [DEBUG   ] (response_delivery:send_sentences:299) [b19eee68b7844f5b] 分批发送完成: 共 1 条 → chat=9844130976336955
+[2026-09-14 01:07:15.019] [DEBUG   ] (context_manager:_on_task_done:139) [b19eee68b7844f5b] 发送任务已清理 [9844130976336955]
+[2026-09-14 01:07:15.175] [INFO    ] (llm:call_llm:497) [b19eee68b7844f5b] LLM [deepseek-flash] 返回 154字符 耗时1.2s → "[01:07:13] ywandwss: @659688244 英国解体了？, 茂密: 英国没解体啦..."
+[2026-09-14 01:07:15.177] [INFO    ] (memory:_compress_with_deepseek:223) [b19eee68b7844f5b] [9844130976336955] 压缩完成: 2条消息 → 保存
+[2026-09-14 01:07:24.345] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
