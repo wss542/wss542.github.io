@@ -1,4 +1,4 @@
-# 更新于 2026-09-14 01:06:43 · 共 426 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-14 01:07:13 · 共 445 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:00:06.591] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
 [2026-09-14 00:00:06.596] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 [2026-09-14 00:00:10.198] [INFO    ] (stats:midnight_report_loop:465) [-] 🌅 新的一天 20260914 — 发送昨日群聊日报
@@ -425,3 +425,22 @@
 [2026-09-14 01:06:34.701] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
 [2026-09-14 01:06:35.355] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-14 01:06:35.548] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-14 01:06:54.079] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 01:07:11.053] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-14 01:07:11.369] [INFO    ] (bot:_patched_consume_pkg:263) [-] ✏️ 编辑消息作者反查: id=1759953618 username=wss
+[2026-09-14 01:07:11.370] [INFO    ] (bot:_patched_consume_pkg:299) [-] ✏️ 编辑消息 → dispatcher: mid=d71b7738-8d52-4e93-bdeb-450132af24c2 chat=9844130976336955 type=255
+[2026-09-14 01:07:11.370] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=1 content='(met)659688244(met) 英国解体了？' is_edit=True
+[2026-09-14 01:07:11.370] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c5c6edd710cd4bc7] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-14 01:07:11.372] [INFO    ] (dispatcher:_dispatch_inner:316) [c5c6edd710cd4bc7] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='(met)659688244(met) 英国解体了？'
+[2026-09-14 01:07:11.373] [INFO    ] (queues:_get_or_create_queue:32) [c5c6edd710cd4bc7] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-14 01:07:11.373] [DEBUG   ] (queues:enqueue_message:75) [c5c6edd710cd4bc7] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-14 01:07:11.375] [INFO    ] (memory:merge_overflow_memory:432) [b19eee68b7844f5b] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-14 01:07:11.376] [DEBUG   ] (pipeline:process_message:542) [b19eee68b7844f5b] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  英国解体了？'
+[2026-09-14 01:07:11.377] [INFO    ] (pipeline:process_message:577) [b19eee68b7844f5b] @机器人检测(at_only) → 直接回复
+[2026-09-14 01:07:11.382] [DEBUG   ] (pipeline:process_message:633) [b19eee68b7844f5b] 请求意图: intent=chat fast_search=False msg='@659688244  英国解体了？'
+[2026-09-14 01:07:11.619] [WARNING ] (pipeline:process_message:681) [b19eee68b7844f5b] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-14 01:07:11.649] [DEBUG   ] (memory:_record_memory_trace:331) [b19eee68b7844f5b] 记忆检索: source=legacy_file status=hit 命中注入=8 耗时=27.1ms
+[2026-09-14 01:07:11.653] [INFO    ] (pipeline:process_message:841) [b19eee68b7844f5b] 额外信息: 1228字 (memory=548 search=0)
+[2026-09-14 01:07:11.654] [INFO    ] (pipeline:process_message:978) [b19eee68b7844f5b] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+[2026-09-14 01:07:11.656] [DEBUG   ] (pipeline:process_message:1107) [b19eee68b7844f5b] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-14 01:07:11.656] [INFO    ] (pipeline:process_message:1114) [b19eee68b7844f5b] 开始生成回复: speaker=ywandwss chat=9844130976336955
