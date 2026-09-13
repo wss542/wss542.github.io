@@ -1,21 +1,4 @@
-# 更新于 2026-09-13 23:36:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 21:46:00.711] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**去上次牵手赏花那里散步好吗**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:46:00.712] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=83404ms]: '**去上次牵手赏花那里散步好吗**' song=郭静 - 下一个天亮 playing=True channel=None
-[2026-09-13 21:46:25.180] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=250ms]: '**下一个天亮 - 郭静** *(Claire Guo)*' song=郭静 - 下一个天亮 playing=True channel=None
-[2026-09-13 21:46:25.183] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=239ms]: '**词：姚若龙**' song=郭静 - 下一个天亮 playing=True channel=None
-[2026-09-13 21:46:26.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=724ms]: '**▶ 刀郎 - 冲动的惩罚**' song=刀郎 - 冲动的惩罚 playing=True channel=None
-[2026-09-13 21:46:30.889] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 刀郎 - 冲动的惩罚**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:46:56.456] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=988ms]: '**▶ Queen - We Will Rock You**' song=Queen - We Will Rock You playing=True channel=None
-[2026-09-13 21:46:59.000] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=970ms]: '**▶ Army of Lovers - Crucified**' song=Army of Lovers - Crucified playing=True channel=None
-[2026-09-13 21:47:01.285] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Army of Lovers - Crucified**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:47:04.870] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=601ms]: '**作词 : Jean Pierre/Alexander/Anders Woll Beck**
-`我被钉上那圣十字`' song=Army of Lovers - Crucified playing=True channel=None
-[2026-09-13 21:47:04.871] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=337ms]: '**作曲 : Alexander Bard/Anders Wollbeck**
-`我被钉上那圣十字`' song=Army of Lovers - Crucified playing=True channel=None
-[2026-09-13 21:47:04.871] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=74ms]: '**I'm crucified**
-`我被钉上那圣十字`' song=Army of Lovers - Crucified playing=True channel=None
-[2026-09-13 21:47:05.986] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=37ms]: '**Crucified like my saviour**
-`如我救主般蒙难`' song=Army of Lovers - Crucified playing=True channel=None
+# 更新于 2026-09-13 23:37:00 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 21:47:07.092] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1077ms]: '**Crucified like my saviour**
 `如我救主般蒙难`' song=Army of Lovers - Crucified playing=True channel=None
 [2026-09-13 21:47:07.093] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=89ms]: '**Saintlike behaviour**
@@ -1499,3 +1482,20 @@
 [2026-09-13 23:36:17.811] [DEBUG   ] (response_delivery:send_sentences:299) [ed51edbf11a842e1] 分批发送完成: 共 1 条 → chat=9844130976336955
 [2026-09-13 23:36:17.812] [DEBUG   ] (context_manager:_on_task_done:139) [ed51edbf11a842e1] 发送任务已清理 [9844130976336955]
 [2026-09-13 23:36:17.881] [INFO    ] (llm:call_llm:497) [ed51edbf11a842e1] LLM [deepseek-v4-flash] 返回 2字符 耗时0.8s → "{}"
+[2026-09-13 23:36:25.977] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7572)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-13 23:36:36.813] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 23:36:36.813] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商 DeepSeek' is_edit=False
+[2026-09-13 23:36:36.814] [DEBUG   ] (dispatcher:_dispatch_inner:110) [99654451e9b24e58] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 23:36:36.814] [INFO    ] (dispatcher:_dispatch_inner:316) [99654451e9b24e58] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商 DeepSeek'
+[2026-09-13 23:36:36.814] [DEBUG   ] (queues:enqueue_message:75) [99654451e9b24e58] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 23:36:36.815] [INFO    ] (memory:merge_overflow_memory:419) [d12b08004de84deb] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 4条 (阈值=10)
+[2026-09-13 23:36:36.816] [INFO    ] (pipeline:process_message:478) [d12b08004de84deb] 指令拦截: '/供应商 DeepSeek' from=ywandwss
+[2026-09-13 23:36:36.816] [DEBUG   ] (commands:handle_command:4840) [d12b08004de84deb] 指令解析: prefix=/ cmd=供应商 args=['DeepSeek'] user=1759953618
+[2026-09-13 23:36:36.823] [INFO    ] (logger:info:335) [d12b08004de84deb] 保留 fetch_me 注入的 bot_id: 659688244
+[2026-09-13 23:36:36.823] [INFO    ] (logger:info:335) [d12b08004de84deb] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+[2026-09-13 23:36:36.823] [INFO    ] (commands:cmd_provider:1485) [d12b08004de84deb] 供应商切换: MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 -> DEEPSEEK/deepseek-v4-flash (by ywandwss)
+[2026-09-13 23:36:36.823] [INFO    ] (commands:handle_command:4895) [d12b08004de84deb] 指令执行完成 [供应商]: 返回70字符
+[2026-09-13 23:36:37.405] [INFO    ] (logger:log_trace_summary:392) [d12b08004de84deb] [TRACE d12b08004de84deb] total=589.67ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=589.63ms(x1) (wall589.63), queue_wait=0.62ms(x1)
+[2026-09-13 23:36:41.732] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+[2026-09-13 23:36:41.732] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 23:36:56.284] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7572)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
