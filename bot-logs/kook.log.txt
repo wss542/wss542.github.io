@@ -1,34 +1,4 @@
-# 更新于 2026-09-13 21:27:03 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:11:47.048] [INFO    ] (notify_system:check_github_update:737) [-] 更新检查跳过: 本地 09a8ac5 非远程 cc70605 祖先（已领先/分叉），不弹卡片
-[2026-09-13 20:11:47.065] [INFO    ] (bot:_bg_pc_offline_checker:812) [-] PC 掉线检测: 启动时心跳已超时(610837s 前)，掉线状态延续，不重复告警
-[2026-09-13 20:11:47.066] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 610837s 前）
-[2026-09-13 20:11:47.070] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-13 20:11:47.291] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-13 20:11:47.292] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-13 20:11:47.292] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-13 20:11:47.292] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-13 20:11:47.293] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-13 20:11:47.293] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-13 20:11:48.060] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-13 20:11:48.061] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-13 20:11:48.448] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=57 cpu=None mem=None
-[2026-09-13 20:11:48.454] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 20:11:49.218] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-13 20:11:49.375] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-13 20:11:50.289] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-13 → 周日
-[2026-09-13 20:11:50.291] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-13 20:11:50.292] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 13695 秒 (下次 00:00:05)
-[2026-09-13 20:11:52.640] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 6 条新记录
-[2026-09-13 20:11:52.643] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h49m 后执行 (00:01)
-[2026-09-13 20:11:52.781] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ 黄霄雲 - 星辰大海**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:11:52.781] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=179938ms]: '**▶ 黄霄雲 - 星辰大海**' song=黄霄雲 - 星辰大海 playing=True channel=None
-[2026-09-13 20:11:56.330] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-13 20:11:56.334] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-13 20:11:56.334] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-13 20:11:56.340] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-13 20:11:57.015] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
-[2026-09-13 20:11:57.474] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-13 20:11:57.787] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+# 更新于 2026-09-13 21:30:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:12:23.530] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ MOONBOI - 左边画个虫虫**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 20:12:23.541] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**▶ MOONBOI - 左边画个虫虫**' song=MOONBOI - 左边画个虫虫 playing=True channel=None
 [2026-09-13 20:12:27.273] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=679ms]: '**▶ G.E.M.邓紫棋 - 句号**' song=G.E.M.邓紫棋 - 句号 playing=True channel=None
@@ -1499,3 +1469,33 @@
 [2026-09-13 21:27:03.432] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=25263ms]: '**灯火葳蕤 揉皱你眼眉**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
 [2026-09-13 21:27:03.433] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=752ms]: '**风雪依稀秋白发尾**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
 [2026-09-13 21:27:03.433] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=717ms]: '**灯火葳蕤 揉皱你眼眉**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:06.763] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=477ms]: '**假如你舍一滴泪 假如老去我能陪**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:08.984] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**假如你舍一滴泪 假如老去我能陪**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:27:12.329] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=247ms]: '**烟波里成灰 也去得完美**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:32.318] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=169ms]: '**作词 : Vagary**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:32.320] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=168ms]: '**作曲 : 银临**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:32.321] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=137ms]: '**编/混：灰原穷**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:27:32.321] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=122ms]: '**海报：苏澈白**' song=银临 / Aki阿杰 - 牵丝戏 playing=True channel=None
+[2026-09-13 21:29:40.787] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ MKJ - Time (Official)**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:29:40.788] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=128080ms]: '**▶ MKJ - Time (Official)**' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.967] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8926ms]: '**It’s about time you let go of negative people and habits a' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.968] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8558ms]: '**It’s okay to waste time, but only on things you truly love' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.968] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=5871ms]: '**It’s much too precious to waste on anger and fear**
+`把时间用在' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.970] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2992ms]: '**Remember time doesn’t change anything, it’s you that chang' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.970] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2236ms]: '**It’s okay to waste time, but only on things you truly love' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.971] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2198ms]: '**It’s much too precious to waste on anger and fear**
+`把时间用在' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:53.972] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2170ms]: '**Remember time doesn’t change anything, it’s you that chang' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:29:57.560] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1002ms]: '**We are all traveling through life at the same speed, sixty' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:02.023] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=653ms]: '**And if this is not the hour, when will be?**
+`（这个道理）你现在（这一' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:05.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=681ms]: '**When will you realize that this is the time of your life?*' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:08.705] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=63ms]: '**The past is merely a dream and the future merely a prayer*' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:10.941] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**The past is merely a dream and the future merely' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:30:13.169] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=156ms]: '**Your future starts right here, right now, not tomorrow**
+`' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:18.724] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1090ms]: '**The most important moment of your life is this one**
+`你人生中' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:30:22.060] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=248ms]: '**It’s about time**
+`是时候了`' song=MKJ - Time (Official) playing=True channel=None
