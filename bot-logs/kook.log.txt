@@ -1,18 +1,4 @@
-# 更新于 2026-09-13 21:17:33 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:11:44.242] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-13 20:11:44.368] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-13 20:11:44.368] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-13 20:11:44.373] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-13 20:11:44.377] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-13 20:11:44.378] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-13 20:11:44.381] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-13 20:11:44.381] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-13 20:11:44.382] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-13 20:11:44.387] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:11:44.388] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-13 20:11:44.389] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-13 20:11:44.392] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-13 20:11:44.617] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-09-13 21:18:25 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:44.617] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 [2026-09-13 20:11:44.619] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
 [2026-09-13 20:11:44.656] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1485,17 @@
 [2026-09-13 21:17:28.291] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I remember what you said to me**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 21:17:28.292] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=984ms]: '**I remember what you said to me**' song=Ashes Remain - On My Own playing=True channel=None
 [2026-09-13 21:17:29.418] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=142ms]: '**I don't have to fight alone**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:35.120] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=935ms]: '**Break me out**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:36.260] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=750ms]: '**Come and find me in the dark now**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:38.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=972ms]: '**Every day by myself I'm breaking down**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:41.939] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=571ms]: '**I don't wanna fight alone anymore**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:45.354] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=257ms]: '**Break me out**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:47.585] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=957ms]: '**From the prison of my own pride**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:48.689] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-1ms]: '**My God, I need a hope I can't deny**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:52.052] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=651ms]: '**In the end I'm realizing**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:55.473] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=874ms]: '**I was never meant to fight on my own**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:58.859] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**I was never meant to fight on my own**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:18:14.725] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=833ms]: '**▶ LIKPIA - 夏·烟火**' song=LIKPIA - 夏·烟火 playing=True channel=None
+[2026-09-13 21:18:22.730] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=55ms]: '**作词 : 无**' song=LIKPIA - 夏·烟火 playing=True channel=None
+[2026-09-13 21:18:23.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=909ms]: '**作曲 : LIKPIA**' song=LIKPIA - 夏·烟火 playing=True channel=None
+[2026-09-13 21:18:23.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=733ms]: '**纯音乐，请欣赏**' song=LIKPIA - 夏·烟火 playing=True channel=None
