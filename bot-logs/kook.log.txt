@@ -1,42 +1,4 @@
-# 更新于 2026-09-13 22:12:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:41:36.390] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-13 20:41:36.406] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-13 20:41:36.407] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-13 20:41:36.407] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-13 20:41:36.408] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-13 20:41:36.409] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-13 20:41:36.410] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-13 20:41:36.410] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-13 20:41:36.411] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-13 20:41:36.413] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-13 20:41:36.413] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-13 20:41:36.414] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-13 20:41:36.415] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-13 20:41:36.416] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-13 20:41:36.416] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-13 20:41:36.416] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-13 20:41:36.421] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-13 20:41:36.421] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-13 20:41:36.424] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-13 20:41:36.424] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-13 20:41:36.424] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-13 20:41:36.425] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-13 20:41:36.426] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-13 20:41:36.426] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-13 20:41:36.426] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-13 20:41:36.426] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:41:36.426] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-13 20:41:36.426] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:41:36.426] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-13 20:41:36.428] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-13 20:41:36.494] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-13 20:41:36.495] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-13 20:41:36.496] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h19m 后执行 (00:01)
-[2026-09-13 20:41:36.518] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-13 20:41:51.537] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-[2026-09-13 20:41:51.548] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 34s 前）
-[2026-09-13 20:41:51.551] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-13 20:41:51.562] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+# 更新于 2026-09-13 22:13:35 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:41:51.562] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 [2026-09-13 20:41:51.562] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 [2026-09-13 20:41:51.562] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
@@ -1499,3 +1461,41 @@
 `哪怕有时我们伤害了彼此`' song=KOKIA - ありがとう・・・ playing=True channel=None
 [2026-09-13 22:12:15.427] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=836ms]: '**あなたを感じていたい**
 `我也希望能够感觉到你的存在`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:22.289] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**あなたを感じていたい**
+`我也希望能够感觉到你的存在`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:12:33.563] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=35ms]: '**作词 : KOKIA**' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:33.563] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=33ms]: '**作曲 : KOKIA**' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:33.563] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=16ms]: '**编曲 : 日向敏文**' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:34.808] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=814ms]: '**▶ 程佳佳 - 山楂树之恋**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:39.479] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=221ms]: '**原唱 : 雷智皓** *(大能人)*' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:39.480] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=222ms]: '**作词 : 大能人**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:39.481] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=221ms]: '**原唱 : 雷智皓** *(大能人)*' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:40.600] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1071ms]: '**作词 : 大能人**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:40.600] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=514ms]: '**作曲 : 编曲采样《情歌》前奏**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:40.600] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=506ms]: '**出品 : 网易音乐人 X 青云LAB**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:41.774] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=766ms]: '**作曲 : 编曲采样《情歌》前奏**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:41.774] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=766ms]: '**出品 : 网易音乐人 X 青云LAB**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:46.345] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=383ms]: '**我的山楂树之恋**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:49.777] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=786ms]: '**只有是和你才会纯洁**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:52.050] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=114ms]: '**可以丢弃**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:53.166] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**我的底线**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:12:53.166] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=57ms]: '**我的底线**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:55.419] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=377ms]: '**锁定与你的是我视线**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:12:58.812] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=737ms]: '**我的山楂树之恋**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:02.158] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=966ms]: '**永远站在你的身边**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:04.434] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=388ms]: '**我保证我的爱不会变**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:06.718] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=226ms]: '**共享永恒时间**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:07.832] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=328ms]: '**像蝴蝶起舞翩翩**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:11.239] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=793ms]: '**每次懊恼在于相见恨晚**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:13.497] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=153ms]: '**不管相隔的距离是长**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:15.723] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=216ms]: '**或是短**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:16.830] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=340ms]: '**能在一起的时候不要快只想慢**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:20.239] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=529ms]: '**想和你有个孩子**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:21.439] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=284ms]: '**围着你团团转**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:23.670] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**世界变化不停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:13:23.670] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1026ms]: '**世界变化不停**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:24.777] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=655ms]: '**人潮川流不息**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:25.938] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=290ms]: '**不在乎沉淀你肩膀上的经历**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:29.274] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=687ms]: '**让你少份畏惧**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:30.409] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=158ms]: '**还你一颗少女心**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:32.682] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=770ms]: '**有一种超凡动力是为你而打拼**' song=程佳佳 - 山楂树之恋 playing=True channel=None
