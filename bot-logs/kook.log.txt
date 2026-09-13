@@ -1,18 +1,4 @@
-# 更新于 2026-09-13 22:09:24 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:41:33.638] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-13 20:41:33.680] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:41:35.425] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:41:35.425] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-13 20:41:35.426] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:41:35.429] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-13 20:41:35.429] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-13 20:41:35.431] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-13 20:41:35.432] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-13 20:41:35.432] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-13 20:41:35.432] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-13 20:41:35.433] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-13 20:41:35.764] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-13 20:41:35.764] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+# 更新于 2026-09-13 22:10:15 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:41:35.782] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
 [2026-09-13 20:41:35.782] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
 [2026-09-13 20:41:36.296] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
@@ -1499,3 +1485,17 @@
 `就像不能言语的人偶一样`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 22:09:24.162] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=21ms]: '**街角に溢れたノラネコのように**
 `就像流浪在街角的无主的猫一样`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:09:30.986] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=800ms]: '**声にならない叫びが聞こえてくる**
+`听到的都是不能辨认声音`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:09:37.773] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1068ms]: '**もしも もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:09:44.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=564ms]: '**たった一言伝えたい**
+`只想对你说一句`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:09:49.362] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**たった一言伝えたい**
+`只想对你说一句`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:09:50.955] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=126ms]: '**ありがとう  ありがとう**
+`谢谢，谢谢`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:05.834] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=727ms]: '**時には傷つけあっても**
+`哪怕有时我们伤害了彼此`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:13.709] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=961ms]: '**あなたを感じていたい**
+`我也希望能够感觉到你的存在`' song=KOKIA - ありがとう・・・ playing=True channel=None
