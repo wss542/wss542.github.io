@@ -1,67 +1,4 @@
-# 更新于 2026-09-13 21:59:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:30:13.738] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-13 20:30:13.738] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-13 20:30:13.739] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-13 20:30:13.739] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-13 20:30:13.740] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-13 20:30:13.740] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-13 20:30:13.740] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-13 20:30:13.743] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-13 20:30:13.743] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-13 20:30:13.743] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-13 20:30:13.744] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-13 20:30:13.744] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-13 20:30:13.744] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-13 20:30:13.745] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-13 20:30:13.745] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-13 20:30:13.745] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-13 20:30:13.745] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:30:13.745] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-13 20:30:13.745] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:30:13.746] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-13 20:30:13.748] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-13 20:30:14.088] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-13 20:30:14.097] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-13 20:30:14.098] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h30m 后执行 (00:01)
-[2026-09-13 20:30:14.156] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-13 20:30:17.133] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 47s 前）
-[2026-09-13 20:30:17.135] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-13 20:30:17.182] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-13 20:30:17.183] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-13 20:30:17.183] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-13 20:30:17.183] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-13 20:30:17.183] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-13 20:30:17.183] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-13 20:30:17.299] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-13 20:30:17.299] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-13 20:30:17.403] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-09-13 20:30:17.403] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 20:30:19.195] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-13 20:30:19.647] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-13 → 周日
-[2026-09-13 20:30:19.647] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-13 20:30:19.647] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 12585 秒 (下次 00:00:05)
-[2026-09-13 20:30:21.211] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-13 20:30:21.211] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-13 20:30:21.212] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-13 20:30:21.213] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-13 20:30:21.466] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-13 20:30:21.469] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 6096s
-[2026-09-13 20:30:21.970] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-13 20:30:22.178] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-13 20:30:22.731] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14265)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
-[2026-09-13 20:30:30.350] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-13 20:30:55.093] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14265)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:31:25.744] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14265)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:31:53.058] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=9412ms]: '**▶ 汪苏泷 / By2 - 有点甜**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:31:58.103] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14265)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**词：汪苏泷**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:31:58.104] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=795ms]: '**词：汪苏泷**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:31:58.104] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=468ms]: '**曲：汪苏泷**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:31:59.224] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=805ms]: '**汪苏泷、BY2 - 有点甜** *(《萌三国》网游主题曲|《微微一笑很倾城》电视剧插曲)*' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:32:01.682] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=788ms]: '**汪：摘一颗苹果**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:32:01.682] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=774ms]: '**等你从门前经过**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:32:02.810] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=770ms]: '**送到你的手中帮你解渴**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:32:06.282] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=652ms]: '**BY2：像夏天的可乐**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
-[2026-09-13 20:32:21.206] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=539ms]: '**汪：已经约定过**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
+# 更新于 2026-09-13 22:03:57 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:32:21.207] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=442ms]: '**一起过下个周末**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
 [2026-09-13 20:32:21.207] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=434ms]: '**你的小小情绪对我来说**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
 [2026-09-13 20:32:24.611] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=740ms]: '**BY2：我也不知为何**' song=汪苏泷 / By2 - 有点甜 playing=True channel=None
@@ -1499,3 +1436,66 @@
 [2026-09-13 21:58:57.216] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=646ms]: '**夏天的风 正暖暖吹过**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
 [2026-09-13 21:59:01.781] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1063ms]: '**穿过头发穿过耳朵**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
 [2026-09-13 21:59:05.133] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=426ms]: '**你和我的夏天风轻轻说着**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:07.399] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**你和我的夏天风轻轻说着**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:59:13.052] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=503ms]: '**七月的风懒懒的**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:16.450] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=168ms]: '**连云都变热热的**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:21.030] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=559ms]: '**不久后天闷闷的 一阵云后雨下过 唔耶耶耶耶**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:31.329] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1228ms]: '**气温 爬升到无法再忍受**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:36.765] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=475ms]: '**索性闭上了双眼**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:37.930] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**索性闭上了双眼**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:59:40.183] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=894ms]: '**让想象任意改变**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:44.669] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=682ms]: '**场景 两个人一起散着步**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:49.189] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=541ms]: '**我的脸也轻轻贴着你胸口**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:53.760] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1089ms]: '**听到心跳 哦**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 21:59:56.057] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=976ms]: '**在乎我 和天气一样温度**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:00.667] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=306ms]: '**夏天的风 我永远记得**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:05.247] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=614ms]: '**清清楚楚的说你爱我**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:08.665] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**清清楚楚的说你爱我**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:00:09.839] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=969ms]: '**我看见你酷酷的笑容 也有腼腆的时候**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:16.639] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=176ms]: '**夏天的风 正暖暖吹过**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:21.104] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=355ms]: '**穿过头发穿过耳朵**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:25.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1053ms]: '**你和我的夏天**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:27.905] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=553ms]: '**风轻轻说着**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:32.461] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 22:00:32.461] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:00:34.657] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=662ms]: '**温柔懒懒的海风 吹到高高的山峰**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:37.993] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=191ms]: '**温的风 山的风 吹成了山风**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:39.153] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**温的风 山的风 吹成了山风**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:00:42.538] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=635ms]: '**温柔懒懒的海风**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:44.760] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=870ms]: '**吹到高高的山峰**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:45.880] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=10ms]: '**温的风 山的风 吹成了山风**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:50.801] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=743ms]: '**温柔懒懒的海风**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:52.626] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=728ms]: '**吹到高高的山峰**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:54.924] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=950ms]: '**温的风 山的风 吹成了山风**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:00:58.319] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=185ms]: '**为什么你不在**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:00.553] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=639ms]: '**问山风你会回来**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:05.054] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1088ms]: '**场景 两个人一起散着步**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:09.611] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**我的脸也轻轻贴着你胸口**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:01:09.614] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1110ms]: '**我的脸也轻轻贴着你胸口**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:12.951] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=218ms]: '**听到心跳 哦**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:15.205] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=408ms]: '**在乎我 和天气一样温度**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:20.811] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=511ms]: '**夏天的风 我永远记得**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:25.303] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=637ms]: '**清清楚楚的说你爱我**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:28.703] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=228ms]: '**我看见你酷酷的笑容 也有腼腆的时候**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:36.671] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 22:01:36.671] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:01:36.673] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=137ms]: '**夏天的风 正暖暖吹过**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:40.015] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**夏天的风 正暖暖吹过**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:01:41.126] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1002ms]: '**穿过头发穿过耳朵**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:44.524] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=86ms]: '**你和我的夏天**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:01:47.952] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=882ms]: '**风轻轻说着**' song=火羊瞌睡了 - 夏天的风 playing=True channel=None
+[2026-09-13 22:02:07.292] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 22:02:07.293] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:02:10.532] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**风轻轻说着**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:02:16.135] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=28ms]: '**▶ 和田薫 - ふたりの気持ち**' song=和田薫 - ふたりの気持ち playing=True channel=None
+[2026-09-13 22:02:23.391] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1072ms]: '**作曲 : 和田薫**' song=和田薫 - ふたりの気持ち playing=True channel=None
+[2026-09-13 22:02:23.392] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1059ms]: '**纯音乐，请欣赏**' song=和田薫 - ふたりの気持ち playing=True channel=None
+[2026-09-13 22:02:38.090] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 22:02:38.091] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:02:41.514] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:02:53.322] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 22:02:53.322] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:03:11.935] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:03:42.416] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:03:54.499] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-09-13 22:03:54.499] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
