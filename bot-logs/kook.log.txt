@@ -1,18 +1,4 @@
-# 更新于 2026-09-13 21:40:48 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:28.254] [INFO    ] (qq_transport:_send_message:250) [0731434cba384aff] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=22 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3M-S9p8xZXe8mUenVxUiHeJ5oWYz6kp-6KiDDGBHL67yg-MM4oPJbnCKMWmUQFyCdw!!
-[2026-09-13 20:13:28.255] [DEBUG   ] (response_delivery:send_sentences:297) [0731434cba384aff] 已发送第 1/2 条: 诶？让我再想想……9月13号确实是周日呀喵~...
-[2026-09-13 20:13:28.255] [DEBUG   ] (response_delivery:send_sentences:294) [0731434cba384aff] 句间等待 1.00s (#2/2)
-[2026-09-13 20:13:30.761] [INFO    ] (qq_transport:_send_message:250) [0731434cba384aff] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=22 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3EysL.W8ZRli7N-WKoYCxF5ydUeTdzYg4Y-2XxeWIKNCghA12eEtIzM-hqG9Gf3OGA!!
-[2026-09-13 20:13:30.762] [DEBUG   ] (response_delivery:send_sentences:297) [0731434cba384aff] 已发送第 2/2 条: 不过也可能是我记岔了，你说是周几就是周几吧！...
-[2026-09-13 20:13:30.762] [DEBUG   ] (response_delivery:send_sentences:299) [0731434cba384aff] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-13 20:13:30.763] [DEBUG   ] (context_manager:_on_task_done:139) [0731434cba384aff] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
-[2026-09-13 20:13:38.707] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "50D2D55CE2DC9A68D87C0106AB6D5237", "member_openid": "50D2D55CE2DC9A68D87C0106AB6D5237", "member_role": "member", "union_openid": "", "username": "Trusler"}, "content": "  date字段返回的是旧数据", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_pemTQgndrCqYt8zhb3tGbK7LGkXPc4QYNuYJh716OW2tQPCkQVMK69i4jjQJj4gnXUcsPJtyd1SYIt0UN7OGXuTcEEJJBdbM.zYOCeoRWcNtxQCTepAyDNxCoDSX9nph", "message_scene": {"ext": ["ref_msg_idx=REFIDX_i/tjZbtjKgafKGI2Nuv/yzQuyM1EIpkMiDzdJ1ShB/QCrBxPDGYu3KLGeCZKa8szNYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "msg_idx=REFIDX_uyjHVlcT1XDv6XG0C9OzO+QidyPeYU2MWGP2+hANQS6LQtfVJsgDwX8/kZW3F1fQNYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=pIlBPfbyzOcLEJlKGIh4d5W4ENnAOgUBsXfr1ZAQiwX5LYS70TiMkO4FPTY4ViNAbab8TfWDhDzSNUHw-zIl87nvT2INsdVrd
-[2026-09-13 20:13:38.709] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=Trusler role=member union=-]: 'date字段返回的是旧数据'
-[2026-09-13 20:13:38.710] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_pemTQgndrCqYt8zhb3tGbK7LGkXPc4QYNuYJh716OW2tQPCkQVMK69i4jjQJj4gnXUcsPJtyd1SYIt0UN7OGXuTcEEJJBdbM.zYOCeoRWcNtxQCTepAyDNxCoDSX9nph
-[2026-09-13 20:13:38.710] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-13 20:13:38.713] [INFO    ] (memory:merge_overflow_memory:419) [d41164f3b4f84d72] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 4条 (阈值=10)
-[2026-09-13 20:13:38.714] [DEBUG   ] (pipeline:process_message:508) [d41164f3b4f84d72] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='date字段返回的是旧数据'
-[2026-09-13 20:13:38.715] [INFO    ] (pipeline:process_message:546) [d41164f3b4f84d72] @机器人检测 → 直接回复
+# 更新于 2026-09-13 21:41:25 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:38.715] [DEBUG   ] (pipeline:process_message:599) [d41164f3b4f84d72] 请求意图: intent=chat fast_search=False msg='date字段返回的是旧数据'
 [2026-09-13 20:13:38.716] [WARNING ] (pipeline:process_message:647) [d41164f3b4f84d72] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
 [2026-09-13 20:13:38.729] [DEBUG   ] (memory:_record_memory_trace:318) [d41164f3b4f84d72] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=11.6ms
@@ -1499,3 +1485,17 @@
 [2026-09-13 21:40:33.028] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 [2026-09-13 21:40:33.028] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-13 21:40:45.994] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=227ms]: '**I am falling**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:40:51.196] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 21:40:51.196] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 21:40:51.197] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2907ms]: '**I am fading**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:40:51.540] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I am drowning**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:40:51.540] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=696ms]: '**I am drowning**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:40:52.939] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-13 21:40:53.552] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-13 21:40:53.751] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-13 21:40:53.775] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=403ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:40:56.003] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=121ms]: '**I am hurting**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:40:59.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=901ms]: '**I have lost it all**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:01.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=388ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:03.784] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=108ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:21.814] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Help me to breathe**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
