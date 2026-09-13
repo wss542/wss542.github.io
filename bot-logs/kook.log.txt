@@ -1,11 +1,4 @@
-# 更新于 2026-09-13 21:43:43 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:44.171] [DEBUG   ] (response_delivery:send_sentences:299) [d41164f3b4f84d72] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-13 20:13:44.171] [DEBUG   ] (context_manager:_on_task_done:139) [d41164f3b4f84d72] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
-[2026-09-13 20:13:44.394] [INFO    ] (llm:generate_multi_reply_with_tools:996) [d2b36c7f3e8f479a] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["好嘞主人~那就是我看错啦，不纠结这个了喵！","那主人今晚想让我陪你做点啥呀？"],"fav":2,"calls":[],"face":"开心1","mood":"开心","action":"歪头","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}}... tool_calls=0)
-[2026-09-13 20:13:44.397] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [d2b36c7f3e8f479a] LLM原始输出 [轮1]: content={"replies":["好嘞主人~那就是我看错啦，不纠结这个了喵！","那主人今晚想让我陪你做点啥呀？"],"fav":2,"calls":[],"face":"开心1","mood":"开心","action":"歪头","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}} | tool_calls=0
-[2026-09-13 20:13:44.398] [INFO    ] (llm:_parse_reply:1358) [d2b36c7f3e8f479a] JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-[2026-09-13 20:13:44.399] [INFO    ] (fav:update_fav:128) [d2b36c7f3e8f479a] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 68
-[2026-09-13 20:13:44.400] [INFO    ] (pipeline:process_message:1563) [d2b36c7f3e8f479a] 好感度调整: 若尘 ~喵 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+# 更新于 2026-09-13 21:44:24 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:44.401] [INFO    ] (pipeline:process_message:1569) [d2b36c7f3e8f479a] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-13 20:13:44.402] [INFO    ] (logger:log_trace_summary:392) [d2b36c7f3e8f479a] [TRACE d2b36c7f3e8f479a] total=1164.38ms severity=normal | llm_calls=1 total=1129.38ms avg=1129.38ms max=1129.38ms p50=1129.38 p95=1129.38 p99=1129.38 | json_parse=0.08ms(x1), llm=1134.9ms(x1), memory=23.65ms(x2), process=1164.25ms(x1) (wall1164.25), queue_wait=1.52ms(x1)
 [2026-09-13 20:13:44.402] [DEBUG   ] (response_delivery:send_sentences:283) [d2b36c7f3e8f479a] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
@@ -1499,3 +1492,10 @@
 [2026-09-13 21:43:38.656] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=876ms]: '**等下一个天亮**' song=郭静 - 下一个天亮 playing=True channel=None
 [2026-09-13 21:43:40.893] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**把偷拍我看海的照片送我好吗**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 21:43:40.893] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=567ms]: '**把偷拍我看海的照片送我好吗**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:46.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1061ms]: '**我喜欢我飞舞的头发**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:43:49.797] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=768ms]: '**和飘着雨还是眺望的眼光**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:44:04.243] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=690ms]: '**用简单的言语**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:44:07.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=206ms]: '**解开超载的心**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:44:10.894] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**解开超载的心**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:44:11.999] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=552ms]: '**有些情绪是该说给懂的人听**' song=郭静 - 下一个天亮 playing=True channel=None
+[2026-09-13 21:44:19.792] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=429ms]: '**你的热泪比我激动怜惜**' song=郭静 - 下一个天亮 playing=True channel=None
