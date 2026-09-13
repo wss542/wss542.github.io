@@ -1,23 +1,4 @@
-# 更新于 2026-09-13 22:13:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:41:51.562] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-13 20:41:51.562] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-13 20:41:51.562] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-13 20:41:51.563] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-13 20:41:51.563] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-13 20:41:51.773] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-13 20:41:51.774] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-13 20:41:51.936] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-09-13 20:41:51.938] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 20:41:53.616] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-13 20:41:53.618] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-13 20:41:53.847] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 5628)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Somehow**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:41:53.847] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=11248ms]: '**Somehow**' song=橘子海 (Orange Ocean) - 夏日漱石 (Sum playing=True channel=None
-[2026-09-13 20:41:53.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=9251ms]: '**Realize**' song=橘子海 (Orange Ocean) - 夏日漱石 (Sum playing=True channel=None
-[2026-09-13 20:41:53.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=6745ms]: '**Fathers calling down**' song=橘子海 (Orange Ocean) - 夏日漱石 (Sum playing=True channel=None
-[2026-09-13 20:41:53.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2191ms]: '**This time**' song=橘子海 (Orange Ocean) - 夏日漱石 (Sum playing=True channel=None
-[2026-09-13 20:41:53.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-88ms]: '**Love blinds**' song=橘子海 (Orange Ocean) - 夏日漱石 (Sum playing=True channel=None
-[2026-09-13 20:41:53.869] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-13 → 周日
-[2026-09-13 20:41:53.870] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+# 更新于 2026-09-13 22:14:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:41:53.870] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 11891 秒 (下次 00:00:05)
 [2026-09-13 20:41:55.461] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-09-13 20:41:55.463] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
@@ -1499,3 +1480,22 @@
 [2026-09-13 22:13:29.274] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=687ms]: '**让你少份畏惧**' song=程佳佳 - 山楂树之恋 playing=True channel=None
 [2026-09-13 22:13:30.409] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=158ms]: '**还你一颗少女心**' song=程佳佳 - 山楂树之恋 playing=True channel=None
 [2026-09-13 22:13:32.682] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=770ms]: '**有一种超凡动力是为你而打拼**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:36.081] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=981ms]: '**爱你的坦诚**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:37.206] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1051ms]: '**像一面清澈的湖水**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:38.390] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=367ms]: '**就算眼睛肿了我也觉得世上你最美**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:41.727] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=705ms]: '**许愿十年之后你在我的枕边睡**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:44.003] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=67ms]: '**我用我的嘴巴抚平你一天的疲惫**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:47.406] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=387ms]: '**心里总有期待所以过的度日如年**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:50.828] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=551ms]: '**每天会关注你生活的片片面面**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:54.186] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**你说心里话的时候我像在充电**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:13:54.191] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1041ms]: '**你说心里话的时候我像在充电**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:56.624] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=514ms]: '**不理睬的时候我只能自己去找空间**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:13:59.967] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=735ms]: '**我的山楂树之恋**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:03.358] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1013ms]: '**只有是和你才会纯洁**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:05.594] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=337ms]: '**可以丢弃**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:06.746] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=300ms]: '**我的底线**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:09.014] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=663ms]: '**锁定与你的是我视线**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:12.424] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=980ms]: '**我的山楂树之恋**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:14.711] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=187ms]: '**永远站在你的身边**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:18.072] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=643ms]: '**我保证我的爱不会变**' song=程佳佳 - 山楂树之恋 playing=True channel=None
+[2026-09-13 22:14:20.336] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=500ms]: '**共享永恒时间**' song=程佳佳 - 山楂树之恋 playing=True channel=None
