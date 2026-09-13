@@ -1,18 +1,4 @@
-# 更新于 2026-09-13 22:10:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:41:35.782] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-13 20:41:35.782] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-13 20:41:36.296] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-13 20:41:36.327] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-13 20:41:36.327] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-13 20:41:36.329] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-13 20:41:36.330] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-13 20:41:36.330] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-13 20:41:36.331] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-13 20:41:36.331] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-13 20:41:36.331] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-13 20:41:36.342] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:41:36.342] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-13 20:41:36.342] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+# 更新于 2026-09-13 22:10:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:41:36.343] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
 [2026-09-13 20:41:36.370] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
 [2026-09-13 20:41:36.370] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
@@ -1499,3 +1485,17 @@
 `哪怕有时我们伤害了彼此`' song=KOKIA - ありがとう・・・ playing=True channel=None
 [2026-09-13 22:10:13.709] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=961ms]: '**あなたを感じていたい**
 `我也希望能够感觉到你的存在`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:19.385] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**あなたを感じていたい**
+`我也希望能够感觉到你的存在`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:10:21.711] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=703ms]: '**思いではせめてもの慰め**
+`即使只有回忆来安慰`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:27.531] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=970ms]: '**いつまでもあなたはここにいる**
+`无论何时你都在此处`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:33.383] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=463ms]: '**もしも  もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:50.694] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**もしも  もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:10:50.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=9923ms]: '**たった一言伝えたい**
+`只想对你说一句`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:50.695] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3198ms]: '**ありがとう  ありがとう**
+`谢谢，谢谢`' song=KOKIA - ありがとう・・・ playing=True channel=None
