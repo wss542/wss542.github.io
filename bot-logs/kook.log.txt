@@ -1,39 +1,4 @@
-# 更新于 2026-09-13 23:17:18 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 21:10:34.709] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-13 21:10:34.710] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-13 21:10:34.710] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-13 21:10:34.710] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-13 21:10:34.712] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-13 21:10:34.713] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-13 21:10:34.713] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-13 21:10:34.714] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-13 21:10:34.714] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 21:10:34.714] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-13 21:10:34.714] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 21:10:34.715] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-13 21:10:34.717] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-13 21:10:34.780] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-13 21:10:34.783] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-13 21:10:34.787] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 2h50m 后执行 (00:01)
-[2026-09-13 21:10:34.818] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-13 21:10:38.057] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 48s 前）
-[2026-09-13 21:10:38.059] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-13 21:10:38.068] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-13 21:10:38.068] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-13 21:10:38.068] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-13 21:10:38.068] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-13 21:10:38.069] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-13 21:10:38.069] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-13 21:10:50.333] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-13 21:10:50.333] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-13 21:10:50.506] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=85 cpu=None mem=None
-[2026-09-13 21:10:50.506] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 21:10:50.513] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-13 21:10:50.515] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-13 21:10:50.517] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-13 21:10:50.517] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-13 21:10:50.518] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:10:50.519] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 10154 秒 (下次 00:00:05)
+# 更新于 2026-09-13 23:17:48 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 21:10:51.597] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
 [2026-09-13 21:10:51.598] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-09-13 21:10:51.598] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
@@ -1499,3 +1464,38 @@
 [2026-09-13 23:16:11.976] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-13 23:16:33.105] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 23:17:03.506] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 23:17:33.406] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "65CF09CABE1EF16FA2EA2EC26F8B57C4", "member_openid": "65CF09CABE1EF16FA2EA2EC26F8B57C4", "member_role": "member", "union_openid": "", "username": "ᗜ𖥦ᗜ"}, "content": "  1", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_DsbLEZB1pWbsScpLUh7KjanAL58RQxGpvuF6Pzhh9y3qSuh34kqD-VsfqjRDO4MOKaVr5rEewTBi8ot56zz.ZByV2HN8LCzeX5H4fa6fsOeIlze7Ex3zZzqoE7-LnMT9", "message_scene": {"ext": ["msg_idx=REFIDX_aBTelSqCyn2Uz4L7S0m0vRw1ooG+qjToBwhK8I2dhD8JkbOvOlJp8zAoZZjgJ7axNYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=NktojiQXIbK5R6WmSKbf9Bwzz6wiyTA3eyPfrdEMD_tF3tIN2_gfNQsLuEUyu8_kkcYKo2EVdngn1ouTl5bXgMdDkpEYWeIwfwysjCS-NF2zZ1fULyALIWE"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-13T23:17:32+08:00"}
+[2026-09-13 23:17:33.407] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=ᗜ𖥦ᗜ role=member union=-]: '1'
+[2026-09-13 23:17:33.407] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_DsbLEZB1pWbsScpLUh7KjanAL58RQxGpvuF6Pzhh9y3qSuh34kqD-VsfqjRDO4MOKaVr5rEewTBi8ot56zz.ZByV2HN8LCzeX5H4fa6fsOeIlze7Ex3zZzqoE7-LnMT9
+[2026-09-13 23:17:33.407] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+[2026-09-13 23:17:33.409] [INFO    ] (memory:merge_overflow_memory:419) [734bbd8b00ed4199] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 8条 (阈值=10)
+[2026-09-13 23:17:33.410] [DEBUG   ] (pipeline:process_message:542) [734bbd8b00ed4199] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='1'
+[2026-09-13 23:17:33.410] [INFO    ] (pipeline:process_message:580) [734bbd8b00ed4199] @机器人检测 → 直接回复
+[2026-09-13 23:17:33.410] [DEBUG   ] (pipeline:process_message:633) [734bbd8b00ed4199] 请求意图: intent=chat fast_search=False msg='1'
+[2026-09-13 23:17:33.410] [WARNING ] (pipeline:process_message:681) [734bbd8b00ed4199] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+[2026-09-13 23:17:33.421] [DEBUG   ] (memory:_record_memory_trace:318) [734bbd8b00ed4199] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=9.7ms
+[2026-09-13 23:17:33.422] [INFO    ] (pipeline:process_message:841) [734bbd8b00ed4199] 额外信息: 1272字 (memory=680 search=0)
+[2026-09-13 23:17:33.423] [INFO    ] (pipeline:process_message:978) [734bbd8b00ed4199] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+[2026-09-13 23:17:33.423] [DEBUG   ] (pipeline:process_message:1107) [734bbd8b00ed4199] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+[2026-09-13 23:17:33.423] [INFO    ] (pipeline:process_message:1114) [734bbd8b00ed4199] 开始生成回复: speaker=ᗜ𖥦ᗜ chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 23:17:33.617] [WARNING ] (llm:call_llm_with_tools:610) [734bbd8b00ed4199] LLM FC strict 模式失败，回退普通调用: Error code: 404
+[2026-09-13 23:17:33.816] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 23:17:34.633] [INFO    ] (llm:generate_multi_reply_with_tools:996) [734bbd8b00ed4199] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["喵~ 收到一个「1」，是在跟我打招呼嘛？","有什么想让我帮忙的，直接说就好啦~"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ᗜ𖥦ᗜ","qq":0}}... tool_calls=0)
+[2026-09-13 23:17:34.634] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [734bbd8b00ed4199] LLM原始输出 [轮1]: content={"replies":["喵~ 收到一个「1」，是在跟我打招呼嘛？","有什么想让我帮忙的，直接说就好啦~"],"fav":1,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"ᗜ𖥦ᗜ","qq":0}} | tool_calls=0
+[2026-09-13 23:17:34.634] [INFO    ] (llm:_parse_reply:1358) [734bbd8b00ed4199] JSON回复解析: 2句 fav=+1 calls=0 mood=开心
+[2026-09-13 23:17:34.636] [INFO    ] (fav:update_fav:128) [734bbd8b00ed4199] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:65CF09CABE1EF16FA2EA2EC26F8B57C4 +1 → 51
+[2026-09-13 23:17:34.636] [INFO    ] (pipeline:process_message:1597) [734bbd8b00ed4199] 好感度调整: ᗜ𖥦ᗜ +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+[2026-09-13 23:17:34.636] [INFO    ] (memory:maybe_save_memory:401) [734bbd8b00ed4199] 触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 26 条
+[2026-09-13 23:17:34.636] [INFO    ] (pipeline:process_message:1603) [734bbd8b00ed4199] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 23:17:34.637] [INFO    ] (logger:log_trace_summary:392) [734bbd8b00ed4199] [TRACE 734bbd8b00ed4199] total=1228.61ms severity=normal | llm_calls=1 total=1209.27ms avg=1209.27ms max=1209.27ms p50=1209.27 p95=1209.27 p99=1209.27 | json_parse=0.05ms(x1), llm=1211.27ms(x1), memory=19.65ms(x2), process=1228.51ms(x1) (wall1228.51), queue_wait=0.69ms(x1)
+[2026-09-13 23:17:34.637] [DEBUG   ] (response_delivery:send_sentences:283) [734bbd8b00ed4199] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+[2026-09-13 23:17:34.638] [INFO    ] (llm:call_llm:435) [734bbd8b00ed4199] 调用LLM [deepseek-v4-flash] url=v1 tokens=300 temp=0.2 timeout=15.0s
+[2026-09-13 23:17:36.442] [INFO    ] (qq_transport:_send_message:250) [734bbd8b00ed4199] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=20 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Pzl9-5q1izs80NKQFH1-CTq9DrDTPaiAJmYsXT4FX8pn0sNvNWaNRl.o13pgSZ2NA!!
+[2026-09-13 23:17:36.442] [DEBUG   ] (response_delivery:send_sentences:297) [734bbd8b00ed4199] 已发送第 1/2 条: 喵~ 收到一个「1」，是在跟我打招呼嘛？...
+[2026-09-13 23:17:36.442] [DEBUG   ] (response_delivery:send_sentences:294) [734bbd8b00ed4199] 句间等待 0.63s (#2/2)
+[2026-09-13 23:17:36.512] [INFO    ] (llm:call_llm:497) [734bbd8b00ed4199] LLM [deepseek-v4-flash] 返回 537字符 耗时1.9s → "[23:17:34] 若尘 ~喵: /wdsj me, 请输入文本, 茂密回复喵？主人这是把输入框的..."
+[2026-09-13 23:17:36.514] [INFO    ] (memory:_compress_with_deepseek:210) [734bbd8b00ed4199] [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 26条消息 → 保存
+[2026-09-13 23:17:38.675] [INFO    ] (qq_transport:_send_message:250) [734bbd8b00ed4199] QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=17 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3LKMJXbTtISfeNqJ5DK8TY-E7xwSO3X3Ju7KK1idtrzHe3pI125vbbB9ZQdznxdQmA!!
+[2026-09-13 23:17:38.675] [DEBUG   ] (response_delivery:send_sentences:297) [734bbd8b00ed4199] 已发送第 2/2 条: 有什么想让我帮忙的，直接说就好啦~...
+[2026-09-13 23:17:38.675] [DEBUG   ] (response_delivery:send_sentences:299) [734bbd8b00ed4199] 分批发送完成: 共 2 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+[2026-09-13 23:17:38.675] [DEBUG   ] (context_manager:_on_task_done:139) [734bbd8b00ed4199] 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
