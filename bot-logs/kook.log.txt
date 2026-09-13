@@ -1,38 +1,4 @@
-# 更新于 2026-09-13 22:21:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:48:48.425] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-13 20:48:48.426] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-13 20:48:48.426] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-13 20:48:48.427] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-13 20:48:48.428] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-13 20:48:48.428] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-13 20:48:48.428] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-13 20:48:48.429] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-13 20:48:48.429] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-13 20:48:48.434] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-13 20:48:48.435] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-13 20:48:48.435] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-13 20:48:48.436] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-13 20:48:48.436] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-13 20:48:48.438] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-13 20:48:48.438] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-13 20:48:48.439] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-13 20:48:48.440] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-13 20:48:48.440] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-13 20:48:48.441] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-13 20:48:48.441] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-13 20:48:48.442] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-13 20:48:48.442] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-13 20:48:48.442] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-13 20:48:48.444] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-13 20:48:48.444] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-13 20:48:48.445] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-13 20:48:48.445] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-13 20:48:48.445] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-13 20:48:48.445] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-13 20:48:48.446] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-13 20:48:48.446] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] ==================================================
+# 更新于 2026-09-13 22:24:43 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
 [2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
@@ -1499,3 +1465,37 @@
 [2026-09-13 22:21:00.080] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=145ms]: '**散り行く花火の欠片**' song=Otokaze - 夏恋 playing=True channel=None
 [2026-09-13 22:21:03.462] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**散り行く花火の欠片**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 22:21:05.696] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=632ms]: '**誘う夏の夜の終わり**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:10.267] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=406ms]: '**あと少しだけ もう少しだけ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:15.880] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=450ms]: '**空に願い乗せ輝いて**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:21.782] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=970ms]: '**パッと咲く打ち上げ花火**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:24.131] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=964ms]: '**その美しさ故に儚く脆い**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:26.379] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=411ms]: '**遅い初夏訪れ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:28.605] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=646ms]: '**今宵 夜空で舞い踊る火花の群れ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:32.025] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=676ms]: '**枝垂れ落ちる真夏の夜の夢**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:34.305] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**熱帯夜に心地よい涼風**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:21:34.305] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=424ms]: '**熱帯夜に心地よい涼風**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:36.625] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=130ms]: '**空から降り騒ぐ蝉時雨**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:38.756] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=39ms]: '**夏闌 秋隣指す道標**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:42.199] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=93ms]: '**夕涼み 見渡す限り**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:44.426] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=408ms]: '**朱色の空に響く遠雷**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:46.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=487ms]: '**向日葵濡らし 夏の終わり**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:50.094] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1103ms]: '**近づくように風薫り風鈴鳴らし**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:52.434] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=213ms]: '**遠くに聞こえる祭の音**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:55.796] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1112ms]: '**季節移り変わる夏も僅かで**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:21:58.096] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=749ms]: '**星の欠片見上げ重ねる手**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:00.324] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=406ms]: '**神様 お願い もう少しだけ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:02.643] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-1ms]: '**散り行く花火の欠片**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:04.915] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**散り行く花火の欠片**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:22:08.252] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=660ms]: '**誘う夏の夜の終わり**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:12.761] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=301ms]: '**あと少しだけ もう少しだけ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:18.562] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=593ms]: '**空に願い乗せ輝いて**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:21.695] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:22:23.263] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=62ms]: '**雨あがりの夏嵐**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:28.913] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=500ms]: '**いつかと同じ風が伝う**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:33.420] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=135ms]: '**もう一度だけ もう一度だけ**' song=Otokaze - 夏恋 playing=True channel=None
+[2026-09-13 22:22:35.671] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**もう一度だけ もう一度だけ**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:22:36.785] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=537ms]: '**⏸ 已暂停**' song=Otokaze - 夏恋 playing=False channel=None
+[2026-09-13 22:23:06.184] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:23:36.767] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:24:07.166] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:24:37.797] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
