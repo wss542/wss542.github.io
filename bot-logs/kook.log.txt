@@ -1,10 +1,4 @@
-# 更新于 2026-09-14 06:49:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 00:16:40.337] [INFO    ] (llm:call_llm:497) [456ddc8176714bb1] LLM [glm-4-flash] 返回 263字符 耗时8.1s → "[[3090677846298039, "9saMVKjGB0k00k0"], {"replies"..."
-[2026-09-14 00:16:40.339] [INFO    ] (memory:maybe_save_memory:401) [456ddc8176714bb1] 触发自动记忆 [9844130976336955]: 5 条
-[2026-09-14 00:16:40.340] [INFO    ] (pipeline:process_message:1603) [456ddc8176714bb1] ✅ 管道处理完成: 1句 sent chat=9844130976336955
-[2026-09-14 00:16:40.340] [DEBUG   ] (pipeline:process_message:1625) [456ddc8176714bb1] Fast Path 主题已记录: chat=9844130976336955 topic='@659688244  英国解体了？'
-[2026-09-14 00:16:40.340] [INFO    ] (logger:log_trace_summary:392) [456ddc8176714bb1] [TRACE 456ddc8176714bb1] total=14366.31ms severity=very_slow_request | llm_calls=4 total=14258.76ms avg=3564.69ms max=8095.01ms p50=2941.06 p95=7637.85 p99=8003.58 | json_parse=0.07ms(x1), llm=14298.4ms(x1), memory=29.54ms(x2), process=14366.24ms(x1) (wall14366.24), queue_wait=0.69ms(x1)
-[2026-09-14 00:16:40.341] [WARNING ] (logger:log_trace_summary:410) [456ddc8176714bb1] [VERY_SLOW 456ddc8176714bb1] total=14366.6ms 需重点排查 | json_parse=0.07ms(x1), llm=14298.4ms(x1), memory=29.54ms(x2), process=14366.24ms(x1) (wall14366.24), queue_wait=0.69ms(x1) | llm_calls=4 total=14258.76ms avg=3564.69ms max=8095.01ms p50=2941.06 p95=7637.85 p99=8003.58 | perf: queue=0.69ms llm=14298.47ms search_tool=0.0ms delivery=0.0ms other=14395.78ms wall=14366.58ms dominant=other
+# 更新于 2026-09-14 06:50:16 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:16:40.342] [DEBUG   ] (response_delivery:send_sentences:283) [456ddc8176714bb1] 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
 [2026-09-14 00:16:40.343] [INFO    ] (llm:call_llm:435) [456ddc8176714bb1] 调用LLM [Qwen/Qwen3-235B-A22B] url=v1 tokens=300 temp=0.2 timeout=15.0s
 [2026-09-14 00:16:40.934] [DEBUG   ] (response_delivery:send_sentences:297) [456ddc8176714bb1] 已发送第 1/1 条: 茂密: 哇，英国解体了？这可是个大新闻呢！让我查查最新的消息...
@@ -1499,3 +1493,9 @@
 [2026-09-14 06:48:18.429] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6323)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-14 06:48:48.682] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6323)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-14 06:49:19.424] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6323)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 06:49:49.650] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6323)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 06:50:09.131] [INFO    ] (guild_names:refresh_guild_meta:259) [-] ✅ 服务器名缓存刷新完成，共 2 个服务器
+[2026-09-14 06:50:09.351] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+[2026-09-14 06:50:09.501] [INFO    ] (guild_names:refresh_guild:163) [-] ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+[2026-09-14 06:50:09.501] [INFO    ] (guild_names:_do_refresh_all:205) [-] ✅ guild_names 每日全量刷新完成，共 2 个服务器
+[2026-09-14 06:50:09.502] [INFO    ] (guild_names:_loop:332) [-] guild_names: 距下次全量刷新 72591 秒
