@@ -1,22 +1,4 @@
-# 更新于 2026-09-13 21:31:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:12:27.273] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=679ms]: '**▶ G.E.M.邓紫棋 - 句号**' song=G.E.M.邓紫棋 - 句号 playing=True channel=None
-[2026-09-13 20:12:47.799] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " 喵~", "group_id": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "group_openid": "59B3DFC78FF2CF2CF3C1C9A25E3F617F", "id": "ROBOT1.0_ewMwg-PzBMtkBayQTstAY7MApS8.D3KmesWrcfbtPmkqzljmX3PIo2Jq1Ia9tb-VNfZHkeug6c2uwDbSjffoCvd5FxiyxvRjIxgRaAvnmgxtxQCTepAyDNxCoDSX9nph", "message_scene": {"ext": ["msg_idx=REFIDX_SX1XqdMI0a74SMzZYjsH2rt+x66b+73BB9wGdLxr3NM5XeoW9s2+Zz2Cl1BW1wp6NYSdHZwewtCwMcyVd5NfIF02ftjiKAw+ZTW9GocPrPF1wpKqc1tj2qrhDfP8oXxH", "auth_token=OKrM4z4gD0mdH85lEEECTiV9MMAJm1-6NDGBuLMmsINQEHuWmcENbCaIOgy4XjqFK6d1PD6tok7VKg3KGxtgx6iwBIdAaMa9MFPknX2EyO80vxdIjOsSqmnbprzdpg"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-13T20:12:46+08:00"}
-[2026-09-13 20:12:47.844] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '喵~'
-[2026-09-13 20:12:47.845] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY7MApS8.D3KmesWrcfbtPmkqzljmX3PIo2Jq1Ia9tb-VNfZHkeug6c2uwDbSjffoCvd5FxiyxvRjIxgRaAvnmgxtxQCTepAyDNxCoDSX9nph
-[2026-09-13 20:12:47.873] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
-[2026-09-13 20:12:47.875] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-13 20:12:48.185] [INFO    ] (identity:_ensure_loaded:92) [83c9ba70c88d40c1] 身份映射已载入 1 条
-[2026-09-13 20:12:48.221] [INFO    ] (memory:merge_overflow_memory:419) [83c9ba70c88d40c1] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
-[2026-09-13 20:12:48.395] [DEBUG   ] (pipeline:process_message:508) [83c9ba70c88d40c1] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵~'
-[2026-09-13 20:12:48.400] [INFO    ] (pipeline:process_message:546) [83c9ba70c88d40c1] @机器人检测 → 直接回复
-[2026-09-13 20:12:48.466] [DEBUG   ] (pipeline:process_message:599) [83c9ba70c88d40c1] 请求意图: intent=chat fast_search=False msg='喵~'
-[2026-09-13 20:12:48.991] [WARNING ] (pipeline:process_message:647) [83c9ba70c88d40c1] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-09-13 20:12:49.359] [INFO    ] (bot:_bg_pc_offline_checker:852) [-] 主电脑恢复通知已发送
-[2026-09-13 20:12:49.678] [DEBUG   ] (memory:_record_memory_trace:318) [83c9ba70c88d40c1] 记忆检索: source=legacy_file status=miss 命中注入=0 耗时=583.8ms
-[2026-09-13 20:12:49.696] [INFO    ] (pipeline:process_message:807) [83c9ba70c88d40c1] 额外信息: 229字 (memory=0 search=0)
-[2026-09-13 20:12:49.744] [INFO    ] (pipeline:process_message:944) [83c9ba70c88d40c1] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-[2026-09-13 20:12:49.758] [DEBUG   ] (pipeline:process_message:1073) [83c9ba70c88d40c1] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-09-13 20:12:49.759] [INFO    ] (pipeline:process_message:1080) [83c9ba70c88d40c1] 开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+# 更新于 2026-09-13 21:31:59 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:12:54.136] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 12868)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ G.E.M.邓紫棋 - 句号**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 20:12:55.645] [WARNING ] (llm:call_llm_with_tools:610) [83c9ba70c88d40c1] LLM FC strict 模式失败，回退普通调用: Error code: 404
 [2026-09-13 20:12:56.809] [INFO    ] (llm:generate_multi_reply_with_tools:996) [83c9ba70c88d40c1] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["喵~主人晚上好呀！","今天周日过得怎么样？有什么想让我帮忙的嘛~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"若尘 ~喵","qq":0}}... tool_calls=0)
@@ -1499,3 +1481,21 @@
 `是时候了`' song=MKJ - Time (Official) playing=True channel=None
 [2026-09-13 21:30:50.847] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**It’s about time**
 `是时候了`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:31:20.910] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**It’s about time**
+`是时候了`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:31:21.481] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+[2026-09-13 21:31:21.481] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 21:31:28.705] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=17ms]: '**作词 : Mahmoud Jaff**' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:31:28.706] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4ms]: '**作曲 : MKJ**' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:31:28.708] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-24ms]: '**编曲 : MKJ**' song=MKJ - Time (Official) playing=True channel=None
+[2026-09-13 21:31:29.813] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=786ms]: '**▶ 白挺 - 你从未离去**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:37.388] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1034ms]: '**你从未离去 - 白挺/熊出没**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:37.390] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1021ms]: '**词：崔铁志/万秦**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:38.500] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=35ms]: '**词：崔铁志/万秦**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:40.723] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=956ms]: '**曲：李智平**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:45.160] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=91ms]: '**浩瀚星空里**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:48.499] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=165ms]: '**只剩你的背影**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:51.824] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**银河已凝结成冰**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:31:51.825] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=29ms]: '**银河已凝结成冰**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:55.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=312ms]: '**记忆划过泪滴**' song=白挺 - 你从未离去 playing=True channel=None
+[2026-09-13 21:31:58.472] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=141ms]: '**想象能回到过去**' song=白挺 - 你从未离去 playing=True channel=None
