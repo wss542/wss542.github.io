@@ -1,4 +1,4 @@
-# 更新于 2026-09-13 20:55:14 · 共 1150 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-13 20:55:44 · 共 1180 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:25.655] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-13 20:11:25.836] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-13 20:11:42.626] [INFO    ] (logger:info:335) [-] ==================================================
@@ -1149,3 +1149,33 @@
 [2026-09-13 20:55:05.606] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=557ms]: '**所有都快要毁灭**' song=南征北战NZBZ - 我的天空 playing=True channel=None
 [2026-09-13 20:55:07.970] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=374ms]: '**至少我还有梦**' song=南征北战NZBZ - 我的天空 playing=True channel=None
 [2026-09-13 20:55:10.207] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=160ms]: '**也为你而感动**' song=南征北战NZBZ - 我的天空 playing=True channel=None
+[2026-09-13 20:55:14.201] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1059ms]: '**原来黎明的起点**' song=南征北战NZBZ - 我的天空 playing=True channel=None
+[2026-09-13 20:55:15.164] [INFO    ] (qq_bot:_handle:153) [-] QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " 测试喵", "group_id": "6EAA5C6B3896ED18FE5C82835C474A29", "group_openid": "6EAA5C6B3896ED18FE5C82835C474A29", "id": "ROBOT1.0_YxmTtz-NTQbFrJK.TurTmi0oDncuKSolPEqUxtWJx3Fj.DCJyl3gW2s.Bta339LXjQx1PE81YEAhWwEqMwVEOsztwBOiy5bp8Vh-BOPXxEUNIqrVm3QhC6-bhktADRFg", "message_scene": {"ext": ["msg_idx=REFIDX_S6AVezP2lm16x7s9wwGyfKaFkniRoiud0WVGP6qDNP2fGnTFQNgiVAhTafIGhZEBEd8WobbEBTKwDFFKpBCsdODTGCusypycM0MKBmAuo9OelTQg+1JdSU5L846/C86c", "auth_token=D8MUM5wAt9SSZTvu2k4J192bvr2gI_jqEIUOHO86wqHoSRBn4sIGtZVla_lvjUtG34xo42UPlxRjArAJ0E5gslHDGX4rZSDOHYh_3khZCylHX-wmOWjwJDyafBuJ"], "source": "default"}, "message_type": 0, "timestamp": "2026-09-13T20:55:13+08:00"}
+[2026-09-13 20:55:15.166] [INFO    ] (qq_bot:_handle:231) [-] QQ 消息 [chat=qq:6EAA5C6B3896ED18FE5C82835C474A29 group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '测试喵'
+[2026-09-13 20:55:15.166] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=6EAA5C6B3896ED18FE5C82835C474A29 group=True msg_id=ROBOT1.0_YxmTtz-NTQbFrJK.TurTmi0oDncuKSolPEqUxtWJx3Fj.DCJyl3gW2s.Bta339LXjQx1PE81YEAhWwEqMwVEOsztwBOiy5bp8Vh-BOPXxEUNIqrVm3QhC6-bhktADRFg
+[2026-09-13 20:55:15.166] [INFO    ] (queues:_get_or_create_queue:32) [-] [队列] 创建群qq:6EAA5C6B3896ED18FE5C82835C474A29 的独立消息队列
+[2026-09-13 20:55:15.166] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:6EAA5C6B3896ED18FE5C82835C474A29 消息已入队 (队长度=1)
+[2026-09-13 20:55:15.171] [INFO    ] (identity:_ensure_loaded:92) [9559ea82cf4a40f1] 身份映射已载入 1 条
+[2026-09-13 20:55:15.187] [INFO    ] (pipeline:process_message:511) [9559ea82cf4a40f1] 🤖 正则自动回复命中: '测试喵' -> '收到喵～（QQ/KOOK 共用的自动回复）' [chat=qq:6EAA5C6B3896ED18FE5C82835C474A29]
+[2026-09-13 20:55:15.498] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 20:55:15.499] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='(met)659688244(met) 测试喵' is_edit=False
+[2026-09-13 20:55:15.499] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f46fa87e5db64ad9] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 20:55:15.501] [INFO    ] (dispatcher:_dispatch_inner:316) [f46fa87e5db64ad9] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='(met)659688244(met) 测试喵'
+[2026-09-13 20:55:15.504] [INFO    ] (queues:_get_or_create_queue:32) [f46fa87e5db64ad9] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-13 20:55:15.504] [DEBUG   ] (queues:enqueue_message:75) [f46fa87e5db64ad9] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 20:55:15.507] [INFO    ] (memory:merge_overflow_memory:419) [877d7059cfb444f2] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-13 20:55:15.508] [INFO    ] (pipeline:process_message:511) [877d7059cfb444f2] 🤖 正则自动回复命中: '测试喵' -> '收到喵～（QQ/KOOK 共用的自动回复）' [chat=9844130976336955]
+[2026-09-13 20:55:16.247] [INFO    ] (logger:log_trace_summary:392) [877d7059cfb444f2] [TRACE 877d7059cfb444f2] total=742.14ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=742.06ms(x1) (wall742.06), queue_wait=1.08ms(x1)
+[2026-09-13 20:55:16.433] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=408ms]: '**就在我的心里面**' song=南征北战NZBZ - 我的天空 playing=True channel=None
+[2026-09-13 20:55:16.854] [INFO    ] (qq_transport:_send_message:250) [9559ea82cf4a40f1] QQ 群发送成功(被动) msg_type=0 openid=6EAA5C6B3896ED18FE5C82835C474A29 len=21 seq=1 id=ROBOT1.0_XYSRqzq99bzEow7R2PNN6XWwygqc6IXYkFyOjVgNH6CnTm7Og3OnNfG1w430XEQB2-tNCKanZetQbJGODAJ.cw!!
+[2026-09-13 20:55:16.857] [INFO    ] (logger:log_trace_summary:392) [9559ea82cf4a40f1] [TRACE 9559ea82cf4a40f1] total=1690.36ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1690.21ms(x1) (wall1690.21), queue_wait=0.43ms(x1)
+[2026-09-13 20:55:18.518] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-78ms]: '**只要我还有梦**' song=南征北战NZBZ - 我的天空 playing=True channel=None
+[2026-09-13 20:55:21.994] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=290ms]: '**▶ 接个吻，开一枪 / SaMZIng - 烟袋斜街**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:28.613] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14165)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**作曲 : 接个吻，开一枪**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 20:55:28.614] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=61ms]: '**作曲 : 接个吻，开一枪**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:28.716] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**编曲 : 接个吻，开一枪/SaMZIng**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:28.717] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=164ms]: '**制作人 : 接个吻，开一枪**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:28.718] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=133ms]: '**作曲 : 接个吻，开一枪**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:29.824] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=841ms]: '**编曲 : 接个吻，开一枪/SaMZIng**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:29.825] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=568ms]: '**制作人 : 接个吻，开一枪**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+[2026-09-13 20:55:32.237] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=929ms]: '**纯音乐，请欣赏**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
