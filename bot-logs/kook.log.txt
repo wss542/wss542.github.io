@@ -1,4 +1,4 @@
-# 更新于 2026-09-13 20:27:49 · 共 417 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-13 20:28:27 · 共 424 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:25.655] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-13 20:11:25.836] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
 [2026-09-13 20:11:42.626] [INFO    ] (logger:info:335) [-] ==================================================
@@ -416,3 +416,10 @@
 [2026-09-13 20:27:34.933] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 12750 秒 (下次 00:00:05)
 [2026-09-13 20:27:48.078] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 [2026-09-13 20:27:48.078] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 20:27:49.963] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-09-13 20:27:49.964] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-09-13 20:27:49.964] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-09-13 20:27:49.964] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-13 20:27:50.343] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 6247s
+[2026-09-13 20:27:50.845] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-13 20:27:53.322] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
