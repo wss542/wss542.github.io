@@ -1,23 +1,4 @@
-# 更新于 2026-09-13 21:36:11 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:11.991] [INFO    ] (qq_bot:_handle:242) [-] QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_pemTQgndrCqYt8zhb3tGbO5gKxPA2-h15.SSeFgSBOmJR8R79i-wXajJ-pMZtY8fNeOKZiYpShV5PZ7LJUiM19IufQEe5RwYBi8dAbo0fIFtxQCTepAyDNxCoDSX9nph
-[2026-09-13 20:13:11.991] [DEBUG   ] (queues:enqueue_message:75) [-] [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-[2026-09-13 20:13:11.992] [INFO    ] (memory:merge_overflow_memory:419) [c66fe557e0f04559] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
-[2026-09-13 20:13:11.995] [DEBUG   ] (pipeline:process_message:508) [c66fe557e0f04559] 回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='今天不是周一吗()'
-[2026-09-13 20:13:11.996] [INFO    ] (pipeline:process_message:546) [c66fe557e0f04559] @机器人检测 → 直接回复
-[2026-09-13 20:13:11.996] [DEBUG   ] (pipeline:process_message:599) [c66fe557e0f04559] 请求意图: intent=chat fast_search=False msg='今天不是周一吗()'
-[2026-09-13 20:13:11.996] [WARNING ] (pipeline:process_message:647) [c66fe557e0f04559] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-09-13 20:13:12.003] [DEBUG   ] (memory:_record_memory_trace:318) [c66fe557e0f04559] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.8ms
-[2026-09-13 20:13:12.003] [INFO    ] (pipeline:process_message:807) [c66fe557e0f04559] 额外信息: 1112字 (memory=587 search=0)
-[2026-09-13 20:13:12.005] [INFO    ] (pipeline:process_message:944) [c66fe557e0f04559] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-[2026-09-13 20:13:12.006] [DEBUG   ] (pipeline:process_message:1073) [c66fe557e0f04559] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-09-13 20:13:12.006] [INFO    ] (pipeline:process_message:1080) [c66fe557e0f04559] 开始生成回复: speaker=Trusler chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-[2026-09-13 20:13:12.186] [WARNING ] (llm:call_llm_with_tools:610) [c66fe557e0f04559] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[2026-09-13 20:13:13.345] [INFO    ] (llm:generate_multi_reply_with_tools:996) [c66fe557e0f04559] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["诶？让我看看……今天确实是周日呀喵~","2026年9月13号，日历上写的是星期日哦！"],"fav":1,"calls":[],"face":"疑问","mood":"好奇","action":"歪头看日历","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}}... tool_calls=0)
-[2026-09-13 20:13:13.346] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [c66fe557e0f04559] LLM原始输出 [轮1]: content={"replies":["诶？让我看看……今天确实是周日呀喵~","2026年9月13号，日历上写的是星期日哦！"],"fav":1,"calls":[],"face":"疑问","mood":"好奇","action":"歪头看日历","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}} | tool_calls=0
-[2026-09-13 20:13:13.347] [WARNING ] (face_lib:_init:29) [c66fe557e0f04559] 表情目录不存在: /home/qwq/huanmeng-bot-v2/data/faces
-[2026-09-13 20:13:13.348] [INFO    ] (llm:_parse_reply:1358) [c66fe557e0f04559] JSON回复解析: 2句 fav=+1 calls=0 mood=好奇
-[2026-09-13 20:13:13.349] [INFO    ] (fav:update_fav:128) [c66fe557e0f04559] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:50D2D55CE2DC9A68D87C0106AB6D5237 +1 → 51
-[2026-09-13 20:13:13.349] [INFO    ] (pipeline:process_message:1563) [c66fe557e0f04559] 好感度调整: Trusler +1 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+# 更新于 2026-09-13 21:38:32 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:13.349] [INFO    ] (pipeline:process_message:1569) [c66fe557e0f04559] ✅ 管道处理完成: 2句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 [2026-09-13 20:13:13.349] [INFO    ] (logger:log_trace_summary:392) [c66fe557e0f04559] [TRACE c66fe557e0f04559] total=1357.77ms severity=normal | llm_calls=1 total=1338.2ms avg=1338.2ms max=1338.2ms p50=1338.2 p95=1338.2 p99=1338.2 | json_parse=0.03ms(x1), llm=1342.17ms(x1), memory=11.85ms(x2), process=1357.7ms(x1) (wall1357.7), queue_wait=0.66ms(x1)
 [2026-09-13 20:13:13.350] [DEBUG   ] (response_delivery:send_sentences:283) [c66fe557e0f04559] 开始分批发送 2 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
@@ -1499,3 +1480,22 @@
 [2026-09-13 21:34:45.579] [INFO    ] (commands:handle_command:4897) [57403b32317344a9] 指令执行完成 [wdsj]: 无返回值（已自行发送）
 [2026-09-13 21:34:45.581] [INFO    ] (logger:log_trace_summary:392) [57403b32317344a9] [TRACE 57403b32317344a9] total=20080.88ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=20079.98ms(x1) (wall20079.98), queue_wait=3.22ms(x1)
 [2026-09-13 21:34:45.582] [WARNING ] (logger:log_trace_summary:410) [57403b32317344a9] [VERY_SLOW 57403b32317344a9] total=20081.88ms 需重点排查 | process=20079.98ms(x1) (wall20079.98), queue_wait=3.22ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.22ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=20079.98ms wall=20081.53ms dominant=other
+[2026-09-13 21:36:46.602] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ 伍佰 & China Blue - 再度重相逢**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:36:46.603] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=127ms]: '**▶ 伍佰 & China Blue - 再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:36:49.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=869ms]: '**再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:16.806] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**再度重相逢**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:37:20.130] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=653ms]: '**简单爱你心所爱**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:25.700] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=894ms]: '**世界也变的大了起来**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:29.013] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=52ms]: '**所有花都为你开**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:34.571] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=231ms]: '**所有景物也为了你安排**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:39.001] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=232ms]: '**我们是如此的不同**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:44.802] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=679ms]: '**肯定前世就已经深爱过**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:47.861] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**肯定前世就已经深爱过**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:37:48.970] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=644ms]: '**讲好了这一辈子**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:53.427] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=527ms]: '**再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:37:58.970] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=968ms]: '**我们是如此的不同**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:38:03.404] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=117ms]: '**肯定前世就已经深爱过**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:38:07.869] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=559ms]: '**讲好了这一辈子**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:38:12.300] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4ms]: '**再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
+[2026-09-13 21:38:18.966] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**再度重相逢**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:38:31.205] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=394ms]: '**▶ Bôa - Duvet**' song=Bôa - Duvet playing=True channel=None
