@@ -1,54 +1,4 @@
-# 更新于 2026-09-13 22:24:43 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:48:48.446] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-13 20:48:48.448] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-13 20:48:48.516] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-13 20:48:48.518] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-13 20:48:48.520] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h12m 后执行 (00:01)
-[2026-09-13 20:48:48.542] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-13 20:48:50.131] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 59s 前）
-[2026-09-13 20:48:50.133] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-13 20:48:50.143] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-13 20:48:50.143] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-13 20:48:50.143] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-13 20:48:50.143] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-13 20:48:50.144] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-13 20:48:50.144] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-13 20:48:50.260] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-13 20:48:50.261] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-13 20:48:50.382] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=85 cpu=None mem=None
-[2026-09-13 20:48:50.382] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 20:48:50.388] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-13 20:48:50.388] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14165)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ Imagine Dragons - Bones**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:48:50.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=5253ms]: '**▶ Imagine Dragons - Bones**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:50.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3448ms]: '**Gimme, gimme, gimme some time to think**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:50.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2721ms]: '**I'm in the bathroom, looking at me**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:50.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=551ms]: '**Face in the mirror is all I need** *(ooh-ooh)*' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:51.302] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-13 → 周日
-[2026-09-13 20:48:51.303] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-13 20:48:51.303] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 11474 秒 (下次 00:00:05)
-[2026-09-13 20:48:52.156] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-13 20:48:53.302] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-13 20:48:53.304] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-13 20:48:53.305] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-13 20:48:53.305] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-13 20:48:53.582] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 4983s
-[2026-09-13 20:48:54.109] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-13 20:48:54.316] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=245ms]: '**Wait until the reaper takes my life**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:54.355] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-13 20:48:56.552] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=376ms]: '**Never gonna get me out alive**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:48:58.779] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=578ms]: '**I will live a thousand million lives** *(ooh-ooh)*' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:02.653] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=276ms]: '**My patience is waning, is this entertaining?**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:06.081] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-54ms]: '**Our patience is waning, is this entertaining?**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:10.683] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-194ms]: '**I-I-I got this feeling, yeah, you know**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:14.348] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-33ms]: '**Where I'm losing all control**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:20.204] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-108ms]: '**'Cause there's magic in my bones**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:21.314] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 14165)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I-I-I got this feeling in my soul**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 20:49:21.315] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=887ms]: '**I-I-I got this feeling in my soul**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:23.648] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=606ms]: '**Go ahead and throw your stones**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:24.764] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-176ms]: '**'Cause there's magic in my bones**' song=Imagine Dragons - Bones playing=True channel=None
-[2026-09-13 20:49:28.168] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=530ms]: '**Playing with the stick of dynamite**' song=Imagine Dragons - Bones playing=True channel=None
+# 更新于 2026-09-13 22:28:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:49:30.394] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=592ms]: '**There was never gray in black and white**' song=Imagine Dragons - Bones playing=True channel=None
 [2026-09-13 20:49:32.718] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=770ms]: '**There was never wrong 'til there was right** *(ooh-ooh)*' song=Imagine Dragons - Bones playing=True channel=None
 [2026-09-13 20:49:36.398] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=357ms]: '**Feeling like a boulder hurtling**' song=Imagine Dragons - Bones playing=True channel=None
@@ -1499,3 +1449,53 @@
 [2026-09-13 22:23:36.767] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 22:24:07.166] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-13 22:24:37.797] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:25:08.271] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:25:45.782] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: timed out
+[2026-09-13 22:25:46.145] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
+[2026-09-13 22:25:46.146] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 22:25:46.150] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:25:46.174] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: no close frame received or sent，5s 后重连
+[2026-09-13 22:25:51.736] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 6306s
+[2026-09-13 22:25:52.316] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-13 22:25:52.615] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-13 22:26:17.366] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:26:48.464] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:27:19.299] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:27:49.761] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:28:15.642] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:28:15.649] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/签到' is_edit=False
+[2026-09-13 22:28:15.652] [DEBUG   ] (dispatcher:_dispatch_inner:110) [0222eabb1fed4b21] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 22:28:15.681] [INFO    ] (dispatcher:_dispatch_inner:316) [0222eabb1fed4b21] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/签到'
+[2026-09-13 22:28:15.687] [INFO    ] (queues:_get_or_create_queue:32) [0222eabb1fed4b21] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-13 22:28:15.687] [DEBUG   ] (queues:enqueue_message:75) [0222eabb1fed4b21] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 22:28:15.701] [INFO    ] (memory:merge_overflow_memory:419) [54ab51ea575848b5] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-13 22:28:15.704] [INFO    ] (pipeline:process_message:478) [54ab51ea575848b5] 指令拦截: '/签到' from=ywandwss
+[2026-09-13 22:28:15.704] [DEBUG   ] (commands:handle_command:4840) [54ab51ea575848b5] 指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+[2026-09-13 22:28:15.715] [INFO    ] (checkin:do_checkin:117) [54ab51ea575848b5] 签到: u:1759953618 streak=1 +5分
+[2026-09-13 22:28:15.716] [INFO    ] (commands:handle_command:4895) [54ab51ea575848b5] 指令执行完成 [签到]: 返回40字符
+[2026-09-13 22:28:16.296] [INFO    ] (logger:log_trace_summary:392) [54ab51ea575848b5] [TRACE 54ab51ea575848b5] total=604.49ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=603.78ms(x1) (wall603.78), queue_wait=5.21ms(x1)
+[2026-09-13 22:28:16.314] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:28:18.011] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:28:18.012] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/luck' is_edit=False
+[2026-09-13 22:28:18.012] [DEBUG   ] (dispatcher:_dispatch_inner:110) [960055d1429a446f] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 22:28:18.012] [INFO    ] (dispatcher:_dispatch_inner:316) [960055d1429a446f] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/luck'
+[2026-09-13 22:28:18.013] [DEBUG   ] (queues:enqueue_message:75) [960055d1429a446f] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 22:28:18.014] [INFO    ] (memory:merge_overflow_memory:419) [ea823a61cf224a24] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+[2026-09-13 22:28:18.015] [INFO    ] (pipeline:process_message:478) [ea823a61cf224a24] 指令拦截: '/luck' from=ywandwss
+[2026-09-13 22:28:18.015] [DEBUG   ] (commands:handle_command:4840) [ea823a61cf224a24] 指令解析: prefix=/ cmd=luck args=[] user=1759953618
+[2026-09-13 22:28:18.015] [INFO    ] (commands:cmd_luck:716) [ea823a61cf224a24] 指令 /luck 触发 user=1759953618
+[2026-09-13 22:28:18.022] [INFO    ] (commands:handle_command:4895) [ea823a61cf224a24] 指令执行完成 [luck]: 返回33字符
+[2026-09-13 22:28:18.494] [INFO    ] (logger:log_trace_summary:392) [ea823a61cf224a24] [TRACE ea823a61cf224a24] total=480.35ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=480.25ms(x1) (wall480.25), queue_wait=0.45ms(x1)
+[2026-09-13 22:28:18.504] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:28:19.822] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 22:28:19.822] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/fuck' is_edit=False
+[2026-09-13 22:28:19.822] [DEBUG   ] (dispatcher:_dispatch_inner:110) [a6b61d55330c43b6] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 22:28:19.822] [INFO    ] (dispatcher:_dispatch_inner:316) [a6b61d55330c43b6] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/fuck'
+[2026-09-13 22:28:19.823] [DEBUG   ] (queues:enqueue_message:75) [a6b61d55330c43b6] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 22:28:19.823] [INFO    ] (memory:merge_overflow_memory:419) [a772751e92544779] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
+[2026-09-13 22:28:19.824] [INFO    ] (pipeline:process_message:478) [a772751e92544779] 指令拦截: '/fuck' from=ywandwss
+[2026-09-13 22:28:19.824] [DEBUG   ] (commands:handle_command:4840) [a772751e92544779] 指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+[2026-09-13 22:28:19.827] [INFO    ] (commands:handle_command:4895) [a772751e92544779] 指令执行完成 [fuck]: 返回31字符
+[2026-09-13 22:28:20.268] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:28:20.313] [INFO    ] (logger:log_trace_summary:392) [a772751e92544779] [TRACE a772751e92544779] total=490.23ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=490.16ms(x1) (wall490.16), queue_wait=0.43ms(x1)
+[2026-09-13 22:28:20.325] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
