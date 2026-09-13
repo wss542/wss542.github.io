@@ -1,26 +1,4 @@
-# 更新于 2026-09-13 22:10:51 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:41:36.343] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-13 20:41:36.370] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-13 20:41:36.370] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-13 20:41:36.371] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-13 20:41:36.382] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-13 20:41:36.383] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-13 20:41:36.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-13 20:41:36.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-13 20:41:36.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-13 20:41:36.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-13 20:41:36.384] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-13 20:41:36.385] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-13 20:41:36.386] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-13 20:41:36.387] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-13 20:41:36.387] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-13 20:41:36.388] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-13 20:41:36.388] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-13 20:41:36.388] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-13 20:41:36.389] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-13 20:41:36.389] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-13 20:41:36.390] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-13 20:41:36.390] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+# 更新于 2026-09-13 22:12:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:41:36.390] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
 [2026-09-13 20:41:36.406] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
 [2026-09-13 20:41:36.407] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
@@ -1499,3 +1477,25 @@
 `只想对你说一句`' song=KOKIA - ありがとう・・・ playing=True channel=None
 [2026-09-13 22:10:50.695] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3198ms]: '**ありがとう  ありがとう**
 `谢谢，谢谢`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:10:56.845] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
+[2026-09-13 22:10:57.186] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 60s
+[2026-09-13 22:10:57.935] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-13 22:10:58.146] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-13 22:11:21.264] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**ありがとう  ありがとう**
+`谢谢，谢谢`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:11:22.227] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=156ms]: '**もしも  もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:11:30.132] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=80ms]: '**たった一言伝えたい**
+`只想对你说一句`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:11:36.935] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=15ms]: '**もしも  もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:11:44.835] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1103ms]: '**たった一言伝えたい**
+`只想对你说一句`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:11:51.828] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**ありがとう  ありがとう**
+`谢谢，谢谢`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:11:51.829] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1032ms]: '**ありがとう  ありがとう**
+`谢谢，谢谢`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:07.647] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=805ms]: '**時には傷つけあっても**
+`哪怕有时我们伤害了彼此`' song=KOKIA - ありがとう・・・ playing=True channel=None
+[2026-09-13 22:12:15.427] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=836ms]: '**あなたを感じていたい**
+`我也希望能够感觉到你的存在`' song=KOKIA - ありがとう・・・ playing=True channel=None
