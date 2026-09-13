@@ -1,11 +1,4 @@
-# 更新于 2026-09-13 21:41:25 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:38.715] [DEBUG   ] (pipeline:process_message:599) [d41164f3b4f84d72] 请求意图: intent=chat fast_search=False msg='date字段返回的是旧数据'
-[2026-09-13 20:13:38.716] [WARNING ] (pipeline:process_message:647) [d41164f3b4f84d72] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-[2026-09-13 20:13:38.729] [DEBUG   ] (memory:_record_memory_trace:318) [d41164f3b4f84d72] 记忆检索: source=legacy_file status=hit 命中注入=10 耗时=11.6ms
-[2026-09-13 20:13:38.732] [INFO    ] (pipeline:process_message:807) [d41164f3b4f84d72] 额外信息: 1033字 (memory=486 search=0)
-[2026-09-13 20:13:38.735] [INFO    ] (pipeline:process_message:944) [d41164f3b4f84d72] system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-[2026-09-13 20:13:38.737] [DEBUG   ] (pipeline:process_message:1073) [d41164f3b4f84d72] Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-[2026-09-13 20:13:38.738] [INFO    ] (pipeline:process_message:1080) [d41164f3b4f84d72] 开始生成回复: speaker=Trusler chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+# 更新于 2026-09-13 21:42:03 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:38.970] [WARNING ] (llm:call_llm_with_tools:610) [d41164f3b4f84d72] LLM FC strict 模式失败，回退普通调用: Error code: 404
 [2026-09-13 20:13:40.027] [INFO    ] (llm:generate_multi_reply_with_tools:996) [d41164f3b4f84d72] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["诶？那可能是我读的时间源没更新喵~","不过没关系啦，你说周几就周几，我信你！"],"fav":1,"calls":[],"face":null,"mood":"调皮","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}}... tool_calls=0)
 [2026-09-13 20:13:40.028] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [d41164f3b4f84d72] LLM原始输出 [轮1]: content={"replies":["诶？那可能是我读的时间源没更新喵~","不过没关系啦，你说周几就周几，我信你！"],"fav":1,"calls":[],"face":null,"mood":"调皮","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}} | tool_calls=0
@@ -1499,3 +1492,10 @@
 [2026-09-13 21:41:01.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=388ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:03.784] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=108ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:21.814] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Help me to breathe**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:41:28.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=985ms]: '**I am falling**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:30.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=864ms]: '**I am fading**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:32.684] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=612ms]: '**I am drowning**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:34.910] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=305ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:38.252] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1005ms]: '**I am hurting**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:40.471] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=710ms]: '**I have lost it all**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:41:42.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
