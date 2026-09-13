@@ -1,24 +1,4 @@
-# 更新于 2026-09-13 21:49:24 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:27:28.932] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-13 20:27:28.937] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-13 20:27:28.949] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:27:28.949] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-13 20:27:28.950] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-13 20:27:28.955] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-13 20:27:29.001] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-13 20:27:29.004] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-13 20:27:29.016] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-13 20:27:29.078] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-13 20:27:29.081] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-13 20:27:29.082] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-13 20:27:29.087] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-13 20:27:29.087] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-13 20:27:29.087] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+# 更新于 2026-09-13 21:50:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:27:29.093] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
 [2026-09-13 20:27:29.095] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 [2026-09-13 20:27:29.096] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
@@ -1499,3 +1479,23 @@
 `我甘愿承受苦难`' song=Army of Lovers - Crucified playing=True channel=None
 [2026-09-13 21:49:24.074] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=198ms]: '**For the holy dimension**
 `为那神圣国度`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:25.189] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**For the holy dimension**
+`为那神圣国度`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:49:28.530] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-68ms]: '**Godlike ascension**
+`如同基督的升天`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:32.981] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=494ms]: '**Heavens away**
+`天堂在彼岸昭然`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:45.224] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=625ms]: '**I'm crucified**
+`我身受钉痕`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:48.558] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=958ms]: '**for the holy dimension**
+`献祭为那神圣国度`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:52.992] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=776ms]: '**Godlike ascension**
+`如基督复活`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:49:55.221] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Godlike ascension**
+`如基督复活`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:49:56.329] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=231ms]: '**Heavens away**
+`魂归天国彼岸`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:50:00.767] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=700ms]: '**I'm crucified**
+`我身披圣痕`' song=Army of Lovers - Crucified playing=True channel=None
+[2026-09-13 21:50:04.094] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=738ms]: '**Crucified like my saviour**
+`如同我主基督般受难`' song=Army of Lovers - Crucified playing=True channel=None
