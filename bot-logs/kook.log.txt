@@ -1,19 +1,4 @@
-# 更新于 2026-09-13 23:34:48 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 21:40:51.196] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-09-13 21:40:51.196] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-13 21:40:51.197] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2907ms]: '**I am fading**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:40:51.540] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I am drowning**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:40:51.540] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=696ms]: '**I am drowning**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:40:52.939] [INFO    ] (qq_bot:_run_once:132) [-] QQ RECONNECT requested
-[2026-09-13 21:40:53.552] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-13 21:40:53.751] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
-[2026-09-13 21:40:53.775] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=403ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:40:56.003] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=121ms]: '**I am hurting**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:40:59.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=901ms]: '**I have lost it all**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:41:01.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=388ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:41:03.784] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=108ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
-[2026-09-13 21:41:21.814] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Help me to breathe**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:41:28.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=985ms]: '**I am falling**' song=Bôa - Duvet playing=True channel=None
+# 更新于 2026-09-13 23:35:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 21:41:30.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=864ms]: '**I am fading**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:32.684] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=612ms]: '**I am drowning**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:34.910] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=305ms]: '**Help me to breathe**' song=Bôa - Duvet playing=True channel=None
@@ -1499,3 +1484,18 @@
 [2026-09-13 23:34:46.285] [DEBUG   ] (commands:handle_command:4840) [49990b2be57c4658] 指令解析: prefix=/ cmd=供应商 args=['魔搭'] user=1759953618
 [2026-09-13 23:34:46.287] [INFO    ] (commands:handle_command:4895) [49990b2be57c4658] 指令执行完成 [供应商]: 返回74字符
 [2026-09-13 23:34:46.886] [INFO    ] (logger:log_trace_summary:392) [49990b2be57c4658] [TRACE 49990b2be57c4658] total=614.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=614.49ms(x1) (wall614.49), queue_wait=1.48ms(x1)
+[2026-09-13 23:34:55.021] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7572)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-13 23:35:00.501] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-13 23:35:00.501] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=9 content='/供应商 ModelScope' is_edit=False
+[2026-09-13 23:35:00.502] [DEBUG   ] (dispatcher:_dispatch_inner:110) [bd6baa39d62f4092] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-13 23:35:00.502] [INFO    ] (dispatcher:_dispatch_inner:316) [bd6baa39d62f4092] 📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商 ModelScope'
+[2026-09-13 23:35:00.504] [DEBUG   ] (queues:enqueue_message:75) [bd6baa39d62f4092] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-13 23:35:00.505] [INFO    ] (memory:merge_overflow_memory:419) [101b9733fc284d3e] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+[2026-09-13 23:35:00.506] [INFO    ] (pipeline:process_message:478) [101b9733fc284d3e] 指令拦截: '/供应商 ModelScope' from=ywandwss
+[2026-09-13 23:35:00.506] [DEBUG   ] (commands:handle_command:4840) [101b9733fc284d3e] 指令解析: prefix=/ cmd=供应商 args=['ModelScope'] user=1759953618
+[2026-09-13 23:35:00.515] [INFO    ] (logger:info:335) [101b9733fc284d3e] 保留 fetch_me 注入的 bot_id: 659688244
+[2026-09-13 23:35:00.515] [INFO    ] (logger:info:335) [101b9733fc284d3e] 配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+[2026-09-13 23:35:00.515] [INFO    ] (commands:cmd_provider:1485) [101b9733fc284d3e] 供应商切换: DEEPSEEK/deepseek-v4-flash -> MODELSCOPE/Qwen/Qwen3-235B-A22B-Instruct-2507 (by ywandwss)
+[2026-09-13 23:35:00.516] [INFO    ] (commands:handle_command:4895) [101b9733fc284d3e] 指令执行完成 [供应商]: 返回92字符
+[2026-09-13 23:35:00.961] [INFO    ] (logger:log_trace_summary:392) [101b9733fc284d3e] [TRACE 101b9733fc284d3e] total=456.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=456.63ms(x1) (wall456.63), queue_wait=0.49ms(x1)
+[2026-09-13 23:35:25.167] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7572)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
