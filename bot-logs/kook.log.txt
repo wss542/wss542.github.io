@@ -1,6 +1,4 @@
-# 更新于 2026-09-13 21:42:03 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:13:38.970] [WARNING ] (llm:call_llm_with_tools:610) [d41164f3b4f84d72] LLM FC strict 模式失败，回退普通调用: Error code: 404
-[2026-09-13 20:13:40.027] [INFO    ] (llm:generate_multi_reply_with_tools:996) [d41164f3b4f84d72] LLM 首调用选择模型: deepseek-v4-flash (content={"replies":["诶？那可能是我读的时间源没更新喵~","不过没关系啦，你说周几就周几，我信你！"],"fav":1,"calls":[],"face":null,"mood":"调皮","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}}... tool_calls=0)
+# 更新于 2026-09-13 21:43:02 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:13:40.028] [INFO    ] (llm:generate_multi_reply_with_tools:1015) [d41164f3b4f84d72] LLM原始输出 [轮1]: content={"replies":["诶？那可能是我读的时间源没更新喵~","不过没关系啦，你说周几就周几，我信你！"],"fav":1,"calls":[],"face":null,"mood":"调皮","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"Trusler","qq":0}} | tool_calls=0
 [2026-09-13 20:13:40.028] [INFO    ] (llm:_parse_reply:1358) [d41164f3b4f84d72] JSON回复解析: 2句 fav=+1 calls=0 mood=调皮
 [2026-09-13 20:13:40.030] [INFO    ] (fav:update_fav:128) [d41164f3b4f84d72] 好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:50D2D55CE2DC9A68D87C0106AB6D5237 +1 → 53
@@ -1499,3 +1497,5 @@
 [2026-09-13 21:41:38.252] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1005ms]: '**I am hurting**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:40.471] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=710ms]: '**I have lost it all**' song=Bôa - Duvet playing=True channel=None
 [2026-09-13 21:41:42.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**I am losing**' song=Bôa - Duvet playing=True channel=None
+[2026-09-13 21:42:22.918] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-13 21:42:22.919] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
