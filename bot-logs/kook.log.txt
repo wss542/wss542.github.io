@@ -1,10 +1,4 @@
-# 更新于 2026-09-13 23:24:19 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 21:34:45.581] [INFO    ] (logger:log_trace_summary:392) [57403b32317344a9] [TRACE 57403b32317344a9] total=20080.88ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=20079.98ms(x1) (wall20079.98), queue_wait=3.22ms(x1)
-[2026-09-13 21:34:45.582] [WARNING ] (logger:log_trace_summary:410) [57403b32317344a9] [VERY_SLOW 57403b32317344a9] total=20081.88ms 需重点排查 | process=20079.98ms(x1) (wall20079.98), queue_wait=3.22ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.22ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=20079.98ms wall=20081.53ms dominant=other
-[2026-09-13 21:36:46.602] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ 伍佰 & China Blue - 再度重相逢**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-13 21:36:46.603] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=127ms]: '**▶ 伍佰 & China Blue - 再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
-[2026-09-13 21:36:49.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=869ms]: '**再度重相逢**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
-[2026-09-13 21:37:16.806] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**再度重相逢**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+# 更新于 2026-09-13 23:24:52 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 21:37:20.130] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=653ms]: '**简单爱你心所爱**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
 [2026-09-13 21:37:25.700] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=894ms]: '**世界也变的大了起来**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
 [2026-09-13 21:37:29.013] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=52ms]: '**所有花都为你开**' song=伍佰 & China Blue - 再度重相逢 playing=True channel=None
@@ -1499,3 +1493,9 @@
 [2026-09-13 23:24:19.255] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-09-13 23:24:19.257] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
 [2026-09-13 23:24:19.258] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-13 23:24:19.650] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 2798s
+[2026-09-13 23:24:20.197] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-13 23:24:20.433] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+[2026-09-13 23:24:47.724] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+[2026-09-13 23:24:47.725] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-13 23:24:47.770] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7572)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
