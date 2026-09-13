@@ -1,52 +1,4 @@
-# 更新于 2026-09-13 22:16:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:48:35.359] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-13 20:48:35.359] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-13 20:48:35.359] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-09-13 20:48:35.430] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-09-13 20:48:35.431] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-09-13 20:48:35.432] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-09-13 20:48:35.432] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-09-13 20:48:35.432] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-09-13 20:48:35.432] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-09-13 20:48:35.433] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-09-13 20:48:35.433] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-09-13 20:48:35.434] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-09-13 20:48:35.435] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-09-13 20:48:35.453] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 303, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-09-13 20:48:35.470] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-09-13 20:48:35.471] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-09-13 20:48:35.490] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-13 20:48:44.103] [INFO    ] (pc_status:_handle_client:178) [-] PC 客户端断开连接
-[2026-09-13 20:48:45.705] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-13 20:48:45.736] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:48:47.702] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:48:47.703] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-13 20:48:47.705] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:48:47.713] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-13 20:48:47.715] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-13 20:48:47.718] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-13 20:48:47.719] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-13 20:48:47.720] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-13 20:48:47.720] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-13 20:48:47.721] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-13 20:48:48.017] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-13 20:48:48.017] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-13 20:48:48.031] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-13 20:48:48.031] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-13 20:48:48.375] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-13 20:48:48.395] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-13 20:48:48.395] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-13 20:48:48.397] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-13 20:48:48.398] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-13 20:48:48.398] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-13 20:48:48.399] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-13 20:48:48.399] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-13 20:48:48.400] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-13 20:48:48.403] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:48:48.403] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-13 20:48:48.404] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-13 20:48:48.404] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-13 20:48:48.415] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-09-13 22:20:00 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:48:48.415] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 [2026-09-13 20:48:48.416] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
 [2026-09-13 20:48:48.422] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1451,51 @@
 [2026-09-13 22:16:11.001] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=756ms]: '**應該還來得及去悔過**' song=林俊杰 - 可惜没如果 playing=True channel=None
 [2026-09-13 22:16:16.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=581ms]: '**假如沒把一切說破**' song=林俊杰 - 可惜没如果 playing=True channel=None
 [2026-09-13 22:16:21.138] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1079ms]: '**那一場小風波**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:23.367] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=226ms]: '**將一笑帶過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:26.775] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=425ms]: '**在感情面前 講什麼自我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:29.141] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**在感情面前 講什麼自我**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:16:32.487] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=332ms]: '**要得過且過 才好過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:39.236] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=875ms]: '**全都怪我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:41.484] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=259ms]: '**不該沉默時沉默**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:44.884] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=800ms]: '**該勇敢時軟弱**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:48.284] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1007ms]: '**如果不是我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:50.521] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=268ms]: '**誤會自己灑脫 讓我們難過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:57.312] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=793ms]: '**可當初的你 和現在的我 假如重來過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:16:59.700] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可當初的你 和現在的我 假如重來過**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:17:03.102] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=652ms]: '**倘若那天**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:05.383] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=570ms]: '**把該說的話好好說**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:08.754] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=801ms]: '**該體諒的不執著**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:12.203] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1024ms]: '**如果那天我 不受情緒挑撥**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:17.831] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=769ms]: '**你會怎麼做**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:21.277] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=836ms]: '**那麼多如果 可能如果我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:24.685] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1121ms]: '**可惜沒如果 只剩下結果**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:17:30.452] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可惜沒如果 只剩下結果**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:17:56.387] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=225ms]: '**如果早點了解 那率性的你**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:00.988] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**如果早點了解 那率性的你**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:18:02.101] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=98ms]: '**或者晚一點 遇上成熟的我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:08.858] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=863ms]: '**不過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:12.287] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=967ms]: '**全都怪我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:14.573] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=367ms]: '**不該沉默時沉默**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:17.983] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=815ms]: '**該勇敢時軟弱**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:20.280] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=267ms]: '**如果不是我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:23.630] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=508ms]: '**誤會自己灑脫 讓我們難過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:30.420] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=989ms]: '**可當初的你 和現在的我 假如重來過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:31.537] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可當初的你 和現在的我 假如重來過**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:18:36.058] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=650ms]: '**倘若那天**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:38.289] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=401ms]: '**把該說的話好好說 該體諒的不執著**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:45.097] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1017ms]: '**如果那天我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:47.316] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=224ms]: '**不受情緒挑撥 你會怎麼做**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:54.117] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=680ms]: '**那麼多如果 可能如果我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:18:57.460] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=924ms]: '**可惜沒如果 沒有你和我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:01.960] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可惜沒如果 沒有你和我**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:19:12.140] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=306ms]: '**都怪我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:14.379] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=240ms]: '**不該沉默時沉默 該勇敢時軟弱**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:21.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1151ms]: '**如果不是我 誤會自己灑脫 讓我們難過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:29.340] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=23ms]: '**可當初的你 和現在的我 假如重來過**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:32.748] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可當初的你 和現在的我 假如重來過**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 22:19:36.169] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=810ms]: '**倘若那天**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:38.687] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=930ms]: '**把該說的話好好說 該體諒的不執著**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:44.827] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=739ms]: '**如果那天我 不受情緒挑撥**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:50.353] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=223ms]: '**你會怎麼做**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:53.861] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=306ms]: '**那麼多如果 可能如果我**' song=林俊杰 - 可惜没如果 playing=True channel=None
+[2026-09-13 22:19:57.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=883ms]: '**可惜沒如果 只剩下結果**' song=林俊杰 - 可惜没如果 playing=True channel=None
