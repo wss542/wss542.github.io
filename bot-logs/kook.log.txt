@@ -1,20 +1,4 @@
-# 更新于 2026-09-13 21:16:43 · 共 1498 行（来源 huanmeng.log 末尾）
-[2026-09-13 20:11:25.655] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-13 20:11:25.836] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-13 20:11:42.626] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:11:42.629] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-13 20:11:42.633] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-13 20:11:42.749] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-13 20:11:42.752] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-13 20:11:42.769] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-13 20:11:42.771] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-13 20:11:42.773] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-13 20:11:42.773] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-13 20:11:42.778] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-13 20:11:43.181] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-13 20:11:43.181] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-13 20:11:43.316] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-13 20:11:43.316] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+# 更新于 2026-09-13 21:17:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-13 20:11:44.242] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
 [2026-09-13 20:11:44.368] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
 [2026-09-13 20:11:44.368] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
@@ -1497,3 +1481,21 @@
 [2026-09-13 21:16:32.838] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-23ms]: '**Is every thing I need to let go**' song=Ashes Remain - On My Own playing=True channel=None
 [2026-09-13 21:16:36.257] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=762ms]: '**You're so much bigger than the world I have made**' song=Ashes Remain - On My Own playing=True channel=None
 [2026-09-13 21:16:41.981] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1124ms]: '**So I surrender my soul**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:44.280] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=846ms]: '**I'm reaching out for your hope**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:46.513] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-27ms]: '**I lay my weapons down**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:48.783] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=181ms]: '**I'm ready for you now**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:51.007] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=146ms]: '**Break me out**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:53.290] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=740ms]: '**Come and find me in the dark now**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:55.517] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=960ms]: '**Every day by myself I'm breaking down**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:16:57.816] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I don't wanna fight alone anymore**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:16:57.817] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=23ms]: '**I don't wanna fight alone anymore**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:02.322] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=658ms]: '**Break me out**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:03.437] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=131ms]: '**From the prison of my own pride**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:05.681] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=123ms]: '**My God, I need a hope I can't deny**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:09.082] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=741ms]: '**In the end I'm realizing**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:11.331] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=349ms]: '**I was never meant to fight on my own**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:15.915] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=549ms]: '**♪**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:24.904] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=179ms]: '**I don't wanna be incomplete**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:28.291] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3056)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**I remember what you said to me**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-13 21:17:28.292] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=984ms]: '**I remember what you said to me**' song=Ashes Remain - On My Own playing=True channel=None
+[2026-09-13 21:17:29.418] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=142ms]: '**I don't have to fight alone**' song=Ashes Remain - On My Own playing=True channel=None
