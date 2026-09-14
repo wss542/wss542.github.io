@@ -1,4 +1,4 @@
-# 更新于 2026-09-15 00:08:12 · 共 21 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-15 00:08:51 · 共 31 行（来源 huanmeng.log 末尾）
 [2026-09-15 00:06:02.443] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4621)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-15 00:06:12.664] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
 [2026-09-15 00:06:14.260] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=95 cpu=None mem=None
@@ -20,3 +20,13 @@
 [2026-09-15 00:07:21.831] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 85963 秒 (下次 00:00:05)
 [2026-09-15 00:07:42.656] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-15 00:08:12.671] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-15 00:08:14.789] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
+[2026-09-15 00:08:18.773] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 6 条新记录
+[2026-09-15 00:08:19.565] [INFO    ] (bot:_bg_wdsj_collector:754) [-] 日榜目标频道: [3649029148752421]
+[2026-09-15 00:08:20.785] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-15 00:08:20.792] [INFO    ] (bot:_bg_wdsj_collector:758) [-] 日榜已发到频道 3649029148752421
+[2026-09-15 00:08:20.792] [INFO    ] (bot:_bg_wdsj_collector:761) [-] 日榜已推送: 1 人 (2026-09-14)
+[2026-09-15 00:08:20.793] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h52m 后执行 (04:01)
+[2026-09-15 00:08:43.344] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-15 00:08:44.931] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=93 cpu=None mem=None
+[2026-09-15 00:08:44.932] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
