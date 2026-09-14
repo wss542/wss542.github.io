@@ -1,11 +1,4 @@
-# 更新于 2026-09-14 13:00:00 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:57.760] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 11:19:57.761] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 11:19:57.761] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 11:19:57.762] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 11:19:57.762] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:19:57.762] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:19:57.762] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+# 更新于 2026-09-14 13:00:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:57.763] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-09-14 11:19:57.763] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
 [2026-09-14 11:19:57.763] [INFO    ] (logger:info:335) [-] ==================================================
@@ -1499,3 +1492,10 @@
 [2026-09-14 12:59:34.688] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Sieh mit deinen augen**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 12:59:45.608] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=87 cpu=None mem=None
 [2026-09-14 12:59:45.612] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 13:00:05.112] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Sieh mit deinen augen**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:00:06.540] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=395ms]: '**▶ Lindsey Stirling - Ice Storm**' song=Lindsey Stirling - Ice Storm playing=True channel=None
+[2026-09-14 13:00:15.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=670ms]: '**作词 : Lindsey Stirling/Giulio Cercato**' song=Lindsey Stirling - Ice Storm playing=True channel=None
+[2026-09-14 13:00:15.292] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=674ms]: '**作曲 : Lindsey Stirling/Giulio Cercato**' song=Lindsey Stirling - Ice Storm playing=True channel=None
+[2026-09-14 13:00:15.293] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=672ms]: '**作词 : Lindsey Stirling/Giulio Cercato**' song=Lindsey Stirling - Ice Storm playing=True channel=None
+[2026-09-14 13:00:15.295] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=405ms]: '**作曲 : Lindsey Stirling/Giulio Cercato**' song=Lindsey Stirling - Ice Storm playing=True channel=None
+[2026-09-14 13:00:16.407] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=707ms]: '**纯音乐，请欣赏**' song=Lindsey Stirling - Ice Storm playing=True channel=None
