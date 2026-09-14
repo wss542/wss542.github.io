@@ -1,17 +1,4 @@
-# 更新于 2026-09-14 20:54:57 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:59:09.576] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 19:59:09.583] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 19:59:09.584] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 19:59:09.585] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 19:59:09.585] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 19:59:09.586] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 19:59:09.586] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 19:59:09.586] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 19:59:09.587] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 19:59:09.589] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 19:59:09.590] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 19:59:09.591] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 19:59:09.594] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+# 更新于 2026-09-14 20:56:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:59:09.595] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 [2026-09-14 19:59:09.596] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
 [2026-09-14 19:59:09.598] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
@@ -1499,3 +1486,16 @@
 [2026-09-14 20:53:55.339] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:54:25.997] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:54:57.023] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:55:24.016] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**▶ Otamania / 初音ミク - Ievan Polkka**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:27.409] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Otamania / 初音ミク - Ievan Polkka**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:55:44.639] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=402ms]: '**あ らっつぁっつぁ や りびだびりん**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:46.902] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=456ms]: '**らば りったん りんだん れんらんどぅ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:49.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=921ms]: '**まば りっばっばー ばりっばり**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:50.304] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=511ms]: '**ばりり りびりび りすてん れんだんどぅ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:52.535] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=414ms]: '**やば りんらん てんてだん でんあろ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:54.811] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=628ms]: '**わらば るぶるぶるぶるぶ れいえぶ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:57.181] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1014ms]: '**ばりったん りんだん でんらんろ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:55:58.299] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**たた たたたた とぅとぅ でんやぶ**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:55:58.301] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=243ms]: '**たた たたたた とぅとぅ でんやぶ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:56:01.687] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=921ms]: '**あ らっつぁっつぁ や りびだびりん**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
+[2026-09-14 20:56:02.791] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=204ms]: '**らば りったん りんだん れんらんどぅ**' song=Otamania / 初音ミク - Ievan Polkka playing=True channel=None
