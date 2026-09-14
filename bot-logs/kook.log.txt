@@ -1,18 +1,4 @@
-# 更新于 2026-09-14 13:42:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:21:08.691] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 11:21:08.695] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 11:21:08.696] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 11:21:08.696] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 11:21:08.697] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 11:21:08.697] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 11:21:08.698] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 11:21:08.698] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 11:21:08.698] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 11:21:08.699] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 11:21:08.699] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 11:21:08.699] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 11:21:08.700] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 11:21:08.700] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+# 更新于 2026-09-14 13:43:31 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:21:08.700] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
 [2026-09-14 11:21:08.700] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
 [2026-09-14 11:21:08.702] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
@@ -1499,3 +1485,17 @@
 [2026-09-14 13:42:28.662] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-109ms]: '**明天已在 Hia Hia**' song=朴树 - 平凡之路 playing=True channel=None
 [2026-09-14 13:42:34.277] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-26ms]: '**风吹过的 路依然远**' song=朴树 - 平凡之路 playing=True channel=None
 [2026-09-14 13:42:41.127] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=727ms]: '**你的故事讲到了哪**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:42:48.429] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-09-14 13:42:48.429] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 13:42:51.262] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=536ms]: '**▶ 黒うさP / 初音ミク - 千本桜**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:42:56.167] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-56ms]: '**作曲 : 黒うさP**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:42:56.167] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-75ms]: '**编曲 : 黒うさP**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:42:57.939] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**编曲 : 黒うさP**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:43:23.364] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=58ms]: '**大胆不敵に ハイカラ革命**
+`大胆无畏维新革命`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:28.769] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**磊々落々 反戦国家**
+`光明磊落反战国家`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:43:28.773] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=437ms]: '**磊々落々 反戦国家**
+`光明磊落反战国家`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:29.929] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=509ms]: '**日の丸印の二輪車転がし**
+`骑着日之丸印的二轮车`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
