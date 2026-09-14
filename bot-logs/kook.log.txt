@@ -1,30 +1,4 @@
-# 更新于 2026-09-14 20:13:54 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:49:09.295] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-14 19:49:09.553] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 19:50:07.039] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:50:07.041] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-14 19:50:07.041] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:50:07.081] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 19:50:07.082] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 19:50:07.162] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 19:50:07.170] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 19:50:07.170] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 19:50:07.171] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 19:50:07.171] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 19:50:17.324] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 19:50:17.332] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 19:50:17.796] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 19:50:17.806] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 19:50:21.154] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 19:50:21.336] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 19:50:21.337] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 19:50:21.349] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 19:50:21.356] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 19:50:21.359] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 19:50:21.365] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 19:50:21.367] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 19:50:21.370] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 19:50:21.390] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-09-14 20:14:40 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:50:21.392] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
 [2026-09-14 19:50:21.393] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 [2026-09-14 19:50:21.394] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
@@ -1499,3 +1473,29 @@
 [2026-09-14 20:13:51.962] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=678ms]: '**Dancing** *(oh)*' song=Aaron Smith / Krono / sped up  playing=True channel=None
 [2026-09-14 20:13:53.088] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=356ms]: '**Get up on the floor**' song=Aaron Smith / Krono / sped up  playing=True channel=None
 [2026-09-14 20:13:54.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=101ms]: '**Dancing all night long**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:13:56.517] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=656ms]: '**Get up on the floor**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:13:57.628] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=333ms]: '**Dancing 'til the break of dawn**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:13:58.748] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-40ms]: '**Get up on the floor**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:01.030] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=596ms]: '**Dancing 'til the break of dawn**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:02.147] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=88ms]: '**Get up on the floor**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:04.382] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=626ms]: '**Dancing** *(oh)*' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:05.587] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=496ms]: '**Dancing is what to do**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:06.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=369ms]: '**Dancing's when I think of you**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:09.113] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1020ms]: '**Dancing's what clears my soul**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:10.219] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=550ms]: '**Dancing's what makes me whole**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:11.347] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=100ms]: '**Dancing is what to do**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:13.721] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1008ms]: '**Dancing's when I think of you**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:14.840] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=610ms]: '**Dancing's what clears my soul**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:15.984] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**Dancing's what makes me whole**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:18.274] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=983ms]: '**Dancing is what to do**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:19.385] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=541ms]: '**Dancing's when I think of you**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:20.666] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=277ms]: '**Dancing's what clears my soul**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:21.626] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Dancing's what clears my soul**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:14:22.868] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=880ms]: '**Dancing's what makes me whole**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:23.988] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=557ms]: '**Dancing is what to do**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:25.106] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=78ms]: '**Dancing's when I think of you**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:27.402] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=819ms]: '**Dancing's what clears my soul**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:28.515] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=390ms]: '**Dancing's what makes me whole**' song=Aaron Smith / Krono / sped up  playing=True channel=None
+[2026-09-14 20:14:34.968] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=614ms]: '**▶ Charlie Puth - How Long**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:14:40.256] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=594ms]: '**Alright**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:14:40.256] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=486ms]: '**Ooh-oh, yeah**' song=Charlie Puth - How Long playing=True channel=None
