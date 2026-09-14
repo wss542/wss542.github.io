@@ -1,7 +1,4 @@
-# 更新于 2026-09-14 11:28:38 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:18:49.325] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 11:18:49.336] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:18:49.352] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+# 更新于 2026-09-14 11:29:09 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:18:49.396] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
 [2026-09-14 11:18:49.401] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
 [2026-09-14 11:18:49.406] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45676 秒 (下次 00:00:05)
@@ -1499,3 +1496,6 @@
 [2026-09-14 11:28:14.638] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 11:28:31.874] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-14 11:28:37.896] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+[2026-09-14 11:28:45.167] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 11:28:58.949] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+[2026-09-14 11:29:04.963] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
