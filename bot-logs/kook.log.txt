@@ -1,34 +1,4 @@
-# 更新于 2026-09-14 13:28:45 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:20:40.351] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 11:20:40.352] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 11:20:40.352] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 11:20:40.353] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 11:20:40.354] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 11:20:40.355] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 11:20:40.355] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 11:20:40.356] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 11:20:40.356] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 11:20:40.356] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 11:20:40.358] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 11:20:40.359] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 11:20:40.359] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 11:20:40.359] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 11:20:40.359] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 11:20:40.359] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 11:20:40.360] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:20:40.360] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:20:40.360] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 11:20:40.360] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:40.360] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 11:20:40.360] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:40.360] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 11:20:40.361] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 11:20:40.399] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 11:20:40.400] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 11:20:40.402] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h40m 后执行 (12:01)
-[2026-09-14 11:20:40.420] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 11:20:40.496] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 247s 前）
-[2026-09-14 11:20:40.498] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+# 更新于 2026-09-14 13:29:21 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:20:40.514] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-09-14 11:20:40.515] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 [2026-09-14 11:20:40.515] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
@@ -1499,3 +1469,33 @@
 [2026-09-14 13:28:12.411] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
 [2026-09-14 13:28:12.599] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=34ms]: '**⏸ 已暂停**' song=OneRepublic - Sunshine playing=False channel=None
 [2026-09-14 13:28:42.236] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=[] lyric_event=False lyric='-' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:28:48.402] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-360ms]: '**Smile a little more and I'm into it**
+`绽放微笑 我沉醉其间`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:49.500] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=664ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:49.501] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=651ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:54.028] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=601ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:55.139] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-159ms]: '**I don't really know any other way to say this**
+`我实在不知还能如何' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:57.634] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=714ms]: '**Can't slow down trying to keep up with the changes**
+`无法放缓' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:28:58.746] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=68ms]: '**Punch that number in the name when I clock in**
+`我打卡上班 在自己' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:00.213] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-203ms]: '**Now I feel like Michael with a cane when I walk in**
+`我走进来' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:03.511] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-14 13:29:03.515] [INFO    ] (bot:_bg_pc_offline_checker:852) [-] 主电脑恢复通知已发送
+[2026-09-14 13:29:04.310] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=384ms]: '**Basically life is the same thing unless you don't want the' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:05.425] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-144ms]: '**Probably should want and get a feature but I didn't**
+`或许该' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:06.633] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-364ms]: '**I've been saving up the money cause it's better for the bu' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:09.689] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=577ms]: '**I, I, I, I-I've been running through this strange life**
+`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:11.019] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=325ms]: '**Chasing all them green lights**
+`畅想着通行无阻`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:12.129] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-290ms]: '**Throwing off the shade for a little bit of sunshine** *(Ye' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:13.307] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Throwing off the shade for a little bit of sunsh' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:29:20.464] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=64ms]: '**Woo! Woo!**
+`令人惊叹`' song=OneRepublic - Sunshine playing=True channel=None
