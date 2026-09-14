@@ -1,12 +1,4 @@
-# 更新于 2026-09-14 22:18:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:07:11.822] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 20:07:11.822] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 20:07:11.823] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 20:07:11.823] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 20:07:11.823] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 20:07:12.062] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-14 20:07:12.066] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-14 20:07:12.281] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+# 更新于 2026-09-14 22:19:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:07:12.282] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-14 20:07:12.296] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-09-14 20:07:12.297] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
@@ -1499,3 +1491,11 @@
 [2026-09-14 22:18:26.512] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**離れてもあなたの幸せ願う**
 `爱过所以 分开后也希望你幸福`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 22:18:27.702] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=182ms]: '**▶ M3mo - 东亚小孩**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.379] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=586ms]: '**作曲 : M3mo**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.380] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=582ms]: '**编曲 : M3mo**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=568ms]: '**制作人 : M3mo**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=537ms]: '**监制：12k/Shawn/M3mo/mayauzz**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=523ms]: '**出品：月凰文化**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:33.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=17ms]: '**【未经著作权人许可 不得翻唱 翻录或使用】**' song=M3mo - 东亚小孩 playing=True channel=None
+[2026-09-14 22:18:36.780] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=430ms]: '**⏸ 已暂停**' song=M3mo - 东亚小孩 playing=False channel=None
+[2026-09-14 22:18:56.995] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
