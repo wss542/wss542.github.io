@@ -1,18 +1,4 @@
-# 更新于 2026-09-14 09:52:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 00:36:32.265] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-[2026-09-14 00:36:32.266] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
-[2026-09-14 00:36:32.384] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-09-14 00:36:32.385] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 00:36:32.656] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 00:36:32.657] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 00:36:33.176] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
-[2026-09-14 00:36:33.176] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 00:36:33.177] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 84212 秒 (下次 00:00:05)
-[2026-09-14 00:36:33.707] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 00:36:33.709] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 00:36:33.710] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 00:36:33.711] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 00:36:33.993] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+# 更新于 2026-09-14 09:53:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:36:33.000] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 6312s
 [2026-09-14 00:36:34.508] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-14 00:36:34.705] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
@@ -1499,3 +1485,17 @@
 [2026-09-14 09:52:46.776] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
 [2026-09-14 09:52:47.039] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
 [2026-09-14 09:52:47.141] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
+[2026-09-14 09:52:50.799] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectError 
+[2026-09-14 09:52:50.811] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectError 
+[2026-09-14 09:52:50.836] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectError 
+[2026-09-14 09:52:51.516] [INFO    ] (wdsj_tracker:daily_stats_collect:101) [-] 每日战绩采集完成: 0 条新记录
+[2026-09-14 09:52:51.589] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 2h8m 后执行 (12:01)
+[2026-09-14 09:53:20.419] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-14 09:53:20.423] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 09:53:20.568] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+[2026-09-14 09:53:20.572] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+[2026-09-14 09:53:20.577] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
+[2026-09-14 09:53:20.596] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+[2026-09-14 09:53:21.326] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 7200s
+[2026-09-14 09:53:22.438] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-14 09:53:24.193] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
