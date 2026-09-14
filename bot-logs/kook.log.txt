@@ -1,16 +1,4 @@
-# 更新于 2026-09-14 10:57:23 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 04:28:56.213] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 04:28:56.214] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h32m 后执行 (08:01)
-[2026-09-14 04:28:56.230] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 04:29:02.276] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 51s 前）
-[2026-09-14 04:29:02.278] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 04:29:02.288] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 04:29:02.288] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 04:29:02.289] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 04:29:02.289] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 04:29:02.289] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 04:29:02.290] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 04:29:08.367] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+# 更新于 2026-09-14 10:57:53 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 04:29:08.477] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 [2026-09-14 04:29:08.477] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-14 04:29:08.486] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
@@ -1499,3 +1487,15 @@
 `无论是谁 都会在不经意间`' song=KOKIA - ありがとう··· playing=True channel=None
 [2026-09-14 10:57:13.725] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=718ms]: '**何かを失っている**
 `失去什么`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:26.285] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 9631)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**フッと気付けばあなたはいない**
+`不经意间 你已经悄然离去`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:57:26.287] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4585ms]: '**フッと気付けばあなたはいない**
+`不经意间 你已经悄然离去`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:27.404] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=455ms]: '**思い出だけを残して**
+`空留下一段回忆`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:35.700] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=499ms]: '**せわしい時の中**
+`慌乱无主之间`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:37.972] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=116ms]: '**言葉を失った人形達のように**
+`如同无法言语的人偶`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:49.279] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=44ms]: '**街角に溢れたノラネコのように**
+`好似在街角流浪无主的猫`' song=KOKIA - ありがとう··· playing=True channel=None
