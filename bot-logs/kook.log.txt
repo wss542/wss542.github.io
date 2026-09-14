@@ -1,50 +1,4 @@
-# 更新于 2026-09-14 13:44:10 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:21:08.840] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:21:08.861] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:21:08.903] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-14 11:21:08.907] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 11:21:08.910] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45536 秒 (下次 00:00:05)
-[2026-09-14 11:21:09.156] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 11:21:09.623] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 11:21:09.624] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 11:21:09.624] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 11:21:09.625] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 11:21:09.652] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]
-[2026-09-14 11:21:09.671] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 11:21:09.674] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:21:10.364] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 8209)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 11:21:10.813] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 11:21:14.626] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
-[2026-09-14 11:21:42.558] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:21:53.142] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:21:53.150] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:21:53.160] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 8209)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 11:21:53.161] [INFO    ] (logger:info:335) [-] [watchdog] 已重启 khl_bot 连接 (#1)
-[2026-09-14 11:21:53.170] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-09-14 11:21:53.173] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-09-14 11:21:53.174] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-09-14 11:21:53.175] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-14 11:21:53.175] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-14 11:21:53.175] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-09-14 11:21:53.176] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-09-14 11:21:53.176] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-09-14 11:21:53.176] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-09-14 11:21:53.177] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-09-14 11:21:53.177] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-09-14 11:21:53.178] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-09-14 11:21:53.181] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-09-14 11:21:53.181] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-09-14 11:21:53.183] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-14 11:21:53.622] [INFO    ] (pc_status:_handle_client:178) [-] PC 客户端断开连接
-[2026-09-14 11:22:00.269] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-14 11:22:00.282] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:22:00.958] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:22:00.958] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+# 更新于 2026-09-14 13:45:55 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:22:00.959] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-09-14 11:22:00.962] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
 [2026-09-14 11:22:00.963] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
@@ -1499,3 +1453,49 @@
 `青蓝天空遥远彼端`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
 [2026-09-14 13:44:09.564] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=15ms]: '**その光線銃で打ち抜いて**
 `就用那光线枪射穿吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:25.463] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-77ms]: '**百戦錬磨の見た目は将校**
+`看来身经百战实为将校`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:28.858] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=268ms]: '**いったりきたりの花魁道中**
+`人潮来往的花魁道中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:30.027] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**いったりきたりの花魁道中**
+`人潮来往的花魁道中`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:44:32.343] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=515ms]: '**アイツもコイツも皆で集まれ**
+`不管那个人或这个人大家都过来吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:34.583] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-283ms]: '**聖者の行進**
+`圣者的行进`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:36.852] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=428ms]: '**ワン ツー サン シー**
+`一二三四`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:37.974] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-52ms]: '**禅定門を潜り抜けて**
+`穿过出家僧人旁`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:41.466] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=308ms]: '**安楽浄土厄払い**
+`极乐净土驱凶避邪`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:44.833] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=541ms]: '**きっと終幕は大団円**
+`最后一幕一定就是大团圆`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:47.137] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**拍手の合間に**
+`在掌声的同时`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:50.740] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=654ms]: '**千本桜 夜ニ紛レ**
+`千本樱融入夜中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:53.896] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=657ms]: '**君ノ声モ届カナイヨ**
+`连你的声音也传不到啊`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:56.216] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-106ms]: '**此処は宴 鋼の檻**
+`此处开宴钢铁牢笼中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:59.590] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**その断頭台で見下ろして**
+`自那断头台上往下看吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:00.700] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**その断頭台で見下ろして**
+`自那断头台上往下看吧`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:45:02.959] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=450ms]: '**三千世界 常世之闇**
+`三千世界黄泉之暗`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:06.374] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=725ms]: '**嘆ク唄モ聞コエナイヨ**
+`连哀叹之歌也听不见啊`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:08.595] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-177ms]: '**希望の丘 遥か彼方**
+`希望之丘遥远彼端`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:11.935] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=127ms]: '**その閃光弾を打ち上げろ**
+`就将那闪光弹射入天吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:31.169] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**その閃光弾を打ち上げろ**
+`就将那闪光弹射入天吧`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:45:47.472] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=796ms]: '**環状線を走り抜けて**
+`奔驰穿过环状线`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:49.781] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=70ms]: '**東奔西走なんのその**
+`东奔西走不算什么`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:53.181] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=452ms]: '**少年少女戦国無双**
+`少年少女战国无双`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
