@@ -1,107 +1,4 @@
-# 更新于 2026-09-14 09:52:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 00:36:21.267] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-09-14 00:36:21.267] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-09-14 00:36:21.267] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-09-14 00:36:21.268] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-09-14 00:36:21.269] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-09-14 00:36:21.269] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-09-14 00:36:21.272] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 7, 'active_tasks': 0}
-[2026-09-14 00:36:21.288] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-09-14 00:36:21.289] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-09-14 00:36:21.306] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-14 00:36:21.968] [INFO    ] (pc_status:_handle_client:178) [-] PC 客户端断开连接
-[2026-09-14 00:36:23.506] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-14 00:36:23.543] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 00:36:24.880] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 00:36:24.881] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-14 00:36:24.882] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 00:36:24.889] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 00:36:24.890] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 00:36:24.893] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 00:36:24.893] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 00:36:24.894] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 00:36:24.894] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 00:36:24.894] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 00:36:25.145] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
-[2026-09-14 00:36:25.145] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 00:36:25.165] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 00:36:25.165] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 00:36:25.626] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 00:36:25.648] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 00:36:25.648] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 00:36:25.650] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 00:36:25.651] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 00:36:25.651] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 00:36:25.652] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 00:36:25.653] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 00:36:25.653] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 00:36:25.656] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 00:36:25.657] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 00:36:25.657] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 00:36:25.657] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 00:36:25.669] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 00:36:25.670] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 00:36:25.670] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 00:36:25.680] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 00:36:25.680] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 00:36:25.682] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 00:36:25.683] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 00:36:25.683] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 00:36:25.685] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 00:36:25.685] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 00:36:25.686] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 00:36:25.687] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 00:36:25.687] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 00:36:25.688] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 00:36:25.688] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 00:36:25.688] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 00:36:25.693] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 00:36:25.694] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 00:36:25.694] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 00:36:25.695] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 00:36:25.695] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 00:36:25.696] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 00:36:25.696] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 00:36:25.697] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 00:36:25.698] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 00:36:25.698] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 00:36:25.699] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 00:36:25.700] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 00:36:25.704] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 00:36:25.704] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 00:36:25.704] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 00:36:25.711] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 00:36:25.711] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 00:36:25.712] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 00:36:25.712] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 00:36:25.712] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 00:36:25.713] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 00:36:25.713] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 00:36:25.714] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 00:36:25.714] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 00:36:25.714] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 00:36:25.714] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 00:36:25.715] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 00:36:25.716] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 00:36:25.718] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 00:36:25.796] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 00:36:25.798] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 00:36:25.803] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h24m 后执行 (04:01)
-[2026-09-14 00:36:25.824] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 00:36:31.987] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 34s 前）
-[2026-09-14 00:36:31.988] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 00:36:31.997] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 00:36:31.998] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 00:36:31.999] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 00:36:31.999] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 00:36:31.999] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 00:36:32.001] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-09-14 09:52:47 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 00:36:32.265] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
 [2026-09-14 00:36:32.266] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-09-14 00:36:32.384] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
@@ -1499,3 +1396,106 @@
 [2026-09-14 07:34:39.668] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
                                                                                                                                                                                                                                                                                                                           [2026-09-14 09:52:11.468] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
 [2026-09-14 09:52:11.763] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-09-14 09:52:33.801] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-14 09:52:33.803] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+[2026-09-14 09:52:33.805] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-14 09:52:33.833] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
+[2026-09-14 09:52:33.837] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
+[2026-09-14 09:52:33.887] [INFO    ] (logger:info:335) [-] 语言文件已加载
+[2026-09-14 09:52:33.888] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
+[2026-09-14 09:52:33.892] [INFO    ] (logger:info:335) [-] 日志系统已初始化
+[2026-09-14 09:52:33.892] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
+[2026-09-14 09:52:33.893] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
+[2026-09-14 09:52:34.282] [INFO    ] (logger:info:335) [-] Bot 自身信息: id=659688244 name=茂密
+[2026-09-14 09:52:34.284] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+[2026-09-14 09:52:34.403] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
+[2026-09-14 09:52:34.403] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
+[2026-09-14 09:52:35.899] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+[2026-09-14 09:52:35.957] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
+[2026-09-14 09:52:35.958] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
+[2026-09-14 09:52:35.960] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
+[2026-09-14 09:52:35.964] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
+[2026-09-14 09:52:35.966] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
+[2026-09-14 09:52:35.969] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
+[2026-09-14 09:52:35.971] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
+[2026-09-14 09:52:35.974] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
+[2026-09-14 09:52:35.982] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
+[2026-09-14 09:52:35.985] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+[2026-09-14 09:52:35.987] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+[2026-09-14 09:52:35.988] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
+[2026-09-14 09:52:36.034] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+[2026-09-14 09:52:36.037] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+[2026-09-14 09:52:36.039] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
+[2026-09-14 09:52:36.102] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+[2026-09-14 09:52:36.103] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+[2026-09-14 09:52:36.103] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+[2026-09-14 09:52:36.103] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
+[2026-09-14 09:52:36.103] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+[2026-09-14 09:52:36.103] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+[2026-09-14 09:52:36.105] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+[2026-09-14 09:52:36.105] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
+[2026-09-14 09:52:36.108] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+[2026-09-14 09:52:36.109] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
+[2026-09-14 09:52:36.109] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
+[2026-09-14 09:52:36.112] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+[2026-09-14 09:52:36.113] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+[2026-09-14 09:52:36.113] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
+[2026-09-14 09:52:36.119] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+[2026-09-14 09:52:36.120] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
+[2026-09-14 09:52:36.124] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
+[2026-09-14 09:52:36.124] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+[2026-09-14 09:52:36.124] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
+[2026-09-14 09:52:36.169] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+[2026-09-14 09:52:36.170] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
+[2026-09-14 09:52:36.170] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
+[2026-09-14 09:52:36.174] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
+[2026-09-14 09:52:36.176] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
+[2026-09-14 09:52:36.179] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+[2026-09-14 09:52:36.179] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+[2026-09-14 09:52:36.181] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
+[2026-09-14 09:52:36.184] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+[2026-09-14 09:52:36.184] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+[2026-09-14 09:52:36.188] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+[2026-09-14 09:52:36.188] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
+[2026-09-14 09:52:36.192] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+[2026-09-14 09:52:36.192] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+[2026-09-14 09:52:36.192] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+[2026-09-14 09:52:36.199] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+[2026-09-14 09:52:36.200] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
+[2026-09-14 09:52:36.204] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+[2026-09-14 09:52:36.205] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
+[2026-09-14 09:52:36.205] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
+[2026-09-14 09:52:36.208] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
+[2026-09-14 09:52:36.209] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+[2026-09-14 09:52:36.209] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
+[2026-09-14 09:52:36.209] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+[2026-09-14 09:52:36.213] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-14 09:52:36.214] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
+[2026-09-14 09:52:36.216] [INFO    ] (logger:info:335) [-] ==================================================
+[2026-09-14 09:52:36.217] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+[2026-09-14 09:52:36.221] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
+[2026-09-14 09:52:36.451] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+[2026-09-14 09:52:36.463] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+[2026-09-14 09:52:36.471] [INFO    ] (bot:_bg_wdsj_collector:696) [-] 上次采集 2026-09-14T04:01 距今超过 4h，启动时立即补采
+[2026-09-14 09:52:36.504] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
+[2026-09-14 09:52:36.576] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+[2026-09-14 09:52:38.729] [INFO    ] (bot:_bg_pc_offline_checker:812) [-] PC 掉线检测: 启动时心跳已超时(8297s 前)，掉线状态延续，不重复告警
+[2026-09-14 09:52:38.732] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 8297s 前）
+[2026-09-14 09:52:38.743] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
+[2026-09-14 09:52:38.924] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
+[2026-09-14 09:52:38.925] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+[2026-09-14 09:52:38.925] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+[2026-09-14 09:52:38.925] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+[2026-09-14 09:52:38.926] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
+[2026-09-14 09:52:38.926] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+[2026-09-14 09:52:39.173] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+[2026-09-14 09:52:39.183] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
+[2026-09-14 09:52:39.471] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
+[2026-09-14 09:52:39.478] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 09:52:40.991] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
+[2026-09-14 09:52:42.377] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
+[2026-09-14 09:52:42.378] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
+[2026-09-14 09:52:42.379] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 50843 秒 (下次 00:00:05)
+[2026-09-14 09:52:46.776] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
+[2026-09-14 09:52:47.039] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
+[2026-09-14 09:52:47.141] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ReadTimeout 
