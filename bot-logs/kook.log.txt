@@ -1,18 +1,4 @@
-# 更新于 2026-09-14 20:16:37 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:50:21.784] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 19:50:21.785] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 19:50:21.791] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 19:50:21.792] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 19:50:21.793] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 19:50:21.809] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 19:50:21.810] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 19:50:21.816] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 19:50:21.817] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 19:50:21.819] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 19:50:21.824] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 19:50:21.825] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 19:50:21.828] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 19:50:21.829] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+# 更新于 2026-09-14 20:17:20 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ==================================================
 [2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
 [2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ==================================================
@@ -1499,3 +1485,17 @@
 [2026-09-14 20:16:29.704] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=75ms]: '**How long has this been goin' on?**' song=Charlie Puth - How Long playing=True channel=None
 [2026-09-14 20:16:34.223] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=485ms]: '**You've been actin' so shady** *(shady)*' song=Charlie Puth - How Long playing=True channel=None
 [2026-09-14 20:16:36.529] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=199ms]: '**I've been feelin' it lately , baby** *(lately)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:39.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1070ms]: '**Ooh-ooh-ooh** *(yeah)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:40.981] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=21ms]: '**Ooh-ooh-hoo** *(encore)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:43.261] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=143ms]: '**Ooh-ooh-ooh-hoo-ooh-ooh**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:46.647] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1077ms]: '**How long has this been goin' on baby?**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:48.887] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=781ms]: '**Ooh-ooh-ooh** *(woo)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:50.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=337ms]: '**Ooh-ooh-ooh, you gotta go tell me now**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:53.378] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=967ms]: '**Ooh-ooh-ooh-hoo-ooh-ooh**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:16:54.538] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Ooh-ooh-ooh-hoo-ooh-ooh**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:16:56.760] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=553ms]: '**She said, "Boy, tell me honestly**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:01.304] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=319ms]: '**Was it real or just for show?" Yeah**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:05.794] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=645ms]: '**She said, "Save your apologies**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:10.306] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=660ms]: '**Baby, I just gotta know"**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:13.769] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=844ms]: '**How long has this been goin' on?** *(On)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:20.545] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=575ms]: '**You've been creepin' 'round on me**' song=Charlie Puth - How Long playing=True channel=None
