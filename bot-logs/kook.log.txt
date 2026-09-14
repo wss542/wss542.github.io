@@ -1,15 +1,4 @@
-# 更新于 2026-09-14 12:56:17 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:57.731] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 11:19:57.731] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 11:19:57.731] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 11:19:57.732] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 11:19:57.732] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 11:19:57.733] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 11:19:57.734] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 11:19:57.734] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 11:19:57.737] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:19:57.737] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 11:19:57.737] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+# 更新于 2026-09-14 12:57:05 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:57.738] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
 [2026-09-14 11:19:57.742] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
 [2026-09-14 11:19:57.743] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
@@ -1499,3 +1488,14 @@
 [2026-09-14 12:56:04.220] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=198ms]: '**棚に隠した哀れな**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
 [2026-09-14 12:56:10.017] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1447ms]: '**恥に濡れた鏡の中**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
 [2026-09-14 12:56:13.393] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=418ms]: '**都合の傷だけひけらかして**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:17.787] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=310ms]: '**手軽な強さで勝取る術を**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:24.205] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1259ms]: '**どれだけ磨いでも気はやつれる**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:26.921] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**どれだけ磨いでも気はやつれる**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 12:56:28.107] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=739ms]: '**ふらついた思想通りだ**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:31.521] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=206ms]: '**愛-same-CRIER 愛撫-save-LIAR**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:41.555] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3022ms]: '**Eid-聖-Rising HELL**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:41.556] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=660ms]: '**愛してる game 世界の day**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:41.557] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=117ms]: '**Don't-生-War Lie-兵士-War-World**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:46.120] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=227ms]: '**Eyes-Hate-War**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:48.426] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=54ms]: '**A-Z Looser-Krankheit-Was IS das?**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:59.310] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**A-Z Looser-Krankheit-Was IS das?**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
