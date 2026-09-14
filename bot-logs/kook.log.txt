@@ -1,13 +1,4 @@
-# 更新于 2026-09-14 10:56:50 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 04:28:56.154] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 04:28:56.154] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 04:28:56.155] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 04:28:56.155] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 04:28:56.155] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 04:28:56.155] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 04:28:56.155] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 04:28:56.156] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 04:28:56.212] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
+# 更新于 2026-09-14 10:57:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 04:28:56.213] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
 [2026-09-14 04:28:56.214] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h32m 后执行 (08:01)
 [2026-09-14 04:28:56.230] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
@@ -1499,3 +1490,12 @@
 [2026-09-14 10:56:08.830] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1597ms]: '**编曲 : 和田薫**' song=和田薫 - 時代を超える想い2 playing=True channel=None
 [2026-09-14 10:56:08.831] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1331ms]: '**纯音乐，请欣赏**' song=和田薫 - 時代を超える想い2 playing=True channel=None
 [2026-09-14 10:56:25.260] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 9631)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:56:55.562] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 9631)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ KOKIA - ありがとう···**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:56:55.563] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=694ms]: '**▶ KOKIA - ありがとう···**' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:00.661] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=504ms]: '**作词 : KOKIA**' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:00.665] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=234ms]: '**作曲 : KOKIA**' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:01.772] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1076ms]: '**编曲 : 日向敏文**' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:06.172] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=655ms]: '**誰もが気付かぬうちに**
+`无论是谁 都会在不经意间`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:13.725] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=718ms]: '**何かを失っている**
+`失去什么`' song=KOKIA - ありがとう··· playing=True channel=None
