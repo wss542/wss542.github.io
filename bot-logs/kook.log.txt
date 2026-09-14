@@ -1,49 +1,4 @@
-# 更新于 2026-09-14 22:09:06 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:05:29.892] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 20:05:29.893] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 20:05:29.893] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 20:05:29.893] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 20:05:29.899] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 20:05:29.900] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 20:05:29.900] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 20:05:29.901] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 20:05:29.926] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 20:05:29.927] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 20:05:29.927] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 20:05:29.938] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 20:05:29.940] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 20:05:29.941] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 20:05:29.941] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 20:05:29.942] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 20:05:29.942] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 20:05:29.942] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 20:05:29.943] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 20:05:29.945] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 20:05:29.945] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 20:05:29.947] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 20:05:29.948] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 20:05:29.949] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 20:05:29.950] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 20:05:29.952] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 20:05:29.954] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 20:05:29.957] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 20:05:29.957] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 20:05:29.957] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 20:05:29.972] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 20:05:29.973] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 20:05:29.973] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 20:05:29.975] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 20:05:29.976] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 20:05:29.978] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 20:05:29.978] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 20:05:29.978] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 20:05:29.983] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 20:05:29.984] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 20:05:29.985] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 20:05:29.986] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 20:05:29.987] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 20:05:29.988] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 20:05:29.988] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
+# 更新于 2026-09-14 22:13:51 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:05:29.993] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
 [2026-09-14 20:05:29.994] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
 [2026-09-14 20:05:29.996] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
@@ -1499,3 +1454,48 @@
 [2026-09-14 22:07:46.438] [INFO    ] (qq_bot:_run_once:132) [-] QQ HELLO interval=41250
 [2026-09-14 22:08:13.569] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 22:08:44.184] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 22:09:15.514] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:09:46.460] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:10:17.241] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:10:48.054] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:11:18.824] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:11:49.033] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:12:18.577] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=33ms]: '**▶ 继续播放**' song=林桦柽 - 穿越时空的思念（钢琴） playing=True channel=None
+[2026-09-14 22:12:20.048] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 继续播放**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:12:43.626] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=580ms]: '**▶ 當山みれい - 願い～あの頃のキミへ～**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:12:49.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1109ms]: '**作曲 : 童子-T/Shingo.S**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:12:49.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1102ms]: '**作词 : 童子-T**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:12:50.687] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**作词 : 童子-T**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:12:52.928] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=836ms]: '**作曲 : 童子-T/Shingo.S**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:12:52.928] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=826ms]: '**作词 : 童子-T**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:12:58.542] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=482ms]: '**作词 : 童子-T**' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:01.945] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=500ms]: '**ふたりの思い出**
+`那段你我相恋的岁月`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:05.292] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1106ms]: '**かき集めたなら**
+`一点一滴凝聚脑海`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:07.957] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=976ms]: '**また泣けてきちゃう**
+`泪流往心的方向`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:10.959] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1085ms]: '**寂しさ溢れて**
+`只剩寂寞与我`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:13.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=563ms]: '**最後の恋だと信じて願った**
+`曾经那么深信 能陪彼此走到最后`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:18.911] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=540ms]: '**あの日々にウソはなかった**
+`回望那时 我们都手捧着真心`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:21.126] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**あの日々にウソはなかった**
+`回望那时 我们都手捧着真心`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:13:27.910] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=248ms]: '**希望夢明るい未来**
+`希望 梦想 未来可盼`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:31.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**東京に持った大きな期待**
+`对东京怀抱憧憬无限期待`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:33.587] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=361ms]: '**だけど現実は甘くなくて**
+`可现实永远无情冷笑着`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:36.932] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=999ms]: '**落ち葉見つめ深く思いつめてた**
+`目光滞于落叶 陷入忧郁沼泽`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:39.178] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=23ms]: '**そんな時にあなたと出会って**
+`就在那时你降临到我身边`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:42.551] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=455ms]: '**いつもあなたに助けられて**
+`从此总是受到你的关照`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:45.945] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1044ms]: '**バイトが楽しみになって**
+`爱上和你一起打工的分秒`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:13:48.213] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=783ms]: '**実はシフト被るように狙ってた**
+`其实我每次排班都挑你也在的时候`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
