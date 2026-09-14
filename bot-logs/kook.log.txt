@@ -1,17 +1,4 @@
-# 更新于 2026-09-14 13:40:36 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:21:08.392] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 11:21:08.640] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 11:21:08.669] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 11:21:08.670] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 11:21:08.671] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 11:21:08.671] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 11:21:08.671] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 11:21:08.672] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 11:21:08.673] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 11:21:08.673] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 11:21:08.678] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:21:08.678] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 11:21:08.679] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
+# 更新于 2026-09-14 13:41:23 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:21:08.679] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
 [2026-09-14 11:21:08.684] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
 [2026-09-14 11:21:08.684] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
@@ -1499,3 +1486,16 @@
 [2026-09-14 13:40:02.420] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=921ms]: '**也哭也笑平凡着**' song=朴树 - 平凡之路 playing=True channel=None
 [2026-09-14 13:40:15.697] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 [2026-09-14 13:40:25.474] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**也哭也笑平凡着**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:40:53.011] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=756ms]: '**向前走 就这么走**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:40:55.352] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=508ms]: '**就算你被给过什么**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:40:56.557] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**就算你被给过什么**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:40:57.667] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=168ms]: '**向前走 就这么走**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:00.064] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-66ms]: '**就算你被夺走什么**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:03.442] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=222ms]: '**向前走 就这么走**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:05.718] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-75ms]: '**就算你会错过什么**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:09.271] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=586ms]: '**向前走 就这么走**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:11.564] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-110ms]: '**就算你会**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:13.816] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=12ms]: '**我曾经跨过山和大海**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:17.022] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=706ms]: '**也穿过人山人海**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:20.396] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1808ms]: '**我曾经拥有着一切**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:41:22.628] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-204ms]: '**转眼都飘散如烟**' song=朴树 - 平凡之路 playing=True channel=None
