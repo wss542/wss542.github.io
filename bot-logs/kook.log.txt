@@ -1,13 +1,4 @@
-# 更新于 2026-09-14 13:48:46 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:22:11.499] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 11:22:11.500] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 11:22:11.500] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:22:11.500] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:22:11.500] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 11:22:11.500] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:22:11.501] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 11:22:11.501] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:22:11.501] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
+# 更新于 2026-09-14 13:49:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:22:11.502] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
 [2026-09-14 11:22:11.535] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
 [2026-09-14 11:22:11.537] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
@@ -1499,3 +1490,12 @@
 [2026-09-14 13:48:29.489] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=945ms]: '**姑娘不胜酒力 哭得梨花带雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
 [2026-09-14 13:48:33.000] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**姑娘不胜酒力 哭得梨花带雨**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:48:36.233] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=686ms]: '**回首人间 笑谈你我初遇**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:04.461] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**回首人间 笑谈你我初遇**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:49:05.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-66ms]: '**东船与西舫 琴音袅袅于心上**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:11.493] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-128ms]: '**望姑娘模样 深情终究难放下**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:18.311] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=707ms]: '**美人迟了暮 任与绝世共赴**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:22.952] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-214ms]: '**卿和了胡旋 君作汉宫琵琶语**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:28.790] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=240ms]: '**弹一首琵琶曲 世人争相思意**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:34.332] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=34ms]: '**坐高楼赏小曲 抚琴声想起你**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:49:35.442] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**坐高楼赏小曲 抚琴声想起你**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:49:41.145] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=808ms]: '**姑娘不胜酒力 哭得梨花带雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
