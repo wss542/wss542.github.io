@@ -1,50 +1,4 @@
-# 更新于 2026-09-14 20:35:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:56:50.269] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 19:56:50.273] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 19:56:50.275] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 19:56:50.276] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 19:56:50.276] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 19:56:50.277] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 19:57:00.300] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 19:57:00.306] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 19:57:00.334] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 19:57:00.335] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 19:57:02.960] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 19:57:03.054] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 19:57:03.056] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 19:57:03.063] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 19:57:03.071] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 19:57:03.073] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 19:57:03.075] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 19:57:03.077] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 19:57:03.077] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 19:57:03.091] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 19:57:03.093] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 19:57:03.094] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 19:57:03.094] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 19:57:03.196] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 19:57:03.197] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 19:57:03.197] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 19:57:03.287] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 19:57:03.287] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 19:57:03.288] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 19:57:03.288] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 19:57:03.288] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 19:57:03.288] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 19:57:03.289] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 19:57:03.289] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 19:57:03.301] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 19:57:03.302] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 19:57:03.303] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 19:57:03.305] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 19:57:03.306] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 19:57:03.307] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 19:57:03.310] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 19:57:03.310] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 19:57:03.314] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 19:57:03.316] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 19:57:03.316] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 19:57:03.335] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+# 更新于 2026-09-14 20:36:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:57:03.336] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
 [2026-09-14 19:57:03.337] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
 [2026-09-14 19:57:03.342] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
@@ -1499,3 +1453,49 @@
 `仔细盯着屏幕`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
 [2026-09-14 20:35:04.271] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=138ms]: '**나의 방패는 카시오**
 `卡西欧在我手就是盾牌`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:06.530] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=866ms]: '**나의 전투화는 나이키**
+`Nike穿在脚跨过阴霾`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:07.639] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=679ms]: '**중력 씹어먹고**
+`说什么地心引力`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:08.762] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=766ms]: '**저기 달나라까지 rising**
+`我们一飞冲天就登峰造极`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:09.927] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=247ms]: '**Prove yourself and**
+`握紧拳头`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:12.222] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=511ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:15.551] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=448ms]: '**Make 'em remember you**
+`一战我成名`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:17.825] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=977ms]: '**Remember what we're 'bout to do**
+`铭记我们的使命`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:20.117] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=619ms]: '**Remember what we're 'bout to do**
+`铭记我们的使命`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:22.532] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=823ms]: '**Push through hell and**
+`勇往直前`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:23.643] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1073ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:24.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=399ms]: '**Higher**
+`勇往直前`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:27.093] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1107ms]: '**They will remember you**
+`登峰造极`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:28.211] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=294ms]: '**Remember what we're 'bout to do**
+`铭记我们的使命`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:30.516] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=164ms]: '**Remember what we're 'bout to do**
+`铭记我们的使命`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:32.803] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Prove yourself and rise rise**
+`握紧双拳 Rise Rise`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:35:32.804] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=423ms]: '**Prove yourself and rise rise**
+`握紧双拳 Rise Rise`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:36.267] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=399ms]: '**Pick up your weapon and face it**
+`拿起武器没有后悔`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:39.622] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=699ms]: '**Rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:41.908] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1113ms]: '**It's deep in your blood**
+`热血沸腾不愿卑微`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:41.909] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=125ms]: '**Go and take it**
+`不愿卑微`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:45.279] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1024ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:49.802] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=835ms]: '**Busy chasing왕관**
+`追逐王冠夺魁`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:51.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=739ms]: '**With you on the downtown**
+`与你冲出重围`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:52.058] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8ms]: '**There's blood on the crown**
+`心中有梦就要捍卫`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:35:55.495] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=198ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:36:03.421] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Rise rise**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
