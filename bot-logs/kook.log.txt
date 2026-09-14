@@ -1,8 +1,4 @@
-# 更新于 2026-09-14 19:05:40 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 14:46:05.185] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 14:46:11.604] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=762ms]: '**Pictures remind me of things I forgot**
-`照片让我想起遗忘已久的事情`' song=mj apanay - time machine (feat playing=True channel=None
-[2026-09-14 14:46:16.228] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=148ms]: '**But also of all of the things that I've lost**
+# 更新于 2026-09-14 19:06:28 · 共 1500 行（来源 huanmeng.log 末尾）
 `以及我曾失去过的一切' song=mj apanay - time machine (feat playing=True channel=None
 [2026-09-14 14:46:21.889] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-4ms]: '**Can't get them back they won't fall from above**
 `曾经的一切都无法' song=mj apanay - time machine (feat playing=True channel=None
@@ -1499,3 +1495,7 @@
 [2026-09-14 19:05:40.101] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
 [2026-09-14 19:05:40.105] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
 [2026-09-14 19:05:40.106] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7162)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 19:05:41.744] [INFO    ] (qq_bot:_run_once:132) [-] QQ HELLO interval=41250
+[2026-09-14 19:05:44.766] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1
+[2026-09-14 19:05:44.806] [INFO    ] (logger:info:335) [-] 5 秒后重试...
+[2026-09-14 19:06:12.855] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7162)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
