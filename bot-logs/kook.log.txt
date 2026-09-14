@@ -1,30 +1,4 @@
-# 更新于 2026-09-14 21:49:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:03:19.244] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 20:03:19.244] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 20:03:19.246] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 20:03:19.246] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 20:03:19.246] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 20:03:19.247] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 20:03:19.247] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 20:03:19.249] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 20:03:19.250] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 20:03:19.251] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 20:03:19.251] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 20:03:19.252] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 20:03:19.252] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 20:03:19.253] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 20:03:19.253] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 20:03:19.253] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 20:03:19.253] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:03:19.253] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 20:03:19.254] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:03:19.256] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 20:03:19.257] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 20:03:19.306] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 20:03:19.308] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 20:03:19.309] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 3h57m 后执行 (00:01)
-[2026-09-14 20:03:19.344] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 20:03:29.404] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 67s 前）
+# 更新于 2026-09-14 21:53:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:03:29.408] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-09-14 20:03:29.430] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
 [2026-09-14 20:03:29.431] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1473,29 @@
 [2026-09-14 21:48:24.706] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=621ms]: '**▶ 继续播放**' song=JVLA - Such a Whore (Instrumen playing=True channel=None
 [2026-09-14 21:48:53.010] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 继续播放**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 21:49:23.380] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 继续播放**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:49:43.666] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=97 cpu=None mem=None
+[2026-09-14 21:49:43.667] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 21:49:50.507] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=14ms]: '**▶ Richard Clayderman - Souvenirs d'enfance**' song=Richard Clayderman - Souvenirs playing=True channel=None
+[2026-09-14 21:49:53.903] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Richard Clayderman - Souvenirs d'enfance**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:49:57.456] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=603ms]: '**作词 : DE SENNEVILLE, PAUL MARIE ANDRE**' song=Richard Clayderman - Souvenirs playing=True channel=None
+[2026-09-14 21:49:57.457] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=590ms]: '**作曲 : Paul Senneville**' song=Richard Clayderman - Souvenirs playing=True channel=None
+[2026-09-14 21:49:57.458] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=560ms]: '**纯音乐，请欣赏**' song=Richard Clayderman - Souvenirs playing=True channel=None
+[2026-09-14 21:50:24.571] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:50:55.009] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:51:25.450] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:51:55.798] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:52:26.299] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:52:45.523] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1150ms]: '**▶ Fitz and The Tantrums - HandClap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:52:50.258] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**Turn it up**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:52:57.055] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Turn it up**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:52:58.171] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=458ms]: '**Somebody save your soul 'cause you've been sinning in this' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:01.513] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=7ms]: '**Too many troubles, all these lovers got you losing control' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:04.902] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=11ms]: '**You're like a drug to me, a luxury, my sugar and gold**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:08.277] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=90ms]: '**I want the good life, every good night, you're a hard one ' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:13.889] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=831ms]: '**'Cause you don't even know**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:15.051] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=302ms]: '**I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:18.461] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=393ms]: '**Said I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:21.780] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=38ms]: '**Somebody save your soul 'cause you've been sinning in this' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:26.272] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=797ms]: '**Too many troubles, all these lovers got you losing control' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:27.427] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Too many troubles, all these lovers got you losi' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:53:29.644] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1031ms]: '**You're like a drug to me, a luxury, my sugar and gold**' song=Fitz and The Tantrums - HandCl playing=True channel=None
