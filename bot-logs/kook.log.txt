@@ -1,12 +1,4 @@
-# 更新于 2026-09-14 13:51:44 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:23:40.578] [DEBUG   ] (dispatcher:_dispatch_inner:110) [5fc70a55f35a4480] KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-[2026-09-14 11:23:40.582] [INFO    ] (dispatcher:_dispatch_inner:316) [5fc70a55f35a4480] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='欠费断网没绷住 喵～'
-[2026-09-14 11:23:40.596] [INFO    ] (queues:_get_or_create_queue:32) [5fc70a55f35a4480] [队列] 创建群1010983873136793 的独立消息队列
-[2026-09-14 11:23:40.596] [DEBUG   ] (queues:enqueue_message:75) [5fc70a55f35a4480] [队列] 群1010983873136793 消息已入队 (队长度=1)
-[2026-09-14 11:23:40.610] [INFO    ] (memory:merge_overflow_memory:432) [c5419e1026c34505] 长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
-[2026-09-14 11:23:40.626] [DEBUG   ] (pipeline:process_message:542) [c5419e1026c34505] 回复判断: is_mentioned=False is_group=True bot_qq=0 content='欠费断网没绷住 喵～'
-[2026-09-14 11:23:40.627] [INFO    ] (logger:log_trace_summary:392) [c5419e1026c34505] [TRACE c5419e1026c34505] total=28.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=28.53ms(x1) (wall28.53), queue_wait=2.3ms(x1)
-[2026-09-14 11:23:47.659] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+# 更新于 2026-09-14 13:52:16 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:24:01.570] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-14 11:24:07.593] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
 [2026-09-14 11:24:17.676] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
@@ -1499,3 +1491,11 @@
 [2026-09-14 13:51:36.861] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**拿着笔想写点东西**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:51:39.111] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1015ms]: '**以为是武器能伸张正义**' song=草东没有派对 - 但 playing=True channel=None
 [2026-09-14 13:51:43.626] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=373ms]: '**没人理也没关系**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:51:48.191] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=979ms]: '**至少我还有你**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:51:50.433] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=758ms]: '**至少我还有**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:51:52.708] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=900ms]: '**你说你不想在这里 我也不想在这里**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:51:58.375] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=788ms]: '**但天黑的太快想走早就来不及**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:52:02.960] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=386ms]: '**喔 我爱你 可惜关系变成没关系**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:52:07.458] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**问题是没问题**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:52:07.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-5ms]: '**问题是没问题**' song=草东没有派对 - 但 playing=True channel=None
+[2026-09-14 13:52:10.805] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=800ms]: '**于是我们继续**' song=草东没有派对 - 但 playing=True channel=None
