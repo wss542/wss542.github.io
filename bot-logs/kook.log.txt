@@ -1,114 +1,4 @@
-# 更新于 2026-09-14 13:15:30 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:20:10.832] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 11:20:10.832] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h40m 后执行 (12:01)
-[2026-09-14 11:20:10.850] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 11:20:10.925] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 218s 前）
-[2026-09-14 11:20:10.927] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 11:20:10.941] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 11:20:10.942] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 11:20:10.942] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 11:20:10.942] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 11:20:10.943] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 11:20:10.943] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 11:20:10.959] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:20:10.988] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:20:11.035] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-14 11:20:11.040] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 11:20:11.047] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45594 秒 (下次 00:00:05)
-[2026-09-14 11:20:11.267] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 11:20:11.877] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 11:20:11.880] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 11:20:11.881] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 11:20:11.881] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 11:20:11.978] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]
-[2026-09-14 11:20:11.987] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 11:20:11.989] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:20:12.931] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 11:20:13.378] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13950)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 11:20:16.882] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
-[2026-09-14 11:20:17.024] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-09-14 11:20:17.025] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-09-14 11:20:17.026] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-09-14 11:20:17.027] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-14 11:20:17.027] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-14 11:20:17.027] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-09-14 11:20:17.028] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-09-14 11:20:17.028] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
-[2026-09-14 11:20:17.028] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
-[2026-09-14 11:20:17.028] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
-[2026-09-14 11:20:17.029] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
-[2026-09-14 11:20:17.029] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: sandbox
-[2026-09-14 11:20:17.029] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: tuf
-[2026-09-14 11:20:17.029] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: weather
-[2026-09-14 11:20:17.029] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: whois
-[2026-09-14 11:20:17.030] [INFO    ] (logger:info:335) [-] Plugin Runtime 已关闭
-[2026-09-14 11:20:17.030] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:20:17.039] [INFO    ] (logger:info:335) [-] 运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-[2026-09-14 11:20:17.042] [INFO    ] (context_manager:save_context:190) [-] 上下文已写入磁盘
-[2026-09-14 11:20:17.042] [INFO    ] (logger:info:335) [-] 👋 再见！
-[2026-09-14 11:20:17.045] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-14 11:20:17.540] [INFO    ] (pc_status:_handle_client:178) [-] PC 客户端断开连接
-[2026-09-14 11:20:23.913] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-14 11:20:23.934] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:20:25.191] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:25.192] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-14 11:20:25.192] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:25.199] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 11:20:25.200] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 11:20:25.202] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 11:20:25.204] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 11:20:25.204] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 11:20:25.205] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 11:20:25.205] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 11:20:25.232] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Connection reset by peer]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 11:20:25.239] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 11:20:25.248] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 11:20:25.249] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 11:20:25.585] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 11:20:25.613] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 11:20:25.614] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 11:20:25.614] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 11:20:25.615] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 11:20:25.615] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 11:20:25.616] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 11:20:25.618] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 11:20:25.619] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 11:20:25.624] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:20:25.624] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 11:20:25.625] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 11:20:25.625] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 11:20:25.633] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 11:20:25.635] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 11:20:25.635] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 11:20:25.637] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 11:20:25.637] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 11:20:25.637] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 11:20:25.637] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 11:20:25.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 11:20:25.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 11:20:25.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 11:20:25.638] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 11:20:25.638] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 11:20:25.639] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 11:20:25.639] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 11:20:25.639] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 11:20:25.640] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 11:20:25.640] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 11:20:25.640] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 11:20:25.640] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 11:20:25.641] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 11:20:25.641] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 11:20:25.641] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 11:20:25.644] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 11:20:25.645] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 11:20:25.645] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 11:20:25.646] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 11:20:25.646] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 11:20:25.647] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 11:20:25.648] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 11:20:25.648] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 11:20:25.649] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 11:20:25.650] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+# 更新于 2026-09-14 13:16:55 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:20:25.651] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-09-14 11:20:25.651] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
 [2026-09-14 11:20:25.652] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
@@ -1499,3 +1389,113 @@
 [2026-09-14 13:14:13.750] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4578ms]: '**▶ Dreamtale - The Dawn**' song=Dreamtale - The Dawn playing=True channel=None
 [2026-09-14 13:14:44.015] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Dreamtale - The Dawn**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:15:14.740] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Dreamtale - The Dawn**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:15:43.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1297ms]: '**▶ OneRepublic - Sunshine**' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.863] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**作词 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Sk' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:15:45.867] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1859ms]: '**作词 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.869] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1861ms]: '**作曲 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.869] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1862ms]: '**Running through this strange life**
+`我在不同寻常的人生中疾驰`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.870] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1862ms]: '**Chasing all them green lights**
+`畅想着通行无阻`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.870] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1863ms]: '**Throwing off the shade for a little bit of sunshine**
+`抛开阴' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.872] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1864ms]: '**Hit me with them good vibes**
+`满怀正能量 将我环绕`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.873] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1865ms]: '**Pictures on my phone like**
+`手机显示的图片都预示着`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.873] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1865ms]: '**Everything is so fire**
+`一切都饱含热情`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.874] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1867ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1867ms]: '**Crazy lately I've been finding**
+`近来真是疯狂 我在确认`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1867ms]: '**Tryna write myself a sermon**
+`试图为自己写篇布道`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.875] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1859ms]: '**作词 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=559ms]: '**作曲 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=395ms]: '**Running through this strange life**
+`我在不同寻常的人生中疾驰`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=232ms]: '**Chasing all them green lights**
+`畅想着通行无阻`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:45.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=70ms]: '**Throwing off the shade for a little bit of sunshine**
+`抛开阴' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.003] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1030ms]: '**Hit me with them good vibes**
+`满怀正能量 将我环绕`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.005] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=869ms]: '**Pictures on my phone like**
+`手机显示的图片都预示着`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.006] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=707ms]: '**Everything is so fire**
+`一切都饱含热情`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.006] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=498ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.007] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=333ms]: '' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:47.007] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=150ms]: '**Crazy lately I've been finding**
+`近来真是疯狂 我在确认`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.258] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2201ms]: '**Tryna write myself a sermon**
+`试图为自己写篇布道`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.348] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2278ms]: '**You just trynna get a word in life is not fair**
+`你想倾诉 生活四' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.370] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2297ms]: '**I been working on my tunnel vision**
+`我竭力克制狭隘思维`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.373] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2176ms]: '**Tryna get a new prescription**
+`想寻求全新的出路`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.375] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2158ms]: '**Taking swings and even missing but I don't care**
+`挥舞拳脚 虽然' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.376] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1150ms]: '**I been working on my tunnel vision**
+`我竭力克制狭隘思维`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.377] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1077ms]: '**Tryna get a new prescription**
+`想寻求全新的出路`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:49.378] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1035ms]: '**Taking swings and even missing but I don't care**
+`挥舞拳脚 虽然' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:59.424] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1505ms]: '**Breathing more Just a little bit**
+`继续呼吸下吧`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:59.432] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=878ms]: '**Care a little less Just a little bit**
+`不要那么在意就好`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:15:59.473] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=265ms]: '**Like life is woo hoo**
+`生活就犹如惊叹号`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:00.780] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1272ms]: '**Spend a little more to get rid of it**
+`增大点开销 来摆脱烦恼`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:00.782] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=229ms]: '**Smile a little more and I'm into it**
+`绽放微笑 我沉醉其间`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:02.448] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=207ms]: '**I I I I**' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:04.798] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=955ms]: '**I've been running through this strange life**
+`我在不同寻常的人生中疾' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:07.171] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1241ms]: '**Chasing all them green lights**
+`畅想着通行无阻`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:08.347] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=713ms]: '**Throwing off the shade for a little bit of sunshine**
+`抛开阴' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:11.302] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=211ms]: '**Hit me with them good vibes**
+`满怀正能量 将我环绕`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:12.864] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=77ms]: '**Pictures on my phone like**
+`手机显示的图片都预示着`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:15.405] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=887ms]: '**Everything is so fire**
+`一切都饱含热情`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:18.333] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**A little bit of sunshine**
+`一线暖阳`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:16:18.334] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2167ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:23.770] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=826ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:49.036] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**A little bit of sunshine**
+`一线暖阳`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:16:49.037] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=17742ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:49.040] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=13220ms]: '**Another day, another selfish**
+`崭新的一天 继续别样地自私着`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:49.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=11971ms]: '**Moment I've been feeling helpless**
+`我总是倍感无助`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:50.180] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1147ms]: '**Sick of seein' all the selfies, now I don't care**
+`看腻的自拍 ' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:50.183] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1133ms]: '**I'm dancing more Just a little bit**
+`继续舞动会儿吧`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:50.186] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1127ms]: '**Breathing more Just a little bit**
+`继续呼吸下吧`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:50.186] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1095ms]: '**Care a little less Just a little bit**
+`不要那么在意就好`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:50.187] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=741ms]: '**Like life is woo hoo**
+`生活就犹如惊叹号`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:51.332] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=233ms]: '**I'm making more just a little bit**
+`再多挣些钱`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:53.586] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=716ms]: '**Spend a little more to get rid of it**
+`增大点开销 来摆脱烦恼`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:16:54.704] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=155ms]: '**Smile a little more and I'm into it**
+`绽放微笑 我沉醉其间`' song=OneRepublic - Sunshine playing=True channel=None
