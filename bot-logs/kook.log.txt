@@ -1,26 +1,4 @@
-# 更新于 2026-09-14 15:13:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 13:36:04.480] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 13:36:19.719] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
-[2026-09-14 13:36:19.719] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 13:36:34.994] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
-[2026-09-14 13:36:34.994] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 13:36:35.085] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
-[2026-09-14 13:37:05.233] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 13:37:35.947] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3115ms]: '**徘徊着的 在路上的**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1397ms]: '**⏸ 已暂停**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1222ms]: '**▶ 继续播放**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:37:49.474] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=843ms]: '**你要走吗 Via Via**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:37:57.401] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=685ms]: '**⏸ 已暂停**' song=朴树 - 平凡之路 playing=False channel=None
-[2026-09-14 13:38:07.543] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=[] lyric_event=False lyric='-' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 13:38:18.660] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2462ms]: '**▶ 继续播放**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:18.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=440ms]: '**易碎的 骄傲着**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:18.664] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=404ms]: '**那也曾是我的模样**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:25.193] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=211ms]: '**沸腾着的 不安着的**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:29.053] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=122ms]: '**你要去哪 Via Via**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:53.419] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**也穿过人山人海**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 13:38:53.419] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-42ms]: '**也穿过人山人海**' song=朴树 - 平凡之路 playing=True channel=None
-[2026-09-14 13:38:53.452] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-116ms]: '**我曾经拥有着一切**' song=朴树 - 平凡之路 playing=True channel=None
+# 更新于 2026-09-14 15:14:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 13:38:54.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=923ms]: '**转眼都飘散如烟**' song=朴树 - 平凡之路 playing=True channel=None
 [2026-09-14 13:38:56.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=781ms]: '**我曾经失落失望失掉所有方向**' song=朴树 - 平凡之路 playing=True channel=None
 [2026-09-14 13:39:05.307] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=119ms]: '**直到看见平凡才是唯一的答案**' song=朴树 - 平凡之路 playing=True channel=None
@@ -1499,3 +1477,25 @@
 [2026-09-14 15:13:25.194] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=356ms]: '**Up down move baby up down move yeah**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
 [2026-09-14 15:13:31.534] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=781ms]: '**總是喜歡 樂此不疲**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
 [2026-09-14 15:13:32.643] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=780ms]: '**翻雲覆雨 心曠神怡**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:37.673] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2965ms]: '**當你出現在我的世界**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:37.674] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=613ms]: '**為你傾盡時間 譜下愛的詩篇**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:40.532] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=677ms]: '**媽媽說帶刺的玫瑰很危險**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:41.647] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=29ms]: '**我已經沉淪在地獄的邊沿**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:45.742] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1820ms]: '**無所畏懼 沉淪下去 關上房門**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:47.679] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**無所畏懼 沉淪下去 關上房門**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 15:13:48.767] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=313ms]: '**聽不慣還沒來的不想猜**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:51.441] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=724ms]: '**我時刻保持高度警惕為了你將來**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:53.992] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=741ms]: '**有我 有家 有貓 井井有條的日子**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:57.379] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**每天和你窩在被窩 不願醒來**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:13:58.498] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=66ms]: '**聽着那樸宰範的 mommae Mommae**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:01.075] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=406ms]: '**對你的態度是 奉陪 奉陪**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:03.480] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=358ms]: '**Okay okay 都聽你說 我不反駁**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:06.006] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=146ms]: '**反正我是 屬於你的**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:08.242] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=175ms]: '**Lips the angel**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:12.755] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-3ms]: '**Lips the angel**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:18.177] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3851)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Up down move baby up down move yeah**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 15:14:18.177] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=950ms]: '**Up down move baby up down move yeah**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:23.368] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1000ms]: '**Up down move baby up down move yeah**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:28.480] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=773ms]: '**This girl is so beautiful**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:34.549] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1082ms]: '**Soft lips of an angel**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
+[2026-09-14 15:14:38.868] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1048ms]: '**Oh, darling**' song=C.HØPE - 沉沦与遐想 playing=True channel=None
