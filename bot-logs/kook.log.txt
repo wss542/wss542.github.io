@@ -1,16 +1,4 @@
-# 更新于 2026-09-14 12:55:32 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:57.498] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 11:19:57.499] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 11:19:57.500] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 11:19:57.500] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 11:19:57.501] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 11:19:57.501] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 11:19:57.501] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 11:19:57.513] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Connection reset by peer]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 11:19:57.514] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 11:19:57.526] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 11:19:57.526] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 11:19:57.712] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
+# 更新于 2026-09-14 12:56:17 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:57.731] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
 [2026-09-14 11:19:57.731] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
 [2026-09-14 11:19:57.731] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
@@ -1499,3 +1487,15 @@
 `仍然还在此处`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 12:55:01.543] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**今もここにいる**
 `仍然还在此处`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 12:55:55.842] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**今もここにいる**
+`仍然还在此处`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 12:55:58.041] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2182ms]: '**▶ 瑞葵(mizuki) / SawanoHiroyuki[nZk] - aLIEz**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:55:58.044] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=312ms]: '**決めつけばかり**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:55:58.044] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=280ms]: '**自惚れを着たチープな Hokori で**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:03.070] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=879ms]: '**音荒げても**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:04.218] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=257ms]: '**棚に隠した哀れな**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:04.219] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=234ms]: '**自惚れを着たチープな Hokori で**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:04.219] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=229ms]: '**音荒げても**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:04.220] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=198ms]: '**棚に隠した哀れな**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:10.017] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1447ms]: '**恥に濡れた鏡の中**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
+[2026-09-14 12:56:13.393] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=418ms]: '**都合の傷だけひけらかして**' song=瑞葵(mizuki) / SawanoHiroyuki[nZ playing=True channel=None
