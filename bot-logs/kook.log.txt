@@ -1,7 +1,4 @@
-# 更新于 2026-09-14 12:06:11 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:17.720] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 11:19:17.721] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h41m 后执行 (12:01)
-[2026-09-14 11:19:17.732] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
+# 更新于 2026-09-14 12:06:41 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:17.788] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 165s 前）
 [2026-09-14 11:19:17.789] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
 [2026-09-14 11:19:17.796] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
@@ -1499,3 +1496,6 @@
 [2026-09-14 12:05:44.735] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-14 12:05:55.890] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-14 12:06:01.902] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+[2026-09-14 12:06:15.594] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 12:06:22.914] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+[2026-09-14 12:06:28.927] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
