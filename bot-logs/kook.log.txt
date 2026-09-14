@@ -1,24 +1,4 @@
-# 更新于 2026-09-14 13:03:35 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:57.788] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h41m 后执行 (12:01)
-[2026-09-14 11:19:57.800] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 11:19:57.850] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 205s 前）
-[2026-09-14 11:19:57.851] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 11:19:57.860] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 11:19:57.860] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 11:19:57.861] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 11:19:57.861] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 11:19:57.861] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 11:19:57.862] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 11:19:57.876] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:19:57.888] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:19:57.900] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-14 11:19:57.906] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 11:19:57.908] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45607 秒 (下次 00:00:05)
-[2026-09-14 11:19:58.429] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 11:19:58.429] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 11:19:58.430] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 11:19:58.430] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 11:19:58.450] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
+# 更新于 2026-09-14 13:04:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:58.466] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]
 [2026-09-14 11:19:58.476] [INFO    ] (logger:info:335) [-] 5 秒后重试...
 [2026-09-14 11:19:58.479] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
@@ -1499,3 +1479,23 @@
 [2026-09-14 13:02:38.904] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:03:09.803] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:03:17.074] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1055ms]: '**▶ 茸茸 - Magic hands up（him进行曲）**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:40.937] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 茸茸 - Magic hands up（him进行曲）**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:03:47.280] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1570ms]: '**我可以假装无所谓的离开**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:47.280] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=301ms]: '**到没有你的地方我再崩溃**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:49.130] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=55ms]: '**从无话不说再到无话可说**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:51.960] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=902ms]: '**我们之间到底怎么了**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:53.067] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=259ms]: '**我用你的名字酿一杯苦酒**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:54.562] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=138ms]: '**我醉得甘愿也会哭得情愿**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:57.772] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1112ms]: '**谢谢你让我爱了痛了懂了**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:03:58.911] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=802ms]: '**我不再纠缠打扰了**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:00.020] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=106ms]: '**老板给我来碗忘情牛肉面**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:02.327] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1052ms]: '**不放眼泪不放痛放忘情汤**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:12.953] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**不放眼泪不放痛放忘情汤**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:04:20.243] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=782ms]: '**我要忘掉曾经你所有味道**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:21.396] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1113ms]: '**从此爱恨随意飘摇**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:22.566] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=531ms]: '**老板给我来碗忘情牛肉面**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:24.965] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=912ms]: '**喝下回忆吞下寂寞泪好咸**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:26.694] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
+[2026-09-14 13:04:26.696] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 13:04:26.697] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1035ms]: '**眼泪划过脸颊流进耳朵里**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
+[2026-09-14 13:04:29.127] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=394ms]: '**我要忘掉回忆里的伤**' song=茸茸 - Magic hands up（him进行曲） playing=True channel=None
