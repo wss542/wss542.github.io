@@ -1,65 +1,4 @@
-# 更新于 2026-09-14 21:07:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:00:42.803] [INFO    ] (qq_bot:start:88) [-] QQBot 已取消
-[2026-09-14 20:00:42.806] [INFO    ] (logger:info:335) [-] 应用程序已退出
-[2026-09-14 20:00:53.411] [INFO    ] (pc_status:_handle_client:178) [-] PC 客户端断开连接
-[2026-09-14 20:01:00.081] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=False | 文件日志=True
-[2026-09-14 20:01:00.115] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 20:01:01.807] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:01:01.807] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-14 20:01:01.808] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:01:01.813] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 20:01:01.814] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 20:01:01.817] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 20:01:01.819] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 20:01:01.819] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 20:01:01.819] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 20:01:01.820] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 20:01:11.835] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 20:01:11.836] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 20:01:11.864] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 20:01:11.865] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 20:01:12.289] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 20:01:12.322] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 20:01:12.322] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 20:01:12.323] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 20:01:12.325] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 20:01:12.325] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 20:01:12.326] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 20:01:12.327] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 20:01:12.327] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 20:01:12.331] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 20:01:12.331] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 20:01:12.332] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 20:01:12.332] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 20:01:12.343] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 20:01:12.343] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 20:01:12.344] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 20:01:12.346] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 20:01:12.347] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 20:01:12.347] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 20:01:12.348] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 20:01:12.348] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 20:01:12.349] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 20:01:12.350] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 20:01:12.350] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 20:01:12.350] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 20:01:12.351] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 20:01:12.351] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 20:01:12.351] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 20:01:12.351] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 20:01:12.352] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 20:01:12.358] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 20:01:12.361] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 20:01:12.362] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 20:01:12.363] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 20:01:12.364] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 20:01:12.365] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 20:01:12.365] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
+# 更新于 2026-09-14 21:08:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:01:12.365] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
 [2026-09-14 20:01:12.366] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
 [2026-09-14 20:01:12.366] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
@@ -1499,3 +1438,64 @@
 [2026-09-14 21:07:12.124] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=848ms]: '**Confidence in spades not afraid of new horizons**
 `自信太空不怕新' song=V Cenzo - Royal Flush Mindset playing=True channel=None
 [2026-09-14 21:07:13.247] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Confidence in spades not afraid of new horizons*' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:07:28.595] [DEBUG   ] (notify_system:_git_ls_remote_sha:655) [-] git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+[2026-09-14 21:07:28.612] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=14599ms]: '**yeah I'm not in the club chasing hearts**
+`是啊，我不是在俱乐部里追逐爱情' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.612] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=12217ms]: '**Knew I would make it from the start**
+`从一开始我就知道我会成功，因为你知道我' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.612] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=10154ms]: '**Cause I know I've got that royal flush mindset rare like a' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.613] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=7229ms]: '**Confidence in spades not afraid of new horizons**
+`自信太空不怕新' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.613] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4333ms]: '**yeah I'm not chasing hearts in the club**
+`是的，我不是在俱乐部里追逐红心' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.613] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2240ms]: '**Long as I'm breathing I've got no reason to believe in luc' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:28.613] [INFO    ] (qq_bot:_run_once:148) [-] QQ RECONNECT requested
+[2026-09-14 21:07:41.542] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=12033ms]: '**something that I cannot lose**
+`我不能失去的东西`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.543] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=10697ms]: '**Is my do or die demeanor or my all or nothing attitude**
+`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8302ms]: '**Despite the scars and bruises all My Battle wounds**
+`尽管伤痕' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=6607ms]: '**Have make me who I am don't give a damn**
+`我的伤痕造就了现在的我`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=5041ms]: '**If I am black and blue**
+`不要管我是不是遍体鳞伤`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.545] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3351ms]: '**it's nothing that I have to prove**
+`我不需要证明什么`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:41.545] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1676ms]: '**but it's still a reminder**
+`但它仍然是一个提醒`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:42.269] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
+[2026-09-14 21:07:42.274] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1222ms]: '**I was focused narrow minded**
+`我很专注，心胸狭窄`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:42.490] [INFO    ] (qq_bot:_run_once:132) [-] QQ HELLO interval=41250
+[2026-09-14 21:07:42.660] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=418ms]: '**time to line up my blinders'cause I'm not fine**
+`是时候对我的眼罩' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:43.884] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**time to line up my blinders'cause I'm not fine**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:07:45.001] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=858ms]: '**kicking my feet up lying in my recliner**
+`躺在躺椅上踢我的脚`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:46.126] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=67ms]: '**while there's still work to be done**
+`虽然还有工作要做`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:47.238] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=108ms]: '**before we can put it behind us**
+`在我们把它扑灭之前`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:49.509] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1058ms]: '**So I'll just kill them all with nothing but kindness**
+`所以' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:50.726] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=144ms]: '**everything I touch is golden**
+`我触摸到的一切都是金色的`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:51.841] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=197ms]: '**gonna show them why my name could be Midas**
+`我得让他们知道为什么我的' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:54.056] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=520ms]: '**I'm tired of the spineless guys**
+`我受够了那些西班牙人`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:55.186] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=363ms]: '**bluffing nothing but liars**
+`只是在虚张声势`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:56.378] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=375ms]: '**fighting to wipe me off the title they can try**
+`拼命想把我的头衔' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:58.593] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=715ms]: '**I’m the highest I'm a titan**
+`还有眼睛，我是巨人`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:07:59.704] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=567ms]: '**remember me like I was Julius Campbell**
+`记得我就像记得朱利叶斯·卡莫一样' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:01.946] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=780ms]: '**I'm on the stronger side**
+`我是最强的一方`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:01.946] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=35ms]: '**my mind is undefeated in battle**
+`我的思想是不败的和战斗的`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:04.202] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=799ms]: '**Nothing that I can't handle**
+`没有什么是我能处理的`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
