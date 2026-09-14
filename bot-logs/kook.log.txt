@@ -1,61 +1,4 @@
-# 更新于 2026-09-14 13:45:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:22:00.959] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:22:00.962] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 11:22:00.963] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 11:22:00.965] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 11:22:00.965] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 11:22:00.966] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 11:22:00.966] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 11:22:00.966] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 11:22:11.081] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Connection reset by peer]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 11:22:11.085] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
-[2026-09-14 11:22:11.104] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 11:22:11.108] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 11:22:11.396] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 11:22:11.453] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 11:22:11.453] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 11:22:11.454] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 11:22:11.455] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 11:22:11.455] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 11:22:11.457] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 11:22:11.459] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 11:22:11.459] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 11:22:11.463] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 11:22:11.464] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
-[2026-09-14 11:22:11.465] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-[2026-09-14 11:22:11.465] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
-[2026-09-14 11:22:11.474] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 11:22:11.475] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-[2026-09-14 11:22:11.476] [DEBUG   ] (loader:discover_plugins:46) [-] 跳过 _down：缺少 manifest.json
-[2026-09-14 11:22:11.478] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-[2026-09-14 11:22:11.478] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-[2026-09-14 11:22:11.478] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-[2026-09-14 11:22:11.479] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.points (command)
-[2026-09-14 11:22:11.479] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-[2026-09-14 11:22:11.479] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-[2026-09-14 11:22:11.479] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-[2026-09-14 11:22:11.480] [INFO    ] (manager:enable:165) [-] Plugin 已启用: checkin@1.0.0
-[2026-09-14 11:22:11.480] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-[2026-09-14 11:22:11.481] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.chou.chou (command)
-[2026-09-14 11:22:11.481] [INFO    ] (manager:enable:165) [-] Plugin 已启用: chou@1.0.0
-[2026-09-14 11:22:11.482] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-[2026-09-14 11:22:11.482] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-[2026-09-14 11:22:11.482] [INFO    ] (manager:enable:165) [-] Plugin 已启用: countdown@1.0.0
-[2026-09-14 11:22:11.483] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-[2026-09-14 11:22:11.483] [INFO    ] (manager:enable:165) [-] Plugin 已启用: echo@1.0.0
-[2026-09-14 11:22:11.484] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.eq (command)
-[2026-09-14 11:22:11.484] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-[2026-09-14 11:22:11.484] [INFO    ] (manager:enable:165) [-] Plugin 已启用: eq@1.0.0
-[2026-09-14 11:22:11.489] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-[2026-09-14 11:22:11.490] [DEBUG   ] (eventbus:subscribe:80) [-] EventBus subscribe: greet.ping -> handler
-[2026-09-14 11:22:11.490] [INFO    ] (manager:enable:165) [-] Plugin 已启用: greet@1.0.0
-[2026-09-14 11:22:11.491] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.luck.luck (command)
-[2026-09-14 11:22:11.491] [INFO    ] (manager:enable:165) [-] Plugin 已启用: luck@1.0.0
-[2026-09-14 11:22:11.492] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 11:22:11.493] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 11:22:11.493] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 11:22:11.494] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 11:22:11.494] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
+# 更新于 2026-09-14 13:47:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:22:11.495] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
 [2026-09-14 11:22:11.495] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
 [2026-09-14 11:22:11.496] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
@@ -1499,3 +1442,60 @@
 `东奔西走不算什么`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
 [2026-09-14 13:45:53.181] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=452ms]: '**少年少女戦国無双**
 `少年少女战国无双`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:55.493] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1ms]: '**浮世の随に**
+`跟从着浮世浪`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:45:58.912] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=337ms]: '**千本桜 夜ニ紛レ**
+`千本樱融入夜中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:01.221] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**千本桜 夜ニ紛レ**
+`千本樱融入夜中`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:46:02.574] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=671ms]: '**君ノ声モ届カナイヨ**
+`连你的声音也传不到啊`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:04.940] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=58ms]: '**此処は宴 鋼の檻**
+`此处开宴钢铁牢笼中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:08.378] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=435ms]: '**その断頭台を飛び降りて**
+`自那断头台上跳下来吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:11.756] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=567ms]: '**千本桜 夜ニ紛レ**
+`千本樱融入夜中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:13.977] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-251ms]: '**君が歌い僕は踊る**
+`你歌我舞`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:17.391] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=49ms]: '**此処は宴 鋼の檻**
+`此处开宴钢铁牢笼中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:20.864] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=432ms]: '**さあ光線銃を撃ちまくれ**
+`扣下光线枪的扳机吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:46:32.065] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**さあ光線銃を撃ちまくれ**
+`扣下光线枪的扳机吧`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:47:02.919] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**作词 : 黒うさP**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:47:02.920] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=388ms]: '**作词 : 黒うさP**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:47:02.926] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=352ms]: '**作曲 : 黒うさP**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:47:02.950] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=330ms]: '**编曲 : 黒うさP**' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:47:04.058] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=839ms]: '**▶ 郑浩Z-Hao / 冰洁 - 琵琶曲**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:09.509] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=35ms]: '**作词 : 郑浩Z-Hao**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.629] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=887ms]: '**作曲 : 郑浩Z-Hao**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.630] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=622ms]: '**琵琶曲-郑浩+冰洁**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.630] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=357ms]: '**作词Lyricist：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=20ms]: '**作曲Composer：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=16ms]: '**编曲Arranger：郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=11ms]: '**吉他Guitar：Tommy Wu**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-4ms]: '**琵琶PiPa：唐诗雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-34ms]: '**和声Backing Vocalist：陈奕楠**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-48ms]: '**戏腔 Opera tune：冰洁**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-79ms]: '**录音工程师Recording Engineer：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-110ms]: '**混音工程师Mixing Engineer：郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.631] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-126ms]: '**母带工程师Mastering Engineer：郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:10.632] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-157ms]: '**配唱制作人Vocal Produer：郑浩/郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.746] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=297ms]: '**制作人Music Producer：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.748] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=208ms]: '**和声Backing Vocalist：陈奕楠**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.748] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=192ms]: '**戏腔 Opera tune：冰洁**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.749] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=176ms]: '**录音工程师Recording Engineer：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.749] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=162ms]: '**混音工程师Mixing Engineer：郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.750] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=132ms]: '**母带工程师Mastering Engineer：郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.750] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=101ms]: '**配唱制作人Vocal Produer：郑浩/郭秀枫**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:11.750] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=71ms]: '**制作人Music Producer：郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:12.905] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=542ms]: '**监制Executive Producer：颜陌/郑浩**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:12.905] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-201ms]: '**出品人 Publisher：颜陌**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:29.919] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=216ms]: '**人间琴悠扬 姑娘把谁记心上**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:33.272] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**人间琴悠扬 姑娘把谁记心上**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:47:35.646] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-86ms]: '**南来与北往 美人取情寄琵琶**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:41.685] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-47ms]: '**半掩面惆怅 恨只恨泪两行**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:48.359] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=661ms]: '**我提笔短叹 你抚琴一世风华**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
+[2026-09-14 13:47:54.146] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=447ms]: '**东船与西舫 琴音袅袅于心上**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 playing=True channel=None
