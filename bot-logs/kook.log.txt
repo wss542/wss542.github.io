@@ -1,37 +1,4 @@
-# 更新于 2026-09-14 21:53:29 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:03:29.408] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 20:03:29.430] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 20:03:29.431] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 20:03:29.433] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 20:03:29.433] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 20:03:29.434] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 20:03:29.435] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 20:03:37.951] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:03:47.974] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:03:47.981] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
-[2026-09-14 20:03:47.987] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 20:03:47.000] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 20:03:48.001] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14177 秒 (下次 00:00:05)
-[2026-09-14 20:03:48.005] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 20:03:48.007] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7664)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ Immediate - Tales of the Electric Romeo**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 20:03:48.009] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=39114ms]: '**▶ Immediate - Tales of the Electric Romeo**' song=Immediate - Tales of the Elect playing=True channel=None
-[2026-09-14 20:03:48.009] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=31109ms]: '**作曲 : Yoav Goren**' song=Immediate - Tales of the Elect playing=True channel=None
-[2026-09-14 20:03:48.010] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=31095ms]: '**纯音乐，请欣赏**' song=Immediate - Tales of the Elect playing=True channel=None
-[2026-09-14 20:03:48.462] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 20:03:48.463] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 20:03:48.469] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 20:03:48.470] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 20:03:58.492] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 20:04:12.991] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:04:22.000] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:04:23.003] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7664)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 20:04:23.005] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
-[2026-09-14 20:04:23.018] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 20:04:23.474] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]，10s 后重启
-[2026-09-14 20:04:32.104] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 20:04:33.477] [INFO    ] (logger:info:335) [-] [watchdog] 已重启 khl_bot 连接 (#1)
-[2026-09-14 20:04:48.016] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:04:56.677] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
+# 更新于 2026-09-14 21:55:19 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:04:56.679] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
 [2026-09-14 20:04:56.688] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7664)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:04:56.695] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
@@ -1499,3 +1466,36 @@
 [2026-09-14 21:53:26.272] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=797ms]: '**Too many troubles, all these lovers got you losing control' song=Fitz and The Tantrums - HandCl playing=True channel=None
 [2026-09-14 21:53:27.427] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Too many troubles, all these lovers got you losi' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 21:53:29.644] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1031ms]: '**You're like a drug to me, a luxury, my sugar and gold**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:33.026] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=797ms]: '**I want your sex and your affection when they're holding yo' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:37.510] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=261ms]: '**'Cause you don't even know**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:38.651] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=228ms]: '**I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:43.188] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=903ms]: '**Said I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:45.414] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=230ms]: '**Every night when the stars come out**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:49.055] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=956ms]: '**Am I the only living soul around?**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:52.196] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=380ms]: '**Need to believe you could hold me down**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:55.575] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=212ms]: '**'Cause I'm in need of something good right now**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:53:57.788] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**'Cause I'm in need of something good right now**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:53:58.951] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=22ms]: '**We could be screaming 'til the sun comes out**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:03.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1090ms]: '**And when we wake, we'd be the only sound**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:06.894] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=672ms]: '**Get on my knees and say a prayer, James Brown**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:11.427] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1070ms]: '**That I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:19.265] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=409ms]: '**That I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:23.885] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=818ms]: '*(Turn it up)*' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:26.152] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=501ms]: '**That I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:28.436] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**My flesh is searching for your worst and best, d' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:54:28.438] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=897ms]: '**My flesh is searching for your worst and best, don't ever ' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:31.769] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=398ms]: '**I'm like a stranger, gimme danger, all your wrong and your' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:35.186] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=469ms]: '**Secrets on Broadway to the freeway, you're a keeper of cri' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:38.576] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=291ms]: '**Fear no conviction, grapes of wrath can only sweeten your ' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:43.591] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=870ms]: '**But you don't even know**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:45.851] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=865ms]: '**I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:48.371] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=292ms]: '**Said I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:51.713] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=801ms]: '**Every night when the stars come out**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:55.051] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=785ms]: '**Am I the only living soul around?**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:54:58.458] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Need to believe you could hold me down**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:54:58.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=702ms]: '**Need to believe you could hold me down**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:55:01.848] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=412ms]: '**'Cause I'm in need of something good right now**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:55:05.262] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=508ms]: '**We could be screaming 'til the sun comes out**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:55:08.635] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=236ms]: '**And when we wake we'd be the only sound**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:55:12.020] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=251ms]: '**Get on my knees and say a prayer, James Brown**' song=Fitz and The Tantrums - HandCl playing=True channel=None
+[2026-09-14 21:55:16.576] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=398ms]: '**That I can make your hands clap**' song=Fitz and The Tantrums - HandCl playing=True channel=None
