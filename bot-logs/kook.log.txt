@@ -1,51 +1,4 @@
-# 更新于 2026-09-14 21:08:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:01:12.365] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 20:01:12.366] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 20:01:12.366] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 20:01:12.367] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 20:01:12.367] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 20:01:12.367] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 20:01:12.368] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 20:01:12.368] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 20:01:12.369] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 20:01:12.370] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 20:01:12.370] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 20:01:12.371] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 20:01:12.371] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 20:01:12.371] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 20:01:12.372] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 20:01:12.372] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 20:01:12.372] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 20:01:12.372] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:01:12.372] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 20:01:12.372] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 20:01:12.373] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 20:01:12.374] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 20:01:12.457] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 20:01:12.459] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 20:01:12.459] [INFO    ] (bot:_bg_wdsj_collector:696) [-] 上次采集 2026-09-14T16:01 距今超过 4h，启动时立即补采
-[2026-09-14 20:01:12.486] [INFO    ] (wdsj_tracker:daily_stats_collect:73) [-] 每日战绩采集: 3 个玩家 x 2 模板
-[2026-09-14 20:01:12.511] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 20:01:22.566] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 63s 前）
-[2026-09-14 20:01:22.568] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 20:01:22.592] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 20:01:22.592] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 20:01:22.592] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 20:01:22.593] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 20:01:22.593] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 20:01:22.593] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 20:01:31.930] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:01:41.945] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:01:41.948] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
-[2026-09-14 20:01:41.953] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 20:01:41.970] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 20:01:41.972] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
-[2026-09-14 20:01:41.977] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
-[2026-09-14 20:01:41.984] [ERROR   ] (wdsj_api:query_player_stats:93) [-] 查询战绩失败: ConnectTimeout 
-[2026-09-14 20:01:41.989] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14303 秒 (下次 00:00:05)
-[2026-09-14 20:01:41.991] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 20:01:41.993] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 11369)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**But ooh, whoa oh**
-`但是 哦`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+# 更新于 2026-09-14 21:09:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:01:41.995] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=47684ms]: '**But ooh, whoa oh**
 `但是 哦`' song=Taylor Swift - Cruel Summer playing=True channel=None
 [2026-09-14 20:01:41.996] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=44886ms]: '**It's a cruel summer**
@@ -1499,3 +1452,50 @@
 `我的思想是不败的和战斗的`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
 [2026-09-14 21:08:04.202] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=799ms]: '**Nothing that I can't handle**
 `没有什么是我能处理的`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:05.326] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=581ms]: '**I'm feeling positive vibes**
+`我感觉到了积极的氛围`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:06.435] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=551ms]: '**I'm getting everything I've wanted in life**
+`我得到了生活中我想要的一' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:08.702] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=719ms]: '**Cause I know I've got that royal flush mindset rare like a' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:12.124] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=845ms]: '**Confidence in spades not afraid of new horizons**
+`自信太空不怕新' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:14.352] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**yeah I'm not in the club chasing hearts**
+`是的，我不' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:08:14.353] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=198ms]: '**yeah I'm not in the club chasing hearts**
+`是的，我不是在俱乐部里追逐红心' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:16.581] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**knew I would make it from the start cause I**
+`我从一开始就知道我会成' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:18.864] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=569ms]: '**Cause I know I've got that royal flush mindset rare like a' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:22.314] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=958ms]: '**Confidence in spades not afraid of new horizons**
+`自信太空不怕新' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:24.615] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=393ms]: '**Yeah I'm not chasing hearts in the club**
+`是的，我不是在追逐心`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:25.733] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=80ms]: '**Long as I'm breathing**
+`只要我还活着，我就不会离开俱乐部`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:28.133] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1034ms]: '**I've got no reason to believe in luck**
+`我没有理由离开爱`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:30.383] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=183ms]: '**and I don't know what you've been told**
+`我不知道你被告知了什么`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:36.008] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1068ms]: '**but I'mma keep coming till the clock stops running**
+`但我会一' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:38.427] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=779ms]: '**When the dice won't roll**
+`当骰子不动的时候`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:39.661] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1098ms]: '**I've got that royal flush mindset rare like a diamond**
+`我' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:41.960] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=527ms]: '**confidence in space not afraid of no horizons**
+`自信太空不怕没有地' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:44.213] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=66ms]: '**yeah I'm not in the club chasing hearts**
+`是啊，我不是在俱乐部里追逐爱情' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:45.440] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**yeah I'm not in the club chasing hearts**
+`是啊，我不' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:08:46.556] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=228ms]: '**knew I would make it from the start cause you**
+`因为你，我从一开始' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:48.893] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=344ms]: '**Cause I know I've got that royal flush mindset rare like a' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:51.717] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=421ms]: '**confidence in space not afraid of no horizons**
+`自信太空不怕没有地' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:55.114] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=933ms]: '**Yeah I'm not chasing hearts in the club**
+`是啊，我不是在追逐爱情`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:56.233] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=530ms]: '**Long as I'm breathing**
+`只要我还活着，我就不会离开俱乐部`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
+[2026-09-14 21:08:57.399] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=300ms]: '**I've got no reason to believe in luck**
+`我没有理由相信爱情`' song=V Cenzo - Royal Flush Mindset playing=True channel=None
