@@ -1,6 +1,4 @@
-# 更新于 2026-09-14 22:29:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:10:27.962] [INFO    ] (identity:_ensure_loaded:92) [44662266240e4d14] 身份映射已载入 1 条
-[2026-09-14 20:10:27.978] [INFO    ] (memory:merge_overflow_memory:432) [44662266240e4d14] 长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+# 更新于 2026-09-14 22:30:44 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:10:28.021] [INFO    ] (pipeline:process_message:478) [44662266240e4d14] 指令拦截: '/pc jp' from=若尘 ~喵
 [2026-09-14 20:10:28.022] [DEBUG   ] (commands:handle_command:4842) [44662266240e4d14] 指令解析: prefix=/ cmd=pc args=['jp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
 [2026-09-14 20:10:32.041] [INFO    ] (qq_transport:upload_media_file:542) [44662266240e4d14] QQ 分片上传成功 file=shot_64ee1cab.jpg size=272150 ttl=86400
@@ -1499,3 +1497,5 @@
 [2026-09-14 22:29:28.545] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
 [2026-09-14 22:29:37.261] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏~**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 22:29:51.838] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=33ms]: '**⏸ 已暂停**' song=M3mo - 东亚小孩 playing=False channel=None
+[2026-09-14 22:30:07.642] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:30:38.261] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
