@@ -1,7 +1,4 @@
-# 更新于 2026-09-14 12:10:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:23.381] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
-[2026-09-14 11:19:23.415] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:19:23.447] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
+# 更新于 2026-09-14 12:10:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:23.448] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
 [2026-09-14 11:19:23.448] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
 [2026-09-14 11:19:23.448] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
@@ -1499,3 +1496,6 @@
 [2026-09-14 12:09:59.272] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-14 12:10:05.308] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
 [2026-09-14 12:10:13.274] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 12:10:26.324] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+[2026-09-14 12:10:32.341] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+[2026-09-14 12:10:43.755] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
