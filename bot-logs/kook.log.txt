@@ -1,39 +1,4 @@
-# 更新于 2026-09-14 12:52:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:19:44.783] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:19:44.783] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:19:44.783] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 11:19:44.783] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:19:44.783] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 11:19:44.784] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:19:44.784] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 11:19:44.784] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 11:19:44.807] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 11:19:44.808] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 11:19:44.809] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h41m 后执行 (12:01)
-[2026-09-14 11:19:44.819] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 11:19:44.881] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 192s 前）
-[2026-09-14 11:19:44.882] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 11:19:44.893] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 11:19:44.894] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 11:19:44.894] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 11:19:44.894] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 11:19:44.894] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 11:19:44.897] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 11:19:44.917] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:19:44.934] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:19:44.953] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-14 11:19:44.963] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 11:19:44.965] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45620 秒 (下次 00:00:05)
-[2026-09-14 11:19:45.611] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 11:19:45.612] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 11:19:45.613] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 11:19:45.613] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 11:19:45.636] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:19:45.668] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]
-[2026-09-14 11:19:45.687] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 11:19:46.888] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 11:19:50.412] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 11:19:50.614] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
+# 更新于 2026-09-14 12:53:11 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:19:50.693] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
 [2026-09-14 11:19:50.724] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
 [2026-09-14 11:19:50.727] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
@@ -1499,3 +1464,38 @@
 [2026-09-14 12:50:23.942] [INFO    ] (commands:handle_command:4897) [a931b1eb365a4cf0] 指令执行完成 [mc]: 返回76字符
 [2026-09-14 12:50:24.662] [INFO    ] (logger:log_trace_summary:392) [a931b1eb365a4cf0] [TRACE a931b1eb365a4cf0] total=13064.91ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13057.36ms(x1) (wall13057.36), queue_wait=129.53ms(x1)
 [2026-09-14 12:50:24.686] [WARNING ] (logger:log_trace_summary:410) [a931b1eb365a4cf0] [VERY_SLOW a931b1eb365a4cf0] total=13113.18ms 需重点排查 | process=13057.36ms(x1) (wall13057.36), queue_wait=129.53ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=129.53ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=13057.36ms wall=13108.61ms dominant=other
+[2026-09-14 12:52:09.674] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Position Music - Man At Arms**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 12:52:16.504] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=709ms]: '**▶ STRlighT - 天気の子**' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:20.842] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=849ms]: '**作词 : 野田洋次郎**' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:20.844] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=682ms]: '**作曲 : STRlighT**' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:20.846] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=521ms]: '**编曲 : STRlighT**' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:20.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=359ms]: '**支配者も神も**
+`支配者与神明`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:20.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=114ms]: '**どこか他人顔**
+`一副事不关己的模样`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.953] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1053ms]: '**だけど本当は**
+`但实际上`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.957] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=895ms]: '**分かってるはず**
+`对这些明明白白`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.958] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=730ms]: '**勇気や希望や**
+`勇气与希望`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.959] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=568ms]: '**絆とかの魔法**
+`牵绊着的魔法`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.961] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=407ms]: '**使い道もなく**
+`变得毫无作用`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:21.962] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=245ms]: '**オトナは眼を背ける**
+`大人们却背过双眼`' song=STRlighT - 天気の子 playing=True channel=None
+[2026-09-14 12:52:40.703] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**オトナは眼を背ける**
+`大人们却背过双眼`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 12:52:49.970] [DEBUG   ] (bot:_patched_consume_pkg:217) [111cdfdc6e6c4e37] 🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-14 12:52:49.995] [DEBUG   ] (dispatcher:dispatch:47) [111cdfdc6e6c4e37] dispatch 入口: type=9 content='/mc mc.yzandwss.dpdns.org\n' is_edit=False
+[2026-09-14 12:52:50.006] [DEBUG   ] (dispatcher:_dispatch_inner:110) [f95ef2e80ab849fe] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+[2026-09-14 12:52:50.016] [INFO    ] (dispatcher:_dispatch_inner:316) [f95ef2e80ab849fe] 📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc mc.yzandwss.dpdns.org\n'
+[2026-09-14 12:52:50.024] [INFO    ] (queues:_get_or_create_queue:32) [f95ef2e80ab849fe] [队列] 创建群9844130976336955 的独立消息队列
+[2026-09-14 12:52:50.025] [DEBUG   ] (queues:enqueue_message:75) [f95ef2e80ab849fe] [队列] 群9844130976336955 消息已入队 (队长度=1)
+[2026-09-14 12:52:50.052] [INFO    ] (memory:merge_overflow_memory:432) [c5a748920482496a] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+[2026-09-14 12:52:50.059] [INFO    ] (pipeline:process_message:478) [c5a748920482496a] 指令拦截: '/mc mc.yzandwss.dpdns.org
+' from=ywandwss
+[2026-09-14 12:52:50.062] [DEBUG   ] (commands:handle_command:4842) [c5a748920482496a] 指令解析: prefix=/ cmd=mc args=['mc.yzandwss.dpdns.org'] user=1759953618
+[2026-09-14 12:52:51.107] [INFO    ] (commands:handle_command:4897) [c5a748920482496a] 指令执行完成 [mc]: 返回76字符
+[2026-09-14 12:52:51.835] [INFO    ] (logger:log_trace_summary:392) [c5a748920482496a] [TRACE c5a748920482496a] total=1805.36ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1805.03ms(x1) (wall1805.03), queue_wait=7.04ms(x1)
