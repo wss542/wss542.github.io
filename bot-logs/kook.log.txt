@@ -1,14 +1,4 @@
-# 更新于 2026-09-14 10:05:14 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 01:07:11.053] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-14 01:07:11.369] [INFO    ] (bot:_patched_consume_pkg:263) [-] ✏️ 编辑消息作者反查: id=1759953618 username=wss
-[2026-09-14 01:07:11.370] [INFO    ] (bot:_patched_consume_pkg:299) [-] ✏️ 编辑消息 → dispatcher: mid=d71b7738-8d52-4e93-bdeb-450132af24c2 chat=9844130976336955 type=255
-[2026-09-14 01:07:11.370] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=1 content='(met)659688244(met) 英国解体了？' is_edit=True
-[2026-09-14 01:07:11.370] [DEBUG   ] (dispatcher:_dispatch_inner:110) [c5c6edd710cd4bc7] KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-[2026-09-14 01:07:11.372] [INFO    ] (dispatcher:_dispatch_inner:316) [c5c6edd710cd4bc7] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='(met)659688244(met) 英国解体了？'
-[2026-09-14 01:07:11.373] [INFO    ] (queues:_get_or_create_queue:32) [c5c6edd710cd4bc7] [队列] 创建群9844130976336955 的独立消息队列
-[2026-09-14 01:07:11.373] [DEBUG   ] (queues:enqueue_message:75) [c5c6edd710cd4bc7] [队列] 群9844130976336955 消息已入队 (队长度=1)
-[2026-09-14 01:07:11.375] [INFO    ] (memory:merge_overflow_memory:432) [b19eee68b7844f5b] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
-[2026-09-14 01:07:11.376] [DEBUG   ] (pipeline:process_message:542) [b19eee68b7844f5b] 回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  英国解体了？'
+# 更新于 2026-09-14 10:05:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 01:07:11.377] [INFO    ] (pipeline:process_message:577) [b19eee68b7844f5b] @机器人检测(at_only) → 直接回复
 [2026-09-14 01:07:11.382] [DEBUG   ] (pipeline:process_message:633) [b19eee68b7844f5b] 请求意图: intent=chat fast_search=False msg='@659688244  英国解体了？'
 [2026-09-14 01:07:11.619] [WARNING ] (pipeline:process_message:681) [b19eee68b7844f5b] Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
@@ -1499,3 +1489,13 @@
 [2026-09-14 10:04:59.797] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1842)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**To reappear on our front door**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 10:05:07.626] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1112ms]: '**Is this a fairy tale? I see a hacienda**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
 [2026-09-14 10:05:11.016] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=573ms]: '**No hablo English, but you're on my agenda**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:16.694] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1057ms]: '**Where are all my friends a**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:24.817] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3208ms]: '**Wicked, wicked wonderland**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:24.817] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1531ms]: '**It's like crossing the Rio Grande**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:25.502] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=475ms]: '**You gotta have the cash in store**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:27.764] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=654ms]: '**To reappear on our front door**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:29.361] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=558ms]: '**Wicked, wicked wonderland**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:30.472] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1842)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Wicked, wicked wonderland**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:05:31.602] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1022ms]: '**It's like crossing the Rio Grande**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:33.827] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1137ms]: '**You gotta have the cash in store**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:05:34.947] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=586ms]: '**To reappear on our front door**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
