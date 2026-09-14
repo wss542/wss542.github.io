@@ -1,17 +1,4 @@
-# 更新于 2026-09-14 20:52:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:59:08.944] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
-[2026-09-14 19:59:08.945] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
-[2026-09-14 19:59:09.503] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-[2026-09-14 19:59:09.541] [INFO    ] (database:_init_schema:107) [-] 数据库表结构已就绪（含 FTS5）
-[2026-09-14 19:59:09.542] [INFO    ] (logger:info:335) [-] 数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-[2026-09-14 19:59:09.543] [INFO    ] (logger:info:335) [-] 用户名查询模块已初始化
-[2026-09-14 19:59:09.545] [INFO    ] (guild_names:schedule_guild_name_refresh:346) [-] guild_names: 每日刷新任务已调度
-[2026-09-14 19:59:09.545] [INFO    ] (logger:info:335) [-] 服务器昵称每日刷新任务已调度
-[2026-09-14 19:59:09.546] [INFO    ] (context_manager:_load_from_disk:53) [-] 上下文已从磁盘恢复: 13 个对话
-[2026-09-14 19:59:09.547] [INFO    ] (context_manager:init_context:181) [-] 上下文管理器已初始化（含磁盘持久化）
-[2026-09-14 19:59:09.547] [INFO    ] (logger:info:335) [-] 上下文管理器已初始化
-[2026-09-14 19:59:09.552] [INFO    ] (judge:init_keywords:181) [-] 关键词初始化完成 | realtime=5个 search_trigger=8个
-[2026-09-14 19:59:09.553] [INFO    ] (logger:info:335) [-] 事件分发器已就绪
+# 更新于 2026-09-14 20:53:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:59:09.554] [INFO    ] (logger:info:335) [-] ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 [2026-09-14 19:59:09.554] [INFO    ] (logger:info:335) [-] 消息处理器已注册（TEXT/KMD）
 [2026-09-14 19:59:09.575] [DEBUG   ] (loader:discover_plugins:42) [-] 跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
@@ -1499,3 +1486,16 @@
 [2026-09-14 20:51:55.959] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=45ms]: '**所有坏情绪扑⾯⽽来**' song=TC - 熄灭 playing=True channel=None
 [2026-09-14 20:52:00.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=558ms]: '**你明明知道**' song=TC - 熄灭 playing=True channel=None
 [2026-09-14 20:52:02.708] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=396ms]: '**我会变糟糕**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:06.092] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=158ms]: '**还是钻进⼈潮**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:10.651] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1060ms]: '**你总问在⼀起会不会感到厌倦**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:15.169] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=125ms]: '**我说会⼀定是我离开世界那天**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:20.833] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=269ms]: '**可不知不觉你的⼼已越来越远**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:23.059] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**可不知不觉你的⼼已越来越远**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:52:27.560] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=845ms]: '**我⼼中的烈⽕也熄灭**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:46.879] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=204ms]: '**作词 : TC**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:46.884] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=197ms]: '**作曲 : TC**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:46.886] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=184ms]: '**混⾳：TC**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:48.038] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=694ms]: '**▶ AxR - One Step Ahead**' song=AxR - One Step Ahead playing=True channel=None
+[2026-09-14 20:52:53.037] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=262ms]: '**作曲 : Samuel Périn**' song=AxR - One Step Ahead playing=True channel=None
+[2026-09-14 20:52:53.038] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=249ms]: '**纯音乐，请欣赏**' song=AxR - One Step Ahead playing=True channel=None
+[2026-09-14 20:52:54.215] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
