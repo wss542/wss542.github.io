@@ -1,16 +1,4 @@
-# 更新于 2026-09-14 20:51:30 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:58:58.853] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:58:58.854] [INFO    ] (logger:info:335) [-] 🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-[2026-09-14 19:58:58.855] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:58:58.862] [INFO    ] (llm:_load_skill_sections:162) [-] main_skill.md 已加载: 12 个章节
-[2026-09-14 19:58:58.863] [INFO    ] (logger:info:335) [-] 配置已加载 | bot=茂密 | debug=True
-[2026-09-14 19:58:58.866] [INFO    ] (logger:info:335) [-] 语言文件已加载
-[2026-09-14 19:58:58.867] [INFO    ] (logger:init_logger:283) [-] Logger 初始化完成 | debug=True | 文件日志=True
-[2026-09-14 19:58:58.867] [INFO    ] (logger:info:335) [-] 日志系统已初始化
-[2026-09-14 19:58:58.867] [INFO    ] (logger:info:335) [-] 自动更新已禁用（KOOK Bot 使用手动部署模式）
-[2026-09-14 19:58:58.867] [INFO    ] (logger:info:335) [-] khl.py Bot 实例已创建
-[2026-09-14 19:59:08.891] [WARNING ] (logger:warning:338) [-] 拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-[2026-09-14 19:59:08.911] [INFO    ] (sender:init_sender:46) [-] 发送器已初始化 (Phase5 兼容层)
+# 更新于 2026-09-14 20:52:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:59:08.944] [INFO    ] (logger:info:335) [-] 高风险更新审批回调已接线: request_update_approval
 [2026-09-14 19:59:08.945] [INFO    ] (logger:info:335) [-] 消息发送器已初始化
 [2026-09-14 19:59:09.503] [INFO    ] (database:initialize:88) [-] 数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
@@ -1499,3 +1487,15 @@
 [2026-09-14 20:51:21.795] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**我说会⼀定是我离开世界那天**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:51:25.205] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1044ms]: '**可不知不觉你的⼼已越来越远**' song=TC - 熄灭 playing=True channel=None
 [2026-09-14 20:51:29.803] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=97ms]: '**我⼼中的烈⽕也熄灭**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:36.671] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=148ms]: '**到最后还是得不到你的回答**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:40.015] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=736ms]: '**要怎样才能跟你⼀样潇洒**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:42.312] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=469ms]: '**只是狠⼼不下**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:43.482] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=386ms]: '**没戳穿你的谎话**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:45.706] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=782ms]: '**忍着痛 我放弃挣扎**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:48.019] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**为何总是我在受伤害**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:51.419] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1093ms]: '**想过好多我们的未来**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:52.526] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**想过好多我们的未来**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:51:53.657] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=232ms]: '**你怎么轻易置身事外**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:51:55.959] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=45ms]: '**所有坏情绪扑⾯⽽来**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:00.459] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=558ms]: '**你明明知道**' song=TC - 熄灭 playing=True channel=None
+[2026-09-14 20:52:02.708] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=396ms]: '**我会变糟糕**' song=TC - 熄灭 playing=True channel=None
