@@ -1,5 +1,4 @@
-# 更新于 2026-09-14 21:01:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:59:19.909] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-09-14 21:02:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:59:29.927] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
 [2026-09-14 19:59:37.125] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
 [2026-09-14 19:59:37.150] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
@@ -1499,3 +1498,4 @@
 [2026-09-14 21:00:42.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=665ms]: '**作曲 : Ahrix**' song=Ahrix - Evolving playing=True channel=None
 [2026-09-14 21:00:42.877] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=653ms]: '**纯音乐，请欣赏**' song=Ahrix - Evolving playing=True channel=None
 [2026-09-14 21:01:04.603] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:01:35.430] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
