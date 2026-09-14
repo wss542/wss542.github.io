@@ -1,24 +1,4 @@
-# 更新于 2026-09-14 13:29:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:20:40.514] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 11:20:40.515] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 11:20:40.515] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 11:20:40.516] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 11:20:40.516] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 11:20:40.517] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 11:20:40.543] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-[2026-09-14 11:20:40.565] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-[2026-09-14 11:20:40.581] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
-[2026-09-14 11:20:40.589] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 11:20:40.591] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 45564 秒 (下次 00:00:05)
-[2026-09-14 11:20:40.835] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 11:20:41.261] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 11:20:41.263] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 11:20:41.265] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 11:20:41.266] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 11:20:41.306] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:20:41.318] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]
-[2026-09-14 11:20:41.329] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 11:20:41.945] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1467)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+# 更新于 2026-09-14 13:30:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:20:42.499] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
 [2026-09-14 11:20:46.269] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
 [2026-09-14 11:20:46.338] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
@@ -1499,3 +1479,23 @@
 [2026-09-14 13:29:13.307] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Throwing off the shade for a little bit of sunsh' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:29:20.464] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=64ms]: '**Woo! Woo!**
 `令人惊叹`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:22.759] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=200ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:29.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-24ms]: '**A little bit of sunshine**
+`一线暖阳`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:34.125] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-51ms]: '**作词 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:34.125] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-64ms]: '**作曲 : Ryan Tedder/Brent Kutzle/Tyler Spry/Zach Skelton/Case' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:34.126] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-95ms]: '**Running through this strange life**
+`我在不同寻常的人生中疾驰`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:34.126] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-125ms]: '**Chasing all them green lights**
+`畅想着通行无阻`' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:34.126] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-140ms]: '**Throwing off the shade for a little bit of sunshine**
+`抛开阴' song=OneRepublic - Sunshine playing=True channel=None
+[2026-09-14 13:29:35.394] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=729ms]: '**▶ 林俊杰 - 修炼爱情**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:40.604] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=661ms]: '**作词 : 易家扬**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:40.605] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=652ms]: '**作曲 : 林俊杰**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:40.605] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=638ms]: '**编曲 : 吴庆隆**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:40.606] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=622ms]: '**制作人 : 林俊杰**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:40.607] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=576ms]: '**林俊杰 - 修炼爱情**' song=林俊杰 - 修炼爱情 playing=True channel=None
+[2026-09-14 13:29:44.064] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**林俊杰 - 修炼爱情**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:29:53.675] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-321ms]: '**凭什么要失望 藏眼泪到心脏**' song=林俊杰 - 修炼爱情 playing=True channel=None
