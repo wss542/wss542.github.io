@@ -1,24 +1,4 @@
-# 更新于 2026-09-14 22:14:21 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 20:05:59.328] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 20:05:59.329] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14046 秒 (下次 00:00:05)
-[2026-09-14 20:05:59.330] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 20:05:59.331] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1117)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 20:05:59.901] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 20:05:59.902] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 20:05:59.904] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 20:05:59.905] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 20:06:09.917] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 20:06:22.702] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:06:32.726] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:06:32.731] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1117)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 20:06:32.738] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
-[2026-09-14 20:06:32.758] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 20:06:34.908] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]，10s 后重启
-[2026-09-14 20:06:42.747] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 20:06:44.916] [INFO    ] (logger:info:335) [-] [watchdog] 已重启 khl_bot 连接 (#1)
-[2026-09-14 20:06:57.745] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 20:07:00.146] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-[2026-09-14 20:07:00.147] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-09-14 22:15:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 20:07:00.157] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
 [2026-09-14 20:07:00.158] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
 [2026-09-14 20:07:00.159] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
@@ -1499,3 +1479,23 @@
 `泪像潮水袭来`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
 [2026-09-14 22:14:20.931] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=143ms]: '**寂しさ溢れて**
 `只剩寂寞与我`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:22.061] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**寂しさ溢れて**
+`只剩寂寞与我`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:14:24.578] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1052ms]: '**最後の恋だと信じて願った**
+`曾经那么深信 我们就是彼此的最后`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:29.928] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=593ms]: '**あの日々にウソはなかった**
+`回首那时 爱意不含半分虚假`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:46.901] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=92ms]: '**帰り道の公園で受けた告白**
+`在归途的公园接受了你的告白`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:51.388] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1098ms]: '**ベタすぎるセリフ笑っちゃった**
+`老套过头的台词让我笑出声`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:52.557] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**ベタすぎるセリフ笑っちゃった**
+`老套过头的台词让我笑出声`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 22:14:53.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=574ms]: '**一生忘れられない思い出**
+`这陪我到记忆终点的回忆`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:57.039] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1093ms]: '**あなたがプレゼントしてくれた**
+`是你予我一生的礼物`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:14:59.263] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=421ms]: '**一日中ゲームやりこんで**
+`打一整天游戏`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
+[2026-09-14 22:15:01.526] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=32ms]: '**夜ご飯は一緒に作って**
+`牵着手做晚饭`' song=當山みれい - 願い～あの頃のキミへ～ playing=True channel=None
