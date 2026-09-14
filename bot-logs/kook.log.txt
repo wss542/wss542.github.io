@@ -1,10 +1,4 @@
-# 更新于 2026-09-14 10:57:53 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 04:29:08.477] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-[2026-09-14 04:29:08.477] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 04:29:08.486] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 04:29:08.489] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 04:29:08.489] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4281)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
-[2026-09-14 04:29:08.950] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
+# 更新于 2026-09-14 10:58:25 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
 [2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
 [2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
@@ -1499,3 +1493,9 @@
 `如同无法言语的人偶`' song=KOKIA - ありがとう··· playing=True channel=None
 [2026-09-14 10:57:49.279] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=44ms]: '**街角に溢れたノラネコのように**
 `好似在街角流浪无主的猫`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:55.107] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=58ms]: '**声にならない叫びが聞こえてくる**
+`听到的都是无法辨认的声音`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:57:57.534] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 9631)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**声にならない叫びが聞こえてくる**
+`听到的都是无法辨认的声音`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:58:03.377] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1075ms]: '**もしも　もう一度あなたに会えるなら**
+`如果 能够再一次与你相会的话`' song=KOKIA - ありがとう··· playing=True channel=None
