@@ -1,23 +1,4 @@
-# 更新于 2026-09-14 20:17:20 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 19:50:21.831] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:50:21.832] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 19:50:21.844] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 19:50:22.592] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 19:50:22.598] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 19:50:22.601] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h10m 后执行 (20:01)
-[2026-09-14 19:50:22.940] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 19:50:33.817] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 194s 前）
-[2026-09-14 19:50:33.824] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 19:50:33.856] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 19:50:33.856] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 19:50:33.857] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 19:50:33.857] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 19:50:33.857] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 19:50:33.857] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 19:50:43.942] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:50:53.971] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
+# 更新于 2026-09-14 20:18:04 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:50:53.997] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
 [2026-09-14 19:50:54.113] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
 [2026-09-14 19:50:54.151] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
@@ -1499,3 +1480,22 @@
 [2026-09-14 20:17:10.306] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=660ms]: '**Baby, I just gotta know"**' song=Charlie Puth - How Long playing=True channel=None
 [2026-09-14 20:17:13.769] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=844ms]: '**How long has this been goin' on?** *(On)*' song=Charlie Puth - How Long playing=True channel=None
 [2026-09-14 20:17:20.545] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=575ms]: '**You've been creepin' 'round on me**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:22.838] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1008ms]: '**While you're callin' me, "baby"**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.659] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**How long has this been goin' on?**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:17:41.661] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=17626ms]: '**How long has this been goin' on?**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.661] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=13408ms]: '**You've been actin' so shady** *(shady)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.662] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=10747ms]: '**I've been feelin' it lately**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.662] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8468ms]: '**Ooh-ooh-ooh, yeah** *(how long has this been goin' on?)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4763ms]: '**Ooh-ooh-hoo, encore** *(you've been creepin' 'round on me)' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2204ms]: '**Ooh-ooh-ooh-hoo-ooh-ooh**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:41.663] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1012ms]: '**How long has it been goin' on baby**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:43.205] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=579ms]: '**Ooh-ooh-ooh** *(how long has this been goin' on)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:46.599] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=753ms]: '**Ooh-ooh-ooh-ooh, encore** *(you gotta go tell me now)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:47.899] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=689ms]: '**Ooh-ooh-ooh-hoo-ooh-ooh** *(you've been actin' so shady)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:49.011] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=282ms]: '*(I've been feelin' it lately)*' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:51.279] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=910ms]: '**Baby**' song=Charlie Puth - How Long playing=True channel=None
+[2026-09-14 20:17:55.958] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=140ms]: '**▶ 牛牛piano - 息 序**' song=牛牛piano - 息 序 playing=True channel=None
+[2026-09-14 20:18:02.349] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=597ms]: '**作词 : 牛牛piano**' song=牛牛piano - 息 序 playing=True channel=None
+[2026-09-14 20:18:02.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=585ms]: '**作曲 : 牛牛piano**' song=牛牛piano - 息 序 playing=True channel=None
+[2026-09-14 20:18:02.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=553ms]: '**编曲 : 牛牛piano/王蔚**' song=牛牛piano - 息 序 playing=True channel=None
+[2026-09-14 20:18:02.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=538ms]: '**纯音乐，请欣赏**' song=牛牛piano - 息 序 playing=True channel=None
