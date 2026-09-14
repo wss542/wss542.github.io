@@ -1,19 +1,4 @@
-# 更新于 2026-09-14 20:19:07 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:50:54.151] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 19:50:54.153] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14951 秒 (下次 00:00:05)
-[2026-09-14 19:50:54.162] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 19:50:54.163] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7977)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ MARETU - Waiting To Wake Up**' keys=['hostname', 'music']
-[2026-09-14 19:50:54.165] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=63320ms]: '**▶ MARETU - Waiting To Wake Up**' song=银河小鱼 - 焦虑症候群 playing=True channel=None
-[2026-09-14 19:50:58.261] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 19:50:58.265] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 19:50:58.280] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 19:50:58.281] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 19:51:08.311] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 19:51:16.388] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:51:26.401] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:51:26.407] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7977)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ MARETU - Waiting To Wake Up**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 19:51:26.410] [ERROR   ] (logger:error:341) [-] khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
-[2026-09-14 19:51:26.455] [INFO    ] (logger:info:335) [-] 5 秒后重试...
+# 更新于 2026-09-14 20:19:59 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:51:36.432] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
 [2026-09-14 19:51:51.418] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
 [2026-09-14 19:52:00.542] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
@@ -1499,3 +1484,18 @@
 [2026-09-14 20:18:02.350] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=538ms]: '**纯音乐，请欣赏**' song=牛牛piano - 息 序 playing=True channel=None
 [2026-09-14 20:18:12.606] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-14 20:18:42.684] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:19:13.237] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:19:29.190] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=812ms]: '**▶ Ariana Grande - One Last Time**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:38.515] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=561ms]: '**I was a liar**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:39.634] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=191ms]: '**I gave in to the fire**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:42.003] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=643ms]: '**I know I should've fought it**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:44.306] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**At least I'm bein' honest**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:19:44.307] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1034ms]: '**At least I'm bein' honest**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:46.547] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=887ms]: '**Feel like a failure**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:47.652] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=531ms]: '**'Cause I know that I failed you**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:49.898] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=876ms]: '**I should've done you better**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:51.049] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=74ms]: '**'Cause you don't want a liar**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:53.274] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=391ms]: '**And I know**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:54.380] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=964ms]: '**And I know**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:54.381] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=450ms]: '**And I know she gives you everything**' song=Ariana Grande - One Last Time playing=True channel=None
+[2026-09-14 20:19:56.618] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=858ms]: '**But boy, I couldn't give it to you**' song=Ariana Grande - One Last Time playing=True channel=None
