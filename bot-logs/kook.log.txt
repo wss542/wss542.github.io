@@ -1,9 +1,4 @@
-# 更新于 2026-09-14 20:59:58 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:59:19.898] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 19:59:19.907] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 19:59:19.908] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 19:59:19.908] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 19:59:19.908] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
+# 更新于 2026-09-14 21:00:45 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:59:19.909] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
 [2026-09-14 19:59:19.909] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
 [2026-09-14 19:59:29.927] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
@@ -1499,3 +1494,8 @@
 [2026-09-14 20:58:31.470] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:59:01.951] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:59:32.700] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:00:03.483] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:00:34.379] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 21:00:36.656] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=600ms]: '**▶ Ahrix - Evolving**' song=Ahrix - Evolving playing=True channel=None
+[2026-09-14 21:00:42.876] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=665ms]: '**作曲 : Ahrix**' song=Ahrix - Evolving playing=True channel=None
+[2026-09-14 21:00:42.877] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=653ms]: '**纯音乐，请欣赏**' song=Ahrix - Evolving playing=True channel=None
