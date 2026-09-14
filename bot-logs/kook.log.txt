@@ -1,50 +1,4 @@
-# 更新于 2026-09-14 20:33:47 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:54:43.501] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-[2026-09-14 19:54:43.501] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.motou.motou (command)
-[2026-09-14 19:54:43.501] [INFO    ] (manager:enable:165) [-] Plugin 已启用: motou@1.0.0
-[2026-09-14 19:54:43.502] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-[2026-09-14 19:54:43.502] [INFO    ] (manager:enable:165) [-] Plugin 已启用: nasa@1.0.0
-[2026-09-14 19:54:43.503] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-[2026-09-14 19:54:43.503] [INFO    ] (manager:enable:165) [-] Plugin 已启用: pgr@1.0.0
-[2026-09-14 19:54:43.504] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-[2026-09-14 19:54:43.504] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 19:54:43.504] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 19:54:43.508] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 19:54:43.509] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 19:54:43.509] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 19:54:43.510] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 19:54:43.510] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 19:54:43.510] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 19:54:43.511] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 19:54:43.511] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 19:54:43.511] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 19:54:43.511] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:54:43.511] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 19:54:43.511] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 19:54:43.512] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 19:54:43.513] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 19:54:43.579] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 19:54:43.581] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 19:54:43.582] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h6m 后执行 (20:01)
-[2026-09-14 19:54:43.600] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 19:54:53.738] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 71s 前）
-[2026-09-14 19:54:53.740] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 19:54:53.751] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 19:54:53.752] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 19:54:53.752] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 19:54:53.752] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 19:54:53.753] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 19:54:53.754] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 19:55:03.774] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:55:12.934] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:55:12.943] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
-[2026-09-14 19:55:12.949] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 19:55:13.025] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 19:55:13.025] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14692 秒 (下次 00:00:05)
-[2026-09-14 19:55:13.027] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 19:55:13.027] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 11096)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Cody Sorenson / Kadenza - Starset**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 19:55:17.936] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 19:55:17.945] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
+# 更新于 2026-09-14 20:34:33 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:55:17.947] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
 [2026-09-14 19:55:17.947] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 [2026-09-14 19:55:37.951] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
@@ -1499,3 +1453,49 @@
 [2026-09-14 20:33:44.194] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=492ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
 [2026-09-14 20:33:47.576] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=451ms]: '**They will remember you**
 `登峰造极境`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:49.806] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=962ms]: '**Busy chasing 왕관**
+`追逐王冠夺魁`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:49.806] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=104ms]: '**With you on the downtown**
+`与你冲出重围`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:52.064] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=705ms]: '**There's blood on the crown**
+`心中有梦就要捍卫`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:53.170] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=430ms]: '**Welcome to the climb up**
+`历尽万般磨难`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:55.434] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=324ms]: '**Reach for the summit**
+`战意如火`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:33:58.837] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1086ms]: '**Visions pray that one false**
+`横扫千军只为`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:01.058] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Step lead the end so**
+`铸造传说`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:34:01.059] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=482ms]: '**Step lead the end so**
+`铸造传说`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:03.323] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=4ms]: '**Higher and higher you chase it**
+`抗争命运奋起直追`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:06.751] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=897ms]: '**It's deep in your blood**
+`热血沸腾不愿卑微`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:07.860] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=725ms]: '**Go and take it**
+`不愿卑微`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:09.016] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=334ms]: '**This is your moment**
+`跨越山峰`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:12.355] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=928ms]: '**Take to the skies go**
+`我展翅高飞`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:14.604] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=402ms]: '**Prove yourself and**
+`握紧双拳`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:16.838] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=229ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:20.292] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=687ms]: '**Make 'em remember you**
+`一战我成名`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:21.407] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=483ms]: '**Busy chasing 왕관**
+`追组王冠夺魁`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:22.520] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=312ms]: '**With you on the downtown**
+`与你冲出重围`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:24.819] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=867ms]: '**There's blood on the crown**
+`心中有梦就要捍卫`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:25.925] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=289ms]: '**Push through hell and**
+`勇往直前`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:28.174] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=947ms]: '**Rise rise**' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:30.473] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=46ms]: '**They will remember you**
+`登峰造极境`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
+[2026-09-14 20:34:31.584] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**They will remember you**
+`登峰造极境`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:34:32.701] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=610ms]: '**Busy chasing 왕관**
+`追逐王冠夺魁`' song=英雄联盟 / Mako / The Word Alive / playing=True channel=None
