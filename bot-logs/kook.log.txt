@@ -1,32 +1,4 @@
-# 更新于 2026-09-14 13:43:31 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:21:08.700] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-[2026-09-14 11:21:08.700] [INFO    ] (manager:enable:165) [-] Plugin 已启用: sandbox@1.0.2
-[2026-09-14 11:21:08.702] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 11:21:08.702] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 11:21:08.702] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 11:21:08.702] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 11:21:08.702] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 11:21:08.703] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 11:21:08.703] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:21:08.703] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:21:08.703] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 11:21:08.703] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:21:08.704] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 11:21:08.704] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:21:08.704] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 11:21:08.706] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 11:21:08.732] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 11:21:08.733] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
-[2026-09-14 11:21:08.733] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h39m 后执行 (12:01)
-[2026-09-14 11:21:08.744] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
-[2026-09-14 11:21:08.810] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 276s 前）
-[2026-09-14 11:21:08.811] [INFO    ] (stats:midnight_report_loop:450) [-] 每日统计推送已启动（等待凌晨0点...）
-[2026-09-14 11:21:08.819] [INFO    ] (pc_status:start_pc_server:875) [-] PC 状态 TCP 接收端: 0.0.0.0:25002
-[2026-09-14 11:21:08.822] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 11:21:08.823] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 11:21:08.823] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 11:21:08.823] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 11:21:08.824] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-09-14 13:44:10 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:21:08.840] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-14 11:21:08.861] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
 [2026-09-14 11:21:08.903] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: 
@@ -1499,3 +1471,31 @@
 `光明磊落反战国家`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
 [2026-09-14 13:43:29.929] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=509ms]: '**日の丸印の二輪車転がし**
 `骑着日之丸印的二轮车`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:32.392] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-197ms]: '**悪霊退散 ICBM**
+`恶灵退散ICBM`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:35.862] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=145ms]: '**環状線を走り抜けて**
+`奔驰穿过环状线`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:39.280] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=500ms]: '**東奔西走なんのその**
+`东奔西走不算什么`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:42.643] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=738ms]: '**少年少女戦国無双**
+`少年少女战国无双`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:44.480] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-298ms]: '**浮世の随に**
+`跟从着浮世浪`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:48.217] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=392ms]: '**千本桜 夜ニ紛レ**
+`千本樱融入夜中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:50.903] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=41ms]: '**君ノ声モ届カナイヨ**
+`连你的声音也传不到啊`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:54.298] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=342ms]: '**此処は宴 鋼の檻**
+`此处开宴钢铁牢笼中`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:56.902] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-122ms]: '**その断頭台で見下ろして**
+`自那断头台上往下看吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:43:59.223] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**その断頭台で見下ろして**
+`自那断头台上往下看吧`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:44:00.347] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=162ms]: '**三千世界 常世之闇**
+`三千世界黄泉之暗`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:03.868] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=540ms]: '**嘆ク唄モ聞コエナイヨ**
+`连哀叹之歌也听不见啊`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:07.283] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=849ms]: '**青藍の空 遥か彼方**
+`青蓝天空遥远彼端`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
+[2026-09-14 13:44:09.564] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=15ms]: '**その光線銃で打ち抜いて**
+`就用那光线枪射穿吧`' song=黒うさP / 初音ミク - 千本桜 playing=True channel=None
