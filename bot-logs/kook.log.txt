@@ -1,13 +1,4 @@
-# 更新于 2026-09-14 10:58:55 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 04:29:08.950] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 04:29:09.011] [INFO    ] (holiday:refresh_holiday:57) [-] 节假日: 2026-09-14 → 周一
-[2026-09-14 04:29:09.012] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 04:29:09.012] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 70256 秒 (下次 00:00:05)
-[2026-09-14 04:29:09.216] [INFO    ] (qq_transport:_get_token:113) [-] QQ access_token 已刷新，有效期 450s
-[2026-09-14 04:29:09.737] [INFO    ] (qq_bot:_run_once:100) [-] QQ gateway: wss://api.sgroup.qq.com/websocket
-[2026-09-14 04:29:09.931] [INFO    ] (qq_bot:_run_once:117) [-] QQ HELLO interval=41250
+# 更新于 2026-09-14 10:59:29 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 04:29:23.607] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
 [2026-09-14 04:29:23.607] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=mac_status_reporter device=Mac
 [2026-09-14 04:29:38.518] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 4281)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
@@ -1499,3 +1490,12 @@
 `听到的都是无法辨认的声音`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 10:58:03.377] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1075ms]: '**もしも　もう一度あなたに会えるなら**
 `如果 能够再一次与你相会的话`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:59:03.230] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+[2026-09-14 10:59:10.768] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 9631)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**たった一言伝えたい**
+`只想对你说一句`' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:59:10.770] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=67ms]: '**たった一言伝えたい**
+`只想对你说一句`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:59:13.091] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=762ms]: '**ありがとう**
+`谢谢`' song=KOKIA - ありがとう··· playing=True channel=None
+[2026-09-14 10:59:19.968] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=593ms]: '**ありがとう**
+`谢谢`' song=KOKIA - ありがとう··· playing=True channel=None
