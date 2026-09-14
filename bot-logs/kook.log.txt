@@ -1,46 +1,4 @@
-# 更新于 2026-09-14 14:29:28 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 12:44:27.692] [DEBUG   ] (queues:enqueue_message:75) [8d98b1363a204e42] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-09-14 12:44:27.728] [INFO    ] (memory:merge_overflow_memory:432) [2d14c9c858a1434e] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-[2026-09-14 12:44:27.762] [INFO    ] (pipeline:process_message:478) [2d14c9c858a1434e] 指令拦截: '/mc mc.yzandwss.dpdns.org' from=ywandwss
-[2026-09-14 12:44:27.770] [DEBUG   ] (commands:handle_command:4842) [2d14c9c858a1434e] 指令解析: prefix=/ cmd=mc args=['mc.yzandwss.dpdns.org'] user=1759953618
-[2026-09-14 12:44:30.136] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=263ms]: '**编曲 : Aurenth**' song=Aurenth - green to blue playing=True channel=None
-[2026-09-14 12:44:31.321] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1131ms]: '**作词 : daniel unknown**' song=Aurenth - green to blue playing=True channel=None
-[2026-09-14 12:44:31.356] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1165ms]: '**制作人 : Aurenth**' song=Aurenth - green to blue playing=True channel=None
-[2026-09-14 12:44:31.357] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1159ms]: '**纯音乐，请欣赏**' song=Aurenth - green to blue playing=True channel=None
-[2026-09-14 12:44:32.888] [INFO    ] (commands:handle_command:4897) [2d14c9c858a1434e] 指令执行完成 [mc]: 返回76字符
-[2026-09-14 12:44:34.087] [INFO    ] (logger:log_trace_summary:392) [2d14c9c858a1434e] [TRACE 2d14c9c858a1434e] total=6389.36ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6383.79ms(x1) (wall6383.79), queue_wait=7.56ms(x1)
-[2026-09-14 12:44:34.092] [WARNING ] (logger:log_trace_summary:415) [2d14c9c858a1434e] [SLOW 2d14c9c858a1434e] total=6395.45ms | process=6383.79ms(x1) (wall6383.79), queue_wait=7.56ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=7.56ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6383.79ms wall=6391.89ms dominant=other
-[2026-09-14 12:44:55.829] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:45:25.996] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:46:04.248] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:46:34.815] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:47:54.677] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:47:58.128] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=2516ms]: '**▶ Position Music - Man At Arms**' song=Position Music - Man At Arms playing=True channel=None
-[2026-09-14 12:48:36.818] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Position Music - Man At Arms**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:49:08.312] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Position Music - Man At Arms**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:49:44.553] [DEBUG   ] (bot:_patched_consume_pkg:217) [-] 🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-[2026-09-14 12:50:10.643] [INFO    ] (bot:_patched_consume_pkg:263) [-] ✏️ 编辑消息作者反查: id=1759953618 username=wss
-[2026-09-14 12:50:10.986] [INFO    ] (bot:_patched_consume_pkg:299) [-] ✏️ 编辑消息 → dispatcher: mid=54ed80ed-36d8-4bf0-a74f-5dd5eceeaa10 chat=6243254695867429 type=255
-[2026-09-14 12:50:11.104] [DEBUG   ] (dispatcher:dispatch:47) [-] dispatch 入口: type=1 content='/mc mc.yzandwss.dpdns.org' is_edit=True
-[2026-09-14 12:50:11.276] [DEBUG   ] (dispatcher:_dispatch_inner:110) [111cdfdc6e6c4e37] KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-[2026-09-14 12:50:11.348] [INFO    ] (dispatcher:_dispatch_inner:316) [111cdfdc6e6c4e37] 📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/mc mc.yzandwss.dpdns.org'
-[2026-09-14 12:50:11.461] [DEBUG   ] (queues:enqueue_message:75) [111cdfdc6e6c4e37] [队列] 群6243254695867429 消息已入队 (队长度=1)
-[2026-09-14 12:50:12.050] [INFO    ] (memory:merge_overflow_memory:432) [a931b1eb365a4cf0] 长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-[2026-09-14 12:50:12.860] [INFO    ] (pipeline:process_message:478) [a931b1eb365a4cf0] 指令拦截: '/mc mc.yzandwss.dpdns.org' from=ywandwss
-[2026-09-14 12:50:13.049] [DEBUG   ] (commands:handle_command:4842) [a931b1eb365a4cf0] 指令解析: prefix=/ cmd=mc args=['mc.yzandwss.dpdns.org'] user=1759953618
-[2026-09-14 12:50:16.172] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
-[2026-09-14 12:50:16.311] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
-[2026-09-14 12:50:23.942] [INFO    ] (commands:handle_command:4897) [a931b1eb365a4cf0] 指令执行完成 [mc]: 返回76字符
-[2026-09-14 12:50:24.662] [INFO    ] (logger:log_trace_summary:392) [a931b1eb365a4cf0] [TRACE a931b1eb365a4cf0] total=13064.91ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13057.36ms(x1) (wall13057.36), queue_wait=129.53ms(x1)
-[2026-09-14 12:50:24.686] [WARNING ] (logger:log_trace_summary:410) [a931b1eb365a4cf0] [VERY_SLOW a931b1eb365a4cf0] total=13113.18ms 需重点排查 | process=13057.36ms(x1) (wall13057.36), queue_wait=129.53ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=129.53ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=13057.36ms wall=13108.61ms dominant=other
-[2026-09-14 12:52:09.674] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 7643)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Position Music - Man At Arms**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 12:52:16.504] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=709ms]: '**▶ STRlighT - 天気の子**' song=STRlighT - 天気の子 playing=True channel=None
-[2026-09-14 12:52:20.842] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=849ms]: '**作词 : 野田洋次郎**' song=STRlighT - 天気の子 playing=True channel=None
-[2026-09-14 12:52:20.844] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=682ms]: '**作曲 : STRlighT**' song=STRlighT - 天気の子 playing=True channel=None
-[2026-09-14 12:52:20.846] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=521ms]: '**编曲 : STRlighT**' song=STRlighT - 天気の子 playing=True channel=None
-[2026-09-14 12:52:20.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=359ms]: '**支配者も神も**
-`支配者与神明`' song=STRlighT - 天気の子 playing=True channel=None
-[2026-09-14 12:52:20.849] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=114ms]: '**どこか他人顔**
+# 更新于 2026-09-14 14:30:01 · 共 1500 行（来源 huanmeng.log 末尾）
 `一副事不关己的模样`' song=STRlighT - 天気の子 playing=True channel=None
 [2026-09-14 12:52:21.953] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1053ms]: '**だけど本当は**
 `但实际上`' song=STRlighT - 天気の子 playing=True channel=None
@@ -1499,3 +1457,45 @@
 `想靠近我们 她们又怎能心生不' song=Justus Mera - Get Busy (Extend playing=True channel=None
 [2026-09-14 14:29:27.195] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-80ms]: '**Sexy ladies wan' par wid us**
 `性感女神们 想与我们相伴`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:29.544] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=178ms]: '**Inna di car wid us dem nah war wid us**
+`同乘一车 她们不会与我们相争`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:31.863] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=632ms]: '**Inna di club dem wan' flex wid us**
+`在酒吧里 她们想与我们并肩闪耀`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:33.558] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=698ms]: '**To get next wid us dem cyaan' vex wid us**
+`想靠近我们 她们又怎能心生不' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:35.940] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=908ms]: '**Get busy**
+`尽情舞动`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:37.063] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=817ms]: '**When da beat drops**
+`鼓点落下的瞬间`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:38.195] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=312ms]: '**Just keep swingin' it**
+`只管尽情摇摆`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:39.316] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=495ms]: '**Get jiggy get crunked up**
+`放浪尽兴 嗨到极致`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:40.516] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=700ms]: '**Percolate anyting you want fi call it**
+`随心律动 怎么形容都无妨`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:41.636] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=854ms]: '**Oscillate your hip and don't take pity**
+`扭起腰肢 别再有所拘束`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:42.801] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=195ms]: '**Me wan' fi see you get live**
+`我就想看你嗨翻全场`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:44.043] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=459ms]: '**'Pon di riddim when me ride**
+`伴着节奏 我尽情演绎`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:54.829] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=8322ms]: '**And mi lyrics ah provide electricity**
+`我的歌词 迸发无限活力`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:54.834] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=7578ms]: '**Gyal nobody cyaan' do you nothin'**
+`姑娘 没人能左右你的步伐`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:54.839] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**Cah you done know your destiny**
+`因为你早已明晰自己的方向`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:54.841] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-89ms]: '**Yo sexy ladies wan' par wid us**
+`耶 性感女神们 想与我们相伴`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:55.994] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**Inna di club dem wan' flex wid us**
+`在酒吧里 她们想与我们' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 14:29:55.995] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=975ms]: '**Inna di club dem wan' flex wid us**
+`在酒吧里 她们想与我们并肩闪耀`' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:59.250] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1220ms]: '**To get next wid us dem cyaan' vex wid us**
+`想靠近我们 她们又怎能心生不' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:59.252] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-94ms]: '**From di day me born Jah ignite mi flame**
+`自出生那日 上帝便点燃我的火焰' song=Justus Mera - Get Busy (Extend playing=True channel=None
+[2026-09-14 14:29:59.763] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-14 14:29:59.763] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 14:30:00.390] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=502ms]: '**Gyal ah call mi name and it is my fame**
+`姑娘们呼唤我的名字 这便是我的荣' song=Justus Mera - Get Busy (Extend playing=True channel=None
