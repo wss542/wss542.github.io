@@ -1,16 +1,4 @@
-# 更新于 2026-09-14 20:30:44 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:53:59.858] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:54:09.919] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:54:09.931] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
-[2026-09-14 19:54:09.976] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 10506)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Cody Sorenson / Kadenza - Starset**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 19:54:10.114] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-09-14 19:54:10.128] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-09-14 19:54:10.133] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-09-14 19:54:10.137] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-14 19:54:10.138] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-14 19:54:10.140] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
-[2026-09-14 19:54:10.159] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
-[2026-09-14 19:54:10.162] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
+# 更新于 2026-09-14 20:31:30 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:54:10.165] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
 [2026-09-14 19:54:10.170] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: nasa
 [2026-09-14 19:54:10.171] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: pgr
@@ -1499,3 +1487,15 @@
 [2026-09-14 20:30:16.254] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=114ms]: '**这山 这河 这图 泼墨**' song=凤凰传奇 - 山河图 playing=True channel=None
 [2026-09-14 20:30:26.479] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**这山 这河 这图 泼墨**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 20:30:28.744] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=17ms]: '**这山 这河 这图 泼墨**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:30:56.939] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**这山 这河 这图 泼墨**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:31:00.288] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=117ms]: '**▶ 蒋大为 - 敢问路在何方**' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:08.866] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1102ms]: '**敢问路在何方 - 蒋大为** *(David Jiang)*' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:08.867] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1087ms]: '**词：阎肃**' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:10.000] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=141ms]: '**敢问路在何方 - 蒋大为** *(David Jiang)*' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:10.001] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=126ms]: '**词：阎肃**' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:15.391] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-14 20:31:15.392] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 20:31:15.629] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1010ms]: '**曲：许镜清**' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:22.401] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=737ms]: '**你挑着担 我牵着马**' song=蒋大为 - 敢问路在何方 playing=True channel=None
+[2026-09-14 20:31:28.081] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**你挑着担 我牵着马**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:31:30.308] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=305ms]: '**迎来日出 送走晚霞**' song=蒋大为 - 敢问路在何方 playing=True channel=None
