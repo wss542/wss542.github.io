@@ -1,23 +1,4 @@
-# 更新于 2026-09-14 20:29:04 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 19:52:43.487] [INFO    ] (tts:start_tts_server:193) [-] TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-[2026-09-14 19:52:43.488] [INFO    ] (phone_status:start_phone_server:664) [-] 设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-[2026-09-14 19:52:43.489] [INFO    ] (update_webhook:start_update_webhook:140) [-] GitHub 更新 Webhook 已监听 0.0.0.0:25004
-[2026-09-14 19:52:43.489] [INFO    ] (earthquake:_start_eq_webserver:685) [-] EQ监视器已启动 → http://0.0.0.0:25001
-[2026-09-14 19:52:43.490] [INFO    ] (phone_status:_wss_backfill_loop:639) [-] WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-[2026-09-14 19:52:49.707] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:52:59.727] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-[2026-09-14 19:52:59.732] [WARNING ] (holiday:_fetch_today:47) [-] 节假日 API 拉取失败: [Errno -2] Name or service not known
-[2026-09-14 19:52:59.735] [INFO    ] (holiday:start_holiday_service:105) [-] 节假日服务已启动
-[2026-09-14 19:52:59.745] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 19:52:59.747] [INFO    ] (holiday:_daily_loop:96) [-] 节假日每日刷新: 等待 14825 秒 (下次 00:00:05)
-[2026-09-14 19:52:59.748] [INFO    ] (pc_status:_handle_client:46) [-] PC 客户端已连接
-[2026-09-14 19:52:59.749] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 10506)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**▶ Cody Sorenson / Kadenza - Starset**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 19:52:59.750] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=16491ms]: '**▶ Cody Sorenson / Kadenza - Starset**' song=Cody Sorenson / Kadenza - Star playing=True channel=None
-[2026-09-14 19:53:01.065] [INFO    ] (changelog:_ensure_browser:93) [-] [Playwright] Chromium 启动成功（极致加速已启用）
-[2026-09-14 19:53:01.065] [INFO    ] (logger:info:335) [-] Chromium 已预启动 + 渲染队列就绪
-[2026-09-14 19:53:01.074] [INFO    ] (logger:info:335) [-] QQ 开放平台通道已启动
-[2026-09-14 19:53:01.076] [INFO    ] (logger:info:335) [-] [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-[2026-09-14 19:53:11.092] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno -2] Name or service not known>，5s 后重连
+# 更新于 2026-09-14 20:29:58 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 19:53:24.746] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
 [2026-09-14 19:53:34.763] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
 [2026-09-14 19:53:34.770] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 10506)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ Cody Sorenson / Kadenza - Starset**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
@@ -1499,3 +1480,22 @@
 [2026-09-14 20:28:55.943] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=82ms]: '**身藏于大漠敦煌舞动我的金翎**' song=凤凰传奇 - 山河图 playing=True channel=None
 [2026-09-14 20:28:59.347] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=285ms]: '**盘栖在云南大理最神秘的山林**' song=凤凰传奇 - 山河图 playing=True channel=None
 [2026-09-14 20:29:02.697] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=139ms]: '**看那凤凰终将飞出一个传奇**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:06.073] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=648ms]: '**挥毫提笔画我山河**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:09.506] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1019ms]: '**剑锋千轫画这巍峨**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:11.807] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-4ms]: '**滔滔江水走笔龙蛇**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:13.039] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+[2026-09-14 20:29:13.040] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 20:29:15.158] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=290ms]: '**我丹青不渝画我中国**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:25.314] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**唐寅伯驹公望山人希梦 铺长卷**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:29:25.315] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=807ms]: '**唐寅伯驹公望山人希梦 铺长卷**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:27.537] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=42ms]: '**屈原太白杜甫苏轼陆游 诗百篇**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:30.935] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=356ms]: '**你看这大江大河生生不息 多少年**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:34.296] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=681ms]: '**你看这巍巍青山浩然之气 天地间**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:37.659] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=740ms]: '**打开一副山河图 唐宗宋祖来带路**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:41.055] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=887ms]: '**打开一副山河图 千年渺沧海一粟**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:44.389] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=990ms]: '**打开一副山河图 兄弟姐妹跳起舞**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:47.838] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1135ms]: '**打开一副山河图 百鸟朝凤龙起舞**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:50.070] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1044ms]: '**这山 万壑千岩 连一川又一川**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:52.342] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=28ms]: '**这河 星奔川鹜 结一湾又一湾**' song=凤凰传奇 - 山河图 playing=True channel=None
+[2026-09-14 20:29:55.745] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2132)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**这图 鸾回凤舞 重峦高不可攀**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 20:29:55.746] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=302ms]: '**这图 鸾回凤舞 重峦高不可攀**' song=凤凰传奇 - 山河图 playing=True channel=None
