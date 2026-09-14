@@ -1,13 +1,4 @@
-# 更新于 2026-09-14 10:06:47 · 共 1500 行（来源 huanmeng.log 末尾）
-
-你是不是看到什么假新闻啦？...
-[2026-09-14 01:07:15.019] [DEBUG   ] (response_delivery:send_sentences:299) [b19eee68b7844f5b] 分批发送完成: 共 1 条 → chat=9844130976336955
-[2026-09-14 01:07:15.019] [DEBUG   ] (context_manager:_on_task_done:139) [b19eee68b7844f5b] 发送任务已清理 [9844130976336955]
-[2026-09-14 01:07:15.175] [INFO    ] (llm:call_llm:497) [b19eee68b7844f5b] LLM [deepseek-flash] 返回 154字符 耗时1.2s → "[01:07:13] ywandwss: @659688244 英国解体了？, 茂密: 英国没解体啦..."
-[2026-09-14 01:07:15.177] [INFO    ] (memory:_compress_with_deepseek:223) [b19eee68b7844f5b] [9844130976336955] 压缩完成: 2条消息 → 保存
-[2026-09-14 01:07:24.345] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
-[2026-09-14 01:07:54.591] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
-[2026-09-14 01:08:25.077] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+# 更新于 2026-09-14 10:07:18 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 01:08:55.424] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 6038)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-14 01:09:00.056] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
 [2026-09-14 01:09:00.058] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1490,12 @@
 [2026-09-14 10:06:26.844] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=502ms]: '**Wicked, wicked**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
 [2026-09-14 10:06:28.004] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=890ms]: '**Wicked, wicked wonderland**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
 [2026-09-14 10:06:31.399] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1842)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**Wicked, wicked wonderland**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:06:59.329] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=331ms]: '**Wicked, wicked wonderland**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:01.683] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 1842)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=True lyric='**It's like crossing the Rio Grande**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 10:07:01.686] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=931ms]: '**It's like crossing the Rio Grande**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:02.804] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=283ms]: '**You gotta have the cash in store**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:05.285] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1024ms]: '**To reappear on our front door**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:06.453] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=163ms]: '**Wicked, wicked wonderland**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:08.708] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=602ms]: '**It's like crossing the Rio Grande**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:09.911] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=158ms]: '**You gotta have the cash in store**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
+[2026-09-14 10:07:12.253] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=308ms]: '**To reappear on our front door**' song=Tungevaag - Wicked Wonderland  playing=True channel=None
