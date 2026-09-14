@@ -1,20 +1,4 @@
-# 更新于 2026-09-14 13:31:16 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:20:54.914] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-[2026-09-14 11:20:54.915] [INFO    ] (manager:enable:165) [-] Plugin 已启用: tuf@2.0.0
-[2026-09-14 11:20:54.915] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-[2026-09-14 11:20:54.915] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.weather.weather (command)
-[2026-09-14 11:20:54.915] [INFO    ] (manager:enable:165) [-] Plugin 已启用: weather@1.0.0
-[2026-09-14 11:20:54.916] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.whois (command)
-[2026-09-14 11:20:54.916] [INFO    ] (registry:register:149) [-] CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-[2026-09-14 11:20:54.916] [INFO    ] (manager:enable:165) [-] Plugin 已启用: whois@1.0.0
-[2026-09-14 11:20:54.916] [INFO    ] (logger:info:335) [-] Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-[2026-09-14 11:20:54.916] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:54.917] [INFO    ] (logger:info:335) [-] ✅ 所有组件初始化完成，准备连接 KOOK...
-[2026-09-14 11:20:54.917] [INFO    ] (logger:info:335) [-] ==================================================
-[2026-09-14 11:20:54.917] [INFO    ] (logger:info:335) [-] 后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-[2026-09-14 11:20:54.917] [INFO    ] (queues:start_render_queue:103) [-] [队列] 渲染队列已启动
-[2026-09-14 11:20:54.945] [INFO    ] (changelog:_ensure_browser:64) [-] [Playwright] 启动 Chromium（极致加速模式）...
-[2026-09-14 11:20:54.946] [INFO    ] (remind:remind_checker_loop:167) [-] 提醒轮询已启动（每30秒检查一次）
+# 更新于 2026-09-14 13:32:01 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:20:54.947] [INFO    ] (bot:_bg_wdsj_collector:711) [-] 战绩采集将在 0h40m 后执行 (12:01)
 [2026-09-14 11:20:54.964] [INFO    ] (rss:start_rss_service:299) [-] [RSS] 订阅轮询服务启动
 [2026-09-14 11:20:55.030] [INFO    ] (bot:_bg_pc_offline_checker:814) [-] PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 262s 前）
@@ -1499,3 +1483,19 @@
 [2026-09-14 13:31:10.680] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=707ms]: '**制作人 : Nikša Bratoš/Remi Kazinoti/Tonci Huljic**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
 [2026-09-14 13:31:10.681] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=691ms]: '**指挥家 : Craig Pruess**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
 [2026-09-14 13:31:10.681] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=171ms]: '**纯音乐，请欣赏**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:17.537] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:31:23.035] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-266ms]: '**⏸ 已暂停**' song=Craig Pruess - Croatian Rhapso playing=False channel=None
+[2026-09-14 13:31:34.417] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=692ms]: '**▶ Craig Pruess - Croatian Rhapsody (Arr. Bratos & Kazinoti' song=Craig Pruess - Croatian Rhapso playing=False channel=None
+[2026-09-14 13:31:34.418] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=683ms]: '**作曲 : Tonci Huljic**' song=Craig Pruess - Croatian Rhapso playing=False channel=None
+[2026-09-14 13:31:41.677] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=21ms]: '**▶ 继续播放**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:42.790] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=133ms]: '**编曲 : Nikša Bratoš/Remi Kazinoti**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:42.790] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=118ms]: '**制作人 : Nikša Bratoš/Remi Kazinoti/Tonci Huljic**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:42.791] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=102ms]: '**指挥家 : Craig Pruess**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:42.791] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=72ms]: '**纯音乐，请欣赏**' song=Craig Pruess - Croatian Rhapso playing=True channel=None
+[2026-09-14 13:31:47.431] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-285ms]: '**▶ 千坂 - Fragments**' song=千坂 - Fragments playing=True channel=None
+[2026-09-14 13:31:48.546] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**▶ 千坂 - Fragments**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:31:54.745] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-109ms]: '**作词 : 无**' song=千坂 - Fragments playing=True channel=None
+[2026-09-14 13:31:54.745] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-108ms]: '**作曲 : 千坂**' song=千坂 - Fragments playing=True channel=None
+[2026-09-14 13:31:54.746] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=-109ms]: '**作词 : 无**' song=千坂 - Fragments playing=True channel=None
+[2026-09-14 13:31:55.914] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=795ms]: '**作曲 : 千坂**' song=千坂 - Fragments playing=True channel=None
+[2026-09-14 13:31:58.147] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=370ms]: '**纯音乐，请欣赏**' song=千坂 - Fragments playing=True channel=None
