@@ -1,15 +1,4 @@
-# 更新于 2026-09-14 13:36:25 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-14 11:20:55.835] [INFO    ] (logger:info:335) [-] 5 秒后重试...
-[2026-09-14 11:20:56.640] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 2419)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
-[2026-09-14 11:20:57.034] [INFO    ] (logger:info:335) [-] 检测到已手动设置的歌曲，跳过启动版本号覆盖
-[2026-09-14 11:21:00.803] [ERROR   ] (logger:error:341) [-] [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [Connection reset by peer]，10s 后重启
-[2026-09-14 11:21:00.842] [ERROR   ] (qq_bot:start:91) [-] QQBot 运行异常: <urlopen error [Errno 104] Connection reset by peer>，5s 后重连
-[2026-09-14 11:21:00.863] [INFO    ] (logger:info:335) [-] 🛑 正在关闭...
-[2026-09-14 11:21:00.864] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: checkin
-[2026-09-14 11:21:00.864] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: chou
-[2026-09-14 11:21:00.864] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: countdown
-[2026-09-14 11:21:00.864] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: echo
-[2026-09-14 11:21:00.865] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: eq
+# 更新于 2026-09-14 13:38:12 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-14 11:21:00.865] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: greet
 [2026-09-14 11:21:00.865] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: luck
 [2026-09-14 11:21:00.865] [INFO    ] (manager:unload:234) [-] Plugin 已卸载: motou
@@ -1499,3 +1488,14 @@
 [2026-09-14 13:36:04.480] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-14 13:36:19.719] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
 [2026-09-14 13:36:19.719] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 13:36:34.994] [INFO    ] (phone_status:set_phone_status:59) [-] 设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+[2026-09-14 13:36:34.994] [INFO    ] (phone_status:backfill_one_from_wss:633) [-] WSS 回填成功 source=iphone_status device=iPhone
+[2026-09-14 13:36:35.085] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-14 13:37:05.233] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**纯音乐，请欣赏**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:37:35.947] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=3115ms]: '**徘徊着的 在路上的**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1397ms]: '**⏸ 已暂停**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:37:42.121] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=1222ms]: '**▶ 继续播放**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:37:49.474] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=843ms]: '**你要走吗 Via Via**' song=朴树 - 平凡之路 playing=True channel=None
+[2026-09-14 13:37:57.401] [INFO    ] (pc_status:_handle_client:142) [-] 收到 lyric_event [延迟=685ms]: '**⏸ 已暂停**' song=朴树 - 平凡之路 playing=False channel=None
+[2026-09-14 13:38:07.543] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 13228)]: music=[] lyric_event=False lyric='-' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'net', 'proc_count', 'swap', 'uptime', 'window']
