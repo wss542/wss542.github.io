@@ -1,63 +1,4 @@
-# 更新于 2026-09-15 12:36:16 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-15 11:46:54 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-15 11:46:54 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-15 11:46:54 INFO  events:94         ==================================================
-2026-09-15 11:46:54 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-15 11:46:54 INFO  events:94         ==================================================
-2026-09-15 11:46:54 INFO  events:94         后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-2026-09-15 11:46:54 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-15 11:46:54 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-15 11:46:54 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-15 11:46:54 INFO  bot:711           战绩采集将在 0h14m 后执行 (12:01)
-2026-09-15 11:46:54 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-15 11:46:58 INFO  bot:814           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 17s 前）
-2026-09-15 11:46:58 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-15 11:46:58 INFO  pc_status:920     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-15 11:46:58 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-15 11:46:58 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-15 11:46:58 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-15 11:46:58 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-15 11:46:58 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-15 11:46:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-2026-09-15 11:46:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-15 11:46:59 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:46:59 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:46:59 INFO  pc_status:46      PC 客户端已连接
-2026-09-15 11:46:59 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=25% 内存=85%
-2026-09-15 11:47:00 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-15 11:47:00 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-15 11:47:00 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-15 11:47:00 INFO  events:94         QQ 开放平台通道已启动
-2026-09-15 11:47:00 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+# 更新于 2026-09-15 12:36:46 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 11:47:00 INFO  qq_transport:113  QQ access_token 已刷新，有效期 1220s
 2026-09-15 11:47:01 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-09-15 11:47:05 INFO  holiday:57        节假日: 2026-09-15 → 周二
@@ -1499,3 +1440,62 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:36:12 INFO  pc_status:187     收到 lyric_event [延迟=1144ms]: '**编曲：黄耿楷**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
 2026-09-15 12:36:12 INFO  pc_status:187     收到 lyric_event [延迟=550ms]: '**录制：郑浩**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
 2026-09-15 12:36:13 INFO  pc_status:187     收到 lyric_event [延迟=453ms]: '**混音：张海庚**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
+2026-09-15 12:36:27 INFO  qq_bot:174        QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "admin", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": " /歌词 on", "group_id": "7E965236B6F04667BC33E0DCBD54B35C", "group_openid": "7E965236B6F04667BC33E0DCBD54B35C", "id": "ROBOT1.0_vhIAs8DYpaY6h3rPEcrV9mhKqiW7iQeb7qEAVaP5OywvFYkHvYfoxcY9bC74mXvPOU1nroUf9uOs66wa4IbEmQfyQSxzOpqXlJpgKw-tYJUNIqrVm3QhC6-bhktADRFg", "message_scene": {"ext": ["msg_idx=REFIDX_q3AD476YiNn1KXJIZMScaKaFkniRoiud0WVGP6qDNP2fGnTFQNgiVAhTafIGhZEBXJAyMHB4oHET4edTxEDmTvKmtCmW/0V1+Py/EyxNrBbuv6kcxAZZMbgbMPFqKmlm", "auth_token=wENEwREE97VB42WXtCgcc75aodBeKn-k9Q3t-93rfSKHcTX_GNrTq4j7Z9u7m8CQG186xkZOeDbHv44-i4z32Bm8-17LHYctiNRGCgRh4auIcuFxGEGz1ATuSB11"], "source": "default"}, "message_type": 0, "timestamp": " 0 +08:00"}
+2026-09-15 12:36:27 INFO  qq_bot:252        QQ 消息 [chat=qq:7E965236B6F04667BC33E0DCBD54B35C group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/歌词 on'
+2026-09-15 12:36:27 INFO  qq_bot:263        QQ 登记被动窗口 openid=7E965236B6F04667BC33E0DCBD54B35C group=True msg_id=ROBOT1.0_vhIAs8DYpaY6h3rPEcrV9mhKqiW7iQeb7qEAVaP5OywvFYkHvYfoxcY9bC74mXvPOU1nroUf9uOs66wa4IbEmQfyQSxzOpqXlJpgKw-tYJUNIqrVm3QhC6-bhktADRFg
+2026-09-15 12:36:27 INFO  queues:32         [队列] 创建群qq:7E965236B6F04667BC33E0DCBD54B35C 的独立消息队列
+2026-09-15 12:36:27 DEBG  queues:75         [队列] 群qq:7E965236B6F04667BC33E0DCBD54B35C 消息已入队 (队长度=1)
+2026-09-15 12:36:27 INFO  fav:165           好感度首次注册: gqq:7E965236B6F04667BC33E0DCBD54B35C:qq:63C251709C77FDEE87FC502F866E3FB5 = 50
+2026-09-15 12:36:27 INFO  identity:92       身份映射已载入 1 条
+2026-09-15 12:36:27 INFO  pipeline:478      指令拦截: '/歌词 on' from=若尘 ~喵
+2026-09-15 12:36:27 DEBG  commands:4842     指令解析: prefix=/ cmd=歌词 args=['on'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-09-15 12:36:27 INFO  commands:4897     指令执行完成 [歌词]: 返回43字符
+2026-09-15 12:36:28 INFO  pc_status:165     切歌兜底推送 [old=(空) new=郑浩Z-Hao - 须尽欢 has_lyric_event=False channel=qq:7E965236B6F04667BC33E0DCBD54B35C]
+2026-09-15 12:36:28 INFO  pc_status:271     _send_lyric 被调用: text=**▶ 郑浩Z-Hao - 须尽欢** channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:28 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:28 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:29 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=7E965236B6F04667BC33E0DCBD54B35C len=43 seq=1 id=ROBOT1.0_sTpqkaD6-lT6NQQVsTn7LqDlDeFz-KU6S5PKZEKaXGpRmNzq54xewUBqNWv5qIyAdFLUsBa4Jx5gfI6Ke8OjPw!!
+2026-09-15 12:36:29 INFO  logger:541        [TRACE 2ce58f31e41c45db] total=1703.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1702.9ms(x1) (wall1702.9), queue_wait=0.53ms(x1)
+2026-09-15 12:36:32 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Krisu - Brightest Light（播放中）CPU=96% 内存=84%
+2026-09-15 12:36:32 INFO  pc_status:165     切歌兜底推送 [old=郑浩Z-Hao - 须尽欢 new=Krisu - Brightest Light has_lyric_event=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C]
+2026-09-15 12:36:32 INFO  pc_status:187     收到 lyric_event [延迟=148ms]: '**▶ Krisu - Brightest Light**' song=Krisu - Brightest Light playing=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:32 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:32 INFO  pc_status:197     去重检查: send_text='**▶ Krisu - Brightest Light**' _last_lyric=''
+2026-09-15 12:36:32 INFO  pc_status:202     准备发送 KOOK: channel=qq:7E965236B6F04667BC33E0DCBD54B35C text=**▶ Krisu - Brightest Light**
+2026-09-15 12:36:32 INFO  pc_status:271     _send_lyric 被调用: text=**▶ Krisu - Brightest Light** channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:32 INFO  pc_status:271     _send_lyric 被调用: text=**▶ Krisu - Brightest Light** channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:32 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:32 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:32 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:32 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:40 INFO  pc_status:187     收到 lyric_event [延迟=728ms]: '**作曲 : Christoffer Hylander**' song=Krisu - Brightest Light playing=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:197     去重检查: send_text='**作曲 : Christoffer Hylander**' _last_lyric='**▶ Krisu - Brightest Light**'
+2026-09-15 12:36:40 INFO  pc_status:202     准备发送 KOOK: channel=qq:7E965236B6F04667BC33E0DCBD54B35C text=**作曲 : Christoffer Hylander**
+2026-09-15 12:36:40 INFO  pc_status:187     收到 lyric_event [延迟=689ms]: '**Oh you know you can't give up,**
+`你可知，还不能够放弃`' song=Krisu - Brightest Light playing=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:197     去重检查: send_text='**Oh you know you can't give u' _last_lyric='**作曲 : Christoffer Hylander**'
+2026-09-15 12:36:40 INFO  pc_status:202     准备发送 KOOK: channel=qq:7E965236B6F04667BC33E0DCBD54B35C text=**Oh you know you can't give u
+2026-09-15 12:36:40 INFO  pc_status:271     _send_lyric 被调用: text=**作曲 : Christoffer Hylander** channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:271     _send_lyric 被调用: text=**Oh you know you can't give u channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:187     收到 lyric_event [延迟=663ms]: '**This is not the time to leave it all behind,**
+`此刻并非，将一切抛诸' song=Krisu - Brightest Light playing=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 INFO  pc_status:197     去重检查: send_text='**This is not the time to leav' _last_lyric='**Oh you know you can't give u'
+2026-09-15 12:36:40 INFO  pc_status:202     准备发送 KOOK: channel=qq:7E965236B6F04667BC33E0DCBD54B35C text=**This is not the time to leav
+2026-09-15 12:36:40 INFO  pc_status:271     _send_lyric 被调用: text=**This is not the time to leav channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:40 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:40 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:40 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:40 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:41 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:41 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
+2026-09-15 12:36:44 INFO  pc_status:187     收到 lyric_event [延迟=743ms]: '**And we're helping each other,**
+`我们相互扶持`' song=Krisu - Brightest Light playing=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:44 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:44 INFO  pc_status:197     去重检查: send_text='**And we're helping each other' _last_lyric='**This is not the time to leav'
+2026-09-15 12:36:44 INFO  pc_status:202     准备发送 KOOK: channel=qq:7E965236B6F04667BC33E0DCBD54B35C text=**And we're helping each other
+2026-09-15 12:36:44 INFO  pc_status:271     _send_lyric 被调用: text=**And we're helping each other channel=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:36:44 ERRO  kook_transport:80 fetch_public_channel 失败 qq:7E965236B6F04667BC33E0DCBD54B35C: Requesting 'GET channel/view' failed with 400: guild_id不存在或者你没有权限操作
+2026-09-15 12:36:44 WARN  pc_status:286     歌词推送失败: 频道 qq:7E965236B6F04667BC33E0DCBD54B35C 未获取
