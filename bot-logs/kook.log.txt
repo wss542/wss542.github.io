@@ -1,22 +1,4 @@
-# 更新于 2026-09-15 13:09:36 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-15 12:30:45 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-15 12:30:45 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-15 12:30:45 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-15 12:30:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-15 12:30:45 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-15 12:30:45 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-15 12:30:45 INFO  events:94         ==================================================
-2026-09-15 12:30:45 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-15 12:30:45 INFO  events:94         ==================================================
-2026-09-15 12:30:45 INFO  events:94         后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-2026-09-15 12:30:45 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-15 12:30:45 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
+# 更新于 2026-09-15 13:10:23 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:30:45 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-09-15 12:30:45 INFO  bot:711           战绩采集将在 3h30m 后执行 (16:01)
 2026-09-15 12:30:45 INFO  rss:299           [RSS] 订阅轮询服务启动
@@ -1499,3 +1481,21 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 13:09:28 INFO  pc_status:187     收到 lyric_event [延迟=631ms]: '**I love the dirty rhythm you play**' song=David Guetta / Nicki Minaj / B playing=True channel=None
 2026-09-15 13:09:31 INFO  pc_status:187     收到 lyric_event [延迟=274ms]: '**I wanna hear you calling my name**' song=David Guetta / Nicki Minaj / B playing=True channel=None
 2026-09-15 13:09:34 INFO  pc_status:187     收到 lyric_event [延迟=839ms]: '**Like hey mama mama hey mama mama** *(Hey)*' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:36 INFO  pc_status:187     收到 lyric_event [延迟=-52ms]: '**Banging the drum like dum di di dey**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:40 INFO  pc_status:187     收到 lyric_event [延迟=1415ms]: '**I know you want it in the worst way**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:42 INFO  pc_status:187     收到 lyric_event [延迟=275ms]: '**I wanna hear you calling my name**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:44 INFO  pc_status:187     收到 lyric_event [延迟=-52ms]: '**Like hey mama mama hey mama mama** *(Hey)*' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:48 INFO  pc_status:187     收到 lyric_event [延迟=37ms]: '**Be my woman, girl, I'mma**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:51 INFO  pc_status:187     收到 lyric_event [延迟=741ms]: '**Be your man**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:54 INFO  pc_status:187     收到 lyric_event [延迟=11ms]: '**Be my woman, girl, I'll**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:56 INFO  pc_status:187     收到 lyric_event [延迟=-25ms]: '**Be your man**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:09:59 INFO  pc_status:187     收到 lyric_event [延迟=123ms]: '**Yes I do the cooking**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:00 INFO  pc_status:187     收到 lyric_event [延迟=-182ms]: '**Yes I do the cleaning**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:02 INFO  pc_status:187     收到 lyric_event [延迟=644ms]: '**Yes I keep the nana real sweet for your eating**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:04 INFO  pc_status:187     收到 lyric_event [延迟=151ms]: '**Yes you be the boss yes I be respecting**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:08 INFO  pc_status:187     收到 lyric_event [延迟=566ms]: '**Whatever that you tell me 'cause it's game you be spitting' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:10 INFO  pc_status:187     收到 lyric_event [延迟=191ms]: '**Best believe that when you need that**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:13 INFO  pc_status:187     收到 lyric_event [延迟=708ms]: '**I'll provide that you will always have it**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:16 INFO  pc_status:187     收到 lyric_event [延迟=344ms]: '**I'll be on deck keep it in check**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:19 INFO  pc_status:187     收到 lyric_event [延迟=597ms]: '**When you need that I'mma let you have it**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 13:10:21 INFO  pc_status:187     收到 lyric_event [延迟=894ms]: '**You beatin' my drum like dum di di dey**' song=David Guetta / Nicki Minaj / B playing=True channel=None
