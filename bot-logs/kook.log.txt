@@ -1,12 +1,4 @@
-# 更新于 2026-09-15 12:42:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:26:38 INFO  events:94         Plugin Runtime 已关闭
-2026-09-15 12:26:38 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-09-15 12:26:38 INFO  context_manager:190 上下文已写入磁盘
-2026-09-15 12:26:38 INFO  events:94         👋 再见！
-2026-09-15 12:26:38 INFO  main:69           应用程序已退出
-2026-09-15 12:26:39 INFO  pc_status:223     PC 客户端断开连接
-2026-09-15 12:26:41 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-15 12:26:41 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-09-15 12:43:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:26:43 INFO  events:94         ==================================================
 2026-09-15 12:26:43 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
 2026-09-15 12:26:43 INFO  events:94         ==================================================
@@ -1499,3 +1491,11 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:42:30 WARN  pipeline:1145     LLM 未返回有效句子，已发送失败提示
 2026-09-15 12:42:30 INFO  logger:541        [TRACE d801ce25038a48b0] total=106110.46ms severity=very_slow_request | llm_calls=5 total=103226.51ms avg=20645.3ms max=61851.09ms p50=15516.43 p95=53769.88 p99=60234.84 | llm=103417.4ms(x1), memory=194.75ms(x2), message_retrieval=3.34ms(x2), process=106108.97ms(x1) (wall106108.97), queue_wait=4.06ms(x1)
 2026-09-15 12:42:30 WARN  logger:559        [VERY_SLOW d801ce25038a48b0] total=106112.32ms 需重点排查 | llm=103417.4ms(x1), memory=194.75ms(x2), message_retrieval=3.34ms(x2), process=106108.97ms(x1) (wall106108.97), queue_wait=4.06ms(x1) | llm_calls=5 total=103226.51ms avg=20645.3ms max=61851.09ms p50=15516.43 p95=53769.88 p99=60234.84 | perf: queue=4.06ms llm=103417.4ms search_tool=0.0ms delivery=0.0ms other=106307.06ms wall=106112.27ms dominant=other
+2026-09-15 12:43:34 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Sound Horizon - 美しきもの（播放中）CPU=57% 内存=82%
+2026-09-15 12:43:34 INFO  pc_status:187     收到 lyric_event [延迟=4894ms]: '**▶ Sound Horizon - 美しきもの**' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:35 INFO  pc_status:187     收到 lyric_event [延迟=288ms]: '**君の大好きな この 旋律** *(メロディ)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:39 INFO  pc_status:187     收到 lyric_event [延迟=383ms]: '**大空へと響け 口風琴** *(アルモニカ)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:43 INFO  pc_status:187     收到 lyric_event [延迟=63ms]: '**君の大好きな この 旋律** *(メロディ)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:43 INFO  pc_status:187     收到 lyric_event [延迟=58ms]: '**大空へと響け 口風琴** *(アルモニカ)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:44 INFO  pc_status:187     收到 lyric_event [延迟=672ms]: '**天使が抱いた 窓枠の 画布** *(トワレ)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 12:43:50 INFO  pc_status:187     收到 lyric_event [延迟=1412ms]: '**ねぇ その 風景画 綺麗かしら？** *(ベザージュ)*' song=Sound Horizon - 美しきもの playing=True channel=None
