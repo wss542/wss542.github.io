@@ -1,8 +1,4 @@
-# 更新于 2026-09-15 10:35:15 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-15 00:08:58.050] [INFO    ] (dispatcher:_dispatch_inner:316) [0d7b23713f634407] 📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/签到'
-[2026-09-15 00:08:58.051] [INFO    ] (queues:_get_or_create_queue:32) [0d7b23713f634407] [队列] 创建群9844130976336955 的独立消息队列
-[2026-09-15 00:08:58.052] [DEBUG   ] (queues:enqueue_message:75) [0d7b23713f634407] [队列] 群9844130976336955 消息已入队 (队长度=1)
-[2026-09-15 00:08:58.057] [INFO    ] (memory:merge_overflow_memory:432) [5346125734924d00] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+# 更新于 2026-09-15 10:35:46 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-15 00:08:58.059] [INFO    ] (pipeline:process_message:478) [5346125734924d00] 指令拦截: '/签到' from=ywandwss
 [2026-09-15 00:08:58.059] [DEBUG   ] (commands:handle_command:4842) [5346125734924d00] 指令解析: prefix=/ cmd=签到 args=[] user=1759953618
 [2026-09-15 00:08:58.061] [INFO    ] (checkin:do_checkin:117) [5346125734924d00] 签到: u:1759953618 streak=3 +7分
@@ -1499,3 +1495,7 @@
 [2026-09-15 10:34:03.239] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-15 10:34:33.620] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
 [2026-09-15 10:35:03.847] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-15 10:35:30.229] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+[2026-09-15 10:35:30.240] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+[2026-09-15 10:35:34.156] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
+[2026-09-15 10:35:45.250] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
