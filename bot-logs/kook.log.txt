@@ -1,16 +1,4 @@
-# 更新于 2026-09-15 12:55:11 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:27:43 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+# 更新于 2026-09-15 12:55:41 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
 2026-09-15 12:27:43 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
 2026-09-15 12:27:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
@@ -1499,3 +1487,15 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:51:04 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-09-15 12:51:04 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
 2026-09-15 12:51:04 INFO  qq_bot:132        QQ HELLO interval=41250
+2026-09-15 12:55:14 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-15 12:55:14 DEBG  image_api:50      图片缓存已加载: 372 条
+2026-09-15 12:55:14 INFO  image_api:152     [chat=test] 开始获取图片: https://httpbin.org/image/png...
+2026-09-15 12:55:16 INFO  image_api:168     [chat=test] 图片下载成功: 8090 bytes
+2026-09-15 12:55:16 INFO  image_api:204     [chat=test] 图片预处理: PNG(100x100) → PNG 8090 bytes → 7963 bytes
+2026-09-15 12:55:16 INFO  image_api:251     [chat=test] 调用主视觉模型识别图片 (MD5=5cca6069f68f...) model=deepseek-flash
+2026-09-15 12:55:19 INFO  image_api:280     [chat=test] 图片识别成功 (model=deepseek-flash): 粉色卡通猪头，圆脸黑眼，红腮微笑。情绪：开心、可爱、憨厚、友善。...
+2026-09-15 12:55:19 DEBG  image_api:64      图片缓存已写入磁盘: 373 条
+2026-09-15 12:55:19 DEBG  image_api:315     图片仓库追加: MD5=5cca6069f68f... → '粉色卡通猪头，圆脸黑眼，红腮微笑。情绪：开心、可爱、憨厚、友'
+2026-09-15 12:55:19 INFO  image_api:152     [chat=test] 开始获取图片: https://httpbin.org/image/png...
+2026-09-15 12:55:20 INFO  image_api:168     [chat=test] 图片下载成功: 8090 bytes
+2026-09-15 12:55:20 INFO  image_api:86      图片识别缓存命中 MD5=5cca6069f68f... → '粉色卡通猪头，圆脸黑眼，红腮微笑。情绪：开心、可爱、憨厚、友善。...'
