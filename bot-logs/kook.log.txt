@@ -1,10 +1,4 @@
-# 更新于 2026-09-15 13:04:06 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:27:49 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-15 12:27:49 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-15 12:27:49 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-15 12:27:49 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-15 12:27:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-2026-09-15 12:27:52 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-09-15 13:04:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:27:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
 2026-09-15 12:27:52 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-15 12:27:52 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
@@ -1499,3 +1493,9 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 13:03:52 INFO  pc_status:187     收到 lyric_event [延迟=83ms]: '**「美しきもの」 集める為に**' song=Sound Horizon - 美しきもの playing=True channel=None
 2026-09-15 13:03:58 INFO  pc_status:187     收到 lyric_event [延迟=222ms]: '**生命 は 過ぎて行く** *(ひと)*' song=Sound Horizon - 美しきもの playing=True channel=None
 2026-09-15 13:04:01 INFO  pc_status:187     收到 lyric_event [延迟=405ms]: '**君が駈け抜けた 眩い 季節** *(セゾン)*' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 13:04:07 INFO  pc_status:187     收到 lyric_event [延迟=201ms]: '**病の焔に 灼かれながら**' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 13:04:10 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-15 13:04:10 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-09-15 13:04:11 INFO  inline:391        看视频: 从消息附件取到视频 https://img.kookapp.cn/attachments/2026-09/15/abc.mp4
+2026-09-15 13:04:13 INFO  pc_status:187     收到 lyric_event [延迟=-57ms]: '**「嗚呼 綺麗だね」 笑って 逝った**' song=Sound Horizon - 美しきもの playing=True channel=None
+2026-09-15 13:04:17 INFO  pc_status:187     收到 lyric_event [延迟=-861ms]: '**君の 面影 忘れないよ** *(イマージュ)*' song=Sound Horizon - 美しきもの playing=True channel=None
