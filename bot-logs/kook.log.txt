@@ -1,9 +1,4 @@
-# 更新于 2026-09-15 12:50:26 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-15 12:26:45 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
+# 更新于 2026-09-15 12:50:56 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: greet@1.0.0
 2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
 2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: luck@1.0.0
@@ -1499,3 +1494,8 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:49:38 INFO  commands:3404     🎵 歌词推送开启: target=qq:555 (QQ 群) user=测试君(10001)
 2026-09-15 12:49:38 INFO  commands:3413     🎵 歌词推送关闭: was=qq:555 user=测试君(10001)
 2026-09-15 12:50:11 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-15 12:50:42 WARN  inline:350        看视频命令失败: 
+2026-09-15 12:50:42 INFO  commands:4897     指令执行完成 [看视频]: 返回11字符
+2026-09-15 12:50:43 INFO  logger:541        [TRACE 2a6b96885b4e40ca] total=121441.15ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=121441.03ms(x1) (wall121441.03), queue_wait=0.95ms(x1)
+2026-09-15 12:50:43 WARN  logger:559        [VERY_SLOW 2a6b96885b4e40ca] total=121444.69ms 需重点排查 | process=121441.03ms(x1) (wall121441.03), queue_wait=0.95ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.95ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=121441.03ms wall=121444.61ms dominant=other
+2026-09-15 12:50:43 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
