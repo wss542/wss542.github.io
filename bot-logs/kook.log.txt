@@ -1,333 +1,4 @@
-# 更新于 2026-09-15 12:34:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 11:15:29 INFO  logger:461        数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-15 11:15:29 INFO  logger:461        用户名查询模块已初始化
-2026-09-15 11:15:29 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-15 11:15:29 INFO  logger:461        服务器昵称每日刷新任务已调度
-2026-09-15 11:15:29 WARN  context_manager:55 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
-2026-09-15 11:15:29 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-15 11:15:29 INFO  logger:461        上下文管理器已初始化
-2026-09-15 11:15:29 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 11:15:29 INFO  logger:461        事件分发器已就绪
-2026-09-15 11:15:29 INFO  logger:461        ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-15 11:15:29 INFO  logger:461        消息处理器已注册（TEXT/KMD）
-2026-09-15 11:15:29 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:15:29 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:15:29 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-15 11:15:29 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-15 11:15:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-15 11:15:29 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-15 11:15:29 INFO  logger:461        Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-15 11:15:29 INFO  logger:461        ==================================================
-2026-09-15 11:15:29 INFO  logger:461        ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-15 11:15:29 INFO  logger:461        ==================================================
-2026-09-15 11:15:29 INFO  logger:461        后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-2026-09-15 11:15:29 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-15 11:15:29 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-15 11:15:29 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-15 11:15:29 INFO  bot:711           战绩采集将在 0h45m 后执行 (12:01)
-2026-09-15 11:15:29 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-15 11:15:35 INFO  bot:814           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 49s 前）
-2026-09-15 11:15:35 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-15 11:15:35 INFO  pc_status:920     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-15 11:15:35 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-15 11:15:35 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-15 11:15:35 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-15 11:15:35 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-15 11:15:35 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-15 11:15:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-2026-09-15 11:15:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-15 11:15:35 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:15:36 INFO  pc_status:46      PC 客户端已连接
-2026-09-15 11:15:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=20% 内存=94%
-2026-09-15 11:15:36 INFO  holiday:57        节假日: 2026-09-15 → 周二
-2026-09-15 11:15:36 INFO  holiday:105       节假日服务已启动
-2026-09-15 11:15:36 INFO  holiday:96        节假日每日刷新: 等待 45868 秒 (下次 00:00:05)
-2026-09-15 11:15:37 INFO  logger:461        检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-15 11:15:40 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-15 11:15:40 INFO  logger:461        Chromium 已预启动 + 渲染队列就绪
-2026-09-15 11:15:40 INFO  logger:461        QQ 开放平台通道已启动
-2026-09-15 11:15:40 INFO  logger:461        [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-15 11:15:40 INFO  qq_transport:113  QQ access_token 已刷新，有效期 3100s
-2026-09-15 11:15:41 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-15 11:15:41 INFO  qq_bot:132        QQ HELLO interval=41250
-2026-09-15 11:15:51 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:15:51 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:16:36 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:16:51 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:17:41 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:18:07 INFO  logger:461        收到终止信号，开始优雅退出...
-2026-09-15 11:18:07 INFO  logger:461        khl_bot 主循环已被取消（优雅退出）
-2026-09-15 11:18:07 INFO  logger:461        🛑 正在关闭...
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: checkin
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: chou
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: countdown
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: echo
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: eq
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: greet
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: luck
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: motou
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: nasa
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: weather
-2026-09-15 11:18:07 INFO  manager:234       Plugin 已卸载: whois
-2026-09-15 11:18:07 INFO  logger:461        Plugin Runtime 已关闭
-2026-09-15 11:18:07 INFO  logger:461        运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-09-15 11:18:07 INFO  context_manager:190 上下文已写入磁盘
-2026-09-15 11:18:07 INFO  logger:461        👋 再见！
-2026-09-15 11:18:07 INFO  logger:461        应用程序已退出
-2026-09-15 11:18:07 INFO  pc_status:223     PC 客户端断开连接
-2026-09-15 11:18:08 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-15 11:18:08 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 11:18:10 INFO  events:94         ==================================================
-2026-09-15 11:18:10 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-15 11:18:10 INFO  events:94         ==================================================
-2026-09-15 11:18:10 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-15 11:18:10 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-15 11:18:10 INFO  events:94         语言文件已加载
-2026-09-15 11:18:10 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-09-15 11:18:10 INFO  events:94         日志系统已初始化
-2026-09-15 11:18:10 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-15 11:18:10 INFO  events:94         khl.py Bot 实例已创建
-2026-09-15 11:18:10 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-09-15 11:18:10 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-15 11:18:10 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-15 11:18:10 INFO  events:94         消息发送器已初始化
-2026-09-15 11:18:10 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-15 11:18:10 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-15 11:18:10 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-15 11:18:10 INFO  events:94         用户名查询模块已初始化
-2026-09-15 11:18:10 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-15 11:18:10 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-15 11:18:10 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-15 11:18:10 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-15 11:18:10 INFO  events:94         上下文管理器已初始化
-2026-09-15 11:18:10 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 11:18:10 INFO  events:94         事件分发器已就绪
-2026-09-15 11:18:10 INFO  bot:170           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-15 11:18:10 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-15 11:18:10 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:18:10 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:18:10 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-15 11:18:10 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-15 11:18:10 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-15 11:18:10 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-15 11:18:10 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-15 11:18:10 INFO  events:94         ==================================================
-2026-09-15 11:18:10 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-15 11:18:10 INFO  events:94         ==================================================
-2026-09-15 11:18:10 INFO  events:94         后台任务: 提醒+控制+地震+战绩+PC状态:25002+PC掉线检测+TTS:25003+节假日+RSS订阅+通知(性能/GitHub)+更新Webhook:25004+iPhone:25005
-2026-09-15 11:18:10 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-15 11:18:10 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-15 11:18:10 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-15 11:18:10 INFO  bot:711           战绩采集将在 0h42m 后执行 (12:01)
-2026-09-15 11:18:10 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-15 11:18:17 INFO  bot:814           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 42s 前）
-2026-09-15 11:18:17 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-15 11:18:17 INFO  pc_status:920     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-15 11:18:17 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-15 11:18:17 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-15 11:18:17 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-15 11:18:17 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-15 11:18:17 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-15 11:18:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-2026-09-15 11:18:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-15 11:18:17 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:18:17 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:18:17 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-15 11:18:17 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-15 11:18:17 INFO  events:94         QQ 开放平台通道已启动
-2026-09-15 11:18:17 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-15 11:18:17 INFO  holiday:57        节假日: 2026-09-15 → 周二
-2026-09-15 11:18:18 INFO  holiday:105       节假日服务已启动
-2026-09-15 11:18:18 INFO  holiday:96        节假日每日刷新: 等待 45707 秒 (下次 00:00:05)
-2026-09-15 11:18:18 INFO  qq_transport:113  QQ access_token 已刷新，有效期 2943s
-2026-09-15 11:18:18 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-15 11:18:18 INFO  qq_bot:132        QQ HELLO interval=41250
-2026-09-15 11:18:19 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-15 11:18:19 INFO  pc_status:46      PC 客户端已连接
-2026-09-15 11:18:19 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=32% 内存=92%
-2026-09-15 11:18:32 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:18:48 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:18:48 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:22:29 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:23:11 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
-2026-09-15 11:23:11 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-2026-09-15 11:23:11 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-2026-09-15 11:23:11 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
-2026-09-15 11:23:11 INFO  guild_names:332   guild_names: 距下次全量刷新 56209 秒
-2026-09-15 11:23:28 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=37% 内存=94%
-2026-09-15 11:24:19 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:25:04 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:25:04 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:27:21 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:27:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:27:56 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:28:29 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=17% 内存=93%
-2026-09-15 11:28:42 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:28:42 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:28:58 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:28:58 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:30:00 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:30:00 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:30:15 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:30:15 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:33:30 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=28% 内存=93%
-2026-09-15 11:37:01 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:37:01 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:38:30 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=55% 内存=93%
-2026-09-15 11:39:29 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:39:29 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:39:29 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:40:50 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:40:50 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:43:30 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=38% 内存=87%
-2026-09-15 11:46:46 INFO  events:94         收到终止信号，开始优雅退出...
-2026-09-15 11:46:46 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
-2026-09-15 11:46:46 INFO  events:94         🛑 正在关闭...
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: checkin
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: chou
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: countdown
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: echo
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: eq
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: greet
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: luck
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: motou
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: nasa
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: weather
-2026-09-15 11:46:46 INFO  manager:234       Plugin 已卸载: whois
-2026-09-15 11:46:46 INFO  events:94         Plugin Runtime 已关闭
-2026-09-15 11:46:46 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-09-15 11:46:46 INFO  context_manager:190 上下文已写入磁盘
-2026-09-15 11:46:46 INFO  events:94         👋 再见！
-2026-09-15 11:46:46 INFO  main:69           应用程序已退出
-2026-09-15 11:46:46 INFO  pc_status:223     PC 客户端断开连接
-2026-09-15 11:46:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-15 11:46:48 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 11:46:49 INFO  events:94         ==================================================
-2026-09-15 11:46:49 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-15 11:46:49 INFO  events:94         ==================================================
-2026-09-15 11:46:49 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-15 11:46:49 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-15 11:46:49 INFO  events:94         语言文件已加载
-2026-09-15 11:46:49 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-09-15 11:46:49 INFO  events:94         日志系统已初始化
-2026-09-15 11:46:49 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-15 11:46:49 INFO  events:94         khl.py Bot 实例已创建
-2026-09-15 11:46:54 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-09-15 11:46:54 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-15 11:46:54 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-15 11:46:54 INFO  events:94         消息发送器已初始化
-2026-09-15 11:46:54 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-15 11:46:54 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-15 11:46:54 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-15 11:46:54 INFO  events:94         用户名查询模块已初始化
-2026-09-15 11:46:54 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-15 11:46:54 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-15 11:46:54 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-15 11:46:54 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-15 11:46:54 INFO  events:94         上下文管理器已初始化
-2026-09-15 11:46:54 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 11:46:54 INFO  events:94         事件分发器已就绪
-2026-09-15 11:46:54 INFO  bot:170           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-15 11:46:54 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-15 11:46:54 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:46:54 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-15 11:46:54 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+# 更新于 2026-09-15 12:36:16 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 2026-09-15 11:46:54 INFO  manager:165       Plugin 已启用: countdown@1.0.0
 2026-09-15 11:46:54 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
@@ -1499,3 +1170,332 @@
 2026-09-15 12:34:54 INFO  pc_status:197     去重检查: send_text='**字里行间谈离散**' _last_lyric='**人生得意须尽欢 情味腐烂**'
 2026-09-15 12:34:54 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**字里行间谈离散**
 2026-09-15 12:34:54 INFO  pc_status:271     _send_lyric 被调用: text=**字里行间谈离散** channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:187     收到 lyric_event [延迟=17129ms]: '**人生得意须尽欢 借旧俗人作伴**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 借旧俗人作伴**' _last_lyric='**字里行间谈离散**'
+2026-09-15 12:35:16 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 借旧俗人作伴**
+2026-09-15 12:35:16 INFO  pc_status:187     收到 lyric_event [延迟=10260ms]: '**我懂此情入戏为怀**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:197     去重检查: send_text='**我懂此情入戏为怀**' _last_lyric='**人生得意须尽欢 借旧俗人作伴**'
+2026-09-15 12:35:16 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**我懂此情入戏为怀**
+2026-09-15 12:35:16 INFO  pc_status:187     收到 lyric_event [延迟=4816ms]: '**人生得意须尽欢 悲歌曲调唱完**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 悲歌曲调唱完**' _last_lyric='**我懂此情入戏为怀**'
+2026-09-15 12:35:16 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 悲歌曲调唱完**
+2026-09-15 12:35:16 INFO  pc_status:290     歌词已发送到 KOOK: **字里行间谈离散**
+2026-09-15 12:35:16 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 借旧俗人作伴** channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:271     _send_lyric 被调用: text=**我懂此情入戏为怀** channel=6243254695867429
+2026-09-15 12:35:16 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 悲歌曲调唱完** channel=6243254695867429
+2026-09-15 12:35:16 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:19 INFO  pc_status:187     收到 lyric_event [延迟=986ms]: '**情话不再相伴**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:19 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:19 INFO  pc_status:197     去重检查: send_text='**情话不再相伴**' _last_lyric='**人生得意须尽欢 悲歌曲调唱完**'
+2026-09-15 12:35:19 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**情话不再相伴**
+2026-09-15 12:35:19 INFO  pc_status:271     _send_lyric 被调用: text=**情话不再相伴** channel=6243254695867429
+2026-09-15 12:35:27 INFO  pc_status:187     收到 lyric_event [延迟=680ms]: '**人生得意须尽欢 烟雨江南**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:27 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:27 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 烟雨江南**' _last_lyric='**情话不再相伴**'
+2026-09-15 12:35:27 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 烟雨江南**
+2026-09-15 12:35:27 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 烟雨江南** channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:187     收到 lyric_event [延迟=11822ms]: '**梦里无人生还**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:197     去重检查: send_text='**梦里无人生还**' _last_lyric='**人生得意须尽欢 烟雨江南**'
+2026-09-15 12:35:45 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**梦里无人生还**
+2026-09-15 12:35:45 INFO  pc_status:187     收到 lyric_event [延迟=6465ms]: '**人生得意须尽欢 遇你可算晚**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 遇你可算晚**' _last_lyric='**梦里无人生还**'
+2026-09-15 12:35:45 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 遇你可算晚**
+2026-09-15 12:35:45 INFO  pc_status:271     _send_lyric 被调用: text=**梦里无人生还** channel=6243254695867429
+2026-09-15 12:35:45 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 遇你可算晚** channel=6243254695867429
+2026-09-15 12:35:46 INFO  pc_status:187     收到 lyric_event [延迟=-2ms]: '**绵绵温情差你时寒**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:46 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:46 INFO  pc_status:197     去重检查: send_text='**绵绵温情差你时寒**' _last_lyric='**人生得意须尽欢 遇你可算晚**'
+2026-09-15 12:35:46 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**绵绵温情差你时寒**
+2026-09-15 12:35:46 INFO  pc_status:271     _send_lyric 被调用: text=**绵绵温情差你时寒** channel=6243254695867429
+2026-09-15 12:35:47 ERRO  pc_status:293     歌词推送失败: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+Traceback (most recent call last):
+  File " 2 ", line 1316, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 3 ", line 1198, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        ssl_shutdown_timeout=ssl_shutdown_timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 4 ", line 1231, in _create_connection_transport
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 5 ", line 812, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File " 6 ", line 657, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 7 ", line 1242, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 8 ", line 1620, in _create_direct_connection
+    raise last_exc
+  File " 9 ", line 1589, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File " 10 ", line 1298, in _wrap_create_connection
+    async with ceil_timeout(
+               ~~~~~~~~~~~~^
+        timeout.sock_connect, ceil_threshold=timeout.ceil_threshold
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File " 11 ", line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 12 ", line 289, in _send_lyric
+    await _sender._bot.client.send(ch, text, type=khl.MessageTypes.KMD)
+  File " 13 ", line 245, in send
+    return await target.send(content, type=type, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 14 ", line 163, in send
+    return await self.gate.exec_req(api.Message.create(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 15 ", line 30, in exec_req
+    return await self.requester.exec_req(r)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 16 ", line 58, in exec_req
+    return await self.request(r.method, r.route, **r.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 17 ", line 41, in request
+    async with self._cs.request(method, f'{API}/{route}', **params) as res:
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 18 ", line 1693, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File " 19 ", line 858, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File " 20 ", line 816, in _connect_and_send_request
+    raise ConnectionTimeoutError(
+        f"Connection timeout to host { 32 }"
+    ) from exc
+aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+
+2026-09-15 12:35:47 ERRO  pc_status:293     歌词推送失败: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+Traceback (most recent call last):
+  File " 2 ", line 1316, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 3 ", line 1198, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        ssl_shutdown_timeout=ssl_shutdown_timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 4 ", line 1231, in _create_connection_transport
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 5 ", line 812, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File " 6 ", line 657, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 7 ", line 1242, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 8 ", line 1620, in _create_direct_connection
+    raise last_exc
+  File " 9 ", line 1589, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File " 10 ", line 1298, in _wrap_create_connection
+    async with ceil_timeout(
+               ~~~~~~~~~~~~^
+        timeout.sock_connect, ceil_threshold=timeout.ceil_threshold
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File " 11 ", line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 12 ", line 289, in _send_lyric
+    await _sender._bot.client.send(ch, text, type=khl.MessageTypes.KMD)
+  File " 13 ", line 245, in send
+    return await target.send(content, type=type, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 14 ", line 163, in send
+    return await self.gate.exec_req(api.Message.create(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 15 ", line 30, in exec_req
+    return await self.requester.exec_req(r)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 16 ", line 58, in exec_req
+    return await self.request(r.method, r.route, **r.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 17 ", line 41, in request
+    async with self._cs.request(method, f'{API}/{route}', **params) as res:
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 18 ", line 1693, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File " 19 ", line 858, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File " 20 ", line 816, in _connect_and_send_request
+    raise ConnectionTimeoutError(
+        f"Connection timeout to host { 32 }"
+    ) from exc
+aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+
+2026-09-15 12:35:47 ERRO  pc_status:293     歌词推送失败: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+Traceback (most recent call last):
+  File " 2 ", line 1316, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 3 ", line 1198, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        ssl_shutdown_timeout=ssl_shutdown_timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 4 ", line 1231, in _create_connection_transport
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 5 ", line 812, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File " 6 ", line 657, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 7 ", line 1242, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 8 ", line 1620, in _create_direct_connection
+    raise last_exc
+  File " 9 ", line 1589, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File " 10 ", line 1298, in _wrap_create_connection
+    async with ceil_timeout(
+               ~~~~~~~~~~~~^
+        timeout.sock_connect, ceil_threshold=timeout.ceil_threshold
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File " 11 ", line 114, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File " 12 ", line 289, in _send_lyric
+    await _sender._bot.client.send(ch, text, type=khl.MessageTypes.KMD)
+  File " 13 ", line 245, in send
+    return await target.send(content, type=type, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 14 ", line 163, in send
+    return await self.gate.exec_req(api.Message.create(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 15 ", line 30, in exec_req
+    return await self.requester.exec_req(r)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 16 ", line 58, in exec_req
+    return await self.request(r.method, r.route, **r.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 17 ", line 41, in request
+    async with self._cs.request(method, f'{API}/{route}', **params) as res:
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File " 18 ", line 1693, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File " 19 ", line 858, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File " 20 ", line 816, in _connect_and_send_request
+    raise ConnectionTimeoutError(
+        f"Connection timeout to host { 32 }"
+    ) from exc
+aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host https://www.kookapp.cn/api/v3/message/create
+
+2026-09-15 12:35:51 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:51 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:51 INFO  pc_status:290     歌词已发送到 KOOK: **人生得意须尽欢 烟雨江南**
+2026-09-15 12:35:51 INFO  pc_status:290     歌词已发送到 KOOK: **情话不再相伴**
+2026-09-15 12:35:55 INFO  pc_status:187     收到 lyric_event [延迟=684ms]: '**人生得意须尽欢 一首情歌两难**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:35:55 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:35:55 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 一首情歌两难**' _last_lyric='**绵绵温情差你时寒**'
+2026-09-15 12:35:55 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 一首情歌两难**
+2026-09-15 12:35:55 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 一首情歌两难** channel=6243254695867429
+2026-09-15 12:35:56 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:56 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:56 INFO  pc_status:290     歌词已发送到 KOOK: **梦里无人生还**
+2026-09-15 12:35:56 INFO  pc_status:290     歌词已发送到 KOOK: **人生得意须尽欢 遇你可算晚**
+2026-09-15 12:35:56 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:56 INFO  pc_status:290     歌词已发送到 KOOK: **绵绵温情差你时寒**
+2026-09-15 12:35:57 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:35:57 INFO  pc_status:290     歌词已发送到 KOOK: **人生得意须尽欢 一首情歌两难**
+2026-09-15 12:36:06 INFO  pc_status:187     收到 lyric_event [延迟=4796ms]: '**我们别再一拍两散**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
+2026-09-15 12:36:06 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
+2026-09-15 12:36:06 INFO  pc_status:197     去重检查: send_text='**我们别再一拍两散**' _last_lyric='**人生得意须尽欢 一首情歌两难**'
+2026-09-15 12:36:06 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**我们别再一拍两散**
+2026-09-15 12:36:06 INFO  pc_status:271     _send_lyric 被调用: text=**我们别再一拍两散** channel=6243254695867429
+2026-09-15 12:36:06 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:36:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='/歌词 off' is_edit=False
+2026-09-15 12:36:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
+2026-09-15 12:36:06 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/歌词 off'
+2026-09-15 12:36:06 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
+2026-09-15 12:36:06 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 3条 (阈值=10)
+2026-09-15 12:36:06 INFO  pipeline:478      指令拦截: '/歌词 off' from=ywandwss
+2026-09-15 12:36:06 DEBG  commands:4842     指令解析: prefix=/ cmd=歌词 args=['off'] user=1759953618
+2026-09-15 12:36:06 INFO  commands:3407     🎵 歌词推送关闭: user=ywandwss(1759953618)
+2026-09-15 12:36:06 INFO  commands:4897     指令执行完成 [歌词]: 返回10字符
+2026-09-15 12:36:07 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:36:07 INFO  pc_status:290     歌词已发送到 KOOK: **我们别再一拍两散**
+2026-09-15 12:36:07 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:36:07 INFO  logger:541        [TRACE 800274d5da2b4a6a] total=899.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=899.42ms(x1) (wall899.42), queue_wait=1.16ms(x1)
+2026-09-15 12:36:10 INFO  pc_status:187     收到 lyric_event [延迟=610ms]: '**人生得意须尽欢 怪情涣散**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
+2026-09-15 12:36:11 INFO  pc_status:187     收到 lyric_event [延迟=487ms]: '**剩我四季贪念爱**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
+2026-09-15 12:36:12 INFO  pc_status:187     收到 lyric_event [延迟=1144ms]: '**编曲：黄耿楷**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
+2026-09-15 12:36:12 INFO  pc_status:187     收到 lyric_event [延迟=550ms]: '**录制：郑浩**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
+2026-09-15 12:36:13 INFO  pc_status:187     收到 lyric_event [延迟=453ms]: '**混音：张海庚**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
