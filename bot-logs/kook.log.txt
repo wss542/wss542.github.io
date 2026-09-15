@@ -1,63 +1,4 @@
-# 更新于 2026-09-15 12:39:33 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 11:47:59 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-15 11:47:59 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-15 11:47:59 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-15 11:47:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
-2026-09-15 11:48:00 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-15 11:48:00 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-15 11:48:00 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 11:48:00 INFO  pc_status:46      PC 客户端已连接
-2026-09-15 11:48:00 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=19% 内存=86%
-2026-09-15 11:48:00 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-15 11:48:00 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-15 11:48:00 INFO  events:94         QQ 开放平台通道已启动
-2026-09-15 11:48:00 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-15 11:48:00 INFO  holiday:57        节假日: 2026-09-15 → 周二
-2026-09-15 11:48:00 INFO  holiday:105       节假日服务已启动
-2026-09-15 11:48:00 INFO  holiday:96        节假日每日刷新: 等待 43924 秒 (下次 00:00:05)
-2026-09-15 11:48:00 INFO  qq_transport:113  QQ access_token 已刷新，有效期 1160s
-2026-09-15 11:48:01 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-15 11:48:01 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-15 11:48:02 INFO  qq_bot:132        QQ HELLO interval=41250
-2026-09-15 11:49:33 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:49:33 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:52:44 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
-2026-09-15 11:52:44 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-2026-09-15 11:52:45 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-2026-09-15 11:52:45 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
-2026-09-15 11:52:45 INFO  guild_names:332   guild_names: 距下次全量刷新 54435 秒
-2026-09-15 11:53:00 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=34% 内存=90%
-2026-09-15 11:54:17 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:55:30 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:57:11 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 11:57:11 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 11:58:01 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=37% 内存=82%
-2026-09-15 12:00:48 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
-2026-09-15 12:00:48 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 12:01:00 INFO  wdsj_tracker:73   每日战绩采集: 3 个玩家 x 2 模板
-2026-09-15 12:01:06 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
-2026-09-15 12:01:06 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 12:01:08 INFO  wdsj_tracker:101  每日战绩采集完成: 6 条新记录
-2026-09-15 12:01:10 INFO  bot:754           日榜目标频道: [3649029148752421]
-2026-09-15 12:01:14 INFO  bot:758           日榜已发到频道 3649029148752421
-2026-09-15 12:01:14 INFO  bot:761           日榜已推送: 3 人 (2026-09-15)
-2026-09-15 12:01:14 INFO  bot:711           战绩采集将在 3h59m 后执行 (16:01)
-2026-09-15 12:02:09 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 12:02:24 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-15 12:03:01 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=17% 内存=84%
-2026-09-15 12:07:00 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=94 cpu=None mem=None
-2026-09-15 12:07:00 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-15 12:08:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=31% 内存=90%
-2026-09-15 12:08:42 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-15 12:13:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=42% 内存=91%
-2026-09-15 12:18:02 INFO  qq_bot:148        QQ RECONNECT requested
-2026-09-15 12:18:08 INFO  qq_transport:113  QQ access_token 已刷新，有效期 6564s
-2026-09-15 12:18:09 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-15 12:18:09 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=24% 内存=86%
-2026-09-15 12:18:09 INFO  qq_bot:132        QQ HELLO interval=41250
-2026-09-15 12:23:09 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（已暂停）CPU=18% 内存=93%
-2026-09-15 12:26:38 INFO  events:94         收到终止信号，开始优雅退出...
-2026-09-15 12:26:38 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
+# 更新于 2026-09-15 12:41:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:26:38 INFO  events:94         🛑 正在关闭...
 2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: checkin
 2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: chou
@@ -1499,3 +1440,62 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:39:25 INFO  pc_status:187     收到 lyric_event [延迟=626ms]: '**I was there for you in your darkest night**' song=Maroon 5 - Maps playing=True channel=None
 2026-09-15 12:39:29 INFO  pc_status:187     收到 lyric_event [延迟=461ms]: '**But I wonder, where were you**' song=Maroon 5 - Maps playing=True channel=None
 2026-09-15 12:39:31 INFO  pc_status:187     收到 lyric_event [延迟=808ms]: '**When I was at my worst, down on my knees?**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:35 INFO  pc_status:187     收到 lyric_event [延迟=770ms]: '**And you said you had my back**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=19455ms]: '**So I wonder, where were you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=16798ms]: '**When all the roads you took came back to me?**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=13306ms]: '**So I'm following the map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=9912ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=7923ms]: '**Ain't nothing I can do**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=5805ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=4553ms]: '**Following, following, following**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=2018ms]: '**To you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 INFO  pc_status:187     收到 lyric_event [延迟=1817ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:55 DEBG  bot:217           🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:39:55 DEBG  bot:217           🧩 _consume_pkg pkg type=255 extra.type=joined_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:39:56 INFO  pc_status:187     收到 lyric_event [延迟=528ms]: '**Ain't nothing I can do**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:39:58 INFO  pc_status:187     收到 lyric_event [延迟=794ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:01 INFO  pc_status:187     收到 lyric_event [延迟=566ms]: '**Oh, oh, oh, ah**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:01 DEBG  bot:217           🧩 _consume_pkg pkg type=255 extra.type=updated_guild keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:40:01 DEBG  bot:217           🧩 _consume_pkg pkg type=255 extra.type=exited_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:40:03 INFO  pc_status:187     收到 lyric_event [延迟=689ms]: '**Oh, oh, oh, ah**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:05 INFO  pc_status:187     收到 lyric_event [延迟=1043ms]: '**Yeah, yeah, yeah, ah**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:07 INFO  pc_status:187     收到 lyric_event [延迟=1095ms]: '**Ah, ah, mm, ah**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:08 INFO  pc_status:187     收到 lyric_event [延迟=366ms]: '**Oh, I was there for you, oh, in your darkest times**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-09-15 12:40:31 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=18175ms]: '**Oh, I was there for you, oh, in your darkest night**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=14697ms]: '**Oh, I was there for you, oh, in your darkest times**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=10768ms]: '**Oh, I was there for you, oh, in your darkest nights**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=6649ms]: '**But I wonder, where were you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=4230ms]: '**When I was at my worst, down on my knees?**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:31 INFO  pc_status:187     收到 lyric_event [延迟=677ms]: '**And you said you had my back**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:32 INFO  pc_status:187     收到 lyric_event [延迟=261ms]: '**So I wonder, where were you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:35 INFO  pc_status:187     收到 lyric_event [延迟=75ms]: '**When all the roads you took came back to me?**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:39 INFO  pc_status:187     收到 lyric_event [延迟=1024ms]: '**So I'm following the map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:42 INFO  pc_status:187     收到 lyric_event [延迟=853ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:44 INFO  pc_status:187     收到 lyric_event [延迟=203ms]: '**Ain't nothing I can do**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:44 INFO  qq_bot:174        QQ 事件体 dump: {"author": {"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "admin", "union_openid": "", "username": "若尘 ⁧~喵⁧"}, "content": "  你看看这个是啥意思 喵～", "group_id": "7E965236B6F04667BC33E0DCBD54B35C", "group_openid": "7E965236B6F04667BC33E0DCBD54B35C", "id": "ROBOT1.0_vhIAs8DYpaY6h3rPEcrV9v08zZPjKl0ybl2jDym6lO. 0 -wnWCaEkQFtQ4xWpYhzg2akXf6wIy03gNIqrVm3QhC6-bhktADRFg", "message_scene": {"ext": ["ref_msg_idx=REFIDX_1fCBHU1qZ5kWbOirG1UAuUVHDgar3kCdwhKsmBjGL3osVK/eeyquIjg9yZtBVsfEXJAyMHB4oHET4edTxEDmTvKmtCmW/0V1+Py/EyxNrBbuv6kcxAZZMbgbMPFqKmlm", "msg_idx=REFIDX_y+EwxIaQqwTY4nhgEA/OZKaFkniRoiud0WVGP6qDNP2fGnTFQNgiVAhTafIGhZEBXJAyMHB4oHET4edTxEDmTvKmtCmW/0V1+Py/EyxNrBbuv6kcxAZZMbgbMPFqKmlm", "auth_token=nGBPz3-IZF7gmReayQtuysNnCmuPgRhNNeexdgSa6wMfxeXb5jYrtfXpWUnp4PDJTnOgffyBfXhrragyecrBWJHvbOcFC2AfQPg
+2026-09-15 12:40:44 INFO  qq_bot:252        QQ 消息 [chat=qq:7E965236B6F04667BC33E0DCBD54B35C group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '你看看这个是啥意思 喵～'
+2026-09-15 12:40:44 INFO  qq_bot:263        QQ 登记被动窗口 openid=7E965236B6F04667BC33E0DCBD54B35C group=True msg_id=ROBOT1.0_vhIAs8DYpaY6h3rPEcrV9v08zZPjKl0ybl2jDym6lO.HxS1C0tDv8jh5TbedYfVMFVLaal.EDLu-wnWCaEkQFtQ4xWpYhzg2akXf6wIy03gNIqrVm3QhC6-bhktADRFg
+2026-09-15 12:40:44 DEBG  queues:75         [队列] 群qq:7E965236B6F04667BC33E0DCBD54B35C 消息已入队 (队长度=1)
+2026-09-15 12:40:44 DEBG  pipeline:542      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='你看看这个是啥意思 喵～'
+2026-09-15 12:40:44 INFO  pipeline:580      @机器人检测 → 直接回复
+2026-09-15 12:40:44 DEBG  pipeline:633      请求意图: intent=chat fast_search=False msg='你看看这个是啥意思 喵～'
+2026-09-15 12:40:44 INFO  pipeline:662      复杂度: level=knowledge score=45 scale=1.6
+2026-09-15 12:40:45 WARN  pipeline:681      Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+2026-09-15 12:40:45 DEBG  memory:331        记忆检索: source=legacy_file status=miss 命中注入=0 耗时=95.6ms
+2026-09-15 12:40:45 INFO  pipeline:841      额外信息: 829字 (memory=34 search=0)
+2026-09-15 12:40:45 INFO  pipeline:978      system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-09-15 12:40:45 DEBG  pipeline:1107     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-09-15 12:40:45 INFO  pipeline:1114     开始生成回复: speaker=若尘 ~喵 chat=qq:7E965236B6F04667BC33E0DCBD54B35C
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=13685ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=12160ms]: '**Following, following, following**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=10637ms]: '**To you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=9599ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=7849ms]: '**Ain't nothing I can do**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=5786ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=4248ms]: '**Following, following, following**' song=Maroon 5 - Maps playing=True channel=None
+2026-09-15 12:41:00 ERRO  llm:665           LLM FC [Qwen/Qwen3-Next-80B-] 失败: Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': '10a746de-ef64-4e74-a5a1-e52c828f4169'}}
+2026-09-15 12:41:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Lunak - Can't Give Up（播放中）CPU=38% 内存=77%
+2026-09-15 12:41:04 INFO  pc_status:187     收到 lyric_event [延迟=494ms]: '**▶ Lunak - Can't Give Up**' song=Lunak - Can't Give Up playing=True channel=None
+2026-09-15 12:41:09 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=7E965236B6F04667BC33E0DCBD54B35C len=16 seq=1 id=ROBOT1.0_sTpqkaD6-lT6NQQVsTn7LrM1JryeVV.o5HQMqVz.xZIt9aOHBWRQFEjB1fVUAKyUk-yOfYH0vI5KkId9iwhN2g!!
