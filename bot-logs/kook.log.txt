@@ -1,7 +1,4 @@
-# 更新于 2026-09-15 15:09:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:33:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='/歌词' is_edit=False
-2026-09-15 12:33:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-2026-09-15 12:33:06 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/歌词'
+# 更新于 2026-09-15 15:09:54 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:33:06 INFO  queues:32         [队列] 创建群6243254695867429 的独立消息队列
 2026-09-15 12:33:06 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
 2026-09-15 12:33:06 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
@@ -1499,3 +1496,6 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 15:08:52 INFO  pc_status:187     收到 lyric_event [延迟=218ms]: '**作词 : MushrooM『蘑菇兄弟』**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
 2026-09-15 15:08:52 INFO  pc_status:187     收到 lyric_event [延迟=11ms]: '**作曲 : MushrooM『蘑菇兄弟』**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
 2026-09-15 15:08:53 INFO  pc_status:187     收到 lyric_event [延迟=1810ms]: '**纯音乐，请欣赏**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
+2026-09-15 15:09:13 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:09:28 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:09:28 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
