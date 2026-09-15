@@ -1,6 +1,4 @@
-# 更新于 2026-09-15 10:38:12 · 共 1500 行（来源 huanmeng.log 末尾）
-[2026-09-15 00:09:00.216] [DEBUG   ] (queues:enqueue_message:75) [fe4f562ffd2b4e42] [队列] 群9844130976336955 消息已入队 (队长度=1)
-[2026-09-15 00:09:00.218] [INFO    ] (memory:merge_overflow_memory:432) [e666adc947b5436a] 长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+# 更新于 2026-09-15 10:38:53 · 共 1500 行（来源 huanmeng.log 末尾）
 [2026-09-15 00:09:00.219] [INFO    ] (pipeline:process_message:478) [e666adc947b5436a] 指令拦截: '/luck' from=ywandwss
 [2026-09-15 00:09:00.220] [DEBUG   ] (commands:handle_command:4842) [e666adc947b5436a] 指令解析: prefix=/ cmd=luck args=[] user=1759953618
 [2026-09-15 00:09:00.220] [INFO    ] (commands:cmd_luck:716) [e666adc947b5436a] 指令 /luck 触发 user=1759953618
@@ -1499,3 +1497,5 @@
 [2026-09-15 10:37:41.550] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
 [2026-09-15 10:37:56.597] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 [2026-09-15 10:38:11.749] [WARNING ] (phone_status:backfill_one_from_wss:603) [-] WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+[2026-09-15 10:38:12.277] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime', 'window']
+[2026-09-15 10:38:42.635] [INFO    ] (pc_status:_handle_client:94) [-] PC 数据心跳 [('192.168.48.1', 3124)]: music=['song', 'cover', 'duration', 'progress_ms', 'raw_progress_ms', 'lyric_offset_ms', 'playing', 'hasSong', 'lyric_line'] lyric_event=False lyric='**⏸ 已暂停**' keys=['app', 'app_detail', 'app_handles', 'app_mem_mb', 'boot_time', 'cpu_count', 'cpu_freq', 'cpu_percent', 'disks', 'hostname', 'memory', 'music', 'net', 'proc_count', 'swap', 'uptime']
