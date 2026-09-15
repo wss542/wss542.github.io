@@ -1,18 +1,4 @@
-# 更新于 2026-09-15 12:41:59 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: checkin
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: chou
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: countdown
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: echo
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: eq
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: greet
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: luck
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: motou
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: nasa
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: weather
-2026-09-15 12:26:38 INFO  manager:234       Plugin 已卸载: whois
+# 更新于 2026-09-15 12:42:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:26:38 INFO  events:94         Plugin Runtime 已关闭
 2026-09-15 12:26:38 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
 2026-09-15 12:26:38 INFO  context_manager:190 上下文已写入磁盘
@@ -1499,3 +1485,17 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:41:04 INFO  pc_status:187     收到 lyric_event [延迟=494ms]: '**▶ Lunak - Can't Give Up**' song=Lunak - Can't Give Up playing=True channel=None
 2026-09-15 12:41:09 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=7E965236B6F04667BC33E0DCBD54B35C len=16 seq=1 id=ROBOT1.0_sTpqkaD6-lT6NQQVsTn7LrM1JryeVV.o5HQMqVz.xZIt9aOHBWRQFEjB1fVUAKyUk-yOfYH0vI5KkId9iwhN2g!!
 2026-09-15 12:41:22 ERRO  llm:665           LLM FC [Qwen/Qwen3-Next-80B-] 失败: Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': '6925dcf8-9913-49fa-a696-75909c8cfce3'}}
+2026-09-15 12:42:24 ERRO  llm:652           LLM FC [glm-4-flash] 超时
+2026-09-15 12:42:24 WARN  llm:1053          所有 LLM 候选模型首调用均失败或无内容，继续使用主模型 Qwen/Qwen3-Next-80B-A3B-Instruct
+2026-09-15 12:42:24 INFO  llm:1067          LLM原始输出 [轮1]: content= | tool_calls=0
+2026-09-15 12:42:24 WARN  llm:1082          LLM 返回空内容，重试...
+2026-09-15 12:42:25 ERRO  llm:665           LLM FC [Qwen/Qwen3-Next-80B-] 失败: Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': '8a2fcb65-7170-4c2b-9f70-c11cc56d2e01'}}
+2026-09-15 12:42:25 INFO  llm:1067          LLM原始输出 [轮2]: content= | tool_calls=0
+2026-09-15 12:42:25 WARN  llm:1085          LLM 连续返回空内容，用 json_mode 兜底...
+2026-09-15 12:42:25 INFO  llm:435           调用LLM [Qwen/Qwen3-Next-80B-] url=v1 tokens=800 temp=0.3 timeout=60.0s
+2026-09-15 12:42:28 ERRO  llm:528           LLM [Qwen/Qwen3-Next-80B-] 调用失败 (3.3s): Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': '6a3dfc65-004f-4a6f-86a0-66d4b63514bc'}}
+2026-09-15 12:42:28 ERRO  llm:1095          json_mode 兜底仍失败，放弃
+2026-09-15 12:42:30 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=7E965236B6F04667BC33E0DCBD54B35C len=68 seq=2 id=ROBOT1.0_sTpqkaD6-lT6NQQVsTn7LrmpIJ5rst7-zJGmBMNvB032ZzFvjSw5wC2VpiZkjkxYOIC.OPkGrOzjjAUJ0MtxjQ!!
+2026-09-15 12:42:30 WARN  pipeline:1145     LLM 未返回有效句子，已发送失败提示
+2026-09-15 12:42:30 INFO  logger:541        [TRACE d801ce25038a48b0] total=106110.46ms severity=very_slow_request | llm_calls=5 total=103226.51ms avg=20645.3ms max=61851.09ms p50=15516.43 p95=53769.88 p99=60234.84 | llm=103417.4ms(x1), memory=194.75ms(x2), message_retrieval=3.34ms(x2), process=106108.97ms(x1) (wall106108.97), queue_wait=4.06ms(x1)
+2026-09-15 12:42:30 WARN  logger:559        [VERY_SLOW d801ce25038a48b0] total=106112.32ms 需重点排查 | llm=103417.4ms(x1), memory=194.75ms(x2), message_retrieval=3.34ms(x2), process=106108.97ms(x1) (wall106108.97), queue_wait=4.06ms(x1) | llm_calls=5 total=103226.51ms avg=20645.3ms max=61851.09ms p50=15516.43 p95=53769.88 p99=60234.84 | perf: queue=4.06ms llm=103417.4ms search_tool=0.0ms delivery=0.0ms other=106307.06ms wall=106112.27ms dominant=other
