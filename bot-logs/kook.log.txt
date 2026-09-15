@@ -1,16 +1,4 @@
-# 更新于 2026-09-15 15:08:24 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:33:04 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-15 12:33:04 INFO  events:94         QQ 开放平台通道已启动
-2026-09-15 12:33:04 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-15 12:33:04 INFO  qq_transport:113  QQ access_token 已刷新，有效期 5661s
-2026-09-15 12:33:05 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-15 12:33:05 INFO  holiday:57        节假日: 2026-09-15 → 周二
-2026-09-15 12:33:05 INFO  holiday:105       节假日服务已启动
-2026-09-15 12:33:05 INFO  holiday:96        节假日每日刷新: 等待 41220 秒 (下次 00:00:05)
-2026-09-15 12:33:05 INFO  qq_bot:132        QQ HELLO interval=41250
-2026-09-15 12:33:05 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-15 12:33:05 INFO  pc_status:46      PC 客户端已连接
-2026-09-15 12:33:06 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+# 更新于 2026-09-15 15:09:09 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:33:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='/歌词' is_edit=False
 2026-09-15 12:33:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
 2026-09-15 12:33:06 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/歌词'
@@ -1499,3 +1487,15 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 15:08:18 INFO  pc_status:187     收到 lyric_event [延迟=604ms]: '**Like hey mama mama hey mama mama** *(Hey)*' song=David Guetta / Nicki Minaj / B playing=True channel=None
 2026-09-15 15:08:20 INFO  pc_status:187     收到 lyric_event [延迟=141ms]: '**Banging the drum like dum di di dey**' song=David Guetta / Nicki Minaj / B playing=True channel=None
 2026-09-15 15:08:24 INFO  pc_status:187     收到 lyric_event [延迟=399ms]: '**I know you want it in the worst way**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:27 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:08:27 INFO  pc_status:187     收到 lyric_event [延迟=1174ms]: '**I wanna hear you calling my name**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:29 INFO  pc_status:187     收到 lyric_event [延迟=512ms]: '**Like hey mama mama mama hey mama mama** *(Hey)*' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:33 INFO  pc_status:187     收到 lyric_event [延迟=772ms]: '**Be my woman, girl, I'mma**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:35 INFO  pc_status:187     收到 lyric_event [延迟=57ms]: '**Be your man**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:39 INFO  pc_status:187     收到 lyric_event [延迟=791ms]: '**Be my woman, girl, I'll**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:41 INFO  pc_status:187     收到 lyric_event [延迟=489ms]: '**Be your man**' song=David Guetta / Nicki Minaj / B playing=True channel=None
+2026-09-15 15:08:47 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=MushrooM『蘑菇兄弟』 - 特别关心（播放中）CPU=52% 内存=94%
+2026-09-15 15:08:47 INFO  pc_status:187     收到 lyric_event [延迟=931ms]: '**▶ MushrooM『蘑菇兄弟』 - 特别关心**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
+2026-09-15 15:08:52 INFO  pc_status:187     收到 lyric_event [延迟=218ms]: '**作词 : MushrooM『蘑菇兄弟』**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
+2026-09-15 15:08:52 INFO  pc_status:187     收到 lyric_event [延迟=11ms]: '**作曲 : MushrooM『蘑菇兄弟』**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
+2026-09-15 15:08:53 INFO  pc_status:187     收到 lyric_event [延迟=1810ms]: '**纯音乐，请欣赏**' song=MushrooM『蘑菇兄弟』 - 特别关心 playing=True channel=None
