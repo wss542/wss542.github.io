@@ -1,13 +1,4 @@
-# 更新于 2026-09-15 12:49:05 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: echo@1.0.0
+# 更新于 2026-09-15 12:50:26 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
 2026-09-15 12:26:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
 2026-09-15 12:26:45 INFO  manager:165       Plugin 已启用: eq@1.0.0
@@ -1499,3 +1490,12 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 12:48:40 DEBG  commands:4842     指令解析: prefix=/ cmd=看视频 args=['[ 0 ]( 1 )'] user=1759953618
 2026-09-15 12:48:41 INFO  dispatcher:1071   🎬 启动 yt-dlp 下载: https://www.bilibili.com/video/BV1bJ411G7Uc/?share_source=co
 2026-09-15 12:48:41 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-15 12:49:14 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-15 12:49:15 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-09-15 12:49:38 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-15 12:49:38 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-09-15 12:49:38 INFO  commands:3404     🎵 歌词推送开启: target=qq:123456789 (QQ 群) user=测试君(10001)
+2026-09-15 12:49:38 INFO  commands:3404     🎵 歌词推送开启: target=987654321 (KOOK 频道) user=测试君(10001)
+2026-09-15 12:49:38 INFO  commands:3404     🎵 歌词推送开启: target=qq:555 (QQ 群) user=测试君(10001)
+2026-09-15 12:49:38 INFO  commands:3413     🎵 歌词推送关闭: was=qq:555 user=测试君(10001)
+2026-09-15 12:50:11 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
