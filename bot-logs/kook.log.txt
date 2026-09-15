@@ -1,10 +1,4 @@
-# 更新于 2026-09-15 15:09:54 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:33:06 INFO  queues:32         [队列] 创建群6243254695867429 的独立消息队列
-2026-09-15 12:33:06 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
-2026-09-15 12:33:06 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-2026-09-15 12:33:06 INFO  pipeline:478      指令拦截: '/歌词' from=ywandwss
-2026-09-15 12:33:06 DEBG  commands:4842     指令解析: prefix=/ cmd=歌词 args=[] user=1759953618
-2026-09-15 12:33:06 INFO  commands:4897     指令执行完成 [歌词]: 返回122字符
+# 更新于 2026-09-15 15:10:36 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:33:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（播放中）CPU=34% 内存=74%
 2026-09-15 12:33:06 INFO  pc_status:187     收到 lyric_event [延迟=4739ms]: '**我们为何一别两宽** *(一拍两散)*' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
 2026-09-15 12:33:06 INFO  logger:541        [TRACE 1811d17e5acb468b] total=527.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=527.37ms(x1) (wall527.37), queue_wait=2.75ms(x1)
@@ -1499,3 +1493,9 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 15:09:13 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 2026-09-15 15:09:28 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 2026-09-15 15:09:28 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-15 15:09:58 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:09:58 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-15 15:10:28 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:10:28 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-15 15:10:33 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=贾格JuggShots - 沦陷（播放中）CPU=77% 内存=89%
+2026-09-15 15:10:33 INFO  pc_status:187     收到 lyric_event [延迟=318ms]: '**▶ 贾格JuggShots - 沦陷**' song=贾格JuggShots - 沦陷 playing=True channel=None
