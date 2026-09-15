@@ -1,8 +1,4 @@
-# 更新于 2026-09-15 16:15:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:40:45 WARN  pipeline:681      Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
-2026-09-15 12:40:45 DEBG  memory:331        记忆检索: source=legacy_file status=miss 命中注入=0 耗时=95.6ms
-2026-09-15 12:40:45 INFO  pipeline:841      额外信息: 829字 (memory=34 search=0)
-2026-09-15 12:40:45 INFO  pipeline:978      system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+# 更新于 2026-09-15 16:16:20 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:40:45 DEBG  pipeline:1107     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 2026-09-15 12:40:45 INFO  pipeline:1114     开始生成回复: speaker=若尘 ~喵 chat=qq:7E965236B6F04667BC33E0DCBD54B35C
 2026-09-15 12:40:59 INFO  pc_status:187     收到 lyric_event [延迟=13685ms]: '**The map that leads to you**' song=Maroon 5 - Maps playing=True channel=None
@@ -1499,3 +1495,7 @@
 2026-09-15 16:10:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 2026-09-15 16:10:44 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-15 16:11:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=贾格JuggShots - 沦陷（已暂停）CPU=45% 内存=82%
+2026-09-15 16:16:10 ERRO  qq_bot:91         QQBot 运行异常: no close frame received or sent，5s 后重连
+2026-09-15 16:16:16 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-09-15 16:16:16 INFO  qq_bot:132        QQ HELLO interval=41250
+2026-09-15 16:16:16 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=1 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
