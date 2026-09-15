@@ -1,41 +1,4 @@
-# 更新于 2026-09-15 13:07:47 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:30:42 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-15 12:30:42 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-15 12:30:42 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-15 12:30:42 INFO  manager:234       Plugin 已卸载: weather
-2026-09-15 12:30:42 INFO  manager:234       Plugin 已卸载: whois
-2026-09-15 12:30:42 INFO  events:94         Plugin Runtime 已关闭
-2026-09-15 12:30:42 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-09-15 12:30:42 INFO  context_manager:190 上下文已写入磁盘
-2026-09-15 12:30:42 INFO  events:94         👋 再见！
-2026-09-15 12:30:42 INFO  main:69           应用程序已退出
-2026-09-15 12:30:42 INFO  pc_status:223     PC 客户端断开连接
-2026-09-15 12:30:43 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-15 12:30:43 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-15 12:30:44 INFO  events:94         ==================================================
-2026-09-15 12:30:44 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-15 12:30:44 INFO  events:94         ==================================================
-2026-09-15 12:30:44 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-15 12:30:44 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-15 12:30:44 INFO  events:94         语言文件已加载
-2026-09-15 12:30:44 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-09-15 12:30:44 INFO  events:94         日志系统已初始化
-2026-09-15 12:30:44 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-15 12:30:44 INFO  events:94         khl.py Bot 实例已创建
-2026-09-15 12:30:44 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-09-15 12:30:44 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-15 12:30:44 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-15 12:30:44 INFO  events:94         消息发送器已初始化
-2026-09-15 12:30:45 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-15 12:30:45 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-15 12:30:45 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-15 12:30:45 INFO  events:94         用户名查询模块已初始化
-2026-09-15 12:30:45 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-15 12:30:45 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-15 12:30:45 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-15 12:30:45 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-15 12:30:45 INFO  events:94         上下文管理器已初始化
-2026-09-15 12:30:45 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-09-15 13:08:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:30:45 INFO  events:94         事件分发器已就绪
 2026-09-15 12:30:45 INFO  bot:170           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 2026-09-15 12:30:45 INFO  events:94         消息处理器已注册（TEXT/KMD）
@@ -1499,3 +1462,40 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 13:07:46 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-09-15 13:07:46 INFO  bot:711           战绩采集将在 2h53m 后执行 (16:01)
 2026-09-15 13:07:46 INFO  rss:299           [RSS] 订阅轮询服务启动
+2026-09-15 13:07:52 INFO  bot:814           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 42s 前）
+2026-09-15 13:07:52 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
+2026-09-15 13:07:52 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
+2026-09-15 13:07:52 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+2026-09-15 13:07:52 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+2026-09-15 13:07:52 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
+2026-09-15 13:07:52 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
+2026-09-15 13:07:52 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-09-15 13:07:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.7 mem=60.0
+2026-09-15 13:07:52 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-15 13:07:53 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-09-15 13:07:53 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-15 13:07:53 INFO  holiday:57        节假日: 2026-09-15 → 周二
+2026-09-15 13:07:53 INFO  holiday:105       节假日服务已启动
+2026-09-15 13:07:53 INFO  holiday:96        节假日每日刷新: 等待 39131 秒 (下次 00:00:05)
+2026-09-15 13:07:54 INFO  pc_status:46      PC 客户端已连接
+2026-09-15 13:07:54 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Dschinghis Khan - Moscow（播放中）CPU=43% 内存=93%
+2026-09-15 13:07:54 INFO  pc_status:187     收到 lyric_event [延迟=8737ms]: '**Even through ice and snow**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:07:54 INFO  pc_status:187     收到 lyric_event [延迟=5146ms]: '**Sparkling they shine**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:07:54 INFO  pc_status:187     收到 lyric_event [延迟=1057ms]: '**And every night night night there is music**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:07:54 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-09-15 13:07:54 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-09-15 13:07:54 INFO  events:94         QQ 开放平台通道已启动
+2026-09-15 13:07:54 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-15 13:07:54 INFO  qq_transport:113  QQ access_token 已刷新，有效期 3573s
+2026-09-15 13:07:54 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-09-15 13:07:54 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-09-15 13:07:55 INFO  qq_bot:132        QQ HELLO interval=41250
+2026-09-15 13:07:57 INFO  pc_status:187     收到 lyric_event [延迟=863ms]: '**Oh every night night night there is love**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:01 INFO  pc_status:187     收到 lyric_event [延迟=1682ms]: '**And every night night night there is laughter**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:05 INFO  pc_status:187     收到 lyric_event [延迟=1391ms]: '**Here's to you brother hey brother ho**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:09 INFO  pc_status:187     收到 lyric_event [延迟=1771ms]: '**Hey Hey Hey Hey**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:10 INFO  pc_status:187     收到 lyric_event [延迟=1002ms]: '**Moscow Moscow throw your glasses at the wall**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:14 INFO  pc_status:187     收到 lyric_event [延迟=710ms]: '**And good fortune to us all**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:16 INFO  pc_status:187     收到 lyric_event [延迟=1040ms]: '**Ho ho ho ho ho hey**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:18 INFO  pc_status:187     收到 lyric_event [延迟=1516ms]: '**Moscow Moscow join us for a kazadchok**' song=Dschinghis Khan - Moscow playing=True channel=None
+2026-09-15 13:08:21 INFO  pc_status:187     收到 lyric_event [延迟=1184ms]: '**We'll go dancing round the clock**' song=Dschinghis Khan - Moscow playing=True channel=None
