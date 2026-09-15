@@ -1,55 +1,4 @@
-# 更新于 2026-09-15 15:10:36 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-15 12:33:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao - 须尽欢（播放中）CPU=34% 内存=74%
-2026-09-15 12:33:06 INFO  pc_status:187     收到 lyric_event [延迟=4739ms]: '**我们为何一别两宽** *(一拍两散)*' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
-2026-09-15 12:33:06 INFO  logger:541        [TRACE 1811d17e5acb468b] total=527.54ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=527.37ms(x1) (wall527.37), queue_wait=2.75ms(x1)
-2026-09-15 12:33:07 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:08 INFO  pc_status:187     收到 lyric_event [延迟=558ms]: '**人生得意须尽欢**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
-2026-09-15 12:33:11 INFO  pc_status:187     收到 lyric_event [延迟=51ms]: '**情味腐烂**' song=郑浩Z-Hao - 须尽欢 playing=True channel=None
-2026-09-15 12:33:11 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:11 DEBG  dispatcher:47     dispatch 入口: type=9 content='/歌词 on' is_edit=False
-2026-09-15 12:33:11 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-2026-09-15 12:33:11 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/歌词 on'
-2026-09-15 12:33:11 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
-2026-09-15 12:33:11 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 2条 (阈值=10)
-2026-09-15 12:33:11 INFO  pipeline:478      指令拦截: '/歌词 on' from=ywandwss
-2026-09-15 12:33:11 DEBG  commands:4842     指令解析: prefix=/ cmd=歌词 args=['on'] user=1759953618
-2026-09-15 12:33:11 INFO  commands:3401     🎵 歌词推送开启: channel=6243254695867429 user=ywandwss(1759953618)
-2026-09-15 12:33:11 INFO  commands:4897     指令执行完成 [歌词]: 返回43字符
-2026-09-15 12:33:12 INFO  logger:541        [TRACE 150a89381d03493e] total=646.81ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=646.76ms(x1) (wall646.76), queue_wait=0.79ms(x1)
-2026-09-15 12:33:12 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:12 INFO  pc_status:165     切歌兜底推送 [old=(空) new=郑浩Z-Hao - 须尽欢 has_lyric_event=False channel=6243254695867429]
-2026-09-15 12:33:12 INFO  pc_status:271     _send_lyric 被调用: text=**▶ 郑浩Z-Hao - 须尽欢** channel=6243254695867429
-2026-09-15 12:33:13 INFO  pc_status:290     歌词已发送到 KOOK: **▶ 郑浩Z-Hao - 须尽欢**
-2026-09-15 12:33:13 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:14 INFO  pc_status:187     收到 lyric_event [延迟=261ms]: '**南北再无孤雁往来**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
-2026-09-15 12:33:14 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
-2026-09-15 12:33:14 INFO  pc_status:197     去重检查: send_text='**南北再无孤雁往来**' _last_lyric=''
-2026-09-15 12:33:14 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**南北再无孤雁往来**
-2026-09-15 12:33:14 INFO  pc_status:271     _send_lyric 被调用: text=**南北再无孤雁往来** channel=6243254695867429
-2026-09-15 12:33:15 INFO  pc_status:290     歌词已发送到 KOOK: **南北再无孤雁往来**
-2026-09-15 12:33:15 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:20 INFO  pc_status:187     收到 lyric_event [延迟=651ms]: '**人生得意须尽欢 倦看烟雨江南**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
-2026-09-15 12:33:20 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
-2026-09-15 12:33:20 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 倦看烟雨江南**' _last_lyric='**南北再无孤雁往来**'
-2026-09-15 12:33:20 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 倦看烟雨江南**
-2026-09-15 12:33:20 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 倦看烟雨江南** channel=6243254695867429
-2026-09-15 12:33:21 INFO  pc_status:290     歌词已发送到 KOOK: **人生得意须尽欢 倦看烟雨江南**
-2026-09-15 12:33:21 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:27 INFO  pc_status:187     收到 lyric_event [延迟=341ms]: '**梦里无人生还**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
-2026-09-15 12:33:27 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
-2026-09-15 12:33:27 INFO  pc_status:197     去重检查: send_text='**梦里无人生还**' _last_lyric='**人生得意须尽欢 倦看烟雨江南**'
-2026-09-15 12:33:27 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**梦里无人生还**
-2026-09-15 12:33:27 INFO  pc_status:271     _send_lyric 被调用: text=**梦里无人生还** channel=6243254695867429
-2026-09-15 12:33:27 INFO  pc_status:290     歌词已发送到 KOOK: **梦里无人生还**
-2026-09-15 12:33:27 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:32 INFO  pc_status:187     收到 lyric_event [延迟=532ms]: '**人生得意须尽欢 时辰太晚**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
-2026-09-15 12:33:32 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
-2026-09-15 12:33:32 INFO  pc_status:197     去重检查: send_text='**人生得意须尽欢 时辰太晚**' _last_lyric='**梦里无人生还**'
-2026-09-15 12:33:32 INFO  pc_status:202     准备发送 KOOK: channel=6243254695867429 text=**人生得意须尽欢 时辰太晚**
-2026-09-15 12:33:32 INFO  pc_status:271     _send_lyric 被调用: text=**人生得意须尽欢 时辰太晚** channel=6243254695867429
-2026-09-15 12:33:33 INFO  pc_status:290     歌词已发送到 KOOK: **人生得意须尽欢 时辰太晚**
-2026-09-15 12:33:33 DEBG  bot:217           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-15 12:33:34 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+# 更新于 2026-09-15 15:11:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-15 12:33:39 INFO  pc_status:187     收到 lyric_event [延迟=351ms]: '**绵绵温情差你时寒**' song=郑浩Z-Hao - 须尽欢 playing=True channel=6243254695867429
 2026-09-15 12:33:39 INFO  pc_status:190     进入发送逻辑: lyric_event有值=True channel=6243254695867429
 2026-09-15 12:33:39 INFO  pc_status:197     去重检查: send_text='**绵绵温情差你时寒**' _last_lyric='**人生得意须尽欢 时辰太晚**'
@@ -1499,3 +1448,54 @@ aiohttp.client_exceptions.ConnectionTimeoutError: Connection timeout to host htt
 2026-09-15 15:10:28 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
 2026-09-15 15:10:33 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=贾格JuggShots - 沦陷（播放中）CPU=77% 内存=89%
 2026-09-15 15:10:33 INFO  pc_status:187     收到 lyric_event [延迟=318ms]: '**▶ 贾格JuggShots - 沦陷**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=900ms]: '**作词 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=891ms]: '**作曲 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=876ms]: '**制作人 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=849ms]: '**和声 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=835ms]: '**编曲 : Scorpion/BSTRACK**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=805ms]: '**录音 : 银川聆音录音棚**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=792ms]: '**混音 : HAKO哈口**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=761ms]: '**封面 : MIGO米狗**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=733ms]: '**企划 : 谢洽仑@月球公告/陈奕汝**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=705ms]: '**营销企划 : 谢洽仑@月球公告/余晓莹/陈奕汝**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=676ms]: '**监制 : 何敏珊**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=646ms]: '**出品人 : 谢洽仑**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=632ms]: '**出品 : 北京乐过山丘音乐有限公司**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=601ms]: '**合作-投稿请联系：SongCreator**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=572ms]: '**作词:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:39 INFO  pc_status:187     收到 lyric_event [延迟=312ms]: '**作曲:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1083ms]: '**作词 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1074ms]: '**作曲 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1043ms]: '**制作人 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1057ms]: '**和声 : JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1027ms]: '**编曲 : Scorpion/BSTRACK**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=1012ms]: '**录音 : 银川聆音录音棚**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=981ms]: '**混音 : HAKO哈口**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=967ms]: '**封面 : MIGO米狗**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=936ms]: '**企划 : 谢洽仑@月球公告/陈奕汝**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=921ms]: '**营销企划 : 谢洽仑@月球公告/余晓莹/陈奕汝**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=890ms]: '**监制 : 何敏珊**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=874ms]: '**出品人 : 谢洽仑**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=859ms]: '**出品 : 北京乐过山丘音乐有限公司**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=844ms]: '**合作-投稿请联系：SongCreator**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=814ms]: '**作词:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=661ms]: '**作曲:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:41 INFO  pc_status:187     收到 lyric_event [延迟=427ms]: '**演唱:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:45 INFO  pc_status:187     收到 lyric_event [延迟=812ms]: '**制作人:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:47 INFO  pc_status:187     收到 lyric_event [延迟=302ms]: '**和声:JuggShots@RADI8 Studio**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:49 INFO  pc_status:187     收到 lyric_event [延迟=1021ms]: '**编曲:Scorpion/BSTRACK**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:50 INFO  pc_status:187     收到 lyric_event [延迟=447ms]: '**录音:银川聆音录音棚**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:52 INFO  pc_status:187     收到 lyric_event [延迟=127ms]: '**混音:HAKO哈口**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:54 INFO  pc_status:187     收到 lyric_event [延迟=1140ms]: '**封面:MIGO米狗**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:55 INFO  pc_status:187     收到 lyric_event [延迟=920ms]: '**弥漫的烟**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:56 INFO  pc_status:187     收到 lyric_event [延迟=594ms]: '**散不出留在房间**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:10:59 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-15 15:11:00 INFO  pc_status:187     收到 lyric_event [延迟=539ms]: '**我在窗前**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:01 INFO  pc_status:187     收到 lyric_event [延迟=223ms]: '**捧着书本和茶点**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:04 INFO  pc_status:187     收到 lyric_event [延迟=149ms]: '**我总是失望对于自己和明天**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:09 INFO  pc_status:187     收到 lyric_event [延迟=1005ms]: '**灯光下的微点**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:12 INFO  pc_status:187     收到 lyric_event [延迟=736ms]: '**又晃了我的眼**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:15 INFO  pc_status:187     收到 lyric_event [延迟=840ms]: '**I'm thinking about you**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:17 INFO  pc_status:187     收到 lyric_event [延迟=1033ms]: '**耳机播放着鼓点**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:19 INFO  pc_status:187     收到 lyric_event [延迟=368ms]: '**I can't live without you**' song=贾格JuggShots - 沦陷 playing=True channel=None
+2026-09-15 15:11:22 INFO  pc_status:187     收到 lyric_event [延迟=1112ms]: '**保持我们初见时的新鲜**' song=贾格JuggShots - 沦陷 playing=True channel=None
