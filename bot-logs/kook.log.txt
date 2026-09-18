@@ -1,28 +1,4 @@
-# 更新于 2026-09-18 21:47:04 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-18 20:51:44 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-18 20:51:44 INFO  events:94         khl.py Bot 实例已创建
-2026-09-18 20:51:44 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-09-18 20:51:44 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-18 20:51:44 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-18 20:51:44 INFO  events:94         消息发送器已初始化
-2026-09-18 20:51:45 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-18 20:51:45 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-18 20:51:45 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-18 20:51:45 INFO  events:94         用户名查询模块已初始化
-2026-09-18 20:51:45 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-18 20:51:45 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-18 20:51:45 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-18 20:51:45 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-18 20:51:45 INFO  events:94         上下文管理器已初始化
-2026-09-18 20:51:45 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-18 20:51:45 INFO  events:94         事件分发器已就绪
-2026-09-18 20:51:45 INFO  bot:170           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-18 20:51:45 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-18 20:51:46 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-18 20:51:46 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-18 20:51:46 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-18 20:51:46 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-18 20:51:46 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+# 更新于 2026-09-18 21:47:34 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-18 20:51:46 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 2026-09-18 20:51:46 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
 2026-09-18 20:51:46 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
@@ -1499,3 +1475,27 @@
 2026-09-18 21:46:07 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-18 21:46:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.4 mem=47.7
 2026-09-18 21:46:38 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-18 21:47:06 INFO  events:94         收到终止信号，开始优雅退出...
+2026-09-18 21:47:06 INFO  events:94         收到终止信号，开始优雅退出...
+2026-09-18 21:47:06 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
+2026-09-18 21:47:06 INFO  events:94         🛑 正在关闭...
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: checkin
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: chou
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: countdown
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: echo
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: eq
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: greet
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: luck
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: motou
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: nasa
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: pgr
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: sandbox
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: tuf
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: weather
+2026-09-18 21:47:06 INFO  manager:234       Plugin 已卸载: whois
+2026-09-18 21:47:06 INFO  events:94         Plugin Runtime 已关闭
+2026-09-18 21:47:06 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 1, 'active_tasks': 0}
+2026-09-18 21:47:06 INFO  context_manager:190 上下文已写入磁盘
+2026-09-18 21:47:06 INFO  events:94         👋 再见！
+2026-09-18 21:47:06 INFO  main:70           应用程序已退出
+2026-09-18 21:47:11 INFO  pc_status:223     PC 客户端断开连接
