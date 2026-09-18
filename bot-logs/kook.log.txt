@@ -1,13 +1,4 @@
-# 更新于 2026-09-19 07:19:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-19 04:01:22 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-19 04:01:22 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-19 04:01:22 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-19 04:01:22 INFO  events:94         上下文管理器已初始化
-2026-09-19 04:01:22 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-19 04:01:22 INFO  events:94         事件分发器已就绪
-2026-09-19 04:01:22 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-19 04:01:22 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-19 04:01:22 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-09-19 07:20:13 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-19 04:01:22 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 2026-09-19 04:01:22 DEBG  loader:46         跳过 _down：缺少 manifest.json
 2026-09-19 04:01:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1490,12 @@
 2026-09-19 07:19:28 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 2026-09-19 07:19:28 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
 2026-09-19 07:19:38 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=100%
+2026-09-19 07:19:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=78.7 mem=80.5
+2026-09-19 07:19:43 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-19 07:19:43 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-09-19 07:19:43 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-19 07:19:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=34.2 mem=80.4
+2026-09-19 07:19:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-19 07:19:59 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-09-19 07:19:59 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-19 07:20:09 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=鱼多余 - 剑魂 (DJ版)（已暂停）CPU=9% 内存=84%
