@@ -1,9 +1,4 @@
-# 更新于 2026-09-18 22:07:35 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-18 21:05:49 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-18 21:05:49 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-18 21:05:49 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-18 21:05:49 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-18 21:05:49 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
+# 更新于 2026-09-18 22:08:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-18 21:05:49 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-09-18 21:05:49 INFO  bot:915           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 109s 前）
 2026-09-18 21:05:49 INFO  rss:299           [RSS] 订阅轮询服务启动
@@ -1499,3 +1494,8 @@
 2026-09-18 22:05:41 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
 2026-09-18 22:05:41 INFO  guild_names:332   guild_names: 距下次全量刷新 17659 秒
 2026-09-18 22:05:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=ミツキヨ - Unwelcome School（播放中）CPU=80% 内存=75%
+2026-09-18 22:07:47 WARN  pc_status:213     PC 客户端连接重置: [Errno 104] Connection reset by peer
+2026-09-18 22:07:48 INFO  pc_status:223     PC 客户端断开连接
+2026-09-18 22:07:53 ERRO  qq_bot:91         QQBot 运行异常: no close frame received or sent，5s 后重连
+2026-09-18 22:08:04 ERRO  events:94         khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
+2026-09-18 22:08:04 INFO  events:94         5 秒后重试...
