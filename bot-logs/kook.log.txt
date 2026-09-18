@@ -1,11 +1,4 @@
-# 更新于 2026-09-19 07:27:13 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-19 04:01:23 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-19 04:01:23 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-19 04:01:23 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-19 04:01:23 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-19 04:01:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=67.9 mem=58.6
-2026-09-19 04:01:23 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-19 04:01:23 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+# 更新于 2026-09-19 07:28:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-19 04:01:23 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-19 04:01:23 INFO  pc_status:46      PC 客户端已连接
 2026-09-19 04:01:23 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=鱼多余 - 剑魂 (DJ版)（已暂停）CPU=24% 内存=74%
@@ -1499,3 +1492,10 @@
 2026-09-19 07:27:06 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-19 07:27:06 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
 2026-09-19 07:27:06 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-19 07:27:24 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=鱼多余 - 剑魂 (DJ版)（已暂停）CPU=20% 内存=84%
+2026-09-19 07:27:41 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-19 07:27:56 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=52%
+2026-09-19 07:27:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=98 cpu=74.5 mem=81.5
+2026-09-19 07:27:56 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-19 07:27:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-09-19 07:27:56 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
