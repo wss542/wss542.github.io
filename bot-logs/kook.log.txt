@@ -1,4 +1,4 @@
-# 更新于 2026-09-18 17:22:24 · 共 213 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-18 17:22:29 · 共 217 行（来源 huanmeng.log 末尾）
 2026-09-18 17:04:17 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-18 17:04:18 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-18 17:04:40 INFO  events:94         ==================================================
@@ -212,3 +212,7 @@
 2026-09-18 17:21:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.2 mem=44.5
 2026-09-18 17:21:11 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-18 17:21:54 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=44.5
+2026-09-18 17:22:24 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-18 17:22:27 WARN  pc_status:213     PC 客户端连接重置: [Errno 104] Connection reset by peer
+2026-09-18 17:22:28 INFO  pc_status:223     PC 客户端断开连接
+2026-09-18 17:22:28 ERRO  qq_bot:91         QQBot 运行异常: no close frame received or sent，5s 后重连
