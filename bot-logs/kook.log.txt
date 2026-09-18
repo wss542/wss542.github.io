@@ -1,26 +1,4 @@
-# 更新于 2026-09-18 23:29:58 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-18 21:06:25 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-18 21:06:25 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-18 21:06:25 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-18 21:06:25 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-18 21:06:25 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-18 21:06:25 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-18 21:06:25 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-18 21:06:25 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-18 21:06:25 INFO  events:94         ==================================================
-2026-09-18 21:06:25 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-18 21:06:25 INFO  events:94         ==================================================
-2026-09-18 21:06:25 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-18 21:06:25 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-18 21:06:25 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-18 21:06:25 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-18 21:06:25 INFO  bot:915           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 145s 前）
-2026-09-18 21:06:25 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-18 21:06:25 INFO  bot:812           战绩采集将在 2h54m 后执行 (00:01)
-2026-09-18 21:06:31 INFO  events:94         收到终止信号，开始优雅退出...
-2026-09-18 21:06:32 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-18 21:06:32 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-18 21:06:32 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+# 更新于 2026-09-18 23:30:44 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-18 21:06:32 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 2026-09-18 21:06:32 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
 2026-09-18 21:06:32 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
@@ -1499,3 +1477,25 @@
 2026-09-18 23:29:27 INFO  pc_status:187     收到 lyric_event [延迟=705ms]: '**趁你还愿意**' song=张紫豪 - 可不可以 playing=True channel=None
 2026-09-18 23:29:30 INFO  pc_status:187     收到 lyric_event [延迟=625ms]: '**趁我还没有过保质期**' song=张紫豪 - 可不可以 playing=True channel=None
 2026-09-18 23:29:37 INFO  pc_status:187     收到 lyric_event [延迟=271ms]: '**趁你还愿意**' song=张紫豪 - 可不可以 playing=True channel=None
+2026-09-18 23:29:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=imase - NIGHT DANCER（播放中）CPU=51% 内存=68%
+2026-09-18 23:29:58 INFO  pc_status:187     收到 lyric_event [延迟=-240ms]: '**▶ imase - NIGHT DANCER**' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=271ms]: '**制作人 : ESME MORI**' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=238ms]: '**作词 : imase**' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=212ms]: '**作曲 : imase**
+`虽是个无所谓的夜晚`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=182ms]: '**编曲 : ESME MORI**
+`虽是个无所谓的夜晚`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=151ms]: '**どうでもいいような夜だけど**
+`虽是个无所谓的夜晚`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:04 INFO  pc_status:187     收到 lyric_event [延迟=136ms]: '**響めき煌めきと君も**
+`即使你的回声也在闪耀`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:25 INFO  pc_status:187     收到 lyric_event [延迟=370ms]: '**まだ止まった刻む針も**
+`即使是还没停的指针`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:28 INFO  pc_status:187     收到 lyric_event [延迟=-142ms]: '**入り浸った散らかる部屋も**
+`即使是乱糟糟的房间`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:33 INFO  pc_status:187     收到 lyric_event [延迟=539ms]: '**変わらないね 思い出しては**
+`现在想起来 还有没有变呢`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:36 INFO  pc_status:187     收到 lyric_event [延迟=-77ms]: '**2人歳を重ねてた**
+`两个人上了年龄`' song=imase - NIGHT DANCER playing=True channel=None
+2026-09-18 23:30:41 INFO  pc_status:187     收到 lyric_event [延迟=250ms]: '**また止まった落とす針を**
+`像停止后落下的针`' song=imase - NIGHT DANCER playing=True channel=None
