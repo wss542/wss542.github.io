@@ -1,9 +1,4 @@
-# 更新于 2026-09-19 14:14:55 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-19 11:08:54 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Miyauchi - Swag（播放中）CPU=30% 内存=81%
-2026-09-19 11:08:54 INFO  pc_status:187     收到 lyric_event [延迟=67ms]: '**▶ Miyauchi - Swag**' song=Miyauchi - Swag playing=True channel=None
-2026-09-19 11:09:02 INFO  pc_status:187     收到 lyric_event [延迟=357ms]: '**作词 : Miyauchi**' song=Miyauchi - Swag playing=True channel=None
-2026-09-19 11:09:02 INFO  pc_status:187     收到 lyric_event [延迟=343ms]: '**作曲 : Miyauchi**' song=Miyauchi - Swag playing=True channel=None
-2026-09-19 11:09:03 INFO  pc_status:187     收到 lyric_event [延迟=949ms]: '**真似出来ないよこのswag**
+# 更新于 2026-09-19 14:15:25 · 共 1500 行（来源 huanmeng.log 末尾）
 `（原翻译为机翻）谁都效仿不出这种腔调`' song=Miyauchi - Swag playing=True channel=None
 2026-09-19 11:09:06 INFO  pc_status:187     收到 lyric_event [延迟=339ms]: '**俺たちにしかないswag**
 `舍我们其谁的霸气炫拽`' song=Miyauchi - Swag playing=True channel=None
@@ -1499,3 +1494,8 @@
 2026-09-19 14:14:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=辉星 - Insomnia (불면증)（已暂停）CPU=74% 内存=94%
 2026-09-19 14:14:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
 2026-09-19 14:14:52 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-19 14:15:08 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno 111] Connection refused>
+2026-09-19 14:15:08 ERRO  qq_bot:91         QQBot 运行异常: no close frame received or sent，5s 后重连
+2026-09-19 14:15:18 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno 113] No route to host>
+2026-09-19 14:15:20 INFO  qq_bot:100        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-09-19 14:15:20 INFO  qq_bot:132        QQ HELLO interval=41250
