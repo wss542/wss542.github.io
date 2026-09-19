@@ -1,11 +1,4 @@
-# 更新于 2026-09-19 11:38:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-19 06:08:14 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-19 06:08:14 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-19 06:08:14 INFO  events:94         ==================================================
-2026-09-19 06:08:14 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-19 06:08:14 INFO  events:94         ==================================================
-2026-09-19 06:08:14 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-19 06:08:14 INFO  queues:103        [队列] 渲染队列已启动
+# 更新于 2026-09-19 11:38:59 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-19 06:08:14 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7074s
 2026-09-19 06:08:14 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
 2026-09-19 06:08:14 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
@@ -1499,3 +1492,10 @@
 2026-09-19 11:38:25 INFO  pc_status:46      PC 客户端已连接
 2026-09-19 11:38:26 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
 2026-09-19 11:38:27 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（播放中）CPU=98% 内存=97%
+2026-09-19 11:38:30 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-09-19 11:38:31 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
+2026-09-19 11:38:31 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-09-19 11:38:31 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-09-19 11:38:31 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-19 11:38:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=95 cpu=97.6 mem=50.6
+2026-09-19 11:38:40 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
