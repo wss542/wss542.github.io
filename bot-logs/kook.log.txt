@@ -1,17 +1,4 @@
-# 更新于 2026-09-19 11:40:51 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-19 06:08:14 INFO  holiday:105       节假日服务已启动
-2026-09-19 06:08:14 INFO  holiday:96        节假日每日刷新: 等待 64310 秒 (下次 00:00:05)
-2026-09-19 06:08:20 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-19 06:08:20 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-19 06:08:20 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-19 06:08:20 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-19 06:08:20 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-19 06:08:20 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-19 06:08:20 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-19 06:08:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.4 mem=59.6
-2026-09-19 06:08:20 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-19 06:08:20 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-09-19 06:08:20 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-09-19 11:41:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-19 06:08:20 INFO  pc_status:46      PC 客户端已连接
 2026-09-19 06:08:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=鱼多余 - 剑魂 (DJ版)（已暂停）CPU=21% 内存=83%
 2026-09-19 06:08:21 INFO  holiday:57        节假日: 2026-09-19 → 周六
@@ -1499,3 +1486,16 @@
 2026-09-19 11:40:12 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-19 11:40:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=92 cpu=62.0 mem=50.5
 2026-09-19 11:40:42 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-19 11:41:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=91 cpu=62.3 mem=50.6
+2026-09-19 11:41:13 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-19 11:41:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=EXO - 지나갈 테니 (Been Through)（播放中）CPU=26% 内存=93%
+2026-09-19 11:41:13 INFO  pc_status:187     收到 lyric_event [延迟=1210ms]: '**▶ EXO - 지나갈 테니 (Been Through)**' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:18 INFO  pc_status:187     收到 lyric_event [延迟=666ms]: '**作词 : 박지희/JQ**' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:18 INFO  pc_status:187     收到 lyric_event [延迟=568ms]: '**作曲 : Mike Woods/Kevin White/Brandyn Burnette/Molly Moore/M' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:18 INFO  pc_status:187     收到 lyric_event [延迟=542ms]: '**编曲 : Rice N Peas**' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:18 INFO  pc_status:187     收到 lyric_event [延迟=481ms]: '**익숙하겠지 또다시 감기처럼 툭 걸린**
+`已经熟悉了吧 就像那感冒般`' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:24 INFO  pc_status:187     收到 lyric_event [延迟=955ms]: '**익숙하겠지 또다시 감기처럼 툭 걸린**
+`已经熟悉了吧 就像那感冒般`' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
+2026-09-19 11:41:28 INFO  pc_status:187     收到 lyric_event [延迟=1269ms]: '**밀려드는 잿빛에**
+`又再次陷入了那灰色之中`' song=EXO - 지나갈 테니 (Been Through) playing=True channel=None
