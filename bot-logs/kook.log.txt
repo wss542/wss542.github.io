@@ -1,30 +1,4 @@
-# 更新于 2026-09-24 21:21:08 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-24 18:18:03 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-24 18:18:03 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-24 18:18:03 INFO  events:94         ==================================================
-2026-09-24 18:18:03 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-24 18:18:03 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-24 18:18:03 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-24 18:18:03 INFO  bot:111           ==================================================
-2026-09-24 18:18:03 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-09-24 18:18:03 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-24 18:18:03 INFO  bot:111           ==================================================
-2026-09-24 18:18:03 INFO  events:94         ==================================================
-2026-09-24 18:18:03 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-09-24 18:18:03 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-09-24 18:18:03 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-24 18:18:03 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-24 18:18:03 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-09-24 18:18:03 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-24 18:18:03 INFO  events:94         QQ open-platform channel started
-2026-09-24 18:18:03 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-09-24 18:18:03 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-24 18:18:03 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-24 18:18:03 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-09-24 18:18:04 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-24 18:18:04 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-24 18:18:04 INFO  qq_transport:113  QQ access_token 已刷新，有效期 2613s
-2026-09-24 18:18:04 INFO  rss:299           [RSS] 订阅轮询服务启动
+# 更新于 2026-09-24 21:22:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-24 18:18:04 INFO  bot:807           上次采集 2026-09-19T16:01 距今超过 4h，启动时立即补采
 2026-09-24 18:18:04 INFO  wdsj_tracker:73   每日战绩采集: 3 个玩家 x 2 模板
 2026-09-24 18:18:04 INFO  bot:923           PC 掉线检测: 启动时心跳已超时(437982s 前)，掉线状态延续，不重复告警
@@ -1499,3 +1473,29 @@
 2026-09-24 21:17:41 INFO  pc_status:187     收到 lyric_event [延迟=9643ms]: '**制作人 : Getsix**' song=Getsix - Chasing the Dragon playing=True channel=None
 2026-09-24 21:17:42 INFO  pc_status:187     收到 lyric_event [延迟=9716ms]: '**作曲 : Isaac McLeish**' song=Getsix - Chasing the Dragon playing=True channel=None
 2026-09-24 21:17:42 INFO  pc_status:187     收到 lyric_event [延迟=423ms]: '**纯音乐，请欣赏**' song=Getsix - Chasing the Dragon playing=True channel=None
+2026-09-24 21:21:18 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Manafest - Edge Of My Life（播放中）CPU=99% 内存=80%
+2026-09-24 21:21:18 INFO  pc_status:187     收到 lyric_event [延迟=196ms]: '**▶ Manafest - Edge Of My Life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=141ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=111ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=82ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=65ms]: '**My life** *(yeah)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=34ms]: '**Last dollar just got spent**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:23 INFO  pc_status:187     收到 lyric_event [延迟=5ms]: '**First of the month comes**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:24 INFO  pc_status:187     收到 lyric_event [延迟=206ms]: '**Got to pay rent**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:27 INFO  pc_status:187     收到 lyric_event [延迟=411ms]: '**Where'd the money go**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:30 INFO  pc_status:187     收到 lyric_event [延迟=975ms]: '**Slipping through my hands**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:35 INFO  pc_status:187     收到 lyric_event [延迟=1125ms]: '**I'm working with these hands**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:38 INFO  pc_status:187     收到 lyric_event [延迟=1128ms]: '**Little Johnny needs a lunch box**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:39 INFO  pc_status:187     收到 lyric_event [延迟=961ms]: '**Little Suzy needs clothes and it won't stop**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:41 INFO  pc_status:187     收到 lyric_event [延迟=191ms]: '**Banks calling us up**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:42 INFO  pc_status:187     收到 lyric_event [延迟=772ms]: '**And they don't care**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:44 INFO  pc_status:187     收到 lyric_event [延迟=267ms]: '**It's more then than I can bare**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:46 INFO  pc_status:187     收到 lyric_event [延迟=305ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:48 INFO  pc_status:187     收到 lyric_event [延迟=46ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:50 INFO  pc_status:187     收到 lyric_event [延迟=12ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:53 INFO  pc_status:187     收到 lyric_event [延迟=225ms]: '**We're gonna make this one shine**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:55 INFO  pc_status:187     收到 lyric_event [延迟=349ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:21:57 INFO  pc_status:187     收到 lyric_event [延迟=57ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:22:00 INFO  pc_status:187     收到 lyric_event [延迟=30ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:22:02 INFO  pc_status:187     收到 lyric_event [延迟=87ms]: '**We're gonna make this one shine**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-24 21:22:05 INFO  pc_status:187     收到 lyric_event [延迟=964ms]: '**I, I'm at the edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
