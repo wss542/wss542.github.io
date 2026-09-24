@@ -1,4 +1,4 @@
-# 更新于 2026-09-25 06:42:58 · 共 907 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-25 06:43:28 · 共 932 行（来源 huanmeng.log 末尾）
 2026-09-25 00:00:06 INFO  holiday:57        节假日: 2026-09-25 → 中秋节
 2026-09-25 00:00:06 INFO  holiday:96        节假日每日刷新: 等待 86398 秒 (下次 00:00:05)
 2026-09-25 00:13:23 INFO  qq_bot:148        QQ RECONNECT requested
@@ -906,3 +906,28 @@
 2026-09-25 06:42:58 INFO  rss:299           [RSS] 订阅轮询服务启动
 2026-09-25 06:42:58 INFO  bot:822           战绩采集将在 1h18m 后执行 (08:01)
 2026-09-25 06:42:58 INFO  bot:931           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 66s 前）
+2026-09-25 06:42:59 INFO  events:94         收到终止信号，开始优雅退出...
+2026-09-25 06:43:04 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
+2026-09-25 06:43:04 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
+2026-09-25 06:43:04 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+2026-09-25 06:43:04 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+2026-09-25 06:43:04 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
+2026-09-25 06:43:04 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
+2026-09-25 06:43:04 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-09-25 06:43:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.3 mem=60.4
+2026-09-25 06:43:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 06:43:04 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-09-25 06:43:04 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-25 06:43:05 INFO  holiday:57        节假日: 2026-09-25 → 中秋节
+2026-09-25 06:43:05 INFO  holiday:105       节假日服务已启动
+2026-09-25 06:43:05 INFO  holiday:96        节假日每日刷新: 等待 62220 秒 (下次 00:00:05)
+2026-09-25 06:43:06 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-09-25 06:43:06 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-09-25 06:43:06 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
+2026-09-25 06:43:06 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-09-25 06:43:06 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-09-25 06:43:06 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-25 06:43:07 INFO  pc_status:46      PC 客户端已连接
+2026-09-25 06:43:08 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Lindsey Stirling - Masquerade（已暂停）CPU=36% 内存=88%
+2026-09-25 06:43:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.7 mem=60.4
+2026-09-25 06:43:20 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
