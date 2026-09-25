@@ -1,27 +1,4 @@
-# 更新于 2026-09-25 23:29:13 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 22:01:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-25 22:01:39 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-25 22:01:39 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-25 22:01:39 INFO  bot:111           ==================================================
-2026-09-25 22:01:39 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-09-25 22:01:39 INFO  bot:111           ==================================================
-2026-09-25 22:01:39 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-09-25 22:01:39 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-09-25 22:01:39 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-25 22:01:39 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-09-25 22:01:39 INFO  events:94         QQ open-platform channel started
-2026-09-25 22:01:39 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-09-25 22:01:39 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-25 22:01:39 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-25 22:01:39 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-09-25 22:01:39 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-25 22:01:39 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-25 22:01:39 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-25 22:01:39 INFO  events:94         用户名查询模块已初始化
-2026-09-25 22:01:39 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-25 22:01:39 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-25 22:01:39 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-25 22:01:39 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
+# 更新于 2026-09-25 23:29:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 22:01:39 INFO  events:94         上下文管理器已初始化
 2026-09-25 22:01:39 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-25 22:01:39 INFO  events:94         事件分发器已就绪
@@ -1499,3 +1476,26 @@
 2026-09-25 23:29:07 INFO  pc_status:187     收到 lyric_event [延迟=-152ms]: '**Break tricks, I'm a playa fool**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
 2026-09-25 23:29:09 INFO  pc_status:187     收到 lyric_event [延迟=-497ms]: '**Penny for south**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
 2026-09-25 23:29:11 INFO  pc_status:187     收到 lyric_event [延迟=-291ms]: '**Bitches on the track**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:13 INFO  pc_status:187     收到 lyric_event [延迟=521ms]: '**While my shaw-aw-awty**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:13 INFO  pc_status:187     收到 lyric_event [延迟=-64ms]: '**The pimping that I spit**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:15 INFO  pc_status:187     收到 lyric_event [延迟=208ms]: '**Break tricks, I'm a playa fool**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:17 INFO  pc_status:187     收到 lyric_event [延迟=-40ms]: '**Penny for south**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:19 INFO  pc_status:187     收到 lyric_event [延迟=10ms]: '**Bitches on the track**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:20 INFO  pc_status:187     收到 lyric_event [延迟=-119ms]: '**While my shawty**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:21 INFO  pc_status:187     收到 lyric_event [延迟=-192ms]: '**Now I poppin' real slow**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:23 INFO  pc_status:187     收到 lyric_event [延迟=256ms]: '**They don't like to pack a ton**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:25 INFO  pc_status:187     收到 lyric_event [延迟=262ms]: '**In, in, in yo fuckin' head**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:26 INFO  pc_status:187     收到 lyric_event [延迟=-460ms]: '**Droppin' that boy when then you dead**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=73.3 mem=63.7
+2026-09-25 23:29:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 23:29:29 INFO  pc_status:187     收到 lyric_event [延迟=-68ms]: '**Now I poppin' real slow**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:31 INFO  pc_status:187     收到 lyric_event [延迟=106ms]: '**They don't like to pack a ton**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:33 INFO  pc_status:187     收到 lyric_event [延迟=737ms]: '**In, in, in yo fuckin' head**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:35 INFO  pc_status:187     收到 lyric_event [延迟=-385ms]: '**Droppin' that boy when then you dead**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:40 INFO  pc_status:187     收到 lyric_event [延迟=-285ms]: '**A fool penny for south**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:43 INFO  pc_status:187     收到 lyric_event [延迟=522ms]: '**Bitches on the track**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:44 INFO  pc_status:187     收到 lyric_event [延迟=131ms]: '**While my shaw-aw-awty**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:45 INFO  pc_status:187     收到 lyric_event [延迟=-386ms]: '**The pimping that I spit**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:47 INFO  pc_status:187     收到 lyric_event [延迟=618ms]: '**Break tricks, I'm a playa fool**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:50 INFO  pc_status:187     收到 lyric_event [延迟=180ms]: '**Penny for south bitches**' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
+2026-09-25 23:29:51 INFO  pc_status:187     收到 lyric_event [延迟=322ms]: '*(Tired, of, problems)*' song=NUEKI / TOLCHONOV / Glichery - playing=True channel=None
