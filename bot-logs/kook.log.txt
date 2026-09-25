@@ -1,10 +1,4 @@
-# 更新于 2026-09-25 22:29:08 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 21:35:48 INFO  llm:1067          LLM原始输出 [轮1]: content={\n  "replies": [\n    "**什么是超忆症喵~**\n\n超忆症（Hyperthymesia）是一种超罕见的记忆现象，患者能够异常详细地回忆起自己生活中几乎每一天的经历，就像脑子里装了一台永不关机的摄像机一样喵！",\n    "**主要特征**\n\n- 能准确说出多年前某一天的日期、星期、天气、做了什么\n- 自传式记忆极强，但其他类型记忆不一定出众\n- 记忆是自动涌现的，不 | tool_calls=0
-2026-09-25 21:35:48 INFO  llm:1410          JSON回复解析: 6句 fav=+0 calls=0 mood=认真
-2026-09-25 21:35:48 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 8 条
-2026-09-25 21:35:48 INFO  pipeline:1603     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-09-25 21:35:48 INFO  logger:541        [TRACE 980e913466c0431a] total=13864.71ms severity=very_slow_request | llm_calls=1 total=13766.59ms avg=13766.59ms max=13766.59ms p50=13766.59 p95=13766.59 p99=13766.59 | json_parse=0.36ms(x1), llm=13777.84ms(x1), memory=74.89ms(x2), message_retrieval=0.81ms(x2), process=13863.6ms(x1) (wall13863.6), queue_wait=4.98ms(x1)
-2026-09-25 21:35:48 WARN  logger:559        [VERY_SLOW 980e913466c0431a] total=13866.12ms 需重点排查 | json_parse=0.36ms(x1), llm=13777.84ms(x1), memory=74.89ms(x2), message_retrieval=0.81ms(x2), process=13863.6ms(x1) (wall13863.6), queue_wait=4.98ms(x1) | llm_calls=1 total=13766.59ms avg=13766.59ms max=13766.59ms p50=13766.59 p95=13766.59 p99=13766.59 | perf: queue=4.98ms llm=13778.2ms search_tool=0.0ms delivery=0.0ms other=13939.3ms wall=13865.87ms dominant=other
+# 更新于 2026-09-25 22:29:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 21:35:48 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-09-25 21:35:48 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
 2026-09-25 21:35:49 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=16 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4IVBfTOtbgf1vJK7RxBFqPdF6F7JjKdSjxYL3-0Ae-39TzrfPkERErB6zDS9Gvafg!!
@@ -1499,3 +1493,9 @@
 2026-09-25 22:28:33 INFO  video_api:234     智谱视频理解 chat=cmp data_uri 3585KB
 2026-09-25 22:28:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.6 mem=63.3
 2026-09-25 22:28:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:29:17 INFO  video_api:275     智谱视频理解成功(glm-4.6v-flash) chat=cmp 192字
+2026-09-25 22:29:17 INFO  video_api:234     智谱视频理解 chat=cmp data_uri 8043KB
+2026-09-25 22:29:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=63.3
+2026-09-25 22:29:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:29:28 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=49 cpu=None mem=None
+2026-09-25 22:29:28 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
