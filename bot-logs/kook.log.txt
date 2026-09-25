@@ -1,16 +1,4 @@
-# 更新于 2026-09-25 22:27:06 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 21:35:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.6 mem=63.3
-2026-09-25 21:35:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 21:35:35 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-25 21:35:35 DEBG  qq_bot:228        QQ 事件摘要: t=group=True content='超忆症是啥' atts=0 ref=False msg_type=0
-2026-09-25 21:35:35 INFO  qq_bot:338        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '超忆症是啥'
-2026-09-25 21:35:35 INFO  qq_bot:349        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rPMMQGYSjJC.3NrYB3m-9lwXfqzf4NijiNq2J4vZvuo1QmH32XiRo6OZlaXVYCoxLMP2d6U.difaT5npjLCE9sJtxQCTepAyDNxCoDSX9nph
-2026-09-25 21:35:35 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-09-25 21:35:35 DEBG  pipeline:542      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='超忆症是啥'
-2026-09-25 21:35:35 INFO  pipeline:580      @机器人检测 → 直接回复
-2026-09-25 21:35:35 DEBG  pipeline:633      请求意图: intent=chat fast_search=False msg='超忆症是啥'
-2026-09-25 21:35:35 INFO  pipeline:662      复杂度: level=knowledge score=40 scale=1.6
-2026-09-25 21:35:35 WARN  pipeline:681      Agent 适配层异常，回退原 pipeline: try_handle_with_agent() got an unexpected keyword argument 'recent_history'
+# 更新于 2026-09-25 22:27:47 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 21:35:35 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=2 耗时=37.1ms
 2026-09-25 21:35:35 INFO  pipeline:841      额外信息: 1433字 (memory=252 search=0)
 2026-09-25 21:35:35 INFO  pipeline:978      system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
@@ -1499,3 +1487,15 @@
 2026-09-25 22:26:21 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 2026-09-25 22:26:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=63.3
 2026-09-25 22:26:36 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:27:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=63.3
+2026-09-25 22:27:07 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:27:07 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-25 22:27:07 INFO  qq_bot:200        QQ 全量群消息: content='不能再完了，要水饺了' mentions=None
+2026-09-25 22:27:23 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-25 22:27:23 INFO  qq_bot:200        QQ 全量群消息: content=' <@F6A8674918F3F4DE4BC3E59FE153DA2D> 真的吗～' mentions=[{"bot": false, "id": "F6A8674918F3F4DE4BC3E59FE153DA2D", "is_you": false, "member_openid": "F6A8674918F3F4DE4BC3E59FE153DA2D", "member_role": "member", "scope": "single", "username": "翊🐟不是宇"}]
+2026-09-25 22:27:37 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-25 22:27:37 INFO  qq_bot:200        QQ 全量群消息: content='<faceType=6,faceId="0",ext="eyJ0ZXh0IjoiIn0=">' mentions=None
+2026-09-25 22:27:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=63.3
+2026-09-25 22:27:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:27:41 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=47 cpu=None mem=None
+2026-09-25 22:27:41 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
