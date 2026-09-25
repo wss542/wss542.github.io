@@ -1,18 +1,4 @@
-# 更新于 2026-09-25 22:16:08 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 21:31:10 INFO  qq_bot:200        QQ 全量群消息: content='/sys' mentions=None
-2026-09-25 21:31:10 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-09-25 21:31:10 INFO  qq_bot:200        QQ 全量群消息: content='暂无 PC 状态数据（可能未开机或未运行采集脚本）' mentions=None
-2026-09-25 21:31:14 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-09-25 21:31:14 INFO  qq_bot:200        QQ 全量群消息: content='前奏我都没听出来' mentions=None
-2026-09-25 21:31:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.8 mem=63.4
-2026-09-25 21:31:15 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 21:31:22 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-09-25 21:31:22 INFO  qq_bot:200        QQ 全量群消息: content='byd听到副歌释怀了' mentions=None
-2026-09-25 21:31:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-09-25 21:31:34 INFO  qq_bot:200        QQ 全量群消息: content='说话（）' mentions=None
-2026-09-25 21:31:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-09-25 21:31:34 INFO  qq_bot:200        QQ 全量群消息: content=' <@50D2D55CE2DC9A68D87C0106AB6D5237> 居然不开' mentions=[{"bot": false, "id": "50D2D55CE2DC9A68D87C0106AB6D5237", "is_you": false, "member_openid": "50D2D55CE2DC9A68D87C0106AB6D5237", "member_role": "member", "scope": "single", "username": "Trusler"}]
-2026-09-25 21:31:37 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+# 更新于 2026-09-25 22:17:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 21:31:37 INFO  qq_bot:200        QQ 全量群消息: content='不要' mentions=None
 2026-09-25 21:31:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=21.4 mem=63.5
 2026-09-25 21:31:45 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1485,17 @@
 2026-09-25 22:15:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-25 22:16:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.7 mem=63.3
 2026-09-25 22:16:06 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:16:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.3 mem=63.3
+2026-09-25 22:16:36 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 22:16:54 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-25 22:16:54 DEBG  qq_bot:228        QQ 事件摘要: t=group=True content=' 0 ' atts=0 ref=False msg_type=0
+2026-09-25 22:16:54 INFO  qq_bot:338        QQ 消息 [chat=qq:7E965236B6F04667BC33E0DCBD54B35C group=True from=若尘 ⁧~喵⁧ role=admin union=-]: ' 0 '
+2026-09-25 22:16:54 INFO  qq_bot:349        QQ 登记被动窗口 openid=7E965236B6F04667BC33E0DCBD54B35C group=True msg_id=ROBOT1.0_vhIAs8DYpaY6h3rPEcrV9obCE8PSI71cMdcu6xr6BPcmWwcWvrAZu-h9Tr1Yg3ZIOnRcB7Qub0u4x442aN8AXqT8WR1aiwTdHeUGMjEPJBoNIqrVm3QhC6-bhktADRFg
+2026-09-25 22:16:54 INFO  queues:32         [队列] 创建群qq:7E965236B6F04667BC33E0DCBD54B35C 的独立消息队列
+2026-09-25 22:16:54 DEBG  queues:75         [队列] 群qq:7E965236B6F04667BC33E0DCBD54B35C 消息已入队 (队长度=1)
+2026-09-25 22:16:54 INFO  identity:92       身份映射已载入 1 条
+2026-09-25 22:16:54 INFO  pipeline:513      指令拦截(嵌入): '/video' from=若尘 ~喵
+2026-09-25 22:16:54 DEBG  commands:4862     指令解析: prefix=/ cmd=video args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-09-25 22:16:54 INFO  commands:4917     指令执行完成 [video]: 返回53字符
+2026-09-25 22:16:56 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=7E965236B6F04667BC33E0DCBD54B35C len=53 seq=1 id=ROBOT1.0_sTpqkaD6-lT6NQQVsTn7Lou-mZmrdz5GSamLir4b4wp65Vgk0LHetoz-KhouzVLxArS54T8DbclnYqyxM8RV2A!!
+2026-09-25 22:16:56 INFO  logger:541        [TRACE 4ea601bf1fc742c1] total=1722.3ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1721.78ms(x1) (wall1721.78), queue_wait=1.43ms(x1)
