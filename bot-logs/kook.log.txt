@@ -1,23 +1,4 @@
-# 更新于 2026-09-25 20:51:30 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 15:58:27 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 15:58:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=63.0
-2026-09-25 15:58:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 15:59:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.7 mem=63.0
-2026-09-25 15:59:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 15:59:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=63.0
-2026-09-25 15:59:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 16:00:11 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Lindsey Stirling - Masquerade（已暂停）CPU=8% 内存=85%
-2026-09-25 16:00:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=63.0
-2026-09-25 16:00:29 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 16:01:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=63.0
-2026-09-25 16:01:00 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 16:01:00 INFO  wdsj_tracker:73   每日战绩采集: 3 个玩家 x 2 模板
-2026-09-25 16:01:04 INFO  wdsj_tracker:101  每日战绩采集完成: 6 条新记录
-2026-09-25 16:01:08 INFO  bot:865           日榜目标频道: [3649029148752421]
-2026-09-25 16:01:09 INFO  bot:869           日榜已发到频道 3649029148752421
-2026-09-25 16:01:09 INFO  bot:872           日榜已推送: 3 人 (2026-09-25)
-2026-09-25 16:01:09 INFO  bot:822           战绩采集将在 3h59m 后执行 (20:01)
-2026-09-25 16:01:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=63.2
+# 更新于 2026-09-25 20:52:08 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 16:01:30 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-25 16:01:30 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=96 cpu=None mem=None
 2026-09-25 16:01:30 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1480,22 @@
 2026-09-25 20:51:29 INFO  llm:1132          FC: 轮1 检测到 1 个工具调用
 2026-09-25 20:51:29 INFO  llm:1160          FC: 工具 wdsj 返回 12 字符
 2026-09-25 20:51:29 INFO  llm:435           调用LLM [Qwen/Qwen3.5-397B-A1] url=v1 tokens=8000 temp=0.4 timeout=60.0s
+2026-09-25 20:51:44 INFO  llm:497           LLM [Qwen/Qwen3.5-397B-A1] 返回 313字符 耗时15.1s → "{\n  "replies": [\n    "哎呀，查不到 baichaotian 的战绩呢，提示说还..."
+2026-09-25 20:51:44 WARN  face_lib:29       表情目录不存在: /home/qwq/huanmeng-qq-standalone/data/faces
+2026-09-25 20:51:44 INFO  llm:1410          JSON回复解析: 2句 fav=+0 calls=0 mood=友好
+2026-09-25 20:51:44 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 5 条
+2026-09-25 20:51:44 INFO  pipeline:1603     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-25 20:51:44 INFO  logger:541        [TRACE b0fe88f53e014c2a] total=37917.31ms severity=very_slow_request | llm_calls=2 total=32107.36ms avg=16053.68ms max=17037.19ms p50=16053.68 p95=16938.84 p99=17017.52 | tools=wdsj:OK:0.25ms,wdsj:OK:0.3ms | json_parse=3.27ms(x1), llm=33227.17ms(x1), memory=2756.78ms(x2), message_retrieval=19.35ms(x2), process=37902.71ms(x1) (wall37902.71), queue_wait=75.82ms(x1), tool=0.55ms(x2)
+2026-09-25 20:51:44 WARN  logger:559        [VERY_SLOW b0fe88f53e014c2a] total=37917.91ms 需重点排查 | json_parse=3.27ms(x1), llm=33227.17ms(x1), memory=2756.78ms(x2), message_retrieval=19.35ms(x2), process=37902.71ms(x1) (wall37902.71), queue_wait=75.82ms(x1), tool=0.55ms(x2) | llm_calls=2 total=32107.36ms avg=16053.68ms max=17037.19ms p50=16053.68 p95=16938.84 p99=17017.52 | perf: queue=75.82ms llm=33230.44ms search_tool=0.55ms delivery=0.0ms other=40678.84ms wall=37917.88ms dominant=other
+2026-09-25 20:51:44 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
+2026-09-25 20:51:44 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-25 20:51:44 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
+2026-09-25 20:51:45 INFO  llm:497           LLM [deepseek-flash] 返回 2字符 耗时0.8s → "{}"
+2026-09-25 20:51:45 INFO  llm:497           LLM [deepseek-flash] 返回 210字符 耗时0.8s → "[20:51:44] 若尘 ~喵: /help, zzv: /wdsj bw zzv_clone6 ..."
+2026-09-25 20:51:45 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 5条消息 → 保存
+2026-09-25 20:51:45 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=59 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0MuhcEVi16z9bMVaeWVex4HPDTST6dD4gVn-IEx4b5n5oLwWSG.dn7CgJs1zrAbXw!!
+2026-09-25 20:51:45 DEBG  response_delivery:297 已发送第 1/1 条: 哎呀，查不到 baichaotian 的战绩呢，提示说还没绑...
+2026-09-25 20:51:45 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-25 20:51:45 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-09-25 20:51:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=53.1 mem=63.3
+2026-09-25 20:51:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
