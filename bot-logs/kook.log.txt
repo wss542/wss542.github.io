@@ -1,16 +1,4 @@
-# 更新于 2026-09-25 23:00:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 21:46:51 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-25 21:46:51 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-25 21:46:51 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-25 21:46:51 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-25 21:46:51 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-25 21:46:51 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-25 21:46:51 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-25 21:46:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.8 mem=63.3
-2026-09-25 21:46:51 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-25 21:46:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=23 cpu=None mem=None
-2026-09-25 21:46:52 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-25 21:46:52 INFO  pc_status:46      PC 客户端已连接
+# 更新于 2026-09-25 23:01:19 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 21:46:52 INFO  holiday:57        节假日: 2026-09-25 → 中秋节
 2026-09-25 21:46:52 INFO  holiday:105       节假日服务已启动
 2026-09-25 21:46:52 INFO  holiday:96        节假日每日刷新: 等待 7992 秒 (下次 00:00:05)
@@ -1499,3 +1487,15 @@
 2026-09-25 23:00:42 INFO  pc_status:187     收到 lyric_event [延迟=26ms]: '**When I battle every day through the pain like a soldier**' song=Manafest - Edge Of My Life playing=True channel=None
 2026-09-25 23:00:46 INFO  pc_status:187     收到 lyric_event [延迟=101ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
 2026-09-25 23:00:48 INFO  pc_status:187     收到 lyric_event [延迟=32ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:00:50 INFO  pc_status:187     收到 lyric_event [延迟=185ms]: '**E-e-e edge of my life** *(my life)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:00:53 INFO  pc_status:187     收到 lyric_event [延迟=-137ms]: '**My life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:00:55 INFO  pc_status:187     收到 lyric_event [延迟=628ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:00:57 INFO  pc_status:187     收到 lyric_event [延迟=88ms]: '**E-e-e edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:01:00 INFO  pc_status:187     收到 lyric_event [延迟=372ms]: '**E-e-e edge of my life** *(my life)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:01:02 INFO  pc_status:187     收到 lyric_event [延迟=19ms]: '**My life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:01:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=67.5 mem=63.5
+2026-09-25 23:01:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 23:01:07 INFO  pc_status:187     收到 lyric_event [延迟=999ms]: '*(Standing on the edge of my life)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:01:11 INFO  pc_status:187     收到 lyric_event [延迟=414ms]: '*(Don't look down)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-09-25 23:01:16 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=井胧 - 把孤独当做晚餐（播放中）CPU=92% 内存=94%
+2026-09-25 23:01:16 INFO  pc_status:187     收到 lyric_event [延迟=600ms]: '**▶ 井胧 - 把孤独当做晚餐**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
