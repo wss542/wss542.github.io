@@ -1,4 +1,4 @@
-# 更新于 2026-09-26 01:59:28 · 共 826 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-26 02:00:09 · 共 846 行（来源 huanmeng.log 末尾）
 2026-09-26 00:00:06 INFO  holiday:57        节假日: 2026-09-26 → 中秋节
 2026-09-26 00:00:06 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 2026-09-26 00:00:11 INFO  stats:465         🌅 新的一天 20260926 — 发送昨日群聊日报
@@ -825,3 +825,23 @@
 2026-09-26 01:58:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 01:59:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.4 mem=66.7
 2026-09-26 01:59:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 01:59:28 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-09-26 01:59:28 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-26 01:59:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-09-26 01:59:44 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-26 01:59:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.1 mem=66.7
+2026-09-26 01:59:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 02:00:04 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 02:00:04 DEBG  dispatcher:47     dispatch 入口: type=9 content="(met)659688244(met) 翻译一下“Today I realized that I have no friends and I'm so alone\nI feel so isolated no one's ever texted my phone\nEveryone is so fake ,I wanna hide away\nCause no one cares about me all they do is laugh in my face”" is_edit=False
+2026-09-26 02:00:04 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-09-26 02:00:04 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content="(met)659688244(met) 翻译一下“Today I realized that I have no friends and I'm so alone\nI feel so isolated no one's ever texted my phone\nEveryone is so fake ,I wanna hide away\nCause no one cares about me all they do is laugh in my face”"
+2026-09-26 02:00:04 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-09-26 02:00:04 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-09-26 02:00:04 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-09-26 02:00:04 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  翻译一下“Today I realized that I'
+2026-09-26 02:00:04 INFO  pipeline:602      @机器人检测(at_only) → 直接回复
+2026-09-26 02:00:04 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=1200 temp=0.1 timeout=60.0s
+2026-09-26 02:00:06 INFO  llm:497           LLM [deepseek-flash] 返回 78字符 耗时1.9s → "@659688244 今天我发现我没有朋友，我好孤独\n我觉得好孤立，从来没有人给我发过短信\n每个人都..."
+2026-09-26 02:00:06 INFO  translate:204     翻译完成 [chat=9844130976336955] @659688244  一下“Today→Chinese: '@659688244 今天我发现我没有朋友，我好孤独
+我觉得'
+2026-09-26 02:00:07 INFO  logger:541        [TRACE 328478c758ec4442] total=2619.49ms severity=normal | llm_calls=1 total=1882.19ms avg=1882.19ms max=1882.19ms p50=1882.19 p95=1882.19 p99=1882.19 | process=2619.41ms(x1) (wall2619.41), queue_wait=0.47ms(x1)
