@@ -1,7 +1,4 @@
-# 更新于 2026-09-25 11:17:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 06:44:49 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-25 06:44:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=29.8 mem=60.4
-2026-09-25 06:44:49 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-09-25 11:18:32 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 06:44:49 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 2026-09-25 06:44:49 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-25 06:44:49 INFO  pc_status:46      PC 客户端已连接
@@ -1499,3 +1496,6 @@
 2026-09-25 11:17:07 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-25 11:17:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.3 mem=61.7
 2026-09-25 11:17:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 11:17:56 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-25 11:17:56 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-25 11:18:26 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
