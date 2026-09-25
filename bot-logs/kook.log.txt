@@ -1,34 +1,4 @@
-# 更新于 2026-09-25 23:11:51 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-25 21:56:56 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-25 21:56:56 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-25 21:56:56 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-25 21:56:56 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-25 21:56:56 INFO  bot:111           ==================================================
-2026-09-25 21:56:56 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-09-25 21:56:56 INFO  bot:111           ==================================================
-2026-09-25 21:56:56 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-09-25 21:56:56 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-09-25 21:56:56 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-25 21:56:56 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
+# 更新于 2026-09-25 23:12:50 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-25 21:56:56 INFO  events:94         QQ open-platform channel started
 2026-09-25 21:56:56 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
 2026-09-25 21:56:56 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
@@ -1499,3 +1469,33 @@
 2026-09-25 23:11:45 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-25 23:11:48 INFO  pc_status:187     收到 lyric_event [延迟=-453ms]: '**模糊的世界**' song=陈壹千 - 心似烟火 playing=True channel=None
 2026-09-25 23:11:51 INFO  pc_status:187     收到 lyric_event [延迟=215ms]: '**虚幻的情节**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:11:56 INFO  pc_status:187     收到 lyric_event [延迟=307ms]: '**憧憬熄灭**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:00 INFO  pc_status:187     收到 lyric_event [延迟=715ms]: '**雨下整夜**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:00 INFO  pc_status:187     收到 lyric_event [延迟=-359ms]: '**我也不能凝聚星辰多一些**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:03 INFO  pc_status:187     收到 lyric_event [延迟=-354ms]: '**但风凛冽**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:06 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-25 23:12:06 INFO  qq_bot:200        QQ 全量群消息: content='想要喵...' mentions=None
+2026-09-25 23:12:06 INFO  pc_status:187     收到 lyric_event [延迟=146ms]: '**握紧你的手**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:09 INFO  pc_status:187     收到 lyric_event [延迟=-431ms]: '**不怕夜更迭**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-188ms]: '**作词 : 阿藤芳史** *(Yoshifumi Ato)*' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-206ms]: '**作曲 : 阿藤芳史** *(Yoshifumi Ato)*' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-236ms]: '**制作人 : 姚政**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-251ms]: '**中文填词：孟大C**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-266ms]: '**OP ：MOUSTACHE** *(原属词曲版权公司)*' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:14 INFO  pc_status:187     收到 lyric_event [延迟=-296ms]: '**本作品经过原词曲作者以及版权公司授权**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:15 INFO  pc_status:187     收到 lyric_event [延迟=632ms]: '**我们的心像烟火**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:15 INFO  pc_status:187     收到 lyric_event [延迟=604ms]: '**一朵连结着一朵**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:15 INFO  pc_status:187     收到 lyric_event [延迟=589ms]: '**不独自飘落**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:15 INFO  pc_status:187     收到 lyric_event [延迟=573ms]: '**赶走了寂寞**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:15 INFO  pc_status:187     收到 lyric_event [延迟=150ms]: '**转身我在原地等你**' song=陈壹千 - 心似烟火 playing=True channel=None
+2026-09-25 23:12:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=68.6 mem=63.7
+2026-09-25 23:12:16 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-25 23:12:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=费玉清 - 一剪梅（播放中）CPU=50% 内存=93%
+2026-09-25 23:12:20 INFO  pc_status:187     收到 lyric_event [延迟=89ms]: '**▶ 费玉清 - 一剪梅**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:26 INFO  pc_status:187     收到 lyric_event [延迟=685ms]: '**作曲 : 陈怡/陈信义**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:26 INFO  pc_status:187     收到 lyric_event [延迟=676ms]: '**编曲 : 陈志远**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:26 INFO  pc_status:187     收到 lyric_event [延迟=660ms]: '**作词 : 娃娃**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:29 INFO  pc_status:187     收到 lyric_event [延迟=874ms]: '**编曲 : 陈志远**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:29 INFO  pc_status:187     收到 lyric_event [延迟=863ms]: '**作词 : 娃娃**' song=费玉清 - 一剪梅 playing=True channel=None
+2026-09-25 23:12:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=77.7 mem=63.7
+2026-09-25 23:12:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
