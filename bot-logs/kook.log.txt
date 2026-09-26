@@ -1,10 +1,4 @@
-# 更新于 2026-09-26 08:02:32 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 02:00:04 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content="(met)659688244(met) 翻译一下“Today I realized that I have no friends and I'm so alone\nI feel so isolated no one's ever texted my phone\nEveryone is so fake ,I wanna hide away\nCause no one cares about me all they do is laugh in my face”"
-2026-09-26 02:00:04 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
-2026-09-26 02:00:04 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-09-26 02:00:04 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
-2026-09-26 02:00:04 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  翻译一下“Today I realized that I'
-2026-09-26 02:00:04 INFO  pipeline:602      @机器人检测(at_only) → 直接回复
+# 更新于 2026-09-26 08:03:48 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 02:00:04 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=1200 temp=0.1 timeout=60.0s
 2026-09-26 02:00:06 INFO  llm:497           LLM [deepseek-flash] 返回 78字符 耗时1.9s → "@659688244 今天我发现我没有朋友，我好孤独\n我觉得好孤立，从来没有人给我发过短信\n每个人都..."
 2026-09-26 02:00:06 INFO  translate:204     翻译完成 [chat=9844130976336955] @659688244  一下“Today→Chinese: '@659688244 今天我发现我没有朋友，我好孤独
@@ -1499,3 +1493,9 @@
 2026-09-26 08:02:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=51.3 mem=66.6
 2026-09-26 08:02:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 08:02:18 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=姚六一 - 隔岸（已暂停）CPU=16% 内存=93%
+2026-09-26 08:02:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.2 mem=66.6
+2026-09-26 08:02:47 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 08:03:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=21.7 mem=66.6
+2026-09-26 08:03:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 08:03:33 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
+2026-09-26 08:03:33 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
