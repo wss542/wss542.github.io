@@ -1,4 +1,4 @@
-# 更新于 2026-09-27 00:01:12 · 共 18 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-27 00:02:01 · 共 48 行（来源 huanmeng.log 末尾）
 2026-09-27 00:00:06 INFO  holiday:57        节假日: 2026-09-27 → 中秋节
 2026-09-27 00:00:06 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 2026-09-27 00:00:25 INFO  stats:465         🌅 新的一天 20260927 — 发送昨日群聊日报
@@ -17,3 +17,33 @@
 2026-09-27 00:01:12 ERRO  wdsj_api:93       查询战绩失败: ReadTimeout 
 2026-09-27 00:01:12 ERRO  wdsj_api:93       查询战绩失败: ReadTimeout 
 2026-09-27 00:01:12 ERRO  wdsj_api:93       查询战绩失败: ReadTimeout 
+2026-09-27 00:01:12 INFO  wdsj_tracker:101  每日战绩采集完成: 0 条新记录
+2026-09-27 00:01:13 INFO  bot:878           日榜目标频道: [3649029148752421]
+2026-09-27 00:01:15 INFO  bot:882           日榜已发到频道 3649029148752421
+2026-09-27 00:01:15 INFO  bot:885           日榜已推送: 3 人 (2026-09-26)
+2026-09-27 00:01:15 INFO  bot:835           战绩采集将在 3h59m 后执行 (04:01)
+2026-09-27 00:01:29 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:29 DEBG  dispatcher:47     dispatch 入口: type=9 content='喵...' is_edit=False
+2026-09-27 00:01:29 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-09-27 00:01:29 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='喵...'
+2026-09-27 00:01:29 INFO  queues:32         [队列] 创建群3649029148752421 的独立消息队列
+2026-09-27 00:01:29 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-09-27 00:01:29 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
+2026-09-27 00:01:29 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵...'
+2026-09-27 00:01:29 INFO  logger:541        [TRACE 1c352f2ac770431c] total=21.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=21.54ms(x1) (wall21.54), queue_wait=0.54ms(x1)
+2026-09-27 00:01:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.4 mem=71.1
+2026-09-27 00:01:30 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 00:01:41 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:41 DEBG  dispatcher:47     dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 600' is_edit=False
+2026-09-27 00:01:41 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-09-27 00:01:41 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/禁言 (met)1759953618(met) 600'
+2026-09-27 00:01:41 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-09-27 00:01:41 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 2条 (阈值=10)
+2026-09-27 00:01:41 INFO  pipeline:503      指令拦截: '/禁言 @ywandwss  600' from=ywandwss
+2026-09-27 00:01:41 DEBG  commands:4862     指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '600'] user=1759953618
+2026-09-27 00:01:41 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:41 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:41 INFO  commands:4917     指令执行完成 [禁言]: 返回44字符
+2026-09-27 00:01:41 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:41 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 00:01:42 INFO  logger:541        [TRACE f40878821881457e] total=944.67ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=944.56ms(x1) (wall944.56), queue_wait=0.36ms(x1)
