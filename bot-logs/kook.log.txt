@@ -1,45 +1,4 @@
-# 更新于 2026-09-26 19:11:47 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 14:37:50 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-26 14:37:50 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-09-26 14:37:50 INFO  events:94         QQ open-platform channel started
-2026-09-26 14:37:50 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-09-26 14:37:50 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-26 14:37:50 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-26 14:37:50 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-26 14:37:50 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-09-26 14:37:50 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-26 14:37:50 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-26 14:37:50 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-26 14:37:50 INFO  bot:835           战绩采集将在 1h23m 后执行 (16:01)
-2026-09-26 14:37:50 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(717s 前)，掉线状态延续，不重复告警
-2026-09-26 14:37:50 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 717s 前）
-2026-09-26 14:37:50 INFO  qq_transport:113  QQ access_token 已刷新，有效期 5371s
-2026-09-26 14:37:51 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-09-26 14:37:51 INFO  qq_bot:155        QQ HELLO interval=41250
-2026-09-26 14:37:51 INFO  holiday:57        节假日: 2026-09-26 → 中秋节
-2026-09-26 14:37:51 INFO  holiday:105       节假日服务已启动
-2026-09-26 14:37:51 INFO  holiday:96        节假日每日刷新: 等待 33733 秒 (下次 00:00:05)
-2026-09-26 14:37:51 INFO  qq_bot:188        QQ 事件到达 t=READY
-2026-09-26 14:37:52 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-26 14:37:52 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-26 14:37:52 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-26 14:37:52 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-26 14:37:52 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-26 14:37:52 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-26 14:37:52 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-26 14:37:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.1 mem=68.1
-2026-09-26 14:37:52 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:37:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-26 14:37:52 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-26 14:37:53 INFO  holiday:57        节假日: 2026-09-26 → 中秋节
-2026-09-26 14:37:53 INFO  holiday:105       节假日服务已启动
-2026-09-26 14:37:53 INFO  holiday:96        节假日每日刷新: 等待 33731 秒 (下次 00:00:05)
-2026-09-26 14:37:54 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-26 14:37:57 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-26 14:37:58 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-26 14:37:58 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-26 14:37:58 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-26 14:37:58 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+# 更新于 2026-09-26 19:12:32 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 14:38:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.7 mem=68.1
 2026-09-26 14:38:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 14:38:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.2 mem=68.1
@@ -1499,3 +1458,44 @@
 2026-09-26 19:10:32 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 19:11:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.1 mem=68.2
 2026-09-26 19:11:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:11:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.6 mem=68.2
+2026-09-26 19:11:48 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:12:10 DEBG  bot:280           🧩 _consume_pkg pkg type=10 extra.type=10 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 19:12:10 DEBG  dispatcher:47     dispatch 入口: type=10 content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/ 1 \\/assets\\/2026-09\\/26\\ 0 ","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1080,"height":2388,"fileSize":257452,"elements":[]}]}],"type":"card"}]' is_edit=False
+2026-09-26 19:12:10 DEBG  dispatcher:110    KMD 调试: is_group=True uid=2764882874 channel=7274785942250691
+2026-09-26 19:12:10 INFO  dispatcher:185    🧩 CARD 消息解析到 1 张图片 (attachments=0, videos=0, card_json='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/ 1 \\/assets\\/2026-09\\/26\\ 0 ","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1080,"height":2388,"fileSize":257452,"elements":[]}]}],"type":"card"}]')
+2026-09-26 19:12:10 INFO  dispatcher:316    📩 消息 #7 | type=图片 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=SiswaYunfeng(2764882874) | chat=7274785942250691 | group=True | content='[{"theme":"invisible","color":"","size":"lg","expand":false,"modules":[{"type":"container","elements":[{"type":"image","src":"https:\\/\\/ 1 \\/assets\\/2026-09\\/26\\ 0 ","alt":"","size":"lg","circle":false,"title":"","fallbackUrl":"","width":1080,"height":2388,"fileSize":257452,"elements":[]}]}],"type":"card"}]'
+2026-09-26 19:12:10 INFO  dispatcher:392    🖼️  [chat=7274785942250691] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+2026-09-26 19:12:10 DEBG  image_api:50      图片缓存已加载: 382 条
+2026-09-26 19:12:10 INFO  image_api:152     [chat=7274785942250691] 开始获取图片: https://img.kookapp.cn/assets/2026-09/26/LjneBUlw3E0u01uc.jp...
+2026-09-26 19:12:10 INFO  image_api:168     [chat=7274785942250691] 图片下载成功: 257452 bytes
+2026-09-26 19:12:11 INFO  image_api:204     [chat=7274785942250691] 图片预处理: JPEG(1080x2388) → PNG 257452 bytes → 249196 bytes
+2026-09-26 19:12:11 INFO  image_api:251     [chat=7274785942250691] 调用主视觉模型识别图片 (MD5=bdbcc7c9f704...) model=deepseek-flash
+2026-09-26 19:12:17 INFO  image_api:280     [chat=7274785942250691] 图片识别成功 (model=deepseek-flash): 账单截图：Steam消费22.90元成功，余额支付买游戏，领2积分，解锁休闲贴纸。情绪：剁手心痛、游...
+2026-09-26 19:12:17 DEBG  image_api:64      图片缓存已写入磁盘: 383 条
+2026-09-26 19:12:17 DEBG  image_api:315     图片仓库追加: MD5=bdbcc7c9f704... → '账单截图：Steam消费22.90元成功，余额支付买游戏，领'
+2026-09-26 19:12:17 INFO  dispatcher:982    🖼️  [chat=7274785942250691] 图#1/1 识别完成: '账单截图：Steam消费22.90元成功，余额支付买游戏，领2积分，解锁休闲贴纸。情绪：剁手心痛、游戏快乐、付款爽快、积分小确幸。...' (65字) url=https://img.kookapp.cn/assets/2026-09/26/LjneBUlw3E0u01uc.jp
+2026-09-26 19:12:17 INFO  dispatcher:408    🖼️  [chat=7274785942250691] 图1 识别完成并注入上下文: '账单截图：Steam消费22.90元成功，余额支付买游戏，领2积分，解锁休闲贴纸。情绪：剁手心痛、游...'
+2026-09-26 19:12:17 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-26 19:12:17 INFO  pipeline:390      附带图片已记录 [chat=7274785942250691] count=1
+2026-09-26 19:12:17 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
+2026-09-26 19:12:17 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
+2026-09-26 19:12:17 INFO  logger:541        [TRACE 4635c244d31e4e32] total=6.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6.72ms(x1) (wall6.72), queue_wait=0.37ms(x1)
+2026-09-26 19:12:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 19:12:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='买小红车了！' is_edit=False
+2026-09-26 19:12:17 DEBG  dispatcher:110    KMD 调试: is_group=True uid=2764882874 channel=7274785942250691
+2026-09-26 19:12:17 INFO  dispatcher:316    📩 消息 #8 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=SiswaYunfeng(2764882874) | chat=7274785942250691 | group=True | content='买小红车了！'
+2026-09-26 19:12:17 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-26 19:12:17 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
+2026-09-26 19:12:17 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='买小红车了！'
+2026-09-26 19:12:17 INFO  logger:541        [TRACE 0b6d66dadbb049f1] total=3.25ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.21ms(x1) (wall3.21), queue_wait=0.61ms(x1)
+2026-09-26 19:12:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=68.2
+2026-09-26 19:12:19 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:12:23 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 19:12:23 DEBG  dispatcher:47     dispatch 入口: type=9 content='好…' is_edit=False
+2026-09-26 19:12:23 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-26 19:12:23 INFO  dispatcher:316    📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='好…'
+2026-09-26 19:12:23 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-26 19:12:23 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
+2026-09-26 19:12:23 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='好…'
+2026-09-26 19:12:23 INFO  logger:541        [TRACE de79824d6dfe4848] total=1.78ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.73ms(x1) (wall1.73), queue_wait=0.43ms(x1)
