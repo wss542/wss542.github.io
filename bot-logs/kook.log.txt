@@ -1,12 +1,4 @@
-# 更新于 2026-09-26 23:44:18 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 22:18:10 WARN  logger:559        [VERY_SLOW b1bdef1a86ad40b0] total=20079.65ms 需重点排查 | json_parse=0.35ms(x1), llm=12852.4ms(x1), memory=28.22ms(x2), message_retrieval=4.13ms(x2), process=20078.31ms(x1) (wall20078.31), queue_wait=1.15ms(x1) | llm_calls=2 total=19891.61ms avg=9945.8ms max=12843.28ms p50=9945.8 p95=12553.53 p99=12785.33 | perf: queue=1.15ms llm=12852.75ms search_tool=0.0ms delivery=0.0ms other=20110.66ms wall=20079.61ms dominant=other
-2026-09-26 22:18:10 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
-2026-09-26 22:18:10 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-09-26 22:18:12 INFO  llm:497           LLM [deepseek-flash] 返回 248字符 耗时1.4s → "[22:18:10] 若尘 ~喵: 英语怎么背, 茂密: 单词记忆喵~背单词不要死记硬背哦！试试这些..."
-2026-09-26 22:18:12 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 2条消息 → 保存
-2026-09-26 22:18:13 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=511 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4EW09g33u3cITOMBY5gq2v3DLbUX9a1bHROgQvcKfKzu4146alOhA47VuJk2KELsA!!
-2026-09-26 22:18:15 INFO  qq_transport:593  QQ 分片上传成功 file=tmpmk2h2cy7.webp size=43026 ttl=86400
-2026-09-26 22:18:18 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwozIYR4miYyBqqtRe2szsWFw4MUDDQb9.3ACYzd74veBNPceMdSH5FoR0DEeRKoLA!!
+# 更新于 2026-09-26 23:45:04 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 22:18:18 DEBG  qq_transport:366  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Hkyv4C6idN0k00k0.png (.webp 43026B)
 2026-09-26 22:18:18 DEBG  response_delivery:297 已发送第 1/1 条: **单词记忆喵~**
 
@@ -1499,3 +1491,11 @@
 2026-09-26 23:43:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 23:43:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.8 mem=71.1
 2026-09-26 23:43:48 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 23:44:18 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
+2026-09-26 23:44:18 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-26 23:44:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.1 mem=71.1
+2026-09-26 23:44:34 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 23:44:34 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
+2026-09-26 23:44:34 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-26 23:44:49 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=78 cpu=None mem=None
+2026-09-26 23:44:49 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
