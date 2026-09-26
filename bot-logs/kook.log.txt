@@ -1,8 +1,4 @@
-# 更新于 2026-09-26 08:03:48 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 02:00:04 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=1200 temp=0.1 timeout=60.0s
-2026-09-26 02:00:06 INFO  llm:497           LLM [deepseek-flash] 返回 78字符 耗时1.9s → "@659688244 今天我发现我没有朋友，我好孤独\n我觉得好孤立，从来没有人给我发过短信\n每个人都..."
-2026-09-26 02:00:06 INFO  translate:204     翻译完成 [chat=9844130976336955] @659688244  一下“Today→Chinese: '@659688244 今天我发现我没有朋友，我好孤独
-我觉得'
+# 更新于 2026-09-26 08:04:29 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 02:00:07 INFO  logger:541        [TRACE 328478c758ec4442] total=2619.49ms severity=normal | llm_calls=1 total=1882.19ms avg=1882.19ms max=1882.19ms p50=1882.19 p95=1882.19 p99=1882.19 | process=2619.41ms(x1) (wall2619.41), queue_wait=0.47ms(x1)
 2026-09-26 02:00:30 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 2026-09-26 02:00:30 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1495,7 @@
 2026-09-26 08:03:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 08:03:33 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
 2026-09-26 08:03:33 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
+2026-09-26 08:03:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.1 mem=66.6
+2026-09-26 08:03:48 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 08:04:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=64.4 mem=66.6
+2026-09-26 08:04:19 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
