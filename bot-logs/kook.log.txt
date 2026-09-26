@@ -1,6 +1,4 @@
-# 更新于 2026-09-26 23:55:53 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 22:22:51 INFO  pipeline:1628     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-09-26 22:22:51 INFO  logger:541        [TRACE a8db2cb2d27f4e6b] total=5678.14ms severity=slow_request | llm_calls=2 total=5652.08ms avg=2826.04ms max=4814.28ms p50=2826.04 p95=4615.46 p99=4774.51 | json_parse=0.09ms(x1), llm=5656.39ms(x1), memory=15.87ms(x2), process=5677.85ms(x1) (wall5677.85), queue_wait=0.98ms(x1)
+# 更新于 2026-09-26 23:56:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 22:22:51 WARN  logger:564        [SLOW a8db2cb2d27f4e6b] total=5681.44ms | json_parse=0.09ms(x1), llm=5656.39ms(x1), memory=15.87ms(x2), process=5677.85ms(x1) (wall5677.85), queue_wait=0.98ms(x1) | llm_calls=2 total=5652.08ms avg=2826.04ms max=4814.28ms p50=2826.04 p95=4615.46 p99=4774.51 | perf: queue=0.98ms llm=5656.48ms search_tool=0.0ms delivery=0.0ms other=5693.72ms wall=5681.31ms dominant=other
 2026-09-26 22:22:51 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-09-26 22:22:53 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=50 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpymptFYiESNNzcpks4Q-QtP.SXhqURAj3pFvW6TiL1v4pprkjQ-Y3d7epZz2828YUQ!!
@@ -1499,3 +1497,5 @@
 2026-09-26 23:55:08 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 23:55:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=49.4 mem=71.1
 2026-09-26 23:55:38 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 23:56:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=71.2
+2026-09-26 23:56:09 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
