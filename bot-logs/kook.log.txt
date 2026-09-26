@@ -1,4 +1,4 @@
-# 更新于 2026-09-26 23:43:48 · 共 1500 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-26 23:44:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 22:18:10 WARN  logger:559        [VERY_SLOW b1bdef1a86ad40b0] total=20079.65ms 需重点排查 | json_parse=0.35ms(x1), llm=12852.4ms(x1), memory=28.22ms(x2), message_retrieval=4.13ms(x2), process=20078.31ms(x1) (wall20078.31), queue_wait=1.15ms(x1) | llm_calls=2 total=19891.61ms avg=9945.8ms max=12843.28ms p50=9945.8 p95=12553.53 p99=12785.33 | perf: queue=1.15ms llm=12852.75ms search_tool=0.0ms delivery=0.0ms other=20110.66ms wall=20079.61ms dominant=other
 2026-09-26 22:18:10 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-09-26 22:18:10 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
