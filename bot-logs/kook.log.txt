@@ -1,45 +1,4 @@
-# 更新于 2026-09-26 12:42:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 10:46:57 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-26 10:46:57 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-26 10:46:57 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-26 10:46:57 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-26 10:46:57 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-26 10:46:57 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-26 10:46:57 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-26 10:46:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.1 mem=67.1
-2026-09-26 10:46:57 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 10:46:57 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
-2026-09-26 10:46:57 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-26 10:46:59 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-26 10:46:59 INFO  holiday:57        节假日: 2026-09-26 → 中秋节
-2026-09-26 10:46:59 INFO  holiday:105       节假日服务已启动
-2026-09-26 10:46:59 INFO  holiday:96        节假日每日刷新: 等待 47586 秒 (下次 00:00:05)
-2026-09-26 10:47:00 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-26 10:47:01 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-26 10:47:01 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-26 10:47:01 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-26 10:47:01 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-26 10:47:01 INFO  pc_status:46      PC 客户端已连接
-2026-09-26 10:47:01 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气)（播放中）
-2026-09-26 10:47:01 INFO  pc_status:187     收到 lyric_event [延迟=8393ms]: '**我能为你动心也能对你绝情**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:01 INFO  pc_status:187     收到 lyric_event [延迟=4235ms]: '**别再对我敷衍态度冷冰冰**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:06 INFO  pc_status:187     收到 lyric_event [延迟=892ms]: '**也能将你从我记忆删去**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:09 INFO  pc_status:187     收到 lyric_event [延迟=169ms]: '**我能为你动心也能收回我心**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.5 mem=67.1
-2026-09-26 10:47:12 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 10:47:14 INFO  pc_status:187     收到 lyric_event [延迟=625ms]: '**希望你能把我放在你眼里**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:18 INFO  pc_status:187     收到 lyric_event [延迟=730ms]: '**我能死心塌地也能不再惦记**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:22 INFO  pc_status:187     收到 lyric_event [延迟=336ms]: '**没有你我一个走过四季**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:43 INFO  pc_status:187     收到 lyric_event [延迟=15499ms]: '**我可以拼了命的爱你也能转身离去**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:43 INFO  pc_status:187     收到 lyric_event [延迟=10885ms]: '**我爱你并不是你的底气**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:43 INFO  pc_status:187     收到 lyric_event [延迟=6551ms]: '**我能为你着迷也能狠心放弃**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:43 INFO  pc_status:187     收到 lyric_event [延迟=2395ms]: '**只是看你珍不珍惜**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:44 INFO  pc_status:187     收到 lyric_event [延迟=391ms]: '**我可以一直守护着你也能把你忘记**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:49 INFO  pc_status:187     收到 lyric_event [延迟=341ms]: '**你无情就别怪我也无义**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:53 INFO  pc_status:187     收到 lyric_event [延迟=671ms]: '**我能不离不弃也能把你代替**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
-2026-09-26 10:47:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.7 mem=67.1
-2026-09-26 10:47:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 10:48:00 INFO  pc_status:187     收到 lyric_event [延迟=3089ms]: '**你不是我心中唯一**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=True channel=None
+# 更新于 2026-09-26 12:43:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 10:48:31 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气)（已暂停）CPU=40% 内存=91%
 2026-09-26 10:48:31 INFO  pc_status:187     收到 lyric_event [延迟=794ms]: '**我可以拼了命的爱你也能转身离去**' song=沧桑小杰 - 我能动心也能收心(我爱你并不是你的底气) playing=False channel=None
 2026-09-26 10:48:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=67.1
@@ -1499,3 +1458,44 @@
 `就算有多被你所爱`' song=双笙（陈元汐） - 心做し playing=True channel=None
 2026-09-26 12:42:44 INFO  pc_status:187     收到 lyric_event [延迟=49ms]: '**僕の心臓は一つだけ**
 `我的心脏也是仅此唯一一个的`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:42:50 INFO  pc_status:187     收到 lyric_event [延迟=513ms]: '**やめてよやめてよ**
+`住手吧 住手吧`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:42:52 INFO  pc_status:187     收到 lyric_event [延迟=160ms]: '**優しくしないでよ**
+`不要对我那么温柔啊`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:42:56 INFO  pc_status:187     收到 lyric_event [延迟=699ms]: '**どうしても僕には**
+`不论怎样..`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:42:58 INFO  pc_status:187     收到 lyric_event [延迟=23ms]: '**理解ができないよ**
+`我都无法理解`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:01 INFO  pc_status:187     收到 lyric_event [延迟=609ms]: '**痛いよ痛いよ**
+`好痛啊 好痛啊`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:04 INFO  pc_status:187     收到 lyric_event [延迟=107ms]: '**言葉で教えてよ**
+`用言语教教我吧`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:07 INFO  pc_status:187     收到 lyric_event [延迟=717ms]: '**こんなの知らないよ**
+`这样的事我不懂啊`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:10 INFO  pc_status:187     收到 lyric_event [延迟=101ms]: '**独りにしないで**
+`不要让我独自一人`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:13 INFO  pc_status:187     收到 lyric_event [延迟=559ms]: '**酷いよ酷いよ**
+`太残酷了 太残酷了`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:15 INFO  pc_status:187     收到 lyric_event [延迟=332ms]: '**もういっそ僕の体を**
+`干脆将我的身体`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:19 INFO  pc_status:187     收到 lyric_event [延迟=706ms]: '**壊して引き裂いて**
+`破坏吧 撕裂吧`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:21 INFO  pc_status:187     收到 lyric_event [延迟=289ms]: '**好きなようにしてよ**
+`随你喜欢地处置吧`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:22 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.1 mem=67.7
+2026-09-26 12:43:22 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 12:43:22 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-26 12:43:23 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-26 12:43:25 INFO  pc_status:187     收到 lyric_event [延迟=896ms]: '**叫んで藻掻いて**
+`不论怎样呼叫、挣扎`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:27 INFO  pc_status:187     收到 lyric_event [延迟=82ms]: '**瞼を腫らしても**
+`哭得双眼红肿也好`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:29 INFO  pc_status:187     收到 lyric_event [延迟=117ms]: '**まだ君は僕の事を**
+`你还是..`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:32 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-26 12:43:33 INFO  pc_status:187     收到 lyric_event [延迟=766ms]: '**抱きしめて離さない**
+`紧抱着我永不分离`' song=双笙（陈元汐） - 心做し playing=True channel=None
+2026-09-26 12:43:33 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-26 12:43:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-26 12:43:35 INFO  pc_status:187     收到 lyric_event [延迟=101ms]: '**もういいよ**
+`已经够了啊`' song=双笙（陈元汐） - 心做し playing=True channel=None
