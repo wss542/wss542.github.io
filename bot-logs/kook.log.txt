@@ -1,16 +1,4 @@
-# 更新于 2026-09-26 19:13:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 14:38:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.2 mem=68.1
-2026-09-26 14:38:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:39:13 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer
-2026-09-26 14:39:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.0 mem=68.1
-2026-09-26 14:39:29 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:39:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.6 mem=68.1
-2026-09-26 14:39:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:40:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.2 mem=68.2
-2026-09-26 14:40:30 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:41:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.1 mem=68.2
-2026-09-26 14:41:01 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 14:41:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=68.2
+# 更新于 2026-09-26 19:14:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 14:41:31 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 14:42:02 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.5 mem=68.2
 2026-09-26 14:42:02 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1487,15 @@
 2026-09-26 19:12:23 INFO  logger:541        [TRACE de79824d6dfe4848] total=1.78ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.73ms(x1) (wall1.73), queue_wait=0.43ms(x1)
 2026-09-26 19:12:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=43.9 mem=68.2
 2026-09-26 19:12:49 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:13:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.1 mem=68.2
+2026-09-26 19:13:20 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:13:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=68.2
+2026-09-26 19:13:50 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 19:13:59 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 19:13:59 DEBG  dispatcher:47     dispatch 入口: type=9 content='呦吼吼吼吼吼吼吼吼' is_edit=False
+2026-09-26 19:13:59 DEBG  dispatcher:110    KMD 调试: is_group=True uid=2764882874 channel=7274785942250691
+2026-09-26 19:13:59 INFO  dispatcher:316    📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=SiswaYunfeng(2764882874) | chat=7274785942250691 | group=True | content='呦吼吼吼吼吼吼吼吼'
+2026-09-26 19:13:59 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-26 19:13:59 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 8条 (阈值=10)
+2026-09-26 19:13:59 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='呦吼吼吼吼吼吼吼吼'
+2026-09-26 19:13:59 INFO  logger:541        [TRACE 0bc57e955b984b22] total=3.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.71ms(x1) (wall3.71), queue_wait=0.47ms(x1)
