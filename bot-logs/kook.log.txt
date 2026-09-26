@@ -1,13 +1,4 @@
-# 更新于 2026-09-26 16:35:56 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 12:43:53 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 12:44:00 INFO  pc_status:187     收到 lyric_event [延迟=41ms]: '**ねぇもしも**
-`呐，如果...`' song=双笙（陈元汐） - 心做し playing=True channel=None
-2026-09-26 12:44:01 INFO  pc_status:187     收到 lyric_event [延迟=118ms]: '**僕に心があるなら**
-`我有一颗跳动着的心的话`' song=双笙（陈元汐） - 心做し playing=True channel=None
-2026-09-26 12:44:05 INFO  pc_status:187     收到 lyric_event [延迟=535ms]: '**どうやってそれを 見つければいいの**
-`那我该怎样去寻找才好呢？`' song=双笙（陈元汐） - 心做し playing=True channel=None
-2026-09-26 12:44:11 INFO  pc_status:187     收到 lyric_event [延迟=382ms]: '**少し微笑んで君が言う**
-`你颔首微笑`' song=双笙（陈元汐） - 心做し playing=True channel=None
+# 更新于 2026-09-26 16:36:54 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 12:44:16 INFO  pc_status:187     收到 lyric_event [延迟=556ms]: '**「それはねここにあるよ」**
 `「那个呢，就在这里啊」`' song=双笙（陈元汐） - 心做し playing=True channel=None
 2026-09-26 12:44:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=67.7
@@ -1499,3 +1490,12 @@
 2026-09-26 16:35:56 INFO  logger:541        [TRACE 897e8951c1ea4bae] total=21889.51ms severity=very_slow_request | llm_calls=2 total=21833.87ms avg=10916.94ms max=13831.37ms p50=10916.94 p95=13539.93 p99=13773.08 | json_parse=0.22ms(x1), llm=13840.31ms(x1), memory=25.08ms(x2), process=21889.38ms(x1) (wall21889.38), queue_wait=0.53ms(x1)
 2026-09-26 16:35:56 WARN  logger:559        [VERY_SLOW 897e8951c1ea4bae] total=21890.59ms 需重点排查 | json_parse=0.22ms(x1), llm=13840.31ms(x1), memory=25.08ms(x2), process=21889.38ms(x1) (wall21889.38), queue_wait=0.53ms(x1) | llm_calls=2 total=21833.87ms avg=10916.94ms max=13831.37ms p50=10916.94 p95=13539.93 p99=13773.08 | perf: queue=0.53ms llm=13840.53ms search_tool=0.0ms delivery=0.0ms other=21914.46ms wall=21890.53ms dominant=other
 2026-09-26 16:35:56 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
+2026-09-26 16:35:56 DEBG  response_delivery:297 已发送第 1/1 条: **「易性症」是正式医学概念喵~**
+
+主人，这个和刚才说的...
+2026-09-26 16:35:56 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=9844130976336955
+2026-09-26 16:35:56 DEBG  context_manager:139 发送任务已清理 [9844130976336955]
+2026-09-26 16:36:08 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=68.5
+2026-09-26 16:36:08 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 16:36:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.2 mem=68.5
+2026-09-26 16:36:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
