@@ -1,8 +1,4 @@
-# 更新于 2026-09-26 20:54:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 16:34:49 INFO  logger:541        [TRACE 7b61f5b536c04227] total=21617.29ms severity=very_slow_request | llm_calls=2 total=21213.93ms avg=10606.97ms max=13212.47ms p50=10606.97 p95=12951.92 p99=13160.36 | json_parse=4.98ms(x1), llm=13224.12ms(x1), memory=121.59ms(x2), process=21615.94ms(x1) (wall21615.94), queue_wait=1.99ms(x1)
-2026-09-26 16:34:49 WARN  logger:559        [VERY_SLOW 7b61f5b536c04227] total=21618.12ms 需重点排查 | json_parse=4.98ms(x1), llm=13224.12ms(x1), memory=121.59ms(x2), process=21615.94ms(x1) (wall21615.94), queue_wait=1.99ms(x1) | llm_calls=2 total=21213.93ms avg=10606.97ms max=13212.47ms p50=10606.97 p95=12951.92 p99=13160.36 | perf: queue=1.99ms llm=13229.1ms search_tool=0.0ms delivery=0.0ms other=21737.53ms wall=21618.06ms dominant=other
-2026-09-26 16:34:49 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
-2026-09-26 16:34:49 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+# 更新于 2026-09-26 20:55:36 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 16:34:50 DEBG  response_delivery:297 已发送第 1/1 条: **「异性症」不是正式医学名词喵~**
 
 主人，这个词在正规...
@@ -1499,3 +1495,7 @@
 2026-09-26 20:54:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 20:54:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=99 cpu=51.3 mem=68.6
 2026-09-26 20:54:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 20:55:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.5 mem=68.6
+2026-09-26 20:55:05 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 20:55:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=81.4 mem=68.6
+2026-09-26 20:55:36 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
