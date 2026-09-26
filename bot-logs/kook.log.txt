@@ -1,8 +1,4 @@
-# 更新于 2026-09-26 21:05:05 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 16:35:56 INFO  fav:128           好感度更新: g9844130976336955:1759953618 +2 → 63
-2026-09-26 16:35:56 INFO  pipeline:1622     好感度调整: ywandwss +2 (chat=9844130976336955)
-2026-09-26 16:35:56 INFO  pipeline:1628     ✅ 管道处理完成: 1句 sent chat=9844130976336955
-2026-09-26 16:35:56 DEBG  pipeline:1650     Fast Path 主题已记录: chat=9844130976336955 topic='@659688244  易性症是什么'
+# 更新于 2026-09-26 21:05:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 16:35:56 INFO  logger:541        [TRACE 897e8951c1ea4bae] total=21889.51ms severity=very_slow_request | llm_calls=2 total=21833.87ms avg=10916.94ms max=13831.37ms p50=10916.94 p95=13539.93 p99=13773.08 | json_parse=0.22ms(x1), llm=13840.31ms(x1), memory=25.08ms(x2), process=21889.38ms(x1) (wall21889.38), queue_wait=0.53ms(x1)
 2026-09-26 16:35:56 WARN  logger:559        [VERY_SLOW 897e8951c1ea4bae] total=21890.59ms 需重点排查 | json_parse=0.22ms(x1), llm=13840.31ms(x1), memory=25.08ms(x2), process=21889.38ms(x1) (wall21889.38), queue_wait=0.53ms(x1) | llm_calls=2 total=21833.87ms avg=10916.94ms max=13831.37ms p50=10916.94 p95=13539.93 p99=13773.08 | perf: queue=0.53ms llm=13840.53ms search_tool=0.0ms delivery=0.0ms other=21914.46ms wall=21890.53ms dominant=other
 2026-09-26 16:35:56 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
@@ -1499,3 +1495,7 @@
 2026-09-26 21:04:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 21:04:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=70.4 mem=68.7
 2026-09-26 21:04:34 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 21:05:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=77.0 mem=68.7
+2026-09-26 21:05:05 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 21:05:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=66.7 mem=68.7
+2026-09-26 21:05:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
