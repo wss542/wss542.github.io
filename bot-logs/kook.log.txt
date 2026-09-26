@@ -1,18 +1,4 @@
-# 更新于 2026-09-26 17:38:32 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-26 13:08:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=67.7
-2026-09-26 13:08:27 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 13:08:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=67.7
-2026-09-26 13:08:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 13:09:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=67.7
-2026-09-26 13:09:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 13:09:29 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Maroon 5 - Animals（已暂停）CPU=63% 内存=93%
-2026-09-26 13:09:40 INFO  pc_status:187     收到 lyric_event [延迟=393ms]: '**Baby, I'm preyin' on you tonight**' song=Maroon 5 - Animals playing=False channel=None
-2026-09-26 13:09:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.1 mem=67.7
-2026-09-26 13:09:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 13:10:00 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Maroon 5 - Animals（已暂停）CPU=52% 内存=94%
-2026-09-26 13:10:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.7 mem=67.7
-2026-09-26 13:10:45 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-26 13:11:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=67.9
+# 更新于 2026-09-26 17:39:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-26 13:11:16 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-26 13:11:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=29.2 mem=67.9
 2026-09-26 13:11:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1485,17 @@
 2026-09-26 17:38:32 DEBG  notify_system:655 git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
 2026-09-26 17:38:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=29.2 mem=69.0
 2026-09-26 17:38:32 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-26 17:38:32 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 17:38:32 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-26 17:38:32 DEBG  dispatcher:47     dispatch 入口: type=9 content='居然活了' is_edit=False
+2026-09-26 17:38:32 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-26 17:38:32 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='居然活了'
+2026-09-26 17:38:32 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-26 17:38:32 DEBG  dispatcher:47     dispatch 入口: type=9 content='喵~' is_edit=False
+2026-09-26 17:38:32 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-26 17:38:32 INFO  dispatcher:296    🤖 正则自动回复命中: '喵~' -> '喵~'
+2026-09-26 17:38:32 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-09-26 17:38:32 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='居然活了'
+2026-09-26 17:38:32 INFO  logger:541        [TRACE a79a681b24bc45e8] total=4.69ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.58ms(x1) (wall4.58), queue_wait=6.85ms(x1)
+2026-09-26 17:38:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.2 mem=69.0
+2026-09-26 17:38:47 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
