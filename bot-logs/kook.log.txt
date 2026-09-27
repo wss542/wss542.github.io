@@ -1,9 +1,4 @@
-# 更新于 2026-09-27 15:49:27 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:27:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.0 mem=70.8
-2026-09-27 15:27:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:27:42 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-27 15:27:42 DEBG  dispatcher:47     dispatch 入口: type=9 content='/签到' is_edit=False
-2026-09-27 15:27:42 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+# 更新于 2026-09-27 15:50:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:27:42 INFO  dispatcher:316    📩 消息 #17 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/签到'
 2026-09-27 15:27:42 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
 2026-09-27 15:27:42 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
@@ -1499,3 +1494,8 @@
 2026-09-27 15:49:13 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=A32588CDB564613DFE86FDCDE28116F1 len=119 seq=1 id=ROBOT1.0_2nlCEqFkFEm-ipr40CVUpMNVl2NJuqJmcBjVR-UFt3vJhE5avjJkScRG.vUhks1xGzwCAOhwe90d2EG1Mi-YSg!!
 2026-09-27 15:49:13 INFO  logger:541        [TRACE cf58251ef57e4571] total=4457.67ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4457.56ms(x1) (wall4457.56), queue_wait=0.97ms(x1)
 2026-09-27 15:49:13 WARN  logger:564        [SLOW cf58251ef57e4571] total=4459.25ms | process=4457.56ms(x1) (wall4457.56), queue_wait=0.97ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.97ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4457.56ms wall=4457.99ms dominant=other
+2026-09-27 15:49:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.5 mem=70.8
+2026-09-27 15:49:28 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:49:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=38.6 mem=70.8
+2026-09-27 15:49:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:50:05 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
