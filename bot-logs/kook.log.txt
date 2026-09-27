@@ -1,14 +1,4 @@
-# 更新于 2026-09-27 15:18:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:30:10 INFO  main:70           应用程序已退出
-2026-09-27 11:30:26 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-27 11:30:26 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 11:30:26 INFO  events:94         ==================================================
-2026-09-27 11:30:26 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-27 11:30:26 INFO  events:94         ==================================================
-2026-09-27 11:30:26 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-27 11:30:26 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-27 11:30:26 INFO  events:94         语言文件已加载
-2026-09-27 11:30:26 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
+# 更新于 2026-09-27 15:18:57 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:30:26 INFO  events:94         日志系统已初始化
 2026-09-27 11:30:26 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
 2026-09-27 11:30:26 INFO  events:94         khl.py Bot 实例已创建
@@ -1499,3 +1489,13 @@
 2026-09-27 15:18:07 INFO  pipeline:503      指令拦截: '/wdsj me' from=若尘 ~喵
 2026-09-27 15:18:07 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-09-27 15:18:07 INFO  commands:2518     wdsj 单模板查询: player=yzandwss template=bw(bedwars-stats) img=True
+2026-09-27 15:18:13 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_7b655195.png size=215906 ttl=86400
+2026-09-27 15:18:16 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp92b.A08wvoDcjdjh5uFnG.NBOO7Rgm3KquEcWZPIy2qEN2vnisxHRDtO1yy2pkEFg!!
+2026-09-27 15:18:16 INFO  commands:2518     wdsj 单模板查询: player=yzandwss template=jjc(arena-stats) img=True
+2026-09-27 15:18:22 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_975753a9.png size=161332 ttl=86400
+2026-09-27 15:18:24 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp27RNFFngspS5Z2wwRi-OIrferRyQnjj9PbXgxsq4kz3f8aCMKZ2GpMQINO7HkJcDA!!
+2026-09-27 15:18:24 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:18:24 INFO  logger:541        [TRACE ff7a0d4a64694812] total=17078.82ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=17078.72ms(x1) (wall17078.72), queue_wait=0.4ms(x1)
+2026-09-27 15:18:24 WARN  logger:559        [VERY_SLOW ff7a0d4a64694812] total=17079.39ms 需重点排查 | process=17078.72ms(x1) (wall17078.72), queue_wait=0.4ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.4ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=17078.72ms wall=17079.29ms dominant=other
+2026-09-27 15:18:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
+2026-09-27 15:18:27 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
