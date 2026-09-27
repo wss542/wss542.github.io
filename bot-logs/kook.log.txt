@@ -1,60 +1,4 @@
-# 更新于 2026-09-27 15:22:37 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:32:17 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-27 11:32:17 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-27 11:32:17 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-27 11:32:17 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-27 11:32:17 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-27 11:32:17 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-27 11:32:17 INFO  events:94         ==================================================
-2026-09-27 11:32:17 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-27 11:32:17 INFO  events:94         ==================================================
-2026-09-27 11:32:17 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-27 11:32:17 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-27 11:32:17 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-27 11:32:17 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-27 11:32:17 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-27 11:32:17 INFO  bot:835           战绩采集将在 0h28m 后执行 (12:01)
-2026-09-27 11:32:17 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(75984s 前)，掉线状态延续，不重复告警
-2026-09-27 11:32:17 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 75984s 前）
-2026-09-27 11:32:27 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-27 11:32:27 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-27 11:32:27 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-27 11:32:27 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-27 11:32:27 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-27 11:32:27 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-27 11:32:27 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-27 11:32:36 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:32:46 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:32:46 WARN  holiday:47        节假日 API 拉取失败: [Errno -2] Name or service not known
-2026-09-27 11:32:46 INFO  holiday:105       节假日服务已启动
-2026-09-27 11:32:46 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-27 11:32:46 INFO  holiday:96        节假日每日刷新: 等待 44838 秒 (下次 00:00:05)
-2026-09-27 11:32:47 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-27 11:32:47 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-27 11:32:47 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-27 11:32:47 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-27 11:32:47 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-27 11:32:57 ERRO  events:94         khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
-2026-09-27 11:32:57 INFO  events:94         5 秒后重试...
-2026-09-27 11:33:11 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:33:21 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:33:30 INFO  events:94         🛑 正在关闭...
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: checkin
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: chou
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: countdown
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: echo
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: eq
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: greet
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: luck
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: motou
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: nasa
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: weather
-2026-09-27 11:33:30 INFO  manager:234       Plugin 已卸载: whois
-2026-09-27 11:33:30 INFO  events:94         Plugin Runtime 已关闭
-2026-09-27 11:33:30 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
+# 更新于 2026-09-27 15:23:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:33:30 INFO  context_manager:190 上下文已写入磁盘
 2026-09-27 11:33:30 INFO  events:94         👋 再见！
 2026-09-27 11:33:30 INFO  main:70           应用程序已退出
@@ -1499,3 +1443,59 @@
 2026-09-27 15:22:26 INFO  commands:4917     指令执行完成 [fuck]: 返回56字符
 2026-09-27 15:22:28 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=56 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpxfYvnQT2RsGapL58Pv.EAhwVXMYVmdi4QeLR1Hdg3y4uCUntL5dC7UvtDWAaa35-g!!
 2026-09-27 15:22:28 INFO  logger:541        [TRACE 640fd2d6a4f34137] total=1411.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1411.86ms(x1) (wall1411.86), queue_wait=0.43ms(x1)
+2026-09-27 15:22:38 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:22:38 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='喵呜～' atts=0 ref=False msg_type=0
+2026-09-27 15:22:38 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '喵呜～'
+2026-09-27 15:22:38 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rFNARE4HNctrCprNyL5IZbJzPzO7L.2X00wKIBvLJHfUJGjs8LXrlXmHdpw0.0KB8Mr26z0Ntt7k4fAzu5XxVz.VAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:22:38 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:22:38 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 10条 (阈值=10)
+2026-09-27 15:22:38 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='喵呜～'
+2026-09-27 15:22:38 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-09-27 15:22:38 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='喵呜～'
+2026-09-27 15:22:38 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-09-27 15:22:38 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-27 15:22:38 DEBG  memory:331        记忆检索: source=legacy_file status=miss 命中注入=0 耗时=60.9ms
+2026-09-27 15:22:38 INFO  pipeline:866      额外信息: 325字 (memory=25 search=0)
+2026-09-27 15:22:38 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-09-27 15:22:38 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-09-27 15:22:38 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 15:22:40 INFO  llm:497           LLM [deepseek-flash] 返回 408字符 耗时2.6s → "[20:46:10] 若尘 ~喵: /help (无; 无; 无)\n[20:47:54] zzv: ..."
+2026-09-27 15:22:40 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 10条消息 → 保存
+2026-09-27 15:22:44 INFO  llm:1048          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={"replies":["主人也在学我喵叫呀～(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","中秋节快乐喵！今天有没有吃月饼呀？"],"fav":2,"calls":[],"face":"开心 1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"... tool_calls=0)
+2026-09-27 15:22:44 INFO  llm:1067          LLM原始输出 [轮1]: content={"replies":["主人也在学我喵叫呀～(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","中秋节快乐喵！今天有没有吃月饼呀？"],"fav":2,"calls":[],"face":"开心 1","mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{" | tool_calls=0
+2026-09-27 15:22:44 INFO  face_lib:64       表情库加载: 90 关键词 / 7 主干 / 31 文件
+2026-09-27 15:22:44 INFO  llm:1410          JSON回复解析: 2句 fav=+2 calls=0 mood=开心
+2026-09-27 15:22:44 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 70
+2026-09-27 15:22:44 INFO  pipeline:1622     好感度调整: 若尘 ~喵 +2 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+2026-09-27 15:22:44 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 20 条
+2026-09-27 15:22:44 INFO  pipeline:1628     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 15:22:44 INFO  logger:541        [TRACE 648594f99e3a4cf0] total=6538.31ms severity=slow_request | llm_calls=2 total=9001.4ms avg=4500.7ms max=6409.14ms p50=4500.7 p95=6218.29 p99=6370.97 | json_parse=0.19ms(x1), llm=6413.53ms(x1), memory=129.76ms(x2), message_retrieval=6.59ms(x2), process=6537.78ms(x1) (wall6537.78), queue_wait=0.44ms(x1)
+2026-09-27 15:22:44 WARN  logger:564        [SLOW 648594f99e3a4cf0] total=6538.85ms | json_parse=0.19ms(x1), llm=6413.53ms(x1), memory=129.76ms(x2), message_retrieval=6.59ms(x2), process=6537.78ms(x1) (wall6537.78), queue_wait=0.44ms(x1) | llm_calls=2 total=9001.4ms avg=4500.7ms max=6409.14ms p50=4500.7 p95=6218.29 p99=6370.97 | perf: queue=0.44ms llm=6413.72ms search_tool=0.0ms delivery=0.0ms other=6674.13ms wall=6538.83ms dominant=other
+2026-09-27 15:22:44 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
+2026-09-27 15:22:44 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-27 15:22:45 INFO  llm:497           LLM [deepseek-flash] 返回 377字符 耗时1.3s → "[15:22:44] poll::说了/wdsj vw、/wdsj bw、/wdsj bw img、..."
+2026-09-27 15:22:45 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 20条消息 → 保存
+2026-09-27 15:22:46 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=33 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6k3iN8kXusFtJH4ae9oofWeuQJHJDy.2.yvMBcha3Rp66RGe9cAImzrP1bGz29-UA!!
+2026-09-27 15:22:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
+2026-09-27 15:22:47 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:22:48 INFO  qq_transport:593  QQ 分片上传成功 file=tmp7h2e0z_s.webp size=43026 ttl=86400
+2026-09-27 15:22:51 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:22:51 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/luck' atts=0 ref=False msg_type=0
+2026-09-27 15:22:51 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/luck'
+2026-09-27 15:22:51 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7O3Iy3uwpKFanXF0q63j5A2zNrZc7Hua1QxEhCU45JJFQRsikhBX0ogfYRe4fdfiqqu0Qz56H7GLmvaear5rGbezVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:22:51 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:22:51 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-09-27 15:22:51 INFO  pipeline:503      指令拦截: '/luck' from=poll:
+2026-09-27 15:22:51 DEBG  commands:4862     指令解析: prefix=/ cmd=luck args=[] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
+2026-09-27 15:22:51 INFO  commands:728      指令 /luck 触发 user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
+2026-09-27 15:22:51 INFO  commands:4917     指令执行完成 [luck]: 返回58字符
+2026-09-27 15:22:51 INFO  engine:92         异步记忆提炼完成 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E: 候选1 新增1
+2026-09-27 15:22:51 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp55m4WYdGaQ9JB7utd9XayX16YxkT5AiIUW0O9NzJB5JEWlMuGbOHY-U1I8hKK0uTg!!
+2026-09-27 15:22:51 DEBG  qq_transport:366  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Hkyv4C6idN0k00k0.png (.webp 43026B)
+2026-09-27 15:22:51 DEBG  response_delivery:297 已发送第 1/1 条: 主人也在学我喵叫呀～(emj)开心 1(emj)[30906...
+2026-09-27 15:22:51 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 15:22:51 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-09-27 15:22:52 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=58 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7hT-Mr8DmLRmq0.ZDq22glKYc5PjhA48HhepQ84D9mRB00AtVcRSEBUNOeg4ISYYQ!!
+2026-09-27 15:22:52 INFO  logger:541        [TRACE e52694d28221454b] total=1411.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1411.4ms(x1) (wall1411.4), queue_wait=0.51ms(x1)
+2026-09-27 15:22:53 INFO  qq_transport:593  QQ 分片上传成功 file=开心3.webp size=41016 ttl=86400
+2026-09-27 15:22:55 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp5Ptli4acpqWcElLWWwevIp.065L4zxFsgeq6x9qJrRAvySapwehoqXRD26c9R2XLw!!
