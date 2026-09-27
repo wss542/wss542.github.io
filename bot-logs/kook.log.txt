@@ -1,38 +1,4 @@
-# 更新于 2026-09-27 15:23:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:33:30 INFO  context_manager:190 上下文已写入磁盘
-2026-09-27 11:33:30 INFO  events:94         👋 再见！
-2026-09-27 11:33:30 INFO  main:70           应用程序已退出
-2026-09-27 11:33:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-27 11:33:48 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 11:33:50 INFO  events:94         ==================================================
-2026-09-27 11:33:50 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-27 11:33:50 INFO  events:94         ==================================================
-2026-09-27 11:33:50 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-27 11:33:50 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-27 11:33:50 INFO  events:94         语言文件已加载
-2026-09-27 11:33:50 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-09-27 11:33:50 INFO  events:94         日志系统已初始化
-2026-09-27 11:33:50 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-27 11:33:50 INFO  events:94         khl.py Bot 实例已创建
-2026-09-27 11:34:00 WARN  events:94         拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-2026-09-27 11:34:00 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-27 11:34:00 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-27 11:34:00 INFO  events:94         消息发送器已初始化
-2026-09-27 11:34:00 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-27 11:34:00 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-27 11:34:00 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-27 11:34:00 INFO  events:94         用户名查询模块已初始化
-2026-09-27 11:34:01 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-27 11:34:01 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-27 11:34:01 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-27 11:34:01 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-27 11:34:01 INFO  events:94         上下文管理器已初始化
-2026-09-27 11:34:01 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 11:34:01 INFO  events:94         事件分发器已就绪
-2026-09-27 11:34:01 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-27 11:34:01 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-27 11:34:01 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-27 11:34:01 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-09-27 15:24:10 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:34:01 DEBG  loader:46         跳过 _down：缺少 manifest.json
 2026-09-27 11:34:01 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 2026-09-27 11:34:01 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
@@ -1499,3 +1465,37 @@
 2026-09-27 15:22:52 INFO  logger:541        [TRACE e52694d28221454b] total=1411.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1411.4ms(x1) (wall1411.4), queue_wait=0.51ms(x1)
 2026-09-27 15:22:53 INFO  qq_transport:593  QQ 分片上传成功 file=开心3.webp size=41016 ttl=86400
 2026-09-27 15:22:55 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp5Ptli4acpqWcElLWWwevIp.065L4zxFsgeq6x9qJrRAvySapwehoqXRD26c9R2XLw!!
+2026-09-27 15:23:17 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:23:17 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw Nurje_ img' atts=0 ref=False msg_type=0
+2026-09-27 15:23:17 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=zzv role=owner union=-]: '/wdsj bw Nurje_ img'
+2026-09-27 15:23:17 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_cvcqjY4Y2He-.SaNTXq5OpPnDkYJgUfgkYnM5AHYMBrEmZJZoygtC4XCiSEYb61WnslsD8Je6X0Q8ylmRRXovOqs8uhmuMsPQRMbJR00iebVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:23:17 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:23:17 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
+2026-09-27 15:23:17 INFO  pipeline:503      指令拦截: '/wdsj bw Nurje_ img' from=zzv
+2026-09-27 15:23:17 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw', 'Nurje_', 'img'] user=qq:1C5C0796A343AC96AAB69DF004931A14
+2026-09-27 15:23:17 INFO  commands:2828     查询wdsj战绩: player=Nurje_ template=bedwars-stats img=True
+2026-09-27 15:23:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
+2026-09-27 15:23:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:23:18 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=28 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4GmgxxrSaiG7oGR.ErJ7QS6BFmb2jalVbrFuNA96zaEfuH0zETcjmq3aEdAP3tD9Q!!
+2026-09-27 15:23:25 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_f621dc93.png size=211728 ttl=86400
+2026-09-27 15:23:27 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8soENewqcKK49QdlaCEFnX6FEn6u85.4BAfgc9uSaKZiQD84RYBg0tsA8yIZxMT7Q!!
+2026-09-27 15:23:27 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:23:27 INFO  logger:541        [TRACE 6d9cfd96072a4817] total=10610.44ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10610.35ms(x1) (wall10610.35), queue_wait=0.66ms(x1)
+2026-09-27 15:23:27 WARN  logger:559        [VERY_SLOW 6d9cfd96072a4817] total=10610.72ms 需重点排查 | process=10610.35ms(x1) (wall10610.35), queue_wait=0.66ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.66ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10610.35ms wall=10610.7ms dominant=other
+2026-09-27 15:23:37 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:23:37 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw h2o img' atts=0 ref=False msg_type=0
+2026-09-27 15:23:37 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/wdsj bw h2o img'
+2026-09-27 15:23:37 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7OwwD3YtgzL79gWPokDt9z.FLcZFIn4HbtyOK5Jz35hzzzuyzuvqLIZMkwdI.lIuZcLAhn8yFq2m9FQ843SZB-KzVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:23:37 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:23:37 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-09-27 15:23:37 INFO  pipeline:503      指令拦截: '/wdsj bw h2o img' from=poll:
+2026-09-27 15:23:37 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw', 'h2o', 'img'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
+2026-09-27 15:23:37 INFO  commands:2828     查询wdsj战绩: player=h2o template=bedwars-stats img=True
+2026-09-27 15:23:39 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=25 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4m5mX2zoPOG0f2Ez1xJTQWWPand1K-TJGnaMdf2VVJN5h4prszi-y8bhuyF-AorVA!!
+2026-09-27 15:23:45 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_a4fa28e2.png size=221232 ttl=86400
+2026-09-27 15:23:48 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwQjn4J9PEcBhwzEVXtRNBDeNKrsPHfOcGJD8ltqICZfPMkzoaiaYqKMwLg6jHs8DA!!
+2026-09-27 15:23:48 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:23:48 INFO  logger:541        [TRACE 664f28fceb524856] total=11333.32ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11333.19ms(x1) (wall11333.19), queue_wait=0.71ms(x1)
+2026-09-27 15:23:48 WARN  logger:559        [VERY_SLOW 664f28fceb524856] total=11334.1ms 需重点排查 | process=11333.19ms(x1) (wall11333.19), queue_wait=0.71ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.71ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=11333.19ms wall=11334.05ms dominant=other
+2026-09-27 15:23:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.0 mem=70.8
+2026-09-27 15:23:48 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
