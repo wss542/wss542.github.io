@@ -1,8 +1,4 @@
-# 更新于 2026-09-27 16:44:46 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:35:12 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-27 15:35:12 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
-2026-09-27 15:35:12 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
-2026-09-27 15:35:12 INFO  logger:541        [TRACE cb848ed99bec4eee] total=4.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.07ms(x1) (wall4.07), queue_wait=0.9ms(x1)
+# 更新于 2026-09-27 16:45:17 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:35:12 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
 2026-09-27 15:35:12 INFO  engine:92         异步记忆提炼完成 chat=7274785942250691: 候选5 新增5
 2026-09-27 15:35:15 INFO  llm:497           LLM [deepseek-flash] 返回 1053字符 耗时2.7s → "[16:33:54] ywandwss: ywandwss: /禁言 @ywandwss 120 (..."
@@ -1499,3 +1495,7 @@
 2026-09-27 16:44:46 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
 2026-09-27 16:44:46 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
 2026-09-27 16:44:46 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-27 16:44:47 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-09-27 16:44:48 INFO  holiday:57        节假日: 2026-09-27 → 中秋节
+2026-09-27 16:44:48 INFO  holiday:105       节假日服务已启动
+2026-09-27 16:44:48 INFO  holiday:96        节假日每日刷新: 等待 26116 秒 (下次 00:00:05)
