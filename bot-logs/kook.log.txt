@@ -1,8 +1,4 @@
-# 更新于 2026-09-27 15:50:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:27:42 INFO  dispatcher:316    📩 消息 #17 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/签到'
-2026-09-27 15:27:42 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-27 15:27:42 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
-2026-09-27 15:27:42 INFO  pipeline:503      指令拦截: '/签到' from=ywandwss
+# 更新于 2026-09-27 15:51:02 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:27:42 DEBG  commands:4862     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
 2026-09-27 15:27:42 INFO  commands:4917     指令执行完成 [签到]: 返回41字符
 2026-09-27 15:27:43 INFO  logger:541        [TRACE f562fd2fa63f46e8] total=716.68ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=716.53ms(x1) (wall716.53), queue_wait=1.37ms(x1)
@@ -1499,3 +1495,7 @@
 2026-09-27 15:49:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=38.6 mem=70.8
 2026-09-27 15:49:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-27 15:50:05 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:50:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=43.9 mem=70.8
+2026-09-27 15:50:31 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:51:02 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.3 mem=70.8
+2026-09-27 15:51:02 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
