@@ -1,48 +1,4 @@
-# 更新于 2026-09-27 15:17:37 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:28:57 INFO  bot:835           战绩采集将在 0h32m 后执行 (12:01)
-2026-09-27 11:28:57 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(75784s 前)，掉线状态延续，不重复告警
-2026-09-27 11:28:57 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 75784s 前）
-2026-09-27 11:29:08 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-27 11:29:08 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-27 11:29:08 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-27 11:29:08 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-27 11:29:08 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-27 11:29:08 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-27 11:29:08 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-27 11:29:18 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:29:24 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:29:25 WARN  holiday:47        节假日 API 拉取失败: [Errno -2] Name or service not known
-2026-09-27 11:29:25 INFO  holiday:105       节假日服务已启动
-2026-09-27 11:29:25 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-27 11:29:25 INFO  holiday:96        节假日每日刷新: 等待 45040 秒 (下次 00:00:05)
-2026-09-27 11:29:25 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-27 11:29:25 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-27 11:29:25 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-27 11:29:25 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-27 11:29:25 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-27 11:29:35 ERRO  events:94         khl.py Bot 运行异常: Cannot connect to host www.kaiheila.cn:443 ssl:default [Name or service not known]
-2026-09-27 11:29:35 INFO  events:94         5 秒后重试...
-2026-09-27 11:29:50 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:30:00 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>
-2026-09-27 11:30:10 INFO  events:94         🛑 正在关闭...
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: checkin
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: chou
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: countdown
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: echo
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: eq
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: greet
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: luck
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: motou
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: nasa
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: pgr
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: sandbox
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: tuf
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: weather
-2026-09-27 11:30:10 INFO  manager:234       Plugin 已卸载: whois
-2026-09-27 11:30:10 INFO  events:94         Plugin Runtime 已关闭
-2026-09-27 11:30:10 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-09-27 11:30:10 INFO  context_manager:190 上下文已写入磁盘
-2026-09-27 11:30:10 INFO  events:94         👋 再见！
+# 更新于 2026-09-27 15:18:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:30:10 INFO  main:70           应用程序已退出
 2026-09-27 11:30:26 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-27 11:30:26 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
@@ -1499,3 +1455,47 @@
 2026-09-27 15:17:34 INFO  commands:2828     查询wdsj战绩: player=poll_results_in template=bedwars-stats img=False
 2026-09-27 15:17:36 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=37 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4u3ET4GW7XRIIAE1rlhoX6NvfxnMy7WsVv-ghT-LelSGknCd2TtInY6tm9H6ZVPPQ!!
 2026-09-27 15:17:37 INFO  commands:4917     指令执行完成 [wdsj]: 返回633字符
+2026-09-27 15:17:38 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=633 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpyiQ6fX6APxZ4tcrI3yiZpXhb1HYCMTYZtlbLPy5JYoEdFmRNVQyyxmXfzGAcS45Qw!!
+2026-09-27 15:17:38 INFO  logger:541        [TRACE f3df83e2e64b40c9] total=4321.96ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4321.89ms(x1) (wall4321.89), queue_wait=0.27ms(x1)
+2026-09-27 15:17:38 WARN  logger:564        [SLOW f3df83e2e64b40c9] total=4322.42ms | process=4321.89ms(x1) (wall4321.89), queue_wait=0.27ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.27ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4321.89ms wall=4322.39ms dominant=other
+2026-09-27 15:17:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=70.8
+2026-09-27 15:17:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:17:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:17:41 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw zazavol img' atts=0 ref=False msg_type=0
+2026-09-27 15:17:41 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=zzv role=owner union=-]: '/wdsj bw zazavol img'
+2026-09-27 15:17:41 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_cvcqjY4Y2He-.SaNTXq5OrgsEy0Ir4h9VUPHu1NzCfZtpDB3gfrwxrLRQiiDr8BaZiVgIEosNZQp.EJUncowLYSaTrHNS1pRpIfe6WprFovVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:17:41 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:17:41 INFO  pipeline:503      指令拦截: '/wdsj bw zazavol img' from=zzv
+2026-09-27 15:17:41 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw', 'zazavol', 'img'] user=qq:1C5C0796A343AC96AAB69DF004931A14
+2026-09-27 15:17:41 INFO  commands:2828     查询wdsj战绩: player=zazavol template=bedwars-stats img=True
+2026-09-27 15:17:43 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=29 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp3nNyl7JfPRg3WisbWuVQqmFSB9FNBFS9Homrla-5F5mhXH23UwWDXwdos0cEHELKQ!!
+2026-09-27 15:17:49 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_5a4b6078.png size=218002 ttl=86400
+2026-09-27 15:17:50 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_online keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:17:52 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp-C.Gyf46shT8uSTY.D1LCUPDOeoM2nKt1pZ-02lXXtnhN7bYI5HI-cq2TY9vhk4BQ!!
+2026-09-27 15:17:52 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:17:52 INFO  logger:541        [TRACE dc0248b9861448a6] total=10629.1ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10629.05ms(x1) (wall10629.05), queue_wait=0.37ms(x1)
+2026-09-27 15:17:52 WARN  logger:559        [VERY_SLOW dc0248b9861448a6] total=10629.45ms 需重点排查 | process=10629.05ms(x1) (wall10629.05), queue_wait=0.37ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.37ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10629.05ms wall=10629.44ms dominant=other
+2026-09-27 15:17:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=70.8
+2026-09-27 15:17:56 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:17:56 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:17:56 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw img' atts=0 ref=False msg_type=0
+2026-09-27 15:17:56 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/wdsj bw img'
+2026-09-27 15:17:56 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7O0qbAdfGjsyvSNau7EhSi8DQ56NyWbcJXThdbLHe8NCaf0rF6W2na9R-ub3lkUGUiN6FgqgbjOcZ8yrDAYZ6TDnVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:17:56 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:17:56 INFO  pipeline:503      指令拦截: '/wdsj bw img' from=poll:
+2026-09-27 15:17:56 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw', 'img'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
+2026-09-27 15:17:56 INFO  commands:2828     查询wdsj战绩: player=poll_results_in template=bedwars-stats img=True
+2026-09-27 15:17:58 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=37 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwo53lYkEg1B7eHYCINYU02vGaKf-x5M6e37scwhPL1FKAn1Opy4aLMePrOqSoSviw!!
+2026-09-27 15:18:04 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_fbf10c74.png size=221906 ttl=86400
+2026-09-27 15:18:07 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8HG89fQUT5iuHFJZ3JE2zt9oL4b0gq4CXIwrQaiXVkhWGflDf0SAVnZZOOq6-4lEw!!
+2026-09-27 15:18:07 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:18:07 INFO  logger:541        [TRACE eb04ae32c03944f7] total=10214.04ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10213.98ms(x1) (wall10213.98), queue_wait=0.29ms(x1)
+2026-09-27 15:18:07 WARN  logger:559        [VERY_SLOW eb04ae32c03944f7] total=10215.0ms 需重点排查 | process=10213.98ms(x1) (wall10213.98), queue_wait=0.29ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.29ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10213.98ms wall=10214.98ms dominant=other
+2026-09-27 15:18:07 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:18:07 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj me' atts=0 ref=False msg_type=0
+2026-09-27 15:18:07 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/wdsj me'
+2026-09-27 15:18:07 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rMvBTQO.qjykqG0UdJ2xiCSGVfJYbHt4r5py915aR9.4M4BMsrNO5nGgbjq1D-yQROJ0XH2UWxBwDDsEx7sriIzVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:18:07 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:18:07 INFO  pipeline:503      指令拦截: '/wdsj me' from=若尘 ~喵
+2026-09-27 15:18:07 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-09-27 15:18:07 INFO  commands:2518     wdsj 单模板查询: player=yzandwss template=bw(bedwars-stats) img=True
