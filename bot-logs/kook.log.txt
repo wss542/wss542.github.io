@@ -1,14 +1,4 @@
-# 更新于 2026-09-27 15:44:34 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:23:17 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-09-27 15:23:17 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
-2026-09-27 15:23:17 INFO  pipeline:503      指令拦截: '/wdsj bw Nurje_ img' from=zzv
-2026-09-27 15:23:17 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw', 'Nurje_', 'img'] user=qq:1C5C0796A343AC96AAB69DF004931A14
-2026-09-27 15:23:17 INFO  commands:2828     查询wdsj战绩: player=Nurje_ template=bedwars-stats img=True
-2026-09-27 15:23:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
-2026-09-27 15:23:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:23:18 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=28 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4GmgxxrSaiG7oGR.ErJ7QS6BFmb2jalVbrFuNA96zaEfuH0zETcjmq3aEdAP3tD9Q!!
-2026-09-27 15:23:25 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_f621dc93.png size=211728 ttl=86400
-2026-09-27 15:23:27 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8soENewqcKK49QdlaCEFnX6FEn6u85.4BAfgc9uSaKZiQD84RYBg0tsA8yIZxMT7Q!!
+# 更新于 2026-09-27 15:45:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:23:27 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
 2026-09-27 15:23:27 INFO  logger:541        [TRACE 6d9cfd96072a4817] total=10610.44ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10610.35ms(x1) (wall10610.35), queue_wait=0.66ms(x1)
 2026-09-27 15:23:27 WARN  logger:559        [VERY_SLOW 6d9cfd96072a4817] total=10610.72ms 需重点排查 | process=10610.35ms(x1) (wall10610.35), queue_wait=0.66ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.66ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10610.35ms wall=10610.7ms dominant=other
@@ -1499,3 +1489,13 @@
 2026-09-27 15:44:02 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
 2026-09-27 15:44:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
 2026-09-27 15:44:31 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:44:53 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-27 15:44:53 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-09-27 15:44:53 INFO  commands:2816     查询wdsj战绩: player=ymb099 template=luckypillars-stats img=False
+2026-09-27 15:44:53 WARN  kook_transport:83 私聊频道未缓存，无法主动发送: 0
+2026-09-27 15:44:54 INFO  commands:2816     查询wdsj战绩: player=ymb099 template=csgo-stats img=False
+2026-09-27 15:44:54 WARN  kook_transport:83 私聊频道未缓存，无法主动发送: 0
+2026-09-27 15:45:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.7 mem=70.8
+2026-09-27 15:45:01 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:45:01 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-09-27 15:45:01 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
