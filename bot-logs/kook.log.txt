@@ -1,42 +1,4 @@
-# 更新于 2026-09-27 15:35:05 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:17:16 INFO  holiday:96        节假日每日刷新: 等待 31369 秒 (下次 00:00:05)
-2026-09-27 15:17:16 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-27 15:17:16 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-09-27 15:17:16 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-27 15:17:16 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-27 15:17:16 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-27 15:17:16 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-27 15:17:16 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-27 15:17:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.4 mem=70.8
-2026-09-27 15:17:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:17:17 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-27 15:17:17 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-27 15:17:18 INFO  holiday:57        节假日: 2026-09-27 → 中秋节
-2026-09-27 15:17:18 INFO  holiday:105       节假日服务已启动
-2026-09-27 15:17:18 INFO  holiday:96        节假日每日刷新: 等待 31367 秒 (下次 00:00:05)
-2026-09-27 15:17:18 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-09-27 15:17:19 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-27 15:17:19 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-27 15:17:19 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-27 15:17:19 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-27 15:17:19 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-27 15:17:25 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:17:25 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj vw' atts=0 ref=False msg_type=0
-2026-09-27 15:17:25 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/wdsj vw'
-2026-09-27 15:17:25 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7O6vz1ZZcXjy-F1aWlDA4K7vN0YzSBDPFFtFyObTMQlFR3XhlFnoGXVD5D-da8z8nwb-SeB4lGxacdNM7ZP44wzHVAZ8hyGx8lEpG-reXU4Pt
-2026-09-27 15:17:25 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
-2026-09-27 15:17:25 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-09-27 15:17:25 INFO  identity:92       身份映射已载入 1 条
-2026-09-27 15:17:25 INFO  pipeline:503      指令拦截: '/wdsj vw' from=poll:
-2026-09-27 15:17:25 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['vw'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
-2026-09-27 15:17:25 INFO  commands:4917     指令执行完成 [wdsj]: 返回28字符
-2026-09-27 15:17:27 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=28 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2N7X0mDcYDktRUfViFIHhVPNHNd37bxwRHA-Ig4kwKDtCU9Oxr61MQVN3wuwTuq4w!!
-2026-09-27 15:17:27 INFO  logger:541        [TRACE aafb7751fd444617] total=1638.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1638.59ms(x1) (wall1638.59), queue_wait=1.15ms(x1)
-2026-09-27 15:17:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:17:34 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw' atts=0 ref=False msg_type=0
-2026-09-27 15:17:34 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/wdsj bw'
-2026-09-27 15:17:34 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7OzYn5toCGJaLwy2ikp19dk9RYghke8dndu8fwsQdt3jXU2xRfpBuFFviP8C2o8MPANKTnlGRaJmdcvhqW4BAFbfVAZ8hyGx8lEpG-reXU4Pt
-2026-09-27 15:17:34 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+# 更新于 2026-09-27 15:35:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:17:34 INFO  pipeline:503      指令拦截: '/wdsj bw' from=poll:
 2026-09-27 15:17:34 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
 2026-09-27 15:17:34 INFO  commands:2828     查询wdsj战绩: player=poll_results_in template=bedwars-stats img=False
@@ -1499,3 +1461,41 @@
 2026-09-27 15:35:00 DEBG  response_delivery:297 已发送第 1/1 条: 主人这是在学小猫哈气嘛~ 好可爱喵！(emj)开心 1(em...
 2026-09-27 15:35:00 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
 2026-09-27 15:35:00 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-09-27 15:35:06 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:35:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='喵...' is_edit=False
+2026-09-27 15:35:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:35:06 INFO  dispatcher:316    📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='喵...'
+2026-09-27 15:35:06 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:35:06 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 9条 (阈值=10)
+2026-09-27 15:35:06 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='喵...'
+2026-09-27 15:35:06 INFO  logger:541        [TRACE 783e72454dde4dd9] total=1.96ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.89ms(x1) (wall1.89), queue_wait=0.33ms(x1)
+2026-09-27 15:35:12 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:35:12 DEBG  dispatcher:47     dispatch 入口: type=9 content='（）' is_edit=False
+2026-09-27 15:35:12 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-09-27 15:35:12 INFO  dispatcher:316    📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='（）'
+2026-09-27 15:35:12 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:35:12 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
+2026-09-27 15:35:12 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
+2026-09-27 15:35:12 INFO  logger:541        [TRACE cb848ed99bec4eee] total=4.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.07ms(x1) (wall4.07), queue_wait=0.9ms(x1)
+2026-09-27 15:35:12 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-27 15:35:12 INFO  engine:92         异步记忆提炼完成 chat=7274785942250691: 候选5 新增5
+2026-09-27 15:35:15 INFO  llm:497           LLM [deepseek-flash] 返回 1053字符 耗时2.7s → "[16:33:54] ywandwss: ywandwss: /禁言 @ywandwss 120 (..."
+2026-09-27 15:35:15 INFO  memory:223        [7274785942250691] 压缩完成: 10条消息 → 保存
+2026-09-27 15:35:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:35:18 DEBG  dispatcher:47     dispatch 入口: type=9 content='我也要走了' is_edit=False
+2026-09-27 15:35:18 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-09-27 15:35:18 INFO  dispatcher:316    📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='我也要走了'
+2026-09-27 15:35:18 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:35:18 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+2026-09-27 15:35:18 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='我也要走了'
+2026-09-27 15:35:18 INFO  logger:541        [TRACE b7b999f55e794d83] total=1.21ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.15ms(x1) (wall1.15), queue_wait=0.33ms(x1)
+2026-09-27 15:35:31 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:35:31 DEBG  dispatcher:47     dispatch 入口: type=9 content='嗯......' is_edit=False
+2026-09-27 15:35:31 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:35:31 INFO  dispatcher:316    📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='嗯......'
+2026-09-27 15:35:31 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:35:31 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+2026-09-27 15:35:31 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='嗯......'
+2026-09-27 15:35:31 INFO  logger:541        [TRACE 6e471715e77047c9] total=1.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.3ms(x1)
+2026-09-27 15:35:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=70.8
+2026-09-27 15:35:33 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
