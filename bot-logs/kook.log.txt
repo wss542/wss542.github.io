@@ -1,27 +1,4 @@
-# 更新于 2026-09-27 11:34:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 09:21:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.3 mem=71.9
-2026-09-27 09:21:00 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:21:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=59.0 mem=71.9
-2026-09-27 09:21:30 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:22:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.7 mem=71.9
-2026-09-27 09:22:03 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:22:18 WARN  phone_status:603  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer
-2026-09-27 09:22:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=71.9
-2026-09-27 09:22:33 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:23:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.4 mem=71.9
-2026-09-27 09:23:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:23:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.1 mem=71.9
-2026-09-27 09:23:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:24:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.4 mem=71.9
-2026-09-27 09:24:05 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:24:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=35.4 mem=71.9
-2026-09-27 09:24:36 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:25:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.1 mem=71.9
-2026-09-27 09:25:07 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:25:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=38.6 mem=71.9
-2026-09-27 09:25:38 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 09:26:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=40.6 mem=71.9
-2026-09-27 09:26:09 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-09-27 11:35:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 09:26:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=71.9
 2026-09-27 09:26:55 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-27 09:27:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.1 mem=71.9
@@ -1499,3 +1476,26 @@
 2026-09-27 11:34:01 INFO  bot:835           战绩采集将在 0h26m 后执行 (12:01)
 2026-09-27 11:34:01 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(76087s 前)，掉线状态延续，不重复告警
 2026-09-27 11:34:01 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 76087s 前）
+2026-09-27 11:34:11 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
+2026-09-27 11:34:11 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
+2026-09-27 11:34:11 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+2026-09-27 11:34:11 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+2026-09-27 11:34:11 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
+2026-09-27 11:34:11 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
+2026-09-27 11:34:11 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-09-27 11:34:19 WARN  phone_status:603  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>
+2026-09-27 11:34:22 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
+2026-09-27 11:34:22 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-27 11:34:22 WARN  holiday:47        节假日 API 拉取失败: [Errno -2] Name or service not known
+2026-09-27 11:34:22 INFO  holiday:105       节假日服务已启动
+2026-09-27 11:34:22 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-09-27 11:34:22 INFO  holiday:96        节假日每日刷新: 等待 44742 秒 (下次 00:00:05)
+2026-09-27 11:34:23 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-09-27 11:34:23 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
+2026-09-27 11:34:23 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-09-27 11:34:23 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-09-27 11:34:23 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-27 11:34:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.0 mem=70.6
+2026-09-27 11:34:38 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 11:34:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=35.7 mem=70.6
+2026-09-27 11:34:56 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
