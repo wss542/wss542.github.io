@@ -1,21 +1,4 @@
-# 更新于 2026-09-27 15:48:52 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:26:52 INFO  checkin:117       签到: u:337936062 streak=1 +5分
-2026-09-27 15:26:52 INFO  commands:4917     指令执行完成 [签到]: 返回38字符
-2026-09-27 15:26:52 INFO  logger:541        [TRACE ab5e0f9535114e51] total=584.48ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=584.37ms(x1) (wall584.37), queue_wait=0.31ms(x1)
-2026-09-27 15:27:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.1 mem=70.8
-2026-09-27 15:27:07 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:27:28 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:27:28 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/签到' atts=0 ref=False msg_type=0
-2026-09-27 15:27:28 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=落尘 role=member union=-]: '/签到'
-2026-09-27 15:27:28 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FjdeC30O8hnOi8yDL3fQx3sGNuu1.jHTUcrRbR23PHW-.QppLeJxUPEdSLEHnBs3s-rqQBN6iRgkuzca1W09q7KLBRmVlkxLjrxpPH7oQj3VAZ8hyGx8lEpG-reXU4Pt
-2026-09-27 15:27:28 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-09-27 15:27:28 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 7条 (阈值=10)
-2026-09-27 15:27:28 INFO  pipeline:503      指令拦截: '/签到' from=落尘
-2026-09-27 15:27:28 DEBG  commands:4862     指令解析: prefix=/ cmd=签到 args=[] user=qq:60CF36B09831B3F0C8949CC145D65ED4
-2026-09-27 15:27:28 INFO  checkin:117       签到: u:qq:60CF36B09831B3F0C8949CC145D65ED4 streak=1 +5分
-2026-09-27 15:27:28 INFO  commands:4917     指令执行完成 [签到]: 返回37字符
-2026-09-27 15:27:29 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=37 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpyGKowLqGobSf92cIxqJltrq51tTAQ3T5CR2aqpCcBYoc0KXQgXDsXSflN5aEWGEzQ!!
-2026-09-27 15:27:29 INFO  logger:541        [TRACE a8c9c1e1ace74658] total=1456.76ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1456.64ms(x1) (wall1456.64), queue_wait=0.8ms(x1)
+# 更新于 2026-09-27 15:49:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:27:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.0 mem=70.8
 2026-09-27 15:27:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-27 15:27:42 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1482,20 @@
 2026-09-27 15:48:27 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-27 15:48:42 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 2026-09-27 15:48:42 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-27 15:48:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=38.3 mem=70.8
+2026-09-27 15:48:57 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:49:09 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:49:09 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/mc  0 :30087' atts=0 ref=False msg_type=0
+2026-09-27 15:49:09 INFO  qq_bot:373        QQ 消息 [chat=qq:A32588CDB564613DFE86FDCDE28116F1 group=True from=傻鱼 role=admin union=-]: '/mc  0 :30087'
+2026-09-27 15:49:09 INFO  qq_bot:384        QQ 登记被动窗口 openid=A32588CDB564613DFE86FDCDE28116F1 group=True msg_id=ROBOT1.0_wR2qgsjSe.GqJKbieKaTxL.hEFP9hgo3Fbw6R6DWgPEuk0wEoVxv7xgDdyK0h7bzm82rNMP9qtoHKcnr.qwYsTqL4nGxf5w8ZI3Li4FcBHHvJYw94Gf2XvduFhFPmyNe
+2026-09-27 15:49:09 INFO  queues:32         [队列] 创建群qq:A32588CDB564613DFE86FDCDE28116F1 的独立消息队列
+2026-09-27 15:49:09 DEBG  queues:75         [队列] 群qq:A32588CDB564613DFE86FDCDE28116F1 消息已入队 (队长度=1)
+2026-09-27 15:49:09 INFO  fav:165           好感度首次注册: gqq:A32588CDB564613DFE86FDCDE28116F1:qq:CCD837389E896D4D14731AC7C69F2CB0 = 50
+2026-09-27 15:49:09 INFO  identity:92       身份映射已载入 1 条
+2026-09-27 15:49:09 INFO  pipeline:503      指令拦截: '/mc  0 :30087' from=傻鱼
+2026-09-27 15:49:09 DEBG  commands:4862     指令解析: prefix=/ cmd=mc args=[' 0 :30087'] user=qq:CCD837389E896D4D14731AC7C69F2CB0
+2026-09-27 15:49:09 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-09-27 15:49:12 INFO  commands:4917     指令执行完成 [mc]: 返回119字符
+2026-09-27 15:49:13 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=A32588CDB564613DFE86FDCDE28116F1 len=119 seq=1 id=ROBOT1.0_2nlCEqFkFEm-ipr40CVUpMNVl2NJuqJmcBjVR-UFt3vJhE5avjJkScRG.vUhks1xGzwCAOhwe90d2EG1Mi-YSg!!
+2026-09-27 15:49:13 INFO  logger:541        [TRACE cf58251ef57e4571] total=4457.67ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4457.56ms(x1) (wall4457.56), queue_wait=0.97ms(x1)
+2026-09-27 15:49:13 WARN  logger:564        [SLOW cf58251ef57e4571] total=4459.25ms | process=4457.56ms(x1) (wall4457.56), queue_wait=0.97ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.97ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4457.56ms wall=4457.99ms dominant=other
