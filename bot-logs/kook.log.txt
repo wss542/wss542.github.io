@@ -1,20 +1,4 @@
-# 更新于 2026-09-27 15:32:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:17:14 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-27 15:17:14 INFO  bot:111           上下文管理器已初始化
-2026-09-27 15:17:14 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 15:17:14 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-27 15:17:14 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-27 15:17:14 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
+# 更新于 2026-09-27 15:33:16 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: chou@1.0.0
 2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
 2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
@@ -1499,3 +1483,19 @@
 2026-09-27 15:32:28 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
 2026-09-27 15:32:28 INFO  logger:541        [TRACE 1e87cf0121924d73] total=10392.26ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10392.13ms(x1) (wall10392.13), queue_wait=0.96ms(x1)
 2026-09-27 15:32:28 WARN  logger:559        [VERY_SLOW 1e87cf0121924d73] total=10392.61ms 需重点排查 | process=10392.13ms(x1) (wall10392.13), queue_wait=0.96ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.96ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10392.13ms wall=10392.58ms dominant=other
+2026-09-27 15:32:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.0 mem=70.8
+2026-09-27 15:32:45 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:33:05 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:33:05 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/余额' atts=0 ref=False msg_type=0
+2026-09-27 15:33:05 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/余额'
+2026-09-27 15:33:05 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rNBou-qRsu7BDypXwGPdtdSFmOt-1tMc2xdcdgEoB67FhCSSIa6bdypXn9RyWiqjrdQ.H1W3BvjEFDAmrKG79YjVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:33:05 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:33:05 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-09-27 15:33:05 INFO  pipeline:503      指令拦截: '/余额' from=若尘 ~喵
+2026-09-27 15:33:05 DEBG  commands:4862     指令解析: prefix=/ cmd=余额 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-09-27 15:33:05 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-09-27 15:33:05 INFO  commands:4917     指令执行完成 [余额]: 返回57字符
+2026-09-27 15:33:06 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=57 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2UFuRiH8vgn5RRmKAwUj604yWl5RKVFD2ZdpLB86.H9xmRdJ4g95MvWVfyXM6QodQ!!
+2026-09-27 15:33:06 INFO  logger:541        [TRACE 97f33430e5a04f08] total=1914.75ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1914.68ms(x1) (wall1914.68), queue_wait=0.38ms(x1)
+2026-09-27 15:33:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.0 mem=70.8
+2026-09-27 15:33:15 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
