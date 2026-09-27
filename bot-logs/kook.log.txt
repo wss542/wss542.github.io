@@ -1,23 +1,4 @@
-# 更新于 2026-09-27 15:57:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:24 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-2026-09-27 15:29:24 INFO  pipeline:503      指令拦截: '/update' from=ywandwss
-2026-09-27 15:29:24 DEBG  commands:4862     指令解析: prefix=/ cmd=update args=[] user=1759953618
-2026-09-27 15:29:24 INFO  commands:4917     指令执行完成 [update]: 返回21字符
-2026-09-27 15:29:24 INFO  logger:541        [TRACE 85c639ef9ab44a91] total=610.43ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=610.29ms(x1) (wall610.29), queue_wait=0.82ms(x1)
-2026-09-27 15:29:27 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_3a76142b.png size=210682 ttl=86400
-2026-09-27 15:29:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
-2026-09-27 15:29:29 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:29:29 INFO  snapshot:79       创建快照 a2e7188fdfba: 备份 1 个文件
-2026-09-27 15:29:30 WARN  safe_update:678   文件 phone_tunnel_url.txt 本地 blob 与记录不一致（外部改动），先尝试行级合并
-2026-09-27 15:29:30 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7KePDSDvlF8GpxB98M4Ub7FlkDoxw97k7JTXKLCoUK1UeF6r7XyUJpR36fpAxuGCw!!
-2026-09-27 15:29:30 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
-2026-09-27 15:29:30 INFO  logger:541        [TRACE 9226e54a3385410c] total=9870.05ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9869.96ms(x1) (wall9869.96), queue_wait=0.56ms(x1)
-2026-09-27 15:29:30 WARN  logger:564        [SLOW 9226e54a3385410c] total=9871.42ms | process=9869.96ms(x1) (wall9869.96), queue_wait=0.56ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.56ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9869.96ms wall=9871.39ms dominant=other
-2026-09-27 15:29:31 INFO  auto_update:173   更新成功，已安排 5 秒后自动重启
-2026-09-27 15:29:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:29:34 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj 竞技场 silly_fishhhh img' atts=0 ref=False msg_type=0
-2026-09-27 15:29:34 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=zzv role=owner union=-]: '/wdsj 竞技场 silly_fishhhh img'
-2026-09-27 15:29:34 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_cvcqjY4Y2He-.SaNTXq5OmltobZC5zOVXg6IMd00PylrCGm78YXfKPOrSbDrvjuhL4-kUObbhu7W0fu4Ddliahr7K6txpODGsiIcqCyM1prVAZ8hyGx8lEpG-reXU4Pt
+# 更新于 2026-09-27 15:58:11 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:34 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
 2026-09-27 15:29:34 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 10条 (阈值=10)
 2026-09-27 15:29:34 INFO  pipeline:503      指令拦截: '/wdsj 竞技场 silly_fishhhh img' from=zzv
@@ -1499,3 +1480,22 @@
 2026-09-27 15:56:55 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
 2026-09-27 15:57:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
 2026-09-27 15:57:10 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:57:43 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:57:43 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj are-modern silly_fishhhhh img' atts=0 ref=False msg_type=0
+2026-09-27 15:57:43 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=阿鱼阿鱼 role=member union=-]: '/wdsj are-modern silly_fishhhhh img'
+2026-09-27 15:57:43 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_nWPC.vscMqnjrVGCybF03gOgK82OE8fbqCA7X1.lEAT-sugBy4Uty.5F-9xYBAK.BoSjRQUBq41lqscxMtWAegO6EnC-R2ZQctnCZ0M0zD1txQCTepAyDNxCoDSX9nph
+2026-09-27 15:57:43 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:57:43 INFO  fav:165           好感度首次注册: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:E1874B4B33403791C238043D8B42896E = 50
+2026-09-27 15:57:43 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
+2026-09-27 15:57:43 INFO  pipeline:503      指令拦截: '/wdsj are-modern silly_fishhhhh img' from=阿鱼阿鱼
+2026-09-27 15:57:43 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['are-modern', 'silly_fishhhhh', 'img'] user=qq:E1874B4B33403791C238043D8B42896E
+2026-09-27 15:57:43 INFO  commands:2828     查询wdsj战绩: player=silly_fishhhhh template=arena-modern-stats img=True
+2026-09-27 15:57:43 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-09-27 15:57:44 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=38 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwuG-.TQWINoYnIKmmHAiDImSphToJBR5-jETCq09bqpazZA5c7oiZFXB3..26vBWA!!
+2026-09-27 15:57:51 INFO  qq_transport:638  QQ 分片上传成功 file=wdsj_20260927_1ad84a22.png size=170636 ttl=86400
+2026-09-27 15:57:54 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpx3-rYVl67YLVbra.DqDNfxepgkxuZO6DNQt2udD.hV55liFprpF0atF0eMd2WHCHw!!
+2026-09-27 15:57:54 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 15:57:54 INFO  logger:541        [TRACE 1b97b2d743d242fd] total=11298.39ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11298.31ms(x1) (wall11298.31), queue_wait=0.59ms(x1)
+2026-09-27 15:57:54 WARN  logger:559        [VERY_SLOW 1b97b2d743d242fd] total=11298.75ms 需重点排查 | process=11298.31ms(x1) (wall11298.31), queue_wait=0.59ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.59ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=11298.31ms wall=11298.74ms dominant=other
+2026-09-27 15:57:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
+2026-09-27 15:57:56 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
