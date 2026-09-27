@@ -1,56 +1,4 @@
-# 更新于 2026-09-27 16:02:00 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-27 15:29:45 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-27 15:29:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-27 15:29:45 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-27 15:29:45 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-27 15:29:45 INFO  events:94         ==================================================
-2026-09-27 15:29:45 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-27 15:29:45 INFO  events:94         ==================================================
-2026-09-27 15:29:45 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-27 15:29:45 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-27 15:29:45 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-27 15:29:45 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-27 15:29:45 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-27 15:29:45 INFO  bot:835           战绩采集将在 0h31m 后执行 (16:01)
-2026-09-27 15:29:45 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(90232s 前)，掉线状态延续，不重复告警
-2026-09-27 15:29:45 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 90232s 前）
-2026-09-27 15:29:47 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-09-27 15:29:47 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
+# 更新于 2026-09-27 16:02:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:47 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
 2026-09-27 15:29:47 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
 2026-09-27 15:29:47 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
@@ -1499,3 +1447,55 @@
 2026-09-27 16:01:20 INFO  logger:541        [TRACE 3a261dada51648d6] total=8.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.34ms(x1) (wall8.34), queue_wait=0.39ms(x1)
 2026-09-27 16:01:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
 2026-09-27 16:01:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 16:02:01 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 16:02:01 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='lb bwb' atts=0 ref=False msg_type=0
+2026-09-27 16:02:01 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=𝓛𝓸𝓿𝓲𝓷𝓰 role=member union=-]: 'lb bwb'
+2026-09-27 16:02:01 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_2TSz8JTyjVF-MCMRl9IqWpTbohyJ6gQQ0O93K988IJnkfyt4cOP89yQzcNQUSHeaH4brdtIlDpQqb1rBuuOclbZVa07lylIMzU2tvTru30dtxQCTepAyDNxCoDSX9nph
+2026-09-27 16:02:01 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 16:02:01 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 4条 (阈值=10)
+2026-09-27 16:02:01 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='lb bwb'
+2026-09-27 16:02:01 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-09-27 16:02:01 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='lb bwb'
+2026-09-27 16:02:01 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-09-27 16:02:01 DEBG  memory:331        记忆检索: source=legacy_file status=miss 命中注入=0 耗时=8.8ms
+2026-09-27 16:02:01 INFO  pipeline:866      额外信息: 369字 (memory=68 search=0)
+2026-09-27 16:02:01 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-09-27 16:02:01 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-09-27 16:02:01 INFO  pipeline:1139     开始生成回复: speaker=𝓛𝓸𝓿𝓲𝓷𝓰 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 16:02:04 ERRO  llm:665           LLM FC [Qwen/Qwen3.5-397B-A1] 失败: 'NoneType' object is not subscriptable
+2026-09-27 16:02:10 INFO  llm:1048          LLM 首调用选择模型: Qwen/Qwen3.8-Flash-Next (content={"replies":["诶？'lb bwb' 是想打 bw（起床战争）吗，手指打滑了喵？","要查战绩的话给我个玩家名就行~"],"fav":1,"calls":[],"face":"(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","mood":"好奇","action":"","at":null,"origin":"user","actor":... tool_calls=0)
+2026-09-27 16:02:10 INFO  llm:1067          LLM原始输出 [轮1]: content={"replies":["诶？'lb bwb' 是想打 bw（起床战争）吗，手指打滑了喵？","要查战绩的话给我个玩家名就行~"],"fav":1,"calls":[],"face":"(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","mood":"好奇","action":"","at":null,"origin":"user","actor": | tool_calls=0
+2026-09-27 16:02:10 INFO  face_lib:64       表情库加载: 90 关键词 / 7 主干 / 31 文件
+2026-09-27 16:02:10 INFO  llm:1410          JSON回复解析: 2句 fav=+1 calls=0 mood=好奇
+2026-09-27 16:02:10 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:2C9068CB43046FB0A325FA1A51E3C58C +1 → 51
+2026-09-27 16:02:10 INFO  pipeline:1622     好感度调整: 𝓛𝓸𝓿𝓲𝓷𝓰 +1 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+2026-09-27 16:02:10 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 5 条
+2026-09-27 16:02:10 INFO  pipeline:1628     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 16:02:10 INFO  logger:541        [TRACE 7fe8e8a439c34efe] total=9057.19ms severity=slow_request | llm_calls=2 total=8991.34ms avg=4495.67ms max=6523.87ms p50=4495.67 p95=6321.05 p99=6483.31 | json_parse=0.25ms(x1), llm=9017.03ms(x1), memory=17.9ms(x2), message_retrieval=9.93ms(x2), process=9057.1ms(x1) (wall9057.1), queue_wait=0.73ms(x1)
+2026-09-27 16:02:10 WARN  logger:564        [SLOW 7fe8e8a439c34efe] total=9057.62ms | json_parse=0.25ms(x1), llm=9017.03ms(x1), memory=17.9ms(x2), message_retrieval=9.93ms(x2), process=9057.1ms(x1) (wall9057.1), queue_wait=0.73ms(x1) | llm_calls=2 total=8991.34ms avg=4495.67ms max=6523.87ms p50=4495.67 p95=6321.05 p99=6483.31 | perf: queue=0.73ms llm=9017.28ms search_tool=0.0ms delivery=0.0ms other=9084.93ms wall=9057.6ms dominant=other
+2026-09-27 16:02:10 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
+2026-09-27 16:02:10 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-27 16:02:12 INFO  llm:497           LLM [deepseek-flash] 返回 251字符 耗时1.1s → "[16:02:10] 若尘 ~喵: /wdsj list, 阿鱼阿鱼: /wdsj are-mode..."
+2026-09-27 16:02:12 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 5条消息 → 保存
+2026-09-27 16:02:12 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 16:02:12 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wdsj lb bwb' atts=0 ref=False msg_type=0
+2026-09-27 16:02:12 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=𝓛𝓸𝓿𝓲𝓷𝓰 role=member union=-]: 'wdsj lb bwb'
+2026-09-27 16:02:12 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_2TSz8JTyjVF-MCMRl9IqWgQbJ0-hndmGboEVbpsPr8veSdSrYg0fhD1S71UFIkaMi4AT7WidyjjHpbXdttnc46sV6.JV5hRLo6fNqr6tq8vVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 16:02:12 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 16:02:12 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 5条 (阈值=10)
+2026-09-27 16:02:12 INFO  pipeline:496      裸命令识别: '/wdsj lb bwb' from=𝓛𝓸𝓿𝓲𝓷𝓰
+2026-09-27 16:02:12 INFO  pipeline:503      指令拦截: '/wdsj lb bwb' from=𝓛𝓸𝓿𝓲𝓷𝓰
+2026-09-27 16:02:12 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['lb', 'bwb'] user=qq:2C9068CB43046FB0A325FA1A51E3C58C
+2026-09-27 16:02:12 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=49 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2Uv1Vew3WtORU1z8G-QMNfykSXGWIaNE20mKlj2V8WoO4wgfnktxi8f.B-EhrsE5w!!
+2026-09-27 16:02:12 DEBG  response_delivery:297 已发送第 1/1 条: 诶？'lb bwb' 是想打 bw（起床战争）吗，手指打滑了...
+2026-09-27 16:02:12 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 16:02:12 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-09-27 16:02:13 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=14 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp48AE3RUx3nw3DfOh50XFcXbs.0SvvNW154V-uGcjq2gYj8GTeBMrLnQhDGGB1cnqg!!
+2026-09-27 16:02:14 INFO  qq_transport:638  QQ 分片上传成功 file=疑问(探寻).webp size=38738 ttl=86400
+2026-09-27 16:02:15 INFO  commands:4917     指令执行完成 [wdsj]: 返回357字符
+2026-09-27 16:02:16 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=357 seq=3 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0SrYiO3avqSV2zlkzqLQ.f19Bq49KT1wk3cAnoXQuwpGYrzYrYQBIxu1WhT.If9.w!!
+2026-09-27 16:02:16 INFO  logger:541        [TRACE 75a7d6bfe0cd4c4f] total=4060.5ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4060.46ms(x1) (wall4060.46), queue_wait=0.37ms(x1)
+2026-09-27 16:02:16 WARN  logger:564        [SLOW 75a7d6bfe0cd4c4f] total=4060.83ms | process=4060.46ms(x1) (wall4060.46), queue_wait=0.37ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.37ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4060.46ms wall=4060.81ms dominant=other
+2026-09-27 16:02:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.0 mem=70.8
+2026-09-27 16:02:16 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 16:02:17 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzGXLSI0hhe5Fz7MASq0gTgFg4FRVbz4EgEMbzoP63t2YnC-bzj3alGNVPyYHjLm6w!!
