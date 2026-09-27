@@ -1,30 +1,4 @@
-# 更新于 2026-09-27 15:33:46 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:17:14 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-09-27 15:17:14 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-09-27 15:17:14 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-09-27 15:17:14 INFO  events:94         上下文管理器已初始化
-2026-09-27 15:17:14 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 15:17:14 INFO  events:94         事件分发器已就绪
-2026-09-27 15:17:14 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-09-27 15:17:14 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-09-27 15:17:14 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-09-27 15:17:14 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-09-27 15:17:14 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+# 更新于 2026-09-27 15:34:19 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: echo@1.0.0
 2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
 2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
@@ -1499,3 +1473,29 @@
 2026-09-27 15:33:44 INFO  logger:541        [TRACE 2d470e32981f4c9a] total=1.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.7ms(x1) (wall1.7), queue_wait=0.51ms(x1)
 2026-09-27 15:33:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.2 mem=70.8
 2026-09-27 15:33:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:33:50 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:50 DEBG  dispatcher:47     dispatch 入口: type=9 content='\\(\\)' is_edit=False
+2026-09-27 15:33:50 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-09-27 15:33:50 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='\\(\\)'
+2026-09-27 15:33:50 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:33:50 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
+2026-09-27 15:33:50 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='\(\)'
+2026-09-27 15:33:50 INFO  logger:541        [TRACE c11cd0a0a4d64337] total=1.83ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.77ms(x1) (wall1.77), queue_wait=0.28ms(x1)
+2026-09-27 15:34:00 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:34:00 DEBG  dispatcher:47     dispatch 入口: type=9 content='“管理员禁不掉”' is_edit=False
+2026-09-27 15:34:00 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:34:00 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='“管理员禁不掉”'
+2026-09-27 15:34:00 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:34:00 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
+2026-09-27 15:34:00 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='“管理员禁不掉”'
+2026-09-27 15:34:00 INFO  logger:541        [TRACE b188251222704ab8] total=1.81ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.76ms(x1) (wall1.76), queue_wait=0.58ms(x1)
+2026-09-27 15:34:05 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:34:05 DEBG  dispatcher:47     dispatch 入口: type=9 content='TAT' is_edit=False
+2026-09-27 15:34:05 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:34:05 INFO  dispatcher:316    📩 消息 #7 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='TAT'
+2026-09-27 15:34:05 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:34:05 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
+2026-09-27 15:34:05 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='TAT'
+2026-09-27 15:34:05 INFO  logger:541        [TRACE 036c1a40c2c345eb] total=2.14ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.09ms(x1) (wall2.09), queue_wait=0.41ms(x1)
+2026-09-27 15:34:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=47.5 mem=70.8
+2026-09-27 15:34:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
