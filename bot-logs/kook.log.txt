@@ -1,9 +1,4 @@
-# 更新于 2026-09-27 15:41:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:18:07 WARN  logger:559        [VERY_SLOW eb04ae32c03944f7] total=10215.0ms 需重点排查 | process=10213.98ms(x1) (wall10213.98), queue_wait=0.29ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.29ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10213.98ms wall=10214.98ms dominant=other
-2026-09-27 15:18:07 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:18:07 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj me' atts=0 ref=False msg_type=0
-2026-09-27 15:18:07 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/wdsj me'
-2026-09-27 15:18:07 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rMvBTQO.qjykqG0UdJ2xiCSGVfJYbHt4r5py915aR9.4M4BMsrNO5nGgbjq1D-yQROJ0XH2UWxBwDDsEx7sriIzVAZ8hyGx8lEpG-reXU4Pt
+# 更新于 2026-09-27 15:41:52 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:18:07 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
 2026-09-27 15:18:07 INFO  pipeline:503      指令拦截: '/wdsj me' from=若尘 ~喵
 2026-09-27 15:18:07 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:63C251709C77FDEE87FC502F866E3FB5
@@ -1499,3 +1494,8 @@
 2026-09-27 15:40:23 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-27 15:40:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=70.8
 2026-09-27 15:40:45 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:41:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.8 mem=70.8
+2026-09-27 15:41:15 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:41:41 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-27 15:41:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.5 mem=70.8
+2026-09-27 15:41:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
