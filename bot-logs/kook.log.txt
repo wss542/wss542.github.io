@@ -1,19 +1,4 @@
-# 更新于 2026-09-27 15:46:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:26:48 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rNUlkRQsv43IITQ4B1RYjPUt3fYtPbk5X4fikY6aNIVwW0S8Gj0-oKFo.x5oT0aNe0FBpMhP-fYgW2t0nOEJfNrVAZ8hyGx8lEpG-reXU4Pt
-2026-09-27 15:26:48 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-09-27 15:26:48 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
-2026-09-27 15:26:48 INFO  pipeline:503      指令拦截: '/签到' from=若尘 ~喵
-2026-09-27 15:26:48 DEBG  commands:4862     指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-09-27 15:26:48 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
-2026-09-27 15:26:48 INFO  commands:4917     指令执行完成 [签到]: 返回40字符
-2026-09-27 15:26:49 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-27 15:26:49 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
-2026-09-27 15:26:49 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-09-27 15:26:49 INFO  dispatcher:316    📩 消息 #15 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='/fuck'
-2026-09-27 15:26:49 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-27 15:26:49 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
-2026-09-27 15:26:49 INFO  pipeline:503      指令拦截: '/fuck' from=제미니 (shuangzi_1228)
-2026-09-27 15:26:49 DEBG  commands:4862     指令解析: prefix=/ cmd=fuck args=[] user=337936062
+# 更新于 2026-09-27 15:46:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:26:49 INFO  commands:4917     指令执行完成 [fuck]: 返回29字符
 2026-09-27 15:26:49 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=40 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp3dhblb-ANNvv4OvEXUWT8tb8EiIJ6A1Rg4pf05UHu02xRUIjLl8bj4EG0BMLHr1dQ!!
 2026-09-27 15:26:49 INFO  logger:541        [TRACE c1514d344a38492c] total=1534.64ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1534.49ms(x1) (wall1534.49), queue_wait=0.4ms(x1)
@@ -1499,3 +1484,18 @@
 2026-09-27 15:46:12 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
 2026-09-27 15:46:12 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
 2026-09-27 15:46:12 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-09-27 15:46:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=70.8
+2026-09-27 15:46:12 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:46:12 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-09-27 15:46:12 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-27 15:46:13 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-09-27 15:46:13 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
+2026-09-27 15:46:13 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-09-27 15:46:13 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-09-27 15:46:13 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-09-27 15:46:13 INFO  holiday:57        节假日: 2026-09-27 → 中秋节
+2026-09-27 15:46:13 INFO  holiday:105       节假日服务已启动
+2026-09-27 15:46:13 INFO  holiday:96        节假日每日刷新: 等待 29632 秒 (下次 00:00:05)
+2026-09-27 15:46:14 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-09-27 15:46:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
+2026-09-27 15:46:43 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
