@@ -1,15 +1,4 @@
-# 更新于 2026-09-27 15:18:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:30:26 INFO  events:94         日志系统已初始化
-2026-09-27 11:30:26 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-27 11:30:26 INFO  events:94         khl.py Bot 实例已创建
-2026-09-27 11:30:36 WARN  events:94         拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Name or service not known]（启动后仍可工作，但 @检测可能受影响）
-2026-09-27 11:30:36 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-27 11:30:36 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-27 11:30:36 INFO  events:94         消息发送器已初始化
-2026-09-27 11:30:37 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-27 11:30:37 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-27 11:30:37 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-27 11:30:37 INFO  events:94         用户名查询模块已初始化
+# 更新于 2026-09-27 15:19:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:30:37 INFO  guild_names:346   guild_names: 每日刷新任务已调度
 2026-09-27 11:30:37 INFO  events:94         服务器昵称每日刷新任务已调度
 2026-09-27 11:30:37 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
@@ -1499,3 +1488,14 @@
 2026-09-27 15:18:24 WARN  logger:559        [VERY_SLOW ff7a0d4a64694812] total=17079.39ms 需重点排查 | process=17078.72ms(x1) (wall17078.72), queue_wait=0.4ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.4ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=17078.72ms wall=17079.29ms dominant=other
 2026-09-27 15:18:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
 2026-09-27 15:18:27 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:18:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.2 mem=70.8
+2026-09-27 15:18:58 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:19:23 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 15:19:23 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj me' atts=0 ref=False msg_type=0
+2026-09-27 15:19:23 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=poll: role=member union=-]: '/wdsj me'
+2026-09-27 15:19:23 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_L0-CIqJdOAvqDuwigGS7O936OgpBnzpfOIvPfYCyAgJPOYaPAAMmUBfEM4tUPILYvWHi4Jku7z0lsKuUGGnRU4qIOqpjCdEyTrw15ivnzBXVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 15:19:23 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 15:19:23 INFO  pipeline:503      指令拦截: '/wdsj me' from=poll:
+2026-09-27 15:19:23 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['me'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
+2026-09-27 15:19:23 INFO  commands:2518     wdsj 单模板查询: player=poll_results_in template=bw(bedwars-stats) img=True
+2026-09-27 15:19:28 INFO  qq_transport:593  QQ 分片上传成功 file=wdsj_20260927_fbf10c74.png size=221906 ttl=86400
