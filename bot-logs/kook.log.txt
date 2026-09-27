@@ -1,27 +1,4 @@
-# 更新于 2026-09-27 16:00:14 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:36 INFO  auto_update:36    更新完成，自动重启进程...
-2026-09-27 15:29:42 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-09-27 15:29:42 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-09-27 15:29:44 INFO  events:94         ==================================================
-2026-09-27 15:29:44 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-09-27 15:29:44 INFO  events:94         ==================================================
-2026-09-27 15:29:44 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-09-27 15:29:44 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-09-27 15:29:44 INFO  events:94         语言文件已加载
-2026-09-27 15:29:44 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-09-27 15:29:44 INFO  events:94         日志系统已初始化
-2026-09-27 15:29:44 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-09-27 15:29:44 INFO  events:94         khl.py Bot 实例已创建
-2026-09-27 15:29:44 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-09-27 15:29:44 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-09-27 15:29:44 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-09-27 15:29:44 INFO  events:94         消息发送器已初始化
-2026-09-27 15:29:45 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-27 15:29:45 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-27 15:29:45 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-27 15:29:45 INFO  events:94         用户名查询模块已初始化
-2026-09-27 15:29:45 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-09-27 15:29:45 INFO  events:94         服务器昵称每日刷新任务已调度
+# 更新于 2026-09-27 16:01:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:45 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
 2026-09-27 15:29:45 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
 2026-09-27 15:29:45 INFO  events:94         上下文管理器已初始化
@@ -1499,3 +1476,26 @@
 2026-09-27 15:59:59 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-27 15:59:59 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=98 cpu=None mem=None
 2026-09-27 15:59:59 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-27 16:00:43 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 16:00:43 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wdsj lb bw win' atts=0 ref=False msg_type=0
+2026-09-27 16:00:43 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=𝓛𝓸𝓿𝓲𝓷𝓰 role=member union=-]: 'wdsj lb bw win'
+2026-09-27 16:00:43 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_2TSz8JTyjVF-MCMRl9IqWj2UBlH94TGT40EUa9y7-7siSSRzQgwIMbHwi2shNY7d1RgR6tPcaf0sPxlI3jyDkjlLd1nCGQFgDm7P1SutUW9txQCTepAyDNxCoDSX9nph
+2026-09-27 16:00:43 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 16:00:43 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-09-27 16:00:43 INFO  pipeline:496      裸命令识别: '/wdsj lb bw win' from=𝓛𝓸𝓿𝓲𝓷𝓰
+2026-09-27 16:00:43 INFO  pipeline:503      指令拦截: '/wdsj lb bw win' from=𝓛𝓸𝓿𝓲𝓷𝓰
+2026-09-27 16:00:43 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['lb', 'bw', 'win'] user=qq:2C9068CB43046FB0A325FA1A51E3C58C
+2026-09-27 16:00:43 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-09-27 16:00:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.0 mem=70.8
+2026-09-27 16:00:44 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 16:00:45 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=14 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2--5ZDzD1KlrG.dKwdZmTw5wy6r5FCzWbulUaYxkE6MeKQx9c0APxoxUzBHPHAPdQ!!
+2026-09-27 16:00:46 INFO  commands:4917     指令执行完成 [wdsj]: 返回350字符
+2026-09-27 16:00:47 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=350 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp97wi4m10OHgKFAV.5t8G2cGnZW3IeiZLpbgkQvvzevQ9CSxOmVWmYn4uDasxidL9Q!!
+2026-09-27 16:00:47 INFO  logger:541        [TRACE 96d2f496d103407b] total=4129.57ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4128.47ms(x1) (wall4128.47), queue_wait=0.59ms(x1)
+2026-09-27 16:00:47 WARN  logger:564        [SLOW 96d2f496d103407b] total=4129.98ms | process=4128.47ms(x1) (wall4128.47), queue_wait=0.59ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.59ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4128.47ms wall=4129.97ms dominant=other
+2026-09-27 16:01:00 INFO  wdsj_tracker:73   每日战绩采集: 4 个玩家 x 2 模板
+2026-09-27 16:01:05 INFO  wdsj_tracker:101  每日战绩采集完成: 8 条新记录
+2026-09-27 16:01:07 INFO  bot:878           日榜目标频道: [3649029148752421]
+2026-09-27 16:01:08 INFO  bot:882           日榜已发到频道 3649029148752421
+2026-09-27 16:01:08 INFO  bot:885           日榜已推送: 2 人 (2026-09-27)
+2026-09-27 16:01:08 INFO  bot:835           战绩采集将在 3h59m 后执行 (20:01)
