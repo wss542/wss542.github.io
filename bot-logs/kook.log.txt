@@ -1,8 +1,4 @@
-# 更新于 2026-09-27 16:03:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:29:53 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj jjc img' atts=0 ref=False msg_type=0
-2026-09-27 15:29:53 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/wdsj jjc img'
-2026-09-27 15:29:53 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rOxPFRevKizUs3FLa7yk.DQKQlzqybDEgypRJhHLGiQ0f6gtDBScsUqcyrzX-jlTyPpN-Uwdg.rc7W6XU5CnWCTVAZ8hyGx8lEpG-reXU4Pt
+# 更新于 2026-09-27 16:04:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:53 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
 2026-09-27 15:29:53 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
 2026-09-27 15:29:53 INFO  pipeline:503      指令拦截: '/wdsj jjc img' from=若尘 ~喵
@@ -1499,3 +1495,7 @@
 2026-09-27 16:03:06 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
 2026-09-27 16:03:06 INFO  logger:541        [TRACE 2beb0f973da14bc6] total=9655.91ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9655.84ms(x1) (wall9655.84), queue_wait=0.34ms(x1)
 2026-09-27 16:03:06 WARN  logger:564        [SLOW 2beb0f973da14bc6] total=9656.27ms | process=9655.84ms(x1) (wall9655.84), queue_wait=0.34ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.34ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9655.84ms wall=9656.24ms dominant=other
+2026-09-27 16:03:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=63.6 mem=70.8
+2026-09-27 16:03:17 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 16:03:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.5 mem=70.8
+2026-09-27 16:03:48 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
