@@ -1,12 +1,4 @@
-# 更新于 2026-09-27 15:25:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 11:34:01 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-27 11:34:01 INFO  events:94         ==================================================
-2026-09-27 11:34:01 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-27 11:34:01 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-27 11:34:01 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-09-27 11:34:01 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-27 11:34:01 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-27 11:34:01 INFO  bot:835           战绩采集将在 0h26m 后执行 (12:01)
+# 更新于 2026-09-27 15:25:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 11:34:01 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(76087s 前)，掉线状态延续，不重复告警
 2026-09-27 11:34:01 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 76087s 前）
 2026-09-27 11:34:11 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
@@ -1499,3 +1491,11 @@
 2026-09-27 15:25:20 WARN  logger:564        [SLOW 37aa978bb9e34f11] total=5720.55ms | json_parse=0.05ms(x1), llm=5704.92ms(x1), memory=10.67ms(x2), process=5720.06ms(x1) (wall5720.06), queue_wait=0.36ms(x1) | llm_calls=1 total=5702.52ms avg=5702.52ms max=5702.52ms p50=5702.52 p95=5702.52 p99=5702.52 | perf: queue=0.36ms llm=5704.97ms search_tool=0.0ms delivery=0.0ms other=5730.73ms wall=5720.51ms dominant=other
 2026-09-27 15:25:20 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-09-27 15:25:21 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=48 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8w5wN0-gv3fuoFPmTCY.l5noQtQyX8e0nGde75yGsMEP9G1PW849DF4jRYpnKw4kg!!
+2026-09-27 15:25:24 INFO  qq_transport:593  QQ 分片上传成功 file=tmpa9azfuzb.webp size=43026 ttl=86400
+2026-09-27 15:25:26 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8AcCD8JJckxRp2JLciwQieXiMlcLypvYOcFyhW72mD5rXTbeIvGHzoRruNwTGPBQQ!!
+2026-09-27 15:25:26 DEBG  qq_transport:366  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Hkyv4C6idN0k00k0.png (.webp 43026B)
+2026-09-27 15:25:26 DEBG  response_delivery:297 已发送第 1/1 条: 主人不想上学的话，茂密陪你一起宅着喵～(emj)开心 1(e...
+2026-09-27 15:25:26 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-09-27 15:25:26 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-09-27 15:25:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.5 mem=70.8
+2026-09-27 15:25:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
