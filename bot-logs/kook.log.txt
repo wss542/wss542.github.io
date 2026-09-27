@@ -1,54 +1,4 @@
-# 更新于 2026-09-27 15:33:16 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-09-27 15:17:14 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-27 15:17:14 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-27 15:17:14 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-27 15:17:14 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-27 15:17:14 INFO  bot:111           ==================================================
-2026-09-27 15:17:14 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-09-27 15:17:14 INFO  bot:111           ==================================================
-2026-09-27 15:17:14 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-09-27 15:17:14 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-09-27 15:17:14 INFO  queues:103        [队列] 渲染队列已启动
-2026-09-27 15:17:14 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-09-27 15:17:14 INFO  events:94         QQ open-platform channel started
-2026-09-27 15:17:14 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-09-27 15:17:14 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-09-27 15:17:14 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-09-27 15:17:14 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-09-27 15:17:14 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-09-27 15:17:14 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-09-27 15:17:14 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-09-27 15:17:14 INFO  events:94         用户名查询模块已初始化
-2026-09-27 15:17:14 INFO  guild_names:346   guild_names: 每日刷新任务已调度
+# 更新于 2026-09-27 15:33:46 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:17:14 INFO  events:94         服务器昵称每日刷新任务已调度
 2026-09-27 15:17:14 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
 2026-09-27 15:17:14 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
@@ -1499,3 +1449,53 @@
 2026-09-27 15:33:06 INFO  logger:541        [TRACE 97f33430e5a04f08] total=1914.75ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1914.68ms(x1) (wall1914.68), queue_wait=0.38ms(x1)
 2026-09-27 15:33:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.0 mem=70.8
 2026-09-27 15:33:15 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:33:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:20 DEBG  dispatcher:47     dispatch 入口: type=9 content='>help' is_edit=False
+2026-09-27 15:33:20 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-09-27 15:33:20 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>help'
+2026-09-27 15:33:20 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
+2026-09-27 15:33:20 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:33:20 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+2026-09-27 15:33:20 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>help'
+2026-09-27 15:33:20 INFO  logger:541        [TRACE 11ca6c6e613f45fb] total=7.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.55ms(x1) (wall7.55), queue_wait=0.52ms(x1)
+2026-09-27 15:33:21 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:21 DEBG  dispatcher:47     dispatch 入口: type=9 content='⏳ 正在生成帮助卡片，请稍等喵~' is_edit=False
+2026-09-27 15:33:21 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-09-27 15:33:23 DEBG  bot:280           🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:23 DEBG  dispatcher:47     dispatch 入口: type=2 content=' 0 ' is_edit=False
+2026-09-27 15:33:23 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-09-27 15:33:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:24 DEBG  dispatcher:47     dispatch 入口: type=9 content='？' is_edit=False
+2026-09-27 15:33:24 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:33:24 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='？'
+2026-09-27 15:33:24 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:33:24 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+2026-09-27 15:33:24 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+2026-09-27 15:33:24 INFO  logger:541        [TRACE 38f62f6794e4459b] total=1.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.6ms(x1) (wall1.6), queue_wait=0.35ms(x1)
+2026-09-27 15:33:34 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-27 15:33:34 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:34 DEBG  dispatcher:47     dispatch 入口: type=9 content='/禁言 (met)337936062(met) 1' is_edit=False
+2026-09-27 15:33:34 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:33:34 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/禁言 (met)337936062(met) 1'
+2026-09-27 15:33:34 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:33:34 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+2026-09-27 15:33:34 INFO  pipeline:503      指令拦截: '/禁言 @제미니 (shuangzi_1228)  1' from=ywandwss
+2026-09-27 15:33:34 DEBG  commands:4862     指令解析: prefix=/ cmd=禁言 args=['@제미니', '(shuangzi_1228)', '1'] user=1759953618
+2026-09-27 15:33:35 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:35 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:35 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:35 INFO  commands:4917     指令执行完成 [禁言]: 返回42字符
+2026-09-27 15:33:35 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:35 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:35 INFO  logger:541        [TRACE 01b3586308f34705] total=1060.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1060.11ms(x1) (wall1060.11), queue_wait=0.3ms(x1)
+2026-09-27 15:33:44 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:33:44 DEBG  dispatcher:47     dispatch 入口: type=9 content='.' is_edit=False
+2026-09-27 15:33:44 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-09-27 15:33:44 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='.'
+2026-09-27 15:33:44 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:33:44 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-09-27 15:33:44 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.'
+2026-09-27 15:33:44 DEBG  pipeline:577      点前缀消息忽略（其它 bot 命令）: '.'
+2026-09-27 15:33:44 INFO  logger:541        [TRACE 2d470e32981f4c9a] total=1.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.7ms(x1) (wall1.7), queue_wait=0.51ms(x1)
+2026-09-27 15:33:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.2 mem=70.8
+2026-09-27 15:33:46 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
