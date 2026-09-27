@@ -1,22 +1,4 @@
-# 更新于 2026-09-27 16:02:37 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:47 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-09-27 15:29:47 INFO  phone_status:664  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-09-27 15:29:47 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-09-27 15:29:47 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-09-27 15:29:47 INFO  phone_status:639  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-09-27 15:29:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=70.8
-2026-09-27 15:29:47 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:29:48 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-09-27 15:29:48 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
-2026-09-27 15:29:49 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-09-27 15:29:49 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-09-27 15:29:49 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-09-27 15:29:49 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-09-27 15:29:49 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-09-27 15:29:49 INFO  holiday:57        节假日: 2026-09-27 → 中秋节
-2026-09-27 15:29:49 INFO  holiday:105       节假日服务已启动
-2026-09-27 15:29:49 INFO  holiday:96        节假日每日刷新: 等待 30615 秒 (下次 00:00:05)
-2026-09-27 15:29:49 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+# 更新于 2026-09-27 16:03:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
 2026-09-27 15:29:53 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj jjc img' atts=0 ref=False msg_type=0
 2026-09-27 15:29:53 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/wdsj jjc img'
@@ -1499,3 +1481,21 @@
 2026-09-27 16:02:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.0 mem=70.8
 2026-09-27 16:02:16 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-27 16:02:17 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzGXLSI0hhe5Fz7MASq0gTgFg4FRVbz4EgEMbzoP63t2YnC-bzj3alGNVPyYHjLm6w!!
+2026-09-27 16:02:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=70.8
+2026-09-27 16:02:47 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 16:02:57 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-27 16:02:57 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wdsj jjcm img' atts=0 ref=False msg_type=0
+2026-09-27 16:02:57 INFO  qq_bot:373        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=admin union=-]: 'wdsj jjcm img'
+2026-09-27 16:02:57 INFO  qq_bot:384        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rF6fKcbcpyeWCnQxa1X9d7vupxNU5S5CRCuXUCYO9wvZIsFUdwv4J7s8hfKJhYKLo5r1n9dlT-N0R0r642hgdkDVAZ8hyGx8lEpG-reXU4Pt
+2026-09-27 16:02:57 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-09-27 16:02:57 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-09-27 16:02:57 INFO  pipeline:496      裸命令识别: '/wdsj jjcm img' from=若尘 ~喵
+2026-09-27 16:02:57 INFO  pipeline:503      指令拦截: '/wdsj jjcm img' from=若尘 ~喵
+2026-09-27 16:02:57 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['jjcm', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-09-27 16:02:57 INFO  commands:2828     查询wdsj战绩: player=yzandwss template=arena-modern-stats img=True
+2026-09-27 16:02:58 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=32 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp3I2EP9hYGFvXIoW-ccxdehFI4g-Mddl-wLKp4JdcRsQ5gW8pK6ckHuREAPs6A7TOQ!!
+2026-09-27 16:03:04 INFO  qq_transport:638  QQ 分片上传成功 file=wdsj_20260927_dab4e22a.png size=163846 ttl=86400
+2026-09-27 16:03:06 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp9pL7fnlrSPXSdGf3gczmBvS105b-o-Hq0U2Kv52hnXlwmoO-bdnhpJSMiBicFHKuw!!
+2026-09-27 16:03:06 INFO  commands:4919     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-09-27 16:03:06 INFO  logger:541        [TRACE 2beb0f973da14bc6] total=9655.91ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9655.84ms(x1) (wall9655.84), queue_wait=0.34ms(x1)
+2026-09-27 16:03:06 WARN  logger:564        [SLOW 2beb0f973da14bc6] total=9656.27ms | process=9655.84ms(x1) (wall9655.84), queue_wait=0.34ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.34ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9655.84ms wall=9656.24ms dominant=other
