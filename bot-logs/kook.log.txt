@@ -1,8 +1,4 @@
-# 更新于 2026-09-27 15:56:42 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:29:24 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-2026-09-27 15:29:24 INFO  dispatcher:316    📩 消息 #19 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/update'
-2026-09-27 15:29:24 INFO  queues:32         [队列] 创建群6243254695867429 的独立消息队列
-2026-09-27 15:29:24 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
+# 更新于 2026-09-27 15:57:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:29:24 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
 2026-09-27 15:29:24 INFO  pipeline:503      指令拦截: '/update' from=ywandwss
 2026-09-27 15:29:24 DEBG  commands:4862     指令解析: prefix=/ cmd=update args=[] user=1759953618
@@ -1499,3 +1495,7 @@
 2026-09-27 15:55:54 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-27 15:56:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.0 mem=70.8
 2026-09-27 15:56:24 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:56:55 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
+2026-09-27 15:56:55 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-27 15:57:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=70.8
+2026-09-27 15:57:10 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
