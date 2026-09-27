@@ -1,16 +1,4 @@
-# 更新于 2026-09-27 15:35:51 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-27 15:17:34 INFO  pipeline:503      指令拦截: '/wdsj bw' from=poll:
-2026-09-27 15:17:34 DEBG  commands:4862     指令解析: prefix=/ cmd=wdsj args=['bw'] user=qq:1A11DF069B4F87BB68B6737E5DB13BBB
-2026-09-27 15:17:34 INFO  commands:2828     查询wdsj战绩: player=poll_results_in template=bedwars-stats img=False
-2026-09-27 15:17:36 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=37 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4u3ET4GW7XRIIAE1rlhoX6NvfxnMy7WsVv-ghT-LelSGknCd2TtInY6tm9H6ZVPPQ!!
-2026-09-27 15:17:37 INFO  commands:4917     指令执行完成 [wdsj]: 返回633字符
-2026-09-27 15:17:38 INFO  qq_transport:250  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=633 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpyiQ6fX6APxZ4tcrI3yiZpXhb1HYCMTYZtlbLPy5JYoEdFmRNVQyyxmXfzGAcS45Qw!!
-2026-09-27 15:17:38 INFO  logger:541        [TRACE f3df83e2e64b40c9] total=4321.96ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4321.89ms(x1) (wall4321.89), queue_wait=0.27ms(x1)
-2026-09-27 15:17:38 WARN  logger:564        [SLOW f3df83e2e64b40c9] total=4322.42ms | process=4321.89ms(x1) (wall4321.89), queue_wait=0.27ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.27ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4321.89ms wall=4322.39ms dominant=other
-2026-09-27 15:17:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=70.8
-2026-09-27 15:17:41 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-09-27 15:17:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-09-27 15:17:41 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw zazavol img' atts=0 ref=False msg_type=0
+# 更新于 2026-09-27 15:36:36 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-27 15:17:41 INFO  qq_bot:362        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=zzv role=owner union=-]: '/wdsj bw zazavol img'
 2026-09-27 15:17:41 INFO  qq_bot:373        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_cvcqjY4Y2He-.SaNTXq5OrgsEy0Ir4h9VUPHu1NzCfZtpDB3gfrwxrLRQiiDr8BaZiVgIEosNZQp.EJUncowLYSaTrHNS1pRpIfe6WprFovVAZ8hyGx8lEpG-reXU4Pt
 2026-09-27 15:17:41 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
@@ -1499,3 +1487,15 @@
 2026-09-27 15:35:31 INFO  logger:541        [TRACE 6e471715e77047c9] total=1.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.71ms(x1) (wall1.71), queue_wait=0.3ms(x1)
 2026-09-27 15:35:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=70.8
 2026-09-27 15:35:33 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:36:02 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-27 15:36:02 DEBG  dispatcher:47     dispatch 入口: type=9 content='但是你能有手机...' is_edit=False
+2026-09-27 15:36:02 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-27 15:36:02 INFO  dispatcher:316    📩 消息 #13 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='但是你能有手机...'
+2026-09-27 15:36:02 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-27 15:36:02 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+2026-09-27 15:36:02 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='但是你能有手机...'
+2026-09-27 15:36:02 INFO  logger:541        [TRACE 480b6b431c5a4515] total=3.66ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.56ms(x1) (wall3.56), queue_wait=0.33ms(x1)
+2026-09-27 15:36:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.0 mem=70.8
+2026-09-27 15:36:04 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-27 15:36:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=70.8
+2026-09-27 15:36:34 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
