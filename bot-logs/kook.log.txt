@@ -1,17 +1,4 @@
-# 更新于 2026-09-30 23:03:45 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-30 21:41:36 INFO  logger:541        [TRACE 5e586b39a4994726] total=515.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=515.51ms(x1) (wall515.51), queue_wait=0.38ms(x1)
-2026-09-30 21:41:37 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-30 21:41:37 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
-2026-09-30 21:41:37 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-09-30 21:41:37 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/fuck'
-2026-09-30 21:41:37 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-30 21:41:37 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
-2026-09-30 21:41:37 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
-2026-09-30 21:41:37 DEBG  commands:4862     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
-2026-09-30 21:41:37 INFO  commands:4917     指令执行完成 [fuck]: 返回31字符
-2026-09-30 21:41:38 INFO  logger:541        [TRACE 5cd6ddde15c8487c] total=446.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=446.31ms(x1) (wall446.31), queue_wait=0.38ms(x1)
-2026-09-30 21:41:59 INFO  bot:984           主电脑已恢复（通知已静默，由 GitHub Actions 推送）
-2026-09-30 21:42:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.3 mem=77.6
+# 更新于 2026-09-30 23:04:35 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-30 21:42:05 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-30 21:42:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=77.6
 2026-09-30 21:42:36 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1486,16 @@
 2026-09-30 23:03:39 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 23:03:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 23:03:44 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.7 mem=77.6
+2026-09-30 23:03:50 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 23:03:52 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:02 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:07 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:13 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.4 mem=77.6
+2026-09-30 23:04:21 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 23:04:21 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=75 cpu=None mem=None
+2026-09-30 23:04:21 INFO  phone_status:633  WSS 回填成功 source=iphone_status device=iPhone
+2026-09-30 23:04:22 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:26 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:04:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
