@@ -1,4 +1,4 @@
-# 更新于 2026-09-30 22:15:35 · 共 452 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-30 22:16:20 · 共 471 行（来源 huanmeng.log 末尾）
 2026-09-30 21:38:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-30 21:38:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-30 21:38:55 INFO  events:94         ==================================================
@@ -451,3 +451,22 @@
 2026-09-30 22:15:20 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 22:15:26 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.0 mem=77.7
 2026-09-30 22:15:26 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 22:15:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=77.7
+2026-09-30 22:15:56 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 22:16:17 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-09-30 22:16:17 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='泥嚎' atts=0 ref=False msg_type=0
+2026-09-30 22:16:17 INFO  qq_bot:373        QQ 消息 [chat=qq:A32588CDB564613DFE86FDCDE28116F1 group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '泥嚎'
+2026-09-30 22:16:17 INFO  qq_bot:384        QQ 登记被动窗口 openid=A32588CDB564613DFE86FDCDE28116F1 group=True msg_id=ROBOT1.0_DbpsbqYTHUXsnxtaAwg790x3OX5i5nry4wxqoBFGDPAGygdZNX538nX0KYVRch-LVGDzYwpMh4BJEgP2p36e8iNx7LbRyGdwGQ43lk9syxHPlNcCu0N7N5SmoOzGYJpn
+2026-09-30 22:16:17 INFO  queues:32         [队列] 创建群qq:A32588CDB564613DFE86FDCDE28116F1 的独立消息队列
+2026-09-30 22:16:17 DEBG  queues:75         [队列] 群qq:A32588CDB564613DFE86FDCDE28116F1 消息已入队 (队长度=1)
+2026-09-30 22:16:17 INFO  identity:92       身份映射已载入 1 条
+2026-09-30 22:16:17 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='泥嚎'
+2026-09-30 22:16:17 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-09-30 22:16:17 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='泥嚎'
+2026-09-30 22:16:18 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-09-30 22:16:18 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-09-30 22:16:18 DEBG  memory:331        记忆检索: source=legacy_file status=miss 命中注入=0 耗时=206.3ms
+2026-09-30 22:16:18 INFO  pipeline:866      额外信息: 233字 (memory=0 search=0)
+2026-09-30 22:16:18 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-09-30 22:16:18 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-09-30 22:16:18 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:A32588CDB564613DFE86FDCDE28116F1
