@@ -1,4 +1,4 @@
-# 更新于 2026-09-30 22:16:20 · 共 471 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-30 22:17:22 · 共 482 行（来源 huanmeng.log 末尾）
 2026-09-30 21:38:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-30 21:38:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-30 21:38:55 INFO  events:94         ==================================================
@@ -470,3 +470,14 @@
 2026-09-30 22:16:18 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
 2026-09-30 22:16:18 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 2026-09-30 22:16:18 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:A32588CDB564613DFE86FDCDE28116F1
+2026-09-30 22:16:26 INFO  llm:1048          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content=```json\n{\n  "replies": ["主人好呀！今天心情怎么样喵~"],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mode": null,\n  "origin": "user",\n  "actor": {\n    "name": "若尘 ~喵"... tool_calls=0)
+2026-09-30 22:16:26 INFO  llm:1067          LLM原始输出 [轮1]: content=```json\n{\n  "replies": ["主人好呀！今天心情怎么样喵~"],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mode": null,\n  "origin": "user",\n  "actor": {\n    "name": "若尘 ~喵" | tool_calls=0
+2026-09-30 22:16:26 INFO  llm:1117          LLM 输出非 JSON，强制重试...
+2026-09-30 22:16:26 INFO  llm:435           调用LLM [Qwen/Qwen3.5-397B-A1] url=v1 tokens=800 temp=0.3 timeout=60.0s
+2026-09-30 22:16:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=47.5 mem=77.7
+2026-09-30 22:16:27 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 22:16:44 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 22:16:49 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=A32588CDB564613DFE86FDCDE28116F1 len=16 seq=1 id=ROBOT1.0_2nlCEqFkFEm-ipr40CVUpJfAoh27y0.ajU376O5FZu37uagMC3eTJmVfuBTLz2Dyqnh9hVO8x0rL3.EjVJcbRQ!!
+2026-09-30 22:16:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 22:17:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.8 mem=77.7
+2026-09-30 22:17:13 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
