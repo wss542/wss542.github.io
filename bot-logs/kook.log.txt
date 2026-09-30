@@ -1,4 +1,4 @@
-# 更新于 2026-09-30 21:41:35 · 共 215 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-30 21:42:05 · 共 242 行（来源 huanmeng.log 末尾）
 2026-09-30 21:38:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-30 21:38:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-30 21:38:55 INFO  events:94         ==================================================
@@ -214,3 +214,30 @@
 2026-09-30 21:41:34 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
 2026-09-30 21:41:34 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
 2026-09-30 21:41:34 INFO  logger:541        [TRACE cee20fe87c404d63] total=7.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.81ms(x1) (wall7.81), queue_wait=1.07ms(x1)
+2026-09-30 21:41:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=77.6
+2026-09-30 21:41:35 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 21:41:35 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 21:41:35 DEBG  dispatcher:47     dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：1\n🔥 连续签到：1 天' is_edit=False
+2026-09-30 21:41:35 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-09-30 21:41:36 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 21:41:36 DEBG  dispatcher:47     dispatch 入口: type=9 content='/luck' is_edit=False
+2026-09-30 21:41:36 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-30 21:41:36 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/luck'
+2026-09-30 21:41:36 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-30 21:41:36 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+2026-09-30 21:41:36 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
+2026-09-30 21:41:36 DEBG  commands:4862     指令解析: prefix=/ cmd=luck args=[] user=1759953618
+2026-09-30 21:41:36 INFO  commands:728      指令 /luck 触发 user=1759953618
+2026-09-30 21:41:36 INFO  commands:4917     指令执行完成 [luck]: 返回33字符
+2026-09-30 21:41:36 INFO  logger:541        [TRACE 5e586b39a4994726] total=515.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=515.51ms(x1) (wall515.51), queue_wait=0.38ms(x1)
+2026-09-30 21:41:37 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 21:41:37 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
+2026-09-30 21:41:37 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-09-30 21:41:37 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/fuck'
+2026-09-30 21:41:37 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-09-30 21:41:37 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-09-30 21:41:37 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
+2026-09-30 21:41:37 DEBG  commands:4862     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+2026-09-30 21:41:37 INFO  commands:4917     指令执行完成 [fuck]: 返回31字符
+2026-09-30 21:41:38 INFO  logger:541        [TRACE 5cd6ddde15c8487c] total=446.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=446.31ms(x1) (wall446.31), queue_wait=0.38ms(x1)
+2026-09-30 21:41:59 INFO  bot:984           主电脑已恢复（通知已静默，由 GitHub Actions 推送）
