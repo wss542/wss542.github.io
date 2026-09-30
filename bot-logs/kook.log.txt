@@ -1,13 +1,4 @@
-# 更新于 2026-09-30 23:01:33 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-30 21:41:33 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
-2026-09-30 21:41:33 INFO  commands:4917     指令执行完成 [签到]: 返回40字符
-2026-09-30 21:41:34 INFO  logger:541        [TRACE a2355435def945fa] total=815.69ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=813.15ms(x1) (wall813.15), queue_wait=19.29ms(x1)
-2026-09-30 21:41:34 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-09-30 21:41:34 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
-2026-09-30 21:41:34 DEBG  dispatcher:110    KMD 调试: is_group=True uid=2498442259 channel=7274785942250691
-2026-09-30 21:41:34 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=翊鱼不是宇(2498442259) | chat=7274785942250691 | group=True | content='>签到'
-2026-09-30 21:41:34 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-30 21:41:34 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+# 更新于 2026-09-30 23:02:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-30 21:41:34 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
 2026-09-30 21:41:34 INFO  logger:541        [TRACE cee20fe87c404d63] total=7.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.81ms(x1) (wall7.81), queue_wait=1.07ms(x1)
 2026-09-30 21:41:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=77.6
@@ -1499,3 +1490,12 @@
 2026-09-30 23:01:20 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 23:01:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.5 mem=77.7
 2026-09-30 23:01:31 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 23:01:42 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:01:43 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:01:44 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:01:52 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:01:55 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Atlxs - PASSO BEM SOLTO (Slowed)（已暂停）CPU=47% 内存=84%
+2026-09-30 23:02:05 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:02:13 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:02:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=77.7
+2026-09-30 23:02:18 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
