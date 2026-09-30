@@ -1,4 +1,4 @@
-# 更新于 2026-09-30 22:17:22 · 共 482 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-30 22:18:08 · 共 500 行（来源 huanmeng.log 末尾）
 2026-09-30 21:38:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-30 21:38:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-30 21:38:55 INFO  events:94         ==================================================
@@ -481,3 +481,21 @@
 2026-09-30 22:16:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 22:17:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.8 mem=77.7
 2026-09-30 22:17:13 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 22:17:26 ERRO  llm:514           LLM [Qwen/Qwen3.5-397B-A1] 调用超时 (60.0s/60.0s)
+2026-09-30 22:17:26 INFO  llm:1410          JSON回复解析: 1句 fav=+2 calls=0 mood=开心
+2026-09-30 22:17:26 INFO  fav:128           好感度更新: gqq:A32588CDB564613DFE86FDCDE28116F1:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 52
+2026-09-30 22:17:26 INFO  pipeline:1622     好感度调整: 若尘 ~喵 +2 (chat=qq:A32588CDB564613DFE86FDCDE28116F1)
+2026-09-30 22:17:26 INFO  memory:414        触发自动记忆 [qq:A32588CDB564613DFE86FDCDE28116F1]: 2 条
+2026-09-30 22:17:26 INFO  pipeline:1628     ✅ 管道处理完成: 1句 sent chat=qq:A32588CDB564613DFE86FDCDE28116F1
+2026-09-30 22:17:26 INFO  logger:541        [TRACE 73111f6fe66745c4] total=69302.61ms severity=very_slow_request | llm_calls=2 total=68121.79ms avg=34060.89ms max=60003.43ms p50=34060.89 p95=57409.17 p99=59484.58 | json_parse=31.25ms(x1), llm=68396.79ms(x1), memory=413.61ms(x2), message_retrieval=0.03ms(x1), process=69296.5ms(x1) (wall69296.5), queue_wait=24.53ms(x1)
+2026-09-30 22:17:26 WARN  logger:559        [VERY_SLOW 73111f6fe66745c4] total=69304.81ms 需重点排查 | json_parse=31.25ms(x1), llm=68396.79ms(x1), memory=413.61ms(x2), message_retrieval=0.03ms(x1), process=69296.5ms(x1) (wall69296.5), queue_wait=24.53ms(x1) | llm_calls=2 total=68121.79ms avg=34060.89ms max=60003.43ms p50=34060.89 p95=57409.17 p99=59484.58 | perf: queue=24.53ms llm=68428.04ms search_tool=0.0ms delivery=0.0ms other=69710.14ms wall=69304.15ms dominant=other
+2026-09-30 22:17:26 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:A32588CDB564613DFE86FDCDE28116F1 is_group=True
+2026-09-30 22:17:26 INFO  llm:435           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-09-30 22:17:27 INFO  llm:497           LLM [deepseek-flash] 返回 79字符 耗时0.8s → "[22:17:26] 若尘 ~喵: 泥嚎, 茂密: 主人好呀！今天心情怎么样喵~ (无; 无; 无)..."
+2026-09-30 22:17:27 INFO  memory:223        [qq:A32588CDB564613DFE86FDCDE28116F1] 压缩完成: 2条消息 → 保存
+2026-09-30 22:17:28 INFO  qq_transport:295  QQ 群发送成功(被动) msg_type=0 openid=A32588CDB564613DFE86FDCDE28116F1 len=14 seq=2 id=ROBOT1.0_2nlCEqFkFEm-ipr40CVUpEKaeWFfX2acdJ9O3mXCDmwPz3spKo9OlYJimIR0a71Yqnh9hVO8x0rL3.EjVJcbRQ!!
+2026-09-30 22:17:28 DEBG  response_delivery:297 已发送第 1/1 条: 主人好呀！今天心情怎么样喵~...
+2026-09-30 22:17:28 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:A32588CDB564613DFE86FDCDE28116F1
+2026-09-30 22:17:28 DEBG  context_manager:139 发送任务已清理 [qq:A32588CDB564613DFE86FDCDE28116F1]
+2026-09-30 22:17:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=77.6
+2026-09-30 22:17:57 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
