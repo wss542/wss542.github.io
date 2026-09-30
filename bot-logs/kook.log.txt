@@ -1,8 +1,4 @@
-# 更新于 2026-10-01 06:40:58 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 01:30:39 INFO  pc_status:187     收到 lyric_event [延迟=141ms]: '**默念着轻叹着那些深沉的字句**' song=魏新雨 - 恋人心 playing=True channel=None
-2026-10-01 01:30:46 INFO  pc_status:187     收到 lyric_event [延迟=1202ms]: '**化作路化作径化作情找寻你**' song=魏新雨 - 恋人心 playing=True channel=None
-2026-10-01 01:30:52 INFO  pc_status:187     收到 lyric_event [延迟=940ms]: '**爱一次梦一场思念最遥遥无期**' song=魏新雨 - 恋人心 playing=True channel=None
-2026-10-01 01:30:57 INFO  pc_status:187     收到 lyric_event [延迟=435ms]: '**你问西湖水偷走她的几分美**' song=魏新雨 - 恋人心 playing=True channel=None
+# 更新于 2026-10-01 06:41:29 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 01:31:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=73.5 mem=75.8
 2026-10-01 01:31:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 01:31:03 INFO  pc_status:187     收到 lyric_event [延迟=547ms]: '**时光一去不再信誓旦旦留给谁**' song=魏新雨 - 恋人心 playing=True channel=None
@@ -1499,3 +1495,7 @@
 2026-10-01 06:40:26 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 06:40:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=35.4 mem=78.3
 2026-10-01 06:40:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 06:41:12 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 06:41:12 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 06:41:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.7 mem=78.3
+2026-10-01 06:41:27 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 15s）
