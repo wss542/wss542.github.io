@@ -1,4 +1,4 @@
-# 更新于 2026-10-01 00:45:50 · 共 497 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-01 00:46:35 · 共 566 行（来源 huanmeng.log 末尾）
 2026-10-01 00:00:01 INFO  pc_status:187     收到 lyric_event [延迟=960ms]: '**相信明天会有好的景象**' song=方茹茹 - 我知道生活总有风浪(抒情女版) playing=True channel=None
 2026-10-01 00:00:05 INFO  holiday:57        节假日: 2026-10-01 → 国庆节
 2026-10-01 00:00:05 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
@@ -496,3 +496,72 @@
 2026-10-01 00:45:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 00:45:50 INFO  pc_status:187     收到 lyric_event [延迟=966ms]: '**制作人 : 三亩地**' song=三亩地 - 城南花已开 playing=True channel=None
 2026-10-01 00:45:50 INFO  pc_status:187     收到 lyric_event [延迟=332ms]: '**作曲 : 三亩地**' song=三亩地 - 城南花已开 playing=True channel=None
+2026-10-01 00:45:51 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Lady Gaga - Poker Face（播放中）CPU=87% 内存=78%
+2026-10-01 00:45:51 INFO  pc_status:187     收到 lyric_event [延迟=503ms]: '**▶ Lady Gaga - Poker Face**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:45:58 INFO  pc_status:187     收到 lyric_event [延迟=734ms]: '**Mum-mum-mum-mah**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:02 INFO  pc_status:187     收到 lyric_event [延迟=54ms]: '**Mum-mum-mum-mah**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:06 INFO  pc_status:187     收到 lyric_event [延迟=651ms]: '**Mum-mum-mum-mah**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.1 mem=74.8
+2026-10-01 00:46:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 00:46:11 INFO  pc_status:187     收到 lyric_event [延迟=1021ms]: '**Mum-mum-mum-mah**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:14 INFO  pc_status:187     收到 lyric_event [延迟=499ms]: '**Mum-mum-mum-mah**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:16 INFO  pc_status:187     收到 lyric_event [延迟=553ms]: '**I wanna hold 'em like they do in Texas, please** *(hey)*' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:20 INFO  pc_status:187     收到 lyric_event [延迟=858ms]: '**Fold 'em, let 'em hit me, raise it, baby, stay with me** *' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:23 INFO  pc_status:187     收到 lyric_event [延迟=245ms]: '**LoveGame intuition play the cards with spades to start**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:23 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:23 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
+2026-10-01 00:46:23 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-01 00:46:23 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>签到'
+2026-10-01 00:46:23 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
+2026-10-01 00:46:23 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-01 00:46:23 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+2026-10-01 00:46:23 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
+2026-10-01 00:46:23 INFO  logger:541        [TRACE 29ed0e1e3d00403a] total=124.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=122.51ms(x1) (wall122.51), queue_wait=9.37ms(x1)
+2026-10-01 00:46:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:24 DEBG  dispatcher:47     dispatch 入口: type=9 content='签到成功 ✅\n📊 总积分：16\n🔥 连续签到：2 天' is_edit=False
+2026-10-01 00:46:24 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-01 00:46:27 INFO  pc_status:187     收到 lyric_event [延迟=173ms]: '**And after he's been hooked, I'll play the one that's on hi' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:27 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:27 DEBG  dispatcher:47     dispatch 入口: type=9 content='>luck' is_edit=False
+2026-10-01 00:46:27 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-01 00:46:27 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>luck'
+2026-10-01 00:46:27 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-01 00:46:27 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+2026-10-01 00:46:27 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
+2026-10-01 00:46:27 INFO  logger:541        [TRACE bfe84d01e3314b80] total=3.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.69ms(x1) (wall3.69), queue_wait=0.89ms(x1)
+2026-10-01 00:46:27 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:27 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 39 喵' is_edit=False
+2026-10-01 00:46:27 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-01 00:46:29 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:29 DEBG  dispatcher:47     dispatch 入口: type=9 content='/luck' is_edit=False
+2026-10-01 00:46:29 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-01 00:46:29 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/luck'
+2026-10-01 00:46:29 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-01 00:46:29 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+2026-10-01 00:46:29 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
+2026-10-01 00:46:29 DEBG  commands:4862     指令解析: prefix=/ cmd=luck args=[] user=1759953618
+2026-10-01 00:46:29 INFO  commands:728      指令 /luck 触发 user=1759953618
+2026-10-01 00:46:29 INFO  commands:4917     指令执行完成 [luck]: 返回33字符
+2026-10-01 00:46:30 INFO  logger:541        [TRACE 2deb272b01944658] total=803.92ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=803.8ms(x1) (wall803.8), queue_wait=1.13ms(x1)
+2026-10-01 00:46:31 INFO  pc_status:187     收到 lyric_event [延迟=461ms]: '**Oh, whoa, oh-oh, ooh**' song=Lady Gaga - Poker Face playing=True channel=None
+2026-10-01 00:46:32 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:32 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
+2026-10-01 00:46:32 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-01 00:46:32 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/fuck'
+2026-10-01 00:46:32 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-01 00:46:32 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-10-01 00:46:32 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
+2026-10-01 00:46:32 DEBG  commands:4862     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+2026-10-01 00:46:32 INFO  commands:4917     指令执行完成 [fuck]: 返回43字符
+2026-10-01 00:46:32 INFO  logger:541        [TRACE e5a47a008df945b6] total=517.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=517.32ms(x1) (wall517.32), queue_wait=0.94ms(x1)
+2026-10-01 00:46:33 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-01 00:46:33 DEBG  dispatcher:47     dispatch 入口: type=9 content='/签到' is_edit=False
+2026-10-01 00:46:33 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-01 00:46:33 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/签到'
+2026-10-01 00:46:33 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-01 00:46:33 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
+2026-10-01 00:46:33 INFO  pipeline:503      指令拦截: '/签到' from=ywandwss
+2026-10-01 00:46:33 DEBG  commands:4862     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+2026-10-01 00:46:33 INFO  checkin:117       签到: u:1759953618 streak=2 +6分
+2026-10-01 00:46:33 INFO  commands:4917     指令执行完成 [签到]: 返回40字符
+2026-10-01 00:46:34 INFO  logger:541        [TRACE 8665a565bae04d3f] total=498.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=497.97ms(x1) (wall497.97), queue_wait=0.5ms(x1)
