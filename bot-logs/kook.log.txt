@@ -1,4 +1,4 @@
-# 更新于 2026-10-01 00:50:35 · 共 740 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-01 00:51:12 · 共 794 行（来源 huanmeng.log 末尾）
 2026-10-01 00:00:01 INFO  pc_status:187     收到 lyric_event [延迟=960ms]: '**相信明天会有好的景象**' song=方茹茹 - 我知道生活总有风浪(抒情女版) playing=True channel=None
 2026-10-01 00:00:05 INFO  holiday:57        节假日: 2026-10-01 → 国庆节
 2026-10-01 00:00:05 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
@@ -739,3 +739,57 @@
 2026-10-01 00:50:33 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
 2026-10-01 00:50:33 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
 2026-10-01 00:50:33 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-10-01 00:50:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.7 mem=74.8
+2026-10-01 00:50:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 00:50:36 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=67 cpu=None mem=None
+2026-10-01 00:50:36 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-01 00:50:36 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-10-01 00:50:36 INFO  pc_status:46      PC 客户端已连接
+2026-10-01 00:50:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Kelly Clarkson - Catch My Breath（播放中）CPU=75% 内存=92%
+2026-10-01 00:50:36 INFO  pc_status:187     收到 lyric_event [延迟=35766ms]: '**▶ Kelly Clarkson - Catch My Breath**' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:36 INFO  pc_status:187     收到 lyric_event [延迟=13940ms]: '**Shadowboxing the other half**
+`有可能是另一半的人`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:36 INFO  pc_status:187     收到 lyric_event [延迟=10440ms]: '**Learning how to react**
+`而不是用心去投入`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:36 INFO  pc_status:187     收到 lyric_event [延迟=7035ms]: '**I've spent most of my time**
+`大半的生命被浪费掉了`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:36 INFO  pc_status:187     收到 lyric_event [延迟=2145ms]: '**Catching my breath,**
+`停下来缓缓气`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:38 INFO  pc_status:187     收到 lyric_event [延迟=1062ms]: '**letting it go,**
+`放开一点`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:38 INFO  holiday:57        节假日: 2026-10-01 → 国庆节
+2026-10-01 00:50:38 INFO  holiday:105       节假日服务已启动
+2026-10-01 00:50:38 INFO  holiday:96        节假日每日刷新: 等待 83366 秒 (下次 00:00:05)
+2026-10-01 00:50:38 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-01 00:50:39 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
+2026-10-01 00:50:39 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-10-01 00:50:39 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-10-01 00:50:39 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-10-01 00:50:39 INFO  pc_status:187     收到 lyric_event [延迟=935ms]: '**turning my cheek for the sake of this show**
+`给演艺生涯留一个侧脸`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:44 INFO  pc_status:187     收到 lyric_event [延迟=1610ms]: '**Now that you know,**
+`你们要知道`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:44 INFO  pc_status:187     收到 lyric_event [延迟=176ms]: '**this is my life,**
+`这是我自己的生活`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:46 INFO  pc_status:187     收到 lyric_event [延迟=552ms]: '**I won't be told what's supposed to be right**
+`我不想让别人来告诉我 ' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:54 INFO  pc_status:187     收到 lyric_event [延迟=3336ms]: '**Catch my breath,**
+`停下来缓缓气`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:54 INFO  pc_status:187     收到 lyric_event [延迟=1082ms]: '**no one can hold me back,**
+`没人能阻止我`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:56 INFO  pc_status:187     收到 lyric_event [延迟=481ms]: '**I ain't got time for that**
+`我没时间去浪费了`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:50:59 INFO  pc_status:187     收到 lyric_event [延迟=533ms]: '**Catch my breath,**
+`停下来缓缓气`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:51:02 INFO  pc_status:187     收到 lyric_event [延迟=1147ms]: '**won't let them get me down,**
+`不会让别人拖住我`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:51:03 INFO  pc_status:187     收到 lyric_event [延迟=519ms]: '**it's all so simple now**
+`我的目标很明确`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:51:05 INFO  pc_status:187     收到 lyric_event [延迟=135ms]: '**Addicted to the love I found**
+`要沉迷在我找到的真爱中`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
+2026-10-01 00:51:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.9 mem=74.8
+2026-10-01 00:51:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 00:51:12 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=62 cpu=None mem=None
+2026-10-01 00:51:12 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-01 00:51:12 INFO  pc_status:187     收到 lyric_event [延迟=3399ms]: '**Heavy heart, now a weightless cloud**
+`曾经沉重的心，现在轻地像浮云`' song=Kelly Clarkson - Catch My Brea playing=True channel=None
