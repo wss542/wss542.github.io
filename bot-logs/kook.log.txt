@@ -1,4 +1,4 @@
-# 更新于 2026-09-30 22:44:59 · 共 1294 行（来源 huanmeng.log 末尾）
+# 更新于 2026-09-30 22:45:31 · 共 1311 行（来源 huanmeng.log 末尾）
 2026-09-30 21:38:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-09-30 21:38:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-09-30 21:38:55 INFO  events:94         ==================================================
@@ -1293,3 +1293,20 @@
 `也很期待你明天晚上还会再来吧?`' song=Plum - Melodic Artist / 유니 / U playing=True channel=None
 2026-09-30 22:44:42 INFO  pc_status:187     收到 lyric_event [延迟=1044ms]: '**라라랏탓타 함께 불러요 비밀의 인형극**
 `啦啦啦哒哒 一起歌唱吧 就在这秘密人偶剧`' song=Plum - Melodic Artist / 유니 / U playing=True channel=None
+2026-09-30 22:45:03 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-09-30 22:45:03 INFO  llm:162           main_skill.md 已加载: 12 个章节
+2026-09-30 22:45:03 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-09-30 22:45:04 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content=```json\n{"replies":["主人好呀！今天心情怎么样喵~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{}}\n```... tool_calls=0)
+2026-09-30 22:45:04 INFO  llm:1114          LLM原始输出 [轮1]: content=```json\n{"replies":["主人好呀！今天心情怎么样喵~"],"fav":2,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{}}\n``` | tool_calls=0
+2026-09-30 22:45:04 INFO  llm:1462          JSON回复解析: 1句 fav=+2 calls=0 mood=开心
+2026-09-30 22:45:07 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=杨沛宜 - 左手右手（播放中）CPU=80% 内存=85%
+2026-09-30 22:45:07 INFO  pc_status:187     收到 lyric_event [延迟=497ms]: '**▶ 杨沛宜 - 左手右手**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=35.7 mem=77.6
+2026-09-30 22:45:09 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 22:45:13 INFO  pc_status:187     收到 lyric_event [延迟=934ms]: '**當困難來臨的時候**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:13 INFO  pc_status:187     收到 lyric_event [延迟=671ms]: '**請你舉起你的左手**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:16 INFO  pc_status:187     收到 lyric_event [延迟=594ms]: '**左手代表著方向**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:18 INFO  pc_status:187     收到 lyric_event [延迟=101ms]: '**左手代表著方向**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:20 INFO  pc_status:187     收到 lyric_event [延迟=646ms]: '**它不會向困難低頭**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:30 INFO  pc_status:187     收到 lyric_event [延迟=5813ms]: '**當遇到挫折的時候**' song=杨沛宜 - 左手右手 playing=True channel=None
+2026-09-30 22:45:30 INFO  pc_status:187     收到 lyric_event [延迟=524ms]: '**請你舉起你的右手**' song=杨沛宜 - 左手右手 playing=True channel=None
