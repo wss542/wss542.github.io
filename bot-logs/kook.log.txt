@@ -1,12 +1,4 @@
-# 更新于 2026-09-30 23:03:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-30 21:41:36 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-09-30 21:41:36 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/luck'
-2026-09-30 21:41:36 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-09-30 21:41:36 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
-2026-09-30 21:41:36 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
-2026-09-30 21:41:36 DEBG  commands:4862     指令解析: prefix=/ cmd=luck args=[] user=1759953618
-2026-09-30 21:41:36 INFO  commands:728      指令 /luck 触发 user=1759953618
-2026-09-30 21:41:36 INFO  commands:4917     指令执行完成 [luck]: 返回33字符
+# 更新于 2026-09-30 23:03:45 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-30 21:41:36 INFO  logger:541        [TRACE 5e586b39a4994726] total=515.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=515.51ms(x1) (wall515.51), queue_wait=0.38ms(x1)
 2026-09-30 21:41:37 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-09-30 21:41:37 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
@@ -1499,3 +1491,11 @@
 2026-09-30 23:02:57 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 23:03:06 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-09-30 23:03:09 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:17 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.3 mem=77.7
+2026-09-30 23:03:19 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 23:03:20 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:32 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:39 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-09-30 23:03:44 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
