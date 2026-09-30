@@ -1,7 +1,4 @@
-# 更新于 2026-10-01 06:14:23 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 01:22:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-01 01:22:53 INFO  pc_status:187     收到 lyric_event [延迟=1025ms]: '**<01:23.910>我<01:24.198>愿<01:24.503>意<01:24.806>化<01:25.097' song=林俊杰 - 美人鱼 playing=True channel=None
-2026-10-01 01:22:55 INFO  pc_status:187     收到 lyric_event [延迟=1031ms]: '**<01:26.102>等<01:26.646>你<01:27.286>出<01:27.868>现<01:28.310' song=林俊杰 - 美人鱼 playing=True channel=None
+# 更新于 2026-10-01 06:15:01 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 01:22:58 INFO  pc_status:187     收到 lyric_event [延迟=896ms]: '**<01:28.598>再<01:29.046>见<01:29.622>再<01:29.895>也<01:30.166' song=林俊杰 - 美人鱼 playing=True channel=None
 2026-10-01 01:23:00 INFO  pc_status:187     收到 lyric_event [延迟=577ms]: '**<01:31.160>心<01:31.622>碎<01:32.086>了<01:32.390>飘<01:32.663' song=林俊杰 - 美人鱼 playing=True channel=None
 2026-10-01 01:23:03 INFO  pc_status:187     收到 lyric_event [延迟=501ms]: '**<01:34.630>你<01:34.967>抬<01:35.126>头<01:35.430>就<01:35.786' song=林俊杰 - 美人鱼 playing=True channel=None
@@ -1499,3 +1496,6 @@
 2026-10-01 06:13:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 06:14:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=34.3 mem=78.1
 2026-10-01 06:14:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 06:14:41 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 06:14:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.1 mem=78.1
+2026-10-01 06:14:56 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 15s）
