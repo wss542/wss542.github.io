@@ -1,7 +1,4 @@
-# 更新于 2026-10-01 06:04:27 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 01:20:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.5 mem=75.7
-2026-10-01 01:20:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-01 01:20:04 INFO  pc_status:187     收到 lyric_event [延迟=819ms]: '**Heart made of glass, my mind of stone**' song=Billie Eilish / Khalid - lovel playing=True channel=None
+# 更新于 2026-10-01 06:05:13 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 01:20:08 INFO  pc_status:187     收到 lyric_event [延迟=1001ms]: '**Tear me to pieces, skin to bone**' song=Billie Eilish / Khalid - lovel playing=True channel=None
 2026-10-01 01:20:13 INFO  pc_status:187     收到 lyric_event [延迟=612ms]: '**Hello, welcome home**' song=Billie Eilish / Khalid - lovel playing=True channel=None
 2026-10-01 01:20:18 INFO  pc_status:187     收到 lyric_event [延迟=434ms]: '**Woah, yeah**' song=Billie Eilish / Khalid - lovel playing=True channel=None
@@ -1499,3 +1496,6 @@
 2026-10-01 06:03:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 06:04:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.2 mem=77.9
 2026-10-01 06:04:19 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 06:04:34 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 06:04:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=42.9 mem=77.9
+2026-10-01 06:04:50 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 15s）
