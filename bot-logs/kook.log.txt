@@ -1,26 +1,4 @@
-# 更新于 2026-09-30 23:52:27 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-09-30 22:48:00 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-09-30 22:48:00 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-09-30 22:48:00 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-09-30 22:48:00 INFO  events:94         ==================================================
-2026-09-30 22:48:00 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-09-30 22:48:00 INFO  events:94         ==================================================
-2026-09-30 22:48:00 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-09-30 22:48:00 INFO  queues:103        [队列] 渲染队列已启动
+# 更新于 2026-09-30 23:53:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-09-30 22:48:00 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
 2026-09-30 22:48:00 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-09-30 22:48:00 INFO  rss:299           [RSS] 订阅轮询服务启动
@@ -1499,3 +1477,25 @@
 2026-09-30 23:52:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=81.8 mem=83.1
 2026-09-30 23:52:20 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-09-30 23:52:26 INFO  pc_status:187     收到 lyric_event [延迟=355ms]: '**Возьми меня, люби меня, укрой**' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:52:28 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 23:52:28 DEBG  dispatcher:47     dispatch 入口: type=9 content='/禁言 (met)1759953618(met) 1000' is_edit=False
+2026-09-30 23:52:28 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-09-30 23:52:28 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/禁言 (met)1759953618(met) 1000'
+2026-09-30 23:52:28 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-09-30 23:52:28 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 3条 (阈值=10)
+2026-09-30 23:52:28 INFO  pipeline:503      指令拦截: '/禁言 @ywandwss  1000' from=ywandwss
+2026-09-30 23:52:28 DEBG  commands:4862     指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '1000'] user=1759953618
+2026-09-30 23:52:29 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 23:52:29 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 23:52:29 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 23:52:29 INFO  commands:4917     指令执行完成 [禁言]: 返回45字符
+2026-09-30 23:52:29 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-09-30 23:52:29 INFO  logger:541        [TRACE 8bfeff2ee731403b] total=1122.08ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1121.98ms(x1) (wall1121.98), queue_wait=1.47ms(x1)
+2026-09-30 23:52:33 INFO  pc_status:187     收到 lyric_event [延迟=1035ms]: '**Той пеленой, что мы с тобой создали вдвоём**' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:52:40 INFO  pc_status:187     收到 lyric_event [延迟=485ms]: '**Свет фонарей гуляет по улице**' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:52:44 INFO  pc_status:187     收到 lyric_event [延迟=101ms]: '**Смотри же мне в глаза, обо всём я тебе расскажу**' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:52:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.0 mem=83.1
+2026-09-30 23:52:51 INFO  phone_status:633  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-09-30 23:52:52 INFO  pc_status:187     收到 lyric_event [延迟=711ms]: '**Колыбельную тебе спою, смотри же мне в глаза**' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:52:58 INFO  pc_status:187     收到 lyric_event [延迟=765ms]: '**И где в них доброта?** *(Где в них доброта?)*' song=Rauf & Faik - Колыбельная playing=True channel=None
+2026-09-30 23:53:04 INFO  pc_status:187     收到 lyric_event [延迟=202ms]: '**Я провожал тебя домой под звуки птиц**' song=Rauf & Faik - Колыбельная playing=True channel=None
