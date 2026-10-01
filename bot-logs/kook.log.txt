@@ -1,10 +1,4 @@
-# 更新于 2026-10-01 08:36:35 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 04:00:32 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-01 04:00:32 INFO  events:94         khl.py Bot 实例已创建
-2026-10-01 04:00:44 WARN  events:94         拉取 bot 自身信息失败: Cannot connect to host www.kookapp.cn:443 ssl:default [Connection reset by peer]（启动后仍可工作，但 @检测可能受影响）
-2026-10-01 04:00:44 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-01 04:00:44 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-01 04:00:44 INFO  events:94         消息发送器已初始化
+# 更新于 2026-10-01 08:37:08 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 04:00:44 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
 2026-10-01 04:00:44 INFO  database:107      数据库表结构已就绪（含 FTS5）
 2026-10-01 04:00:44 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
@@ -1499,3 +1493,9 @@
 2026-10-01 08:35:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 08:36:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=43.5 mem=78.7
 2026-10-01 08:36:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 08:36:37 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.3 mem=78.7
+2026-10-01 08:36:37 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 08:36:52 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 08:36:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=揽佬SKAI ISYOURGOD / AR刘夫阳 - 大展鸿图（已暂停）CPU=24% 内存=91%
+2026-10-01 08:37:08 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.4 mem=78.7
+2026-10-01 08:37:08 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 15s）
