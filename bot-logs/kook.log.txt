@@ -1,16 +1,4 @@
-# 更新于 2026-10-01 12:00:24 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 09:14:24 INFO  face_lib:64       表情库加载: 90 关键词 / 7 主干 / 31 文件
-2026-10-01 09:14:24 INFO  llm:1462          JSON回复解析: 3句 fav=+2 calls=0 mood=开心
-2026-10-01 09:14:24 INFO  fav:128           好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 74
-2026-10-01 09:14:24 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
-2026-10-01 09:14:24 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
-2026-10-01 09:14:24 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-01 09:14:24 INFO  logger:541        [TRACE 18c750dbb1a84331] total=14065.44ms severity=very_slow_request | llm_calls=1 total=12666.66ms avg=12666.66ms max=12666.66ms p50=12666.66 p95=12666.66 p99=12666.66 | json_parse=8.43ms(x1), llm=13055.37ms(x1), memory=571.5ms(x2), process=14057.9ms(x1) (wall14057.9), queue_wait=27.83ms(x1)
-2026-10-01 09:14:24 WARN  logger:559        [VERY_SLOW 18c750dbb1a84331] total=14068.42ms 需重点排查 | json_parse=8.43ms(x1), llm=13055.37ms(x1), memory=571.5ms(x2), process=14057.9ms(x1) (wall14057.9), queue_wait=27.83ms(x1) | llm_calls=1 total=12666.66ms avg=12666.66ms max=12666.66ms p50=12666.66 p95=12666.66 p99=12666.66 | perf: queue=27.83ms llm=13063.8ms search_tool=0.0ms delivery=0.0ms other=14629.4ms wall=14068.27ms dominant=other
-2026-10-01 09:14:24 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-2026-10-01 09:14:24 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-01 09:14:24 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
-2026-10-01 09:14:25 INFO  llm:544           LLM [deepseek-flash] 返回 2字符 耗时0.7s → "{}"
+# 更新于 2026-10-01 12:01:24 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 09:14:25 INFO  llm:544           LLM [deepseek-flash] 返回 269字符 耗时1.2s → "[09:14:24] 若尘 ~喵: 说【缴费通知】尊敬的用户，您好，这里是时空管理局，您订购的“好想..."
 2026-10-01 09:14:25 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
 2026-10-01 09:14:26 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=78 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Dr-KOTBIDIXrADvN1vkhWMsvfD5Jzsa3w1p0LIW4gLEEJL2-wEo71J5Wz5awG37Hg!!
@@ -1499,3 +1487,15 @@
 2026-10-01 11:59:29 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-01 11:59:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=59.4 mem=79.4
 2026-10-01 11:59:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 12:00:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=79.4
+2026-10-01 12:00:45 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 12:01:00 INFO  wdsj_tracker:73   每日战绩采集: 4 个玩家 x 2 模板
+2026-10-01 12:01:00 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=61 cpu=None mem=None
+2026-10-01 12:01:00 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-01 12:01:05 INFO  wdsj_tracker:101  每日战绩采集完成: 8 条新记录
+2026-10-01 12:01:08 INFO  bot:878           日榜目标频道: [3649029148752421]
+2026-10-01 12:01:09 INFO  bot:882           日榜已发到频道 3649029148752421
+2026-10-01 12:01:09 INFO  bot:885           日榜已推送: 1 人 (2026-10-01)
+2026-10-01 12:01:09 INFO  bot:835           战绩采集将在 3h59m 后执行 (16:01)
+2026-10-01 12:01:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.5 mem=79.4
+2026-10-01 12:01:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
