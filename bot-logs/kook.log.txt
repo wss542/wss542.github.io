@@ -1,7 +1,4 @@
-# 更新于 2026-10-01 08:43:01 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-01 04:00:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-01 04:00:45 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-01 04:00:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+# 更新于 2026-10-01 08:43:35 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-01 04:00:45 INFO  manager:165       Plugin 已启用: echo@1.0.0
 2026-10-01 04:00:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
 2026-10-01 04:00:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
@@ -1499,3 +1496,6 @@
 2026-10-01 08:42:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-01 08:42:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=85.8 mem=78.6
 2026-10-01 08:42:47 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-01 08:43:18 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-01 08:43:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.9 mem=78.6
+2026-10-01 08:43:33 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 15s）
