@@ -1,107 +1,4 @@
-# 更新于 2026-10-02 18:14:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 15:36:16 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:36:16 DEBG  dispatcher:47     dispatch 入口: type=9 content='>QIANDAO' is_edit=False
-2026-10-02 15:36:16 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-02 15:36:16 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>QIANDAO'
-2026-10-02 15:36:16 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
-2026-10-02 15:36:16 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-02 15:36:16 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-2026-10-02 15:36:16 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='>QIANDAO'
-2026-10-02 15:36:16 INFO  logger:541        [TRACE 14171b0258ff4395] total=61.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=61.03ms(x1) (wall61.03), queue_wait=4.31ms(x1)
-2026-10-02 15:36:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:36:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='未知指令 >qiandao，使用 >help 查看可用指令喵~' is_edit=False
-2026-10-02 15:36:17 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-02 15:36:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:36:22 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
-2026-10-02 15:36:22 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-02 15:36:22 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>签到'
-2026-10-02 15:36:22 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-02 15:36:22 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
-2026-10-02 15:36:22 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='>签到'
-2026-10-02 15:36:22 INFO  logger:541        [TRACE e65db4cb7e2b4805] total=9.07ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.96ms(x1) (wall8.96), queue_wait=1.38ms(x1)
-2026-10-02 15:36:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:36:22 DEBG  dispatcher:47     dispatch 入口: type=9 content='你今天已经签到过了喵~ 🎉\n📊 总积分：16\n🔥 连续签到：1 天' is_edit=False
-2026-10-02 15:36:22 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-02 15:37:11 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:37:11 DEBG  dispatcher:47     dispatch 入口: type=9 content='比我好' is_edit=False
-2026-10-02 15:37:11 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=8318134604058084
-2026-10-02 15:37:11 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=8318134604058084 | group=True | content='比我好'
-2026-10-02 15:37:11 INFO  queues:32         [队列] 创建群8318134604058084 的独立消息队列
-2026-10-02 15:37:11 DEBG  queues:75         [队列] 群8318134604058084 消息已入队 (队长度=1)
-2026-10-02 15:37:11 INFO  memory:432        长时记忆溢出缓冲: chat=8318134604058084 +1 = 1条 (阈值=10)
-2026-10-02 15:37:11 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='比我好'
-2026-10-02 15:37:11 INFO  logger:541        [TRACE 9924c775695a4140] total=8.47ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.37ms(x1) (wall8.37), queue_wait=0.57ms(x1)
-2026-10-02 15:37:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:37:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='会16键' is_edit=False
-2026-10-02 15:37:17 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=8318134604058084
-2026-10-02 15:37:17 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=8318134604058084 | group=True | content='会16键'
-2026-10-02 15:37:17 DEBG  queues:75         [队列] 群8318134604058084 消息已入队 (队长度=1)
-2026-10-02 15:37:17 INFO  memory:432        长时记忆溢出缓冲: chat=8318134604058084 +1 = 2条 (阈值=10)
-2026-10-02 15:37:17 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='会16键'
-2026-10-02 15:37:17 INFO  logger:541        [TRACE 3b9f6d28a2ad4a95] total=9.04ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.88ms(x1) (wall8.88), queue_wait=4.41ms(x1)
-2026-10-02 15:38:57 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=朴树 - 平凡之路（已暂停）CPU=57% 内存=86%
-2026-10-02 15:41:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 15:41:20 DEBG  dispatcher:47     dispatch 入口: type=9 content='没有...' is_edit=False
-2026-10-02 15:41:20 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=8318134604058084
-2026-10-02 15:41:20 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=8318134604058084 | group=True | content='没有...'
-2026-10-02 15:41:20 DEBG  queues:75         [队列] 群8318134604058084 消息已入队 (队长度=1)
-2026-10-02 15:41:20 INFO  memory:432        长时记忆溢出缓冲: chat=8318134604058084 +1 = 3条 (阈值=10)
-2026-10-02 15:41:20 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='没有...'
-2026-10-02 15:41:20 INFO  logger:541        [TRACE 475ef9bccd3b43a4] total=28.89ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=28.72ms(x1) (wall28.72), queue_wait=2.17ms(x1)
-2026-10-02 15:42:49 INFO  pc_status:187     收到 lyric_event [延迟=91ms]: '**编曲 : 朴树**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:42:49 INFO  pc_status:187     收到 lyric_event [延迟=69ms]: '**制作人 : 朴树/张亚东**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:42:51 INFO  pc_status:187     收到 lyric_event [延迟=211ms]: '**⏸ 已暂停**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:43:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=朴树 - 平凡之路（已暂停）CPU=38% 内存=82%
-2026-10-02 15:45:23 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=朴树 - 平凡之路（播放中）CPU=39% 内存=68%
-2026-10-02 15:45:23 INFO  pc_status:187     收到 lyric_event [延迟=153ms]: '**▶ 继续播放**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:28 INFO  pc_status:187     收到 lyric_event [延迟=135ms]: '**徘徊着的 在路上的**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:34 INFO  pc_status:187     收到 lyric_event [延迟=378ms]: '**你要走吗 via via**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:39 INFO  pc_status:187     收到 lyric_event [延迟=865ms]: '**易碎的 骄傲着**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:45 INFO  pc_status:187     收到 lyric_event [延迟=309ms]: '**那也曾是我的模样**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:50 INFO  pc_status:187     收到 lyric_event [延迟=170ms]: '**沸腾着的 不安着的**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:45:56 INFO  pc_status:187     收到 lyric_event [延迟=179ms]: '**你要去哪 via via**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:02 INFO  pc_status:187     收到 lyric_event [延迟=58ms]: '**谜一样的 沉默着的**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:07 INFO  pc_status:187     收到 lyric_event [延迟=600ms]: '**故事你真的 在听吗**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:12 INFO  pc_status:187     收到 lyric_event [延迟=362ms]: '**我曾经跨过山和大海 也穿过人山人海**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:18 INFO  pc_status:187     收到 lyric_event [延迟=526ms]: '**我曾经拥有着的一切 转眼都飘散如烟**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:23 INFO  pc_status:187     收到 lyric_event [延迟=561ms]: '**我曾经失落失望 失掉所有方向**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:30 INFO  pc_status:187     收到 lyric_event [延迟=1157ms]: '**直到看见平凡 才是唯一的答案**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:49 INFO  pc_status:187     收到 lyric_event [延迟=1102ms]: '**当你仍然 还在幻想**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:53 INFO  pc_status:187     收到 lyric_event [延迟=145ms]: '**你的明天 via via**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:46:59 INFO  pc_status:187     收到 lyric_event [延迟=226ms]: '**她会好吗 还是更烂**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:47:05 INFO  pc_status:187     收到 lyric_event [延迟=290ms]: '**对我而言 是另一天**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:47:09 INFO  pc_status:187     收到 lyric_event [延迟=676ms]: '**我曾经毁了我的一切 只想永远地离开**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:47:14 INFO  pc_status:187     收到 lyric_event [延迟=29ms]: '**我曾经堕入无边黑暗 想挣扎无法自拔**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:47:21 INFO  pc_status:187     收到 lyric_event [延迟=913ms]: '**我曾经像你像他 像那野草野花**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:47:27 INFO  pc_status:187     收到 lyric_event [延迟=717ms]: '**绝望着 也渴望着 也哭也笑平凡着**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:48:18 INFO  pc_status:187     收到 lyric_event [延迟=70ms]: '**向前走  就这么走  就算你被给过什么**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:48:54 INFO  pc_status:187     收到 lyric_event [延迟=2878ms]: '**我曾经失落失望 失掉所有方向**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:49:16 INFO  pc_status:187     收到 lyric_event [延迟=2050ms]: '**我曾经像你像他 像那野草野花**' song=朴树 - 平凡之路 playing=True channel=None
-2026-10-02 15:49:18 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=视频号（播放中）CPU=85% 内存=45%
-2026-10-02 15:49:18 INFO  pc_status:187     收到 lyric_event [延迟=1455ms]: '**▶ 视频号**' song=视频号 playing=True channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=813ms]: '**编曲 : 朴树**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=802ms]: '**制作人 : 朴树/张亚东**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=810ms]: '**徘徊着的 在路上的**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=816ms]: '**你要走吗 via via**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=807ms]: '**易碎的 骄傲着**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=795ms]: '**那也曾是我的模样**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=785ms]: '**沸腾着的 不安着的**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=775ms]: '**你要去哪 via via**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=764ms]: '**谜一样的 沉默着的**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=753ms]: '**故事你真的 在听吗**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=743ms]: '**我曾经跨过山和大海 也穿过人山人海**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=733ms]: '**我曾经拥有着的一切 转眼都飘散如烟**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=723ms]: '**我曾经失落失望 失掉所有方向**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=713ms]: '**直到看见平凡 才是唯一的答案**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=703ms]: '**当你仍然 还在幻想**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=692ms]: '**你的明天 via via**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=681ms]: '**她会好吗 还是更烂**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=671ms]: '**对我而言 是另一天**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=660ms]: '**我曾经毁了我的一切 只想永远地离开**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=649ms]: '**我曾经堕入无边黑暗 想挣扎无法自拔**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=639ms]: '**我曾经像你像他 像那野草野花**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=628ms]: '**绝望着 也渴望着 也哭也笑平凡着**' song=朴树 - 平凡之路 playing=False channel=None
-2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=618ms]: '**向前走  就这么走  就算你被给过什么**' song=朴树 - 平凡之路 playing=False channel=None
+# 更新于 2026-10-02 18:15:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=607ms]: '**向前走  就这么走  就算你被夺走什么**' song=朴树 - 平凡之路 playing=False channel=None
 2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=598ms]: '**向前走  就这么走  就算你会错过什么**' song=朴树 - 平凡之路 playing=False channel=None
 2026-10-02 15:49:48 INFO  pc_status:187     收到 lyric_event [延迟=587ms]: '**向前走  就这么走  就算你会**' song=朴树 - 平凡之路 playing=False channel=None
@@ -1499,3 +1396,106 @@
 `摇摆起来 摇摆起来 摇摆-`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
 2026-10-02 18:14:33 INFO  pc_status:187     收到 lyric_event [延迟=61ms]: '**Vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
 2026-10-02 18:14:41 INFO  pc_status:187     收到 lyric_event [延迟=223ms]: '**Vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:44 INFO  pc_status:187     收到 lyric_event [延迟=703ms]: '**Vai vaga' vai vagabunda com a xota.**
+`肆意摇摆，舒展身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:47 INFO  pc_status:187     收到 lyric_event [延迟=1052ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:48 INFO  pc_status:187     收到 lyric_event [延迟=513ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:50 INFO  pc_status:187     收到 lyric_event [延迟=1104ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:52 INFO  pc_status:187     收到 lyric_event [延迟=1035ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:53 INFO  pc_status:187     收到 lyric_event [延迟=927ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:55 INFO  pc_status:187     收到 lyric_event [延迟=329ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:57 INFO  pc_status:187     收到 lyric_event [延迟=705ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:14:58 INFO  pc_status:187     收到 lyric_event [延迟=15ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:00 INFO  pc_status:187     收到 lyric_event [延迟=309ms]: '**Acima de dezesseis**
+`继续嗨起，仅限十六岁以上`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:03 INFO  pc_status:187     收到 lyric_event [延迟=810ms]: '**Já pode entrar na, vai,**
+`往里头冲，舞动起来`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:04 INFO  pc_status:187     收到 lyric_event [延迟=17ms]: '**Quica no pica, vai**
+`踩准节奏，肆意律动`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=tienanh109 / HDN / MC K3 / hailong140 - （已暂停）CPU=55% 内存=92%
+2026-10-02 18:15:06 INFO  pc_status:187     收到 lyric_event [延迟=422ms]: '**Quica quica quica quica**
+`律动 律动 律动 律动`' song=tienanh109 / HDN / MC K3 / hai playing=False channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=990ms]: '**Ti' ti',**
+`Pi pi（pica切片）`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=975ms]: '**'Ca vai 'ca vai 'ca vai ti' ti'.**
+`往这儿冲，往这儿冲，pi pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=963ms]: '**Ti',**
+`Pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=959ms]: '**'Ca vai 'ca vai 'ca vai ti' ti',**
+`向这舞动 向这舞动 向这舞动 pi pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=960ms]: '**'Ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'c' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=961ms]: '**Ti' ti',**
+`Pi pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=961ms]: '**'Ca vai 'ca vai 'ca vai ti' ti',**
+`向这舞动 向这舞动 向这舞动 pi pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=962ms]: '**Ti',**
+`Pi`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=963ms]: '**'Ca vai 'ca vai 'ca vai pi’ no pica, vai,**
+`向这舞动 向这舞动 向这舞' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=963ms]: '**'Ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'ca vai 'c' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=964ms]: '**'Ca vai-**
+`舞步别停-`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=964ms]: '**E sou HDN,mais brabo da putaria,**
+`I'm HDN，全场最燥的存在（制作人水印）' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=964ms]: '**E sou HD-HD-D-D-D,mais brabo da putari-**
+`I'm HD-HD-D-D-D' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=965ms]: '**Vai vagabunda com a xota no duro,**
+`跟随鼓点，舒展身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=965ms]: '**Vai vagabunda com a xota no duro,**
+`跟随鼓点，舒展身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=966ms]: '**Vai-vai vagabunda com a xota no duro,**
+`不停摇摆，舒展身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=966ms]: '**Vai vaga' vai vaga' vai vaga' vai vaga',**
+`摇摆起来 摇摆起来 摇摆起来' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=966ms]: '**Vai vaga' vai vaga' vai-**
+`摇摆起来 摇摆起来 摇摆-`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=967ms]: '**Vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**Vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' vai vaga' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=967ms]: '**Vai vaga' vai vagabunda com a xota.**
+`肆意摇摆，舒展身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=967ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=967ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**'Bunda com a xota no duro,**
+`扭动腰臀，跟上节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=969ms]: '**Vai-vai vagabunda com a xota no duro.**
+`不停摇摆，扭动身姿`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=969ms]: '**Acima de dezesseis**
+`继续嗨起，仅限十六岁以上`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=969ms]: '**Já pode entrar na, vai,**
+`往里头冲，舞动起来`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=969ms]: '**Quica no pica, vai**
+`踩准节奏，肆意律动`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:07 INFO  pc_status:187     收到 lyric_event [延迟=969ms]: '**Quica quica quica no pica, vai**
+`律动不停，随心摇摆去吧，与我共舞`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:08 INFO  pc_status:187     收到 lyric_event [延迟=1079ms]: '**Acima de dezesseis**
+`反复弹跳`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:09 INFO  pc_status:187     收到 lyric_event [延迟=438ms]: '**Já pode entrar na, vai,**
+`肆意摇摆`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:12 INFO  pc_status:187     收到 lyric_event [延迟=808ms]: '**Quica no pica, vai**
+`跟上节拍，尽情律动`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:13 INFO  pc_status:187     收到 lyric_event [延迟=144ms]: '**Quica quica quica no pica, vai**
+`反复弹跳`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:17 INFO  pc_status:187     收到 lyric_event [延迟=750ms]: '**Vai vagabunda-**
+`肆意摇摆`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:21 INFO  pc_status:187     收到 lyric_event [延迟=475ms]: '**Vai-vai vagabunda-**
+`紧跟步伐`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
+2026-10-02 18:15:24 INFO  pc_status:187     收到 lyric_event [延迟=205ms]: '**Vai vagabunda-**
+`踩准节奏`' song=tienanh109 / HDN / MC K3 / hai playing=True channel=None
