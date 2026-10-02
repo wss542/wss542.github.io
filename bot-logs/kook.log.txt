@@ -1,12 +1,4 @@
-# 更新于 2026-10-02 21:46:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 19:19:22 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
-2026-10-02 19:19:22 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-02 19:19:22 INFO  logger:541        [TRACE 7454551d25fa4cf5] total=22249.88ms severity=very_slow_request | llm_calls=2 total=19962.26ms avg=9981.13ms max=11954.48ms p50=9981.13 p95=11757.14 p99=11915.01 | json_parse=7.88ms(x1), llm=11997.82ms(x1), memory=215.79ms(x2), process=22237.38ms(x1) (wall22237.38), queue_wait=91.71ms(x1)
-2026-10-02 19:19:22 WARN  logger:559        [VERY_SLOW 7454551d25fa4cf5] total=22251.81ms 需重点排查 | json_parse=7.88ms(x1), llm=11997.82ms(x1), memory=215.79ms(x2), process=22237.38ms(x1) (wall22237.38), queue_wait=91.71ms(x1) | llm_calls=2 total=19962.26ms avg=9981.13ms max=11954.48ms p50=9981.13 p95=11757.14 p99=11915.01 | perf: queue=91.71ms llm=12005.7ms search_tool=0.0ms delivery=0.0ms other=22453.17ms wall=22251.46ms dominant=other
-2026-10-02 19:19:22 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-2026-10-02 19:19:22 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-02 19:19:23 INFO  llm:544           LLM [deepseek-flash] 返回 195字符 耗时1.4s → "[19:19:22] 若尘 ~喵: 问pcl怎么加mod, 茂密: 回复详细讲讲PCL加mod，首先..."
-2026-10-02 19:19:23 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
+# 更新于 2026-10-02 21:47:33 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 19:19:24 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=508 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3FrKijVxEsdhmx3Bj.I3nqwGT2mNrFwXpGxn8dkK67DF5Cnoj1hSIOyocFhGAeqMEA!!
 2026-10-02 19:19:27 INFO  qq_transport:711  QQ 分片上传成功 file=tmpmbh2502e.webp size=43026 ttl=86400
 2026-10-02 19:19:27 INFO  pc_status:187     收到 lyric_event [延迟=740ms]: '**就算你有一道牆 我的愛會攀上窗台盛放**' song=郭静 - 心墙 playing=True channel=None
@@ -1499,3 +1491,11 @@
 2026-10-02 21:46:30 INFO  pc_status:187     收到 lyric_event [延迟=575ms]: '**看著我墜啊墜啊墜落到雲裏**' song=陈粒 - 虚拟 playing=True channel=None
 2026-10-02 21:46:35 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-02 21:46:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-02 21:46:50 INFO  pc_status:187     收到 lyric_event [延迟=962ms]: '**固執無聊的有趣**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:53 INFO  pc_status:187     收到 lyric_event [延迟=706ms]: '**平平淡淡管住了情緒**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:00 INFO  pc_status:187     收到 lyric_event [延迟=1084ms]: '**固執聲音的意義**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:04 INFO  pc_status:187     收到 lyric_event [延迟=900ms]: '**固執空洞的聲音**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:07 INFO  pc_status:187     收到 lyric_event [延迟=652ms]: '**搖搖晃晃情緒卻滿溢**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:14 INFO  pc_status:187     收到 lyric_event [延迟=1013ms]: '**妳是我未曾擁有無法捕捉的親昵**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:16 INFO  pc_status:187     收到 lyric_event [延迟=338ms]: '**我卻有妳的吻妳的魂妳的心**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:47:21 INFO  pc_status:187     收到 lyric_event [延迟=253ms]: '**載著我飛呀飛呀飛 越過了意義**' song=陈粒 - 虚拟 playing=True channel=None
