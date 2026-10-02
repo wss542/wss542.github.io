@@ -1,65 +1,4 @@
-# 更新于 2026-10-02 11:33:03 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:48:59 INFO  events:94         👋 再见！
-2026-10-02 09:48:59 INFO  main:70           应用程序已退出
-2026-10-02 09:49:02 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:49:06 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-02 09:49:06 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 09:49:07 INFO  events:94         ==================================================
-2026-10-02 09:49:07 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-02 09:49:07 INFO  events:94         ==================================================
-2026-10-02 09:49:07 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-02 09:49:07 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-02 09:49:07 INFO  events:94         语言文件已加载
-2026-10-02 09:49:07 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-02 09:49:07 INFO  events:94         日志系统已初始化
-2026-10-02 09:49:07 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-02 09:49:07 INFO  events:94         khl.py Bot 实例已创建
-2026-10-02 09:49:22 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:49:38 WARN  events:94         拉取 bot 自身信息失败: Connection timeout to host https://www.kookapp.cn/api/v3/user/me（启动后仍可工作，但 @检测可能受影响）
-2026-10-02 09:49:38 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-02 09:49:38 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-02 09:49:38 INFO  events:94         消息发送器已初始化
-2026-10-02 09:49:38 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-02 09:49:38 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-02 09:49:38 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-02 09:49:38 INFO  events:94         用户名查询模块已初始化
-2026-10-02 09:49:38 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-02 09:49:38 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-02 09:49:38 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-02 09:49:38 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-02 09:49:38 INFO  events:94         上下文管理器已初始化
-2026-10-02 09:49:38 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 09:49:38 INFO  events:94         事件分发器已就绪
-2026-10-02 09:49:38 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-02 09:49:38 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-02 09:49:38 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-02 09:49:38 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-02 09:49:38 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-02 09:49:38 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+# 更新于 2026-10-02 11:33:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
 2026-10-02 09:49:38 INFO  manager:165       Plugin 已启用: motou@1.0.0
 2026-10-02 09:49:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
@@ -1499,3 +1438,64 @@
 2026-10-02 11:26:22 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=T-Pain / Ne-Yo - Turn All the Lights On（已暂停）CPU=28% 内存=90%
 2026-10-02 11:27:13 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>（后续同类失败将静默）
 2026-10-02 11:32:51 WARN  bot:981           主电脑掉线（通知已静默，由 GitHub Actions 推送）: 5 分钟无心跳
+2026-10-02 11:33:17 INFO  pc_status:46      PC 客户端已连接
+2026-10-02 11:33:17 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=0% 内存=91%
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1072ms]: '**▶ T-Pain / Ne-Yo - Turn All the Lights On**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1070ms]: '**Yah, ah-ah** *(ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1063ms]: '**Yah, ah-ah** *(ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1054ms]: '**Yah, ah-ah** *(ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1039ms]: '**Yah**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1030ms]: '**Take off your shoes** *(shoes, shoes)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1019ms]: '**Ain't nobody gon' see nothin'**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=1010ms]: '**Bring out the booze** *(booze, booze)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=999ms]: '**Baby girl, stop frontin'**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=988ms]: '**I ain't got nothin' to lose** *(lose, lose)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=978ms]: '**And I ain't gotta work no more**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=968ms]: '**Fuck that place, fuck my boss**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=957ms]: '**I'm about to ball, girl, where the cars?**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=946ms]: '**So I'm going hard** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=936ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=925ms]: '**Oh yeah, I'm going in** *(i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=915ms]: '**And now I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=906ms]: '**Let the party begin!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=895ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=885ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=874ms]: '**A-a-a-a-a-a-a-a-a-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=865ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=854ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=843ms]: '**A-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=833ms]: '**Put your hands up if you're going hard** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=823ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=813ms]: '**Ooh yeah, I'm going in** *(i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=802ms]: '**Okay, okay, I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=792ms]: '**Let the party begin**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=782ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=771ms]: '**Gimme that glass, little bit of ice**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=761ms]: '**Pour that rain in there**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=751ms]: '**This must be her song**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=740ms]: '**Dancing like ain't nobody else in here**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=730ms]: '**Sexy as she wanna be and she**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=720ms]: '**Dancing next, so close, to me**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=710ms]: '**I said, "Please excuse, you steppin' on expensive shoes ju' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=699ms]: '**Shawty is a perfect 10**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=689ms]: '**This angelic body made for sin** *(oh-oh-oh, whoa-oh)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=678ms]: '**I love the way you get it in**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=668ms]: '**Come over here and shake it for a gentleman**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=658ms]: '**'Cause you going**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=647ms]: '**She's going hard** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=636ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=627ms]: '**Oh yeah, I'm going in** *(i-i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=616ms]: '**And now I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=604ms]: '**Let the party begin!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=593ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=584ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=573ms]: '**A-a-a-a-a-a-a-a-a-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=562ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=552ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=542ms]: '**A-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=532ms]: '**Put your hands up if you're going hard** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=521ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=511ms]: '**Ooh yeah, I'm going in** *(i-i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=501ms]: '**Okay, okay, I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=490ms]: '**Let the party begin**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
+2026-10-02 11:33:18 INFO  pc_status:187     收到 lyric_event [延迟=480ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
