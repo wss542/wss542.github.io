@@ -1,17 +1,4 @@
-# 更新于 2026-10-02 10:29:13 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:35:28 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-02 09:35:28 INFO  manager:234       Plugin 已卸载: weather
-2026-10-02 09:35:28 INFO  manager:234       Plugin 已卸载: whois
-2026-10-02 09:35:28 INFO  events:94         Plugin Runtime 已关闭
-2026-10-02 09:35:28 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-10-02 09:35:28 INFO  context_manager:190 上下文已写入磁盘
-2026-10-02 09:35:28 INFO  events:94         👋 再见！
-2026-10-02 09:35:28 INFO  main:70           应用程序已退出
-2026-10-02 09:35:34 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-02 09:35:34 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 09:35:35 INFO  events:94         ==================================================
-2026-10-02 09:35:35 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-02 09:35:35 INFO  events:94         ==================================================
+# 更新于 2026-10-02 10:29:50 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:35:35 INFO  llm:162           main_skill.md 已加载: 12 个章节
 2026-10-02 09:35:35 INFO  events:94         配置已加载 | bot=茂密 | debug=True
 2026-10-02 09:35:35 INFO  events:94         语言文件已加载
@@ -1499,3 +1486,16 @@
 2026-10-02 10:29:13 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
 2026-10-02 10:29:13 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
 2026-10-02 10:29:13 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
+2026-10-02 10:29:14 INFO  llm:544           LLM [deepseek-flash] 返回 2字符 耗时0.8s → "{}"
+2026-10-02 10:29:14 INFO  llm:544           LLM [deepseek-flash] 返回 197字符 耗时0.9s → "[10:29:13] 茂密: 这是什么的记录呀喵？(emj)疑问 (emj)[30906778462..."
+2026-10-02 10:29:14 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
+2026-10-02 10:29:14 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=39 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqoC1gl3Lk0HvKAzLE28IEilvp6HgSaEgw7Wj1ZJcZdvRIF2z5jcROjL36KoCVg43XQ!!
+2026-10-02 10:29:17 INFO  qq_transport:711  QQ 分片上传成功 file=tmp5_gpvxg_.webp size=40672 ttl=86400
+2026-10-02 10:29:18 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqtgLsAHCqv8NkcFGUaJpYktnlfjcn0PXNJcMykzmeDx8IF2z5jcROjL36KoCVg43XQ!!
+2026-10-02 10:29:18 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k00id.png (.webp 40672B)
+2026-10-02 10:29:20 INFO  qq_transport:711  QQ 分片上传成功 file=tmp4c1rqlyh.webp size=70514 ttl=86400
+2026-10-02 10:29:22 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=3 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqti5ijERboAW2whEs-CIzqPQmEo0wDGet6MEErR4hjQ5IF2z5jcROjL36KoCVg43XQ!!
+2026-10-02 10:29:22 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/h4BzFCdzH20nm0nm.png (.webp 70514B)
+2026-10-02 10:29:22 DEBG  response_delivery:297 已发送第 1/1 条: 这是什么的记录呀喵？(emj)疑问 (emj)[309067...
+2026-10-02 10:29:22 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-02 10:29:22 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
