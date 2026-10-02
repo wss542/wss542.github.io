@@ -1,18 +1,4 @@
-# 更新于 2026-10-02 11:10:46 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:46:29 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-02 09:46:29 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-02 09:46:29 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-02 09:46:42 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:46:49 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>（后续同类失败将静默）
-2026-10-02 09:47:02 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:47:09 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>（后续同类失败将静默）
-2026-10-02 09:47:09 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-02 09:47:09 WARN  holiday:47        节假日 API 拉取失败: 
-2026-10-02 09:47:09 INFO  holiday:105       节假日服务已启动
-2026-10-02 09:47:09 INFO  holiday:96        节假日每日刷新: 等待 51175 秒 (下次 00:00:05)
-2026-10-02 09:47:10 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-02 09:47:10 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-02 09:47:10 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+# 更新于 2026-10-02 11:11:21 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:47:10 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
 2026-10-02 09:47:10 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 2026-10-02 09:47:22 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
@@ -1499,3 +1485,17 @@
 2026-10-02 11:10:37 INFO  pc_status:187     收到 lyric_event [延迟=837ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
 2026-10-02 11:10:41 INFO  pc_status:187     收到 lyric_event [延迟=620ms]: '**Oh yeah, I'm going in** *(i-i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
 2026-10-02 11:10:45 INFO  pc_status:187     收到 lyric_event [延迟=1098ms]: '**And now I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:48 INFO  pc_status:187     收到 lyric_event [延迟=1113ms]: '**Let the party begin!**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:50 INFO  pc_status:187     收到 lyric_event [延迟=892ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:50 INFO  pc_status:187     收到 lyric_event [延迟=386ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:53 INFO  pc_status:187     收到 lyric_event [延迟=529ms]: '**A-a-a-a-a-a-a-a-a-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:57 INFO  pc_status:187     收到 lyric_event [延迟=891ms]: '**Turn all the lights on!**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:10:58 INFO  pc_status:187     收到 lyric_event [延迟=1063ms]: '**A-a-a-a-a-a-a-a-a-a-a-a, ah-ah**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:01 INFO  pc_status:187     收到 lyric_event [延迟=866ms]: '**A-a-a-a**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:03 INFO  pc_status:187     收到 lyric_event [延迟=209ms]: '**Put your hands up if you're going hard** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:07 INFO  pc_status:187     收到 lyric_event [延迟=859ms]: '**I need some lights, it's way too dark** *(ah-ah-ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:11 INFO  pc_status:187     收到 lyric_event [延迟=511ms]: '**Ooh yeah, I'm going in** *(i-i-i-i-in)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:15 INFO  pc_status:187     收到 lyric_event [延迟=1149ms]: '**Okay, okay, I'm with my friends** *(friends)*' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:18 INFO  pc_status:187     收到 lyric_event [延迟=1067ms]: '**Let the party begin**' song=T-Pain / Ne-Yo - Turn All the  playing=True channel=None
+2026-10-02 11:11:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=T-Pain / Ne-Yo - Turn All the Lights On（已暂停）CPU=38% 内存=84%
+2026-10-02 11:11:20 INFO  pc_status:187     收到 lyric_event [延迟=631ms]: '**Yah, ah-ah** *(ah-ah)*' song=T-Pain / Ne-Yo - Turn All the  playing=False channel=None
