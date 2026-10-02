@@ -1,32 +1,4 @@
-# 更新于 2026-10-02 10:36:24 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:36:06 INFO  events:94         ==================================================
-2026-10-02 09:36:06 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-02 09:36:06 INFO  events:94         ==================================================
-2026-10-02 09:36:06 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-02 09:36:06 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-02 09:36:06 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-02 09:36:06 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-02 09:36:06 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-02 09:36:06 INFO  bot:835           战绩采集将在 2h24m 后执行 (12:01)
-2026-10-02 09:36:06 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(27370s 前)，掉线状态延续，不重复告警
-2026-10-02 09:36:06 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 27370s 前）
-2026-10-02 09:36:21 DEBG  notify_system:655 git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-2026-10-02 09:36:21 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-02 09:36:21 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-02 09:36:21 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-02 09:36:21 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-02 09:36:21 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-02 09:36:21 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-02 09:36:21 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-02 09:36:22 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:36:41 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>（后续同类失败将静默）
-2026-10-02 09:36:42 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:37:01 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error timed out>（后续同类失败将静默）
-2026-10-02 09:37:01 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-02 09:37:01 WARN  holiday:47        节假日 API 拉取失败: 
-2026-10-02 09:37:01 INFO  holiday:105       节假日服务已启动
-2026-10-02 09:37:01 INFO  holiday:96        节假日每日刷新: 等待 51783 秒 (下次 00:00:05)
-2026-10-02 09:37:02 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+# 更新于 2026-10-02 10:37:10 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:37:02 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
 2026-10-02 09:37:02 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
 2026-10-02 09:37:02 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
@@ -1499,3 +1471,31 @@
 `只要你是认真的`' song=Tinashe - Watch Me Work playing=True channel=None
 2026-10-02 10:36:23 INFO  pc_status:187     收到 lyric_event [延迟=139ms]: '**You a real ass n***a**
 `你真是讨厌的家伙`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:27 INFO  pc_status:187     收到 lyric_event [延迟=1155ms]: '**Baby **** with it**
+`宝贝来痛快淋漓`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:29 INFO  pc_status:187     收到 lyric_event [延迟=849ms]: '**Yeah baby **** with it**
+`是的 宝贝痛快淋漓`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:31 INFO  pc_status:187     收到 lyric_event [延迟=887ms]: '**You know I've been waitin'**
+`你知道我一直在等`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:33 INFO  pc_status:187     收到 lyric_event [延迟=780ms]: '**If you sipping then you're sipping**
+`如果你困了 快来浅尝几口`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:36 INFO  pc_status:187     收到 lyric_event [延迟=492ms]: '**You know you're taking too long**
+`你浪费了太多时间`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:38 INFO  pc_status:187     收到 lyric_event [延迟=376ms]: '**Uh oh body‘s low before you know**
+`这感觉很好`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:42 INFO  pc_status:187     收到 lyric_event [延迟=53ms]: '**Uh oh good to go uh oh**
+`哦 很好`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:48 INFO  pc_status:187     收到 lyric_event [延迟=878ms]: '**Uh oh I'm ready now I'm on the floor**
+`我已经躺好了`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:53 INFO  pc_status:187     收到 lyric_event [延迟=444ms]: '**Uh oh uh oh**
+`哦 哦`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:56 INFO  pc_status:187     收到 lyric_event [延迟=63ms]: '**Ooh I'm ready now I'm ready**
+`我已经准备好了`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:36:59 INFO  pc_status:187     收到 lyric_event [延迟=897ms]: '**I believe you'll be somebody**
+`我相信你会是一个人`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:37:03 INFO  pc_status:187     收到 lyric_event [延迟=87ms]: '**Someone I can call the one**
+`我可以称作唯一的人`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:37:06 INFO  pc_status:187     收到 lyric_event [延迟=1096ms]: '**You gon' be my only only**
+`你会是我的唯一`' song=Tinashe - Watch Me Work playing=True channel=None
+2026-10-02 10:37:08 INFO  pc_status:187     收到 lyric_event [延迟=288ms]: '**I can see that you were watching**
+`我可以看出你在监视`' song=Tinashe - Watch Me Work playing=True channel=None
