@@ -1,10 +1,4 @@
-# 更新于 2026-10-02 21:45:24 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 19:19:10 ERRO  llm:561           LLM [Qwen/Qwen3.5-397B-A1] 调用超时 (8.0s/8.0s)
-2026-10-02 19:19:10 INFO  gateway:141       Agent 门卫判定 msg='pcl怎么加mod啊 喵？' raw=''
-2026-10-02 19:19:10 INFO  gateway:205       Agent: 门卫判定为普通聊天('pcl怎么加mod啊 喵？')，回退 Fast Path
-2026-10-02 19:19:10 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=105.7ms
-2026-10-02 19:19:10 INFO  pipeline:866      额外信息: 1753字 (memory=604 search=0)
-2026-10-02 19:19:10 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+# 更新于 2026-10-02 21:45:55 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 19:19:10 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 2026-10-02 19:19:10 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 2026-10-02 19:19:10 INFO  pc_status:187     收到 lyric_event [延迟=54ms]: '**你的心有一道牆 但我發現一扇窗**' song=郭静 - 心墙 playing=True channel=None
@@ -1499,3 +1493,9 @@
 2026-10-02 21:43:08 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-02 21:44:10 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-02 21:44:26 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-02 21:45:26 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈粒 - 虚拟（播放中）CPU=67% 内存=80%
+2026-10-02 21:45:26 INFO  pc_status:187     收到 lyric_event [延迟=501ms]: '**▶ 陈粒 - 虚拟**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:45:39 INFO  pc_status:187     收到 lyric_event [延迟=1100ms]: '**固執押韻的排比**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:45:43 INFO  pc_status:187     收到 lyric_event [延迟=914ms]: '**固執幼稚的押韻**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:45:46 INFO  pc_status:187     收到 lyric_event [延迟=680ms]: '**零零散散湊齊了陣營**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:45:53 INFO  pc_status:187     收到 lyric_event [延迟=21ms]: '**固執美麗的意義**' song=陈粒 - 虚拟 playing=True channel=None
