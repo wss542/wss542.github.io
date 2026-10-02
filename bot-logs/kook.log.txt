@@ -1,96 +1,4 @@
-# 更新于 2026-10-02 12:23:03 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:58:52 INFO  qq_bot:155        QQ HELLO interval=41250
-2026-10-02 09:58:52 INFO  qq_bot:188        QQ 事件到达 t=READY
-2026-10-02 10:02:58 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:02:58 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商' is_edit=False
-2026-10-02 10:02:58 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-2026-10-02 10:02:58 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商'
-2026-10-02 10:02:58 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
-2026-10-02 10:02:58 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-10-02 10:02:58 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
-2026-10-02 10:02:58 INFO  pipeline:503      指令拦截: '/供应商' from=ywandwss
-2026-10-02 10:02:58 DEBG  commands:4922     指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
-2026-10-02 10:02:58 INFO  commands:4977     指令执行完成 [供应商]: 返回1093字符
-2026-10-02 10:02:59 INFO  logger:541        [TRACE 540ca98000624a95] total=815.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=815.89ms(x1) (wall815.89), queue_wait=0.58ms(x1)
-2026-10-02 10:02:59 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:07 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:07 INFO  bot:326           ✏️ 编辑消息作者反查: id=1759953618 username=wss
-2026-10-02 10:03:07 INFO  bot:362           ✏️ 编辑消息 → dispatcher: mid=9d20de7e-eb3a-49d2-96cc-b91dbb87f657 chat=9844130976336955 type=255
-2026-10-02 10:03:07 DEBG  dispatcher:47     dispatch 入口: type=1 content='/供应商 modelscope ' is_edit=True
-2026-10-02 10:03:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-2026-10-02 10:03:07 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商 modelscope '
-2026-10-02 10:03:07 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-10-02 10:03:07 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
-2026-10-02 10:03:07 INFO  pipeline:503      指令拦截: '/供应商 modelscope ' from=ywandwss
-2026-10-02 10:03:07 DEBG  commands:4922     指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
-2026-10-02 10:03:07 INFO  commands:1498     配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
-2026-10-02 10:03:07 INFO  commands:1499     供应商切换: DEEPSEEK/deepseek-v4-flash -> MODELSCOPE/Qwen/Qwen3-Next-80B-A3B-Instruct (by ywandwss)
-2026-10-02 10:03:07 INFO  commands:4977     指令执行完成 [供应商]: 返回90字符
-2026-10-02 10:03:08 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:08 INFO  logger:541        [TRACE d1fd6b2238474535] total=461.01ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=460.93ms(x1) (wall460.93), queue_wait=0.33ms(x1)
-2026-10-02 10:03:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='/update' is_edit=False
-2026-10-02 10:03:17 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-2026-10-02 10:03:17 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/update'
-2026-10-02 10:03:17 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-10-02 10:03:17 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
-2026-10-02 10:03:17 INFO  pipeline:503      指令拦截: '/update' from=ywandwss
-2026-10-02 10:03:17 DEBG  commands:4922     指令解析: prefix=/ cmd=update args=[] user=1759953618
-2026-10-02 10:03:17 INFO  commands:4977     指令执行完成 [update]: 返回21字符
-2026-10-02 10:03:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:17 INFO  logger:541        [TRACE 604bc0e007cc4df8] total=475.35ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=475.27ms(x1) (wall475.27), queue_wait=0.39ms(x1)
-2026-10-02 10:03:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:21 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:21 INFO  snapshot:79       创建快照 f0b97826098d: 备份 1 个文件
-2026-10-02 10:03:21 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:22 WARN  safe_update:678   文件 phone_tunnel_url.txt 本地 blob 与记录不一致（外部改动），先尝试行级合并
-2026-10-02 10:03:23 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:23 INFO  auto_update:173   更新成功，已安排 5 秒后自动重启
-2026-10-02 10:03:23 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-02 10:03:28 INFO  auto_update:36    更新完成，自动重启进程...
-2026-10-02 10:03:35 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-02 10:03:35 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 10:03:36 INFO  events:94         ==================================================
-2026-10-02 10:03:36 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-02 10:03:36 INFO  events:94         ==================================================
-2026-10-02 10:03:36 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-02 10:03:36 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-02 10:03:36 INFO  events:94         语言文件已加载
-2026-10-02 10:03:36 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-02 10:03:36 INFO  events:94         日志系统已初始化
-2026-10-02 10:03:36 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-02 10:03:36 INFO  events:94         khl.py Bot 实例已创建
-2026-10-02 10:03:36 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-10-02 10:03:36 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-02 10:03:36 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-02 10:03:36 INFO  events:94         消息发送器已初始化
-2026-10-02 10:03:36 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-02 10:03:36 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-02 10:03:36 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-02 10:03:36 INFO  events:94         用户名查询模块已初始化
-2026-10-02 10:03:36 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-02 10:03:36 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-02 10:03:36 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-02 10:03:36 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-02 10:03:36 INFO  events:94         上下文管理器已初始化
-2026-10-02 10:03:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 10:03:36 INFO  events:94         事件分发器已就绪
-2026-10-02 10:03:36 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-02 10:03:36 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-02 10:03:36 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-02 10:03:36 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-02 10:03:36 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+# 更新于 2026-10-02 12:27:52 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 10:03:36 INFO  manager:165       Plugin 已启用: checkin@1.0.0
 2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 2026-10-02 10:03:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
@@ -1499,3 +1407,95 @@
 2026-10-02 12:19:59 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-02 12:22:17 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
 2026-10-02 12:22:17 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-02 12:23:03 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+2026-10-02 12:23:03 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-02 12:23:18 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=85 cpu=None mem=None
+2026-10-02 12:23:18 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     2026-10-02 12:27:38 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-02 12:27:38 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-02 12:27:38 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-02 12:27:38 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-02 12:27:49 INFO  events:94         ==================================================
+2026-10-02 12:27:49 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+2026-10-02 12:27:49 INFO  events:94         ==================================================
+2026-10-02 12:27:49 INFO  events:94         ==================================================
+2026-10-02 12:27:49 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+2026-10-02 12:27:49 INFO  events:94         ==================================================
+2026-10-02 12:27:49 INFO  llm:162           main_skill.md 已加载: 12 个章节
+2026-10-02 12:27:49 INFO  events:94         配置已加载 | bot=茂密 | debug=True
+2026-10-02 12:27:49 INFO  llm:162           main_skill.md 已加载: 12 个章节
+2026-10-02 12:27:49 INFO  events:94         配置已加载 | bot=茂密 | debug=True
+2026-10-02 12:27:49 INFO  events:94         语言文件已加载
+2026-10-02 12:27:49 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
+2026-10-02 12:27:49 INFO  events:94         日志系统已初始化
+2026-10-02 12:27:49 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
+2026-10-02 12:27:49 INFO  events:94         语言文件已加载
+2026-10-02 12:27:49 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
+2026-10-02 12:27:49 INFO  events:94         日志系统已初始化
+2026-10-02 12:27:49 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
+2026-10-02 12:27:49 INFO  events:94         khl.py Bot 实例已创建
+2026-10-02 12:27:50 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
+2026-10-02 12:27:50 INFO  database:107      数据库表结构已就绪（含 FTS5）
+2026-10-02 12:27:50 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
+2026-10-02 12:27:50 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
+2026-10-02 12:27:50 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
+2026-10-02 12:27:50 INFO  bot:111           上下文管理器已初始化
+2026-10-02 12:27:50 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-02 12:27:50 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+2026-10-02 12:27:50 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+2026-10-02 12:27:50 DEBG  loader:46         跳过 _down：缺少 manifest.json
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: checkin@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: chou@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: countdown@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: echo@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: eq@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+2026-10-02 12:27:50 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: greet@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: luck@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: motou@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: nasa@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: pgr@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: tuf@2.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: weather@1.0.0
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
+2026-10-02 12:27:50 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+2026-10-02 12:27:50 INFO  manager:165       Plugin 已启用: whois@1.0.0
+2026-10-02 12:27:50 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+2026-10-02 12:27:50 INFO  bot:111           ==================================================
+2026-10-02 12:27:50 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
+2026-10-02 12:27:50 INFO  bot:111           ==================================================
+2026-10-02 12:27:50 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
+2026-10-02 12:27:50 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
+2026-10-02 12:27:50 INFO  queues:103        [队列] 渲染队列已启动
+2026-10-02 12:27:50 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
+2026-10-02 12:27:50 INFO  events:94         QQ open-platform channel started
+2026-10-02 12:27:50 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
+2026-10-02 12:27:50 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
+2026-10-02 12:27:50 INFO  rss:299           [RSS] 订阅轮询服务启动
+2026-10-02 12:27:50 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
