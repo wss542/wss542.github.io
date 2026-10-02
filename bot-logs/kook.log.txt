@@ -1,13 +1,4 @@
-# 更新于 2026-10-02 10:26:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:32:43 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-02 09:32:43 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-02 09:32:43 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-02 09:32:43 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-02 09:32:43 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-02 09:32:43 INFO  bot:835           战绩采集将在 2h28m 后执行 (12:01)
-2026-10-02 09:32:43 INFO  bot:942           PC 掉线检测: 启动时心跳已超时(27167s 前)，掉线状态延续，不重复告警
-2026-10-02 09:32:43 INFO  bot:944           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 27167s 前）
-2026-10-02 09:32:58 DEBG  notify_system:655 git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+# 更新于 2026-10-02 10:27:11 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:32:58 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
 2026-10-02 09:32:58 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
 2026-10-02 09:32:58 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1490,12 @@
 2026-10-02 10:24:54 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=赵露思全国后援会 - Hey, Rosy!（已暂停）CPU=93% 内存=94%
 2026-10-02 10:24:54 INFO  pc_status:187     收到 lyric_event [延迟=22ms]: '**作曲 : 锅巴**' song=赵露思全国后援会 - Hey, Rosy! playing=False channel=None
 2026-10-02 10:24:55 INFO  pc_status:187     收到 lyric_event [延迟=83ms]: '**⏸ 已暂停**' song=赵露思全国后援会 - Hey, Rosy! playing=False channel=None
+2026-10-02 10:26:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=赵露思全国后援会 - Hey, Rosy!（播放中）CPU=45% 内存=90%
+2026-10-02 10:26:58 INFO  pc_status:187     收到 lyric_event [延迟=1097ms]: '**▶ 继续播放**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:26:58 INFO  pc_status:187     收到 lyric_event [延迟=1084ms]: '**You mean a lot to me, I'll be forever Cannelé.**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:08 INFO  pc_status:187     收到 lyric_event [延迟=523ms]: '**演唱：锅巴**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:08 INFO  pc_status:187     收到 lyric_event [延迟=22ms]: '**作词：谢小小、锅巴、小半、芋圆**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:09 INFO  pc_status:187     收到 lyric_event [延迟=631ms]: '**作曲：锅巴**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:09 INFO  pc_status:187     收到 lyric_event [延迟=129ms]: '**和声编唱：Star1!**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:11 INFO  pc_status:187     收到 lyric_event [延迟=783ms]: '**混音：Star1!**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:11 INFO  pc_status:187     收到 lyric_event [延迟=282ms]: '**美工：柔柔**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
