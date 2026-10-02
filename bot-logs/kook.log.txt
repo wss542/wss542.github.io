@@ -1,11 +1,4 @@
-# 更新于 2026-10-02 10:27:11 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:32:58 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-02 09:32:58 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-02 09:32:58 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-02 09:32:58 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-02 09:32:58 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-02 09:32:58 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-02 09:32:58 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-10-02 10:27:42 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:33:01 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
 2026-10-02 09:33:18 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>（后续同类失败将静默）
 2026-10-02 09:33:21 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
@@ -1499,3 +1492,10 @@
 2026-10-02 10:27:09 INFO  pc_status:187     收到 lyric_event [延迟=129ms]: '**和声编唱：Star1!**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
 2026-10-02 10:27:11 INFO  pc_status:187     收到 lyric_event [延迟=783ms]: '**混音：Star1!**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
 2026-10-02 10:27:11 INFO  pc_status:187     收到 lyric_event [延迟=282ms]: '**美工：柔柔**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:12 INFO  pc_status:187     收到 lyric_event [延迟=899ms]: '**画手：栗子**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:12 INFO  pc_status:187     收到 lyric_event [延迟=403ms]: '**剪辑：甜粥**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:13 INFO  pc_status:187     收到 lyric_event [延迟=1063ms]: '**策划：芋圆**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:13 INFO  pc_status:187     收到 lyric_event [延迟=558ms]: '**统筹：赵露思全国后援会**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:14 INFO  pc_status:187     收到 lyric_event [延迟=302ms]: '**作曲 : 锅巴**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:27:15 INFO  pc_status:187     收到 lyric_event [延迟=225ms]: '**▶ Nanne / Soundfactory - Håll om mig (SoundFactory Dub Mix' song=Nanne / Soundfactory - Håll om playing=True channel=None
+2026-10-02 10:27:41 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Nanne / Soundfactory - Håll om mig (Soun（播放中）CPU=80% 内存=65%
