@@ -1,18 +1,4 @@
-# 更新于 2026-10-02 12:57:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 10:29:13 INFO  memory:414        触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
-2026-10-02 10:29:13 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-02 10:29:13 INFO  logger:541        [TRACE 589aa549b7f14728] total=8087.57ms severity=slow_request | llm_calls=1 total=7622.44ms avg=7622.44ms max=7622.44ms p50=7622.44 p95=7622.44 p99=7622.44 | json_parse=3.6ms(x1), llm=7745.64ms(x1), memory=165.31ms(x2), process=8085.03ms(x1) (wall8085.03), queue_wait=8.08ms(x1)
-2026-10-02 10:29:13 WARN  logger:564        [SLOW 589aa549b7f14728] total=8088.83ms | json_parse=3.6ms(x1), llm=7745.64ms(x1), memory=165.31ms(x2), process=8085.03ms(x1) (wall8085.03), queue_wait=8.08ms(x1) | llm_calls=1 total=7622.44ms avg=7622.44ms max=7622.44ms p50=7622.44 p95=7622.44 p99=7622.44 | perf: queue=8.08ms llm=7749.24ms search_tool=0.0ms delivery=0.0ms other=8250.34ms wall=8088.72ms dominant=other
-2026-10-02 10:29:13 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
-2026-10-02 10:29:13 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-02 10:29:13 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
-2026-10-02 10:29:14 INFO  llm:544           LLM [deepseek-flash] 返回 2字符 耗时0.8s → "{}"
-2026-10-02 10:29:14 INFO  llm:544           LLM [deepseek-flash] 返回 197字符 耗时0.9s → "[10:29:13] 茂密: 这是什么的记录呀喵？(emj)疑问 (emj)[30906778462..."
-2026-10-02 10:29:14 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
-2026-10-02 10:29:14 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=39 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqoC1gl3Lk0HvKAzLE28IEilvp6HgSaEgw7Wj1ZJcZdvRIF2z5jcROjL36KoCVg43XQ!!
-2026-10-02 10:29:17 INFO  qq_transport:711  QQ 分片上传成功 file=tmp5_gpvxg_.webp size=40672 ttl=86400
-2026-10-02 10:29:18 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqtgLsAHCqv8NkcFGUaJpYktnlfjcn0PXNJcMykzmeDx8IF2z5jcROjL36KoCVg43XQ!!
-2026-10-02 10:29:18 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k00id.png (.webp 40672B)
+# 更新于 2026-10-02 12:58:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 10:29:20 INFO  qq_transport:711  QQ 分片上传成功 file=tmp4c1rqlyh.webp size=70514 ttl=86400
 2026-10-02 10:29:22 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=3 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqti5ijERboAW2whEs-CIzqPQmEo0wDGet6MEErR4hjQ5IF2z5jcROjL36KoCVg43XQ!!
 2026-10-02 10:29:22 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/h4BzFCdzH20nm0nm.png (.webp 70514B)
@@ -1499,3 +1485,17 @@
 2026-10-02 12:57:04 INFO  pc_status:187     收到 lyric_event [延迟=415ms]: '**如果忽冷忽熱的溫柔 是你的藉口**' song=丁当 - 猜不透 playing=True channel=None
 2026-10-02 12:57:11 INFO  pc_status:187     收到 lyric_event [延迟=309ms]: '**那我寧願對你從沒認真過**' song=丁当 - 猜不透 playing=True channel=None
 2026-10-02 12:57:18 INFO  pc_status:187     收到 lyric_event [延迟=287ms]: '**如果忽遠忽近的灑脫 是你要的自由**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:42 INFO  pc_status:187     收到 lyric_event [延迟=16921ms]: '**那我寧願回到一個人生活**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:42 INFO  pc_status:187     收到 lyric_event [延迟=9984ms]: '**如果忽冷忽熱的溫柔 是你的藉口**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:42 INFO  pc_status:187     收到 lyric_event [延迟=3185ms]: '**那我寧願對你從沒認真過**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:46 INFO  pc_status:187     收到 lyric_event [延迟=1104ms]: '**到底這感覺誰對誰錯**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:50 INFO  pc_status:187     收到 lyric_event [延迟=641ms]: '**我已不想追究**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:57:52 INFO  pc_status:187     收到 lyric_event [延迟=151ms]: '**越是在乎的人越是猜不透**' song=丁当 - 猜不透 playing=True channel=None
+2026-10-02 12:58:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=孙燕姿 - 我怀念的（播放中）CPU=30% 内存=93%
+2026-10-02 12:58:14 INFO  pc_status:187     收到 lyric_event [延迟=866ms]: '**▶ 孙燕姿 - 我怀念的**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=1049ms]: '**作词 : 姚若龙**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=1050ms]: '**作曲 : 李偲菘**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=1051ms]: '**编曲 : Martin Tang**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=1025ms]: '**作词 : 姚若龙**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=607ms]: '**作曲 : 李偲菘**' song=孙燕姿 - 我怀念的 playing=True channel=None
+2026-10-02 12:58:20 INFO  pc_status:187     收到 lyric_event [延迟=341ms]: '**编曲 : Martin Tang**' song=孙燕姿 - 我怀念的 playing=True channel=None
