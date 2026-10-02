@@ -1,4 +1,4 @@
-# 更新于 2026-10-03 02:10:43 · 共 380 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-03 02:11:43 · 共 427 行（来源 huanmeng.log 末尾）
 2026-10-03 00:00:06 INFO  holiday:57        节假日: 2026-10-03 → 国庆节
 2026-10-03 00:00:06 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 2026-10-03 00:00:36 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
@@ -379,3 +379,50 @@
 2026-10-03 02:07:06 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-03 02:10:03 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-03 02:10:33 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:10:45 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:10:46 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:10:46 DEBG  qq_bot:209        QQ 群消息(@我): content='<@all> 我喜欢你们qwq' mentions=[{"is_you": true, "scope": "all", "username": "全体成员"}]
+2026-10-03 02:10:46 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='我喜欢你们qwq' atts=0 ref=False msg_type=0
+2026-10-03 02:10:46 INFO  qq_bot:373        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '我喜欢你们qwq'
+2026-10-03 02:10:46 INFO  qq_bot:384        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY8Do-pM7BwdN2wGFOZIRM1yWN-wgOYb6l9dsejJmk52jNceR0hdc5us0qeR35rZ1PL2HQxzkPqbscwhoY7.VkTTLRvNaLz48PPB8Ix6aSuhn
+2026-10-03 02:10:46 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+2026-10-03 02:10:46 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+2026-10-03 02:10:46 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='我喜欢你们qwq'
+2026-10-03 02:10:46 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-10-03 02:10:46 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='我喜欢你们qwq'
+2026-10-03 02:10:46 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-10-03 02:10:47 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=245.9ms
+2026-10-03 02:10:47 DEBG  pipeline:862      extra_info 按预算丢弃 1 项: ['memory:memory']
+2026-10-03 02:10:47 INFO  pipeline:866      额外信息: 266字 (memory=0 search=0)
+2026-10-03 02:10:47 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-03 02:10:47 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-03 02:10:47 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-03 02:10:53 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={\n  "replies": [\n    "哇～听到这句话好开心呀！(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "我们也会一直陪着主人的～有什么需要随时找我喵！",\n    "今天玩得开心吗？要不要继续聊 PCL 或者别的什么呀？"\n  ],\n  "fav": 3,\n  "calls": [],\n  "face": null,\n ... tool_calls=0)
+2026-10-03 02:10:53 INFO  llm:1114          LLM原始输出 [轮1]: content={\n  "replies": [\n    "哇～听到这句话好开心呀！(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "我们也会一直陪着主人的～有什么需要随时找我喵！",\n    "今天玩得开心吗？要不要继续聊 PCL 或者别的什么呀？"\n  ],\n  "fav": 3,\n  "calls": [],\n  "face": null,\n  | tool_calls=0
+2026-10-03 02:10:53 INFO  llm:1462          JSON回复解析: 3句 fav=+3 calls=0 mood=开心
+2026-10-03 02:10:53 INFO  fav:128           好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +3 → 79
+2026-10-03 02:10:53 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +3 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+2026-10-03 02:10:53 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 14 条
+2026-10-03 02:10:53 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-03 02:10:53 INFO  logger:541        [TRACE f3cf8596377f4686] total=6501.58ms severity=slow_request | llm_calls=1 total=5864.84ms avg=5864.84ms max=5864.84ms p50=5864.84 p95=5864.84 p99=5864.84 | json_parse=1.61ms(x1), llm=6007.29ms(x1), memory=493.91ms(x2), process=6488.57ms(x1) (wall6488.57), queue_wait=42.54ms(x1)
+2026-10-03 02:10:53 WARN  logger:564        [SLOW f3cf8596377f4686] total=6504.53ms | json_parse=1.61ms(x1), llm=6007.29ms(x1), memory=493.91ms(x2), process=6488.57ms(x1) (wall6488.57), queue_wait=42.54ms(x1) | llm_calls=1 total=5864.84ms avg=5864.84ms max=5864.84ms p50=5864.84 p95=5864.84 p99=5864.84 | perf: queue=42.54ms llm=6008.9ms search_tool=0.0ms delivery=0.0ms other=6982.48ms wall=6503.98ms dominant=other
+2026-10-03 02:10:53 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+2026-10-03 02:10:53 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-03 02:10:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:10:54 INFO  llm:544           LLM [deepseek-flash] 返回 352字符 耗时1.4s → "[02:10:53] 若尘 ~喵: 问pcl怎么加mod, 茂密回复打开PCL启动器选择Minecr..."
+2026-10-03 02:10:54 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 14条消息 → 保存
+2026-10-03 02:10:54 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=62 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3K.4ARkdvjwtxuy41V0bN3YdIPsViwHsY5lM.sl0qOea-E-glc5H.YCFpM8Kdc5ZSQ!!
+2026-10-03 02:10:56 INFO  qq_transport:711  QQ 分片上传成功 file=tmpvgmotrys.webp size=43026 ttl=86400
+2026-10-03 02:10:58 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3ChnIrEV6B-QwFkIoOF8s4vCwnbTQO8FhGAn-1610XLeknJMBa-0-oLhEjpWZVc4Eg!!
+2026-10-03 02:10:58 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Hkyv4C6idN0k00k0.png (.webp 43026B)
+2026-10-03 02:10:58 DEBG  response_delivery:297 已发送第 1/1 条: 哇～听到这句话好开心呀！(emj)开心 1(emj)[309...
+2026-10-03 02:10:58 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-03 02:10:58 DEBG  context_manager:139 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+2026-10-03 02:11:03 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:04 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:11 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:13 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:17 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:38 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 02:11:38 DEBG  qq_bot:219        QQ 群消息(@他人): content='<@63C251709C77FDEE87FC502F866E3FB5> ' mentions=[{"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "is_you": false, "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "scope": "single", "username": "枭茂密"}]
