@@ -1,17 +1,4 @@
-# 更新于 2026-10-02 12:06:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:53:09 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-02 09:53:09 INFO  qq_bot:155        QQ HELLO interval=41250
-2026-10-02 09:53:09 INFO  qq_bot:188        QQ 事件到达 t=READY
-2026-10-02 09:53:12 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-02 09:53:12 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-02 09:53:12 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-02 09:53:12 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-02 09:53:12 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-02 09:53:12 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-02 09:53:12 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-02 09:53:12 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: HTTP Error 405: Method Not Allowed（后续同类失败将静默）
-2026-10-02 09:53:12 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: HTTP Error 405: Method Not Allowed（后续同类失败将静默）
-2026-10-02 09:53:13 INFO  holiday:57        节假日: 2026-10-02 → 国庆节
+# 更新于 2026-10-02 12:06:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:53:13 INFO  holiday:105       节假日服务已启动
 2026-10-02 09:53:13 INFO  holiday:96        节假日每日刷新: 等待 50811 秒 (下次 00:00:05)
 2026-10-02 09:53:14 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
@@ -1499,3 +1486,16 @@
 2026-10-02 12:06:03 INFO  bot:893           日榜已发到频道 3649029148752421
 2026-10-02 12:06:03 INFO  bot:896           日榜已推送: 1 人 (2026-10-02)
 2026-10-02 12:06:03 INFO  bot:846           战绩采集将在 3h54m 后执行 (16:01)
+2026-10-02 12:06:30 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 12:06:30 DEBG  dispatcher:47     dispatch 入口: type=9 content='/wdsj' is_edit=False
+2026-10-02 12:06:30 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-02 12:06:30 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/wdsj'
+2026-10-02 12:06:30 INFO  queues:32         [队列] 创建群1759953618 的独立消息队列
+2026-10-02 12:06:30 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-02 12:06:30 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+2026-10-02 12:06:30 INFO  pipeline:503      指令拦截: '/wdsj' from=ywandwss
+2026-10-02 12:06:30 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=[] user=1759953618
+2026-10-02 12:06:35 DEBG  bot:280           🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 12:06:35 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-02 12:06:35 INFO  logger:541        [TRACE f1a608b9bcf4425d] total=5294.84ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5294.76ms(x1) (wall5294.76), queue_wait=1.54ms(x1)
+2026-10-02 12:06:35 WARN  logger:564        [SLOW f1a608b9bcf4425d] total=5295.24ms | process=5294.76ms(x1) (wall5294.76), queue_wait=1.54ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.54ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5294.76ms wall=5295.2ms dominant=other
