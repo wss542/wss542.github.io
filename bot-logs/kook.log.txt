@@ -1,29 +1,4 @@
-# 更新于 2026-10-02 10:02:23 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:18:41 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:18:44 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-02 09:18:44 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 09:18:45 INFO  events:94         ==================================================
-2026-10-02 09:18:45 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-02 09:18:45 INFO  events:94         ==================================================
-2026-10-02 09:18:45 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-02 09:18:45 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-02 09:18:45 INFO  events:94         语言文件已加载
-2026-10-02 09:18:45 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-02 09:18:45 INFO  events:94         日志系统已初始化
-2026-10-02 09:18:45 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-02 09:18:45 INFO  events:94         khl.py Bot 实例已创建
-2026-10-02 09:19:01 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:19:15 WARN  events:94         拉取 bot 自身信息失败: Connection timeout to host https://www.kookapp.cn/api/v3/user/me（启动后仍可工作，但 @检测可能受影响）
-2026-10-02 09:19:15 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-02 09:19:15 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-02 09:19:15 INFO  events:94         消息发送器已初始化
-2026-10-02 09:19:15 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-02 09:19:15 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-02 09:19:15 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-02 09:19:15 INFO  events:94         用户名查询模块已初始化
-2026-10-02 09:19:15 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-02 09:19:15 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-02 09:19:15 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
+# 更新于 2026-10-02 10:03:08 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:19:15 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
 2026-10-02 09:19:15 INFO  events:94         上下文管理器已初始化
 2026-10-02 09:19:15 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
@@ -1499,3 +1474,28 @@
 2026-10-02 09:58:51 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-10-02 09:58:52 INFO  qq_bot:155        QQ HELLO interval=41250
 2026-10-02 09:58:52 INFO  qq_bot:188        QQ 事件到达 t=READY
+2026-10-02 10:02:58 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 10:02:58 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商' is_edit=False
+2026-10-02 10:02:58 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-02 10:02:58 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商'
+2026-10-02 10:02:58 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-10-02 10:02:58 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-02 10:02:58 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-10-02 10:02:58 INFO  pipeline:503      指令拦截: '/供应商' from=ywandwss
+2026-10-02 10:02:58 DEBG  commands:4922     指令解析: prefix=/ cmd=供应商 args=[] user=1759953618
+2026-10-02 10:02:58 INFO  commands:4977     指令执行完成 [供应商]: 返回1093字符
+2026-10-02 10:02:59 INFO  logger:541        [TRACE 540ca98000624a95] total=815.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=815.89ms(x1) (wall815.89), queue_wait=0.58ms(x1)
+2026-10-02 10:02:59 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 10:03:07 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 10:03:07 INFO  bot:326           ✏️ 编辑消息作者反查: id=1759953618 username=wss
+2026-10-02 10:03:07 INFO  bot:362           ✏️ 编辑消息 → dispatcher: mid=9d20de7e-eb3a-49d2-96cc-b91dbb87f657 chat=9844130976336955 type=255
+2026-10-02 10:03:07 DEBG  dispatcher:47     dispatch 入口: type=1 content='/供应商 modelscope ' is_edit=True
+2026-10-02 10:03:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-02 10:03:07 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/供应商 modelscope '
+2026-10-02 10:03:07 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-02 10:03:07 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+2026-10-02 10:03:07 INFO  pipeline:503      指令拦截: '/供应商 modelscope ' from=ywandwss
+2026-10-02 10:03:07 DEBG  commands:4922     指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
+2026-10-02 10:03:07 INFO  commands:1498     配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+2026-10-02 10:03:07 INFO  commands:1499     供应商切换: DEEPSEEK/deepseek-v4-flash -> MODELSCOPE/Qwen/Qwen3-Next-80B-A3B-Instruct (by ywandwss)
+2026-10-02 10:03:07 INFO  commands:4977     指令执行完成 [供应商]: 返回90字符
