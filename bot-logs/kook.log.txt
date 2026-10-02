@@ -1,14 +1,4 @@
-# 更新于 2026-10-02 21:45:55 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 19:19:10 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-02 19:19:10 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-02 19:19:10 INFO  pc_status:187     收到 lyric_event [延迟=54ms]: '**你的心有一道牆 但我發現一扇窗**' song=郭静 - 心墙 playing=True channel=None
-2026-10-02 19:19:20 INFO  pc_status:187     收到 lyric_event [延迟=768ms]: '**偶爾透出一絲暖暖的微光**' song=郭静 - 心墙 playing=True channel=None
-2026-10-02 19:19:22 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content=```json\n{\n  "replies": [\n    "主人问 PCL 加 mod 呀～让我来详细讲讲喵！(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "**首先确认版本**\n\n- 打开 PCL 启动器，选择你要玩的 Minecraft 版本\n- 注意 Forge 或 Fabric 加载器必须已安装，mod 才能运行\n-... tool_calls=0)
-2026-10-02 19:19:22 INFO  llm:1114          LLM原始输出 [轮1]: content=```json\n{\n  "replies": [\n    "主人问 PCL 加 mod 呀～让我来详细讲讲喵！(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "**首先确认版本**\n\n- 打开 PCL 启动器，选择你要玩的 Minecraft 版本\n- 注意 Forge 或 Fabric 加载器必须已安装，mod 才能运行\n- | tool_calls=0
-2026-10-02 19:19:22 INFO  face_lib:64       表情库加载: 90 关键词 / 7 主干 / 31 文件
-2026-10-02 19:19:22 INFO  llm:1462          JSON回复解析: 5句 fav=+2 calls=0 mood=开心
-2026-10-02 19:19:22 INFO  fav:128           好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 76
-2026-10-02 19:19:22 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+# 更新于 2026-10-02 21:46:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 19:19:22 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
 2026-10-02 19:19:22 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
 2026-10-02 19:19:22 INFO  logger:541        [TRACE 7454551d25fa4cf5] total=22249.88ms severity=very_slow_request | llm_calls=2 total=19962.26ms avg=9981.13ms max=11954.48ms p50=9981.13 p95=11757.14 p99=11915.01 | json_parse=7.88ms(x1), llm=11997.82ms(x1), memory=215.79ms(x2), process=22237.38ms(x1) (wall22237.38), queue_wait=91.71ms(x1)
@@ -1499,3 +1489,13 @@
 2026-10-02 21:45:43 INFO  pc_status:187     收到 lyric_event [延迟=914ms]: '**固執幼稚的押韻**' song=陈粒 - 虚拟 playing=True channel=None
 2026-10-02 21:45:46 INFO  pc_status:187     收到 lyric_event [延迟=680ms]: '**零零散散湊齊了陣營**' song=陈粒 - 虚拟 playing=True channel=None
 2026-10-02 21:45:53 INFO  pc_status:187     收到 lyric_event [延迟=21ms]: '**固執美麗的意義**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:45:57 INFO  pc_status:187     收到 lyric_event [延迟=1080ms]: '**固執空洞的美麗**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:01 INFO  pc_status:187     收到 lyric_event [延迟=814ms]: '**飄飄然然空中遇見妳**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:08 INFO  pc_status:187     收到 lyric_event [延迟=849ms]: '**妳是我未曾擁有無法捕捉的親昵**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:11 INFO  pc_status:187     收到 lyric_event [延迟=586ms]: '**我卻有妳的吻妳的魂妳的心**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:15 INFO  pc_status:187     收到 lyric_event [延迟=530ms]: '**載著我飛呀飛呀飛 越過了意義**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:23 INFO  pc_status:187     收到 lyric_event [延迟=1038ms]: '**妳是我朝夕相伴觸手可及的虛擬**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:26 INFO  pc_status:187     收到 lyric_event [延迟=1164ms]: '**陪著我像紙筆像自己像雨滴**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:30 INFO  pc_status:187     收到 lyric_event [延迟=575ms]: '**看著我墜啊墜啊墜落到雲裏**' song=陈粒 - 虚拟 playing=True channel=None
+2026-10-02 21:46:35 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-02 21:46:41 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
