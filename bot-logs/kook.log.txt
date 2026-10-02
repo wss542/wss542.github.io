@@ -1,13 +1,4 @@
-# 更新于 2026-10-02 11:19:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: chou
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: echo
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: eq
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: greet
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: luck
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: motou
-2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: nasa
+# 更新于 2026-10-02 11:20:20 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: pgr
 2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: sandbox
 2026-10-02 09:48:59 INFO  manager:234       Plugin 已卸载: tuf
@@ -1499,3 +1490,12 @@
 2026-10-02 11:17:41 INFO  pc_status:223     PC 客户端断开连接
 2026-10-02 11:17:41 INFO  tts:55            TTS 节点已连接: (' 0 ', 57458)
 2026-10-02 11:17:41 INFO  tts:112           TTS 节点断开: (' 0 ', 57458)
+2026-10-02 11:20:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 11:20:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='/mc  0 ' is_edit=False
+2026-10-02 11:20:17 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-02 11:20:17 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc  0 '
+2026-10-02 11:20:17 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-02 11:20:17 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
+2026-10-02 11:20:17 INFO  pipeline:503      指令拦截: '/mc  0 ' from=ywandwss
+2026-10-02 11:20:17 DEBG  commands:4922     指令解析: prefix=/ cmd=mc args=[' 0 '] user=1759953618
+2026-10-02 11:20:20 INFO  commands:4977     指令执行完成 [mc]: 返回159字符
