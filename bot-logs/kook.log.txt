@@ -1,30 +1,4 @@
-# 更新于 2026-10-02 12:45:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 10:11:44 INFO  bot:111           ==================================================
-2026-10-02 10:11:44 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-02 10:11:44 INFO  bot:111           ==================================================
-2026-10-02 10:11:44 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-02 10:11:44 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-02 10:11:44 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-02 10:11:44 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-02 10:11:44 INFO  events:94         QQ open-platform channel started
-2026-10-02 10:11:44 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-02 10:11:44 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-02 10:11:44 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-02 10:11:44 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-02 10:11:44 INFO  events:94         用户名查询模块已初始化
-2026-10-02 10:11:44 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-02 10:11:44 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-02 10:11:44 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-02 10:11:44 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-02 10:11:44 INFO  events:94         上下文管理器已初始化
-2026-10-02 10:11:44 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 10:11:44 INFO  events:94         事件分发器已就绪
-2026-10-02 10:11:44 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-02 10:11:44 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-02 10:11:44 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-02 10:11:44 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-02 10:11:44 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-02 10:11:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+# 更新于 2026-10-02 12:46:21 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 10:11:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 2026-10-02 10:11:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 2026-10-02 10:11:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
@@ -1499,3 +1473,29 @@
 2026-10-02 12:45:12 INFO  pc_status:187     收到 lyric_event [延迟=706ms]: '**不顾一切的爱永不会变**' song=钮扣 - 我期待的不是雪 (Cover 张妙格) playing=True channel=None
 2026-10-02 12:45:31 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Rentz - Alone(Radio Mix)（播放中）CPU=33% 内存=97%
 2026-10-02 12:45:31 INFO  pc_status:187     收到 lyric_event [延迟=118ms]: '**▶ Rentz - Alone(Radio Mix)**' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:52 INFO  pc_status:187     收到 lyric_event [延迟=8041ms]: '**Now my heart is cold and filled with regret**
+`此刻我心冰冷，后悔莫及' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:52 INFO  pc_status:187     收到 lyric_event [延迟=1540ms]: '**You thought that you would use me**
+`你以为你会利用我`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:53 INFO  pc_status:187     收到 lyric_event [延迟=1048ms]: '**But love is so confusing**
+`但爱让人感到困惑`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:53 INFO  pc_status:187     收到 lyric_event [延迟=1037ms]: '**When I fell you didn't even try to pick me up**
+`当我坠落时，你甚至' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:55 INFO  pc_status:187     收到 lyric_event [延迟=805ms]: '**You thought I wouldn't leave**
+`你以为我不会离开`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:57 INFO  pc_status:187     收到 lyric_event [延迟=113ms]: '**How could you be so naive**
+`你怎能如此天真`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:45:59 INFO  pc_status:187     收到 lyric_event [延迟=494ms]: '**You chased your heart**
+`你追随你的心`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:00 INFO  pc_status:187     收到 lyric_event [延迟=532ms]: '**Ignored the signs painted above**
+`忽略眼前所有征兆`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:02 INFO  pc_status:187     收到 lyric_event [延迟=372ms]: '**I just wanna be left alone**
+`我只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:07 INFO  pc_status:187     收到 lyric_event [延迟=352ms]: '**Just wanna be left alone**
+`只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:10 INFO  pc_status:187     收到 lyric_event [延迟=530ms]: '**I feel it in my bones**
+`我发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:15 INFO  pc_status:187     收到 lyric_event [延迟=528ms]: '**Feel it in my bones**
+`发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
+2026-10-02 12:46:18 INFO  pc_status:187     收到 lyric_event [延迟=1018ms]: '**I just wanna be left alone**
+`我只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
