@@ -1,43 +1,4 @@
-# 更新于 2026-10-02 10:21:55 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:32:13 INFO  events:94         语言文件已加载
-2026-10-02 09:32:13 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-02 09:32:13 INFO  events:94         日志系统已初始化
-2026-10-02 09:32:13 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-02 09:32:13 INFO  events:94         khl.py Bot 实例已创建
-2026-10-02 09:32:21 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:32:41 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:32:43 WARN  events:94         拉取 bot 自身信息失败: Connection timeout to host https://www.kookapp.cn/api/v3/user/me（启动后仍可工作，但 @检测可能受影响）
-2026-10-02 09:32:43 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-02 09:32:43 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-02 09:32:43 INFO  events:94         消息发送器已初始化
-2026-10-02 09:32:43 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-02 09:32:43 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-02 09:32:43 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-02 09:32:43 INFO  events:94         用户名查询模块已初始化
-2026-10-02 09:32:43 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-02 09:32:43 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-02 09:32:43 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-02 09:32:43 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-02 09:32:43 INFO  events:94         上下文管理器已初始化
-2026-10-02 09:32:43 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-02 09:32:43 INFO  events:94         事件分发器已就绪
-2026-10-02 09:32:43 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-02 09:32:43 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-02 09:32:43 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-02 09:32:43 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-02 09:32:43 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-02 09:32:43 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-02 09:32:43 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+# 更新于 2026-10-02 10:22:34 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 2026-10-02 09:32:43 INFO  manager:165       Plugin 已启用: countdown@1.0.0
 2026-10-02 09:32:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
@@ -1499,3 +1460,42 @@
 2026-10-02 10:21:47 INFO  pc_status:187     收到 lyric_event [延迟=464ms]: '**作曲 : Dominik Tusinovský**' song=Major Domes - I Believe (Exten playing=True channel=None
 2026-10-02 10:21:49 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=赵露思全国后援会 - Hey, Rosy!（播放中）CPU=44% 内存=87%
 2026-10-02 10:21:49 INFO  pc_status:187     收到 lyric_event [延迟=628ms]: '**▶ 赵露思全国后援会 - Hey, Rosy!**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:21:55 INFO  pc_status:187     收到 lyric_event [延迟=930ms]: '**作曲 : 锅巴**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:02 INFO  pc_status:187     收到 lyric_event [延迟=111ms]: '**晚霞给云朵涂上一层淡紫色**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:06 INFO  pc_status:187     收到 lyric_event [延迟=1137ms]: '**想在海边追着风骑上脚踏车**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:10 INFO  pc_status:187     收到 lyric_event [延迟=795ms]: '**遇见你和小狗沙滩漫步时刻**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:13 INFO  pc_status:187     收到 lyric_event [延迟=646ms]: '**享受着快乐**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:17 INFO  pc_status:187     收到 lyric_event [延迟=477ms]: '**我想把你当作是唯一的选择**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:20 INFO  pc_status:187     收到 lyric_event [延迟=307ms]: '**我想要你只有坦途没有波折**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:24 INFO  pc_status:187     收到 lyric_event [延迟=49ms]: '**抛弃掉羞涩**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:24 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 10:22:24 INFO  bot:326           ✏️ 编辑消息作者反查: id=1759953618 username=wss
+2026-10-02 10:22:24 INFO  bot:362           ✏️ 编辑消息 → dispatcher: mid=e046cd5d-d380-4c30-869f-c73a27333cf4 chat=9844130976336955 type=255
+2026-10-02 10:22:24 DEBG  dispatcher:47     dispatch 入口: type=1 content='/pc' is_edit=True
+2026-10-02 10:22:24 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-02 10:22:24 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/pc'
+2026-10-02 10:22:24 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-10-02 10:22:24 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-02 10:22:24 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-10-02 10:22:24 INFO  pipeline:503      指令拦截: '/pc' from=ywandwss
+2026-10-02 10:22:24 DEBG  commands:4922     指令解析: prefix=/ cmd=pc args=[] user=1759953618
+2026-10-02 10:22:24 INFO  changelog:815     [Card] 正在截图 → sys_9ddd6bad.jpg (16239 bytes HTML)
+2026-10-02 10:22:25 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 10:22:25 INFO  bot:326           ✏️ 编辑消息作者反查: id=1759953618 username=wss
+2026-10-02 10:22:25 INFO  bot:362           ✏️ 编辑消息 → dispatcher: mid=294f52cb-a3fc-4209-b119-78da6d4bc84c chat=9844130976336955 type=255
+2026-10-02 10:22:25 DEBG  dispatcher:47     dispatch 入口: type=1 content='/sys' is_edit=True
+2026-10-02 10:22:25 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-02 10:22:25 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/sys'
+2026-10-02 10:22:25 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-02 10:22:26 INFO  changelog:823     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sys_9ddd6bad.jpg size=316.2KB
+2026-10-02 10:22:27 INFO  pc_status:187     收到 lyric_event [延迟=724ms]: '**为你唱首歌** *(Hey Rosy)*' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
+2026-10-02 10:22:27 INFO  commands:4979     指令执行完成 [pc]: 无返回值（已自行发送）
+2026-10-02 10:22:27 INFO  logger:541        [TRACE f3c904ee1a6b4a3a] total=2844.48ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2844.3ms(x1) (wall2844.3), queue_wait=1.1ms(x1)
+2026-10-02 10:22:27 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+2026-10-02 10:22:27 INFO  pipeline:503      指令拦截: '/sys' from=ywandwss
+2026-10-02 10:22:27 DEBG  commands:4922     指令解析: prefix=/ cmd=sys args=[] user=1759953618
+2026-10-02 10:22:27 INFO  changelog:815     [Card] 正在截图 → sysiph_1b364e37.jpg (15253 bytes HTML)
+2026-10-02 10:22:29 INFO  changelog:823     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_1b364e37.jpg size=495.6KB
+2026-10-02 10:22:30 INFO  commands:4979     指令执行完成 [sys]: 无返回值（已自行发送）
+2026-10-02 10:22:30 INFO  logger:541        [TRACE 82b2e487d23e4cd2] total=2777.52ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2777.44ms(x1) (wall2777.44), queue_wait=1747.5ms(x1)
+2026-10-02 10:22:32 INFO  pc_status:187     收到 lyric_event [延迟=162ms]: '**你认真的脸深陷我的眼底**' song=赵露思全国后援会 - Hey, Rosy! playing=True channel=None
