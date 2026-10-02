@@ -1,19 +1,4 @@
-# 更新于 2026-10-02 12:06:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 09:53:13 INFO  holiday:105       节假日服务已启动
-2026-10-02 09:53:13 INFO  holiday:96        节假日每日刷新: 等待 50811 秒 (下次 00:00:05)
-2026-10-02 09:53:14 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-02 09:53:14 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-02 09:53:14 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-02 09:53:14 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-02 09:53:14 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-02 09:53:14 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-02 09:56:46 ERRO  qq_bot:111        QQBot 连接关闭 code=1006 reason=，5s 后重连
-2026-10-02 09:57:06 ERRO  qq_bot:114        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-02 09:57:18 ERRO  events:94         khl.py Bot 运行异常: Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1
-2026-10-02 09:57:18 INFO  events:94         5 秒后重试...
-2026-10-02 09:57:18 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-02 09:57:19 INFO  qq_bot:155        QQ HELLO interval=41250
-2026-10-02 09:57:19 INFO  qq_bot:188        QQ 事件到达 t=READY
+# 更新于 2026-10-02 12:07:17 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 09:57:19 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1，10s 后重启
 2026-10-02 09:57:29 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#1)
 2026-10-02 09:58:03 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
@@ -1499,3 +1484,18 @@
 2026-10-02 12:06:35 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
 2026-10-02 12:06:35 INFO  logger:541        [TRACE f1a608b9bcf4425d] total=5294.84ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5294.76ms(x1) (wall5294.76), queue_wait=1.54ms(x1)
 2026-10-02 12:06:35 WARN  logger:564        [SLOW f1a608b9bcf4425d] total=5295.24ms | process=5294.76ms(x1) (wall5294.76), queue_wait=1.54ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.54ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5294.76ms wall=5295.2ms dominant=other
+2026-10-02 12:07:06 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 12:07:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='/wdsj dual jjc bw' is_edit=False
+2026-10-02 12:07:06 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-02 12:07:06 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/wdsj dual jjc bw'
+2026-10-02 12:07:06 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-02 12:07:06 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+2026-10-02 12:07:06 INFO  pipeline:503      指令拦截: '/wdsj dual jjc bw' from=ywandwss
+2026-10-02 12:07:06 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['dual', 'jjc', 'bw'] user=1759953618
+2026-10-02 12:07:06 INFO  commands:2577     wdsj 双模式查询: player=yzandwss modes=['arena-stats', 'bedwars-stats']
+2026-10-02 12:07:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 12:07:16 INFO  wdsj_dual:228     双模式拼图完成: /home/qwq/huanmeng-bot-v2/data/img_temp/wdsj_dual_1790914035_69052.png (1140x1131, 8691ms)
+2026-10-02 12:07:17 DEBG  bot:280           🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 12:07:17 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-02 12:07:17 INFO  logger:541        [TRACE 97d9e4fe41d747c8] total=10819.77ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10819.62ms(x1) (wall10819.62), queue_wait=0.31ms(x1)
+2026-10-02 12:07:17 WARN  logger:559        [VERY_SLOW 97d9e4fe41d747c8] total=10822.93ms 需重点排查 | process=10819.62ms(x1) (wall10819.62), queue_wait=0.31ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.31ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10819.62ms wall=10822.87ms dominant=other
