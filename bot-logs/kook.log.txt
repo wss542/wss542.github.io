@@ -1,27 +1,4 @@
-# 更新于 2026-10-02 15:36:13 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 12:45:59 INFO  pc_status:187     收到 lyric_event [延迟=494ms]: '**You chased your heart**
-`你追随你的心`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:00 INFO  pc_status:187     收到 lyric_event [延迟=532ms]: '**Ignored the signs painted above**
-`忽略眼前所有征兆`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:02 INFO  pc_status:187     收到 lyric_event [延迟=372ms]: '**I just wanna be left alone**
-`我只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:07 INFO  pc_status:187     收到 lyric_event [延迟=352ms]: '**Just wanna be left alone**
-`只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:10 INFO  pc_status:187     收到 lyric_event [延迟=530ms]: '**I feel it in my bones**
-`我发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:15 INFO  pc_status:187     收到 lyric_event [延迟=528ms]: '**Feel it in my bones**
-`发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:18 INFO  pc_status:187     收到 lyric_event [延迟=1018ms]: '**I just wanna be left alone**
-`我只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:23 INFO  pc_status:187     收到 lyric_event [延迟=1006ms]: '**Just wanna be left alone**
-`只想一个人独处`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:25 INFO  pc_status:187     收到 lyric_event [延迟=352ms]: '**I feel it in my bones**
-`我发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:29 INFO  pc_status:187     收到 lyric_event [延迟=334ms]: '**Feel it in my bones**
-`发自内心的愿望`' song=Rentz - Alone(Radio Mix) playing=True channel=None
-2026-10-02 12:46:33 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-02 12:46:46 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-02 12:46:50 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+# 更新于 2026-10-02 15:37:08 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 12:46:50 DEBG  qq_bot:219        QQ 群消息(@他人): content=' <@B0BB08E057DDE87FCB981E3BF6CFED6D> 我联网了这是咋回事' mentions=[{"bot": false, "id": "B0BB08E057DDE87FCB981E3BF6CFED6D", "is_you": false, "member_openid": "B0BB08E057DDE87FCB981E3BF6CFED6D", "member_role": "member", "scope": "single", "username": "幻梦bot"}]
 2026-10-02 12:46:53 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-02 12:46:55 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
@@ -1499,3 +1476,26 @@
 2026-10-02 15:28:39 INFO  qq_bot:188        QQ 事件到达 t=READY
 2026-10-02 15:28:56 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=朴树 - 平凡之路（已暂停）CPU=39% 内存=76%
 2026-10-02 15:33:56 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=朴树 - 平凡之路（已暂停）CPU=38% 内存=78%
+2026-10-02 15:36:16 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 15:36:16 DEBG  dispatcher:47     dispatch 入口: type=9 content='>QIANDAO' is_edit=False
+2026-10-02 15:36:16 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-10-02 15:36:16 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>QIANDAO'
+2026-10-02 15:36:16 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
+2026-10-02 15:36:16 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-02 15:36:16 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
+2026-10-02 15:36:16 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='>QIANDAO'
+2026-10-02 15:36:16 INFO  logger:541        [TRACE 14171b0258ff4395] total=61.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=61.03ms(x1) (wall61.03), queue_wait=4.31ms(x1)
+2026-10-02 15:36:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 15:36:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='未知指令 >qiandao，使用 >help 查看可用指令喵~' is_edit=False
+2026-10-02 15:36:17 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-02 15:36:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 15:36:22 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
+2026-10-02 15:36:22 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-10-02 15:36:22 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>签到'
+2026-10-02 15:36:22 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-02 15:36:22 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
+2026-10-02 15:36:22 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='>签到'
+2026-10-02 15:36:22 INFO  logger:541        [TRACE e65db4cb7e2b4805] total=9.07ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8.96ms(x1) (wall8.96), queue_wait=1.38ms(x1)
+2026-10-02 15:36:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-02 15:36:22 DEBG  dispatcher:47     dispatch 入口: type=9 content='你今天已经签到过了喵~ 🎉\n📊 总积分：16\n🔥 连续签到：1 天' is_edit=False
+2026-10-02 15:36:22 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
