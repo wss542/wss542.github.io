@@ -1,26 +1,4 @@
-# 更新于 2026-10-02 12:39:13 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-02 10:08:31 INFO  bot:955           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 29315s 前）
-2026-10-02 10:08:32 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-02 10:08:32 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-02 10:08:32 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-02 10:08:32 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-02 10:08:32 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-02 10:08:32 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-02 10:08:32 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-02 10:08:32 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: HTTP Error 405: Method Not Allowed（后续同类失败将静默）
-2026-10-02 10:08:32 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: HTTP Error 405: Method Not Allowed（后续同类失败将静默）
-2026-10-02 10:08:33 INFO  holiday:57        节假日: 2026-10-02 → 国庆节
-2026-10-02 10:08:33 INFO  holiday:105       节假日服务已启动
-2026-10-02 10:08:33 INFO  holiday:96        节假日每日刷新: 等待 49892 秒 (下次 00:00:05)
-2026-10-02 10:08:33 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-02 10:08:34 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-02 10:08:34 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-02 10:08:34 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-02 10:08:34 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-02 10:08:34 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-02 10:11:37 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-02 10:11:38 INFO  qq_bot:102        QQBot 已取消
-2026-10-02 10:11:38 INFO  events:94         🛑 正在关闭...
+# 更新于 2026-10-02 12:40:00 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-02 10:11:38 INFO  manager:234       Plugin 已卸载: checkin
 2026-10-02 10:11:38 INFO  manager:234       Plugin 已卸载: chou
 2026-10-02 10:11:38 INFO  manager:234       Plugin 已卸载: countdown
@@ -1499,3 +1477,25 @@
 2026-10-02 12:39:06 INFO  pc_status:187     收到 lyric_event [延迟=708ms]: '**在这桃花源里蹦蹦跳跳**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
 2026-10-02 12:39:10 INFO  pc_status:187     收到 lyric_event [延迟=1121ms]: '**少年你莫要归心太早**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
 2026-10-02 12:39:12 INFO  pc_status:187     收到 lyric_event [延迟=506ms]: '**燕儿它也双双飞来了**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=泠鸢yousa - 桃花笑-泠鸢（播放中）CPU=30% 内存=98%
+2026-10-02 12:39:15 INFO  pc_status:187     收到 lyric_event [延迟=856ms]: '**桃之夭夭**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:17 INFO  pc_status:187     收到 lyric_event [延迟=750ms]: '**还绿了芭蕉**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:20 INFO  pc_status:187     收到 lyric_event [延迟=1166ms]: '**管他雨打风吹夜潇潇**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:22 INFO  pc_status:187     收到 lyric_event [延迟=935ms]: '**花绽了新红也会凋**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:24 INFO  pc_status:187     收到 lyric_event [延迟=441ms]: '**少年的心儿永不老**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:27 INFO  pc_status:187     收到 lyric_event [延迟=655ms]: '**鸡犬相闻**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:28 INFO  pc_status:187     收到 lyric_event [延迟=159ms]: '**黄发垂髫**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:30 INFO  pc_status:187     收到 lyric_event [延迟=914ms]: '**我要划着桨儿水中摇**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:33 INFO  pc_status:187     收到 lyric_event [延迟=177ms]: '**一片片柳絮飘**' song=泠鸢yousa - 桃花笑-泠鸢 playing=True channel=None
+2026-10-02 12:39:35 INFO  pc_status:187     收到 lyric_event [延迟=1033ms]: '**▶ Sweety - 樱花草**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:38 INFO  pc_status:187     收到 lyric_event [延迟=972ms]: '**编曲 : 许恒瑞**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:39 INFO  pc_status:187     收到 lyric_event [延迟=1098ms]: '**晚风吹动着竹林**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:39 INFO  pc_status:187     收到 lyric_event [延迟=1089ms]: '**恋人手中樱花草**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:41 INFO  pc_status:187     收到 lyric_event [延迟=1322ms]: '**春在漫步的微笑**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:43 INFO  pc_status:187     收到 lyric_event [延迟=347ms]: '**种下了 一朵朵**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:45 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Sweety - 樱花草（播放中）CPU=38% 内存=98%
+2026-10-02 12:39:47 INFO  pc_status:187     收到 lyric_event [延迟=556ms]: '**青春璀璨的年少**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:50 INFO  pc_status:187     收到 lyric_event [延迟=655ms]: '**恋人怀中樱花草**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:54 INFO  pc_status:187     收到 lyric_event [延迟=822ms]: '**听见胸膛心在跳**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:57 INFO  pc_status:187     收到 lyric_event [延迟=1013ms]: '**偷偷的 在思念**' song=Sweety - 樱花草 playing=True channel=None
+2026-10-02 12:39:59 INFO  pc_status:187     收到 lyric_event [延迟=72ms]: '**那是我们相爱的 记号**' song=Sweety - 樱花草 playing=True channel=None
