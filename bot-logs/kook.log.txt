@@ -1,26 +1,4 @@
-# 更新于 2026-10-03 10:56:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 01:35:19 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 01:47:35 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:05:16 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:06:03 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:06:51 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:07:00 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:07:06 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:10:03 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:10:33 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:10:45 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:10:46 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-03 02:10:46 DEBG  qq_bot:209        QQ 群消息(@我): content='<@all> 我喜欢你们qwq' mentions=[{"is_you": true, "scope": "all", "username": "全体成员"}]
-2026-10-03 02:10:46 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='我喜欢你们qwq' atts=0 ref=False msg_type=0
-2026-10-03 02:10:46 INFO  qq_bot:373        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '我喜欢你们qwq'
-2026-10-03 02:10:46 INFO  qq_bot:384        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY8Do-pM7BwdN2wGFOZIRM1yWN-wgOYb6l9dsejJmk52jNceR0hdc5us0qeR35rZ1PL2HQxzkPqbscwhoY7.VkTTLRvNaLz48PPB8Ix6aSuhn
-2026-10-03 02:10:46 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-2026-10-03 02:10:46 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
-2026-10-03 02:10:46 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='我喜欢你们qwq'
-2026-10-03 02:10:46 INFO  pipeline:605      @机器人检测 → 直接回复
-2026-10-03 02:10:46 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='我喜欢你们qwq'
-2026-10-03 02:10:46 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
-2026-10-03 02:10:47 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=245.9ms
+# 更新于 2026-10-03 10:57:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 02:10:47 DEBG  pipeline:862      extra_info 按预算丢弃 1 项: ['memory:memory']
 2026-10-03 02:10:47 INFO  pipeline:866      额外信息: 266字 (memory=0 search=0)
 2026-10-03 02:10:47 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
@@ -1499,3 +1477,25 @@
 2026-10-03 10:56:36 INFO  pc_status:187     收到 lyric_event [延迟=204ms]: '**That's how I, that's how I feel right now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
 2026-10-03 10:56:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=48.6
 2026-10-03 10:56:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 10:56:47 INFO  pc_status:187     收到 lyric_event [延迟=229ms]: '**Slow down**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:48 INFO  pc_status:187     收到 lyric_event [延迟=610ms]: '**All of them man, them low now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:49 INFO  pc_status:187     收到 lyric_event [延迟=-97ms]: '**Take my lead, I'm in control now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:51 INFO  pc_status:187     收到 lyric_event [延迟=193ms]: '**Let the water just flow now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:54 INFO  pc_status:187     收到 lyric_event [延迟=737ms]: '**Wait, uh**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:55 INFO  pc_status:187     收到 lyric_event [延迟=919ms]: '**No, stop**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:55 INFO  pc_status:187     收到 lyric_event [延迟=-59ms]: '**I'ma have to cash out early**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:58 INFO  pc_status:187     收到 lyric_event [延迟=661ms]: '**None of that gas don't burn me**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:56:59 INFO  pc_status:187     收到 lyric_event [延迟=-187ms]: '**None of you there concern me, no**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:02 INFO  pc_status:187     收到 lyric_event [延迟=316ms]: '**I am in my element and I hope that you are cool with it**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:03 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=74%
+2026-10-03 10:57:06 INFO  pc_status:187     收到 lyric_event [延迟=26ms]: '**I am in my element and I hope that you are cool with it**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:06 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 10:57:10 INFO  pc_status:187     收到 lyric_event [延迟=771ms]: '**I am in my element and I hope that you are cool with it**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=74.5 mem=48.6
+2026-10-03 10:57:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 10:57:14 INFO  pc_status:187     收到 lyric_event [延迟=619ms]: '**I am in my element**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:15 INFO  pc_status:187     收到 lyric_event [延迟=-125ms]: '**That's how I, that's how I feel right now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:24 INFO  pc_status:187     收到 lyric_event [延迟=614ms]: '**That's how I, that's how I feel right now**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:25 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-03 10:57:25 INFO  pc_status:187     收到 lyric_event [延迟=-121ms]: '**Feel, feel**' song=Parx / NONO - Feel Right Now ( playing=True channel=None
+2026-10-03 10:57:25 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
