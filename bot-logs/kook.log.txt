@@ -1,11 +1,4 @@
-# 更新于 2026-10-03 11:51:16 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 06:02:11 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-03 06:02:11 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-03 06:02:11 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-03 06:02:11 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-03 06:02:11 INFO  bot:846           战绩采集将在 1h58m 后执行 (08:01)
-2026-10-03 06:02:11 INFO  bot:955           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 53s 前）
-2026-10-03 06:02:11 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7156s
+# 更新于 2026-10-03 11:52:10 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 06:02:12 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-10-03 06:02:12 INFO  holiday:57        节假日: 2026-10-03 → 国庆节
 2026-10-03 06:02:12 INFO  holiday:105       节假日服务已启动
@@ -1499,3 +1492,10 @@
 2026-10-03 11:50:49 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=29%
 2026-10-03 11:51:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.3 mem=48.6
 2026-10-03 11:51:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 11:51:22 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-03 11:51:28 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-03 11:51:28 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=70% 内存=70%
+2026-10-03 11:51:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.5 mem=48.7
+2026-10-03 11:51:43 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 21s）
+2026-10-03 11:51:59 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
+2026-10-03 11:52:08 ERRO  qq_bot:111        QQBot 连接关闭 code=1006 reason=，5s 后重连
