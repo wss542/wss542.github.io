@@ -1,12 +1,4 @@
-# 更新于 2026-10-03 11:52:42 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 06:02:12 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-03 06:02:12 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-03 06:02:12 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-03 06:02:12 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-03 06:02:12 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-03 06:02:12 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-03 06:02:12 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-03 06:02:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=40.8 mem=45.7
+# 更新于 2026-10-03 11:53:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 06:02:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-03 06:02:13 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 2026-10-03 06:02:13 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1491,11 @@
 2026-10-03 11:52:14 INFO  qq_bot:155        QQ HELLO interval=41250
 2026-10-03 11:52:14 INFO  qq_bot:188        QQ 事件到达 t=READY
 2026-10-03 11:52:29 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=24% 内存=75%
+2026-10-03 11:52:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=89.2 mem=48.7
+2026-10-03 11:52:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 11:52:59 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
+2026-10-03 11:53:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.2 mem=48.7
+2026-10-03 11:53:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 11:53:30 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=29% 内存=76%
+2026-10-03 11:53:30 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
+2026-10-03 11:53:30 INFO  phone_status:643  WSS 回填恢复 source=iphone_status device=iPhone（中断 123s）
