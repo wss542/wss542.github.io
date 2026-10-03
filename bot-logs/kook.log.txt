@@ -1,7 +1,4 @@
-# 更新于 2026-10-03 16:35:08 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 13:15:54 INFO  llm:1462          JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-2026-10-03 13:15:54 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 81
-2026-10-03 13:15:54 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +2 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+# 更新于 2026-10-03 16:35:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 13:15:54 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
 2026-10-03 13:15:54 INFO  logger:541        [TRACE 83f96285ecdd4513] total=5262.71ms severity=slow_request | llm_calls=1 total=5231.74ms avg=5231.74ms max=5231.74ms p50=5231.74 p95=5231.74 p99=5231.74 | json_parse=1.1ms(x1), llm=5237.08ms(x1), memory=26.34ms(x2), process=5262.59ms(x1) (wall5262.59), queue_wait=0.99ms(x1)
 2026-10-03 13:15:54 WARN  logger:564        [SLOW 83f96285ecdd4513] total=5263.26ms | json_parse=1.1ms(x1), llm=5237.08ms(x1), memory=26.34ms(x2), process=5262.59ms(x1) (wall5262.59), queue_wait=0.99ms(x1) | llm_calls=1 total=5231.74ms avg=5231.74ms max=5231.74ms p50=5231.74 p95=5231.74 p99=5231.74 | perf: queue=0.99ms llm=5238.18ms search_tool=0.0ms delivery=0.0ms other=5288.93ms wall=5263.22ms dominant=other
@@ -1499,3 +1496,6 @@
 2026-10-03 16:34:49 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=71%
 2026-10-03 16:34:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=58.8 mem=49.8
 2026-10-03 16:34:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 16:35:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=16% 内存=94%
+2026-10-03 16:35:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=80.4 mem=49.8
+2026-10-03 16:35:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
