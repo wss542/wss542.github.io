@@ -1,20 +1,4 @@
-# 更新于 2026-10-03 20:19:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 16:30:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=23% 内存=91%
-2026-10-03 16:30:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=53.5 mem=49.8
-2026-10-03 16:30:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-03 16:30:47 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-03 16:31:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=65.1 mem=49.8
-2026-10-03 16:31:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-03 16:31:17 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=43% 内存=90%
-2026-10-03 16:31:31 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-2026-10-03 16:31:31 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-03 16:31:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=62.5 mem=49.8
-2026-10-03 16:31:46 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-03 16:31:46 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-2026-10-03 16:31:46 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-03 16:31:48 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=22%
-2026-10-03 16:32:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.8 mem=49.8
-2026-10-03 16:32:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-10-03 20:20:43 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 16:32:18 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=23% 内存=92%
 2026-10-03 16:32:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=74.5 mem=49.8
 2026-10-03 16:32:47 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1483,19 @@
 2026-10-03 20:19:16 WARN  logger:564        [SLOW db4cba9fd1ec4128] total=9576.66ms | process=9576.3ms(x1) (wall9576.3), queue_wait=0.47ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.47ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9576.3ms wall=9576.64ms dominant=other
 2026-10-03 20:19:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=70.6 mem=51.1
 2026-10-03 20:19:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 20:19:47 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=40%
+2026-10-03 20:19:52 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-03 20:19:52 DEBG  dispatcher:47     dispatch 入口: type=9 content='/禁言 (met)1759953618(met) -2000' is_edit=False
+2026-10-03 20:19:52 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-10-03 20:19:52 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='/禁言 (met)1759953618(met) -2000'
+2026-10-03 20:19:52 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-03 20:19:52 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-10-03 20:19:52 INFO  pipeline:503      指令拦截: '/禁言 @ywandwss  -2000' from=제미니 (shuangzi_1228)
+2026-10-03 20:19:52 DEBG  commands:4922     指令解析: prefix=/ cmd=禁言 args=['@ywandwss', '-2000'] user=337936062
+2026-10-03 20:19:52 INFO  commands:4977     指令执行完成 [禁言]: 返回30字符
+2026-10-03 20:19:53 INFO  logger:541        [TRACE a2468b8b8a4f463a] total=637.7ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=637.65ms(x1) (wall637.65), queue_wait=0.39ms(x1)
+2026-10-03 20:19:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.1 mem=51.1
+2026-10-03 20:19:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 20:20:17 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=19% 内存=96%
+2026-10-03 20:20:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.4 mem=51.1
+2026-10-03 20:20:30 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
