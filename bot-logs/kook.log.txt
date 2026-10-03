@@ -1,12 +1,4 @@
-# 更新于 2026-10-03 16:27:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-03 13:14:12 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["想吃呀！主人要请我吃鱼吗喵~ (emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]","不过我是 AI 吃不了东西啦，但是可以陪主人一起享用喵！"],"fav":3,"calls":[],"face":"开心 1","mood":"开心","action":"","at":null,"mode":null,"origin":" | tool_calls=0
-2026-10-03 13:14:12 INFO  face_lib:64       表情库加载: 90 关键词 / 7 主干 / 31 文件
-2026-10-03 13:14:12 INFO  llm:1462          JSON回复解析: 2句 fav=+3 calls=0 mood=开心
-2026-10-03 13:14:12 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +3 → 79
-2026-10-03 13:14:12 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +3 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
-2026-10-03 13:14:12 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 3 条
-2026-10-03 13:14:12 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-10-03 13:14:12 INFO  logger:541        [TRACE 5bde3fceaa1f41ed] total=7253.84ms severity=slow_request | llm_calls=1 total=6185.7ms avg=6185.7ms max=6185.7ms p50=6185.7 p95=6185.7 p99=6185.7 | json_parse=1.74ms(x1), llm=6504.27ms(x1), memory=663.91ms(x2), process=7253.45ms(x1) (wall7253.45), queue_wait=1.44ms(x1)
+# 更新于 2026-10-03 16:28:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-03 13:14:12 WARN  logger:564        [SLOW 5bde3fceaa1f41ed] total=7254.29ms | json_parse=1.74ms(x1), llm=6504.27ms(x1), memory=663.91ms(x2), process=7253.45ms(x1) (wall7253.45), queue_wait=1.44ms(x1) | llm_calls=1 total=6185.7ms avg=6185.7ms max=6185.7ms p50=6185.7 p95=6185.7 p99=6185.7 | perf: queue=1.44ms llm=6506.01ms search_tool=0.0ms delivery=0.0ms other=7917.36ms wall=7254.25ms dominant=other
 2026-10-03 13:14:12 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-10-03 13:14:12 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
@@ -1499,3 +1491,11 @@
 2026-10-03 16:27:09 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
 2026-10-03 16:27:09 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-03 16:27:09 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=21% 内存=89%
+2026-10-03 16:27:41 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
+2026-10-03 16:27:41 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-03 16:27:41 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
+2026-10-03 16:27:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.0 mem=49.8
+2026-10-03 16:27:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-03 16:27:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
+2026-10-03 16:27:56 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-03 16:28:12 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=SugarPro - Faded Light（已暂停）CPU=23% 内存=90%
