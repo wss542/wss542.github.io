@@ -1,20 +1,4 @@
-# 更新于 2026-10-05 04:00:40 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 00:41:31 INFO  pc_status:187     收到 lyric_event [延迟=16ms]: '**人都应该有梦**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:32 INFO  pc_status:187     收到 lyric_event [延迟=-463ms]: '**Oh**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:33 INFO  pc_status:187     收到 lyric_event [延迟=-469ms]: '**有梦就别怕痛**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:35 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=张韶涵 - 淋雨一直走（播放中）CPU=46% 内存=92%
-2026-10-05 00:41:35 INFO  pc_status:187     收到 lyric_event [延迟=32ms]: '**淋雨一直走**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:38 INFO  pc_status:187     收到 lyric_event [延迟=-188ms]: '**是一颗宝石就该闪烁**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:41 INFO  pc_status:187     收到 lyric_event [延迟=189ms]: '**人都应该有梦**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-274ms]: '**Oh**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:43 INFO  pc_status:187     收到 lyric_event [延迟=-102ms]: '**有梦就别怕痛**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
-2026-10-05 00:41:44 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-05 00:41:46 INFO  pc_status:187     收到 lyric_event [延迟=198ms]: '**淋雨一直走**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:48 INFO  pc_status:187     收到 lyric_event [延迟=77ms]: '**是道阳光就该暖和**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:50 INFO  pc_status:187     收到 lyric_event [延迟=-714ms]: '**人都应该有梦**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:53 INFO  pc_status:187     收到 lyric_event [延迟=601ms]: '**Oh**' song=张韶涵 - 淋雨一直走 playing=True channel=None
-2026-10-05 00:41:53 INFO  pc_status:187     收到 lyric_event [延迟=-652ms]: '**有梦就别怕痛**' song=张韶涵 - 淋雨一直走 playing=True channel=None
+# 更新于 2026-10-05 04:01:32 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 00:41:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=37.4 mem=56.1
 2026-10-05 00:41:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 00:41:59 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=81 cpu=None mem=None
@@ -1499,3 +1483,19 @@
 2026-10-05 03:59:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 04:00:04 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: timed out（后续同类失败将静默）
 2026-10-05 04:00:25 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-05 04:00:42 ERRO  events:94         khl.py Bot 运行异常 (#1): Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，5s 后重连
+2026-10-05 04:00:44 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，10s 后重启
+2026-10-05 04:00:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.5 mem=64.2
+2026-10-05 04:00:46 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 21s）
+2026-10-05 04:00:47 ERRO  events:94         khl.py Bot 运行异常 (#2): Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，10s 后重连
+2026-10-05 04:00:54 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#3)
+2026-10-05 04:01:00 INFO  wdsj_tracker:73   每日战绩采集: 4 个玩家 x 2 模板
+2026-10-05 04:01:00 INFO  pc_status:46      PC 客户端已连接
+2026-10-05 04:01:04 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=55%
+2026-10-05 04:01:05 INFO  wdsj_tracker:101  每日战绩采集完成: 8 条新记录
+2026-10-05 04:01:07 INFO  bot:889           日榜目标频道: [3649029148752421]
+2026-10-05 04:01:08 INFO  bot:893           日榜已发到频道 3649029148752421
+2026-10-05 04:01:08 INFO  bot:896           日榜已推送: 4 人 (2026-10-05)
+2026-10-05 04:01:08 INFO  bot:846           战绩采集将在 3h59m 后执行 (08:01)
+2026-10-05 04:01:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.3 mem=61.9
+2026-10-05 04:01:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
