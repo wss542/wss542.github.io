@@ -1,20 +1,4 @@
-# 更新于 2026-10-04 11:15:26 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-04 07:07:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=李健 - 传奇（已暂停）CPU=10% 内存=92%
-2026-10-04 07:07:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.7 mem=52.3
-2026-10-04 07:07:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-04 07:07:42 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=41%
-2026-10-04 07:07:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=76.3 mem=52.3
-2026-10-04 07:07:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-04 07:08:13 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-04 07:08:13 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-04 07:08:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=李健 - 传奇（已暂停）CPU=19% 内存=92%
-2026-10-04 07:08:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.7 mem=52.3
-2026-10-04 07:08:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-04 07:08:28 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-04 07:08:28 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-04 07:08:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=31%
-2026-10-04 07:08:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=52.3
-2026-10-04 07:08:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-10-04 11:16:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-04 07:09:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=李健 - 传奇（已暂停）CPU=11% 内存=96%
 2026-10-04 07:09:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.1 mem=52.3
 2026-10-04 07:09:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1483,19 @@
 2026-10-04 11:15:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.3 mem=53.3
 2026-10-04 11:15:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-04 11:15:26 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=李健 - 传奇（已暂停）CPU=22% 内存=93%
+2026-10-04 11:15:57 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=47%
+2026-10-04 11:16:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=47.8 mem=53.3
+2026-10-04 11:16:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-04 11:16:21 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-04 11:16:21 DEBG  dispatcher:47     dispatch 入口: type=9 content='/解禁 (met)1759953618(met) ' is_edit=False
+2026-10-04 11:16:21 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-04 11:16:21 INFO  dispatcher:316    📩 消息 #13 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/解禁 (met)1759953618(met) '
+2026-10-04 11:16:21 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-04 11:16:21 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
+2026-10-04 11:16:21 INFO  pipeline:503      指令拦截: '/解禁 @ywandwss  ' from=ywandwss
+2026-10-04 11:16:21 DEBG  commands:4922     指令解析: prefix=/ cmd=解禁 args=['@ywandwss'] user=1759953618
+2026-10-04 11:16:22 INFO  commands:4977     指令执行完成 [解禁]: 返回35字符
+2026-10-04 11:16:22 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-04 11:16:22 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_channel keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-04 11:16:22 INFO  logger:541        [TRACE b56e793b9f204254] total=1000.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1000.56ms(x1) (wall1000.56), queue_wait=0.59ms(x1)
+2026-10-04 11:16:27 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=李健 - 传奇（已暂停）CPU=20% 内存=92%
