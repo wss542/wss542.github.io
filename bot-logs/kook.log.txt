@@ -1,9 +1,4 @@
-# 更新于 2026-10-05 16:28:31 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:23:59 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-05 15:23:59 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-05 15:23:59 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-05 15:23:59 INFO  events:94         上下文管理器已初始化
-2026-10-05 15:23:59 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
+# 更新于 2026-10-05 16:29:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:23:59 INFO  qq_bot:159        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-10-05 15:23:59 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-05 15:23:59 INFO  events:94         事件分发器已就绪
@@ -1499,3 +1494,8 @@
 2026-10-05 16:28:17 INFO  commands:5156     指令执行完成 [id]: 返回56字符
 2026-10-05 16:28:19 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=56 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1kfvTT2wRAivHCqOjwn8uFvBj8Lf-a4gI87DTQrOAq8u6dj1azkqEjw4n9wxwVHjg!!
 2026-10-05 16:28:19 INFO  logger:541        [TRACE 84435d9c26904f28] total=1561.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1561.44ms(x1) (wall1561.44), queue_wait=1.61ms(x1)
+2026-10-05 16:28:31 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=15 cpu=None mem=None
+2026-10-05 16:28:31 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-05 16:28:41 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=48%
+2026-10-05 16:28:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=66.7 mem=47.6
+2026-10-05 16:28:46 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
