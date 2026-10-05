@@ -1,40 +1,4 @@
-# 更新于 2026-10-05 14:27:28 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-05 11:53:11 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-05 11:53:11 INFO  bot:111           ==================================================
-2026-10-05 11:53:11 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-05 11:53:11 INFO  bot:111           ==================================================
-2026-10-05 11:53:11 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-05 11:53:11 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-05 11:53:11 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-05 11:53:11 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-05 11:53:11 INFO  events:94         QQ open-platform channel started
-2026-10-05 11:53:11 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-05 11:53:11 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-05 11:53:11 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-05 11:53:11 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-05 11:53:12 INFO  qq_transport:113  QQ access_token 已刷新，有效期 856s
-2026-10-05 11:53:12 INFO  qq_bot:123        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-05 11:53:12 INFO  qq_bot:155        QQ HELLO interval=41250
-2026-10-05 11:53:12 INFO  holiday:57        节假日: 2026-10-05 → 国庆节
-2026-10-05 11:53:12 INFO  holiday:105       节假日服务已启动
-2026-10-05 11:53:12 INFO  holiday:96        节假日每日刷新: 等待 43612 秒 (下次 00:00:05)
-2026-10-05 11:53:13 INFO  qq_bot:188        QQ 事件到达 t=READY
-2026-10-05 11:53:31 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=51%
-2026-10-05 11:53:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=58.8 mem=46.4
-2026-10-05 11:53:33 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 11:54:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=23% 内存=83%
-2026-10-05 11:54:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=65.2 mem=46.4
-2026-10-05 11:54:19 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-10-05 14:28:14 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 11:54:35 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=67%
 2026-10-05 11:54:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=77.6 mem=46.4
 2026-10-05 11:54:50 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1463,39 @@
 2026-10-05 14:27:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 14:27:13 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=59 cpu=None mem=None
 2026-10-05 14:27:13 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-05 14:27:28 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=59 cpu=None mem=None
+2026-10-05 14:27:28 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-05 14:27:34 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=26% 内存=87%
+2026-10-05 14:27:34 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:27:34 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw shuangzi_1228 img' atts=0 ref=False msg_type=0
+2026-10-05 14:27:34 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/wdsj bw shuangzi_1228 img'
+2026-10-05 14:27:34 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rHE8ZlkHBXvagwBjMUDtsOaMd8JzaqWraBJnbiBm5kdmraIFzVnA183zVJatX1Ka6nzjWscLWGXRLZw4tXmpPGbVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:27:34 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:27:34 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-10-05 14:27:34 INFO  pipeline:503      指令拦截: '/wdsj bw shuangzi_1228 img' from=若尘 ~喵
+2026-10-05 14:27:34 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['bw', 'shuangzi_1228', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:27:34 INFO  commands:2888     查询wdsj战绩: player=shuangzi_1228 template=bedwars-stats img=True
+2026-10-05 14:27:36 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=33 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpxBgN.kv5HSMjRRVbspZYjGwzKjq9cYDKMqV-r8.7setZafBsN.4eYEH3W7gUcr.yQ!!
+2026-10-05 14:27:40 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:27:40 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj bw img' atts=0 ref=False msg_type=0
+2026-10-05 14:27:40 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/wdsj bw img'
+2026-10-05 14:27:40 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rJlea8RiQv1QCfs6Fu.PnsCDTqridSwesSV.w1ul5FWLHLJPFM3CukZ18nv2vYSy-9TiZxEW0Ry.sM3QG0eKqaLVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:27:40 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:27:42 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261005_8b9d23a5.png size=211910 ttl=86400
+2026-10-05 14:27:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.2 mem=47.1
+2026-10-05 14:27:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:27:46 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpyn2zsFTqzSaUyufKKkTm9TwSI2C9Hr0dtsixhGQtEqSPVpAtVvxra73nrzPhoWYYA!!
+2026-10-05 14:27:46 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-05 14:27:46 INFO  logger:541        [TRACE 89053b7eb53f499b] total=11686.45ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=11686.37ms(x1) (wall11686.37), queue_wait=0.48ms(x1)
+2026-10-05 14:27:46 WARN  logger:559        [VERY_SLOW 89053b7eb53f499b] total=11686.89ms 需重点排查 | process=11686.37ms(x1) (wall11686.37), queue_wait=0.48ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.48ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=11686.37ms wall=11686.79ms dominant=other
+2026-10-05 14:27:46 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 7条 (阈值=10)
+2026-10-05 14:27:46 INFO  pipeline:503      指令拦截: '/wdsj bw img' from=若尘 ~喵
+2026-10-05 14:27:46 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['bw', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:27:46 INFO  commands:2888     查询wdsj战绩: player=yzandwss template=bedwars-stats img=True
+2026-10-05 14:27:47 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=28 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp-4.7Vv1tHFVg6Nk7qH7Z1rdpZ7p3SBXNwGvuzwW0tGsbWbcs6uyGLrgFE8Um9HHwQ!!
+2026-10-05 14:27:54 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261005_065ff975.png size=218186 ttl=86400
+2026-10-05 14:27:57 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=3 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1eqArGSnjlZM4xifEvQynu-.07D5t63SMEu3rxQIvhVR6p1IYZVvwabPCTVAE6wQg!!
+2026-10-05 14:27:57 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-05 14:27:57 INFO  logger:541        [TRACE 3e48a7d5d72d4117] total=10667.7ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10667.63ms(x1) (wall10667.63), queue_wait=5833.93ms(x1)
+2026-10-05 14:27:57 WARN  logger:559        [VERY_SLOW 3e48a7d5d72d4117] total=10668.18ms 需重点排查 | process=10667.63ms(x1) (wall10667.63), queue_wait=5833.93ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=5833.93ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10667.63ms wall=10668.15ms dominant=other
+2026-10-05 14:28:07 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=44%
