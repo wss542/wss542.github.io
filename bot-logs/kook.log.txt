@@ -1,32 +1,4 @@
-# 更新于 2026-10-05 19:58:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 18:04:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-05 18:04:12 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-05 18:04:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-05 18:04:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-05 18:04:12 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-05 18:04:12 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-05 18:04:12 INFO  bot:111           ==================================================
-2026-10-05 18:04:12 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-05 18:04:12 INFO  bot:111           ==================================================
-2026-10-05 18:04:12 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-05 18:04:12 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-05 18:04:12 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-05 18:04:12 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-05 18:04:12 INFO  events:94         QQ open-platform channel started
-2026-10-05 18:04:12 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-05 18:04:12 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-05 18:04:12 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-05 18:04:12 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-05 18:04:12 INFO  events:94         ==================================================
-2026-10-05 18:04:12 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-05 18:04:12 INFO  events:94         ==================================================
-2026-10-05 18:04:12 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-05 18:04:12 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-05 18:04:12 INFO  events:94         语言文件已加载
-2026-10-05 18:04:12 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-05 18:04:12 INFO  events:94         日志系统已初始化
-2026-10-05 18:04:12 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-05 18:04:12 INFO  events:94         khl.py Bot 实例已创建
+# 更新于 2026-10-05 19:59:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 18:04:12 INFO  qq_transport:113  QQ access_token 已刷新，有效期 206s
 2026-10-05 18:04:12 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
 2026-10-05 18:04:12 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
@@ -1499,3 +1471,31 @@
 `但你肯定是个明星`' song=Mandee - Superstar playing=True channel=None
 2026-10-05 19:58:48 INFO  pc_status:187     收到 lyric_event [延迟=-291ms]: '**'Cause you got all eyes on you no matter where you are**
 `' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:58:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.0 mem=49.0
+2026-10-05 19:58:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 19:58:53 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=46%
+2026-10-05 19:58:55 INFO  pc_status:187     收到 lyric_event [延迟=-8ms]: '**I don't know what it is**
+`我不知道这感觉`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:00 INFO  pc_status:187     收到 lyric_event [延迟=467ms]: '**That makes me feel like this**
+`这感觉让我如此`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:03 INFO  pc_status:187     收到 lyric_event [延迟=-164ms]: '**I don't know who you are**
+`我不知道你是谁`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:08 INFO  pc_status:187     收到 lyric_event [延迟=208ms]: '**But you must be some kind of superstar**
+`但你肯定是个明星`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:13 INFO  pc_status:187     收到 lyric_event [延迟=458ms]: '**Baby take a look around**
+`亲爱的，环顾四周`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:18 INFO  pc_status:187     收到 lyric_event [延迟=704ms]: '**Everybody's getting' down**
+`每个人都被迷醉`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:22 INFO  pc_status:187     收到 lyric_event [延迟=-140ms]: '**Deal with all the problems later, later**
+`放下手头的麻烦事`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:24 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Mandee - Superstar（播放中）CPU=81% 内存=85%
+2026-10-05 19:59:27 INFO  pc_status:187     收到 lyric_event [延迟=367ms]: '**Bad boys on their best behavior**
+`这样，坏小子也可以发挥出色`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:29 INFO  pc_status:187     收到 lyric_event [延迟=180ms]: '**There's something about you**
+`但是我有话要说`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:32 INFO  pc_status:187     收到 lyric_event [延迟=660ms]: '**Let's keep it moving**
+`就让我们继续下去吧`' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:34 INFO  pc_status:187     收到 lyric_event [延迟=-6ms]: '**And if it's good let's just get something cooking**
+`你觉得可以' song=Mandee - Superstar playing=True channel=None
+2026-10-05 19:59:39 INFO  pc_status:187     收到 lyric_event [延迟=583ms]: '**'Cause I really wanna rock with you**
+`因为我真的想和你唱摇滚`' song=Mandee - Superstar playing=True channel=None
