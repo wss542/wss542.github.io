@@ -1,30 +1,4 @@
-# 更新于 2026-10-05 14:57:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 13:30:15 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=[] user=337936062
-2026-10-05 13:30:15 INFO  commands:4960     插件指令执行完成 [商店]: 返回100字符
-2026-10-05 13:30:15 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-05 13:30:15 INFO  engine:92         异步记忆提炼完成 chat=7274785942250691: 候选5 新增5
-2026-10-05 13:30:16 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:30:16 DEBG  dispatcher:47     dispatch 入口: type=9 content='呜呜呜' is_edit=False
-2026-10-05 13:30:16 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-05 13:30:16 INFO  dispatcher:316    📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='呜呜呜'
-2026-10-05 13:30:16 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-05 13:30:16 INFO  logger:541        [TRACE 2f5c0f0d04bf41e4] total=727.22ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=727.14ms(x1) (wall727.14), queue_wait=0.36ms(x1)
-2026-10-05 13:30:16 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-2026-10-05 13:30:16 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='呜呜呜'
-2026-10-05 13:30:16 INFO  logger:541        [TRACE e727ce2baee148b8] total=5.56ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5.5ms(x1) (wall5.5), queue_wait=123.14ms(x1)
-2026-10-05 13:30:16 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=10% 内存=83%
-2026-10-05 13:30:18 INFO  llm:544           LLM [deepseek-flash] 返回 722字符 耗时2.8s → "[00:39:30] 제미니 (shuangzi_1: 제미니 (shuangzi_1228): /..."
-2026-10-05 13:30:18 INFO  memory:223        [7274785942250691] 压缩完成: 10条消息 → 保存
-2026-10-05 13:30:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.5 mem=47.0
-2026-10-05 13:30:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 13:30:48 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=49%
-2026-10-05 13:30:50 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
-2026-10-05 13:30:50 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-05 13:30:51 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:30:51 DEBG  dispatcher:47     dispatch 入口: type=9 content='@茂密 /shop' is_edit=False
-2026-10-05 13:30:51 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-05 13:30:51 INFO  dispatcher:316    📩 消息 #12 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='@茂密 /shop'
-2026-10-05 13:30:51 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+# 更新于 2026-10-05 14:58:49 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 13:30:51 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
 2026-10-05 13:30:51 INFO  pipeline:503      指令拦截: '/shop' from=제미니 (shuangzi_1228)
 2026-10-05 13:30:51 DEBG  commands:4922     指令解析: prefix=/ cmd=shop args=[] user=337936062
@@ -1499,3 +1473,29 @@
 2026-10-05 14:57:26 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.5 mem=47.2
 2026-10-05 14:57:26 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 14:57:47 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=32% 内存=94%
+2026-10-05 14:57:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=53.5 mem=47.2
+2026-10-05 14:57:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:58:07 INFO  qq_bot:188        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-05 14:58:07 DEBG  qq_bot:237        QQ 事件摘要: t=group=False content='/商店' atts=0 ref=False msg_type=0
+2026-10-05 14:58:07 INFO  qq_bot:394        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/商店'
+2026-10-05 14:58:07 INFO  qq_bot:405        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-pUWj-aJcWixMvtrnJDDgYkUQNfIWQIXo5l7EollZPKSCecLPhi.C5zHaei22UPK5PpYgaf4C5XyaLdtdKVzqgg!
+2026-10-05 14:58:07 INFO  queues:32         [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
+2026-10-05 14:58:07 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-05 14:58:07 INFO  pipeline:503      指令拦截: '/商店' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:58:07 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:58:07 INFO  commands:4960     插件指令执行完成 [商店]: 返回156字符
+2026-10-05 14:58:08 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=154 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqhtSo5Qb4vE-Xzg7El7V1L4XOOQ3.pQ07BD-JhSTUvdVrZl.j0e0uFXfUKErqcqU5w!!
+2026-10-05 14:58:08 INFO  logger:541        [TRACE 3ae2e4dabf3f4e4c] total=1045.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1045.7ms(x1) (wall1045.7), queue_wait=1.23ms(x1)
+2026-10-05 14:58:19 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-05 14:58:24 INFO  qq_bot:188        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-05 14:58:24 DEBG  qq_bot:237        QQ 事件摘要: t=group=False content='/积分' atts=0 ref=False msg_type=0
+2026-10-05 14:58:24 INFO  qq_bot:394        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/积分'
+2026-10-05 14:58:24 INFO  qq_bot:405        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-rDF2tdL8xcr9BthkVa2NSEvkSPavB9zvabU8IqkdfVIplordLnJ2GMOJKUDlKZcybK7vOIcYRDE9IfsMXwqNnE!
+2026-10-05 14:58:24 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-05 14:58:24 INFO  pipeline:503      指令拦截: '/积分' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:58:24 DEBG  commands:4922     指令解析: prefix=/ cmd=积分 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:58:24 INFO  commands:4960     插件指令执行完成 [积分]: 返回111字符
+2026-10-05 14:58:25 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=73 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqlDF2s.mWlHHjcr5klzkirzHurRz-MQ-GknbFFYFU6spwHlrsHYn0brMKnbZ-H-N.A!!
+2026-10-05 14:58:25 INFO  logger:541        [TRACE 369277a5835d4b40] total=1000.05ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=999.94ms(x1) (wall999.94), queue_wait=0.75ms(x1)
+2026-10-05 14:58:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.7 mem=47.2
+2026-10-05 14:58:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
