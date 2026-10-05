@@ -1,34 +1,4 @@
-# 更新于 2026-10-05 15:22:20 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:37:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:37:59 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=10% 内存=87%
-2026-10-05 14:38:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.3 mem=47.1
-2026-10-05 14:38:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:38:31 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=32%
-2026-10-05 14:38:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.5 mem=47.1
-2026-10-05 14:38:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:39:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=16% 内存=87%
-2026-10-05 14:39:02 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 14:39:02 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj mm img' atts=0 ref=False msg_type=0
-2026-10-05 14:39:02 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=阿鱼阿鱼 role=member union=-]: '/wdsj mm img'
-2026-10-05 14:39:02 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_nWPC.vscMqnjrVGCybF03qbalFU-hhHx3.Te5VfmOGTpHcQ4F8l4usJB8Us1-Q5NSD4bwPIINAfptLHqLwAB0tcv3SRdHC2iORj6uPgy3NRtxQCTepAyDNxCoDSX9nph
-2026-10-05 14:39:02 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 14:39:02 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 9条 (阈值=10)
-2026-10-05 14:39:02 INFO  pipeline:503      指令拦截: '/wdsj mm img' from=阿鱼阿鱼
-2026-10-05 14:39:02 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['mm', 'img'] user=qq:E1874B4B33403791C238043D8B42896E
-2026-10-05 14:39:02 INFO  commands:2888     查询wdsj战绩: player=silly_fishhhhh template=murdermystery-stats img=True
-2026-10-05 14:39:04 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=34 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzhJSJpzDAzJsQ-vVYgn6GzUJTdOZ1PgsJrVZ0WScWXB0YYqGpL6Ee0wN3gSLUBJDw!!
-2026-10-05 14:39:10 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261005_867134b0.png size=151080 ttl=86400
-2026-10-05 14:39:13 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7co1KE1IV9z9UbFhz9QNyPKe2OYbvzFyG8Y7nUuzm0fOCWFCX56OcmuxAFN2-J8PA!!
-2026-10-05 14:39:13 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
-2026-10-05 14:39:13 INFO  logger:541        [TRACE 83c40703262b4cd8] total=10690.05ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10689.56ms(x1) (wall10689.56), queue_wait=0.82ms(x1)
-2026-10-05 14:39:13 WARN  logger:559        [VERY_SLOW 83c40703262b4cd8] total=10690.41ms 需重点排查 | process=10689.56ms(x1) (wall10689.56), queue_wait=0.82ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.82ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10689.56ms wall=10690.38ms dominant=other
-2026-10-05 14:39:14 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.8 mem=47.1
-2026-10-05 14:39:14 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:39:34 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
-2026-10-05 14:39:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=40.0 mem=47.1
-2026-10-05 14:39:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:39:50 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 14:39:50 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wdsj mm img' atts=0 ref=False msg_type=0
+# 更新于 2026-10-05 15:22:50 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:39:50 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: 'wdsj mm img'
 2026-10-05 14:39:50 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rHLQPV0HSfthIfv3HH-HMRb7KNQwQNB62i4DoSiwYKJgHu0vu9Ol.dUFyKFBnRGWpYiUj42oHD5Ef2QRW.Aq5IdtxQCTepAyDNxCoDSX9nph
 2026-10-05 14:39:50 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
@@ -1499,3 +1469,33 @@
 2026-10-05 15:22:16 DEBG  commands:4986     指令解析: prefix=/ cmd=wzq args=['h8'] user=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-05 15:22:16 INFO  changelog:815     [Card] 正在截图 → wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_59cc998f.png (16151 bytes HTML)
 2026-10-05 15:22:17 INFO  changelog:823     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_59cc998f.png size=143.9KB
+2026-10-05 15:22:20 INFO  qq_transport:711  QQ 分片上传成功 file=wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_59cc998f.png size=147305 ttl=86400
+2026-10-05 15:22:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.5 mem=47.2
+2026-10-05 15:22:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:22:22 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwMnADz-ASjt7xfDugR1ZhqsfwE.LVK43IjA07EwnvDM.TAyJbUdCNlbwih9PcuoEA!!
+2026-10-05 15:22:22 INFO  commands:5043     指令执行完成 [wzq]: 无返回值（已自行发送）
+2026-10-05 15:22:22 INFO  logger:541        [TRACE a3d5a8660f174e69] total=5860.48ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5860.39ms(x1) (wall5860.39), queue_wait=0.77ms(x1)
+2026-10-05 15:22:22 WARN  logger:564        [SLOW a3d5a8660f174e69] total=5862.27ms | process=5860.39ms(x1) (wall5860.39), queue_wait=0.77ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.77ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5860.39ms wall=5862.21ms dominant=other
+2026-10-05 15:22:22 INFO  wzq:1056          AI(easy depth<=1) 落子 G7 0.0s
+2026-10-05 15:22:22 INFO  changelog:815     [Card] 正在截图 → wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_c8d31b5f.png (16200 bytes HTML)
+2026-10-05 15:22:23 INFO  changelog:823     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_c8d31b5f.png size=149.2KB
+2026-10-05 15:22:25 INFO  qq_transport:711  QQ 分片上传成功 file=wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_c8d31b5f.png size=152809 ttl=86400
+2026-10-05 15:22:28 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0SITZO9cWotO52vHLZ3h7Nm6arDvkH7E82CRwmE6sBeF02uxZhGKidOVBfgbF85qg!!
+2026-10-05 15:22:31 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=22%
+2026-10-05 15:22:44 INFO  qq_bot:214        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 15:22:44 DEBG  qq_bot:266        QQ 事件摘要: t=group=True content='/wzq h7' atts=0 ref=False msg_type=0
+2026-10-05 15:22:44 INFO  qq_bot:423        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/wzq h7'
+2026-10-05 15:22:44 INFO  qq_bot:434        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rHHowziL-NChd2xBX.szK1YJKhP6CV3X4q8HI8dop7l1RbIrO-tlck-TTDj5LYK1TpqlHEUhKp8PZHOsioFWWihtxQCTepAyDNxCoDSX9nph
+2026-10-05 15:22:44 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 15:22:44 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 7条 (阈值=10)
+2026-10-05 15:22:44 INFO  pipeline:503      指令拦截: '/wzq h7' from=若尘 ~喵
+2026-10-05 15:22:44 DEBG  commands:4986     指令解析: prefix=/ cmd=wzq args=['h7'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:22:44 INFO  changelog:815     [Card] 正在截图 → wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_f4c9384c.png (16225 bytes HTML)
+2026-10-05 15:22:45 INFO  changelog:823     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_f4c9384c.png size=146.2KB
+2026-10-05 15:22:47 INFO  qq_transport:711  QQ 分片上传成功 file=wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_f4c9384c.png size=149682 ttl=86400
+2026-10-05 15:22:50 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzhgGFfPJKw6tKNSKrXQjXOhKCLz.0SwOxNiZEO1ifBKasL16upTzucaVbcAfEEzpg!!
+2026-10-05 15:22:50 INFO  commands:5043     指令执行完成 [wzq]: 无返回值（已自行发送）
+2026-10-05 15:22:50 INFO  logger:541        [TRACE 0a58129357ad4865] total=5914.79ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5914.71ms(x1) (wall5914.71), queue_wait=0.4ms(x1)
+2026-10-05 15:22:50 WARN  logger:564        [SLOW 0a58129357ad4865] total=5915.1ms | process=5914.71ms(x1) (wall5914.71), queue_wait=0.4ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.4ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5914.71ms wall=5915.08ms dominant=other
+2026-10-05 15:22:50 INFO  wzq:1056          AI(easy depth<=1) 落子 H6 0.0s
+2026-10-05 15:22:50 INFO  changelog:815     [Card] 正在截图 → wzq_qq:E8A10E075AB6D6B650F2C6BE6AB0553E_5d0f2006.png (16274 bytes HTML)
