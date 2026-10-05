@@ -1,7 +1,4 @@
-# 更新于 2026-10-05 14:49:42 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 13:27:41 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>签到'
-2026-10-05 13:27:41 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
-2026-10-05 13:27:41 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+# 更新于 2026-10-05 14:50:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 13:27:41 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
 2026-10-05 13:27:41 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
 2026-10-05 13:27:41 INFO  logger:541        [TRACE 782a9c8f608343c7] total=24.82ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=24.61ms(x1) (wall24.61), queue_wait=0.73ms(x1)
@@ -1499,3 +1496,6 @@
 2026-10-05 14:49:28 INFO  commands:4960     插件指令执行完成 [商店]: 返回42字符
 2026-10-05 14:49:30 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=41 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp-RvJQ0Xgr6VosQifLZyRqyEAi9LmQxuxXRhzdCLDCDQklU.aHAguLz2eslzOYEtHg!!
 2026-10-05 14:49:30 INFO  logger:541        [TRACE 2b45de96e60d447e] total=1631.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1631.72ms(x1) (wall1631.72), queue_wait=0.84ms(x1)
+2026-10-05 14:49:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=67.8 mem=47.2
+2026-10-05 14:49:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:49:58 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
