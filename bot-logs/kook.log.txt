@@ -1,18 +1,4 @@
-# 更新于 2026-10-05 15:25:23 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:49:12 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 14:49:12 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 5条 (阈值=10)
-2026-10-05 14:49:12 INFO  pipeline:503      指令拦截: '/商店 but 滚木' from=若尘 ~喵
-2026-10-05 14:49:12 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=['but', '滚木'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 14:49:12 INFO  commands:4960     插件指令执行完成 [商店]: 返回92字符
-2026-10-05 14:49:13 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=91 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8TDq9AxBTSqJEhziiUhI.IFF-cU3b-Ir3BK-DPtCY4jbhd.xL8Rn0y5PxTcTwNw1w!!
-2026-10-05 14:49:13 INFO  logger:541        [TRACE 324faae26cd042c8] total=1433.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1433.59ms(x1) (wall1433.59), queue_wait=0.78ms(x1)
-2026-10-05 14:49:27 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=32% 内存=90%
-2026-10-05 14:49:28 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 14:49:28 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/商店 buy 滚木' atts=0 ref=False msg_type=0
-2026-10-05 14:49:28 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/商店 buy 滚木'
-2026-10-05 14:49:28 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rCokJZLLNWRgrcWOq33MQvga2QeRhJhdc2mYO9-kNBI6u8ANk7yqD.vfsGFfwpKRYAvgAvIFivVi5rO.BywTmMHVAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 14:49:28 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 14:49:28 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+# 更新于 2026-10-05 15:26:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:49:28 INFO  pipeline:503      指令拦截: '/商店 buy 滚木' from=若尘 ~喵
 2026-10-05 14:49:28 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=['buy', '滚木'] user=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-05 14:49:28 INFO  commands:4960     插件指令执行完成 [商店]: 返回42字符
@@ -1499,3 +1485,17 @@
 2026-10-05 15:24:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=47.2
 2026-10-05 15:24:52 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 15:25:11 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=25% 内存=96%
+2026-10-05 15:25:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=59.5 mem=47.2
+2026-10-05 15:25:38 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:25:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=33%
+2026-10-05 15:25:47 INFO  qq_bot:224        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 15:25:47 DEBG  qq_bot:276        QQ 事件摘要: t=group=True content='/余额' atts=0 ref=False msg_type=0
+2026-10-05 15:25:47 INFO  qq_bot:433        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/余额'
+2026-10-05 15:25:47 INFO  qq_bot:444        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rMavSEMPSefNkANqNWDP8ZM69eXcYxNH4L3SwvSF9aG6Ezm-VcmYcRGz-2vXkRH2m2V9hhEvvqTL.jWU20aYq.DVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 15:25:47 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 15:25:47 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-10-05 15:25:47 INFO  pipeline:503      指令拦截: '/余额' from=若尘 ~喵
+2026-10-05 15:25:47 DEBG  commands:4986     指令解析: prefix=/ cmd=余额 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:25:47 INFO  commands:5041     指令执行完成 [余额]: 返回57字符
+2026-10-05 15:25:49 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=56 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwlxt9tFDdeEsxiRAqN0r3vP7LnYvHOv9FzIP4e-cLBD2P6cC0UzzrtpnLvE5x9eLg!!
+2026-10-05 15:25:49 INFO  logger:541        [TRACE 6873a35e2f6240df] total=1803.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1803.34ms(x1) (wall1803.34), queue_wait=0.81ms(x1)
