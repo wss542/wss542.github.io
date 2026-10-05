@@ -1,18 +1,4 @@
-# 更新于 2026-10-05 14:52:20 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 13:27:57 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 13:27:57 INFO  identity:92       身份映射已载入 1 条
-2026-10-05 13:27:57 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
-2026-10-05 13:27:57 INFO  pipeline:503      指令拦截: '/签到' from=若尘 ~喵
-2026-10-05 13:27:57 DEBG  commands:4922     指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 13:27:57 INFO  commands:4977     指令执行完成 [签到]: 返回41字符
-2026-10-05 13:27:59 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=40 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpxLoD1TVkI1FzhkMJ.CQCGGm6oA9l9d8WeuZ.DdY4RgCwAdAfWju9HxR6PTEvgBbRA!!
-2026-10-05 13:27:59 INFO  logger:541        [TRACE 583abe9be3ed453f] total=1545.35ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1544.11ms(x1) (wall1544.11), queue_wait=7.1ms(x1)
-2026-10-05 13:28:08 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 13:28:08 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/签到' atts=0 ref=False msg_type=0
-2026-10-05 13:28:08 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=落尘 role=admin union=-]: '/签到'
-2026-10-05 13:28:08 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FjdeC30O8hnOi8yDL3fQxyP6K5NfToM3fK4Z2n9AP4EIWofdDauXmPMCZVSnr6hr-Oh5UFELBMrQ5-OTy.OQwvdeSOu6hk5boZAnz6SmvAVtxQCTepAyDNxCoDSX9nph
-2026-10-05 13:28:08 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 13:28:08 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
+# 更新于 2026-10-05 14:52:54 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 13:28:08 INFO  pipeline:503      指令拦截: '/签到' from=落尘
 2026-10-05 13:28:08 DEBG  commands:4922     指令解析: prefix=/ cmd=签到 args=[] user=qq:60CF36B09831B3F0C8949CC145D65ED4
 2026-10-05 13:28:08 INFO  checkin:117       签到: u:qq:60CF36B09831B3F0C8949CC145D65ED4 streak=1 +5分
@@ -1499,3 +1485,17 @@
 2026-10-05 14:52:13 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
 2026-10-05 14:52:13 INFO  logger:541        [TRACE 901cfaa2158c477c] total=11778.0ms severity=very_slow_request | llm_calls=1 total=1581.39ms avg=1581.39ms max=1581.39ms p50=1581.39 p95=1581.39 p99=1581.39 | process=11777.87ms(x1) (wall11777.87), queue_wait=1.35ms(x1)
 2026-10-05 14:52:13 WARN  logger:559        [VERY_SLOW 901cfaa2158c477c] total=11778.47ms 需重点排查 | process=11777.87ms(x1) (wall11777.87), queue_wait=1.35ms(x1) | llm_calls=1 total=1581.39ms avg=1581.39ms max=1581.39ms p50=1581.39 p95=1581.39 p99=1581.39 | perf: queue=1.35ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=11777.87ms wall=11778.45ms dominant=other
+2026-10-05 14:52:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.8 mem=47.1
+2026-10-05 14:52:34 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:52:35 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=22% 内存=93%
+2026-10-05 14:52:45 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:52:45 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/商店 猫猫的抱 100 舒服的qwq' atts=0 ref=False msg_type=0
+2026-10-05 14:52:45 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/商店 猫猫的抱 100 舒服的qwq'
+2026-10-05 14:52:45 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rN89tZd8YvS40BHnxetJB5XoXDbsLHUkwHWBywShJ3GglokHxav0XG9YRpqeBnfPaKziw93KYcjpitxjaNqO5nzVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:52:45 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:52:45 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-10-05 14:52:45 INFO  pipeline:503      指令拦截: '/商店 猫猫的抱 100 舒服的qwq' from=若尘 ~喵
+2026-10-05 14:52:45 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=['猫猫的抱', '100', '舒服的qwq'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:52:45 INFO  commands:4960     插件指令执行完成 [商店]: 返回92字符
+2026-10-05 14:52:47 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=91 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7bUCQpxRRrq4pckZ9Oac0b1MEEAPmaSo10qWpymKymMrhHylcnbe9bX4xC0c300Hw!!
+2026-10-05 14:52:47 INFO  logger:541        [TRACE a538c207e6764a71] total=1379.83ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1379.73ms(x1) (wall1379.73), queue_wait=0.9ms(x1)
