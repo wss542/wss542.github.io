@@ -1,18 +1,4 @@
-# 更新于 2026-10-05 14:32:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 12:13:29 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-05 12:13:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.1 mem=46.3
-2026-10-05 12:13:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 12:13:59 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=21% 内存=79%
-2026-10-05 12:14:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.8 mem=46.3
-2026-10-05 12:14:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 12:14:32 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-05 12:15:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=46.3
-2026-10-05 12:15:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 12:15:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=27% 内存=79%
-2026-10-05 12:15:34 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=29%
-2026-10-05 12:15:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.0 mem=46.3
-2026-10-05 12:15:47 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 12:16:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=34% 内存=79%
+# 更新于 2026-10-05 14:33:36 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 12:16:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.1 mem=46.3
 2026-10-05 12:16:18 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 12:16:37 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
@@ -1499,3 +1485,17 @@
 2026-10-05 14:32:36 INFO  logger:541        [TRACE b835efd6978646b6] total=9668.63ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9668.56ms(x1) (wall9668.56), queue_wait=0.47ms(x1)
 2026-10-05 14:32:36 WARN  logger:564        [SLOW b835efd6978646b6] total=9670.5ms | process=9668.56ms(x1) (wall9668.56), queue_wait=0.47ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.47ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=9668.56ms wall=9670.44ms dominant=other
 2026-10-05 14:32:45 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=15% 内存=88%
+2026-10-05 14:32:50 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:32:50 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj jjc img' atts=0 ref=False msg_type=0
+2026-10-05 14:32:50 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=阿鱼阿鱼 role=member union=-]: '/wdsj jjc img'
+2026-10-05 14:32:50 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_nWPC.vscMqnjrVGCybF03vv7ysELzksHPJ2k7EBIbawlwaa5o50zEq1wE-yHSSKcMk4TtHuhWRX8TFBwton1XBGA45VZaCn2LmIEAg2ywlNtxQCTepAyDNxCoDSX9nph
+2026-10-05 14:32:50 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:32:50 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-10-05 14:32:50 INFO  pipeline:503      指令拦截: '/wdsj jjc img' from=阿鱼阿鱼
+2026-10-05 14:32:50 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['jjc', 'img'] user=qq:E1874B4B33403791C238043D8B42896E
+2026-10-05 14:32:50 INFO  commands:4977     指令执行完成 [wdsj]: 返回56字符
+2026-10-05 14:32:51 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=56 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6z3MVaB0liuIHIu8C9xYT9wtQNBJI2QatN1pUqNj6GpTSMD-u8Je6SY6hEgMzzAEA!!
+2026-10-05 14:32:51 INFO  logger:541        [TRACE 42dc2a84930e4dd0] total=1707.36ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1706.96ms(x1) (wall1706.96), queue_wait=2.74ms(x1)
+2026-10-05 14:33:17 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=31%
+2026-10-05 14:33:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=63.6 mem=47.1
+2026-10-05 14:33:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
