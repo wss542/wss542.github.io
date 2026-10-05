@@ -1,26 +1,4 @@
-# 更新于 2026-10-05 14:51:45 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 13:27:48 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
-2026-10-05 13:27:48 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
-2026-10-05 13:27:48 DEBG  commands:4922     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
-2026-10-05 13:27:48 INFO  commands:4977     指令执行完成 [fuck]: 返回30字符
-2026-10-05 13:27:49 INFO  logger:541        [TRACE ccf59db8581e4d14] total=478.53ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=478.47ms(x1) (wall478.47), queue_wait=0.3ms(x1)
-2026-10-05 13:27:50 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:27:50 DEBG  dispatcher:47     dispatch 入口: type=9 content='.luck' is_edit=False
-2026-10-05 13:27:50 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-05 13:27:50 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='.luck'
-2026-10-05 13:27:50 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-05 13:27:50 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
-2026-10-05 13:27:50 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='.luck'
-2026-10-05 13:27:50 DEBG  pipeline:577      点前缀消息忽略（其它 bot 命令）: '.luck'
-2026-10-05 13:27:50 INFO  logger:541        [TRACE 5cd5c5e3122142be] total=2.61ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.55ms(x1) (wall2.55), queue_wait=0.77ms(x1)
-2026-10-05 13:27:50 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:27:50 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 31 喵' is_edit=False
-2026-10-05 13:27:50 DEBG  dispatcher:107    跳过 bot 消息: uid=1341019011
-2026-10-05 13:27:57 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 13:27:57 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/签到' atts=0 ref=False msg_type=0
-2026-10-05 13:27:57 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/签到'
-2026-10-05 13:27:57 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rNDhY1IWIl-C8qvN5ZCnYhZ7U0z6Rjg7jSJsUMKOdu2iYopkP39ae7XrLIvKHlb4-2wO29XydlVxiAh2Vyf10G3VAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 13:27:57 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+# 更新于 2026-10-05 14:52:20 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 13:27:57 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
 2026-10-05 13:27:57 INFO  identity:92       身份映射已载入 1 条
 2026-10-05 13:27:57 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
@@ -1499,3 +1477,25 @@
 2026-10-05 14:51:33 INFO  commands:4960     插件指令执行完成 [商店]: 返回29字符
 2026-10-05 14:51:35 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=29 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1B01Rq.Xj0b8Ij1o8H0RMfftP5OGfojf3yraZtlTzHc.9UiyuZ.9FtRe78cQyAk8A!!
 2026-10-05 14:51:35 INFO  logger:541        [TRACE 36b77780a7ae4773] total=1398.1ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1397.96ms(x1) (wall1397.96), queue_wait=2.81ms(x1)
+2026-10-05 14:52:02 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:52:02 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj mm pika_guihuayu img' atts=0 ref=False msg_type=0
+2026-10-05 14:52:02 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=佳你不爱说花 role=member union=-]: '/wdsj mm pika_guihuayu img'
+2026-10-05 14:52:02 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_yov4vbGGk2ZSsxpbve46LOx9IJpfdWH88RscWeAq9G4enFkvdFlNpZO1cN9SivM-uNrFLCzu8Lz28yxIxojzl4j7V9ZnK7K3FZw-UC6A7gzVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:52:02 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:52:02 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 10条 (阈值=10)
+2026-10-05 14:52:02 INFO  pipeline:503      指令拦截: '/wdsj mm pika_guihuayu img' from=佳你不爱说花
+2026-10-05 14:52:02 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['mm', 'pika_guihuayu', 'img'] user=qq:BFEC08BF3EBF10BECFEE0763B073FEEE
+2026-10-05 14:52:02 INFO  commands:2888     查询wdsj战绩: player=pika_guihuayu template=murdermystery-stats img=True
+2026-10-05 14:52:02 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-05 14:52:02 INFO  engine:92         异步记忆提炼完成 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E: 候选1 新增1
+2026-10-05 14:52:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=78.0 mem=47.2
+2026-10-05 14:52:03 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:52:03 INFO  llm:544           LLM [deepseek-flash] 返回 239字符 耗时1.6s → "[13:36:46-14:31:45] 若尘 ~喵: 说了喵呜～, 说了我好无聊 喵…, 发送/mc..."
+2026-10-05 14:52:03 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 10条消息 → 保存
+2026-10-05 14:52:03 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=33 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4lRU0y0oQnXLGJYvfe.Wkm9qWvfkSRWZWUjk-tZnU5mGZuB4eVwi7mBMNQPhpGYzw!!
+2026-10-05 14:52:04 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-05 14:52:10 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261005_d564a332.png size=152702 ttl=86400
+2026-10-05 14:52:13 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp-lBrd-1D2ISIGituJ.XYuMprDNdDLoi8up2ehCfYhefdWTVQreAiuqJ3F76msqp.A!!
+2026-10-05 14:52:13 INFO  commands:4979     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-05 14:52:13 INFO  logger:541        [TRACE 901cfaa2158c477c] total=11778.0ms severity=very_slow_request | llm_calls=1 total=1581.39ms avg=1581.39ms max=1581.39ms p50=1581.39 p95=1581.39 p99=1581.39 | process=11777.87ms(x1) (wall11777.87), queue_wait=1.35ms(x1)
+2026-10-05 14:52:13 WARN  logger:559        [VERY_SLOW 901cfaa2158c477c] total=11778.47ms 需重点排查 | process=11777.87ms(x1) (wall11777.87), queue_wait=1.35ms(x1) | llm_calls=1 total=1581.39ms avg=1581.39ms max=1581.39ms p50=1581.39 p95=1581.39 p99=1581.39 | perf: queue=1.35ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=11777.87ms wall=11778.45ms dominant=other
