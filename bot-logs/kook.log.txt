@@ -1,18 +1,4 @@
-# 更新于 2026-10-05 15:29:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:51:35 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=29 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1B01Rq.Xj0b8Ij1o8H0RMfftP5OGfojf3yraZtlTzHc.9UiyuZ.9FtRe78cQyAk8A!!
-2026-10-05 14:51:35 INFO  logger:541        [TRACE 36b77780a7ae4773] total=1398.1ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1397.96ms(x1) (wall1397.96), queue_wait=2.81ms(x1)
-2026-10-05 14:52:02 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 14:52:02 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/wdsj mm pika_guihuayu img' atts=0 ref=False msg_type=0
-2026-10-05 14:52:02 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=佳你不爱说花 role=member union=-]: '/wdsj mm pika_guihuayu img'
-2026-10-05 14:52:02 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_yov4vbGGk2ZSsxpbve46LOx9IJpfdWH88RscWeAq9G4enFkvdFlNpZO1cN9SivM-uNrFLCzu8Lz28yxIxojzl4j7V9ZnK7K3FZw-UC6A7gzVAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 14:52:02 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 14:52:02 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 10条 (阈值=10)
-2026-10-05 14:52:02 INFO  pipeline:503      指令拦截: '/wdsj mm pika_guihuayu img' from=佳你不爱说花
-2026-10-05 14:52:02 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['mm', 'pika_guihuayu', 'img'] user=qq:BFEC08BF3EBF10BECFEE0763B073FEEE
-2026-10-05 14:52:02 INFO  commands:2888     查询wdsj战绩: player=pika_guihuayu template=murdermystery-stats img=True
-2026-10-05 14:52:02 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-05 14:52:02 INFO  engine:92         异步记忆提炼完成 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E: 候选1 新增1
-2026-10-05 14:52:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=78.0 mem=47.2
+# 更新于 2026-10-05 15:29:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:52:03 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 14:52:03 INFO  llm:544           LLM [deepseek-flash] 返回 239字符 耗时1.6s → "[13:36:46-14:31:45] 若尘 ~喵: 说了喵呜～, 说了我好无聊 喵…, 发送/mc..."
 2026-10-05 14:52:03 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 10条消息 → 保存
@@ -1499,3 +1485,17 @@
 2026-10-05 15:29:00 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
 2026-10-05 15:29:00 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
 2026-10-05 15:29:00 INFO  guild_names:332   guild_names: 距下次全量刷新 41460 秒
+2026-10-05 15:29:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=25% 内存=93%
+2026-10-05 15:29:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=72.2 mem=47.2
+2026-10-05 15:29:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:29:35 INFO  qq_bot:224        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 15:29:35 DEBG  qq_bot:276        QQ 事件摘要: t=group=True content='/积分 加  500' atts=0 ref=False msg_type=0
+2026-10-05 15:29:35 INFO  qq_bot:433        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/积分 加  500'
+2026-10-05 15:29:35 INFO  qq_bot:444        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rCeEYwIV8RNy7d4S5C8b0xoP1dS4MXebZTJg2uav5xneUtaJ6mbEqHpRZSQExEQQDtNB1rF2va2PXKcfJOL1sY..bf5tj2bFhYPgAiZ49Kgx
+2026-10-05 15:29:35 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 15:29:35 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 5条 (阈值=10)
+2026-10-05 15:29:35 INFO  pipeline:503      指令拦截: '/积分 加  500' from=若尘 ~喵
+2026-10-05 15:29:35 DEBG  commands:4986     指令解析: prefix=/ cmd=积分 args=['加', '500'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:29:35 INFO  commands:5024     插件指令执行完成 [积分]: 返回70字符
+2026-10-05 15:29:37 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=67 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1jpmp3Y5og3JGB01OROrpszOpetsBx6rynpALI-G96KT8-T6NpjSAnkHbzsDK9w1w!!
+2026-10-05 15:29:37 INFO  logger:541        [TRACE bb32284d1cfe437a] total=1501.05ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1500.96ms(x1) (wall1500.96), queue_wait=0.62ms(x1)
