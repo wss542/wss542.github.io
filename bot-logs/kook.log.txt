@@ -1,19 +1,4 @@
-# 更新于 2026-10-05 15:35:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: chou
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: echo
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: eq
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: greet
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: luck
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: motou
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: weather
-2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: whois
-2026-10-05 14:59:58 INFO  events:94         Plugin Runtime 已关闭
-2026-10-05 14:59:58 INFO  events:94         运行统计: {'active_chats': 14, 'total_context_lines': 326, 'total_buffer_lines': 55, 'active_tasks': 0}
+# 更新于 2026-10-05 15:35:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:59:58 INFO  context_manager:190 上下文已写入磁盘
 2026-10-05 14:59:58 INFO  events:94         👋 再见！
 2026-10-05 14:59:58 INFO  main:70           应用程序已退出
@@ -1499,3 +1484,18 @@
 2026-10-05 15:34:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=21% 内存=96%
 2026-10-05 15:34:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.5 mem=47.3
 2026-10-05 15:34:51 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:35:08 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
+2026-10-05 15:35:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 15:35:20 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /积分' mentions=0 content='/积分' atts=0 ref=False msg_type=0
+2026-10-05 15:35:20 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/积分'
+2026-10-05 15:35:20 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rB8WXiVb87MsVxxBWxnVm1M9rwaQHPbuXbIjPuuByjlBqXi3nUpk66e66CoG4We-wpNg5m7.uqMhMOIms8fGSmnVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 15:35:20 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+2026-10-05 15:35:20 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 15:35:20 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-10-05 15:35:20 INFO  pipeline:503      指令拦截: '/积分' from=若尘 ~喵
+2026-10-05 15:35:20 DEBG  commands:4986     指令解析: prefix=/ cmd=积分 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:35:20 INFO  commands:5024     插件指令执行完成 [积分]: 返回110字符
+2026-10-05 15:35:21 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=71 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8FsUdic3JbE8ik118g2-D2IL-5TA1memfAGg1dGSKlXI-sxfqW2vBQ4eEBFEP9E1Q!!
+2026-10-05 15:35:21 INFO  logger:541        [TRACE 704afba0e5934d4f] total=1538.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1538.81ms(x1) (wall1538.81), queue_wait=1.63ms(x1)
+2026-10-05 15:35:22 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=58.7 mem=47.3
+2026-10-05 15:35:22 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
