@@ -1,4 +1,4 @@
-# 更新于 2026-10-06 02:00:49 · 共 785 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-06 02:01:22 · 共 845 行（来源 huanmeng.log 末尾）
 2026-10-06 00:00:05 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
 2026-10-06 00:00:05 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 2026-10-06 00:00:19 INFO  stats:465         🌅 新的一天 20261006 — 发送昨日群聊日报
@@ -784,3 +784,63 @@
 2026-10-06 02:00:28 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Miyauchi - Swag（已暂停）CPU=25% 内存=87%
 2026-10-06 02:00:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.1 mem=34.0
 2026-10-06 02:00:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 02:00:51 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 02:00:51 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj jjc Iidescents' mentions=0 content='wdsj jjc Iidescents' atts=0 ref=False msg_type=0
+2026-10-06 02:00:51 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=软罗烟 role=member union=-]: 'wdsj jjc Iidescents'
+2026-10-06 02:00:51 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FgJPnW9dHCiWGqvpVTOx46PjUwCvbXJAWV6PPByahdFlnmqnWGha0CjxAqbuCQo1EWed5cf91Ur429k.A-D6.JjsdImh7c7OAKJpnVhVyoXVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 02:00:51 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 02:00:51 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 3条 (阈值=10)
+2026-10-06 02:00:51 INFO  pipeline:496      裸命令识别: '/wdsj jjc Iidescents' from=软罗烟
+2026-10-06 02:00:51 INFO  pipeline:503      指令拦截: '/wdsj jjc Iidescents' from=软罗烟
+2026-10-06 02:00:51 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jjc', 'Iidescents'] user=qq:68616A9BBBC870E20D33540669633243
+2026-10-06 02:00:51 INFO  commands:2959     查询wdsj战绩: player=Iidescents template=arena-stats img=False
+2026-10-06 02:00:51 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-10-06 02:00:53 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=29 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0H8UNcVB3-1qga4T0spYgSPeD1XMEaSF33hSUCjBAz0muxlDTTGfYeq78HCcg0cZg!!
+2026-10-06 02:00:53 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 02:00:53 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj bw 雪落无痕 img' mentions=0 content='wdsj bw 雪落无痕 img' atts=0 ref=False msg_type=0
+2026-10-06 02:00:53 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=忆笙遗憾 role=admin union=-]: 'wdsj bw 雪落无痕 img'
+2026-10-06 02:00:53 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_BmCHU7kaGO40DNeL45hL470wf-OAbtWugquMnsqPOSAh58GeA5qPsuN-upTwYGR2PltAIEmtqmcBfRUmlcUHRraATVH1sdsf6yQVkGqp02bVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 02:00:53 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 02:00:53 INFO  username:83       用户名映射已持久化到 roles.toml (+0 条)
+2026-10-06 02:00:54 INFO  commands:5181     指令执行完成 [wdsj]: 返回424字符
+2026-10-06 02:00:56 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=394 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp.Zym5A7wwu4GYFyAZ2LGMDjaa5.iG4vqWJy1k9RjTBvNIpuQyf8AuAigqUMOPEb8A!!
+2026-10-06 02:00:56 INFO  logger:541        [TRACE 54536a2aa9f04794] total=4666.0ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4665.84ms(x1) (wall4665.84), queue_wait=0.79ms(x1)
+2026-10-06 02:00:56 WARN  logger:564        [SLOW 54536a2aa9f04794] total=4666.4ms | process=4665.84ms(x1) (wall4665.84), queue_wait=0.79ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.79ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4665.84ms wall=4666.36ms dominant=other
+2026-10-06 02:00:56 INFO  fav:165           好感度首次注册: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:0F5FDD8CFB49D6E0D40643AB1CFA7B16 = 50
+2026-10-06 02:00:56 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 4条 (阈值=10)
+2026-10-06 02:00:56 INFO  pipeline:496      裸命令识别: '/wdsj bw 雪落无痕 img' from=忆笙遗憾
+2026-10-06 02:00:56 INFO  pipeline:503      指令拦截: '/wdsj bw 雪落无痕 img' from=忆笙遗憾
+2026-10-06 02:00:56 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['bw', '雪落无痕', 'img'] user=qq:0F5FDD8CFB49D6E0D40643AB1CFA7B16
+2026-10-06 02:00:56 INFO  commands:2959     查询wdsj战绩: player=雪落无痕 template=bedwars-stats img=True
+2026-10-06 02:00:57 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=22 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7juBfYfwzUlyyYOCYB5AZshi1m4B6D6y.qNliKxwMxgu2nFy7CobKcP0y.vvAUJkA!!
+2026-10-06 02:00:59 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-06 02:01:04 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261006_820175e8.png size=218918 ttl=86400
+2026-10-06 02:01:07 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=3 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp9.zSoQwXvoJUlSICTVnR6iqHzJUuTwnMNdurGXkN-5N1T7Rmng2NYTKiESXDzZwrA!!
+2026-10-06 02:01:07 INFO  commands:5183     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-06 02:01:07 INFO  logger:541        [TRACE 4714df186aa646ea] total=10918.6ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10918.54ms(x1) (wall10918.54), queue_wait=2707.07ms(x1)
+2026-10-06 02:01:07 WARN  logger:559        [VERY_SLOW 4714df186aa646ea] total=10919.33ms 需重点排查 | process=10918.54ms(x1) (wall10918.54), queue_wait=2707.07ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=2707.07ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10918.54ms wall=10919.31ms dominant=other
+2026-10-06 02:01:11 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 02:01:11 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj jkc Owoii' mentions=0 content='wdsj jkc Owoii' atts=0 ref=False msg_type=0
+2026-10-06 02:01:11 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=软罗烟 role=member union=-]: 'wdsj jkc Owoii'
+2026-10-06 02:01:11 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FgJPnW9dHCiWGqvpVTOx4-WzQM9WRDBWrfb59sjGfALLLZM0ZmgFnRbo3SH-BPQ0QDWcooslvZeagEAwkdFs5bsaM1HRXm6nzOt9Thlx91nVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 02:01:11 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 02:01:11 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 5条 (阈值=10)
+2026-10-06 02:01:11 INFO  pipeline:496      裸命令识别: '/wdsj jkc Owoii' from=软罗烟
+2026-10-06 02:01:11 INFO  pipeline:503      指令拦截: '/wdsj jkc Owoii' from=软罗烟
+2026-10-06 02:01:11 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jkc', 'Owoii'] user=qq:68616A9BBBC870E20D33540669633243
+2026-10-06 02:01:11 INFO  commands:5181     指令执行完成 [wdsj]: 返回29字符
+2026-10-06 02:01:12 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=29 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzt.S-DrcCODscm9RkOd62vIpp4fXc817fyPlzCTBNNQ0E-1hfwPumDBGu4bbhgLkA!!
+2026-10-06 02:01:12 INFO  logger:541        [TRACE a256eecb56264681] total=1323.99ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1323.76ms(x1) (wall1323.76), queue_wait=0.46ms(x1)
+2026-10-06 02:01:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=91.4 mem=34.0
+2026-10-06 02:01:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 02:01:19 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 02:01:19 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj jjc Aimtage' mentions=0 content='wdsj jjc Aimtage' atts=0 ref=False msg_type=0
+2026-10-06 02:01:19 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=软罗烟 role=member union=-]: 'wdsj jjc Aimtage'
+2026-10-06 02:01:19 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FgJPnW9dHCiWGqvpVTOx4yc3fuoALeesi6upz2JnbPYAntJjJmO792VvafuSEFRAy1nuB9RpY5uYPuw0F00LWzI.-NcC2OCAE5mY3XqSmRLVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 02:01:19 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 02:01:19 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-10-06 02:01:19 INFO  pipeline:496      裸命令识别: '/wdsj jjc Aimtage' from=软罗烟
+2026-10-06 02:01:19 INFO  pipeline:503      指令拦截: '/wdsj jjc Aimtage' from=软罗烟
+2026-10-06 02:01:19 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jjc', 'Aimtage'] user=qq:68616A9BBBC870E20D33540669633243
+2026-10-06 02:01:19 INFO  commands:2959     查询wdsj战绩: player=Aimtage template=arena-stats img=False
+2026-10-06 02:01:21 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=26 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2hllt14F31mwzN4RqdRoL9GcT7wQC5ojMGpteGvaK9XqLyDd0lllJAlpVODsvsMJg!!
