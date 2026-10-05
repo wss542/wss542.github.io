@@ -1,9 +1,4 @@
-# 更新于 2026-10-05 15:18:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:35:58 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
-2026-10-05 14:35:58 INFO  pipeline:496      裸命令识别: '/wdsj lb cp' from=若尘 ~喵
-2026-10-05 14:35:58 INFO  pipeline:503      指令拦截: '/wdsj lb cp' from=若尘 ~喵
-2026-10-05 14:35:58 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['lb', 'cp'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 14:36:00 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=14 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4SgHRLtHPxmkRTD.oOF1ctsC8RTlW2Nw.Aw79KEuc1cp.jvZmO3aKw7XMaG4fyL6A!!
+# 更新于 2026-10-05 15:19:03 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:36:01 INFO  commands:4977     指令执行完成 [wdsj]: 返回928字符
 2026-10-05 14:36:02 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=886 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzaFU0lna4uWzzl9NLPOzrBq3037RZcOqVZUkZMFWLKrSq-3nVlN7UV61BJBfMjNHg!!
 2026-10-05 14:36:02 INFO  logger:541        [TRACE 84a0c87d69bb4aee] total=4338.83ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4338.75ms(x1) (wall4338.75), queue_wait=0.43ms(x1)
@@ -1499,3 +1494,8 @@
 2026-10-05 15:18:14 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=39 cpu=None mem=None
 2026-10-05 15:18:14 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-05 15:18:20 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=44%
+2026-10-05 15:18:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=63.6 mem=47.2
+2026-10-05 15:18:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:18:51 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=26% 内存=95%
+2026-10-05 15:19:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.5 mem=47.2
+2026-10-05 15:19:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
