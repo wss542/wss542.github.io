@@ -1,34 +1,4 @@
-# 更新于 2026-10-05 14:58:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 13:30:51 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
-2026-10-05 13:30:51 INFO  pipeline:503      指令拦截: '/shop' from=제미니 (shuangzi_1228)
-2026-10-05 13:30:51 DEBG  commands:4922     指令解析: prefix=/ cmd=shop args=[] user=337936062
-2026-10-05 13:30:51 INFO  commands:4960     插件指令执行完成 [shop]: 返回100字符
-2026-10-05 13:30:52 INFO  logger:541        [TRACE fa3f0a084e494936] total=672.79ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=672.66ms(x1) (wall672.66), queue_wait=0.63ms(x1)
-2026-10-05 13:30:56 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:30:56 DEBG  dispatcher:47     dispatch 入口: type=9 content='66' is_edit=False
-2026-10-05 13:30:56 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-05 13:30:56 INFO  dispatcher:316    📩 消息 #13 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='66'
-2026-10-05 13:30:56 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-05 13:30:56 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
-2026-10-05 13:30:56 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='66'
-2026-10-05 13:30:56 INFO  logger:541        [TRACE d9769c1afe9541d2] total=2.58ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.52ms(x1) (wall2.52), queue_wait=0.49ms(x1)
-2026-10-05 13:30:56 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:30:56 DEBG  dispatcher:47     dispatch 入口: type=9 content='（）' is_edit=False
-2026-10-05 13:30:56 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-05 13:30:56 INFO  dispatcher:316    📩 消息 #14 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='（）'
-2026-10-05 13:30:56 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-05 13:30:56 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
-2026-10-05 13:30:56 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
-2026-10-05 13:30:56 INFO  logger:541        [TRACE 9084a75a54fa4942] total=1.89ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.83ms(x1) (wall1.83), queue_wait=1.43ms(x1)
-2026-10-05 13:31:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.5 mem=47.0
-2026-10-05 13:31:05 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 13:31:18 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=52% 内存=85%
-2026-10-05 13:31:21 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-05 13:31:21 DEBG  dispatcher:47     dispatch 入口: type=9 content='？' is_edit=False
-2026-10-05 13:31:21 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-05 13:31:21 INFO  dispatcher:316    📩 消息 #15 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='？'
-2026-10-05 13:31:21 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-05 13:31:21 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
+# 更新于 2026-10-05 14:59:19 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 13:31:21 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
 2026-10-05 13:31:21 INFO  logger:541        [TRACE 173da92c94464fce] total=8.22ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7.97ms(x1) (wall7.97), queue_wait=1.31ms(x1)
 2026-10-05 13:31:49 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=65%
@@ -1499,3 +1469,33 @@
 2026-10-05 14:58:25 INFO  logger:541        [TRACE 369277a5835d4b40] total=1000.05ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=999.94ms(x1) (wall999.94), queue_wait=0.75ms(x1)
 2026-10-05 14:58:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.7 mem=47.2
 2026-10-05 14:58:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:58:49 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=26% 内存=94%
+2026-10-05 14:59:10 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:59:10 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wq' atts=0 ref=True msg_type=103
+2026-10-05 14:59:10 INFO  qq_bot:341        QQ 引用消息但无附件，发送引导提示 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+2026-10-05 14:59:12 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=90 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7H.YpiEqIRFMlgsZ93lt1XHfrxtzbDxD-S66hbCr47yQdjyq151t-p4Q2SoR43zdw!!
+2026-10-05 14:59:12 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=落尘 role=admin union=-]: 'wq'
+2026-10-05 14:59:12 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FjdeC30O8hnOi8yDL3fQx6pJAJdzbpjdUTC0lWQ2vv0TEqUwF8jF2RKj-TduYlo5KL0s.d1RSoiDznHAz1FABcf3aRooHWzTqu.xCKfJTzXVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:59:12 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:59:12 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-10-05 14:59:12 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='wq'
+2026-10-05 14:59:12 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-10-05 14:59:12 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='wq'
+2026-10-05 14:59:12 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-10-05 14:59:12 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=18.8ms
+2026-10-05 14:59:12 DEBG  pipeline:862      extra_info 按预算丢弃 1 项: ['memory:memory']
+2026-10-05 14:59:12 INFO  pipeline:866      额外信息: 239字 (memory=0 search=0)
+2026-10-05 14:59:12 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-05 14:59:12 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-05 14:59:12 INFO  pipeline:1139     开始生成回复: speaker=落尘 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-10-05 14:59:14 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=42.9 mem=47.2
+2026-10-05 14:59:14 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:59:18 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={"replies":["wq 是什么呀？(emj)疑问 (emj)[3090677846298039/CrAg5pE6oq0k00id]","是想说围棋还是武器喵？"], "fav":0, "calls":[], "face":null, "mood":"好奇", "action":"","at":null, "mode":null, "origin":"user", "actor":{"nam... tool_calls=0)
+2026-10-05 14:59:18 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["wq 是什么呀？(emj)疑问 (emj)[3090677846298039/CrAg5pE6oq0k00id]","是想说围棋还是武器喵？"], "fav":0, "calls":[], "face":null, "mood":"好奇", "action":"","at":null, "mode":null, "origin":"user", "actor":{"nam | tool_calls=0
+2026-10-05 14:59:18 INFO  llm:1462          JSON回复解析: 2句 fav=+0 calls=0 mood=好奇
+2026-10-05 14:59:18 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 52 条
+2026-10-05 14:59:18 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-10-05 14:59:18 INFO  logger:541        [TRACE 6dd0aed288504717] total=6351.75ms severity=slow_request | llm_calls=1 total=6316.33ms avg=6316.33ms max=6316.33ms p50=6316.33 p95=6316.33 p99=6316.33 | json_parse=0.07ms(x1), llm=6321.95ms(x1), memory=38.01ms(x2), process=6351.62ms(x1) (wall6351.62), queue_wait=0.79ms(x1)
+2026-10-05 14:59:18 WARN  logger:564        [SLOW 6dd0aed288504717] total=6352.32ms | json_parse=0.07ms(x1), llm=6321.95ms(x1), memory=38.01ms(x2), process=6351.62ms(x1) (wall6351.62), queue_wait=0.79ms(x1) | llm_calls=1 total=6316.33ms avg=6316.33ms max=6316.33ms p50=6316.33 p95=6316.33 p99=6316.33 | perf: queue=0.79ms llm=6322.02ms search_tool=0.0ms delivery=0.0ms other=6389.63ms wall=6352.29ms dominant=other
+2026-10-05 14:59:18 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
+2026-10-05 14:59:18 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
