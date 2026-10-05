@@ -1,20 +1,4 @@
-# 更新于 2026-10-05 19:47:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 17:58:54 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /id' mentions=0 content='/id' atts=0 ref=False msg_type=0
-2026-10-05 17:58:54 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/id'
-2026-10-05 17:58:54 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rGv3K5qmDMaUruVKum34CqjGREx095.t98-fwFh3M77nn1gJ9HuqZE8A3BsI5MF-ZA3sYMuU7oNOqxOEKwMJ4PvVAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 17:58:54 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 17:58:54 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 8条 (阈值=10)
-2026-10-05 17:58:54 INFO  pipeline:503      指令拦截: '/id' from=若尘 ~喵
-2026-10-05 17:58:54 DEBG  commands:5101     指令解析: prefix=/ cmd=id args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 17:58:54 DEBG  username:111      用户 qq:63C251709C77FDEE87FC502F866E3FB5 映射到预设名称: 若尘 ⁧~喵⁧ (来源: roles.toml)
-2026-10-05 17:58:54 INFO  commands:5156     指令执行完成 [id]: 返回56字符
-2026-10-05 17:58:55 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=56 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp1qnG5xtGD8CXK5uzp.7PKGxfJkvJh9slXUihwsXMZmuaIbm1BYMziMnXlgH9kdaqQ!!
-2026-10-05 17:58:55 INFO  logger:541        [TRACE edcbd4efe6af4054] total=1668.46ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1668.3ms(x1) (wall1668.3), queue_wait=1.22ms(x1)
-2026-10-05 17:59:11 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=25% 内存=95%
-2026-10-05 17:59:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.2 mem=48.9
-2026-10-05 17:59:24 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 17:59:24 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=40 cpu=None mem=None
-2026-10-05 17:59:24 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-10-05 19:48:42 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 17:59:39 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=40 cpu=None mem=None
 2026-10-05 17:59:39 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-05 17:59:44 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
@@ -1499,3 +1483,19 @@
 2026-10-05 19:47:46 INFO  pc_status:187     收到 lyric_event [延迟=2259ms]: '**说声 我爱你**' song=小虎队 - 爱 playing=True channel=None
 2026-10-05 19:47:46 INFO  pc_status:187     收到 lyric_event [延迟=-127ms]: '**向那流浪的白云**' song=小虎队 - 爱 playing=True channel=None
 2026-10-05 19:47:47 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:47:57 INFO  pc_status:187     收到 lyric_event [延迟=9110ms]: '**说声 我想你**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:47:57 INFO  pc_status:187     收到 lyric_event [延迟=91ms]: '**谁也擦不掉我们许下的诺言**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:47:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=小虎队 - 爱（播放中）CPU=86% 内存=97%
+2026-10-05 19:47:58 INFO  pc_status:187     收到 lyric_event [延迟=200ms]: '**想带你一起看大海**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.3 mem=48.9
+2026-10-05 19:48:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 19:48:03 INFO  pc_status:187     收到 lyric_event [延迟=891ms]: '**说声 我爱你**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:03 INFO  pc_status:187     收到 lyric_event [延迟=776ms]: '**给你最亮的星星**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:05 INFO  pc_status:187     收到 lyric_event [延迟=1266ms]: '**说声 我想你**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:06 INFO  pc_status:187     收到 lyric_event [延迟=256ms]: '**听听大海的誓言**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:08 INFO  pc_status:187     收到 lyric_event [延迟=106ms]: '**看看执着的蓝天**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:10 INFO  pc_status:187     收到 lyric_event [延迟=1044ms]: '**让我们自由自在地恋爱**' song=小虎队 - 爱 playing=True channel=None
+2026-10-05 19:48:30 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
+2026-10-05 19:48:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=53.5 mem=48.9
+2026-10-05 19:48:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 19:48:42 INFO  pc_status:187     收到 lyric_event [延迟=-61ms]: '**把你的心 我的心 串一串**' song=小虎队 - 爱 playing=True channel=None
