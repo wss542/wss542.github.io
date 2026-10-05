@@ -1,15 +1,4 @@
-# 更新于 2026-10-05 18:54:35 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 16:27:39 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
-2026-10-05 16:27:39 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/id' mentions=0 content='/id' atts=0 ref=False msg_type=0
-2026-10-05 16:27:39 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/id'
-2026-10-05 16:27:39 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-vQDoqn05-YDYyx4t2QJkYT.ZLjIXgoBXs-LjcDns3JlXSZllWJyyyyEjuixcJnypfpYgaf4C5XyaLdtdKVzqgg!
-2026-10-05 16:27:39 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
-2026-10-05 16:27:39 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 4条 (阈值=10)
-2026-10-05 16:27:39 INFO  pipeline:503      指令拦截: '/id' from=63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 16:27:39 DEBG  commands:5101     指令解析: prefix=/ cmd=id args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 16:27:39 DEBG  username:111      用户 qq:63C251709C77FDEE87FC502F866E3FB5 映射到预设名称: 若尘 ⁧~喵⁧ (来源: roles.toml)
-2026-10-05 16:27:39 INFO  commands:5156     指令执行完成 [id]: 返回56字符
-2026-10-05 16:27:40 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=56 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqoyL8.GbsOzXjvqnBttERCwlgI0lMoqSnzSla.E2zbrErZl.j0e0uFXfUKErqcqU5w!!
+# 更新于 2026-10-05 18:55:21 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 16:27:40 INFO  logger:541        [TRACE edd4d7d63a7b4ba3] total=1004.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1004.56ms(x1) (wall1004.56), queue_wait=1.7ms(x1)
 2026-10-05 16:27:44 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
 2026-10-05 16:27:44 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/kid' mentions=0 content='/kid' atts=0 ref=False msg_type=0
@@ -1499,3 +1488,14 @@
 2026-10-05 18:54:17 INFO  pc_status:187     收到 lyric_event [延迟=439ms]: '**啊哈 啊哈 阿衣妞妞海玛塔莎**' song=阿吉太组合 - 阿衣莫 playing=True channel=None
 2026-10-05 18:54:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.8 mem=48.9
 2026-10-05 18:54:34 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 18:54:41 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=32%
+2026-10-05 18:54:41 INFO  pc_status:187     收到 lyric_event [延迟=420ms]: '**▶ 队长 - 哪里都是你**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:04 INFO  pc_status:187     收到 lyric_event [延迟=666ms]: '**Always don't care the comments about me**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:04 INFO  pc_status:187     收到 lyric_event [延迟=680ms]: '**She says "I'm upset" that don't wanna listen to the love s' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:04 INFO  pc_status:187     收到 lyric_event [延迟=667ms]: '**Always don't care the comments about me**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:04 INFO  pc_status:187     收到 lyric_event [延迟=332ms]: '**She says "I'm upset" that don't wanna listen to the love s' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=21.9 mem=48.8
+2026-10-05 18:55:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 18:55:10 INFO  pc_status:187     收到 lyric_event [延迟=-32ms]: '**You just choose the right answer in someone's feeling**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:11 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=队长 - 哪里都是你（播放中）CPU=88% 内存=94%
+2026-10-05 18:55:16 INFO  pc_status:187     收到 lyric_event [延迟=667ms]: '**Only then did you realize that you had already lost yourse' song=队长 - 哪里都是你 playing=True channel=None
