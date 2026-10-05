@@ -1,21 +1,4 @@
-# 更新于 2026-10-05 17:57:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:41:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.5 mem=47.3
-2026-10-05 15:41:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 15:41:41 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=36 cpu=None mem=None
-2026-10-05 15:41:41 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-05 15:41:41 INFO  pc_status:46      PC 客户端已连接
-2026-10-05 15:41:41 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=32% 内存=96%
-2026-10-05 15:41:42 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-05 15:41:42 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-05 15:41:42 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-05 15:41:42 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-05 15:41:42 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-05 15:41:43 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-05 15:41:43 INFO  holiday:57        节假日: 2026-10-05 → 国庆节
-2026-10-05 15:41:43 INFO  holiday:105       节假日服务已启动
-2026-10-05 15:41:43 INFO  holiday:96        节假日每日刷新: 等待 29902 秒 (下次 00:00:05)
-2026-10-05 15:41:43 INFO  pc_status:46      PC 客户端已连接
-2026-10-05 15:42:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.1 mem=47.3
+# 更新于 2026-10-05 17:58:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:42:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 15:42:13 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=37%
 2026-10-05 15:42:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=81.8 mem=47.2
@@ -1499,3 +1482,20 @@
 2026-10-05 17:57:17 INFO  commands:5156     指令执行完成 [好感度]: 返回723字符
 2026-10-05 17:57:18 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=460 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7H12r3OuewhKYgSXLBs3EIPyBUrViwcjkCEuRqrmwIptvtY.ufKtfYMmGUfIwREzg!!
 2026-10-05 17:57:18 INFO  logger:541        [TRACE 66e32b981fbe4b0b] total=1578.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1578.41ms(x1) (wall1578.41), queue_wait=0.78ms(x1)
+2026-10-05 17:57:32 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 17:57:32 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /kd' mentions=0 content='/kd' atts=0 ref=False msg_type=0
+2026-10-05 17:57:32 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/kd'
+2026-10-05 17:57:32 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rM.UEZvCzEdkzM2Zd6F1dY23mBj9jQir6J4bhrwVPAh-VByn6kW0Y1ZdKs7tj6Qtq7he1fLjamwahnCD949hymTVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 17:57:32 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 17:57:32 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 7条 (阈值=10)
+2026-10-05 17:57:32 INFO  pipeline:503      指令拦截: '/kd' from=若尘 ~喵
+2026-10-05 17:57:32 DEBG  commands:5101     指令解析: prefix=/ cmd=kd args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 17:57:32 WARN  commands:5119     未知指令: '/kd'
+2026-10-05 17:57:34 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=26 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp-qYjv5uYrUsbdjIIY-g4Rh4e-bpJOre0yIHsroDadUItOflIJqV.ANqpxl-gTNcTA!!
+2026-10-05 17:57:34 INFO  logger:541        [TRACE c1e94baa241c44fe] total=1467.88ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1467.8ms(x1) (wall1467.8), queue_wait=1.08ms(x1)
+2026-10-05 17:57:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.9 mem=48.9
+2026-10-05 17:57:36 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 17:57:37 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=41%
+2026-10-05 17:58:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=72.7 mem=48.8
+2026-10-05 17:58:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 17:58:08 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=26% 内存=95%
