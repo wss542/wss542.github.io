@@ -1,18 +1,4 @@
-# 更新于 2026-10-05 16:26:47 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-05 15:23:59 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
+# 更新于 2026-10-05 16:27:35 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:23:59 INFO  manager:165       Plugin 已启用: luck@1.0.0
 2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
 2026-10-05 15:23:59 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
@@ -1499,3 +1485,17 @@
 2026-10-05 16:26:35 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=36%
 2026-10-05 16:26:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.6 mem=47.6
 2026-10-05 16:26:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 16:27:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=19% 内存=96%
+2026-10-05 16:27:14 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.6 mem=47.6
+2026-10-05 16:27:14 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 16:27:15 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-05 16:27:15 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/骰子' mentions=0 content='/骰子' atts=0 ref=False msg_type=0
+2026-10-05 16:27:15 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/骰子'
+2026-10-05 16:27:15 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-oyPHuh9h2vRI5EMA1znIp9F3eYGbwCRC5Jj3la0qQF2EcRThC1qYxPt630N2aILg.pYgaf4C5XyaLdtdKVzqgg!
+2026-10-05 16:27:15 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-05 16:27:15 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 3条 (阈值=10)
+2026-10-05 16:27:15 INFO  pipeline:503      指令拦截: '/骰子' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 16:27:15 DEBG  commands:5101     指令解析: prefix=/ cmd=骰子 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 16:27:15 INFO  commands:5156     指令执行完成 [骰子]: 返回13字符
+2026-10-05 16:27:16 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=13 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqv1q3Nxk06DqDBjydfVFAHHjLhTqlPuSiUdEJpfdTGPlrZl.j0e0uFXfUKErqcqU5w!!
+2026-10-05 16:27:16 INFO  logger:541        [TRACE b02b8e2014e54727] total=1105.74ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1105.61ms(x1) (wall1105.61), queue_wait=0.61ms(x1)
