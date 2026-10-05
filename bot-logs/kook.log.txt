@@ -1,32 +1,4 @@
-# 更新于 2026-10-05 15:49:52 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:09:05 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=34%
-2026-10-05 15:09:35 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=31% 内存=96%
-2026-10-05 15:09:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.6 mem=47.2
-2026-10-05 15:09:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 15:09:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=43 cpu=None mem=None
-2026-10-05 15:09:44 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-05 15:10:08 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-05 15:10:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=52.2 mem=47.2
-2026-10-05 15:10:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 15:10:39 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=16% 内存=96%
-2026-10-05 15:10:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.0 mem=47.2
-2026-10-05 15:10:45 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 15:10:51 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
-2026-10-05 15:10:51 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='wdsj bw 零点 img' atts=0 ref=False msg_type=0
-2026-10-05 15:10:51 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: 'wdsj bw 零点 img'
-2026-10-05 15:10:51 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rL5tdFy7rZBZOwPHOP8fBtWjCFB8AG7GEKje0OTvQ-tfHbh6rSh2mBTVG5OBtJDFqfHoBO7a00glBU7T2AjlU9TVAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 15:10:51 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 15:10:51 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 9条 (阈值=10)
-2026-10-05 15:10:51 INFO  pipeline:496      裸命令识别: '/wdsj bw 零点 img' from=若尘 ~喵
-2026-10-05 15:10:51 INFO  pipeline:503      指令拦截: '/wdsj bw 零点 img' from=若尘 ~喵
-2026-10-05 15:10:51 DEBG  commands:4922     指令解析: prefix=/ cmd=wdsj args=['bw', '零点', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 15:10:51 INFO  commands:2888     查询wdsj战绩: player=零点 template=bedwars-stats img=True
-2026-10-05 15:10:53 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=20 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp5AUvnrD3mMazhMTMnS9WfiuGTHtmYkbL4eMnMH1pCbVhrfPQDo4EpS1NPVwq0ofrQ!!
-2026-10-05 15:10:54 INFO  commands:4977     指令执行完成 [wdsj]: 返回26字符
-2026-10-05 15:10:55 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=22 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6wBVD5PjQFaOjVvTLE-WMR5cbe2SO7Hh9HDCP-f183iSX3R4fUvUtjn7TaMNjhBAg!!
-2026-10-05 15:10:55 INFO  logger:541        [TRACE 212d856293774be5] total=3791.08ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3791.0ms(x1) (wall3791.0), queue_wait=1.2ms(x1)
-2026-10-05 15:10:55 WARN  logger:564        [SLOW 212d856293774be5] total=3791.74ms | process=3791.0ms(x1) (wall3791.0), queue_wait=1.2ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.2ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3791.0ms wall=3791.7ms dominant=other
-2026-10-05 15:11:11 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=30%
+# 更新于 2026-10-05 15:50:24 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:11:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.9 mem=47.2
 2026-10-05 15:11:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 15:11:41 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=32% 内存=95%
@@ -1499,3 +1471,31 @@
 2026-10-05 15:49:42 INFO  commands:5093     插件指令执行完成 [积分]: 返回85字符
 2026-10-05 15:49:43 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-05 15:49:43 INFO  logger:541        [TRACE 1050a76e1c68430a] total=645.91ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=645.63ms(x1) (wall645.63), queue_wait=0.89ms(x1)
+2026-10-05 15:49:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=47.4
+2026-10-05 15:49:52 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:50:00 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-05 15:50:00 DEBG  dispatcher:47     dispatch 入口: type=9 content='/绑定' is_edit=False
+2026-10-05 15:50:00 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-05 15:50:00 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/绑定'
+2026-10-05 15:50:00 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-10-05 15:50:00 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-05 15:50:00 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-10-05 15:50:00 INFO  pipeline:503      指令拦截: '/绑定' from=ywandwss
+2026-10-05 15:50:00 DEBG  commands:5055     指令解析: prefix=/ cmd=绑定 args=[] user=1759953618
+2026-10-05 15:50:00 INFO  commands:5110     指令执行完成 [绑定]: 返回40字符
+2026-10-05 15:50:01 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-05 15:50:01 INFO  logger:541        [TRACE f5e9edadfda04eb8] total=637.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=637.25ms(x1) (wall637.25), queue_wait=1.68ms(x1)
+2026-10-05 15:50:03 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=34% 内存=95%
+2026-10-05 15:50:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-05 15:50:07 DEBG  dispatcher:47     dispatch 入口: type=9 content='/绑定 1992754847' is_edit=False
+2026-10-05 15:50:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-05 15:50:07 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/绑定 1992754847'
+2026-10-05 15:50:07 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-05 15:50:07 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+2026-10-05 15:50:07 INFO  pipeline:503      指令拦截: '/绑定 1992754847' from=ywandwss
+2026-10-05 15:50:07 DEBG  commands:5055     指令解析: prefix=/ cmd=绑定 args=['1992754847'] user=1759953618
+2026-10-05 15:50:07 INFO  commands:5110     指令执行完成 [绑定]: 返回46字符
+2026-10-05 15:50:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-05 15:50:08 INFO  logger:541        [TRACE fd2297c1833d4fd4] total=841.63ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=841.55ms(x1) (wall841.55), queue_wait=0.59ms(x1)
+2026-10-05 15:50:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=79.2 mem=47.4
+2026-10-05 15:50:23 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
