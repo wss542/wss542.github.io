@@ -1,25 +1,4 @@
-# 更新于 2026-10-05 19:17:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 17:24:52 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rOEq.9EcjUXI6GKr28nbFGvDbbOCgNP7fx1TBDeZ75Iv2CSgc-.LozgOhEEI9x5U1isAbfIbNlgoYuyGsl-qwrzVAZ8hyGx8lEpG-reXU4Pt
-2026-10-05 17:24:52 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 17:24:52 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 4条 (阈值=10)
-2026-10-05 17:24:52 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='群里好热闹 喵～'
-2026-10-05 17:24:52 INFO  pipeline:605      @机器人检测 → 直接回复
-2026-10-05 17:24:52 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='群里好热闹 喵～'
-2026-10-05 17:24:52 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
-2026-10-05 17:24:52 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=18.2ms
-2026-10-05 17:24:52 INFO  pipeline:866      额外信息: 1416字 (memory=677 search=0)
-2026-10-05 17:24:52 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-05 17:24:52 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-05 17:24:52 INFO  pipeline:1139     开始生成回复: speaker=若尘 ~喵 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-10-05 17:24:59 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content=```json\n{\n  "replies": [\n    "是呀是呀，大家聚在一起好开心喵～(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "主人今天心情也不错呢，要不要一起聊聊天或者玩点什么？"\n  ],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "ac... tool_calls=0)
-2026-10-05 17:24:59 INFO  llm:1114          LLM原始输出 [轮1]: content=```json\n{\n  "replies": [\n    "是呀是呀，大家聚在一起好开心喵～(emj)开心 1(emj)[3090677846298039/Hkyv4C6idN0k00k0]",\n    "主人今天心情也不错呢，要不要一起聊聊天或者玩点什么？"\n  ],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "ac | tool_calls=0
-2026-10-05 17:24:59 INFO  llm:1462          JSON回复解析: 2句 fav=+2 calls=0 mood=开心
-2026-10-05 17:24:59 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 94
-2026-10-05 17:24:59 INFO  pipeline:1629     好感度调整: 若尘 ~喵 +2 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
-2026-10-05 17:24:59 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 5 条
-2026-10-05 17:24:59 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-10-05 17:24:59 INFO  logger:541        [TRACE 156c0f64cdc045bb] total=7014.38ms severity=slow_request | llm_calls=1 total=6861.07ms avg=6861.07ms max=6861.07ms p50=6861.07 p95=6861.07 p99=6861.07 | json_parse=1.15ms(x1), llm=6917.22ms(x1), memory=37.1ms(x2), process=7014.03ms(x1) (wall7014.03), queue_wait=3.3ms(x1)
-2026-10-05 17:24:59 WARN  logger:564        [SLOW 156c0f64cdc045bb] total=7015.68ms | json_parse=1.15ms(x1), llm=6917.22ms(x1), memory=37.1ms(x2), process=7014.03ms(x1) (wall7014.03), queue_wait=3.3ms(x1) | llm_calls=1 total=6861.07ms avg=6861.07ms max=6861.07ms p50=6861.07 p95=6861.07 p99=6861.07 | perf: queue=3.3ms llm=6918.37ms search_tool=0.0ms delivery=0.0ms other=7051.13ms wall=7015.62ms dominant=other
+# 更新于 2026-10-05 19:18:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 17:24:59 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-10-05 17:24:59 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
 2026-10-05 17:25:00 INFO  llm:544           LLM [deepseek-flash] 返回 285字符 耗时1.4s → "[17:24:59] 若尘 ~喵: /积分 加 qq:60CF36B09831B3F0C8949CC..."
@@ -1499,3 +1478,24 @@
 2026-10-05 19:17:32 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-05 19:17:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.6 mem=48.9
 2026-10-05 19:17:38 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 19:17:39 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:17:44 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:17:50 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Consoul Trainin - Take Me to Infinity (R（播放中）CPU=100% 内存=93%
+2026-10-05 19:17:51 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:17:54 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:17:57 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:17:57 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@09D999B7E4B7F55BA5B5A1CFF6C7E860> 666' mentions=[{"bot": false, "id": "09D999B7E4B7F55BA5B5A1CFF6C7E860", "is_you": false, "member_openid": "09D999B7E4B7F55BA5B5A1CFF6C7E860", "member_role": "admin", "scope": "single", "username": "19090号"}]
+2026-10-05 19:17:58 INFO  pc_status:187     收到 lyric_event [延迟=136ms]: '**Take me to infinity**
+`奔向无尽`' song=Consoul Trainin - Take Me to I playing=True channel=None
+2026-10-05 19:18:02 INFO  pc_status:187     收到 lyric_event [延迟=1303ms]: '**作词 : John Efthymiou**' song=Consoul Trainin - Take Me to I playing=True channel=None
+2026-10-05 19:18:02 INFO  pc_status:187     收到 lyric_event [延迟=464ms]: '**作曲 : Dimitris Issaris/John Efthymiou**' song=Consoul Trainin - Take Me to I playing=True channel=None
+2026-10-05 19:18:07 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:18:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.5 mem=48.9
+2026-10-05 19:18:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 19:18:13 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 19:18:17 INFO  pc_status:187     收到 lyric_event [延迟=10037ms]: '**Oh, you know you're making me sweat**
+`哦，你正让我感到汗流浃背`' song=Consoul Trainin - Take Me to I playing=True channel=None
+2026-10-05 19:18:17 INFO  pc_status:187     收到 lyric_event [延迟=1525ms]: '**To places I have never been?**
+`到那我从未去过的地方`' song=Consoul Trainin - Take Me to I playing=True channel=None
+2026-10-05 19:18:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Kan R. Gao - Born a Stranger（播放中）CPU=100% 内存=94%
+2026-10-05 19:18:21 INFO  pc_status:187     收到 lyric_event [延迟=2983ms]: '**▶ Kan R. Gao - Born a Stranger**' song=Kan R. Gao - Born a Stranger playing=True channel=None
