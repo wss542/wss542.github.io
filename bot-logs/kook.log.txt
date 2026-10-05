@@ -1,23 +1,4 @@
-# 更新于 2026-10-05 18:45:46 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 16:13:25 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-10-05 16:13:25 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
-2026-10-05 16:13:25 INFO  pipeline:496      裸命令识别: '/wdsj jjc silly_fishhhhh' from=若尘 ~喵
-2026-10-05 16:13:25 INFO  pipeline:503      指令拦截: '/wdsj jjc silly_fishhhhh' from=若尘 ~喵
-2026-10-05 16:13:25 DEBG  commands:5101     指令解析: prefix=/ cmd=wdsj args=['jjc', 'silly_fishhhhh'] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 16:13:25 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=46.4 mem=47.3
-2026-10-05 16:13:25 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 16:13:25 INFO  commands:2957     查询wdsj战绩: player=silly_fishhhhh template=arena-stats img=False
-2026-10-05 16:13:26 INFO  qq_transport:113  QQ access_token 已刷新，有效期 6852s
-2026-10-05 16:13:27 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=33 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp35sDaJDoiW.cWTGGU45d0Bdi0749UO3Cun9RKHN4WqpmkWRkMavXxZxMn9KubL7eA!!
-2026-10-05 16:13:29 INFO  commands:5156     指令执行完成 [wdsj]: 返回37字符
-2026-10-05 16:13:30 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=35 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwXNwc-tVHKVtiqYedpXlNl8-Q.ZMNQkAimBhhU1PpSunS2mMSPix73LKuQiZ9TaNQ!!
-2026-10-05 16:13:30 INFO  logger:541        [TRACE 82a961c257ab451d] total=4914.03ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4913.9ms(x1) (wall4913.9), queue_wait=0.52ms(x1)
-2026-10-05 16:13:30 WARN  logger:564        [SLOW 82a961c257ab451d] total=4914.52ms | process=4913.9ms(x1) (wall4913.9), queue_wait=0.52ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.52ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4913.9ms wall=4914.5ms dominant=other
-2026-10-05 16:13:38 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=20% 内存=94%
-2026-10-05 16:13:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=47.3
-2026-10-05 16:13:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 16:13:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=18 cpu=None mem=None
-2026-10-05 16:13:56 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-10-05 18:46:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 16:14:10 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=23%
 2026-10-05 16:14:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.0 mem=47.3
 2026-10-05 16:14:27 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1480,22 @@
 2026-10-05 18:45:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=65.2 mem=48.8
 2026-10-05 18:45:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 18:45:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Vanni G - I Say Yeah (Vanni G Radio Edit（播放中）CPU=30% 内存=58%
+2026-10-05 18:45:57 INFO  pc_status:187     收到 lyric_event [延迟=739ms]: '**Want to leave in a beautiful world**
+`想离开一个美丽的世界`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:01 INFO  pc_status:187     收到 lyric_event [延迟=420ms]: '**Want to be free in the name of love**
+`想以爱的名义获得自由`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:04 INFO  pc_status:187     收到 lyric_event [延迟=382ms]: '**Want to be free  a little like a storm**
+`想要像暴风雨一样自由`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:07 INFO  pc_status:187     收到 lyric_event [延迟=322ms]: '**Walk in down this world**
+`走进这个世界`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:09 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-05 18:46:11 INFO  pc_status:187     收到 lyric_event [延迟=295ms]: '**Look at me I am loosing my mind**
+`看着我，我疯了`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:14 INFO  pc_status:187     收到 lyric_event [延迟=109ms]: '**Look at me  I can show you the night**
+`看着我，我可以带你过夜`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=66.7 mem=48.8
+2026-10-05 18:46:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 18:46:18 INFO  pc_status:187     收到 lyric_event [延迟=-17ms]: '**Walk and free in so beautiful world**
+`在如此美丽的世界里自由漫步`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
+2026-10-05 18:46:21 INFO  pc_status:187     收到 lyric_event [延迟=-151ms]: '**I am feeling right**
+`我感觉不错`' song=Vanni G - I Say Yeah (Vanni G  playing=True channel=None
