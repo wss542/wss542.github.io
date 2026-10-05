@@ -1,15 +1,4 @@
-# 更新于 2026-10-05 18:55:52 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 16:27:44 WARN  commands:5119     未知指令: '/kid'
-2026-10-05 16:27:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.6 mem=47.6
-2026-10-05 16:27:45 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 16:27:45 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=27 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqrZK8y0XA2BQl.jTuvez1HTdeiqlKRSpZH66GfMXXJ4PrZl.j0e0uFXfUKErqcqU5w!!
-2026-10-05 16:27:45 INFO  logger:541        [TRACE 8fbb5ffb529d48d2] total=966.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=966.01ms(x1) (wall966.01), queue_wait=0.38ms(x1)
-2026-10-05 16:27:51 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
-2026-10-05 16:27:51 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/k id' mentions=0 content='/k id' atts=0 ref=False msg_type=0
-2026-10-05 16:27:51 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/k id'
-2026-10-05 16:27:51 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-k0LJbU4d7J3r3tBmnkg3xxWKH-nr0yOOzg9veObojYVv.3mB5K513p-3jAICKDIe.pYgaf4C5XyaLdtdKVzqgg!
-2026-10-05 16:27:51 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
-2026-10-05 16:27:51 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 6条 (阈值=10)
+# 更新于 2026-10-05 18:56:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 16:27:51 INFO  pipeline:503      指令拦截: '/k id' from=63C251709C77FDEE87FC502F866E3FB5
 2026-10-05 16:27:51 DEBG  commands:5101     指令解析: prefix=/ cmd=k args=['id'] user=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-05 16:27:51 INFO  commands:5156     指令执行完成 [k]: 返回76字符
@@ -1499,3 +1488,14 @@
 2026-10-05 18:55:43 INFO  pc_status:187     收到 lyric_event [延迟=-38ms]: '**Don't wanna think future even if it is far away**' song=队长 - 哪里都是你 playing=True channel=None
 2026-10-05 18:55:44 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=33%
 2026-10-05 18:55:48 INFO  pc_status:187     收到 lyric_event [延迟=907ms]: '**Choices of confusion oh**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:54 INFO  pc_status:187     收到 lyric_event [延迟=922ms]: '**No one understands you anymore**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:55:56 INFO  pc_status:187     收到 lyric_event [延迟=787ms]: '**The reason for your anger and the weakness of your crying*' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:01 INFO  pc_status:187     收到 lyric_event [延迟=22ms]: '**The most distant distance**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.1 mem=48.9
+2026-10-05 18:56:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 18:56:09 INFO  pc_status:187     收到 lyric_event [延迟=572ms]: '**Forget it, forget it, forget it**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:10 INFO  pc_status:187     收到 lyric_event [延迟=391ms]: '**Forget everything about you**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:12 INFO  pc_status:187     收到 lyric_event [延迟=300ms]: '**What I do is just making perfect excuses**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:15 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=队长 - 哪里都是你（播放中）CPU=54% 内存=82%
+2026-10-05 18:56:16 INFO  pc_status:187     收到 lyric_event [延迟=158ms]: '**And Hiding all your track**' song=队长 - 哪里都是你 playing=True channel=None
+2026-10-05 18:56:19 INFO  pc_status:187     收到 lyric_event [延迟=-16ms]: '**Where you've walked, there are only memories left**' song=队长 - 哪里都是你 playing=True channel=None
