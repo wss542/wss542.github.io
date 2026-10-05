@@ -1,21 +1,4 @@
-# 更新于 2026-10-05 15:53:05 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:12:30 INFO  events:94         运行统计: {'active_chats': 13, 'total_context_lines': 311, 'total_buffer_lines': 13, 'active_tasks': 0}
-2026-10-05 15:12:30 INFO  context_manager:190 上下文已写入磁盘
-2026-10-05 15:12:30 INFO  events:94         👋 再见！
-2026-10-05 15:12:30 INFO  main:70           应用程序已退出
-2026-10-05 15:12:30 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-05 15:12:30 INFO  pc_status:223     PC 客户端断开连接
-2026-10-05 15:12:30 INFO  pc_status:223     PC 客户端断开连接
-2026-10-05 15:12:30 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
-2026-10-05 15:12:30 INFO  events:94         🛑 正在关闭...
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: chou
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: echo
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: eq
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: greet
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: luck
-2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: motou
+# 更新于 2026-10-05 15:53:47 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: nasa
 2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: pgr
 2026-10-05 15:12:30 INFO  manager:234       Plugin 已卸载: sandbox
@@ -1499,3 +1482,20 @@
 2026-10-05 15:53:03 INFO  commands:5093     插件指令执行完成 [积分]: 返回65字符
 2026-10-05 15:53:04 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=65 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp689OeJRhMSB9qDljpLMfylw6iVk81Zr6FeOa45HJP9NAga9quEja9TYddnKL6SjfA!!
 2026-10-05 15:53:04 INFO  logger:541        [TRACE cdec75b61eac46e4] total=1624.05ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1623.95ms(x1) (wall1623.95), queue_wait=0.64ms(x1)
+2026-10-05 15:53:11 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=21% 内存=96%
+2026-10-05 15:53:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.5 mem=47.3
+2026-10-05 15:53:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:53:40 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 15:53:40 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /积分 加 60CF36B09831B3F0C8949CC145D65ED4 10000' mentions=0 content='/积分 加 60CF36B09831B3F0C8949CC145D65ED4 10000' atts=0 ref=False msg_type=0
+2026-10-05 15:53:40 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/积分 加 60CF36B09831B3F0C8949CC145D65ED4 10000'
+2026-10-05 15:53:40 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rKlYI7Nd3mjcLmNsjY0i9nDBdEGA2CLb-Du1cwJNSJ4YPC72uH8QCuADhzeecMOV2YXAPdfWGqMlhSs6aqOuvlvVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 15:53:40 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 15:53:40 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-10-05 15:53:40 INFO  pipeline:503      指令拦截: '/积分 加 60CF36B09831B3F0C8949CC145D65ED4 1' from=若尘 ~喵
+2026-10-05 15:53:40 DEBG  commands:5055     指令解析: prefix=/ cmd=积分 args=['加', '60CF36B09831B3F0C8949CC145D65ED4', '10000'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:53:40 INFO  commands:5093     插件指令执行完成 [积分]: 返回65字符
+2026-10-05 15:53:41 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=65 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp59o.Ozqk7y9MHynJxzo3QNr.-RcXKkB7Z3SYn3kIIC8.GklVpxlFLsL1oKmRXhjZA!!
+2026-10-05 15:53:41 INFO  logger:541        [TRACE 95237a4d49f44a6c] total=1615.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1614.81ms(x1) (wall1614.81), queue_wait=1.45ms(x1)
+2026-10-05 15:53:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=29.7 mem=47.3
+2026-10-05 15:53:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:53:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
