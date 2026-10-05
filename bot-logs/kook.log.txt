@@ -1,22 +1,4 @@
-# 更新于 2026-10-05 17:56:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 15:41:40 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-05 15:41:40 INFO  changelog:64      [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-05 15:41:40 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-05 15:41:40 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-05 15:41:40 INFO  bot:846           战绩采集将在 0h19m 后执行 (16:01)
-2026-10-05 15:41:40 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-05 15:41:40 INFO  bot:955           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 40s 前）
-2026-10-05 15:41:40 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-05 15:41:40 INFO  holiday:57        节假日: 2026-10-05 → 国庆节
-2026-10-05 15:41:40 INFO  holiday:105       节假日服务已启动
-2026-10-05 15:41:40 INFO  holiday:96        节假日每日刷新: 等待 29905 秒 (下次 00:00:05)
-2026-10-05 15:41:41 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-05 15:41:41 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-05 15:41:41 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-05 15:41:41 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-05 15:41:41 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-05 15:41:41 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-05 15:41:41 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+# 更新于 2026-10-05 17:57:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 15:41:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.5 mem=47.3
 2026-10-05 15:41:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 15:41:41 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=36 cpu=None mem=None
@@ -1499,3 +1481,21 @@
 2026-10-05 17:55:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=48.9
 2026-10-05 17:55:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-05 17:56:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=27% 内存=95%
+2026-10-05 17:56:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=68.1 mem=48.9
+2026-10-05 17:56:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 17:56:36 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-05 17:57:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=48.9
+2026-10-05 17:57:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 17:57:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=15% 内存=95%
+2026-10-05 17:57:17 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 17:57:17 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /好感度' mentions=0 content='/好感度' atts=0 ref=False msg_type=0
+2026-10-05 17:57:17 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/好感度'
+2026-10-05 17:57:17 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rGZl58oYY3V4DtW5hkk19YjsibXqnaOiXa.1ASwSZ-WTC3E0J-yPAXdnJn6BJaGIqCHKw6HckJfQN3KCv71qPu7VAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 17:57:17 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 17:57:17 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 6条 (阈值=10)
+2026-10-05 17:57:17 INFO  pipeline:503      指令拦截: '/好感度' from=若尘 ~喵
+2026-10-05 17:57:17 DEBG  commands:5101     指令解析: prefix=/ cmd=好感度 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 17:57:17 INFO  commands:413      指令 /favlist 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-10-05 17:57:17 INFO  commands:5156     指令执行完成 [好感度]: 返回723字符
+2026-10-05 17:57:18 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=460 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp7H12r3OuewhKYgSXLBs3EIPyBUrViwcjkCEuRqrmwIptvtY.ufKtfYMmGUfIwREzg!!
+2026-10-05 17:57:18 INFO  logger:541        [TRACE 66e32b981fbe4b0b] total=1578.65ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1578.41ms(x1) (wall1578.41), queue_wait=0.78ms(x1)
