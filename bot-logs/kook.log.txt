@@ -1,23 +1,4 @@
-# 更新于 2026-10-05 14:22:51 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 11:53:11 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-05 11:53:11 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-05 11:53:11 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-05 11:53:11 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-05 11:53:11 INFO  context_manager:53 上下文已从磁盘恢复: 13 个对话
-2026-10-05 11:53:11 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-05 11:53:11 INFO  bot:111           上下文管理器已初始化
-2026-10-05 11:53:11 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-05 11:53:11 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-05 11:53:11 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-05 11:53:11 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: checkin@1.0.0
+# 更新于 2026-10-05 14:23:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
 2026-10-05 11:53:11 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
 2026-10-05 11:53:11 INFO  manager:165       Plugin 已启用: chou@1.0.0
@@ -1499,3 +1480,22 @@
 2026-10-05 14:22:19 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=14% 内存=89%
 2026-10-05 14:22:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.8 mem=47.1
 2026-10-05 14:22:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:22:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.0 mem=47.2
+2026-10-05 14:22:51 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:22:51 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=35%
+2026-10-05 14:23:18 INFO  qq_bot:188        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-05 14:23:18 DEBG  qq_bot:237        QQ 事件摘要: t=group=True content='/mc  0 ' atts=0 ref=False msg_type=0
+2026-10-05 14:23:18 INFO  qq_bot:394        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/mc  0 '
+2026-10-05 14:23:18 INFO  qq_bot:405        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rHlhTnuVLQ9fa3rjr1hhBwDcpLfYOkPx31Yt.ZCQ6juFxCIiBDtKfQZeFHIr8JV5dZaupfXUWEGp4yzWeApBvYnVAZ8hyGx8lEpG-reXU4Pt
+2026-10-05 14:23:18 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-05 14:23:18 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 5条 (阈值=10)
+2026-10-05 14:23:18 INFO  pipeline:503      指令拦截: '/mc  0 ' from=若尘 ~喵
+2026-10-05 14:23:18 DEBG  commands:4922     指令解析: prefix=/ cmd=mc args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 14:23:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=23% 内存=89%
+2026-10-05 14:23:21 INFO  commands:4977     指令执行完成 [mc]: 返回169字符
+2026-10-05 14:23:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.2 mem=47.2
+2026-10-05 14:23:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 14:23:22 INFO  qq_transport:113  QQ access_token 已刷新，有效期 6254s
+2026-10-05 14:23:23 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=166 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0oaG38lAqT7xd9am-3N6kbiNK2p3a.8GTdRqug-aJJEBgc3plchUWMQIsSWcDprkg!!
+2026-10-05 14:23:23 INFO  logger:541        [TRACE 3fc9ccf520794f97] total=5726.52ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5726.43ms(x1) (wall5726.43), queue_wait=0.75ms(x1)
+2026-10-05 14:23:23 WARN  logger:564        [SLOW 3fc9ccf520794f97] total=5726.94ms | process=5726.43ms(x1) (wall5726.43), queue_wait=0.75ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.75ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5726.43ms wall=5726.88ms dominant=other
