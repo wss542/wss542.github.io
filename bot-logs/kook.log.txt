@@ -1,22 +1,4 @@
-# 更新于 2026-10-05 15:33:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-05 14:59:24 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-10-05 14:59:24 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
-2026-10-05 14:59:30 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-05 14:59:45 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=58.5 mem=47.2
-2026-10-05 14:59:45 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-05 14:59:51 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=潘玮柏 / 张韶涵 - 快乐崇拜（已暂停）CPU=15% 内存=94%
-2026-10-05 14:59:52 INFO  qq_bot:188        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-05 14:59:57 INFO  qq_bot:188        QQ 事件到达 t=C2C_MESSAGE_CREATE
-2026-10-05 14:59:57 DEBG  qq_bot:237        QQ 事件摘要: t=group=False content='/商店' atts=0 ref=False msg_type=0
-2026-10-05 14:59:57 INFO  qq_bot:394        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/商店'
-2026-10-05 14:59:57 INFO  qq_bot:405        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-iMhfFgZcOhKl0njsVbuZ2uWhd.ImmIBiiBUwJsPgmgngCo5TUbGkm65b1ZGErn3fvpYgaf4C5XyaLdtdKVzqgg!
-2026-10-05 14:59:57 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
-2026-10-05 14:59:57 INFO  pipeline:503      指令拦截: '/商店' from=63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 14:59:57 DEBG  commands:4922     指令解析: prefix=/ cmd=商店 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-05 14:59:57 INFO  commands:4960     插件指令执行完成 [商店]: 返回156字符
-2026-10-05 14:59:58 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=154 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqnKFmKm.5.W9pwcQNThnFQcUyAqABrPnWxxSLjaiXtUqrZl.j0e0uFXfUKErqcqU5w!!
-2026-10-05 14:59:58 INFO  logger:541        [TRACE 3e58b733979c4cb4] total=1054.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1054.22ms(x1) (wall1054.22), queue_wait=0.57ms(x1)
-2026-10-05 14:59:58 INFO  events:94         收到终止信号，开始优雅退出...
+# 更新于 2026-10-05 15:34:29 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-05 14:59:58 INFO  qq_bot:102        QQBot 已取消
 2026-10-05 14:59:58 INFO  events:94         🛑 正在关闭...
 2026-10-05 14:59:58 INFO  manager:234       Plugin 已卸载: checkin
@@ -1499,3 +1481,21 @@
 2026-10-05 15:33:46 INFO  commands:5024     插件指令执行完成 [积分]: 返回64字符
 2026-10-05 15:33:48 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=64 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3AlsxMZPHD7k9d5-0oerU2Fn0ckeytsr08c4V2P0jQlMHtDF6KesQCY6NFtyqpWQiQ!!
 2026-10-05 15:33:48 INFO  logger:541        [TRACE a8d6fb72a2c340be] total=1446.77ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1446.6ms(x1) (wall1446.6), queue_wait=1.52ms(x1)
+2026-10-05 15:33:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.5 mem=47.3
+2026-10-05 15:33:50 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:33:51 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 15:34:05 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=32%
+2026-10-05 15:34:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=46.4 mem=47.3
+2026-10-05 15:34:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-05 15:34:21 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-05 15:34:21 DEBG  qq_bot:246        QQ 群消息(@我): content='<@67EC231B957EED6A56A104BE1C1109DD> /积分 加 <@63C251709C77FDEE87FC502F866E3FB5> 91' mentions=[{"bot": true, "id": "67EC231B957EED6A56A104BE1C1109DD", "is_you": true, "member_openid": "67EC231B957EED6A56A104BE1C1109DD", "member_role": "member", "scope": "single", "username": "茂密"}, {"bot": fal
+2026-10-05 15:34:21 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw='<@67EC231B957EED6A56A104BE1C1109DD> /积分 加 <@63C251709C77FDEE87FC502F866E3FB5> 91' mentions=2 content='/积分 加 @枭茂密  917813' atts=0 ref=False msg_type=0
+2026-10-05 15:34:21 INFO  qq_bot:435        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/积分 加 @枭茂密  917813'
+2026-10-05 15:34:21 INFO  qq_bot:446        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY2ERvk34I1AXWhrSUVkQ4fTHhufLzGmAnNcQ8FvHvBw8TcDb1Jm73xDoiRAFFJ8x8hFcOuB8aNGLtReVh9JcpuLvMP7f0wM21QAl.yoxQgWM
+2026-10-05 15:34:21 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+2026-10-05 15:34:21 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
+2026-10-05 15:34:21 INFO  pipeline:503      指令拦截: '/积分 加 @枭茂密  917813' from=若尘 ~喵
+2026-10-05 15:34:21 DEBG  commands:4986     指令解析: prefix=/ cmd=积分 args=['加', 'qq:63C251709C77FDEE87FC502F866E3FB5', '917813'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-05 15:34:21 INFO  commands:5024     插件指令执行完成 [积分]: 返回70字符
+2026-10-05 15:34:22 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=70 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3AZgc43sbGdMsYtFBTUr1XOi.alttB52ga14TIBpQvuLVdpkw9gvNXKknuoKrcxhSw!!
+2026-10-05 15:34:22 INFO  logger:541        [TRACE f9ae4abd64784d39] total=1414.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1414.51ms(x1) (wall1414.51), queue_wait=1.38ms(x1)
