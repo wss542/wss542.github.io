@@ -1,4 +1,4 @@
-# 更新于 2026-10-06 02:01:22 · 共 845 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-06 02:02:09 · 共 868 行（来源 huanmeng.log 末尾）
 2026-10-06 00:00:05 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
 2026-10-06 00:00:05 INFO  holiday:96        节假日每日刷新: 等待 86399 秒 (下次 00:00:05)
 2026-10-06 00:00:19 INFO  stats:465         🌅 新的一天 20261006 — 发送昨日群聊日报
@@ -844,3 +844,26 @@
 2026-10-06 02:01:19 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jjc', 'Aimtage'] user=qq:68616A9BBBC870E20D33540669633243
 2026-10-06 02:01:19 INFO  commands:2959     查询wdsj战绩: player=Aimtage template=arena-stats img=False
 2026-10-06 02:01:21 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=26 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp2hllt14F31mwzN4RqdRoL9GcT7wQC5ojMGpteGvaK9XqLyDd0lllJAlpVODsvsMJg!!
+2026-10-06 02:01:22 INFO  commands:5181     指令执行完成 [wdsj]: 返回418字符
+2026-10-06 02:01:24 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=388 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp43.lXZbPBrY1xZIWG3W.tz3j4ggxe16szryiG0H7o-quOpfXqy8m08wV.z8-J.iIA!!
+2026-10-06 02:01:24 INFO  logger:541        [TRACE 9283d246d03a4360] total=4262.63ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4262.55ms(x1) (wall4262.55), queue_wait=0.55ms(x1)
+2026-10-06 02:01:24 WARN  logger:564        [SLOW 9283d246d03a4360] total=4263.29ms | process=4262.55ms(x1) (wall4262.55), queue_wait=0.55ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.55ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4262.55ms wall=4263.27ms dominant=other
+2026-10-06 02:01:29 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Miyauchi - Swag（已暂停）CPU=16% 内存=87%
+2026-10-06 02:01:35 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 02:01:35 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj jjc Owoii' mentions=0 content='wdsj jjc Owoii' atts=0 ref=False msg_type=0
+2026-10-06 02:01:35 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=软罗烟 role=member union=-]: 'wdsj jjc Owoii'
+2026-10-06 02:01:35 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_FgJPnW9dHCiWGqvpVTOx41FaKRpdFkSnJs2Vup5Q327PIxRuVRIHswnZ7SdoKb2mCUdgekdGxS31eeK6FQbmMsmRUYbNt0-1C82MKx8vLITVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 02:01:35 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 02:01:35 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 7条 (阈值=10)
+2026-10-06 02:01:35 INFO  pipeline:496      裸命令识别: '/wdsj jjc Owoii' from=软罗烟
+2026-10-06 02:01:35 INFO  pipeline:503      指令拦截: '/wdsj jjc Owoii' from=软罗烟
+2026-10-06 02:01:35 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jjc', 'Owoii'] user=qq:68616A9BBBC870E20D33540669633243
+2026-10-06 02:01:35 INFO  commands:2959     查询wdsj战绩: player=Owoii template=arena-stats img=False
+2026-10-06 02:01:36 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=24 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp5LIM8y3eLoXpI-69.bmyO4.IorG0kZjSUuT9UCPfw7J.4tYan9Hwc22WnE9xYxH4Q!!
+2026-10-06 02:01:38 INFO  commands:5181     指令执行完成 [wdsj]: 返回409字符
+2026-10-06 02:01:39 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=379 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp3rdVeZj4qkAeRtBR-ppu21LA5JYR1dtoyt0tXqQjne24eTFIHEu952IZ-ojKbJCrw!!
+2026-10-06 02:01:39 INFO  logger:541        [TRACE 848ba4728b2e411e] total=4568.2ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4568.11ms(x1) (wall4568.11), queue_wait=1.59ms(x1)
+2026-10-06 02:01:39 WARN  logger:564        [SLOW 848ba4728b2e411e] total=4568.7ms | process=4568.11ms(x1) (wall4568.11), queue_wait=1.59ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.59ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=4568.11ms wall=4568.68ms dominant=other
+2026-10-06 02:01:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=48.2 mem=34.0
+2026-10-06 02:01:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 02:02:02 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=36%
