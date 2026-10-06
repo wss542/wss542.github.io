@@ -1,24 +1,4 @@
-# 更新于 2026-10-06 14:53:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 13:46:13 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 2条 (阈值=10)
-2026-10-06 13:46:13 INFO  pipeline:503      指令拦截: '/积分' from=落尘
-2026-10-06 13:46:13 DEBG  commands:5156     指令解析: prefix=/ cmd=积分 args=[] user=qq:60CF36B09831B3F0C8949CC145D65ED4
-2026-10-06 13:46:13 INFO  commands:5194     插件指令执行完成 [积分]: 返回111字符
-2026-10-06 13:46:15 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=67 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Mr4rFOLzgJaMKNeY5nSXPUgpYKSSnaeodyeUp4mDHQfl0ioeiW0wl2n0-oUDt.9JQ!!
-2026-10-06 13:46:15 INFO  logger:541        [TRACE b014f19ab8374be9] total=1403.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1403.51ms(x1) (wall1403.51), queue_wait=0.8ms(x1)
-2026-10-06 13:46:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=46.4 mem=55.3
-2026-10-06 13:46:19 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:46:32 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=45%
-2026-10-06 13:46:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=76.7 mem=55.3
-2026-10-06 13:46:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:47:03 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=25% 内存=92%
-2026-10-06 13:47:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.2 mem=55.4
-2026-10-06 13:47:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:47:36 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-06 13:47:36 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 13:47:36 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=40%
-2026-10-06 13:47:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=55.3
-2026-10-06 13:47:51 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:48:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=12% 内存=92%
+# 更新于 2026-10-06 14:54:35 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 13:48:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=86.4 mem=55.4
 2026-10-06 13:48:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 13:48:36 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
@@ -1499,3 +1479,23 @@
 2026-10-06 14:53:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=92 cpu=21.4 mem=55.4
 2026-10-06 14:53:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 14:53:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=11% 内存=96%
+2026-10-06 14:54:02 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:54:02 DEBG  qq_bot:246        QQ 群消息(@我): content='<@67EC231B957EED6A56A104BE1C1109DD> /mc  0 ' mentions=[{"bot": true, "id": "67EC231B957EED6A56A104BE1C1109DD", "is_you": true, "member_openid": "67EC231B957EED6A56A104BE1C1109DD", "member_role": "member", "scope": "single", "username": "茂密"}]
+2026-10-06 14:54:02 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw='<@67EC231B957EED6A56A104BE1C1109DD> /mc  0 ' mentions=1 content='/mc  1 ' atts=0 ref=False msg_type=0
+2026-10-06 14:54:02 INFO  qq_bot:435        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: '/mc  0 '
+2026-10-06 14:54:02 INFO  qq_bot:446        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAYy694nkdSZEY8tTorG5udwXF2IlPoGCPUydS-wJbWmku3qsEkwipu-yJANUHpRGLbDZ0hOgdW0tA2DDqeSjWdg55v.osu9yCD-m248lfsaSG
+2026-10-06 14:54:02 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+2026-10-06 14:54:02 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 3条 (阈值=10)
+2026-10-06 14:54:02 INFO  pipeline:503      指令拦截: '/mc  0 ' from=若尘 ~喵
+2026-10-06 14:54:02 DEBG  commands:5156     指令解析: prefix=/ cmd=mc args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 14:54:02 INFO  motd_card:143     motd play.hypixel.net: SRV=无
+2026-10-06 14:54:05 INFO  changelog:903     [Card] 正在截图 → mc_card_play_hypixel_net_25565.png (296842 bytes HTML)
+2026-10-06 14:54:06 INFO  changelog:911     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/mc_card_play_hypixel_net_25565.png size=522.9KB
+2026-10-06 14:54:10 INFO  qq_transport:711  QQ 分片上传成功 file=mc_card_play_hypixel_net_25565.png size=535482 ttl=86400
+2026-10-06 14:54:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=92 cpu=70.7 mem=55.4
+2026-10-06 14:54:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 14:54:12 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3JQLkNnvEBzreCoYXc4PMXbcV1c8iFr5RU0FVl8Hw0csn.EK16pMMDZF9JmooxpNhA!!
+2026-10-06 14:54:12 INFO  commands:5213     指令执行完成 [mc]: 无返回值（已自行发送）
+2026-10-06 14:54:12 INFO  logger:541        [TRACE 5de03c5dac574dfb] total=10314.02ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10313.85ms(x1) (wall10313.85), queue_wait=3.89ms(x1)
+2026-10-06 14:54:12 WARN  logger:559        [VERY_SLOW 5de03c5dac574dfb] total=10314.73ms 需重点排查 | process=10313.85ms(x1) (wall10313.85), queue_wait=3.89ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.89ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=10313.85ms wall=10314.69ms dominant=other
+2026-10-06 14:54:13 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=25%
