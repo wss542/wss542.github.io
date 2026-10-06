@@ -1,4 +1,4 @@
-# 更新于 2026-10-07 02:17:48 · 共 700 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-07 02:18:21 · 共 710 行（来源 huanmeng.log 末尾）
 2026-10-07 00:00:11 INFO  stats:476         🌅 新的一天 20261007 — 发送昨日群聊日报
 2026-10-07 00:00:11 INFO  stats:519         日报跳过(频道不在白名单): 频道=9844130976336955
 2026-10-07 00:00:11 INFO  changelog:903     [Card] 正在截图 → daily_3090677846298039_2026.10.06_20261007_000011.png (12242 bytes HTML)
@@ -699,3 +699,13 @@
 2026-10-07 02:17:37 INFO  commands:734      指令 /luck 触发 user=1759953618
 2026-10-07 02:17:37 INFO  commands:5221     指令执行完成 [luck]: 返回33字符
 2026-10-07 02:17:37 INFO  logger:541        [TRACE 87a10b802af74013] total=420.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=420.06ms(x1) (wall420.06), queue_wait=0.44ms(x1)
+2026-10-07 02:17:49 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-07 02:17:49 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
+2026-10-07 02:17:49 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
+2026-10-07 02:17:49 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/fuck'
+2026-10-07 02:17:49 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-07 02:17:49 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
+2026-10-07 02:17:49 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
+2026-10-07 02:17:49 DEBG  commands:5166     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+2026-10-07 02:17:49 INFO  commands:5221     指令执行完成 [fuck]: 返回31字符
+2026-10-07 02:17:50 INFO  logger:541        [TRACE 47f4176808e0403e] total=443.11ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=443.02ms(x1) (wall443.02), queue_wait=1.64ms(x1)
