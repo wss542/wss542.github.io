@@ -1,22 +1,4 @@
-# 更新于 2026-10-06 19:54:21 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 17:39:51 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:39:59 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 17:39:59 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=13% 内存=96%
-2026-10-06 17:39:59 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 17:40:22 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=60 cpu=25.6 mem=56.4
-2026-10-06 17:40:22 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:40:29 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
-2026-10-06 17:41:00 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=14% 内存=94%
-2026-10-06 17:41:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=60 cpu=26.7 mem=56.5
-2026-10-06 17:41:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:41:33 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-06 17:41:34 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 17:41:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=59 cpu=58.8 mem=56.5
-2026-10-06 17:41:38 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:42:03 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=7% 内存=93%
-2026-10-06 17:42:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=59 cpu=67.2 mem=56.4
-2026-10-06 17:42:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:42:29 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+# 更新于 2026-10-06 19:55:00 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 17:42:34 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=46%
 2026-10-06 17:42:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=59 cpu=25.6 mem=56.5
 2026-10-06 17:42:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1481,21 @@ ValueError: invalid literal for int() with base 10: 'qq:2C9068CB43046FB0A325FA1A
 2026-10-06 19:54:05 WARN  logger:559        [VERY_SLOW d042ba60f1774744] total=86991.23ms 需重点排查 | process=86986.77ms(x1) (wall86986.77), queue_wait=1.05ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.05ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=86986.77ms wall=86987.57ms dominant=other
 2026-10-06 19:54:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=33 cpu=55.1 mem=55.9
 2026-10-06 19:54:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 19:54:29 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
+2026-10-06 19:54:34 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 19:54:34 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /看视频  0 ' mentions=0 content='/看视频  1 ' atts=0 ref=False msg_type=0
+2026-10-06 19:54:34 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/看视频  0 '
+2026-10-06 19:54:34 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rM6JydbIS4QtjFU43QK1WewOgTztfU7-bvbY2APTZshq8gV4BO5JJwRZ6MKmAkc6vy.Fvs2uNOHdrEoJE1iNUAbVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 19:54:34 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 19:54:34 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
+2026-10-06 19:54:34 INFO  pipeline:503      指令拦截: '/看视频  0 ' from=若尘 ~喵
+2026-10-06 19:54:34 DEBG  commands:5166     指令解析: prefix=/ cmd=看视频 args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 19:54:36 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=17 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp5Pg0pPJEnXG183gPLXt7YCDBRSw.mBJG1b.RZZvynGcoYai5aIaanXBczMnxqb8XQ!!
+2026-10-06 19:54:40 INFO  video_api:234     智谱视频理解 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E data_uri 3043KB
+2026-10-06 19:54:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=33 cpu=33.3 mem=55.9
+2026-10-06 19:54:55 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 19:54:56 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 19:54:56 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /商店 buy 滚木' mentions=0 content='/商店 buy 滚木' atts=0 ref=False msg_type=0
+2026-10-06 19:54:56 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/商店 buy 滚木'
+2026-10-06 19:54:56 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rOAPgBJ0Vvo2tFHX.OYRUw5yKoPL6DKPgEcVZLZMmQU5pGjxyMRsz4nXnf6RoGefhjfkA1cyACTUkJa3HteWzr3VAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 19:54:56 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
