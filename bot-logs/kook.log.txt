@@ -1,16 +1,4 @@
-# 更新于 2026-10-06 09:32:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 05:41:26 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 05:41:39 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-06 05:41:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.0 mem=40.0
-2026-10-06 05:41:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 05:42:10 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=36% 内存=93%
-2026-10-06 05:42:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.2 mem=40.0
-2026-10-06 05:42:27 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 05:42:42 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
-2026-10-06 05:42:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=72.7 mem=39.9
-2026-10-06 05:42:58 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 05:43:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=14% 内存=93%
-2026-10-06 05:43:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.5 mem=39.9
+# 更新于 2026-10-06 09:34:00 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 05:43:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 05:43:46 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
 2026-10-06 05:43:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.6 mem=39.9
@@ -1499,3 +1487,15 @@
 2026-10-06 09:32:21 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=30%
 2026-10-06 09:32:37 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
 2026-10-06 09:32:43 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-06 09:32:52 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=35% 内存=97%
+2026-10-06 09:32:53 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
+2026-10-06 09:33:02 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>，5s 后重连
+2026-10-06 09:33:23 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error _ssl.c:1063: The handshake operation timed out>，5s 后重连
+2026-10-06 09:33:23 ERRO  events:94         khl.py Bot 运行异常 (#2): Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，10s 后重连
+2026-10-06 09:33:24 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，10s 后重启
+2026-10-06 09:33:25 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=68.0 mem=41.5
+2026-10-06 09:33:25 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 48s）
+2026-10-06 09:33:28 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-06 09:33:28 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-10-06 09:33:29 INFO  qq_bot:225        QQ 事件到达 t=READY
+2026-10-06 09:33:34 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#3)
