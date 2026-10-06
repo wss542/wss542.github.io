@@ -1,19 +1,4 @@
-# 更新于 2026-10-06 23:07:46 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 20:46:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:46:27 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=8% 内存=93%
-2026-10-06 20:46:28 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-06 20:46:28 DEBG  dispatcher:47     dispatch 入口: type=9 content='/撤销' is_edit=False
-2026-10-06 20:46:28 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-2026-10-06 20:46:28 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/撤销'
-2026-10-06 20:46:28 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-10-06 20:46:28 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
-2026-10-06 20:46:28 INFO  pipeline:503      指令拦截: '/撤销' from=ywandwss
-2026-10-06 20:46:28 DEBG  commands:5166     指令解析: prefix=/ cmd=撤销 args=[] user=1759953618
-2026-10-06 20:46:28 INFO  commands:5221     指令执行完成 [撤销]: 返回63字符
-2026-10-06 20:46:28 INFO  logger:541        [TRACE 9bb0e60991e64c99] total=620.59ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=620.51ms(x1) (wall620.51), queue_wait=0.69ms(x1)
-2026-10-06 20:46:51 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=22 cpu=69.7 mem=56.1
-2026-10-06 20:46:51 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:46:58 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=23%
+# 更新于 2026-10-06 23:08:19 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 20:47:00 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-06 20:47:00 INFO  bot:297           🗑️ KOOK 撤回事件: mid=88eb2c67-3159-4feb-9e4b-02abdac7815f chat=9844130976336955 type=255 extra=deleted_message
 2026-10-06 20:47:00 INFO  recall:94         🗑️ 记录撤回: chat=9844130976336955 mid=88eb2c67-3159-4feb-9e4b-02abdac7815f by=wss text='测试'
@@ -1499,3 +1484,18 @@
 2026-10-06 23:07:42 WARN  logger:559        [VERY_SLOW 1efae719d5174a70] total=15590.32ms 需重点排查 | process=15589.3ms(x1) (wall15589.3), queue_wait=1.08ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.08ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=15589.3ms wall=15590.27ms dominant=other
 2026-10-06 23:07:42 INFO  pc_status:187     收到 lyric_event [延迟=90ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
 2026-10-06 23:07:45 INFO  pc_status:187     收到 lyric_event [延迟=598ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:07:46 INFO  pc_status:187     收到 lyric_event [延迟=-593ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:07:49 INFO  pc_status:187     收到 lyric_event [延迟=-314ms]: '**We're gonna make this one shine**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:07:50 INFO  pc_status:187     收到 lyric_event [延迟=-717ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:07:53 INFO  pc_status:187     收到 lyric_event [延迟=-669ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:07:57 INFO  changelog:110     [Playwright] 空闲 180 分钟 → 已回收 Chromium（下次截图冷启动）
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=11546ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=9001ms]: '**We're gonna make this one shine**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=6923ms]: '**I, I'm at the edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=3739ms]: '**I got no time to think twice**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=1153ms]: '**When I'm standing with the weight**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:08 INFO  pc_status:187     收到 lyric_event [延迟=-209ms]: '**Of the world on my shoulders**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:09 INFO  pc_status:187     收到 lyric_event [延迟=-749ms]: '**I, I'm gonna fight the good fight**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:12 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:13 INFO  pc_status:187     收到 lyric_event [延迟=-529ms]: '**'Cause I, I know I'll get by**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:15 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
