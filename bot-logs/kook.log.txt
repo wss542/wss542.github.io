@@ -1,28 +1,4 @@
-# 更新于 2026-10-06 16:05:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 14:36:13 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-06 14:36:13 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-06 14:36:13 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-06 14:36:13 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-06 14:36:13 INFO  events:94         QQ open-platform channel started
-2026-10-06 14:36:13 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-06 14:36:13 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-06 14:36:13 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-06 14:36:13 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-06 14:36:13 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-06 14:36:13 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-06 14:36:13 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-06 14:36:13 INFO  events:94         用户名查询模块已初始化
-2026-10-06 14:36:13 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-06 14:36:13 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-06 14:36:13 INFO  context_manager:53 上下文已从磁盘恢复: 0 个对话
-2026-10-06 14:36:13 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-06 14:36:13 INFO  events:94         上下文管理器已初始化
-2026-10-06 14:36:13 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-06 14:36:13 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-06 14:36:13 INFO  events:94         事件分发器已就绪
-2026-10-06 14:36:13 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-06 14:36:13 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-06 14:36:13 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-10-06 16:06:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 14:36:13 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 2026-10-06 14:36:13 DEBG  loader:46         跳过 _down：缺少 manifest.json
 2026-10-06 14:36:13 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1475,27 @@
 2026-10-06 16:05:12 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:05:13 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:05:33 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-06 16:05:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=78 cpu=45.8 mem=55.4
+2026-10-06 16:05:38 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:05:45 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:05:47 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:05:54 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:05:55 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:03 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=10% 内存=95%
+2026-10-06 16:06:05 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:05 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:05 DEBG  qq_bot:258        QQ 群消息(@他人): content='[@墨橘]\n欢迎老师加入本群，请遵守群规哦~' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:06:05 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:05 DEBG  qq_bot:258        QQ 群消息(@他人): content='[@墨橘] ![#28px#28px]( 0 ' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:06:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:06 DEBG  qq_bot:258        QQ 群消息(@他人): content='![#150px #84px]( 0 ' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:06:07 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:07 DEBG  qq_bot:258        QQ 群消息(@他人): content='<@55A5970D588F864653DB1B136A0F3250> 喵喵喵' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:06:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=78 cpu=82.2 mem=55.5
+2026-10-06 16:06:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:06:16 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:16 DEBG  qq_bot:258        QQ 群消息(@他人): content='<@60CF36B09831B3F0C8949CC145D65ED4> 你跟他说吧' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 16:06:19 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:06:19 DEBG  qq_bot:258        QQ 群消息(@他人): content='<@55A5970D588F864653DB1B136A0F3250> ' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:06:21 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
