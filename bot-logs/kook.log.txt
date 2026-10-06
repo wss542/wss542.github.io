@@ -1,20 +1,4 @@
-# 更新于 2026-10-06 16:26:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-06 14:45:23 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-06 14:45:23 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-06 14:45:23 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-06 14:45:23 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-06 14:45:23 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-06 14:45:23 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-06 14:45:23 INFO  events:94         ==================================================
-2026-10-06 14:45:23 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-06 14:45:23 INFO  events:94         ==================================================
-2026-10-06 14:45:23 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
+# 更新于 2026-10-06 16:26:52 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 14:45:23 INFO  queues:103        [队列] 渲染队列已启动
 2026-10-06 14:45:23 INFO  qq_transport:113  QQ access_token 已刷新，有效期 4937s
 2026-10-06 14:45:23 INFO  changelog:147     [Playwright] 启动 Chromium（极致加速模式）...
@@ -1499,3 +1483,19 @@
 2026-10-06 16:26:08 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:26:09 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:26:11 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:29 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:29 DEBG  qq_bot:258        QQ 群消息(@他人): content='<@55A5970D588F864653DB1B136A0F3250> ' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:26:31 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:33 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=14% 内存=93%
+2026-10-06 16:26:36 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:37 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=74 cpu=64.6 mem=55.8
+2026-10-06 16:26:37 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:26:41 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:41 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@60CF36B09831B3F0C8949CC145D65ED4> 找叔叔吧()' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 16:26:42 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:42 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:45 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:45 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@60CF36B09831B3F0C8949CC145D65ED4> ' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 16:26:46 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:51 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:26:51 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@55A5970D588F864653DB1B136A0F3250> 几岁' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
