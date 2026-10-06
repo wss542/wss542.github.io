@@ -1,23 +1,4 @@
-# 更新于 2026-10-06 22:43:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 19:56:20 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-06 19:56:20 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-06 19:56:20 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-06 19:56:20 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-06 19:56:20 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-06 19:56:20 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-06 19:56:20 INFO  events:94         用户名查询模块已初始化
-2026-10-06 19:56:20 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-06 19:56:20 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-06 19:56:20 INFO  context_manager:53 上下文已从磁盘恢复: 0 个对话
-2026-10-06 19:56:20 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-06 19:56:20 INFO  events:94         上下文管理器已初始化
-2026-10-06 19:56:20 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-06 19:56:20 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-06 19:56:20 INFO  events:94         事件分发器已就绪
-2026-10-06 19:56:20 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-06 19:56:20 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-06 19:56:20 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-06 19:56:20 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-10-06 22:44:42 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 19:56:20 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 2026-10-06 19:56:20 DEBG  loader:46         跳过 _down：缺少 manifest.json
 2026-10-06 19:56:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1480,22 @@
 2026-10-06 22:43:26 INFO  pc_status:187     收到 lyric_event [延迟=4ms]: '**相爱少点也罢**' song=草蜢 - 半点心 playing=True channel=None
 2026-10-06 22:43:30 INFO  pc_status:187     收到 lyric_event [延迟=1854ms]: '**我却更了解是**' song=草蜢 - 半点心 playing=True channel=None
 2026-10-06 22:43:31 INFO  pc_status:187     收到 lyric_event [延迟=-12ms]: '**编织梦话**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:43:45 INFO  pc_status:187     收到 lyric_event [延迟=8167ms]: '**半点心**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:43:45 INFO  pc_status:187     收到 lyric_event [延迟=6058ms]: '**请交给我不过是个小小愿望吧**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:43:46 INFO  pc_status:187     收到 lyric_event [延迟=1650ms]: '**你的心**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:43:47 INFO  pc_status:187     收到 lyric_event [延迟=561ms]: '**却一早已整个完完全全交给他**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:43:50 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=58%
+2026-10-06 22:44:12 INFO  pc_status:187     收到 lyric_event [延迟=5152ms]: '**怕说到你跟他**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=2 cpu=83.6 mem=56.6
+2026-10-06 22:44:12 INFO  pc_status:187     收到 lyric_event [延迟=382ms]: '**我说无穷傻话**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:15 INFO  pc_status:187     收到 lyric_event [延迟=13ms]: '**你听了永远笑哈哈**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:19 INFO  pc_status:187     收到 lyric_event [延迟=-72ms]: '**我更言而无话**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=2 cpu=83.6 mem=56.6
+2026-10-06 22:44:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=草蜢 - 半点心（播放中）CPU=90% 内存=81%
+2026-10-06 22:44:23 INFO  pc_status:187     收到 lyric_event [延迟=1006ms]: '**你我之间总有一点爱吧**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:26 INFO  pc_status:187     收到 lyric_event [延迟=818ms]: '**可以交给我吧**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:39 INFO  pc_status:187     收到 lyric_event [延迟=11571ms]: '**总算得恋爱吧**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:39 INFO  pc_status:187     收到 lyric_event [延迟=9858ms]: '**相爱少点也罢**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:39 INFO  pc_status:187     收到 lyric_event [延迟=7854ms]: '**我却更了解是**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:39 INFO  pc_status:187     收到 lyric_event [延迟=5336ms]: '**编织梦话**' song=草蜢 - 半点心 playing=True channel=None
+2026-10-06 22:44:40 INFO  pc_status:187     收到 lyric_event [延迟=803ms]: '**半点心**' song=草蜢 - 半点心 playing=True channel=None
