@@ -1,9 +1,4 @@
-# 更新于 2026-10-06 22:00:55 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 19:46:41 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-06 19:46:41 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-06 19:46:41 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-06 19:46:41 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-06 19:46:41 INFO  events:94         QQ open-platform channel started
+# 更新于 2026-10-06 22:13:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 19:46:41 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
 2026-10-06 19:46:41 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-10-06 19:46:41 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
@@ -1499,3 +1494,8 @@
 2026-10-06 21:59:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=8 cpu=26.7 mem=56.5
 2026-10-06 21:59:59 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Barcode Brothers - Flute (Radio Edit)（播放中）CPU=65% 内存=84%
 2026-10-06 22:00:42 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-06 22:01:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Barcode Brothers - Flute (Radio Edit)（播放中）CPU=95% 内存=78%
+2026-10-06 22:01:17 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
+2026-10-06 22:01:22 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [Errno 101] Network is unreachable>，5s 后重连
+2026-10-06 22:01:24 INFO  pc_status:187     收到 lyric_event [延迟=1657ms]: '**⏸ 已暂停**' song=Barcode Brothers - Flute (Radi playing=False channel=None
+2026-10-06 22:01:27 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [Errno 101] Network is unreachable>，5s 后重连
