@@ -1,18 +1,4 @@
-# 更新于 2026-10-06 11:05:04 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 07:46:58 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=15% 内存=93%
-2026-10-06 07:47:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.8 mem=40.9
-2026-10-06 07:47:23 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 07:47:30 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
-2026-10-06 07:47:54 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=40.9
-2026-10-06 07:47:54 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 07:48:01 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=12% 内存=93%
-2026-10-06 07:48:34 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-06 07:48:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=64.3 mem=40.8
-2026-10-06 07:48:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 07:49:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=23% 内存=93%
-2026-10-06 07:49:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.4 mem=40.9
-2026-10-06 07:49:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 07:49:35 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
+# 更新于 2026-10-06 11:05:49 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 07:49:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.8 mem=40.9
 2026-10-06 07:49:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 07:50:05 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=17% 内存=93%
@@ -1499,3 +1485,17 @@
 2026-10-06 11:04:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=68.4 mem=41.7
 2026-10-06 11:04:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 11:05:03 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
+2026-10-06 11:05:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 11:05:20 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /mc  0 :30087' mentions=0 content='/mc  1 :30087' atts=0 ref=False msg_type=0
+2026-10-06 11:05:20 INFO  qq_bot:435        QQ 消息 [chat=qq:A32588CDB564613DFE86FDCDE28116F1 group=True from=若尘 ⁧~喵⁧ role=admin union=-]: '/mc  0 :30087'
+2026-10-06 11:05:20 INFO  qq_bot:446        QQ 登记被动窗口 openid=A32588CDB564613DFE86FDCDE28116F1 group=True msg_id=ROBOT1.0_DbpsbqYTHUXsnxtaAwg794Hbp6a65gBOkdPDdemmb75aJmfAngzbVMUTgYQM52eD1b26SlAfiYxkcYW6RpoVbt7rYiTT5KxwP8PcRXUQ-oXvJYw94Gf2XvduFhFPmyNe
+2026-10-06 11:05:20 DEBG  queues:75         [队列] 群qq:A32588CDB564613DFE86FDCDE28116F1 消息已入队 (队长度=1)
+2026-10-06 11:05:20 INFO  pipeline:503      指令拦截: '/mc  0 :30087' from=若尘 ~喵
+2026-10-06 11:05:20 DEBG  commands:5126     指令解析: prefix=/ cmd=mc args=[' 0 :30087'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 11:05:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.6 mem=41.7
+2026-10-06 11:05:23 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 11:05:25 INFO  commands:5181     指令执行完成 [mc]: 返回73字符
+2026-10-06 11:05:26 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=A32588CDB564613DFE86FDCDE28116F1 len=71 seq=1 id=ROBOT1.0_2nlCEqFkFEm-ipr40CVUpDgZSqa0zMKleAdue7X9BKyY3XBB54gJ9bHBbVJtOMZRS9pDEFMIbjPEglRD07uELA!!
+2026-10-06 11:05:26 INFO  logger:541        [TRACE 1e75fe5bf44a427e] total=6275.26ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6274.95ms(x1) (wall6274.95), queue_wait=1.33ms(x1)
+2026-10-06 11:05:26 WARN  logger:564        [SLOW 1e75fe5bf44a427e] total=6276.04ms | process=6274.95ms(x1) (wall6274.95), queue_wait=1.33ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.33ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6274.95ms wall=6275.98ms dominant=other
+2026-10-06 11:05:34 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=18% 内存=96%
