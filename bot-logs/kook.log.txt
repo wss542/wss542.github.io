@@ -1,12 +1,4 @@
-# 更新于 2026-10-06 12:19:42 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 09:05:09 INFO  pipeline:1629     好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +3 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
-2026-10-06 09:05:09 INFO  memory:414        触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
-2026-10-06 09:05:09 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-06 09:05:09 INFO  logger:541        [TRACE f5daa092742a43e6] total=7869.61ms severity=slow_request | llm_calls=1 total=7725.91ms avg=7725.91ms max=7725.91ms p50=7725.91 p95=7725.91 p99=7725.91 | json_parse=3.8ms(x1), llm=7736.34ms(x1), memory=67.2ms(x2), process=7869.31ms(x1) (wall7869.31), queue_wait=0.84ms(x1)
-2026-10-06 09:05:09 WARN  logger:564        [SLOW f5daa092742a43e6] total=7870.23ms | json_parse=3.8ms(x1), llm=7736.34ms(x1), memory=67.2ms(x2), process=7869.31ms(x1) (wall7869.31), queue_wait=0.84ms(x1) | llm_calls=1 total=7725.91ms avg=7725.91ms max=7725.91ms p50=7725.91 p95=7725.91 p99=7725.91 | perf: queue=0.84ms llm=7740.14ms search_tool=0.0ms delivery=0.0ms other=7936.51ms wall=7870.19ms dominant=other
-2026-10-06 09:05:09 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
-2026-10-06 09:05:09 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-06 09:05:10 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=31 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqnEfREvO1OnWYA4fZAyjr0qqqCbw94OZZ3WA8Qnb1R0nrZl.j0e0uFXfUKErqcqU5w!!
+# 更新于 2026-10-06 12:20:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 09:05:10 INFO  llm:544           LLM [deepseek-flash] 返回 146字符 耗时1.3s → "[09:05:09] 63C251709C77FDE: [图片], 茂密: 哇这封禁时间好长喵！20..."
 2026-10-06 09:05:10 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
 2026-10-06 09:05:13 INFO  qq_transport:711  QQ 分片上传成功 file=tmpdnta34mc.webp size=47558 ttl=86400
@@ -1499,3 +1491,11 @@
 2026-10-06 12:19:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.4 mem=52.7
 2026-10-06 12:19:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 12:19:20 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=39%
+2026-10-06 12:19:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=68.4 mem=52.7
+2026-10-06 12:19:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 12:19:51 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=16% 内存=92%
+2026-10-06 12:20:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 12:20:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=52.7
+2026-10-06 12:20:13 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 12:20:21 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
+2026-10-06 12:20:25 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
