@@ -1,18 +1,4 @@
-# 更新于 2026-10-06 19:52:14 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 17:34:53 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=29% 内存=92%
-2026-10-06 17:35:23 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-06 17:35:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=61 cpu=56.0 mem=56.4
-2026-10-06 17:35:30 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:35:53 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=14% 内存=96%
-2026-10-06 17:36:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=61 cpu=70.5 mem=56.4
-2026-10-06 17:36:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:36:23 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=54%
-2026-10-06 17:36:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=61 cpu=72.2 mem=56.4
-2026-10-06 17:36:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:36:54 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=23% 内存=94%
-2026-10-06 17:37:02 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=61 cpu=68.9 mem=56.4
-2026-10-06 17:37:02 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 17:37:27 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=53%
+# 更新于 2026-10-06 19:52:44 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 17:37:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=60 cpu=50.7 mem=56.4
 2026-10-06 17:37:33 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 17:37:57 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=26% 内存=94%
@@ -1499,3 +1485,17 @@ ValueError: invalid literal for int() with base 10: 'qq:2C9068CB43046FB0A325FA1A
 2026-10-06 19:51:56 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=46% 内存=89%
 2026-10-06 19:52:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=33 cpu=54.2 mem=55.9
 2026-10-06 19:52:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 19:52:27 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=80%
+2026-10-06 19:52:37 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=33 cpu=26.2 mem=56.0
+2026-10-06 19:52:37 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 19:52:38 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 19:52:38 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /看视频  0 ' mentions=0 content='/看视频  1 ' atts=0 ref=False msg_type=0
+2026-10-06 19:52:38 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/看视频  0 '
+2026-10-06 19:52:38 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rL5nlC0WnfTxLA0PbuT5CLs3CVEsD67bsmKRSQN12Wp2BOPq9IUcGto0GVSariLtW6ifDjSW9T8L2bIk7oyYlbfVAZ8hyGx8lEpG-reXU4Pt
+2026-10-06 19:52:38 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+2026-10-06 19:52:38 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-06 19:52:38 INFO  identity:92       身份映射已载入 2 条
+2026-10-06 19:52:38 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-10-06 19:52:38 INFO  pipeline:503      指令拦截: '/看视频  0 ' from=若尘 ~喵
+2026-10-06 19:52:38 DEBG  commands:5166     指令解析: prefix=/ cmd=看视频 args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 19:52:40 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=17 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzCC3HLhtjEi8VCf3-a2RANMZeQoCFxaFn3px9xlIG68ePpa0MIDziL.5QK3ABxRCA!!
