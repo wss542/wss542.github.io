@@ -1,22 +1,4 @@
-# 更新于 2026-10-06 16:09:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 14:36:20 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-06 14:36:20 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-06 14:36:20 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-06 14:36:20 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-06 14:36:20 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-06 14:36:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=95 cpu=27.3 mem=55.4
-2026-10-06 14:36:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 14:36:20 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
-2026-10-06 14:36:20 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 14:36:21 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-06 14:36:21 INFO  pc_status:46      PC 客户端已连接
-2026-10-06 14:36:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=17% 内存=94%
-2026-10-06 14:36:21 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-06 14:36:21 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-06 14:36:21 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-06 14:36:21 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-06 14:36:22 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-06 14:36:22 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
+# 更新于 2026-10-06 16:10:15 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 14:36:22 INFO  holiday:105       节假日服务已启动
 2026-10-06 14:36:22 INFO  holiday:96        节假日每日刷新: 等待 33823 秒 (下次 00:00:05)
 2026-10-06 14:36:24 INFO  pc_status:46      PC 客户端已连接
@@ -1499,3 +1481,21 @@
 2026-10-06 16:09:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:09:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:09:26 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=78 cpu=73.5 mem=55.5
+2026-10-06 16:09:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:09:30 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:37 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:42 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-06 16:09:43 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=74 cpu=None mem=None
+2026-10-06 16:09:44 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-06 16:09:46 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:52 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:09:52 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@60CF36B09831B3F0C8949CC145D65ED4> 不好找吧' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 16:09:58 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:10:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=78 cpu=26.1 mem=55.5
+2026-10-06 16:10:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:10:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:10:10 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:10:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=19% 内存=97%
+2026-10-06 16:10:14 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
