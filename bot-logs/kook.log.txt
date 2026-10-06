@@ -1,37 +1,4 @@
-# 更新于 2026-10-06 22:55:45 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 19:59:31 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw='<@67EC231B957EED6A56A104BE1C1109DD> 积分加 落尘 50000' mentions=1 content='积分加 落尘 50000' atts=0 ref=False msg_type=0
-2026-10-06 19:59:31 INFO  qq_bot:435        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=落尘 role=admin union=-]: '积分加 落尘 50000'
-2026-10-06 19:59:31 INFO  qq_bot:446        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_pfSDOaJKHyY.CPgizCMLcDrYoiSLBtj.iHCBgpFs5xl3ceUlqbU7wct2AAWNs0Gs2pAGTRJ1Ff-xFDchYnnEiE-w4DtyTVFOHzfP91PGjDZ5v.osu9yCD-m248lfsaSG
-2026-10-06 19:59:31 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
-2026-10-06 19:59:31 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 4条 (阈值=10)
-2026-10-06 19:59:31 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='积分加 落尘 50000'
-2026-10-06 19:59:31 INFO  pipeline:605      @机器人检测 → 直接回复
-2026-10-06 19:59:31 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='积分加 落尘 50000'
-2026-10-06 19:59:31 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
-2026-10-06 19:59:31 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=5 耗时=10.7ms
-2026-10-06 19:59:31 INFO  pipeline:866      额外信息: 1185字 (memory=589 search=0)
-2026-10-06 19:59:31 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-06 19:59:31 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-06 19:59:31 INFO  pipeline:1139     开始生成回复: speaker=落尘 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-06 19:59:37 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={"replies":["哎呀，积分这个事情我可没有权限直接加呢喵~","需要联系管理员 [admin] 来操作才行哦！"],"fav":0,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"落尘","qq":0}}... tool_calls=0)
-2026-10-06 19:59:37 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["哎呀，积分这个事情我可没有权限直接加呢喵~","需要联系管理员 [admin] 来操作才行哦！"],"fav":0,"calls":[],"face":null,"mood":"开心","action":"","at":null,"mode":null,"origin":"user","actor":{"name":"落尘","qq":0}} | tool_calls=0
-2026-10-06 19:59:37 INFO  llm:1462          JSON回复解析: 2句 fav=+0 calls=0 mood=开心
-2026-10-06 19:59:37 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 5 条
-2026-10-06 19:59:37 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-06 19:59:37 INFO  logger:541        [TRACE 3484e70a52264255] total=5737.34ms severity=slow_request | llm_calls=1 total=5617.1ms avg=5617.1ms max=5617.1ms p50=5617.1 p95=5617.1 p99=5617.1 | json_parse=0.98ms(x1), llm=5664.46ms(x1), memory=21.68ms(x2), process=5737.23ms(x1) (wall5737.23), queue_wait=0.59ms(x1)
-2026-10-06 19:59:37 WARN  logger:564        [SLOW 3484e70a52264255] total=5737.75ms | json_parse=0.98ms(x1), llm=5664.46ms(x1), memory=21.68ms(x2), process=5737.23ms(x1) (wall5737.23), queue_wait=0.59ms(x1) | llm_calls=1 total=5617.1ms avg=5617.1ms max=5617.1ms p50=5617.1 p95=5617.1 p99=5617.1 | perf: queue=0.59ms llm=5665.44ms search_tool=0.0ms delivery=0.0ms other=5758.91ms wall=5737.72ms dominant=other
-2026-10-06 19:59:37 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-2026-10-06 19:59:37 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-06 19:59:38 INFO  llm:544           LLM [deepseek-flash] 返回 125字符 耗时1.2s → "[19:59:37] 落尘: /积分、/积分、/签到、积分加 落尘 50000，茂密回复哎呀，积分这..."
-2026-10-06 19:59:38 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 5条消息 → 保存
-2026-10-06 19:59:38 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 19:59:38 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=46 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3FmzCV8ran7pDjcW0ry.aQir5Orv8sy1TSOD3UPwt78OU7WrMZkh-KNbohXmlMcNcw!!
-2026-10-06 19:59:38 DEBG  response_delivery:297 已发送第 1/1 条: 哎呀，积分这个事情我可没有权限直接加呢喵~
-
-需要联系管理员...
-2026-10-06 19:59:38 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-06 19:59:38 DEBG  context_manager:139 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
-2026-10-06 19:59:44 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=26% 内存=93%
+# 更新于 2026-10-06 22:56:45 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 19:59:48 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 19:59:48 DEBG  qq_bot:258        QQ 群消息(@他人): content='<@63C251709C77FDEE87FC502F866E3FB5> ' mentions=[{"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "is_you": false, "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "scope": "single", "username": "枭茂密"}]
 2026-10-06 19:59:50 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
@@ -1499,3 +1466,36 @@
 2026-10-06 22:55:29 INFO  pc_status:187     收到 lyric_event [延迟=5573ms]: '**轻松一下Windows98**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
 2026-10-06 22:55:29 INFO  pc_status:187     收到 lyric_event [延迟=2430ms]: '**以后的路不再会有痛苦**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
 2026-10-06 22:55:32 INFO  pc_status:187     收到 lyric_event [延迟=791ms]: '**我们的未来该有多酷**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:55:46 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 22:55:46 DEBG  qq_bot:246        QQ 群消息(@我): content='<@67EC231B957EED6A56A104BE1C1109DD> wdsj jjc img' mentions=[{"bot": true, "id": "67EC231B957EED6A56A104BE1C1109DD", "is_you": true, "member_openid": "67EC231B957EED6A56A104BE1C1109DD", "member_role": "member", "scope": "single", "username": "茂密"}]
+2026-10-06 22:55:46 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw='<@67EC231B957EED6A56A104BE1C1109DD> wdsj jjc img' mentions=1 content='wdsj jjc img' atts=0 ref=False msg_type=0
+2026-10-06 22:55:46 INFO  qq_bot:435        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=若尘 ⁧~喵⁧ role=owner union=-]: 'wdsj jjc img'
+2026-10-06 22:55:46 INFO  qq_bot:446        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_ewMwg-PzBMtkBayQTstAY.jyBn562MqOWv5udAHtiQ5MZHodJmY0H7NwE0HF4S0meQqm7MY6g4jsVfHB0FFbPKoZN9KbIXQ-kZsnq1G.ASN5v.osu9yCD-m248lfsaSG
+2026-10-06 22:55:46 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+2026-10-06 22:55:46 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 9条 (阈值=10)
+2026-10-06 22:55:46 INFO  pipeline:496      裸命令识别: '/wdsj jjc img' from=若尘 ~喵
+2026-10-06 22:55:46 INFO  pipeline:503      指令拦截: '/wdsj jjc img' from=若尘 ~喵
+2026-10-06 22:55:46 DEBG  commands:5166     指令解析: prefix=/ cmd=wdsj args=['jjc', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 22:55:47 INFO  commands:2963     查询wdsj战绩: player=天在水丶若尘 template=arena-stats img=True
+2026-10-06 22:55:48 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=23 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3JMqjkPGdHdRWCBd.4jUGGhFXS5tNnBrU1k.KN2Iw32fktLR7gV7EKPAM8Bapv2.Ug!!
+2026-10-06 22:55:56 INFO  pc_status:187     收到 lyric_event [延迟=6936ms]: '**是的我看见到处是阳光**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:55:56 INFO  pc_status:187     收到 lyric_event [延迟=3199ms]: '**快乐在城市上空飘扬**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:55:58 INFO  pc_status:187     收到 lyric_event [延迟=1019ms]: '**新世界来的像梦一样**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:55:58 INFO  qq_transport:711  QQ 分片上传成功 file=wdsj_20261006_9f57a394.png size=159524 ttl=86400
+2026-10-06 22:56:01 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3KUXNZG6JquRiAiVdhmNUEj-ua5C8jJ8JaGhu5CPHBtAQYIyV0D44UfoILkramAqnA!!
+2026-10-06 22:56:01 INFO  commands:5223     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-10-06 22:56:01 INFO  logger:541        [TRACE 3142768066f34367] total=14355.09ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=14323.95ms(x1) (wall14323.95), queue_wait=93.41ms(x1)
+2026-10-06 22:56:01 WARN  logger:559        [VERY_SLOW 3142768066f34367] total=14363.3ms 需重点排查 | process=14323.95ms(x1) (wall14323.95), queue_wait=93.41ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=93.41ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=14323.95ms wall=14362.1ms dominant=other
+2026-10-06 22:56:02 INFO  pc_status:187     收到 lyric_event [延迟=46ms]: '**让我暖洋洋**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:04 INFO  pc_status:187     收到 lyric_event [延迟=57ms]: '**你的老怀表还在转吗**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:08 INFO  pc_status:187     收到 lyric_event [延迟=47ms]: '**你的旧皮鞋还能穿吗**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:24 INFO  pc_status:187     收到 lyric_event [延迟=11704ms]: '**这儿有一支未来牌香烟**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:24 INFO  pc_status:187     收到 lyric_event [延迟=8155ms]: '**你不想尝尝吗**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:24 INFO  pc_status:187     收到 lyric_event [延迟=5058ms]: '**明天一早我猜阳光会好**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:28 INFO  pc_status:187     收到 lyric_event [延迟=1073ms]: '**我要把自己打扫**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:32 INFO  pc_status:187     收到 lyric_event [延迟=1008ms]: '**把破旧的全部卖掉**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:32 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 22:56:33 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 22:56:34 INFO  pc_status:187     收到 lyric_event [延迟=702ms]: '**哦这样多好 快来吧奔腾电脑**' song=房东的猫 / 陈婧霏 - New Boy playing=True channel=None
+2026-10-06 22:56:37 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 22:56:38 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
