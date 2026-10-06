@@ -1,17 +1,4 @@
-# 更新于 2026-10-06 22:50:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 19:56:35 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-06 19:56:35 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-06 19:56:35 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-06 19:56:35 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-06 19:56:35 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-06 19:56:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=32 cpu=67.1 mem=56.0
-2026-10-06 19:56:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 19:56:35 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=83 cpu=None mem=None
-2026-10-06 19:56:35 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 19:56:36 INFO  pc_status:46      PC 客户端已连接
-2026-10-06 19:56:36 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
-2026-10-06 19:56:36 INFO  holiday:105       节假日服务已启动
-2026-10-06 19:56:36 INFO  holiday:96        节假日每日刷新: 等待 14608 秒 (下次 00:00:05)
+# 更新于 2026-10-06 22:51:29 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 19:56:36 INFO  changelog:176     [Playwright] Chromium 启动成功（极致加速已启用）
 2026-10-06 19:56:37 INFO  changelog:186     [Playwright] 页面池已预热（池内 1 个）
 2026-10-06 19:56:37 INFO  changelog:133     [Playwright] 空闲回收看护已启动（闲置 10 分钟自动释放）
@@ -1499,3 +1486,16 @@
 `充斥欲望 饱含邪念`' song=Nightwish - She Is My Sin playing=True channel=None
 2026-10-06 22:50:40 INFO  pc_status:187     收到 lyric_event [延迟=42ms]: '**Fall in love with your deep dark sin**
 `带着你那深重的罪过坠入爱河`' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:50:57 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=55%
+2026-10-06 22:50:57 INFO  pc_status:187     收到 lyric_event [延迟=234ms]: '**I am the Fallen**
+`我在坠落`' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:51:01 INFO  pc_status:187     收到 lyric_event [延迟=75ms]: '**You are what my sins enclose**
+`你是引诱我犯罪的圈套`' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:51:06 INFO  pc_status:187     收到 lyric_event [延迟=-303ms]: '**Lust is not as creative**
+`淫欲中`' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:51:10 INFO  pc_status:187     收到 lyric_event [延迟=-569ms]: '**As its discovery**
+`找不到发明创造`' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:51:24 INFO  pc_status:187     收到 lyric_event [延迟=7646ms]: '**To paradise with pleasure haunted,haunted by fear**
+`那快感缠绕' song=Nightwish - She Is My Sin playing=True channel=None
+2026-10-06 22:51:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=67.6 mem=56.6
+2026-10-06 22:51:28 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Nightwish - She Is My Sin（播放中）CPU=90% 内存=87%
