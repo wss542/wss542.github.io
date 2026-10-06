@@ -1,37 +1,4 @@
-# 更新于 2026-10-06 23:08:19 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 20:47:00 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=deleted_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-06 20:47:00 INFO  bot:297           🗑️ KOOK 撤回事件: mid=88eb2c67-3159-4feb-9e4b-02abdac7815f chat=9844130976336955 type=255 extra=deleted_message
-2026-10-06 20:47:00 INFO  recall:94         🗑️ 记录撤回: chat=9844130976336955 mid=88eb2c67-3159-4feb-9e4b-02abdac7815f by=wss text='测试'
-2026-10-06 20:47:05 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-06 20:47:05 INFO  bot:347           ✏️ 编辑消息作者反查: id=1759953618 username=wss
-2026-10-06 20:47:05 INFO  bot:383           ✏️ 编辑消息 → dispatcher: mid=e6766bfc-e3f7-4ac3-9376-54917eb2859d chat=9844130976336955 type=255
-2026-10-06 20:47:05 DEBG  dispatcher:47     dispatch 入口: type=1 content='/撤销' is_edit=True
-2026-10-06 20:47:05 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
-2026-10-06 20:47:05 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/撤销'
-2026-10-06 20:47:05 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
-2026-10-06 20:47:05 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 3条 (阈值=10)
-2026-10-06 20:47:05 INFO  pipeline:503      指令拦截: '/撤销' from=ywandwss
-2026-10-06 20:47:05 DEBG  commands:5166     指令解析: prefix=/ cmd=撤销 args=[] user=1759953618
-2026-10-06 20:47:05 INFO  commands:5221     指令执行完成 [撤销]: 返回40字符
-2026-10-06 20:47:06 INFO  logger:541        [TRACE 0422aa33fa6a4009] total=600.42ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=600.33ms(x1) (wall600.33), queue_wait=0.4ms(x1)
-2026-10-06 20:47:22 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=22 cpu=72.4 mem=56.1
-2026-10-06 20:47:22 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:47:28 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=11% 内存=93%
-2026-10-06 20:47:37 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
-2026-10-06 20:47:37 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 20:47:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=22 cpu=73.8 mem=56.1
-2026-10-06 20:47:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:48:02 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=52%
-2026-10-06 20:48:33 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=26% 内存=93%
-2026-10-06 20:48:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=22 cpu=75.4 mem=56.1
-2026-10-06 20:48:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:49:05 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=34%
-2026-10-06 20:49:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=22 cpu=44.9 mem=56.1
-2026-10-06 20:49:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:49:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=16% 内存=94%
-2026-10-06 20:49:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=21 cpu=39.6 mem=56.1
-2026-10-06 20:49:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 20:50:08 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=40%
+# 更新于 2026-10-06 23:09:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 20:50:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=21 cpu=25.0 mem=56.1
 2026-10-06 20:50:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 20:50:38 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Danko / Dastic - Pump It Up (Dastic Remi（已暂停）CPU=22% 内存=94%
@@ -1499,3 +1466,36 @@
 2026-10-06 23:08:12 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 23:08:13 INFO  pc_status:187     收到 lyric_event [延迟=-529ms]: '**'Cause I, I know I'll get by**' song=Manafest - Edge Of My Life playing=True channel=None
 2026-10-06 23:08:15 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:21 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:24 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=16937ms]: '**When I battle every day through the pain like a soldier**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=7204ms]: '**My life** *(I am on the edge)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=6692ms]: '**Mom crying on the sofa**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=4124ms]: '**Dad comes home but he's not sober**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=2587ms]: '**Where'd the family go**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=1279ms]: '**Up in smoke again**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:35 INFO  pc_status:187     收到 lyric_event [延迟=-99ms]: '**Feels just like sinking sand**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:36 INFO  pc_status:187     收到 lyric_event [延迟=-789ms]: '**Heard shouts in the backyard** *(hey!)*' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:39 INFO  pc_status:187     收到 lyric_event [延迟=-126ms]: '**Sirens ringing from a cop car**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:41 INFO  pc_status:187     收到 lyric_event [延迟=371ms]: '**It's a rough day for this family, man**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:42 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:44 INFO  pc_status:187     收到 lyric_event [延迟=49ms]: '**I'm praying with these hands**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:45 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:47 INFO  pc_status:187     收到 lyric_event [延迟=726ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:49 INFO  pc_status:187     收到 lyric_event [延迟=697ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:08:50 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:52 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:08:57 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:09:02 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:09:03 INFO  pc_status:187     收到 lyric_event [延迟=11919ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:03 INFO  pc_status:187     收到 lyric_event [延迟=9864ms]: '**We're gonna make this one shine**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:03 INFO  pc_status:187     收到 lyric_event [延迟=6622ms]: '**I gotta, gotta believe**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:03 INFO  pc_status:187     收到 lyric_event [延迟=5162ms]: '**I can more than survive**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:03 INFO  pc_status:187     收到 lyric_event [延迟=2947ms]: '**Still one trick up my sleeve**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:06 INFO  pc_status:187     收到 lyric_event [延迟=953ms]: '**I, I'm at the edge of my life**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:08 INFO  pc_status:187     收到 lyric_event [延迟=-66ms]: '**I got no time to think twice**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:11 INFO  pc_status:187     收到 lyric_event [延迟=861ms]: '**When I'm standing with the weight**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:12 INFO  pc_status:187     收到 lyric_event [延迟=888ms]: '**Of the world on my shoulders**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:14 INFO  pc_status:187     收到 lyric_event [延迟=83ms]: '**I, I'm gonna fight the good fight**' song=Manafest - Edge Of My Life playing=True channel=None
+2026-10-06 23:09:15 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:09:17 INFO  pc_status:187     收到 lyric_event [延迟=259ms]: '**'Cause I, I know I'll get by**' song=Manafest - Edge Of My Life playing=True channel=None
