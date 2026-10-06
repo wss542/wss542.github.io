@@ -1,12 +1,4 @@
-# 更新于 2026-10-06 12:25:04 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 09:05:37 INFO  gateway:141       Agent 门卫判定 msg='你知道这是什么原因封禁的吗' raw=''
-2026-10-06 09:05:37 INFO  gateway:205       Agent: 门卫判定为普通聊天('你知道这是什么原因封禁的吗')，回退 Fast Path
-2026-10-06 09:05:37 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=16.2ms
-2026-10-06 09:05:37 INFO  pipeline:866      额外信息: 1975字 (memory=617 search=0)
-2026-10-06 09:05:37 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-06 09:05:37 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-06 09:05:37 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-06 09:05:52 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={\n  "replies": [\n    "**封禁类型分析**\n\n从图片来看，这是游戏反作弊系统的封禁通知喵～黄字提示通常意味着系统自动检测到了异常行为，不是人工审核的结果呢。封禁时间到 2027 年，说明被判定为比较严重的违规喵 (emj) 注视 1(emj)[3090677846298039/h4BzFCdzH20nm0nm]",\n    "**常见封禁原因**\n\n- 使用作弊客户端... tool_calls=0)
+# 更新于 2026-10-06 12:25:49 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 09:05:52 INFO  llm:1114          LLM原始输出 [轮1]: content={\n  "replies": [\n    "**封禁类型分析**\n\n从图片来看，这是游戏反作弊系统的封禁通知喵～黄字提示通常意味着系统自动检测到了异常行为，不是人工审核的结果呢。封禁时间到 2027 年，说明被判定为比较严重的违规喵 (emj) 注视 1(emj)[3090677846298039/h4BzFCdzH20nm0nm]",\n    "**常见封禁原因**\n\n- 使用作弊客户端 | tool_calls=0
 2026-10-06 09:05:52 INFO  llm:1462          JSON回复解析: 3句 fav=+2 calls=0 mood=认真
 2026-10-06 09:05:52 INFO  fav:128           好感度更新: p:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 62
@@ -1499,3 +1491,11 @@
 2026-10-06 12:24:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.4 mem=52.7
 2026-10-06 12:24:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 12:24:57 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=10% 内存=94%
+2026-10-06 12:25:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 12:25:10 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 12:25:15 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 12:25:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=46.4 mem=52.7
+2026-10-06 12:25:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 12:25:22 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 12:25:22 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@65CF09CABE1EF16FA2EA2EC26F8B57C4> 我是猫喵！！！！' mentions=[{"bot": false, "id": "65CF09CABE1EF16FA2EA2EC26F8B57C4", "is_you": false, "member_openid": "65CF09CABE1EF16FA2EA2EC26F8B57C4", "member_role": "member", "scope": "single", "username": "ᗜ𖥦ᗜ"}]
+2026-10-06 12:25:27 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
