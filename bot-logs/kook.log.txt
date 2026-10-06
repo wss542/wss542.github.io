@@ -1,68 +1,4 @@
-# 更新于 2026-10-06 14:47:20 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 13:35:31 INFO  bot:846           战绩采集将在 2h25m 后执行 (16:01)
-2026-10-06 13:35:31 INFO  bot:955           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 20s 前）
-2026-10-06 13:35:31 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-06 13:35:31 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-06 13:35:32 INFO  stats:450         每日统计推送已启动（等待凌晨0点...）
-2026-10-06 13:35:32 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-06 13:35:32 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-06 13:35:32 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-06 13:35:32 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-06 13:35:32 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-06 13:35:32 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-06 13:35:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.8 mem=52.8
-2026-10-06 13:35:32 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:35:32 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-06 13:35:32 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 13:35:33 INFO  pc_status:46      PC 客户端已连接
-2026-10-06 13:35:34 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-06 13:35:34 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
-2026-10-06 13:35:34 INFO  holiday:105       节假日服务已启动
-2026-10-06 13:35:34 INFO  holiday:96        节假日每日刷新: 等待 37470 秒 (下次 00:00:05)
-2026-10-06 13:35:34 INFO  changelog:93      [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-06 13:35:35 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=21% 内存=97%
-2026-10-06 13:35:35 INFO  changelog:103     [Playwright] 页面池已预热（池内 1 个）
-2026-10-06 13:35:35 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-06 13:35:35 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-06 13:35:35 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-06 13:35:36 INFO  pc_status:46      PC 客户端已连接
-2026-10-06 13:35:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.5 mem=52.8
-2026-10-06 13:35:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:36:07 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
-2026-10-06 13:36:18 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=73.8 mem=52.8
-2026-10-06 13:36:18 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:36:37 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=13% 内存=96%
-2026-10-06 13:36:49 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=64.3 mem=52.8
-2026-10-06 13:36:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:37:07 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=44%
-2026-10-06 13:37:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.1 mem=52.8
-2026-10-06 13:37:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:37:38 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=16% 内存=95%
-2026-10-06 13:38:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=69.8 mem=52.8
-2026-10-06 13:38:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:38:08 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-06 13:38:37 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.8 mem=52.8
-2026-10-06 13:38:37 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:38:39 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=28% 内存=94%
-2026-10-06 13:39:08 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.9 mem=52.8
-2026-10-06 13:39:08 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:39:11 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=23%
-2026-10-06 13:39:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.0 mem=52.8
-2026-10-06 13:39:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:39:39 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-06 13:39:39 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-06 13:39:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=34% 内存=94%
-2026-10-06 13:40:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.5 mem=52.8
-2026-10-06 13:40:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:40:14 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
-2026-10-06 13:40:32 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
-2026-10-06 13:40:32 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-2026-10-06 13:40:32 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-2026-10-06 13:40:32 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
-2026-10-06 13:40:32 INFO  guild_names:332   guild_names: 距下次全量刷新 47968 秒
-2026-10-06 13:40:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.8 mem=52.8
-2026-10-06 13:40:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 13:40:45 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=33% 内存=93%
+# 更新于 2026-10-06 14:48:33 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 13:41:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=66.2 mem=52.8
 2026-10-06 13:41:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 13:41:18 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
@@ -1499,3 +1435,67 @@
 2026-10-06 14:47:13 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 14:47:19 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 14:47:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:22 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:24 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-06 14:47:24 INFO  changelog:147     [Playwright] 启动 Chromium（极致加速模式）...
+2026-10-06 14:47:26 INFO  changelog:176     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-06 14:47:26 INFO  changelog:186     [Playwright] 页面池已预热（池内 1 个）
+2026-10-06 14:47:26 INFO  changelog:133     [Playwright] 空闲回收看护已启动（闲置 10 分钟自动释放）
+2026-10-06 14:47:27 INFO  changelog:110     [Playwright] 空闲 11 分钟 → 已回收 Chromium（下次截图冷启动）
+2026-10-06 14:47:27 INFO  changelog:147     [Playwright] 启动 Chromium（极致加速模式）...
+2026-10-06 14:47:28 INFO  changelog:176     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-06 14:47:28 INFO  changelog:186     [Playwright] 页面池已预热（池内 1 个）
+2026-10-06 14:47:28 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:29 INFO  changelog:110     [Playwright] 空闲 0 分钟 → 已回收 Chromium（下次截图冷启动）
+2026-10-06 14:47:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=93 cpu=57.1 mem=55.4
+2026-10-06 14:47:32 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 14:47:34 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=19% 内存=92%
+2026-10-06 14:47:49 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:49 DEBG  qq_bot:246        QQ 群消息(@我): content='<@all> 谁能来我服务器玩，好无聊啊TAT' mentions=[{"is_you": true, "scope": "all", "username": "全体成员"}]
+2026-10-06 14:47:49 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw='<@all> 谁能来我服务器玩，好无聊啊TAT' mentions=1 content='谁能来我服务器玩，好无聊啊TAT' atts=0 ref=False msg_type=0
+2026-10-06 14:47:49 INFO  qq_bot:435        QQ 消息 [chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True from=落尘 role=admin union=-]: '谁能来我服务器玩，好无聊啊TAT'
+2026-10-06 14:47:49 INFO  qq_bot:446        QQ 登记被动窗口 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F group=True msg_id=ROBOT1.0_pfSDOaJKHyY.CPgizCMLcBnUnJUWUTvQo.0ttJergAXuStDc4iPvITgOxfMcSoNxsw-ykgbE6KHFL04t5uuFB72HQxzkPqbscwhoY7.VkTTLRvNaLz48PPB8Ix6aSuhn
+2026-10-06 14:47:49 INFO  queues:32         [队列] 创建群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 的独立消息队列
+2026-10-06 14:47:49 DEBG  queues:75         [队列] 群qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F 消息已入队 (队长度=1)
+2026-10-06 14:47:49 INFO  identity:92       身份映射已载入 2 条
+2026-10-06 14:47:49 INFO  memory:432        长时记忆溢出缓冲: chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F +1 = 1条 (阈值=10)
+2026-10-06 14:47:49 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='谁能来我服务器玩，好无聊啊TAT'
+2026-10-06 14:47:49 INFO  pipeline:605      @机器人检测 → 直接回复
+2026-10-06 14:47:49 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='谁能来我服务器玩，好无聊啊TAT'
+2026-10-06 14:47:49 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-10-06 14:47:49 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=8 耗时=16.2ms
+2026-10-06 14:47:49 INFO  pipeline:866      额外信息: 1380字 (memory=669 search=0)
+2026-10-06 14:47:49 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-06 14:47:49 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-06 14:47:49 INFO  pipeline:1139     开始生成回复: speaker=落尘 chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-06 14:47:52 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:52 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@60CF36B09831B3F0C8949CC145D65ED4> 你抓住 喵！' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 14:47:57 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={\n  "replies": [\n    "哎呀，服务器没人玩确实挺无聊的呢~",\n    "是什么类型的服务器呀？MC 还是其他的？",\n    "要不要在群里喊一声，看看有没有感兴趣的小伙伴喵~"\n  ],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mo... tool_calls=0)
+2026-10-06 14:47:57 INFO  llm:1114          LLM原始输出 [轮1]: content={\n  "replies": [\n    "哎呀，服务器没人玩确实挺无聊的呢~",\n    "是什么类型的服务器呀？MC 还是其他的？",\n    "要不要在群里喊一声，看看有没有感兴趣的小伙伴喵~"\n  ],\n  "fav": 2,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mo | tool_calls=0
+2026-10-06 14:47:57 INFO  llm:1462          JSON回复解析: 3句 fav=+2 calls=0 mood=开心
+2026-10-06 14:47:57 INFO  fav:128           好感度更新: gqq:59B3DFC78FF2CF2CF3C1C9A25E3F617F:qq:60CF36B09831B3F0C8949CC145D65ED4 +2 → 52
+2026-10-06 14:47:57 INFO  pipeline:1629     好感度调整: 落尘 +2 (chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F)
+2026-10-06 14:47:57 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 2 条
+2026-10-06 14:47:57 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-06 14:47:57 INFO  logger:541        [TRACE 403ac5ef9eeb44a4] total=8513.72ms severity=slow_request | llm_calls=1 total=8325.21ms avg=8325.21ms max=8325.21ms p50=8325.21 p95=8325.21 p99=8325.21 | json_parse=0.88ms(x1), llm=8399.58ms(x1), memory=32.77ms(x2), process=8513.59ms(x1) (wall8513.59), queue_wait=1.11ms(x1)
+2026-10-06 14:47:57 WARN  logger:564        [SLOW 403ac5ef9eeb44a4] total=8514.57ms | json_parse=0.88ms(x1), llm=8399.58ms(x1), memory=32.77ms(x2), process=8513.59ms(x1) (wall8513.59), queue_wait=1.11ms(x1) | llm_calls=1 total=8325.21ms avg=8325.21ms max=8325.21ms p50=8325.21 p95=8325.21 p99=8325.21 | perf: queue=1.11ms llm=8400.46ms search_tool=0.0ms delivery=0.0ms other=8546.36ms wall=8514.54ms dominant=other
+2026-10-06 14:47:57 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
+2026-10-06 14:47:57 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-06 14:47:57 INFO  pipeline:1691     画像更新: uid=qq:60CF36B09831B3F0C8949CC145D65ED4 new={'status': '摸鱼中'}
+2026-10-06 14:47:58 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:47:58 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@60CF36B09831B3F0C8949CC145D65ED4> 是你的吗！喵！' mentions=[{"bot": false, "id": "60CF36B09831B3F0C8949CC145D65ED4", "is_you": false, "member_openid": "60CF36B09831B3F0C8949CC145D65ED4", "member_role": "admin", "scope": "single", "username": "落尘"}]
+2026-10-06 14:47:58 INFO  llm:544           LLM [deepseek-flash] 返回 135字符 耗时1.1s → "[14:47:57] 落尘: 谁能来我服务器玩，好无聊啊TAT, 茂密: 哎呀，服务器没人玩确实挺无..."
+2026-10-06 14:47:58 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 2条消息 → 保存
+2026-10-06 14:47:59 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=63 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3E.zhk9isRFKHJy1VSoSMXP5SMNV0elhS7umAh9gvZdtNdH7wk6BGbISlNv.aNJ4RQ!!
+2026-10-06 14:47:59 DEBG  response_delivery:297 已发送第 1/1 条: 哎呀，服务器没人玩确实挺无聊的呢~
+
+是什么类型的服务器呀？...
+2026-10-06 14:47:59 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
+2026-10-06 14:47:59 DEBG  context_manager:139 发送任务已清理 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]
+2026-10-06 14:48:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=93 cpu=47.8 mem=55.4
+2026-10-06 14:48:03 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 14:48:04 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
+2026-10-06 14:48:06 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:48:06 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@63C251709C77FDEE87FC502F866E3FB5> 不管qwq' mentions=[{"bot": false, "id": "63C251709C77FDEE87FC502F866E3FB5", "is_you": false, "member_openid": "63C251709C77FDEE87FC502F866E3FB5", "member_role": "owner", "scope": "single", "username": "枭茂密"}]
+2026-10-06 14:48:10 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 14:48:16 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
