@@ -1,21 +1,4 @@
-# 更新于 2026-10-06 23:26:48 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 21:32:57 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-06 21:32:57 INFO  pipeline:1139     开始生成回复: speaker=Just placebo. (HumanTear) chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-06 21:33:02 INFO  llm:1095          LLM 首调用选择模型: Qwen/Qwen3.5-397B-A17B (content={\n  "replies": [\n    "哈哈，宣传材质这个我可帮不上忙喵~",\n    "我就是个群聊小助手，没有商业推广能力呢！"\n  ],\n  "fav": 0,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mode": null,\n  "origin": "user",\n ... tool_calls=0)
-2026-10-06 21:33:02 INFO  llm:1114          LLM原始输出 [轮1]: content={\n  "replies": [\n    "哈哈，宣传材质这个我可帮不上忙喵~",\n    "我就是个群聊小助手，没有商业推广能力呢！"\n  ],\n  "fav": 0,\n  "calls": [],\n  "face": null,\n  "mood": "开心",\n  "action": "",\n  "at": null,\n  "mode": null,\n  "origin": "user",\n  | tool_calls=0
-2026-10-06 21:33:02 INFO  llm:1462          JSON回复解析: 2句 fav=+0 calls=0 mood=开心
-2026-10-06 21:33:02 INFO  memory:414        触发自动记忆 [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F]: 10 条
-2026-10-06 21:33:02 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F
-2026-10-06 21:33:02 INFO  logger:541        [TRACE 3fb5816c76ac4df7] total=5359.38ms severity=slow_request | llm_calls=1 total=5247.42ms avg=5247.42ms max=5247.42ms p50=5247.42 p95=5247.42 p99=5247.42 | json_parse=0.42ms(x1), llm=5266.34ms(x1), memory=117.37ms(x2), process=5358.64ms(x1) (wall5358.64), queue_wait=8.56ms(x1)
-2026-10-06 21:33:02 WARN  logger:564        [SLOW 3fb5816c76ac4df7] total=5359.98ms | json_parse=0.42ms(x1), llm=5266.34ms(x1), memory=117.37ms(x2), process=5358.64ms(x1) (wall5358.64), queue_wait=8.56ms(x1) | llm_calls=1 total=5247.42ms avg=5247.42ms max=5247.42ms p50=5247.42 p95=5247.42 p99=5247.42 | perf: queue=8.56ms llm=5266.76ms search_tool=0.0ms delivery=0.0ms other=5476.01ms wall=5359.9ms dominant=other
-2026-10-06 21:33:02 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F is_group=True
-2026-10-06 21:33:02 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-06 21:33:02 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=150 temp=0.1 timeout=8.0s
-2026-10-06 21:33:03 INFO  llm:544           LLM [deepseek-flash] 返回 79字符 耗时1.1s → "```json\n{\n  "interests": ["材质"],\n  "tone": "轻松、促销"..."
-2026-10-06 21:33:03 INFO  pipeline:1691     画像更新: uid=qq:B6DD94C15CD5ECA72CED3ABFCFF9B8CD new={'facts': ['可以提供打折'], 'interests': ['材质'], 'tone': '轻松、促销'}
-2026-10-06 21:33:04 INFO  llm:544           LLM [deepseek-flash] 返回 249字符 耗时1.5s → "[21:33:02] 落尘: /积分, /积分, /签到, 积分加 落尘 50000; 茂密: 哎呀..."
-2026-10-06 21:33:04 INFO  memory:223        [qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F] 压缩完成: 10条消息 → 保存
-2026-10-06 21:33:04 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=39 seq=1 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3K5zUl7L19jg.SMBjeQAhr.cv1nClH1O0MkJ-2vaO0u.J4y26uxoQ.KnUd4EPuU71Q!!
+# 更新于 2026-10-06 23:27:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 21:33:04 DEBG  response_delivery:297 已发送第 1/1 条: 哈哈，宣传材质这个我可帮不上忙喵~
 
 我就是个群聊小助手，没...
@@ -1499,3 +1482,20 @@
 2026-10-06 23:26:39 INFO  pc_status:187     收到 lyric_event [延迟=2086ms]: '**We’re the children of the dark**
 `我们是黑暗之子`' song=Mono Inc. - Children of the Da playing=True channel=None
 2026-10-06 23:26:44 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:26:51 INFO  pc_status:187     收到 lyric_event [延迟=810ms]: '**For a new beginning**
+`为了新的启程`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:26:54 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 23:26:54 INFO  pc_status:187     收到 lyric_event [延迟=881ms]: '**For a turnaround**
+`为了新的转机`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:07 INFO  pc_status:187     收到 lyric_event [延迟=10215ms]: '**Our heads are spinning**
+`我们的脑袋天旋地转`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:07 INFO  pc_status:187     收到 lyric_event [延迟=6649ms]: '**And we won’t calm down**
+`我们不会冷静下来`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:07 INFO  pc_status:187     收到 lyric_event [延迟=3321ms]: '**We’re a wall in motion**
+`我们是一堵移动的墙`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:07 INFO  pc_status:187     收到 lyric_event [延迟=-240ms]: '**Oh a change is now walk in the park**
+`噢现在公园开始变化`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:10 INFO  pc_status:187     收到 lyric_event [延迟=-89ms]: '**What comes around goes around**
+`我们的付出会有回报`' song=Mono Inc. - Children of the Da playing=True channel=None
+2026-10-06 23:27:13 INFO  pc_status:187     收到 lyric_event [延迟=89ms]: '**Better watch out we’re the children of the dark**
+`最好注意我们 ' song=Mono Inc. - Children of the Da playing=True channel=None
