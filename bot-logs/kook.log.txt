@@ -1,25 +1,4 @@
-# 更新于 2026-10-06 16:51:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 14:57:41 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-06 14:57:41 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-06 14:57:41 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-06 14:57:41 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-06 14:57:41 INFO  events:94         ==================================================
-2026-10-06 14:57:41 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-06 14:57:41 INFO  events:94         ==================================================
-2026-10-06 14:57:41 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-06 14:57:41 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-06 14:57:41 INFO  changelog:147     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-06 14:57:41 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-06 14:57:41 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-06 14:57:41 INFO  bot:846           战绩采集将在 1h3m 后执行 (16:01)
-2026-10-06 14:57:41 INFO  bot:955           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 19s 前）
-2026-10-06 14:57:41 INFO  qq_transport:113  QQ access_token 已刷新，有效期 4199s
-2026-10-06 14:57:42 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-06 14:57:42 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-06 14:57:42 INFO  holiday:57        节假日: 2026-10-06 → 国庆节
-2026-10-06 14:57:42 INFO  holiday:105       节假日服务已启动
-2026-10-06 14:57:42 INFO  holiday:96        节假日每日刷新: 等待 32542 秒 (下次 00:00:05)
-2026-10-06 14:57:42 INFO  qq_bot:225        QQ 事件到达 t=READY
+# 更新于 2026-10-06 16:52:33 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 14:57:42 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
 2026-10-06 14:57:42 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
 2026-10-06 14:57:42 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1478,24 @@
 2026-10-06 16:51:17 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:51:18 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-06 16:51:18 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@55A5970D588F864653DB1B136A0F3250> 也就是说要上200天吗' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:51:22 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:51:22 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@55A5970D588F864653DB1B136A0F3250> 啊？' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:51:26 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:51:35 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=29% 内存=95%
+2026-10-06 16:51:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=69 cpu=46.4 mem=56.2
+2026-10-06 16:51:47 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:51:55 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:51:59 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:03 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:04 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:04 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@55A5970D588F864653DB1B136A0F3250> 这什么家长啊喂！' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:52:07 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=44%
+2026-10-06 16:52:15 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=69 cpu=28.3 mem=56.2
+2026-10-06 16:52:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 16:52:23 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:23 DEBG  qq_bot:258        QQ 群消息(@他人): content=' <@55A5970D588F864653DB1B136A0F3250> 抱抱喵' mentions=[{"bot": false, "id": "55A5970D588F864653DB1B136A0F3250", "is_you": false, "member_openid": "55A5970D588F864653DB1B136A0F3250", "member_role": "member", "scope": "single", "username": "墨橘"}]
+2026-10-06 16:52:24 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:31 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:32 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-06 16:52:33 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
