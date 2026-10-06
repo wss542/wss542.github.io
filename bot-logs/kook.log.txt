@@ -1,16 +1,4 @@
-# 更新于 2026-10-06 11:55:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-06 08:44:19 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 08:44:25 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 08:44:33 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 08:44:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=54%
-2026-10-06 08:44:47 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-06 08:44:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=73.3 mem=41.5
-2026-10-06 08:44:50 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 08:45:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=11% 内存=91%
-2026-10-06 08:45:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=41.5
-2026-10-06 08:45:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-06 08:45:21 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=93 cpu=None mem=None
-2026-10-06 08:45:21 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-10-06 11:56:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-06 08:45:47 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=52%
 2026-10-06 08:45:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.7 mem=41.5
 2026-10-06 08:45:52 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1487,15 @@
 2026-10-06 11:55:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=70.0 mem=52.6
 2026-10-06 11:55:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-06 11:55:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=31%
+2026-10-06 11:56:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.6 mem=52.6
+2026-10-06 11:56:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-06 11:56:13 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=吴金黛 - 森林狂想曲（已暂停）CPU=10% 内存=93%
+2026-10-06 11:56:21 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-06 11:56:21 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' wdsj jjc img' mentions=0 content='wdsj jjc img' atts=0 ref=False msg_type=0
+2026-10-06 11:56:21 INFO  qq_bot:435        QQ 消息 [chat=qq:A32588CDB564613DFE86FDCDE28116F1 group=True from=若尘 ⁧~喵⁧ role=admin union=-]: 'wdsj jjc img'
+2026-10-06 11:56:21 INFO  qq_bot:446        QQ 登记被动窗口 openid=A32588CDB564613DFE86FDCDE28116F1 group=True msg_id=ROBOT1.0_DbpsbqYTHUXsnxtaAwg79z7wvgb-irXjgnYSLBiR900DNO.ywF22mlH5qmybCnSX68H2fqDaO7ELoiWTtuIRbNENdERHF1cCBDUN9WsoG03vJYw94Gf2XvduFhFPmyNe
+2026-10-06 11:56:21 DEBG  queues:75         [队列] 群qq:A32588CDB564613DFE86FDCDE28116F1 消息已入队 (队长度=1)
+2026-10-06 11:56:21 INFO  pipeline:496      裸命令识别: '/wdsj jjc img' from=若尘 ~喵
+2026-10-06 11:56:21 INFO  pipeline:503      指令拦截: '/wdsj jjc img' from=若尘 ~喵
+2026-10-06 11:56:21 DEBG  commands:5126     指令解析: prefix=/ cmd=wdsj args=['jjc', 'img'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-06 11:56:21 INFO  commands:2959     查询wdsj战绩: player=天在水丶若尘 template=arena-stats img=True
