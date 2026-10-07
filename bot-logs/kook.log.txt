@@ -1,42 +1,4 @@
-# 更新于 2026-10-07 13:00:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-07 01:09:45 INFO  qq_bot:208        QQ RECONNECT requested
-2026-10-07 01:09:46 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7200s
-2026-10-07 01:09:46 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-07 01:09:47 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-07 01:09:47 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-07 01:10:53 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-07 01:13:41 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=76% 内存=86%
-2026-10-07 01:15:28 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
-2026-10-07 01:18:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=83% 内存=52%
-2026-10-07 01:26:50 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=100% 内存=91%
-2026-10-07 01:33:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=97% 内存=91%
-2026-10-07 01:39:00 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=100% 内存=94%
-2026-10-07 01:44:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=92% 内存=91%
-2026-10-07 01:49:50 WARN  bot:1003          主电脑掉线（通知已静默，由 GitHub Actions 推送）: 5 分钟无心跳
-2026-10-07 01:50:03 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=100% 内存=93%
-2026-10-07 01:50:50 INFO  bot:1017          主电脑已恢复（通知已静默，由 GitHub Actions 推送）
-2026-10-07 01:55:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=39% 内存=64%
-2026-10-07 02:00:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=23% 内存=62%
-2026-10-07 02:05:15 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=23% 内存=64%
-2026-10-07 02:09:46 INFO  qq_bot:208        QQ RECONNECT requested
-2026-10-07 02:09:47 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-07 02:09:47 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-07 02:09:47 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-07 02:10:15 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=10% 内存=66%
-2026-10-07 02:15:16 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=双笙（陈元汐） - 心做し（已暂停）CPU=39% 内存=71%
-2026-10-07 02:17:22 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-07 02:17:22 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
-2026-10-07 02:17:22 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-07 02:17:22 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>签到'
-2026-10-07 02:17:22 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
-2026-10-07 02:17:22 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-07 02:17:22 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-2026-10-07 02:17:22 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
-2026-10-07 02:17:22 INFO  logger:541        [TRACE d8909f6e95804157] total=45.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=45.76ms(x1) (wall45.76), queue_wait=2.44ms(x1)
-2026-10-07 02:17:36 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-07 02:17:37 INFO  bot:347           ✏️ 编辑消息作者反查: id=1759953618 username=wss
-2026-10-07 02:17:37 INFO  bot:383           ✏️ 编辑消息 → dispatcher: mid=bec5480e-b774-4255-8f5d-37de62a35fdb chat=7274785942250691 type=255
-2026-10-07 02:17:37 DEBG  dispatcher:47     dispatch 入口: type=1 content='/luck' is_edit=True
+# 更新于 2026-10-07 13:01:48 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-07 02:17:37 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
 2026-10-07 02:17:37 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=7274785942250691 | group=True | content='/luck'
 2026-10-07 02:17:37 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
@@ -1499,3 +1461,41 @@ Call log:
 2026-10-07 12:49:00 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=44% 内存=84%
 2026-10-07 12:54:01 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=42% 内存=86%
 2026-10-07 12:59:01 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=39% 内存=89%
+2026-10-07 13:01:34 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=暴躁小猪 - absolute (绝对压制这一块)（已暂停）CPU=73% 内存=94%
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=9022ms]: '**原曲：Plain Jane  - A$AP Ferg/Nicki Minaj** *(Remix)* *(Feat.' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8958ms]: '**Lyrics by：Darold Brown/Kirlan Labarrie/Paul Beauregard/Jor' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8934ms]: '**Composed by：Darold Brown/Kirlan Labarrie/Paul Beauregard/J' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8923ms]: '**I don't keep up with the Joneses but I do know Catherine Z' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8909ms]: '**I'm with Candice TT Thembi and Viola mi amiga**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8829ms]: '**Rap ******* they gotta check in with the queen**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8811ms]: '**I'm the alpha the omega everything in between oh**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8801ms]: '**Ride with Minaj**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8789ms]: '**Mmm Mashallah**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8777ms]: '**Check in with me then do your job**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8743ms]: '**Queen is the name Rafaello did the chain**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8733ms]: '**This is Monse**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8722ms]: '**I don't keep up with the Joneses but I do know Catherine Z' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8713ms]: '**I'm with Candice TT Thembi and Viola mi amiga**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8701ms]: '**Rap ******* they gotta check in with the queen**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8690ms]: '**I'm the alpha the omega everything in between oh**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8681ms]: '**Ride with Minaj**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8670ms]: '**Mmm Mashallah**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8660ms]: '**Check in with me then do your job**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8650ms]: '**Queen is the name Rafaello did the chain**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8640ms]: '**This is Monse Patty Plain Jane**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8630ms]: '**Ride with Minaj**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8619ms]: '**Mmm Mashallah**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8608ms]: '**Check in with me then do your job**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8599ms]: '**Queen is the name Rafaello did the chain**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8588ms]: '**This is Monse Patty Plain Jane**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8578ms]: '**Ride with the mob**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8568ms]: '**Alhamdulillah**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8559ms]: '**Check in with me and do your job**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8548ms]: '**Ferg is the name**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8538ms]: '**Ben Baller did the chain**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8528ms]: '**Tourneau for the watch**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:34 INFO  pc_status:187     收到 lyric_event [延迟=8517ms]: '**Presi plain Jane**' song=暴躁小猪 - absolute (绝对压制这一块) playing=False channel=None
+2026-10-07 13:01:43 INFO  qq_bot:208        QQ RECONNECT requested
+2026-10-07 13:01:44 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-07 13:01:44 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-10-07 13:01:44 INFO  qq_bot:225        QQ 事件到达 t=READY
