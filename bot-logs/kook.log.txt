@@ -1,9 +1,4 @@
-# 更新于 2026-10-07 13:07:14 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-07 02:17:37 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-07 02:17:37 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
-2026-10-07 02:17:37 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
-2026-10-07 02:17:37 DEBG  commands:5166     指令解析: prefix=/ cmd=luck args=[] user=1759953618
-2026-10-07 02:17:37 INFO  commands:734      指令 /luck 触发 user=1759953618
+# 更新于 2026-10-07 13:07:48 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-07 02:17:37 INFO  commands:5221     指令执行完成 [luck]: 返回33字符
 2026-10-07 02:17:37 INFO  logger:541        [TRACE 87a10b802af74013] total=420.15ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=420.06ms(x1) (wall420.06), queue_wait=0.44ms(x1)
 2026-10-07 02:17:49 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1494,8 @@ Call log:
 2026-10-07 13:01:44 INFO  qq_bot:225        QQ 事件到达 t=READY
 2026-10-07 13:06:33 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=暴躁小猪 - absolute (绝对压制这一块)（播放中）CPU=83% 内存=48%
 2026-10-07 13:06:33 INFO  pc_status:187     收到 lyric_event [延迟=244ms]: '**▶ 继续播放**' song=暴躁小猪 - absolute (绝对压制这一块) playing=True channel=None
+2026-10-07 13:07:26 INFO  pc_status:187     收到 lyric_event [延迟=3427ms]: '**原曲：Plain Jane  - A$AP Ferg/Nicki Minaj** *(Remix)* *(Feat.' song=暴躁小猪 - absolute (绝对压制这一块) playing=True channel=None
+2026-10-07 13:07:26 INFO  pc_status:187     收到 lyric_event [延迟=3232ms]: '**Lyrics by：Darold Brown/Kirlan Labarrie/Paul Beauregard/Jor' song=暴躁小猪 - absolute (绝对压制这一块) playing=True channel=None
+2026-10-07 13:07:26 INFO  pc_status:187     收到 lyric_event [延迟=2741ms]: '**Composed by：Darold Brown/Kirlan Labarrie/Paul Beauregard/J' song=暴躁小猪 - absolute (绝对压制这一块) playing=True channel=None
+2026-10-07 13:07:26 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=ILLENIUM / Nevve - Fractures（播放中）CPU=88% 内存=68%
+2026-10-07 13:07:26 INFO  pc_status:187     收到 lyric_event [延迟=345ms]: '**▶ ILLENIUM / Nevve - Fractures**' song=ILLENIUM / Nevve - Fractures playing=True channel=None
