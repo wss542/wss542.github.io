@@ -1,101 +1,4 @@
-# 更新于 2026-10-07 10:41:40 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-07 00:09:43 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-07 00:09:43 INFO  events:94         事件分发器已就绪
-2026-10-07 00:09:43 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-07 00:09:43 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-07 00:09:43 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-07 00:09:43 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-07 00:09:43 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-07 00:09:43 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-07 00:09:43 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-07 00:09:43 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-07 00:09:43 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-07 00:09:43 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-07 00:09:43 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-07 00:09:43 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-07 00:09:44 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-07 00:09:44 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-07 00:09:44 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-07 00:09:44 INFO  bot:111           ==================================================
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-07 00:09:44 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-07 00:09:44 INFO  bot:111           ==================================================
-2026-10-07 00:09:44 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-07 00:09:44 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
+# 更新于 2026-10-07 10:42:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-07 00:09:44 INFO  manager:165       Plugin 已启用: weather@1.0.0
 2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
 2026-10-07 00:09:44 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
@@ -1499,3 +1402,100 @@ Call log:
 2026-10-07 10:41:20 INFO  pc_status:187     收到 lyric_event [延迟=400ms]: '**And I learned it all from you, oh-oh**' song=Ava Max - Salt playing=True channel=None
 2026-10-07 10:41:20 INFO  pc_status:187     收到 lyric_event [延迟=426ms]: '**I got my thigh-highs on, feel like Wonder Woman**' song=Ava Max - Salt playing=True channel=None
 2026-10-07 10:41:20 INFO  pc_status:187     收到 lyric_event [延迟=438ms]: '**That's when you want all in, but I'm not your woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20649ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21454ms]: '**When my lipstick pops and I feel like Monroe**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21459ms]: '**That's when you want me most, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21462ms]: '**I'm all out of salt, I'm not gonna cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21467ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21468ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21472ms]: '**I'm all out of salt, tears are running dry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21474ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21475ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21476ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21483ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21484ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21487ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21490ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21491ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21495ms]: '**Oh-oh, when I'm 'bout to celebrate**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21496ms]: '**Push my head into the cake, no more**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21498ms]: '**Oh-oh, you're the snake pulling my arm**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21499ms]: '**Like my snakeskin Saint Laurent, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21499ms]: '**I got my thigh-highs on, feel like Wonder Woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21502ms]: '**That's when you want all in, but I'm not your woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21506ms]: '**When my lipstick pops and I feel like Monroe**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21511ms]: '**That's when you want me most, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21512ms]: '**I'm all out of salt, I'm not gonna cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21515ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21520ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21522ms]: '**I'm all out of salt, tears are running dry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21524ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21528ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21531ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21532ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21535ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21538ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21539ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21544ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21549ms]: '**Not gonna cry, cry, cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21537ms]: '**Oh-oh, I got breaking news**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21436ms]: '**And it's not about you, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21364ms]: '**Oh-oh, I've been breaking hearts too**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21294ms]: '**And I learned it all from you, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21232ms]: '**I got my thigh-highs on, feel like Wonder Woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21169ms]: '**That's when you want all in, but I'm not your woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21101ms]: '**When my lipstick pops and I feel like Monroe**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=21038ms]: '**That's when you want me most, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20978ms]: '**I'm all out of salt, I'm not gonna cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20901ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20731ms]: '**I'm all out of salt, tears are running dry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20666ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20605ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20544ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20482ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20388ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20326ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20265ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20198ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20116ms]: '**Oh-oh, when I'm 'bout to celebrate**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=20041ms]: '**Push my head into the cake, no more**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=-7ms]: '**Oh-oh, you're the snake pulling my arm**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=-66ms]: '**Like my snakeskin Saint Laurent, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:41 INFO  pc_status:187     收到 lyric_event [延迟=-122ms]: '**I got my thigh-highs on, feel like Wonder Woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=665ms]: '**That's when you want me most, oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=794ms]: '**That's when you want all in, but I'm not your woman**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=732ms]: '**When my lipstick pops and I feel like Monroe**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=608ms]: '**I'm all out of salt, I'm not gonna cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=529ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=468ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=404ms]: '**I'm all out of salt, tears are running dry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=331ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=235ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=173ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=111ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=50ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-10ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-73ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-133ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-197ms]: '**Not gonna cry, cry, cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-206ms]: '**Not gonna cry, cry, cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-205ms]: '**Not gonna cry, cry, cry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-204ms]: '**I'm all out of salt, I'm not gonna cry** *(Oh)*' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-202ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-202ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-202ms]: '**I'm all out of salt, tears are running dry**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-200ms]: '**Won't give you what you want**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:42 INFO  pc_status:187     收到 lyric_event [延迟=-198ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:44 INFO  pc_status:187     收到 lyric_event [延迟=438ms]: '**'Cause I look way too good tonight**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:45 INFO  pc_status:187     收到 lyric_event [延迟=-140ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:49 INFO  pc_status:187     收到 lyric_event [延迟=-15ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:51 INFO  pc_status:187     收到 lyric_event [延迟=-57ms]: '**I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:41:53 INFO  pc_status:187     收到 lyric_event [延迟=561ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:42:06 INFO  pc_status:187     收到 lyric_event [延迟=10495ms]: '**Oh-oh-oh-oh-oh**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:42:06 INFO  pc_status:187     收到 lyric_event [延迟=7616ms]: '**Oh, I'm all out of salt**' song=Ava Max - Salt playing=True channel=None
+2026-10-07 10:42:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=freezepain - Things You Said（纯音乐）（播放中）CPU=52% 内存=81%
+2026-10-07 10:42:06 INFO  pc_status:187     收到 lyric_event [延迟=921ms]: '**▶ freezepain - Things You Said（纯音乐）**' song=freezepain - Things You Said（纯 playing=True channel=None
+2026-10-07 10:42:10 INFO  pc_status:187     收到 lyric_event [延迟=-14ms]: '**作词 : freezepain**' song=freezepain - Things You Said（纯 playing=True channel=None
+2026-10-07 10:42:12 INFO  pc_status:187     收到 lyric_event [延迟=699ms]: '**作曲 : freezepain**' song=freezepain - Things You Said（纯 playing=True channel=None
+2026-10-07 10:42:12 INFO  pc_status:187     收到 lyric_event [延迟=435ms]: '**编曲 : freezepain**' song=freezepain - Things You Said（纯 playing=True channel=None
+2026-10-07 10:42:12 INFO  pc_status:187     收到 lyric_event [延迟=164ms]: '**纯音乐，请欣赏**' song=freezepain - Things You Said（纯 playing=True channel=None
