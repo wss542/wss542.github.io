@@ -1,4 +1,4 @@
-# 更新于 2026-10-07 08:57:47 · 共 960 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-07 08:58:21 · 共 977 行（来源 huanmeng.log 末尾）
 2026-10-07 00:00:11 INFO  stats:476         🌅 新的一天 20261007 — 发送昨日群聊日报
 2026-10-07 00:00:11 INFO  stats:519         日报跳过(频道不在白名单): 频道=9844130976336955
 2026-10-07 00:00:11 INFO  changelog:903     [Card] 正在截图 → daily_3090677846298039_2026.10.06_20261007_000011.png (12242 bytes HTML)
@@ -959,3 +959,20 @@ Call log:
 2026-10-07 08:57:10 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-07 08:57:19 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-07 08:57:25 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-07 08:58:07 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-07 08:58:07 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /mc  0 :25294' mentions=0 content='/mc  1 :25294' atts=0 ref=False msg_type=0
+2026-10-07 08:58:07 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/mc  0 :25294'
+2026-10-07 08:58:07 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rGlYw4mvz3M0j73FHmsth56vlkoDArOS.1CKrOcQZCGA-3AtgeWQPrmnstQHtDugvbOZaoa5.Y.VxxkKIiMjb-5txQCTepAyDNxCoDSX9nph
+2026-10-07 08:58:07 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-07 08:58:07 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 2条 (阈值=10)
+2026-10-07 08:58:07 INFO  pipeline:503      指令拦截: '/mc  0 :25294' from=若尘 ~喵
+2026-10-07 08:58:07 DEBG  commands:5166     指令解析: prefix=/ cmd=mc args=[' 0 :25294'] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-07 08:58:09 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=34 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp0YHl4otrI62TQXETDakijogOI8C42U3oPfqK3djGbcPcqnsPQO93MgfnweZQHz3eA!!
+2026-10-07 08:58:09 INFO  motd_card:143     motd play.simpfun.cn: SRV=无
+2026-10-07 08:58:13 INFO  changelog:928     [Card] 正在截图 → mc_card_play_simpfun_cn_25294.png (290453 bytes HTML)
+2026-10-07 08:58:13 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
+2026-10-07 08:58:15 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-07 08:58:16 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-07 08:58:16 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-07 08:58:17 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/mc_card_play_simpfun_cn_25294.png size=468.3KB
+2026-10-07 08:58:20 INFO  qq_transport:711  QQ 分片上传成功 file=mc_card_play_simpfun_cn_25294.png size=479502 ttl=86400
