@@ -1,9 +1,4 @@
-# 更新于 2026-10-07 11:31:36 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-07 00:09:50 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-07 00:09:56 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
-2026-10-07 00:10:02 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: [Errno 104] Connection reset by peer（后续同类失败将静默）
-2026-10-07 00:10:02 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-07 00:10:02 WARN  holiday:47        节假日 API 拉取失败: 
+# 更新于 2026-10-07 11:32:30 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-07 00:10:02 INFO  holiday:105       节假日服务已启动
 2026-10-07 00:10:02 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
 2026-10-07 00:10:02 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
@@ -1499,3 +1494,8 @@ Call log:
 2026-10-07 11:16:41 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈慧娴 - 千千阕歌（已暂停）CPU=42% 内存=78%
 2026-10-07 11:21:53 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈慧娴 - 千千阕歌（已暂停）CPU=69% 内存=84%
 2026-10-07 11:26:53 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈慧娴 - 千千阕歌（已暂停）CPU=62% 内存=86%
+2026-10-07 11:31:53 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈慧娴 - 千千阕歌（已暂停）CPU=64% 内存=86%
+2026-10-07 11:32:23 INFO  pc_status:187     收到 lyric_event [延迟=-242ms]: '**▶ 继续播放**' song=陈慧娴 - 千千阕歌 playing=True channel=None
+2026-10-07 11:32:25 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=陈慧娴 - 千千阕歌（播放中）CPU=68% 内存=86%
+2026-10-07 11:32:25 INFO  pc_status:187     收到 lyric_event [延迟=830ms]: '**亦绝不可使我更欣赏**' song=陈慧娴 - 千千阕歌 playing=True channel=None
+2026-10-07 11:32:28 INFO  pc_status:187     收到 lyric_event [延迟=409ms]: '**因今宵的我可共你唱**' song=陈慧娴 - 千千阕歌 playing=True channel=None
