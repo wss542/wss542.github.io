@@ -1,27 +1,4 @@
-# 更新于 2026-10-10 21:29:45 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-10 18:42:12 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-10 18:42:12 INFO  bot:111           ==================================================
-2026-10-10 18:42:12 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-10 18:42:12 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-10 18:42:12 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-10 18:42:12 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-10 18:42:12 INFO  events:94         QQ open-platform channel started
-2026-10-10 18:42:12 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-10 18:42:12 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-10 18:42:12 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-10 18:42:12 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-10 18:42:12 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-10 18:42:12 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-10 18:42:12 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-10 18:42:12 INFO  bot:853           上次采集 2026-10-07T12:01 距今超过 4h，启动时立即补采
-2026-10-10 18:42:12 INFO  wdsj_tracker:78   每日战绩采集: 8 个玩家 x 2 模板
-2026-10-10 18:42:12 INFO  bot:975           PC 掉线检测: 启动时心跳已超时(270756s 前)，掉线状态延续，不重复告警
-2026-10-10 18:42:12 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 270756s 前）
-2026-10-10 18:42:13 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7200s
-2026-10-10 18:42:13 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-10 18:42:14 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-10 18:42:14 INFO  holiday:57        节假日: 2026-10-10 → 国庆节后补班
-2026-10-10 18:42:14 INFO  holiday:105       节假日服务已启动
+# 更新于 2026-10-10 21:30:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-10 18:42:14 INFO  holiday:96        节假日每日刷新: 等待 19071 秒 (下次 00:00:05)
 2026-10-10 18:42:14 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
 2026-10-10 18:42:14 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
@@ -1499,3 +1476,26 @@
 2026-10-10 21:29:32 INFO  pc_status:187     收到 lyric_event [延迟=104ms]: '**Tripping over myself, aching**' song=Shawn Mendes - Stitches playing=True channel=None
 2026-10-10 21:29:35 INFO  pc_status:187     收到 lyric_event [延迟=610ms]: '**Begging you to come help**' song=Shawn Mendes - Stitches playing=True channel=None
 2026-10-10 21:29:37 INFO  pc_status:187     收到 lyric_event [延迟=-184ms]: '**And now that I'm without your kisses**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:29:46 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=34%
+2026-10-10 21:29:46 INFO  pc_status:187     收到 lyric_event [延迟=4991ms]: '**I'll be needin' stitches**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:29:46 INFO  pc_status:187     收到 lyric_event [延迟=-188ms]: '**♪**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:29:56 INFO  pc_status:187     收到 lyric_event [延迟=93ms]: '**Needle and the thread, gotta get you out of my head**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:29:57 INFO  pc_status:187     收到 lyric_event [延迟=852ms]: '**Needle and the thread, gonna wind up dead**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:29:57 INFO  pc_status:187     收到 lyric_event [延迟=206ms]: '**Needle and the thread, gotta get you out of my head**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.8 mem=50.3
+2026-10-10 21:30:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-10 21:30:01 INFO  pc_status:187     收到 lyric_event [延迟=933ms]: '**Needle and the thread, gonna wind up dead** *(gonna wind u' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:04 INFO  pc_status:187     收到 lyric_event [延迟=116ms]: '**Needle and the thread, gotta get you out of my head** *(go' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:07 INFO  pc_status:187     收到 lyric_event [延迟=372ms]: '**Needle and the thread, gonna wind up dead** *(wind up dead' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:16 INFO  pc_status:187     收到 lyric_event [延迟=2118ms]: '**Needle and the thread, gotta get you out of my head**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:16 INFO  pc_status:187     收到 lyric_event [延迟=711ms]: '**Get you out of my head** *(gotta get you out of my head)*' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:16 INFO  pc_status:187     收到 lyric_event [延迟=698ms]: '**You watch me bleed until I can't breathe, shaking**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:17 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Shawn Mendes - Stitches（播放中）CPU=80% 内存=94%
+2026-10-10 21:30:21 INFO  pc_status:187     收到 lyric_event [延迟=757ms]: '**Falling onto my knees** *(falling on my knees)*' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:23 INFO  pc_status:187     收到 lyric_event [延迟=853ms]: '**And now that I'm without your kisses**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:26 INFO  pc_status:187     收到 lyric_event [延迟=357ms]: '**I'll be needin' stitches** *(I'll be needin' stitches)*' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:30 INFO  pc_status:187     收到 lyric_event [延迟=1026ms]: '**Tripping over myself, aching**' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=39.5 mem=50.3
+2026-10-10 21:30:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-10 21:30:35 INFO  pc_status:187     收到 lyric_event [延迟=30ms]: '**Begging you to come help** *(begging, baby, please)*' song=Shawn Mendes - Stitches playing=True channel=None
+2026-10-10 21:30:35 INFO  pc_status:187     收到 lyric_event [延迟=-120ms]: '**And now that I'm without your kisses**' song=Shawn Mendes - Stitches playing=True channel=None
