@@ -1,54 +1,4 @@
-# 更新于 2026-10-10 21:25:12 · 共 1494 行（来源 huanmeng.log 末尾）
-2026-10-10 18:41:45 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-10 18:41:45 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-10 18:42:10 INFO  events:94         ==================================================
-2026-10-10 18:42:10 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-10 18:42:10 INFO  events:94         ==================================================
-2026-10-10 18:42:10 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-10 18:42:10 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-10 18:42:10 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-10 18:42:10 INFO  events:94         日志系统已初始化
-2026-10-10 18:42:10 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-10 18:42:10 INFO  events:94         khl.py Bot 实例已创建
-2026-10-10 18:42:10 INFO  events:94         语言文件已加载
-2026-10-10 18:42:10 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-10 18:42:10 INFO  events:94         日志系统已初始化
-2026-10-10 18:42:10 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-10 18:42:10 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-10-10 18:42:10 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-10 18:42:10 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-10 18:42:10 INFO  events:94         消息发送器已初始化
-2026-10-10 18:42:11 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-10 18:42:11 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-10 18:42:11 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-10 18:42:11 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-10 18:42:11 INFO  events:94         用户名查询模块已初始化
-2026-10-10 18:42:11 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-10 18:42:11 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-10 18:42:11 WARN  context_manager:55 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
-2026-10-10 18:42:11 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-10 18:42:11 INFO  events:94         上下文管理器已初始化
-2026-10-10 18:42:11 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-10 18:42:11 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-10 18:42:11 INFO  events:94         事件分发器已就绪
-2026-10-10 18:42:11 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-10 18:42:11 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-10 18:42:11 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-10 18:42:12 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-10 18:42:12 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-10 18:42:12 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-10 18:42:12 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-10 18:42:12 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-10 18:42:12 WARN  context_manager:55 上下文恢复失败: invalid literal for int() with base 10: 'qq:59B3DFC78FF2CF2CF3C1C9A25E3F617F'
-2026-10-10 18:42:12 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-10 18:42:12 INFO  bot:111           上下文管理器已初始化
-2026-10-10 18:42:12 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-10 18:42:12 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+# 更新于 2026-10-10 21:25:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
 2026-10-10 18:42:12 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
 2026-10-10 18:42:12 INFO  manager:165       Plugin 已启用: checkin@1.0.0
@@ -1493,3 +1443,59 @@
 2026-10-10 21:24:51 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=41%
 2026-10-10 21:24:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=81.5 mem=50.3
 2026-10-10 21:24:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-10 21:25:21 INFO  pc_status:187     收到 lyric_event [延迟=1459ms]: '**we may have different ways to think**
+`我们也许会从不同角度考虑问题`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:21 INFO  pc_status:187     收到 lyric_event [延迟=1028ms]: '**but it doesn't really matter**
+`但这没关系`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:21 INFO  pc_status:187     收到 lyric_event [延迟=454ms]: '**we all caught up in the steam**
+`我们都赶上了`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:21 INFO  pc_status:187     收到 lyric_event [延迟=335ms]: '**of this life**
+`这次人生之旅`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:21 INFO  pc_status:187     收到 lyric_event [延迟=308ms]: '**focus on every little thing**
+`执著于每一件琐事`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:23 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Darin - Be What You Wanna Be（播放中）CPU=90% 内存=93%
+2026-10-10 21:25:23 INFO  pc_status:187     收到 lyric_event [延迟=-27ms]: '**that's what does really matter**
+`这才是问题所在`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:25 INFO  pc_status:187     收到 lyric_event [延迟=227ms]: '**luxury cars and bling**
+`豪车和珠宝`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:27 INFO  pc_status:187     收到 lyric_event [延迟=218ms]: '**that's not real life**
+`那都不是真正的生活`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:28 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.0 mem=50.3
+2026-10-10 21:25:28 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1197ms]: '**作词 : Darin**
+`医生演员律师或歌唱家`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1196ms]: '**作曲 : Darin**
+`医生演员律师或歌唱家`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1191ms]: '**doctor, actor, lawyer or a singer**
+`医生演员律师或歌唱家`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1181ms]: '**why not president, be a dreamer**
+`为什么不是总统？做一个有梦想的人`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1177ms]: '**that's what does really matter**
+`这才是问题所在`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1152ms]: '**luxury cars and bling**
+`豪车和珠宝`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:30 INFO  pc_status:187     收到 lyric_event [延迟=1123ms]: '**I know you could reach the top**
+`我知道你会达到顶峰`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:31 INFO  pc_status:187     收到 lyric_event [延迟=435ms]: '**make sure that you won't stop**
+`确定你不会停下来`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:34 INFO  pc_status:187     收到 lyric_event [延迟=848ms]: '**be the one that you wanna be**
+`做那个你一直都想成为的人`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:35 INFO  pc_status:187     收到 lyric_event [延迟=-35ms]: '**now sing this with me**
+`现在和我一起歌唱`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:37 INFO  pc_status:187     收到 lyric_event [延迟=162ms]: '**doctor, actor, lawyer or a singer**
+`医生演员律师或歌唱家`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:41 INFO  pc_status:187     收到 lyric_event [延迟=832ms]: '**why not president, be a dreamer**
+`为什么不是总统？做一个有梦想的人`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:44 INFO  pc_status:187     收到 lyric_event [延迟=1435ms]: '**you can be just the one you wanna be**
+`你可以成为任何一个你想成为的人`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:52 INFO  pc_status:187     收到 lyric_event [延迟=5341ms]: '**police man, fire fighter or a post man**
+`警察消防员或者邮递员`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:52 INFO  pc_status:187     收到 lyric_event [延迟=875ms]: '**why not something like your old man**
+`为什么不是像你老爸那样的人？`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:52 INFO  pc_status:187     收到 lyric_event [延迟=17ms]: '**you can be just the one you wanna be**
+`你可以成为任何一个你想成为的人`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:55 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=45%
+2026-10-10 21:25:57 INFO  pc_status:187     收到 lyric_event [延迟=824ms]: '**last year I used to dream about this day**
+`去年我还在梦想着有这么一天`' song=Darin - Be What You Wanna Be playing=True channel=None
+2026-10-10 21:25:58 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.5 mem=50.3
+2026-10-10 21:25:58 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
