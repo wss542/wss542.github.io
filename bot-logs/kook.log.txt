@@ -1,4 +1,4 @@
-# 更新于 2026-10-10 19:02:16 · 共 324 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-10 19:02:52 · 共 335 行（来源 huanmeng.log 末尾）
 2026-10-10 18:41:45 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-10 18:41:45 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-10 18:42:10 INFO  events:94         ==================================================
@@ -323,3 +323,14 @@
 2026-10-10 19:02:05 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
 2026-10-10 19:02:06 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#19)
 2026-10-10 19:02:08 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>，5s 后重连
+2026-10-10 19:02:22 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=31.6 mem=50.2
+2026-10-10 19:02:22 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 18s）
+2026-10-10 19:02:24 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>，5s 后重连
+2026-10-10 19:02:36 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，10s 后重启
+2026-10-10 19:02:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.2 mem=50.2
+2026-10-10 19:02:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-10 19:02:44 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error _ssl.c:1063: The handshake operation timed out>，5s 后重连
+2026-10-10 19:02:46 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#20)
+2026-10-10 19:02:46 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Dschinghis Khan - Moskau（播放中）CPU=69% 内存=93%
+2026-10-10 19:02:47 INFO  pc_status:187     收到 lyric_event [延迟=756ms]: '**▶ Leonard Rosenman - British Grenadiers, Fife and Drums**' song=Leonard Rosenman - British Gre playing=True channel=None
+2026-10-10 19:02:49 ERRO  events:94         khl.py Bot 运行异常 (#11): Cannot connect to host www.kaiheila.cn:443 ssl:default [None]，60s 后重连
