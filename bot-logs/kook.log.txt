@@ -1,4 +1,4 @@
-# 更新于 2026-10-11 00:09:18 · 共 121 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-11 00:09:56 · 共 128 行（来源 huanmeng.log 末尾）
 2026-10-11 00:00:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.3 mem=51.1
 2026-10-11 00:00:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-11 00:00:18 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=50%
@@ -120,3 +120,10 @@
 2026-10-11 00:08:48 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=43%
 2026-10-11 00:08:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=45.0 mem=51.0
 2026-10-11 00:08:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-11 00:09:24 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-10-11 00:09:32 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=揽佬SKAI ISYOURGOD - 八方来财（已暂停）CPU=32% 内存=74%
+2026-10-11 00:09:32 WARN  pc_status:213     PC 客户端连接重置: [Errno 104] Connection reset by peer
+2026-10-11 00:09:32 INFO  pc_status:223     PC 客户端断开连接
+2026-10-11 00:09:32 INFO  pc_status:46      PC 客户端已连接
+2026-10-11 00:09:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=44.7 mem=51.0
+2026-10-11 00:09:47 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 23s）
