@@ -1,4 +1,4 @@
-# 更新于 2026-10-10 20:32:04 · 共 955 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-10 20:32:36 · 共 961 行（来源 huanmeng.log 末尾）
 2026-10-10 18:41:45 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-10 18:41:45 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-10 18:42:10 INFO  events:94         ==================================================
@@ -954,3 +954,9 @@
 2026-10-10 20:31:48 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
 2026-10-10 20:31:56 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/mc_card_9666_uno_33244.png size=431.9KB
 2026-10-10 20:32:00 INFO  qq_transport:711  QQ 分片上传成功 file=mc_card_9666_uno_33244.png size=442232 ttl=86400
+2026-10-10 20:32:14 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=59B3DFC78FF2CF2CF3C1C9A25E3F617F len=0 seq=2 id=ROBOT1.0_cd-Kz11P-zug2R5IF4Pp3Lzt26NvnUcZr7.s1T2XURb-SU.Vu4MGlbaDxsNh9mMKjvMq7RwE.Rywd4uufvqxug!!
+2026-10-10 20:32:14 INFO  commands:5223     指令执行完成 [mc]: 无返回值（已自行发送）
+2026-10-10 20:32:14 INFO  logger:541        [TRACE c50cd528d5544bab] total=66229.35ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=65912.1ms(x1) (wall65912.1), queue_wait=287.79ms(x1)
+2026-10-10 20:32:19 WARN  logger:559        [VERY_SLOW c50cd528d5544bab] total=70186.96ms 需重点排查 | process=65912.1ms(x1) (wall65912.1), queue_wait=287.79ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=287.79ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=65912.1ms wall=66331.5ms dominant=other
+2026-10-10 20:32:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=59.1 mem=50.3
+2026-10-10 20:32:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
