@@ -1,8 +1,4 @@
-# 更新于 2026-10-17 04:58:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-17 00:41:25 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 3条 (阈值=10)
-2026-10-17 00:41:25 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
-2026-10-17 00:41:25 DEBG  commands:5166     指令解析: prefix=/ cmd=luck args=[] user=1759953618
-2026-10-17 00:41:25 INFO  commands:734      指令 /luck 触发 user=1759953618
+# 更新于 2026-10-17 04:58:42 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-17 00:41:25 INFO  commands:5221     指令执行完成 [luck]: 返回33字符
 2026-10-17 00:41:26 INFO  logger:541        [TRACE 893bb378c0ef4367] total=662.4ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=662.33ms(x1) (wall662.33), queue_wait=0.63ms(x1)
 2026-10-17 00:41:30 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1495,7 @@
 2026-10-17 04:57:40 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Hedley - Lose Control（已暂停）CPU=21% 内存=88%
 2026-10-17 04:57:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=20.7 mem=37.2
 2026-10-17 04:57:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 04:58:11 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=29%
+2026-10-17 04:58:20 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.1 mem=37.2
+2026-10-17 04:58:20 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 04:58:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Hedley - Lose Control（已暂停）CPU=14% 内存=89%
