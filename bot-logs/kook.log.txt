@@ -1,21 +1,4 @@
-# 更新于 2026-10-16 22:14:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:16:25 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>仓库 物品 添加 yzandwss 水煮黑鱼鱼片_豪吃 100'
-2026-10-16 21:16:25 INFO  logger:541        [TRACE 7b6a5929cb0d41d4] total=3.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.12ms(x1) (wall3.12), queue_wait=1.31ms(x1)
-2026-10-16 21:16:25 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 21:16:25 DEBG  dispatcher:47     dispatch 入口: type=9 content='没找到这个用户喵~ <用户> 可写 @某人 / KOOK用户ID / 昵称\n\n【我的仓库 >仓库 / >背包】\n>仓库                            查看自己的仓库\n>仓库 查 <用户>                   查看指定用户仓库\n>仓库 物品 赠送 <用户> <物品> <数量>  赠送自己的物品（谁都可以）\n>仓库 物品 添加 <用户> <物品> <数量>  直接添加物品（管理员）\n>仓库 物品 扣除 <用户> <物品> <数量>  直接扣除物品（管理员）\n<用户> 可写 @某人 / KOOK用户ID / 昵称；物品名含空格用 _ 连接' is_edit=False
-2026-10-16 21:16:25 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-16 21:16:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=36.0
-2026-10-16 21:16:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 21:16:41 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=32%
-2026-10-16 21:17:02 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 21:17:03 INFO  bot:347           ✏️ 编辑消息作者反查: id=1759953618 username=wss
-2026-10-16 21:17:03 INFO  bot:383           ✏️ 编辑消息 → dispatcher: mid=c79d8503-c59a-437c-81fa-dde4b33cb8c5 chat=3649029148752421 type=255
-2026-10-16 21:17:03 DEBG  dispatcher:47     dispatch 入口: type=1 content='/商店 add shuangzi_1228 100000 这是若尘的qwq' is_edit=True
-2026-10-16 21:17:03 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-2026-10-16 21:17:03 INFO  dispatcher:316    📩 消息 #9 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=3649029148752421 | group=True | content='/商店 add shuangzi_1228 100000 这是若尘的qwq'
-2026-10-16 21:17:03 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
-2026-10-16 21:17:03 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 9条 (阈值=10)
-2026-10-16 21:17:03 INFO  pipeline:503      指令拦截: '/商店 add shuangzi_1228 100000 这是若尘的qwq' from=ywandwss
+# 更新于 2026-10-16 22:15:55 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:17:03 DEBG  commands:5166     指令解析: prefix=/ cmd=商店 args=['add', 'shuangzi_1228', '100000', '这是若尘的qwq'] user=1759953618
 2026-10-16 21:17:03 INFO  commands:5204     插件指令执行完成 [商店]: 返回44字符
 2026-10-16 21:17:03 INFO  logger:541        [TRACE dbeb6291af4743cb] total=576.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=576.41ms(x1) (wall576.41), queue_wait=0.68ms(x1)
@@ -1499,3 +1482,20 @@
 2026-10-16 22:14:56 INFO  pc_status:187     收到 lyric_event [延迟=1254ms]: '**键盘 : Tyler Spry and Simon Oscroft**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
 2026-10-16 22:14:56 INFO  pc_status:187     收到 lyric_event [延迟=685ms]: '**鼓 : Tyler Spry and Simon Oscroft**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
 2026-10-16 22:14:56 INFO  pc_status:187     收到 lyric_event [延迟=134ms]: '**小提琴 : HENRY**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:14:57 INFO  pc_status:187     收到 lyric_event [延迟=709ms]: '**和声 : Tony Ferrari and Tyler Spry**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:14:57 INFO  pc_status:187     收到 lyric_event [延迟=128ms]: '**录音 : Pop Shop** *(Los Angeles/CA)*' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:14:59 INFO  pc_status:187     收到 lyric_event [延迟=181ms]: '**作词 : HENRY刘宪华/Principato/Tommy Driscoll/Tyler Thomas Spry/' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:14:59 INFO  pc_status:187     收到 lyric_event [延迟=166ms]: '**作曲 : HENRY刘宪华/Principato/Tommy Driscoll/Tyler Thomas Spry/' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:14:59 INFO  pc_status:187     收到 lyric_event [延迟=139ms]: '**制作人 : Tyler Spry and Simon Oscroft**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:15:00 INFO  pc_status:187     收到 lyric_event [延迟=630ms]: '**▶ Kevin Rater - I LOVE YOU**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:06 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=44%
+2026-10-16 22:15:07 INFO  pc_status:187     收到 lyric_event [延迟=1836ms]: '**I love you**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.0 mem=36.1
+2026-10-16 22:15:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:15:39 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Kevin Rater - I LOVE YOU（播放中）CPU=100% 内存=94%
+2026-10-16 22:15:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.6 mem=36.1
+2026-10-16 22:15:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:15:45 INFO  pc_status:187     收到 lyric_event [延迟=291ms]: '**Angin bawa kabar ke sana**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:49 INFO  pc_status:187     收到 lyric_event [延迟=42ms]: '**Bilang par sa pung sayang**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:51 INFO  pc_status:187     收到 lyric_event [延迟=1303ms]: '**Kalu sa di sini so rindu pa dia**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:54 INFO  pc_status:187     收到 lyric_event [延迟=316ms]: '**Biar ko pe jauh disana**' song=Kevin Rater - I LOVE YOU playing=True channel=None
