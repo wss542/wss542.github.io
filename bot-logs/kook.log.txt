@@ -1,10 +1,4 @@
-# 更新于 2026-10-16 23:52:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 22:21:09 INFO  logger:541        [TRACE 7de267724a8943e5] total=17.85ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=17.58ms(x1) (wall17.58), queue_wait=4.46ms(x1)
-2026-10-16 22:21:09 INFO  pc_status:187     收到 lyric_event [延迟=1044ms]: '**作曲 : DJMuchY**' song=DJMuchY - Ke Cap Gap Ba Gia playing=True channel=None
-2026-10-16 22:21:14 INFO  pc_status:187     收到 lyric_event [延迟=705ms]: '**Có phải anh đang trêu đùa em đấy không?**
-`我不知道`' song=DJMuchY - Ke Cap Gap Ba Gia playing=True channel=None
-2026-10-16 22:21:23 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 22:21:23 DEBG  dispatcher:47     dispatch 入口: type=9 content='客观来讲' is_edit=False
+# 更新于 2026-10-16 23:53:46 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 22:21:23 DEBG  dispatcher:110    KMD 调试: is_group=True uid=656176615 channel=1010983873136793
 2026-10-16 22:21:23 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=Trusler(656176615) | chat=1010983873136793 | group=True | content='客观来讲'
 2026-10-16 22:21:23 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=1)
@@ -1499,3 +1493,9 @@
 2026-10-16 23:52:34 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=36.5
 2026-10-16 23:52:34 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-16 23:52:42 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-16 23:53:14 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=36.4
+2026-10-16 23:53:14 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 23:53:14 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=饭思思 - 广寒宫（已暂停）CPU=47% 内存=88%
+2026-10-16 23:53:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=36.4
+2026-10-16 23:53:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 23:53:46 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=25%
