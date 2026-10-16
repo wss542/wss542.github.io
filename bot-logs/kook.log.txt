@@ -1,40 +1,4 @@
-# 更新于 2026-10-16 19:26:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 18:34:39 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-16 18:34:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-16 18:34:39 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-16 18:34:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-16 18:34:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-16 18:34:39 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-16 18:34:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-16 18:34:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-16 18:34:39 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-16 18:34:39 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-16 18:34:39 INFO  events:94         ==================================================
-2026-10-16 18:34:39 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-16 18:34:39 INFO  events:94         ==================================================
-2026-10-16 18:34:39 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-16 18:34:39 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-16 18:34:39 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-16 18:34:39 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-16 18:34:39 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-16 18:34:39 INFO  bot:853           上次采集 2026-10-11T16:11 距今超过 4h，启动时立即补采
-2026-10-16 18:34:40 INFO  wdsj_tracker:78   每日战绩采集: 8 个玩家 x 2 模板
-2026-10-16 18:34:40 INFO  bot:975           PC 掉线检测: 启动时心跳已超时(436557s 前)，掉线状态延续，不重复告警
-2026-10-16 18:34:40 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 436557s 前）
-2026-10-16 18:34:42 INFO  notify_system:737 更新检查跳过: 本地 09a8ac5 非远程 4584bbf 祖先（已领先/分叉），不弹卡片
-2026-10-16 18:34:42 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-16 18:34:42 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-16 18:34:42 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-16 18:34:42 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-16 18:34:42 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-16 18:34:42 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-16 18:34:42 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-16 18:34:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=35.8
-2026-10-16 18:34:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 18:34:45 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
-2026-10-16 18:34:45 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-16 18:34:45 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-16 18:34:40 INFO  pc_status:46      PC 客户端已连接
+# 更新于 2026-10-16 19:27:44 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 18:34:40 INFO  holiday:57        节假日: 2026-10-16 → 周五
 2026-10-16 18:34:40 INFO  holiday:105       节假日服务已启动
 2026-10-16 18:34:40 INFO  holiday:96        节假日每日刷新: 等待 19524 秒 (下次 00:00:05)
@@ -1499,3 +1463,39 @@
 2026-10-16 19:26:24 INFO  pc_status:187     收到 lyric_event [延迟=-3838ms]: '**Зугаацаж дуусаад авс руугаа дуртай явна аа**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
 2026-10-16 19:26:28 INFO  pc_status:187     收到 lyric_event [延迟=-2875ms]: '**Rokit Bay гэдэг хүн байдаг гэнэ ээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
 2026-10-16 19:26:29 INFO  pc_status:187     收到 lyric_event [延迟=-4220ms]: '**Түүнийг өсгөсөн хүн нь түүний майжиг эмээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:31 INFO  pc_status:187     收到 lyric_event [延迟=-4475ms]: '**Бүсгүй хүний унгах дуу түүний айдаг чимээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:39 INFO  pc_status:187     收到 lyric_event [延迟=781ms]: '**Тунгаалгүй толгойд орсноо дуулж байгаа нь энэ ээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:42 INFO  pc_status:187     收到 lyric_event [延迟=1122ms]: '**Rokit Bay гэдэг хүн байдаг гэнэ ээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.3 mem=35.9
+2026-10-16 19:26:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 19:26:45 INFO  pc_status:187     收到 lyric_event [延迟=937ms]: '**Түүнийг өсгөсөн хүн нь түүний майжиг эмээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:51 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Rokit Bay - Дуу муутай хүн（播放中）CPU=90% 内存=94%
+2026-10-16 19:26:51 INFO  pc_status:187     收到 lyric_event [延迟=4531ms]: '**Бүсгүй хүний унгах дуу түүний айдаг чимээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:51 INFO  pc_status:187     收到 lyric_event [延迟=568ms]: '**Тунгаалгүй толгойд орсноо дуулж байгаа нь энэ ээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:52 INFO  pc_status:187     收到 lyric_event [延迟=117ms]: '**Зүгээр нэгэн бүтээлч хүн биш Rokit Bay бол уран бүтээлч**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:56 INFO  pc_status:187     收到 lyric_event [延迟=1176ms]: '**Алга болох үгүй хөгжим гэдгээс дур нь хэзээ ч**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:26:59 INFO  pc_status:187     收到 lyric_event [延迟=509ms]: '**Ингээд явж байвал сэтгэл санаа нь хангалуун**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:01 INFO  pc_status:187     收到 lyric_event [延迟=554ms]: '**Залуу сэтгэж явсаар байгаад 50 60 хүрч байж намба сууна**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:04 INFO  pc_status:187     收到 lyric_event [延迟=648ms]: '**Зүгээр нэгэн бүтээлч хүн биш Rokit Bay бол уран бүтээлч**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:06 INFO  pc_status:187     收到 lyric_event [延迟=77ms]: '**Алга болох үгүй хөгжим гэдгээс дур нь хэзээ ч**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:10 INFO  pc_status:187     收到 lyric_event [延迟=1051ms]: '**Ингээд явж байвал сэтгэл санаа нь хангалуун**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:11 INFO  pc_status:187     收到 lyric_event [延迟=55ms]: '**Залуу сэтгэж явсаар байгаад 50 60 хүрч байж намба сууна**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:15 INFO  pc_status:187     收到 lyric_event [延迟=1428ms]: '**Миний талаар жоохон ч гэсэн мэдлэгтэй чи болж байгаа**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:18 INFO  pc_status:187     收到 lyric_event [延迟=1633ms]: '**Хөгжил муутай чихтэй хүмүүс миний хийснийг голж байгаа**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:19 INFO  pc_status:187     收到 lyric_event [延迟=5ms]: '**Хийдэггүй юм аа би энэ бүтээлүүдээ тэдэнд зориулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:21 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
+2026-10-16 19:27:23 INFO  pc_status:187     收到 lyric_event [延迟=1207ms]: '**Үржил шим нь голд нь байгааг мэдэхгүй тэд иднэ тойруулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:26 INFO  pc_status:187     收到 lyric_event [延迟=686ms]: '**Иднэ тойруулж иднэ тойруулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:28 INFO  pc_status:187     收到 lyric_event [延迟=545ms]: '**Иднэ тойруулж иднэ тойруулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=35.9
+2026-10-16 19:27:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 19:27:31 INFO  pc_status:187     收到 lyric_event [延迟=349ms]: '**Иднэ тойруулж иднэ тойруулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:31 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
+2026-10-16 19:27:31 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
+2026-10-16 19:27:32 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
+2026-10-16 19:27:32 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
+2026-10-16 19:27:32 INFO  guild_names:332   guild_names: 距下次全量刷新 27148 秒
+2026-10-16 19:27:34 INFO  pc_status:187     收到 lyric_event [延迟=849ms]: '**Үржил шим нь голд нь байгааг мэдэхгүй тэд иднэ тойруулж**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:36 INFO  pc_status:187     收到 lyric_event [延迟=656ms]: '**Rokit Bay гэдэг хүн байдаг гэнэ ээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:39 INFO  pc_status:187     收到 lyric_event [延迟=448ms]: '**Түүнийг өсгөсөн хүн нь түүний майжиг эмээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
+2026-10-16 19:27:42 INFO  pc_status:187     收到 lyric_event [延迟=531ms]: '**Бүсгүй хүний унгах дуу түүний айдаг чимээ**' song=Rokit Bay - Дуу муутай хүн playing=True channel=None
