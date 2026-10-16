@@ -1,13 +1,4 @@
-# 更新于 2026-10-16 22:15:55 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:17:03 DEBG  commands:5166     指令解析: prefix=/ cmd=商店 args=['add', 'shuangzi_1228', '100000', '这是若尘的qwq'] user=1759953618
-2026-10-16 21:17:03 INFO  commands:5204     插件指令执行完成 [商店]: 返回44字符
-2026-10-16 21:17:03 INFO  logger:541        [TRACE dbeb6291af4743cb] total=576.8ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=576.41ms(x1) (wall576.41), queue_wait=0.68ms(x1)
-2026-10-16 21:17:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=36.1
-2026-10-16 21:17:05 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 21:17:10 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 21:17:10 DEBG  dispatcher:47     dispatch 入口: type=9 content='/商店' is_edit=False
-2026-10-16 21:17:10 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-2026-10-16 21:17:10 INFO  dispatcher:316    📩 消息 #10 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/商店'
+# 更新于 2026-10-16 22:16:29 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:17:10 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
 2026-10-16 21:17:10 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 10条 (阈值=10)
 2026-10-16 21:17:10 INFO  pipeline:503      指令拦截: '/商店' from=ywandwss
@@ -1499,3 +1490,12 @@
 2026-10-16 22:15:49 INFO  pc_status:187     收到 lyric_event [延迟=42ms]: '**Bilang par sa pung sayang**' song=Kevin Rater - I LOVE YOU playing=True channel=None
 2026-10-16 22:15:51 INFO  pc_status:187     收到 lyric_event [延迟=1303ms]: '**Kalu sa di sini so rindu pa dia**' song=Kevin Rater - I LOVE YOU playing=True channel=None
 2026-10-16 22:15:54 INFO  pc_status:187     收到 lyric_event [延迟=316ms]: '**Biar ko pe jauh disana**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:15:56 INFO  pc_status:187     收到 lyric_event [延迟=22ms]: '**Sa juga jao disini**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:00 INFO  pc_status:187     收到 lyric_event [延迟=933ms]: '**Tak ada yang mo ganti**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:02 INFO  pc_status:187     收到 lyric_event [延迟=92ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:09 INFO  pc_status:187     收到 lyric_event [延迟=4028ms]: '**Ko pung posisi** *(Kevin Rater on the mic)*' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=36.1
+2026-10-16 22:16:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:16:11 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
+2026-10-16 22:16:21 INFO  pc_status:187     收到 lyric_event [延迟=199ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:25 INFO  pc_status:187     收到 lyric_event [延迟=960ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
