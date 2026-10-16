@@ -1,23 +1,4 @@
-# 更新于 2026-10-16 22:47:26 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:57:45 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-16 21:57:45 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-16 21:57:45 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+# 更新于 2026-10-16 22:47:59 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
 2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: countdown@1.0.0
 2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
@@ -1499,3 +1480,22 @@
 2026-10-16 22:47:24 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 2条 (阈值=10)
 2026-10-16 22:47:24 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='qwq'
 2026-10-16 22:47:24 INFO  logger:541        [TRACE f8aed8a9b2694b6c] total=1.31ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.27ms(x1) (wall1.27), queue_wait=0.44ms(x1)
+2026-10-16 22:47:38 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-16 22:47:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.0 mem=36.1
+2026-10-16 22:47:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:47:54 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:47:54 DEBG  dispatcher:47     dispatch 入口: type=9 content='呜呜呜' is_edit=False
+2026-10-16 22:47:54 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 22:47:54 INFO  dispatcher:316    📩 消息 #59 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='呜呜呜'
+2026-10-16 22:47:54 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:47:54 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 3条 (阈值=10)
+2026-10-16 22:47:54 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='呜呜呜'
+2026-10-16 22:47:54 INFO  logger:541        [TRACE 2cd187686bed4120] total=1.84ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.75ms(x1) (wall1.75), queue_wait=0.5ms(x1)
+2026-10-16 22:47:58 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:47:58 DEBG  dispatcher:47     dispatch 入口: type=9 content='>help' is_edit=False
+2026-10-16 22:47:58 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 22:47:58 INFO  dispatcher:316    📩 消息 #60 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='>help'
+2026-10-16 22:47:58 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:47:58 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 4条 (阈值=10)
+2026-10-16 22:47:58 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>help'
+2026-10-16 22:47:58 INFO  logger:541        [TRACE 11d0f8d257df4fff] total=1.51ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.46ms(x1) (wall1.46), queue_wait=1.31ms(x1)
