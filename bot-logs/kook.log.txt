@@ -1,30 +1,4 @@
-# 更新于 2026-10-16 22:12:42 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:14:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-2026-10-16 21:14:06 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/商店'
-2026-10-16 21:14:06 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
-2026-10-16 21:14:06 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 4条 (阈值=10)
-2026-10-16 21:14:06 INFO  pipeline:503      指令拦截: '/商店' from=ywandwss
-2026-10-16 21:14:06 DEBG  commands:5166     指令解析: prefix=/ cmd=商店 args=[] user=1759953618
-2026-10-16 21:14:06 INFO  commands:5204     插件指令执行完成 [商店]: 返回104字符
-2026-10-16 21:14:07 INFO  logger:541        [TRACE 00a2ba242bdb4fff] total=737.82ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=737.66ms(x1) (wall737.66), queue_wait=1.04ms(x1)
-2026-10-16 21:14:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.6 mem=36.1
-2026-10-16 21:14:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 21:14:14 INFO  pc_status:187     收到 lyric_event [延迟=1091ms]: '*(如何能令你接近)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
-2026-10-16 21:14:14 INFO  pc_status:187     收到 lyric_event [延迟=92ms]: '**只愿一生爱一人一世亦未够**' song=张学友 - 只愿一生爱一人 playing=True channel=None
-2026-10-16 21:14:22 INFO  pc_status:187     收到 lyric_event [延迟=293ms]: '*(求莫要我心伤透)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
-2026-10-16 21:14:25 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=张学友 - 只愿一生爱一人（播放中）CPU=82% 内存=93%
-2026-10-16 21:14:25 INFO  pc_status:187     收到 lyric_event [延迟=656ms]: '**只愿一生爱一人即使做玩偶**' song=张学友 - 只愿一生爱一人 playing=True channel=None
-2026-10-16 21:14:30 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 21:14:30 DEBG  dispatcher:47     dispatch 入口: type=9 content='/积分 (met)337936062(met) ' is_edit=False
-2026-10-16 21:14:30 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-2026-10-16 21:14:30 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/积分 (met)337936062(met) '
-2026-10-16 21:14:30 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
-2026-10-16 21:14:30 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 5条 (阈值=10)
-2026-10-16 21:14:30 INFO  pipeline:503      指令拦截: '/积分 @제미니 (shuangzi_1228)  ' from=ywandwss
-2026-10-16 21:14:30 DEBG  commands:5166     指令解析: prefix=/ cmd=积分 args=['337936062'] user=1759953618
-2026-10-16 21:14:30 INFO  commands:5204     插件指令执行完成 [积分]: 返回88字符
-2026-10-16 21:14:31 INFO  logger:541        [TRACE 5f70123ab63d468a] total=667.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=666.86ms(x1) (wall666.86), queue_wait=0.88ms(x1)
-2026-10-16 21:14:35 INFO  pc_status:187     收到 lyric_event [延迟=3184ms]: '*(如何能令你接近)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
+# 更新于 2026-10-16 22:13:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:14:36 INFO  pc_status:187     收到 lyric_event [延迟=1127ms]: '**只愿一生爱一人一世亦未够**' song=张学友 - 只愿一生爱一人 playing=True channel=None
 2026-10-16 21:14:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=36.1
 2026-10-16 21:14:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1473,29 @@
 2026-10-16 22:12:35 INFO  pc_status:187     收到 lyric_event [延迟=635ms]: '**制作人 : Tyler Spry and Simon Oscroft**' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
 2026-10-16 22:12:41 INFO  pc_status:187     收到 lyric_event [延迟=707ms]: '**It's been a day in my head**
 `做了一日思想斗争`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=51.4 mem=36.1
+2026-10-16 22:12:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:12:43 INFO  pc_status:187     收到 lyric_event [延迟=1064ms]: '**I'm hanging on my last thread**
+`我还在挣扎`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:44 INFO  pc_status:187     收到 lyric_event [延迟=164ms]: '**There's things I gotta forget**
+`看来得学着去忘记`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:49 INFO  pc_status:187     收到 lyric_event [延迟=1120ms]: '**I'm catching up with it lately**
+`最近不是很想拖延`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:50 INFO  pc_status:187     收到 lyric_event [延迟=98ms]: '**Spinning out a bit crazy**
+`无所事事 真是不理解呢`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:53 INFO  pc_status:187     收到 lyric_event [延迟=793ms]: '**Know you're feeling the same thing**
+`你应该跟我感同身受吧`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:12:59 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=36%
+2026-10-16 22:13:05 INFO  pc_status:187     收到 lyric_event [延迟=383ms]: '**Cause we've been driving and riding, just killing the time' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:13:07 INFO  pc_status:187     收到 lyric_event [延迟=975ms]: '**And it's like we got nowhere to go**
+`但却似乎被困在了原地`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:13:07 INFO  pc_status:187     收到 lyric_event [延迟=719ms]: '**So meet me underneath the moonlight**
+`那不妨和我在月光下相会`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:13:07 INFO  pc_status:187     收到 lyric_event [延迟=608ms]: '**Light the fire, get your mood right**
+`点起那团火 再振作起来`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:13:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=36.1
+2026-10-16 22:13:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:13:21 INFO  pc_status:187     收到 lyric_event [延迟=7055ms]: '**Must be something in the air, cause I don't even care**
+`微' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
+2026-10-16 22:13:21 INFO  pc_status:187     收到 lyric_event [延迟=5724ms]: '**Gonna dance until the sunrise**
+`我会彻夜不休地起舞`' song=HENRY刘宪华 - MOONLIGHT playing=True channel=None
