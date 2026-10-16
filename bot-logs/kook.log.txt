@@ -1,25 +1,4 @@
-# 更新于 2026-10-16 21:15:15 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 19:22:05 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-16 19:22:05 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-16 19:22:05 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-16 19:22:05 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-16 19:22:05 INFO  bot:868           战绩采集将在 0h38m 后执行 (20:01)
-2026-10-16 19:22:05 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 68s 前）
-2026-10-16 19:22:05 INFO  holiday:57        节假日: 2026-10-16 → 周五
-2026-10-16 19:22:05 INFO  holiday:105       节假日服务已启动
-2026-10-16 19:22:05 INFO  holiday:96        节假日每日刷新: 等待 16679 秒 (下次 00:00:05)
-2026-10-16 19:22:05 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-16 19:22:05 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-16 19:22:06 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-16 19:22:06 INFO  pc_status:917     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-16 19:22:06 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-16 19:22:06 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-16 19:22:06 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-16 19:22:06 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-16 19:22:06 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-16 19:22:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.3 mem=35.9
-2026-10-16 19:22:06 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 19:22:06 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+# 更新于 2026-10-16 21:16:16 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 19:22:06 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-16 19:22:06 INFO  pc_status:46      PC 客户端已连接
 2026-10-16 19:22:06 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=大张伟 - 倍儿爽（播放中）
@@ -1499,3 +1478,24 @@
 2026-10-16 21:14:56 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=30%
 2026-10-16 21:15:05 INFO  pc_status:187     收到 lyric_event [延迟=264ms]: '**只愿一生爱一人一世亦未够**' song=张学友 - 只愿一生爱一人 playing=True channel=None
 2026-10-16 21:15:05 INFO  pc_status:187     收到 lyric_event [延迟=2ms]: '*(求莫要我心伤透)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
+2026-10-16 21:15:26 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=21.9 mem=36.1
+2026-10-16 21:15:26 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 21:15:37 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 21:15:37 DEBG  dispatcher:47     dispatch 入口: type=9 content='>仓库 物品 添加 (met)1759953618(met) 水煮黑鱼鱼片_豪吃 10086' is_edit=False
+2026-10-16 21:15:37 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 21:15:37 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='>仓库 物品 添加 (met)1759953618(met) 水煮黑鱼鱼片_豪吃 10086'
+2026-10-16 21:15:37 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 21:15:37 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 6条 (阈值=10)
+2026-10-16 21:15:37 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>仓库 物品 添加 @ywandwss  水煮黑鱼鱼片_豪吃 10086'
+2026-10-16 21:15:37 INFO  logger:541        [TRACE 967b93fbb5aa4441] total=5.03ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.82ms(x1) (wall4.82), queue_wait=0.86ms(x1)
+2026-10-16 21:15:38 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 21:15:38 DEBG  dispatcher:47     dispatch 入口: type=9 content='单次最多操作 999 个喵~' is_edit=False
+2026-10-16 21:15:38 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-16 21:15:40 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=张学友 - 只愿一生爱一人（播放中）CPU=100% 内存=93%
+2026-10-16 21:15:41 INFO  pc_status:187     收到 lyric_event [延迟=-1031ms]: '**▶ Robin Schulz / John Ryan / Kar Play - Shed a Light**' song=Robin Schulz / John Ryan / Kar playing=True channel=None
+2026-10-16 21:16:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=36.0
+2026-10-16 21:16:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 21:16:02 INFO  pc_status:187     收到 lyric_event [延迟=711ms]: '**作词 : Pierre David Guetta/Jurgen Dohr/Giorgio Tuinfort/Jaso' song=Robin Schulz / John Ryan / Kar playing=True channel=None
+2026-10-16 21:16:02 INFO  pc_status:187     收到 lyric_event [延迟=420ms]: '**作曲 : Jurgen Dohr/Pierre David Guetta/Jason Evigan/Ammar Ma' song=Robin Schulz / John Ryan / Kar playing=True channel=None
+2026-10-16 21:16:02 INFO  pc_status:187     收到 lyric_event [延迟=45ms]: '**纯音乐，请欣赏**' song=Robin Schulz / John Ryan / Kar playing=True channel=None
+2026-10-16 21:16:10 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Robin Schulz / John Ryan / Kar Play - Sh（播放中）CPU=97% 内存=94%
