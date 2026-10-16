@@ -1,4 +1,4 @@
-# 更新于 2026-10-17 02:19:48 · 共 1312 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-17 02:20:23 · 共 1327 行（来源 huanmeng.log 末尾）
 2026-10-17 00:00:05 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=36%
 2026-10-17 00:00:07 INFO  stats:476         🌅 新的一天 20261017 — 发送昨日群聊日报
 2026-10-17 00:00:07 INFO  stats:519         日报跳过(频道不在白名单): 频道=1759953618
@@ -1311,3 +1311,18 @@
 2026-10-17 02:19:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=36.6
 2026-10-17 02:19:32 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-17 02:19:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Hedley - Lose Control（已暂停）CPU=29% 内存=84%
+2026-10-17 02:20:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.1 mem=36.6
+2026-10-17 02:20:03 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 02:20:13 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=30%
+2026-10-17 02:20:19 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-17 02:20:19 DEBG  dispatcher:47     dispatch 入口: type=9 content='/mc  0 ' is_edit=False
+2026-10-17 02:20:19 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-17 02:20:19 INFO  dispatcher:316    📩 消息 #74 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/mc  0 '
+2026-10-17 02:20:19 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-10-17 02:20:19 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-17 02:20:19 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-10-17 02:20:19 INFO  pipeline:503      指令拦截: '/mc  0 ' from=ywandwss
+2026-10-17 02:20:19 DEBG  commands:5166     指令解析: prefix=/ cmd=mc args=[' 0 '] user=1759953618
+2026-10-17 02:20:20 INFO  motd_card:143     motd mc4399.cn: SRV=w25.kkwmc.cn:7110
+2026-10-17 02:20:21 INFO  changelog:928     [Card] 正在截图 → mc_card_mc4399_cn_25565.png (292501 bytes HTML)
+2026-10-17 02:20:21 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
