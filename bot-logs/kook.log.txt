@@ -1,9 +1,4 @@
-# 更新于 2026-10-17 05:01:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-17 00:41:31 INFO  dispatcher:316    📩 消息 #72 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='/签到'
-2026-10-17 00:41:31 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 00:41:31 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
-2026-10-17 00:41:31 INFO  pipeline:503      指令拦截: '/签到' from=ywandwss
-2026-10-17 00:41:31 DEBG  commands:5166     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+# 更新于 2026-10-17 05:02:15 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-17 00:41:31 INFO  checkin:117       签到: u:1759953618 streak=2 +6分
 2026-10-17 00:41:31 INFO  commands:5221     指令执行完成 [签到]: 返回43字符
 2026-10-17 00:41:32 INFO  logger:541        [TRACE b872e69f15454eb8] total=432.72ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=432.65ms(x1) (wall432.65), queue_wait=0.2ms(x1)
@@ -1499,3 +1494,8 @@
 2026-10-17 05:00:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=29.0 mem=37.2
 2026-10-17 05:00:55 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-17 05:01:19 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=23%
+2026-10-17 05:01:25 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=37.2
+2026-10-17 05:01:25 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 05:01:49 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Hedley - Lose Control（已暂停）CPU=22% 内存=87%
+2026-10-17 05:01:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.6 mem=37.2
+2026-10-17 05:01:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
