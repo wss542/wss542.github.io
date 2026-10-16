@@ -1,39 +1,4 @@
-# 更新于 2026-10-16 22:48:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-16 21:57:45 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-16 21:57:45 INFO  events:94         ==================================================
-2026-10-16 21:57:45 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-16 21:57:45 INFO  events:94         ==================================================
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-16 21:57:45 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-16 21:57:45 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-16 21:57:45 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-16 21:57:45 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-16 21:57:45 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-16 21:57:45 INFO  bot:111           ==================================================
-2026-10-16 21:57:45 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-16 21:57:45 INFO  bot:111           ==================================================
-2026-10-16 21:57:45 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-16 21:57:45 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-16 21:57:45 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-16 21:57:45 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
+# 更新于 2026-10-16 22:49:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:57:45 INFO  events:94         QQ open-platform channel started
 2026-10-16 21:57:45 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
 2026-10-16 21:57:45 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
@@ -1499,3 +1464,38 @@
 2026-10-16 22:48:29 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-16 22:48:29 DEBG  dispatcher:47     dispatch 入口: type=9 content='不过这个得管理员来操作哦，我喊不动(emj)捂脸(emj)[3090677846298039/Y2AgLiuQXn0ey0dy]' is_edit=False
 2026-10-16 22:48:29 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-16 22:48:36 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:48:36 DEBG  dispatcher:47     dispatch 入口: type=9 content='(emj)卖掉了trusler嘻嘻(emj)[3090677846298039/7YteTbdzeu0dw0dw] ' is_edit=False
+2026-10-16 22:48:36 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-10-16 22:48:36 INFO  dispatcher:202    🧩 消息内解析到 1 个服务器表情
+2026-10-16 22:48:36 INFO  dispatcher:316    📩 消息 #66 | type=图文 | imgs=1 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='[表情] '
+2026-10-16 22:48:36 INFO  dispatcher:394    🖼️  [chat=3649029148752421] 需回复的图文/引用图消息 → 同步识别 1 张（最多15s/张）
+2026-10-16 22:48:36 INFO  image_api:152     [chat=3649029148752421] 开始获取图片: https://img.kookapp.cn/emojis/3090677846298039/7YteTbdzeu0dw...
+2026-10-16 22:48:37 INFO  image_api:168     [chat=3649029148752421] 图片下载成功: 86444 bytes
+2026-10-16 22:48:37 DEBG  image_api:82      缓存过期(MD5=89018cdeaae4...)
+2026-10-16 22:48:37 INFO  image_api:204     [chat=3649029148752421] 图片预处理: JPEG(500x500) → PNG 86444 bytes → 305243 bytes
+2026-10-16 22:48:37 INFO  image_api:251     [chat=3649029148752421] 调用主视觉模型识别图片 (MD5=89018cdeaae4...) model=deepseek-flash
+2026-10-16 22:48:39 INFO  image_api:280     [chat=3649029148752421] 图片识别成功 (model=deepseek-flash): 白紫发紫瞳女孩戴蝴蝶结，眼垂脸红嘴微张，神情委屈、无奈、失落又呆滞。灰色邮戳标签写“卖掉了”“SOL...
+2026-10-16 22:48:39 DEBG  image_api:64      图片缓存已写入磁盘: 390 条
+2026-10-16 22:48:39 INFO  dispatcher:984    🖼️  [chat=3649029148752421] 图#1/1 识别完成: '白紫发紫瞳女孩戴蝴蝶结，眼垂脸红嘴微张，神情委屈、无奈、失落又呆滞。灰色邮戳标签写“卖掉了”“SOLD OUT”。...' (57字) url=https://img.kookapp.cn/emojis/3090677846298039/7YteTbdzeu0dw
+2026-10-16 22:48:39 INFO  dispatcher:410    🖼️  [chat=3649029148752421] 图1 识别完成并注入上下文: '白紫发紫瞳女孩戴蝴蝶结，眼垂脸红嘴微张，神情委屈、无奈、失落又呆滞。灰色邮戳标签写“卖掉了”“SOL...'
+2026-10-16 22:48:39 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:48:39 INFO  pipeline:390      附带图片已记录 [chat=3649029148752421] count=1
+2026-10-16 22:48:39 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 10条 (阈值=10)
+2026-10-16 22:48:39 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[表情] '
+2026-10-16 22:48:39 INFO  logger:541        [TRACE 8e5d3a9708f5418e] total=2.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.99ms(x1) (wall1.99), queue_wait=1.28ms(x1)
+2026-10-16 22:48:39 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-16 22:48:39 INFO  engine:92         异步记忆提炼完成 chat=3649029148752421: 候选6 新增6
+2026-10-16 22:48:40 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-16 22:48:41 INFO  llm:544           LLM [deepseek-flash] 返回 313字符 耗时1.3s → "[22:32:21] 제미니 (shuangzi_1228): 抄我的是吧（）\n[22:32:26]..."
+2026-10-16 22:48:41 INFO  memory:223        [3649029148752421] 压缩完成: 10条消息 → 保存
+2026-10-16 22:48:44 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:48:44 DEBG  dispatcher:47     dispatch 入口: type=9 content='可' is_edit=False
+2026-10-16 22:48:44 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 22:48:44 INFO  dispatcher:316    📩 消息 #67 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='可'
+2026-10-16 22:48:44 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:48:44 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
+2026-10-16 22:48:44 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='可'
+2026-10-16 22:48:44 INFO  logger:541        [TRACE eefa0f41281c47c5] total=4.3ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.24ms(x1) (wall4.24), queue_wait=1.67ms(x1)
+2026-10-16 22:48:59 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=36.1
+2026-10-16 22:48:59 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
