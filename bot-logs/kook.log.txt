@@ -1,4 +1,4 @@
-# 更新于 2026-10-16 18:35:49 · 共 201 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-16 18:36:33 · 共 240 行（来源 huanmeng.log 末尾）
 2026-10-16 18:33:38 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-16 18:33:39 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-16 18:34:01 INFO  events:94         ==================================================
@@ -200,3 +200,42 @@
 2026-10-16 18:35:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-16 18:35:45 INFO  bot:1017          主电脑已恢复（通知已静默，由 GitHub Actions 推送）
 2026-10-16 18:35:48 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-16 18:35:50 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-16 18:35:53 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-16 18:35:55 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-16 18:36:04 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 18:36:06 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=67%
+2026-10-16 18:36:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 18:36:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 18:36:07 DEBG  dispatcher:47     dispatch 入口: type=9 content='/fuck' is_edit=False
+2026-10-16 18:36:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+2026-10-16 18:36:07 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/fuck'
+2026-10-16 18:36:07 INFO  queues:32         [队列] 创建群1010983873136793 的独立消息队列
+2026-10-16 18:36:07 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=1)
+2026-10-16 18:36:07 DEBG  dispatcher:47     dispatch 入口: type=9 content='/luck' is_edit=False
+2026-10-16 18:36:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+2026-10-16 18:36:07 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/luck'
+2026-10-16 18:36:07 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=2)
+2026-10-16 18:36:07 DEBG  dispatcher:47     dispatch 入口: type=9 content='/签到' is_edit=False
+2026-10-16 18:36:07 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
+2026-10-16 18:36:07 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/签到'
+2026-10-16 18:36:07 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=3)
+2026-10-16 18:36:07 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 1条 (阈值=10)
+2026-10-16 18:36:07 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
+2026-10-16 18:36:07 DEBG  commands:5166     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
+2026-10-16 18:36:07 INFO  commands:5221     指令执行完成 [fuck]: 返回31字符
+2026-10-16 18:36:08 INFO  logger:541        [TRACE 50b785982e384f87] total=952.86ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=950.39ms(x1) (wall950.39), queue_wait=23.41ms(x1)
+2026-10-16 18:36:08 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 2条 (阈值=10)
+2026-10-16 18:36:08 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
+2026-10-16 18:36:08 DEBG  commands:5166     指令解析: prefix=/ cmd=luck args=[] user=1759953618
+2026-10-16 18:36:08 INFO  commands:734      指令 /luck 触发 user=1759953618
+2026-10-16 18:36:08 INFO  commands:5221     指令执行完成 [luck]: 返回33字符
+2026-10-16 18:36:08 INFO  logger:541        [TRACE 325caa8759c64f6d] total=414.69ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=414.61ms(x1) (wall414.61), queue_wait=968.45ms(x1)
+2026-10-16 18:36:08 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
+2026-10-16 18:36:08 INFO  pipeline:503      指令拦截: '/签到' from=ywandwss
+2026-10-16 18:36:08 DEBG  commands:5166     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+2026-10-16 18:36:08 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
+2026-10-16 18:36:08 INFO  commands:5221     指令执行完成 [签到]: 返回43字符
+2026-10-16 18:36:09 INFO  logger:541        [TRACE 76dea72eafcb4852] total=504.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=504.32ms(x1) (wall504.32), queue_wait=1381.88ms(x1)
+2026-10-16 18:36:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=35.8
+2026-10-16 18:36:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
