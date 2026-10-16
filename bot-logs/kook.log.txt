@@ -1,51 +1,4 @@
-# 更新于 2026-10-16 22:46:10 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:56:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.6 mem=36.1
-2026-10-16 21:56:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 21:56:46 INFO  pc_status:187     收到 lyric_event [延迟=933ms]: '**⏸ 已暂停**' song=刘君 - 在你的身边 playing=False channel=None
-2026-10-16 21:57:02 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=刘君 - 在你的身边（已暂停）CPU=60% 内存=93%
-2026-10-16 21:57:08 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-16 21:57:09 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-16 21:57:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=41.2 mem=36.1
-2026-10-16 21:57:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-16 21:57:33 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=31%
-2026-10-16 21:57:37 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-16 21:57:37 INFO  pc_status:223     PC 客户端断开连接
-2026-10-16 21:57:37 INFO  pc_status:223     PC 客户端断开连接
-2026-10-16 21:57:37 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
-2026-10-16 21:57:37 INFO  events:94         🛑 正在关闭...
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: chou
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: echo
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: eq
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: greet
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: luck
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: motou
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: weather
-2026-10-16 21:57:37 INFO  manager:234       Plugin 已卸载: whois
-2026-10-16 21:57:37 INFO  events:94         Plugin Runtime 已关闭
-2026-10-16 21:57:37 INFO  events:94         运行统计: {'active_chats': 2, 'total_context_lines': 12, 'total_buffer_lines': 17, 'active_tasks': 0}
-2026-10-16 21:57:37 INFO  context_manager:190 上下文已写入磁盘
-2026-10-16 21:57:37 INFO  events:94         👋 再见！
-2026-10-16 21:57:37 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-16 21:57:37 INFO  main:70           应用程序已退出
-2026-10-16 21:57:37 INFO  qq_bot:139        QQBot 已取消
-2026-10-16 21:57:37 INFO  events:94         🛑 正在关闭...
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: chou
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: echo
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: eq
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: greet
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: luck
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: motou
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: sandbox
+# 更新于 2026-10-16 22:46:56 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: tuf
 2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: weather
 2026-10-16 21:57:38 INFO  manager:234       Plugin 已卸载: whois
@@ -1499,3 +1452,50 @@
 2026-10-16 22:46:08 WARN  logger:559        [VERY_SLOW 17c2c360e1ae404f] total=15095.87ms 需重点排查 | json_parse=1.78ms(x1), llm=7928.31ms(x1), memory=35.12ms(x2), process=15094.59ms(x1) (wall15094.59), queue_wait=26.09ms(x1) | llm_calls=5 total=10159.07ms avg=5079.54ms max=7916.52ms p50=5079.54 p95=7632.82 p99=7859.78 | perf: queue=26.09ms llm=7930.09ms search_tool=0.0ms delivery=0.0ms other=15129.71ms wall=15095.83ms dominant=other
 2026-10-16 22:46:08 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
 2026-10-16 22:46:08 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-16 22:46:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=36.1
+2026-10-16 22:46:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:46:10 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=545 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpzNkkjz17oEr6YHXwB9bVO-ungY15e5ohZmdQBTHI.Pn42bLHK9hk-KR0sjFI08y-Q!!
+2026-10-16 22:46:10 INFO  llm:544           LLM [deepseek-flash] 返回 218字符 耗时2.2s → "[22:46:08] 若尘 ~喵: 你是什么？, 茂密: 我是谁喵？主人好呀～我是茂密喵！一个友好又..."
+2026-10-16 22:46:10 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 2条消息 → 保存
+2026-10-16 22:46:13 INFO  qq_transport:711  QQ 分片上传成功 file=tmp79i_7nbb.webp size=43026 ttl=86400
+2026-10-16 22:46:17 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp3FJJxScQLnMgNOoICgpHyF1yqvq5O8Ed-EMLavX9dCpgz0xMuw55.nbhfke8L6-RA!!
+2026-10-16 22:46:17 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Hkyv4C6idN0k00k0.png (.webp 43026B)
+2026-10-16 22:46:20 INFO  qq_transport:711  QQ 分片上传成功 file=tmp4ykmwj76.webp size=44496 ttl=86400
+2026-10-16 22:46:24 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=3 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp4olUjZX5vO.TVv26th-GgUoIf.Tr8agoZZDd.32ikgx0AkxQiycwtdgm6yuA7Onfg!!
+2026-10-16 22:46:24 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/3vDzE8lM9R0go0j4.png (.webp 44496B)
+2026-10-16 22:46:27 INFO  qq_transport:711  QQ 分片上传成功 file=tmpse59kfbg.webp size=67022 ttl=86400
+2026-10-16 22:46:31 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=4 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp9Hva4Wc0FDBPTHuHXu0Wc6lJ4kklXSjj04FMUxy0LJ0zwR.bwkutoABLyGwIvulMQ!!
+2026-10-16 22:46:31 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/Be3yZcnj1L0nm0nf.png (.webp 67022B)
+2026-10-16 22:46:31 DEBG  response_delivery:297 已发送第 1/1 条: **我是谁喵？**
+主人好呀～我是茂密喵！(emj)开心1(...
+2026-10-16 22:46:31 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-10-16 22:46:31 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-10-16 22:46:33 INFO  qq_transport:711  QQ 分片上传成功 file=开心1(第二种).webp size=43990 ttl=86400
+2026-10-16 22:46:35 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
+2026-10-16 22:46:38 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=5 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDpwnD7xTh09pNbhHEieUB9M.WjYTiHw08gF83VzqWifCHovtD0SHrTuxsQXA4G6BrYQ!!
+2026-10-16 22:46:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.6 mem=36.1
+2026-10-16 22:46:41 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:46:50 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:46:50 DEBG  dispatcher:47     dispatch 入口: type=9 content='666' is_edit=False
+2026-10-16 22:46:50 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 22:46:50 INFO  dispatcher:316    📩 消息 #51 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='666'
+2026-10-16 22:46:50 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:46:50 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 5条 (阈值=10)
+2026-10-16 22:46:50 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='666'
+2026-10-16 22:46:50 INFO  logger:541        [TRACE d76e5805edc04d4c] total=1.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.04ms(x1) (wall1.04), queue_wait=0.61ms(x1)
+2026-10-16 22:46:54 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:46:54 DEBG  dispatcher:47     dispatch 入口: type=9 content='才发现' is_edit=False
+2026-10-16 22:46:54 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=3649029148752421
+2026-10-16 22:46:54 INFO  dispatcher:316    📩 消息 #52 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=3649029148752421 | group=True | content='才发现'
+2026-10-16 22:46:54 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:46:54 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 6条 (阈值=10)
+2026-10-16 22:46:54 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='才发现'
+2026-10-16 22:46:54 INFO  logger:541        [TRACE ac6652acff6f486f] total=1.6ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1.56ms(x1) (wall1.56), queue_wait=0.4ms(x1)
+2026-10-16 22:46:56 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-16 22:46:56 DEBG  dispatcher:47     dispatch 入口: type=9 content='？' is_edit=False
+2026-10-16 22:46:56 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-10-16 22:46:56 INFO  dispatcher:316    📩 消息 #53 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='？'
+2026-10-16 22:46:56 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-10-16 22:46:56 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 7条 (阈值=10)
+2026-10-16 22:46:56 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
+2026-10-16 22:46:56 INFO  logger:541        [TRACE d3682f134a044b5e] total=4.82ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=4.71ms(x1) (wall4.71), queue_wait=1.4ms(x1)
