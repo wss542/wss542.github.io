@@ -1,4 +1,4 @@
-# 更新于 2026-10-16 18:34:44 · 共 174 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-16 18:35:08 · 共 193 行（来源 huanmeng.log 末尾）
 2026-10-16 18:33:38 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-16 18:33:39 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-16 18:34:01 INFO  events:94         ==================================================
@@ -173,3 +173,22 @@
 2026-10-16 18:34:42 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
 2026-10-16 18:34:42 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
 2026-10-16 18:34:42 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-10-16 18:34:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=35.8
+2026-10-16 18:34:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 18:34:45 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+2026-10-16 18:34:45 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-16 18:34:45 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-10-16 18:34:40 INFO  pc_status:46      PC 客户端已连接
+2026-10-16 18:34:40 INFO  holiday:57        节假日: 2026-10-16 → 周五
+2026-10-16 18:34:40 INFO  holiday:105       节假日服务已启动
+2026-10-16 18:34:40 INFO  holiday:96        节假日每日刷新: 等待 19524 秒 (下次 00:00:05)
+2026-10-16 18:34:40 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=56%
+2026-10-16 18:34:46 INFO  wdsj_tracker:102  采集进度: 5/8
+2026-10-16 18:34:50 INFO  wdsj_tracker:106  每日战绩采集完成: 16 条新记录
+2026-10-16 18:34:50 INFO  bot:868           战绩采集将在 1h26m 后执行 (20:01)
+2026-10-16 18:34:50 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-16 18:34:51 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-16 18:34:51 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-16 18:34:51 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-10-16 18:34:51 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-10-16 18:34:51 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
