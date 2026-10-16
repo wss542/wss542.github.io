@@ -1,9 +1,4 @@
-# 更新于 2026-10-16 19:33:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 18:36:08 INFO  pipeline:503      指令拦截: '/luck' from=ywandwss
-2026-10-16 18:36:08 DEBG  commands:5166     指令解析: prefix=/ cmd=luck args=[] user=1759953618
-2026-10-16 18:36:08 INFO  commands:734      指令 /luck 触发 user=1759953618
-2026-10-16 18:36:08 INFO  commands:5221     指令执行完成 [luck]: 返回33字符
-2026-10-16 18:36:08 INFO  logger:541        [TRACE 325caa8759c64f6d] total=414.69ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=414.61ms(x1) (wall414.61), queue_wait=968.45ms(x1)
+# 更新于 2026-10-16 19:34:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 18:36:08 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
 2026-10-16 18:36:08 INFO  pipeline:503      指令拦截: '/签到' from=ywandwss
 2026-10-16 18:36:08 DEBG  commands:5166     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
@@ -1499,3 +1494,8 @@
 2026-10-16 19:32:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=35.9
 2026-10-16 19:32:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-16 19:33:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Major Domes - I Believe (Extended Versio（播放中）CPU=100% 内存=83%
+2026-10-16 19:33:37 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=35.9
+2026-10-16 19:33:37 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 19:33:54 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-16 19:33:54 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=35.9
+2026-10-16 19:33:54 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
