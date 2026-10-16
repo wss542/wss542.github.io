@@ -1,10 +1,4 @@
-# 更新于 2026-10-16 21:14:39 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 19:22:04 INFO  events:94         ==================================================
-2026-10-16 19:22:04 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-16 19:22:04 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-16 19:22:04 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-16 19:22:04 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-16 19:22:04 INFO  qq_transport:113  QQ access_token 已刷新，有效期 4342s
+# 更新于 2026-10-16 21:15:15 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 19:22:05 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
 2026-10-16 19:22:05 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-10-16 19:22:05 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
@@ -1499,3 +1493,9 @@
 2026-10-16 21:14:31 INFO  logger:541        [TRACE 5f70123ab63d468a] total=667.02ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=666.86ms(x1) (wall666.86), queue_wait=0.88ms(x1)
 2026-10-16 21:14:35 INFO  pc_status:187     收到 lyric_event [延迟=3184ms]: '*(如何能令你接近)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
 2026-10-16 21:14:36 INFO  pc_status:187     收到 lyric_event [延迟=1127ms]: '**只愿一生爱一人一世亦未够**' song=张学友 - 只愿一生爱一人 playing=True channel=None
+2026-10-16 21:14:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=36.1
+2026-10-16 21:14:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 21:14:41 INFO  pc_status:187     收到 lyric_event [延迟=207ms]: '*(求莫要我心伤透)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
+2026-10-16 21:14:56 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=30%
+2026-10-16 21:15:05 INFO  pc_status:187     收到 lyric_event [延迟=264ms]: '**只愿一生爱一人一世亦未够**' song=张学友 - 只愿一生爱一人 playing=True channel=None
+2026-10-16 21:15:05 INFO  pc_status:187     收到 lyric_event [延迟=2ms]: '*(求莫要我心伤透)*' song=张学友 - 只愿一生爱一人 playing=True channel=None
