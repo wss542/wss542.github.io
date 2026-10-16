@@ -1,22 +1,4 @@
-# 更新于 2026-10-16 22:16:29 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-16 21:17:10 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
-2026-10-16 21:17:10 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 10条 (阈值=10)
-2026-10-16 21:17:10 INFO  pipeline:503      指令拦截: '/商店' from=ywandwss
-2026-10-16 21:17:10 DEBG  commands:5166     指令解析: prefix=/ cmd=商店 args=[] user=1759953618
-2026-10-16 21:17:10 INFO  commands:5204     插件指令执行完成 [商店]: 返回144字符
-2026-10-16 21:17:11 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-16 21:17:11 INFO  logger:541        [TRACE a99cf6a353f94888] total=1243.08ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1242.92ms(x1) (wall1242.92), queue_wait=0.7ms(x1)
-2026-10-16 21:17:12 INFO  engine:92         异步记忆提炼完成 chat=3649029148752421: 候选5 新增5
-2026-10-16 21:17:16 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Robin Schulz / John Ryan / Kar Play - Sh（播放中）CPU=100% 内存=93%
-2026-10-16 21:17:17 INFO  llm:544           LLM [deepseek-flash] 返回 268字符 耗时6.8s → "[16:56:56-16:57:02] 제미니 (shuangzi_1: 제미니 (shuangzi..."
-2026-10-16 21:17:17 INFO  memory:223        [3649029148752421] 压缩完成: 10条消息 → 保存
-2026-10-16 21:17:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-16 21:17:18 DEBG  dispatcher:47     dispatch 入口: type=9 content='/商店 buy shuangzi_1228' is_edit=False
-2026-10-16 21:17:18 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
-2026-10-16 21:17:18 INFO  dispatcher:316    📩 消息 #11 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/商店 buy shuangzi_1228'
-2026-10-16 21:17:18 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
-2026-10-16 21:17:18 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
-2026-10-16 21:17:18 INFO  pipeline:503      指令拦截: '/商店 buy shuangzi_1228' from=ywandwss
+# 更新于 2026-10-16 22:17:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-16 21:17:18 DEBG  commands:5166     指令解析: prefix=/ cmd=商店 args=['buy', 'shuangzi_1228'] user=1759953618
 2026-10-16 21:17:18 INFO  commands:5204     插件指令执行完成 [商店]: 返回64字符
 2026-10-16 21:17:19 INFO  logger:541        [TRACE d1f48a05129f4c3d] total=496.32ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=496.17ms(x1) (wall496.17), queue_wait=1.23ms(x1)
@@ -1499,3 +1481,21 @@
 2026-10-16 22:16:11 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
 2026-10-16 22:16:21 INFO  pc_status:187     收到 lyric_event [延迟=199ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
 2026-10-16 22:16:25 INFO  pc_status:187     收到 lyric_event [延迟=960ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:36 INFO  pc_status:187     收到 lyric_event [延迟=1311ms]: '**Ko pung posisi**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=22.2 mem=36.1
+2026-10-16 22:16:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:16:42 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Kevin Rater - I LOVE YOU（播放中）CPU=98% 内存=95%
+2026-10-16 22:16:51 INFO  pc_status:187     收到 lyric_event [延迟=2443ms]: '**Sudah jo ko mo ragu-ragu**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:16:51 INFO  pc_status:187     收到 lyric_event [延迟=409ms]: '**Ba tunggu jo di situ**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:10 INFO  pc_status:187     收到 lyric_event [延迟=817ms]: '**Sa tara baku seduh**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:10 INFO  pc_status:187     收到 lyric_event [延迟=621ms]: '**Bat tahang-tahang rindu dulu**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:10 INFO  pc_status:187     收到 lyric_event [延迟=534ms]: '**Tunggu sa bale kasitu**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:11 INFO  pc_status:187     收到 lyric_event [延迟=1109ms]: '**Kalu sa serius**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:11 INFO  pc_status:187     收到 lyric_event [延迟=1080ms]: '**Pa sa pung hati cuma satu** *(pa sa pung hati cuma satu)*' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:11 INFO  pc_status:187     收到 lyric_event [延迟=1064ms]: '**Hanya ko yang diam di situ** *(hanya ko yang diam di situ)' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=36.1
+2026-10-16 22:17:13 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-16 22:17:13 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-16 22:17:14 INFO  pc_status:187     收到 lyric_event [延迟=892ms]: '**Biar katong tapisah jauh** *(biar katong tapisah jauh)*' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:16 INFO  pc_status:187     收到 lyric_event [延迟=61ms]: '**Ko tara usah mo ragu**' song=Kevin Rater - I LOVE YOU playing=True channel=None
+2026-10-16 22:17:20 INFO  pc_status:187     收到 lyric_event [延迟=1ms]: '**I love you**' song=Kevin Rater - I LOVE YOU playing=True channel=None
