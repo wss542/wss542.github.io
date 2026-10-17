@@ -1,23 +1,4 @@
-# 更新于 2026-10-17 23:48:49 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-17 21:26:21 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
-2026-10-17 21:26:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.8 mem=57.5
-2026-10-17 21:26:36 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:26:51 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=41% 内存=90%
-2026-10-17 21:27:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=34.2 mem=57.5
-2026-10-17 21:27:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:27:23 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
-2026-10-17 21:27:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=72.3 mem=57.5
-2026-10-17 21:27:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:27:54 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=45% 内存=91%
-2026-10-17 21:28:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.5 mem=57.5
-2026-10-17 21:28:24 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:28:24 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=46%
-2026-10-17 21:28:54 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=43% 内存=91%
-2026-10-17 21:28:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=69.2 mem=57.4
-2026-10-17 21:28:55 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:29:26 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.5 mem=57.5
-2026-10-17 21:29:26 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 21:29:27 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
+# 更新于 2026-10-17 23:50:45 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-17 21:29:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.1 mem=57.5
 2026-10-17 21:29:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-17 21:29:58 INFO  pc_status:140     PC 心跳 Longwan-PC 无音乐 CPU=44% 内存=91%
@@ -1499,3 +1480,22 @@
 2026-10-17 23:47:58 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
 2026-10-17 23:48:26 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
 2026-10-17 23:48:33 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error timed out>（后续同类失败将静默）
+2026-10-17 23:48:54 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-17 23:49:14 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-17 23:49:34 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-17 23:49:49 ERRO  events:94         khl.py Bot 运行异常 (#1): 502, message='Bad Gateway', url=' 0 '，5s 后重连
+2026-10-17 23:49:54 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-17 23:50:13 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-17 23:50:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.3 mem=58.5
+2026-10-17 23:50:16 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 103s）
+2026-10-17 23:50:18 ERRO  events:94         khl.py Bot 运行异常 (#2): 502, message='Bad Gateway', url=' 0 '，10s 后重连
+2026-10-17 23:50:19 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: 502, message='Bad Gateway', url=' 0 '，10s 后重启
+2026-10-17 23:50:21 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-17 23:50:33 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#3)
+2026-10-17 23:50:33 ERRO  qq_bot:151        QQBot 运行异常: timed out during opening handshake，5s 后重连
+2026-10-17 23:50:38 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.8 mem=58.5
+2026-10-17 23:50:38 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 23:50:40 INFO  pc_status:50      PC 客户端已连接（当前 3 个在线）
+2026-10-17 23:50:42 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-17 23:50:43 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-10-17 23:50:44 INFO  qq_bot:225        QQ 事件到达 t=READY
