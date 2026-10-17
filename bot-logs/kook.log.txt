@@ -1,69 +1,4 @@
-# 更新于 2026-10-17 14:16:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-17 12:11:54 INFO  changelog:132     [Playwright] 空闲 566 分钟 → 已回收 Chromium（下次截图冷启动）
-2026-10-17 12:12:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=60.8 mem=57.0
-2026-10-17 12:12:04 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 12:12:10 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Parov Stelar - Libella Swing（播放中）CPU=53% 内存=90%
-2026-10-17 12:12:15 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:15 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
-2026-10-17 12:12:15 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-17 12:12:15 INFO  dispatcher:316    📩 消息 #75 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>签到'
-2026-10-17 12:12:15 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:12:15 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
-2026-10-17 12:12:15 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
-2026-10-17 12:12:15 INFO  logger:541        [TRACE ac11d162190c447b] total=46.9ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=42.71ms(x1) (wall42.71), queue_wait=14.12ms(x1)
-2026-10-17 12:12:16 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:16 DEBG  dispatcher:47     dispatch 入口: type=9 content='签到成功 ✅\n🎁 今日获得：12 积分\n📊 总积分：223\n🔥 连续签到：4 天\n📆 累计签到：3 天' is_edit=False
-2026-10-17 12:12:16 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-17 12:12:27 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:27 DEBG  dispatcher:47     dispatch 入口: type=9 content='>luck' is_edit=False
-2026-10-17 12:12:27 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-17 12:12:27 INFO  dispatcher:316    📩 消息 #76 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='>luck'
-2026-10-17 12:12:27 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:12:27 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 7条 (阈值=10)
-2026-10-17 12:12:27 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
-2026-10-17 12:12:27 INFO  logger:541        [TRACE e16a24d0777945d9] total=9.49ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=9.31ms(x1) (wall9.31), queue_wait=5.46ms(x1)
-2026-10-17 12:12:28 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:28 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)337936062(met) 你今天的运气是 78 喵' is_edit=False
-2026-10-17 12:12:28 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-17 12:12:31 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:31 DEBG  dispatcher:47     dispatch 入口: type=9 content='？' is_edit=False
-2026-10-17 12:12:31 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-17 12:12:31 INFO  dispatcher:316    📩 消息 #77 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='？'
-2026-10-17 12:12:31 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:12:31 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 8条 (阈值=10)
-2026-10-17 12:12:31 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='？'
-2026-10-17 12:12:31 INFO  logger:541        [TRACE 6b1c5030989840fe] total=4.24ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.31ms(x1) (wall3.31), queue_wait=1.6ms(x1)
-2026-10-17 12:12:43 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=24%
-2026-10-17 12:12:50 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=43.2 mem=57.0
-2026-10-17 12:12:50 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 12:12:54 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:12:54 DEBG  dispatcher:47     dispatch 入口: type=9 content='（）' is_edit=False
-2026-10-17 12:12:54 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
-2026-10-17 12:12:54 INFO  dispatcher:316    📩 消息 #78 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='（）'
-2026-10-17 12:12:54 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:12:54 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 9条 (阈值=10)
-2026-10-17 12:12:54 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
-2026-10-17 12:12:54 INFO  logger:541        [TRACE 7f551db4aa3f477e] total=6.04ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5.91ms(x1) (wall5.91), queue_wait=1.13ms(x1)
-2026-10-17 12:13:15 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Parov Stelar - Libella Swing（播放中）CPU=57% 内存=91%
-2026-10-17 12:13:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:13:20 DEBG  dispatcher:47     dispatch 入口: type=9 content='6' is_edit=False
-2026-10-17 12:13:20 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-17 12:13:20 INFO  dispatcher:316    📩 消息 #79 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='6'
-2026-10-17 12:13:20 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:13:20 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 10条 (阈值=10)
-2026-10-17 12:13:20 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='6'
-2026-10-17 12:13:20 INFO  logger:541        [TRACE 633926d7093c449e] total=5.44ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5.32ms(x1) (wall5.32), queue_wait=0.9ms(x1)
-2026-10-17 12:13:20 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-17 12:13:20 INFO  engine:92         异步记忆提炼完成 chat=7274785942250691: 候选2 新增2
-2026-10-17 12:13:22 INFO  llm:544           LLM [deepseek-flash] 返回 399字符 耗时1.9s → "[13:31:21-15:49:42] ywandwss: ywandwss说了？, ywandws..."
-2026-10-17 12:13:22 INFO  memory:223        [7274785942250691] 压缩完成: 10条消息 → 保存
-2026-10-17 12:13:28 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-17 12:13:28 DEBG  dispatcher:47     dispatch 入口: type=9 content='>签到' is_edit=False
-2026-10-17 12:13:28 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-17 12:13:28 INFO  dispatcher:316    📩 消息 #80 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>签到'
-2026-10-17 12:13:28 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-17 12:13:28 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-2026-10-17 12:13:28 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
+# 更新于 2026-10-17 14:17:26 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-17 12:13:28 INFO  logger:541        [TRACE dc0f92a9100d4dbe] total=3.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3.03ms(x1) (wall3.03), queue_wait=0.54ms(x1)
 2026-10-17 12:13:29 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-17 12:13:29 DEBG  dispatcher:47     dispatch 入口: type=9 content='签到成功 ✅\n🎁 今日获得：95 积分\n📊 总积分：311\n🔥 连续签到：2 天\n📆 累计签到：2 天' is_edit=False
@@ -1499,3 +1434,68 @@
 2026-10-17 14:16:04 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Noriチャ - Call of Silence（沉默的呼唤）（播放中）CPU=69% 内存=71%
 2026-10-17 14:16:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=59.1 mem=57.1
 2026-10-17 14:16:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 14:16:26 INFO  pc_status:187     收到 lyric_event [延迟=614ms]: '**▶ 周林枫 / 如風 - 镜中渊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:36 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=周林枫 / 如風 - 镜中渊（播放中）CPU=72% 内存=76%
+2026-10-17 14:16:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=75.3 mem=57.1
+2026-10-17 14:16:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-187ms]: '**镜中渊 - 周林枫**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-182ms]: '**词：富贵**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-182ms]: '**曲：富贵**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-181ms]: '**编曲：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-181ms]: '**和声编写：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-180ms]: '**和声：谌宥/周林枫**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-178ms]: '**录音师：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-177ms]: '**人声编辑：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-177ms]: '**混音师：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-176ms]: '**统筹：冯海波**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-175ms]: '**配唱制作人：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-175ms]: '**制作人：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-174ms]: '**监制：韦琪/熊磊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-173ms]: '**制作公司：音你而来**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-172ms]: '**宣发：星云计划**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-171ms]: '**联合宣发：河南网益文化**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-170ms]: '*(版权所有 未经许可 请勿使用)*' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-169ms]: '**『酷狗音乐人 • 星曜计划』**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-167ms]: '**那是**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-167ms]: '**谁镜中梦游啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-166ms]: '**梦里水月镜花**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-165ms]: '**遗憾辜负落得满地啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-164ms]: '**满世界是罪啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-190ms]: '**镜中渊 - 周林枫**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-251ms]: '**词：富贵**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-312ms]: '**曲：富贵**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-373ms]: '**编曲：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-436ms]: '**和声编写：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-496ms]: '**和声：谌宥/周林枫**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-559ms]: '**录音师：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:55 INFO  pc_status:187     收到 lyric_event [延迟=-622ms]: '**人声编辑：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=500ms]: '**混音师：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=439ms]: '**统筹：冯海波**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=368ms]: '**配唱制作人：谌宥**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=303ms]: '**制作人：何文宇**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=243ms]: '**监制：韦琪/熊磊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=181ms]: '**制作公司：音你而来**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=121ms]: '**宣发：星云计划**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=58ms]: '**联合宣发：河南网益文化**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-4ms]: '*(版权所有 未经许可 请勿使用)*' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-65ms]: '**『酷狗音乐人 • 星曜计划』**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-127ms]: '**那是**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-192ms]: '**谁镜中梦游啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-252ms]: '**梦里水月镜花**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-313ms]: '**遗憾辜负落得满地啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-375ms]: '**满世界是罪啊**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:56 INFO  pc_status:187     收到 lyric_event [延迟=-610ms]: '**爱被说的廉价**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=179ms]: '**我在悬崖**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=321ms]: '**真心被践踏**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=311ms]: '**谁又说了真话假话**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=280ms]: '**说过的爱都会过期会有时差**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=236ms]: '**陌路时镜中脸**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:16:57 INFO  pc_status:187     收到 lyric_event [延迟=221ms]: '**还要装作优雅**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:17:02 INFO  pc_status:187     收到 lyric_event [延迟=1386ms]: '**不会过期的是伤疤**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:17:04 INFO  pc_status:187     收到 lyric_event [延迟=4ms]: '**心脏在夜里散了架**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:17:07 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=51%
+2026-10-17 14:17:09 INFO  pc_status:187     收到 lyric_event [延迟=987ms]: '**眼中的光渐渐融化**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:17:13 INFO  pc_status:187     收到 lyric_event [延迟=1379ms]: '**无法再挣扎**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
+2026-10-17 14:17:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.0 mem=57.1
+2026-10-17 14:17:16 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 14:17:17 INFO  pc_status:187     收到 lyric_event [延迟=450ms]: '**沙漠里那孤独的花**' song=周林枫 / 如風 - 镜中渊 playing=True channel=None
