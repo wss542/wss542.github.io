@@ -1,24 +1,4 @@
-# 更新于 2026-10-17 13:40:19 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-17 11:22:49 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:23:15 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Jax Jones / RAYE - You Don't Know Me（已暂停）CPU=71% 内存=87%
-2026-10-17 11:23:30 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=91.7 mem=56.6
-2026-10-17 11:23:30 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:23:46 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=95%
-2026-10-17 11:24:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=87.3 mem=56.7
-2026-10-17 11:24:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:24:16 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Jax Jones / RAYE - You Don't Know Me（已暂停）CPU=76% 内存=94%
-2026-10-17 11:24:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=95.1 mem=56.8
-2026-10-17 11:24:32 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:24:47 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.5 mem=56.7
-2026-10-17 11:24:47 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:24:49 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=47%
-2026-10-17 11:25:20 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Jax Jones / RAYE - You Don't Know Me（已暂停）CPU=61% 内存=91%
-2026-10-17 11:25:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=33.3 mem=56.7
-2026-10-17 11:25:24 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:25:50 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
-2026-10-17 11:25:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.6 mem=56.7
-2026-10-17 11:25:55 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-17 11:26:21 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=Jax Jones / RAYE - You Don't Know Me（已暂停）CPU=58% 内存=89%
+# 更新于 2026-10-17 13:41:27 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-17 11:26:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=57.5 mem=56.6
 2026-10-17 11:26:32 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-17 11:26:51 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=43%
@@ -1499,3 +1479,23 @@
 2026-10-17 13:40:07 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-17 13:40:07 DEBG  dispatcher:47     dispatch 入口: type=9 content='刚才 Trusler 那堆 .kook 指令看得我有点懵，主人想让我做啥？' is_edit=False
 2026-10-17 13:40:07 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-17 13:40:20 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-17 13:40:20 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)393688090(met) 你at一下我' is_edit=False
+2026-10-17 13:40:20 DEBG  dispatcher:110    KMD 调试: is_group=True uid=337936062 channel=7274785942250691
+2026-10-17 13:40:20 INFO  dispatcher:316    📩 消息 #83 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=제미니 (shuangzi_1228)(337936062) | chat=7274785942250691 | group=True | content='(met)393688090(met) 你at一下我'
+2026-10-17 13:40:20 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+2026-10-17 13:40:20 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 4条 (阈值=10)
+2026-10-17 13:40:20 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='@393688090  你at一下我'
+2026-10-17 13:40:20 INFO  logger:541        [TRACE 843ac242cdf64323] total=6.41ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6.29ms(x1) (wall6.29), queue_wait=1.48ms(x1)
+2026-10-17 13:40:25 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-17 13:40:25 DEBG  dispatcher:47     dispatch 入口: type=9 content='@제미니 (shuangzi_1228) 主人好呀，钠颗粒来报到喵~' is_edit=False
+2026-10-17 13:40:25 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-17 13:40:28 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-17 13:40:28 DEBG  dispatcher:47     dispatch 入口: type=9 content='这样算 at 到你了吧？(emj)开心1(emj)[3090677846298039/Hkyv4C6idN0k00k0]' is_edit=False
+2026-10-17 13:40:28 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
+2026-10-17 13:40:29 INFO  pc_status:135     PC 心跳 Longwan-PC 音乐=DJ Blyatman - Gopnik (Explicit)（已暂停）CPU=22% 内存=91%
+2026-10-17 13:40:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=62.2 mem=57.1
+2026-10-17 13:40:33 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-17 13:41:01 INFO  pc_status:140     PC 心跳 MacBook-Pro.local 无音乐 CPU=32%
+2026-10-17 13:41:04 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=56.7 mem=57.1
+2026-10-17 13:41:04 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
