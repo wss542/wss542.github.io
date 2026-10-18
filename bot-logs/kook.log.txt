@@ -1,31 +1,4 @@
-# 更新于 2026-10-18 13:34:41 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-18 11:06:02 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:06:24 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=30% 内存=94%
-2026-10-18 11:06:36 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=80 cpu=61.1 mem=58.5
-2026-10-18 11:06:36 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:06:56 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
-2026-10-18 11:07:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=80 cpu=60.9 mem=58.5
-2026-10-18 11:07:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:07:27 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=34% 内存=94%
-2026-10-18 11:07:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=80 cpu=60.5 mem=58.5
-2026-10-18 11:07:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:08:00 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=49%
-2026-10-18 11:08:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=80 cpu=53.5 mem=58.5
-2026-10-18 11:08:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:08:30 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=33% 内存=94%
-2026-10-18 11:08:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=80 cpu=62.8 mem=58.5
-2026-10-18 11:08:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:09:03 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=46%
-2026-10-18 11:09:21 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=55.9 mem=58.5
-2026-10-18 11:09:21 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:09:33 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=39% 内存=94%
-2026-10-18 11:09:54 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=58.2 mem=58.5
-2026-10-18 11:09:54 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:10:03 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
-2026-10-18 11:10:27 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=27.0 mem=58.5
-2026-10-18 11:10:27 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 11:10:34 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=44% 内存=93%
-2026-10-18 11:11:00 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=62.3 mem=58.5
+# 更新于 2026-10-18 13:35:33 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-18 11:11:00 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-18 11:11:07 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=42%
 2026-10-18 11:11:32 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=70.5 mem=58.5
@@ -1499,3 +1472,30 @@
 2026-10-18 13:34:37 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
 2026-10-18 13:34:37 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
 2026-10-18 13:34:37 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-10-18 13:34:47 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-10-18 13:34:47 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-18 13:34:57 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-10-18 13:34:57 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-10-18 13:34:57 WARN  holiday:47        节假日 API 拉取失败: 
+2026-10-18 13:34:57 INFO  holiday:105       节假日服务已启动
+2026-10-18 13:34:58 INFO  holiday:96        节假日每日刷新: 等待 37507 秒 (下次 00:00:05)
+2026-10-18 13:34:58 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
+2026-10-18 13:34:58 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=67% 内存=93%
+2026-10-18 13:34:58 INFO  pc_status:50      PC 客户端已连接（当前 2 个在线）
+2026-10-18 13:35:02 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-18 13:35:02 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-18 13:35:02 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-18 13:35:02 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-10-18 13:35:02 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-10-18 13:35:02 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-10-18 13:35:07 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-18 13:35:12 INFO  qq_transport:113  QQ access_token 已刷新，有效期 5143s
+2026-10-18 13:35:13 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-18 13:35:13 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-10-18 13:35:14 INFO  qq_bot:225        QQ 事件到达 t=READY
+2026-10-18 13:35:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=51 cpu=25.7 mem=58.8
+2026-10-18 13:35:19 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 33s）
+2026-10-18 13:35:19 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+2026-10-18 13:35:19 INFO  phone_status:643  WSS 回填恢复 source=iphone_status device=iPhone（中断 23s）
+2026-10-18 13:35:22 INFO  bot:1017          主电脑已恢复（通知已静默，由 GitHub Actions 推送）
+2026-10-18 13:35:30 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=43%
