@@ -1,28 +1,4 @@
-# 更新于 2026-10-18 14:24:53 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-18 12:03:16 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-18 12:03:16 DEBG  dispatcher:47     dispatch 入口: type=9 content='签到成功 ✅\n🎁 今日获得：7 积分\n📊 总积分：318\n🔥 连续签到：3 天\n📆 累计签到：3 天' is_edit=False
-2026-10-18 12:03:16 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-18 12:03:16 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 5条 (阈值=10)
-2026-10-18 12:03:16 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>签到'
-2026-10-18 12:03:16 INFO  logger:541        [TRACE 07e38d2b51f6438d] total=47.35ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=42.41ms(x1) (wall42.41), queue_wait=9.24ms(x1)
-2026-10-18 12:03:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-18 12:03:17 DEBG  dispatcher:47     dispatch 入口: type=9 content='>luck' is_edit=False
-2026-10-18 12:03:17 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-10-18 12:03:17 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='>luck'
-2026-10-18 12:03:17 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-18 12:03:17 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 6条 (阈值=10)
-2026-10-18 12:03:17 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='>luck'
-2026-10-18 12:03:17 INFO  logger:541        [TRACE 4bccbabd5705484d] total=2.19ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.11ms(x1) (wall2.11), queue_wait=0.56ms(x1)
-2026-10-18 12:03:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-18 12:03:18 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 97 喵' is_edit=False
-2026-10-18 12:03:18 DEBG  dispatcher:107    跳过 bot 消息: uid=393688090
-2026-10-18 12:03:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=69 cpu=58.1 mem=58.8
-2026-10-18 12:03:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 12:03:48 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=67%
-2026-10-18 12:04:03 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=69 cpu=80.7 mem=58.8
-2026-10-18 12:04:03 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-18 12:04:18 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=65% 内存=94%
-2026-10-18 12:04:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=69 cpu=27.0 mem=58.8
+# 更新于 2026-10-18 14:25:31 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-18 12:04:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-18 12:04:49 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
 2026-10-18 12:05:05 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=68 cpu=71.7 mem=58.8
@@ -1499,3 +1475,27 @@
 2026-10-18 14:24:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=41 cpu=71.7 mem=58.8
 2026-10-18 14:24:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-18 14:24:27 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=26%
+2026-10-18 14:24:53 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=41 cpu=30.6 mem=58.8
+2026-10-18 14:24:53 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-18 14:24:58 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=24% 内存=92%
+2026-10-18 14:25:21 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-18 14:25:21 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/mc  0 ' mentions=0 content='/mc  1 ' atts=0 ref=False msg_type=0
+2026-10-18 14:25:21 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/mc  0 '
+2026-10-18 14:25:21 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-qpIUMd5bEJyiwRX-FxptWYamTD.kVsFckM8B.yOnBv4H1D9R4txfRtSte4UwzOhP7K7vOIcYRDE9IfsMXwqNnE!
+2026-10-18 14:25:21 INFO  queues:32         [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
+2026-10-18 14:25:21 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-18 14:25:21 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 1条 (阈值=10)
+2026-10-18 14:25:21 INFO  pipeline:503      指令拦截: '/mc  0 ' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-18 14:25:21 DEBG  commands:5166     指令解析: prefix=/ cmd=mc args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-18 14:25:22 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=27 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqlKHpVTlYJlXg8DhGcuKbuUvjPrMrxJFwsdPAsghaSTSwHlrsHYn0brMKnbZ-H-N.A!!
+2026-10-18 14:25:24 DEBG  motd_card:109     SRV 查询失败(The read operation timed out)，按 lulus.dns.army:25565 直连
+2026-10-18 14:25:24 INFO  motd_card:143     motd lulus.dns.army: SRV=无
+2026-10-18 14:25:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=41 cpu=54.2 mem=58.8
+2026-10-18 14:25:24 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-18 14:25:25 WARN  motd_card:162     motd lulus.dns.army: 原生 ping 失败([Errno -5] No address associated with hostname)，回退 mcsrvstat.us
+2026-10-18 14:25:28 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
+2026-10-18 14:25:29 INFO  changelog:928     [Card] 正在截图 → mc_card_lulus_dns_army_25565.png (290805 bytes HTML)
+2026-10-18 14:25:29 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
+2026-10-18 14:25:30 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-18 14:25:30 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-18 14:25:31 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/mc_card_lulus_dns_army_25565.png size=505.1KB
