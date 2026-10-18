@@ -1,9 +1,4 @@
-# 更新于 2026-10-18 17:22:04 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-18 13:34:37 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-18 13:34:37 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-18 13:34:37 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-18 13:34:47 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
-2026-10-18 13:34:47 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+# 更新于 2026-10-18 17:23:06 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-18 13:34:57 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
 2026-10-18 13:34:57 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
 2026-10-18 13:34:57 WARN  holiday:47        节假日 API 拉取失败: 
@@ -1499,3 +1494,8 @@
 2026-10-18 17:21:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=6 cpu=57.1 mem=59.9
 2026-10-18 17:21:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-18 17:22:04 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=10% 内存=65%
+2026-10-18 17:22:17 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=5 cpu=46.0 mem=59.9
+2026-10-18 17:22:17 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-18 17:22:36 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=43%
+2026-10-18 17:22:48 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=5 cpu=69.4 mem=59.9
+2026-10-18 17:22:48 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
