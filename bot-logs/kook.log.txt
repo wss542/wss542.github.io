@@ -1,47 +1,4 @@
-# 更新于 2026-10-23 22:34:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-23 21:44:15 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-23 21:44:15 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-23 21:44:15 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-23 21:44:15 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-23 21:44:15 INFO  bot:111           ==================================================
-2026-10-23 21:44:15 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-23 21:44:15 INFO  bot:111           ==================================================
-2026-10-23 21:44:15 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-23 21:44:15 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-23 21:44:15 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-23 21:44:15 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-23 21:44:15 INFO  events:94         QQ open-platform channel started
-2026-10-23 21:44:15 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-23 21:44:15 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-23 21:44:15 INFO  rss:299           [RSS] 订阅轮询服务启动
+# 更新于 2026-10-23 22:34:40 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 21:44:15 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
 2026-10-23 21:44:16 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
 2026-10-23 21:44:16 INFO  database:107      数据库表结构已就绪（含 FTS5）
@@ -1499,3 +1456,46 @@
 2026-10-23 22:34:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-23 22:34:02 INFO  pc_status:201     收到 lyric_event [延迟=257ms]: '**▶ Dan Bălan - Lendo Calendo**' song=Dan Bălan - Lendo Calendo playing=True channel=None
 2026-10-23 22:34:06 INFO  pc_status:201     收到 lyric_event [延迟=1053ms]: '**▶ Miani - Tu vivi nell'aria (Remix Gigi D'Agastino Minions' song=Miani - Tu vivi nell'aria (Rem playing=True channel=None
+2026-10-23 22:34:12 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-23 22:34:13 INFO  pc_status:201     收到 lyric_event [延迟=3582ms]: '**▶ Hi Noise - Want U More (Radio Edit)**' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:13 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-23 22:34:22 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: [Errno 104] Connection reset by peer（后续同类失败将静默）
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=4252ms]: '**作词 : Hi Noise**' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=4232ms]: '**作曲 : Rafael Diaz Duarte**' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=830ms]: '**编曲 : Hi Noise**' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=648ms]: '**制作人 : Hi Noise**' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=613ms]: '**Want it more**
+`想要更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=564ms]: '**Want it more**
+`获得更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=536ms]: '**Want it more**
+`拥有更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=509ms]: '**We will come to see**
+`我们会看见`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=443ms]: '**We will come to see**
+`会觉察`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=432ms]: '**We will come to see**
+`会发现`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=384ms]: '**And then Bebor down**
+`碧波尔已取得胜利`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=355ms]: '**And then Bebor down**
+`然后碧波尔向着远方`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=279ms]: '**And then Bebor down**
+`他向着远方`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=226ms]: '**We‘ve known then safety**
+`我们会注意安全`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=177ms]: '**We will come to see**
+`我们会望见`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:27 INFO  pc_status:201     收到 lyric_event [延迟=125ms]: '**And then Babor down now**
+`碧波尔现已归来`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:28 INFO  pc_status:201     收到 lyric_event [延迟=811ms]: '**Worries or not hares**
+`不论是否烦恼`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:31 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Hi Noise - Want U More (Radio Edit)（播放中）CPU=80% 内存=94%
+2026-10-23 22:34:31 INFO  pc_status:201     收到 lyric_event [延迟=983ms]: '**Cuz Bally bad guns**
+`因为巴利的那杆破枪`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:34 INFO  pc_status:201     收到 lyric_event [延迟=332ms]: '**Try to the great**
+`尝试突破巅峰`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:38 INFO  pc_status:201     收到 lyric_event [延迟=601ms]: '**U can do anything**
+`你无所不能`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.4 mem=60.4
+2026-10-23 22:34:39 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 16s）
