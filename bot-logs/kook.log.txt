@@ -1,15 +1,4 @@
-# 更新于 2026-10-23 21:03:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 18:17:54 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-23 18:17:54 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-23 18:17:54 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-23 18:17:54 WARN  holiday:47        节假日 API 拉取失败: All connection attempts failed
-2026-10-23 18:17:54 INFO  holiday:105       节假日服务已启动
-2026-10-23 18:17:54 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-23 18:17:54 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-23 18:18:04 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
-2026-10-23 18:18:04 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-23 18:18:14 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
-2026-10-23 18:18:14 INFO  holiday:96        节假日每日刷新: 等待 20511 秒 (下次 00:00:05)
+# 更新于 2026-10-23 21:04:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 18:18:14 DEBG  wdsj_api:294      查询战绩失败: ConnectError All connection attempts failed
 2026-10-23 18:18:14 DEBG  wdsj_api:294      查询战绩失败: ConnectError All connection attempts failed
 2026-10-23 18:18:14 DEBG  wdsj_api:294      查询战绩失败: ConnectError All connection attempts failed
@@ -1499,3 +1488,14 @@
 2026-10-23 21:03:41 INFO  pc_status:201     收到 lyric_event [延迟=283ms]: '**卻又像風 琢磨不住**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
 2026-10-23 21:03:48 INFO  pc_status:201     收到 lyric_event [延迟=1256ms]: '**像手腕上散發的香水味**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
 2026-10-23 21:03:52 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
+2026-10-23 21:04:00 INFO  pc_status:201     收到 lyric_event [延迟=575ms]: '**像愛不釋手的 紅色高跟鞋**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:05 INFO  pc_status:201     收到 lyric_event [延迟=1045ms]: '**哦 啊**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=32.8
+2026-10-23 21:04:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 21:04:09 INFO  pc_status:201     收到 lyric_event [延迟=345ms]: '**哦 耶**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:14 INFO  pc_status:201     收到 lyric_event [延迟=241ms]: '**你像窩在被子裡的舒服**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:20 INFO  pc_status:201     收到 lyric_event [延迟=964ms]: '**卻又像風 琢磨不住**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:32 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=蔡健雅 - 红色高跟鞋（播放中）CPU=76% 内存=95%
+2026-10-23 21:04:34 INFO  pc_status:201     收到 lyric_event [延迟=1192ms]: '**像手腕上像散發的香水味**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:34 INFO  pc_status:201     收到 lyric_event [延迟=1070ms]: '**像愛不釋手的**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
+2026-10-23 21:04:36 INFO  pc_status:201     收到 lyric_event [延迟=891ms]: '**我愛你有種左燈右行的衝突**' song=蔡健雅 - 红色高跟鞋 playing=True channel=None
