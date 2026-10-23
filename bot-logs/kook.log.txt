@@ -1,32 +1,4 @@
-# 更新于 2026-10-23 21:28:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 19:16:58 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=28%
-2026-10-23 19:17:16 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=32.7
-2026-10-23 19:17:16 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:17:29 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=29% 内存=94%
-2026-10-23 19:18:01 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=35%
-2026-10-23 19:18:02 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.8 mem=32.7
-2026-10-23 19:18:02 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:18:07 INFO  notify_system:737 更新检查跳过: 本地 09a8ac5 非远程 46f2ab3 祖先（已领先/分叉），不弹卡片
-2026-10-23 19:18:31 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=45% 内存=94%
-2026-10-23 19:18:33 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=24.1 mem=32.7
-2026-10-23 19:18:33 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:19:03 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=34%
-2026-10-23 19:19:08 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=23.3 mem=32.7
-2026-10-23 19:19:08 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:19:33 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=32% 内存=93%
-2026-10-23 19:19:33 INFO  qq_bot:208        QQ RECONNECT requested
-2026-10-23 19:19:35 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-23 19:19:35 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-23 19:19:35 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-23 19:19:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=21.4 mem=32.7
-2026-10-23 19:19:39 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:20:06 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=23%
-2026-10-23 19:20:10 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=63.4 mem=32.7
-2026-10-23 19:20:10 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:20:37 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=32% 内存=93%
-2026-10-23 19:20:40 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=55.0 mem=32.7
-2026-10-23 19:20:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 19:21:08 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=31%
+# 更新于 2026-10-23 21:29:20 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 19:21:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=32.7
 2026-10-23 19:21:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-23 19:21:38 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=42% 内存=94%
@@ -1499,3 +1471,31 @@
 2026-10-23 21:28:28 INFO  holiday:57        节假日: 2026-10-23 → 周五
 2026-10-23 21:28:28 INFO  holiday:105       节假日服务已启动
 2026-10-23 21:28:28 INFO  holiday:96        节假日每日刷新: 等待 9096 秒 (下次 00:00:05)
+2026-10-23 21:28:42 DEBG  notify_system:655 git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
+2026-10-23 21:28:42 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
+2026-10-23 21:28:42 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
+2026-10-23 21:28:42 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
+2026-10-23 21:28:42 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
+2026-10-23 21:28:42 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
+2026-10-23 21:28:42 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
+2026-10-23 21:28:42 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
+2026-10-23 21:28:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=41.3
+2026-10-23 21:28:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 21:28:42 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+2026-10-23 21:28:42 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-23 21:28:42 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
+2026-10-23 21:28:44 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-10-23 21:28:44 INFO  holiday:57        节假日: 2026-10-23 → 周五
+2026-10-23 21:28:44 INFO  holiday:105       节假日服务已启动
+2026-10-23 21:28:44 INFO  holiday:96        节假日每日刷新: 等待 9080 秒 (下次 00:00:05)
+2026-10-23 21:28:45 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Manafest - Edge of My Life（已暂停）CPU=77% 内存=84%
+2026-10-23 21:28:45 INFO  pc_status:50      PC 客户端已连接（当前 2 个在线）
+2026-10-23 21:28:49 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-23 21:28:51 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-23 21:28:51 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-23 21:28:51 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-10-23 21:28:51 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-10-23 21:28:51 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
+2026-10-23 21:28:57 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=45.5 mem=41.8
+2026-10-23 21:28:57 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 21:29:15 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=78%
