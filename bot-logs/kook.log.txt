@@ -1,4 +1,4 @@
-# 更新于 2026-10-23 18:18:56 · 共 215 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-23 18:19:38 · 共 232 行（来源 huanmeng.log 末尾）
 2026-10-23 18:16:53 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-23 18:16:53 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-23 18:17:01 INFO  events:94         ==================================================
@@ -214,3 +214,20 @@
 2026-10-23 18:18:53 ERRO  events:94         [watchdog] khl_bot 主任务异常退出: Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1，10s 后重启
 2026-10-23 18:18:54 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
 2026-10-23 18:18:54 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
+2026-10-23 18:18:59 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
+2026-10-23 18:19:00 DEBG  wdsj_api:294      查询战绩失败: ConnectTimeout 
+2026-10-23 18:19:00 INFO  wdsj_tracker:106  每日战绩采集完成: 0 条新记录
+2026-10-23 18:19:00 INFO  bot:868           战绩采集将在 1h41m 后执行 (20:01)
+2026-10-23 18:19:03 INFO  events:94         [watchdog] 已重启 khl_bot 连接 (#2)
+2026-10-23 18:19:05 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-23 18:19:24 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=40% 内存=85%
+2026-10-23 18:19:24 ERRO  events:94         khl.py Bot 运行异常 (#2): Connection timeout to host https://www.kaiheila.cn/api/v3/gateway/index?compress=1，10s 后重连
+2026-10-23 18:19:25 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
+2026-10-23 18:19:31 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7200s
+2026-10-23 18:19:32 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-10-23 18:19:34 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-10-23 18:19:34 INFO  qq_bot:225        QQ 事件到达 t=READY
+2026-10-23 18:19:41 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.0 mem=32.4
+2026-10-23 18:19:41 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 97s）
+2026-10-23 18:19:41 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+2026-10-23 18:19:41 INFO  phone_status:643  WSS 回填恢复 source=iphone_status device=iPhone（中断 88s）
