@@ -1,4 +1,4 @@
-# 更新于 2026-10-23 18:30:29 · 共 297 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-23 18:31:22 · 共 316 行（来源 huanmeng.log 末尾）
 2026-10-23 18:16:53 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-23 18:16:53 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-23 18:17:01 INFO  events:94         ==================================================
@@ -296,3 +296,22 @@
 2026-10-23 18:30:12 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.6 mem=32.6
 2026-10-23 18:30:12 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-23 18:30:26 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=37%
+2026-10-23 18:30:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.3 mem=32.7
+2026-10-23 18:30:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 18:30:57 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=邓垚 - 诀别书（已暂停）CPU=76% 内存=75%
+2026-10-23 18:31:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=26.7 mem=32.6
+2026-10-23 18:31:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 18:31:16 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-10-23 18:31:16 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /签到' mentions=0 content='/签到' atts=0 ref=False msg_type=0
+2026-10-23 18:31:16 INFO  qq_bot:435        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/签到'
+2026-10-23 18:31:16 INFO  qq_bot:446        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rF.CX4jTu9gSSX2XUuoAnWfdNqxLq-VeYiu-dzRQNjbhW4VdWyzEpYoVrByXdjML1VNP1VtOQB2bfniODPfSRS.VAZ8hyGx8lEpG-reXU4Pt
+2026-10-23 18:31:16 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+2026-10-23 18:31:16 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-10-23 18:31:16 INFO  identity:92       身份映射已载入 2 条
+2026-10-23 18:31:16 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-10-23 18:31:17 INFO  pipeline:503      指令拦截: '/签到' from=若尘 ~喵
+2026-10-23 18:31:17 DEBG  commands:5166     指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-23 18:31:17 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
+2026-10-23 18:31:17 INFO  commands:5221     指令执行完成 [签到]: 返回43字符
+2026-10-23 18:31:19 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=42 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6kdZ6nzeUm3dVzwyRRCnb7YuaqhiNESwu.HUCyQnOA0-OF68abBRkZc0iu5LHChuA!!
+2026-10-23 18:31:19 INFO  logger:541        [TRACE 8cbcefcaed7c4e9f] total=2427.0ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2403.18ms(x1) (wall2403.18), queue_wait=121.7ms(x1)
