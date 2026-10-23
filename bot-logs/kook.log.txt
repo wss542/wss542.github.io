@@ -1,51 +1,4 @@
-# 更新于 2026-10-23 22:34:40 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 21:44:15 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-23 21:44:16 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-23 21:44:16 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-23 21:44:16 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-23 21:44:16 INFO  events:94         用户名查询模块已初始化
-2026-10-23 21:44:16 INFO  qq_transport:113  QQ access_token 已刷新，有效期 2120s
-2026-10-23 21:44:16 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-23 21:44:16 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-23 21:44:16 INFO  context_manager:53 上下文已从磁盘恢复: 4 个对话
-2026-10-23 21:44:16 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-23 21:44:16 INFO  events:94         上下文管理器已初始化
-2026-10-23 21:44:16 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-23 21:44:16 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-23 21:44:16 INFO  events:94         事件分发器已就绪
-2026-10-23 21:44:16 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-23 21:44:16 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-23 21:44:16 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-23 21:44:16 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-23 21:44:16 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-23 21:44:16 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-23 21:44:16 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
+# 更新于 2026-10-23 22:35:19 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: luck@1.0.0
 2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
 2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
@@ -1499,3 +1452,50 @@
 `你无所不能`' song=Hi Noise - Want U More (Radio  playing=True channel=None
 2026-10-23 22:34:39 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=71.4 mem=60.4
 2026-10-23 22:34:39 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 16s）
+2026-10-23 22:34:41 INFO  pc_status:201     收到 lyric_event [延迟=1041ms]: '**obey the thing**
+`遵守的规则`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:42 INFO  pc_status:201     收到 lyric_event [延迟=207ms]: '**I‘m looking for what mattered games of match**
+`我在寻找比赛中最宝贵' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:43 INFO  pc_status:201     收到 lyric_event [延迟=51ms]: '**Will man drive to won**
+`人类会为了胜利而奋斗吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:46 INFO  pc_status:201     收到 lyric_event [延迟=306ms]: '**I'm later with a gun think u right here**
+`我手里握着枪，你会在这里吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:48 INFO  pc_status:201     收到 lyric_event [延迟=816ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:49 INFO  pc_status:201     收到 lyric_event [延迟=134ms]: '**I‘m looking for what mattered games of match**
+`我在寻找比赛中最重要' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:51 INFO  pc_status:201     收到 lyric_event [延迟=515ms]: '**Will man drive to won**
+`人类会为了胜利而怒吼吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:54 INFO  pc_status:201     收到 lyric_event [延迟=722ms]: '**I'm later with a gun think u right here**
+`我手里握着枪，你会在这里吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:56 INFO  pc_status:201     收到 lyric_event [延迟=1432ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:56 INFO  pc_status:201     收到 lyric_event [延迟=302ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:34:58 INFO  pc_status:201     收到 lyric_event [延迟=727ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:00 INFO  pc_status:201     收到 lyric_event [延迟=2445ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:00 INFO  pc_status:201     收到 lyric_event [延迟=916ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:00 INFO  pc_status:201     收到 lyric_event [延迟=601ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:01 INFO  pc_status:201     收到 lyric_event [延迟=719ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:03 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=38%
+2026-10-23 22:35:03 INFO  pc_status:201     收到 lyric_event [延迟=1001ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:03 INFO  pc_status:201     收到 lyric_event [延迟=99ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:04 INFO  pc_status:201     收到 lyric_event [延迟=303ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:05 INFO  pc_status:201     收到 lyric_event [延迟=717ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:06 INFO  pc_status:201     收到 lyric_event [延迟=889ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:07 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-23 22:35:07 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-23 22:35:09 INFO  pc_status:201     收到 lyric_event [延迟=1110ms]: '**Want u Want u Want u Want u Want u Want u Want u Want u**
+' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:09 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=58.5 mem=60.4
+2026-10-23 22:35:09 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
