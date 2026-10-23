@@ -1,62 +1,4 @@
-# 更新于 2026-10-23 22:35:53 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-23 21:44:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-23 21:44:16 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-23 21:44:16 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-23 21:44:16 INFO  events:94         ==================================================
-2026-10-23 21:44:16 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-23 21:44:16 INFO  events:94         ==================================================
-2026-10-23 21:44:16 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-23 21:44:16 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-23 21:44:17 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-23 21:44:17 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-23 21:44:17 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-23 21:44:17 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-23 21:44:17 INFO  bot:868           战绩采集将在 2h16m 后执行 (00:01)
-2026-10-23 21:44:17 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 52s 前）
-2026-10-23 21:44:17 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-23 21:44:17 INFO  holiday:57        节假日: 2026-10-23 → 周五
-2026-10-23 21:44:17 INFO  holiday:105       节假日服务已启动
-2026-10-23 21:44:17 INFO  holiday:96        节假日每日刷新: 等待 8147 秒 (下次 00:00:05)
-2026-10-23 21:44:17 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-23 21:44:19 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-23 21:44:19 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-23 21:44:19 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-23 21:44:19 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-23 21:44:19 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-23 21:44:19 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-23 21:44:19 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-23 21:44:19 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=49.0 mem=46.4
-2026-10-23 21:44:19 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 21:44:19 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
-2026-10-23 21:44:19 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-23 21:44:21 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-23 21:44:22 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
-2026-10-23 21:44:23 INFO  pc_status:50      PC 客户端已连接（当前 2 个在线）
-2026-10-23 21:44:23 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=张杰 - 天下（播放中）
-2026-10-23 21:44:23 INFO  pc_status:201     收到 lyric_event [延迟=13317ms]: '**一生有愛何懼風飛沙**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:23 INFO  holiday:57        节假日: 2026-10-23 → 周五
-2026-10-23 21:44:23 INFO  holiday:105       节假日服务已启动
-2026-10-23 21:44:23 INFO  holiday:96        节假日每日刷新: 等待 8141 秒 (下次 00:00:05)
-2026-10-23 21:44:23 INFO  pc_status:201     收到 lyric_event [延迟=11430ms]: '**悲白髮留不住芳華**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:23 INFO  pc_status:201     收到 lyric_event [延迟=7724ms]: '**拋去江山如畫換她笑面如花**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:23 INFO  pc_status:201     收到 lyric_event [延迟=3948ms]: '**抵過這一生空牽掛**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:23 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-23 21:44:24 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-10-23 21:44:24 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
-2026-10-23 21:44:24 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-23 21:44:24 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-23 21:44:24 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-23 21:44:26 INFO  pc_status:201     收到 lyric_event [延迟=428ms]: '**天地大情路永無涯**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:29 INFO  pc_status:201     收到 lyric_event [延迟=583ms]: '**只為她袖手天下**' song=张杰 - 天下 playing=True channel=None
-2026-10-23 21:44:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=63.3 mem=47.4
-2026-10-23 21:44:35 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-23 21:44:55 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=61%
+# 更新于 2026-10-23 22:36:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 21:44:59 INFO  pc_status:201     收到 lyric_event [延迟=-3559ms]: '**顧不顧將相王侯 管不管萬世千秋**' song=张杰 - 天下 playing=True channel=None
 2026-10-23 21:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-3490ms]: '**求只求愛化解 這萬丈紅塵紛亂永無休**' song=张杰 - 天下 playing=True channel=None
 2026-10-23 21:45:06 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=54.5 mem=47.4
@@ -1499,3 +1441,61 @@
 2026-10-23 22:35:50 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-23 22:35:53 INFO  pc_status:201     收到 lyric_event [延迟=1258ms]: '**Want it more~ want it more~ want it more**
 `想要得到更多~想要更多~想要' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:54 INFO  pc_status:201     收到 lyric_event [延迟=1071ms]: '**Want it more~ want it more~ want it more**
+`想要拥有更多~想要更多~想要' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:57 INFO  pc_status:201     收到 lyric_event [延迟=72ms]: '**Want it want it want it more**
+`想要更多~想要~更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:35:59 INFO  pc_status:201     收到 lyric_event [延迟=719ms]: '**I know they're safety**
+`我知道他们很安全`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:00 INFO  pc_status:201     收到 lyric_event [延迟=91ms]: '**We will come to see**
+`我们会来发现`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:03 INFO  pc_status:201     收到 lyric_event [延迟=616ms]: '**And then Bebor down now**
+`现在碧波尔已经胜利`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:04 INFO  pc_status:201     收到 lyric_event [延迟=56ms]: '**Worries or not hares**
+`不论是否忧郁`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:06 INFO  pc_status:201     收到 lyric_event [延迟=354ms]: '**Cuz Bally bad guns**
+`因为巴利那杆破枪`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:08 INFO  pc_status:201     收到 lyric_event [延迟=572ms]: '**Try to the great**
+`竭力后登峰造极`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:09 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=45%
+2026-10-23 22:36:10 INFO  pc_status:201     收到 lyric_event [延迟=235ms]: '**U can do anything**
+`你无所不能`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:13 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=25.0 mem=60.4
+2026-10-23 22:36:13 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 22:36:14 INFO  pc_status:201     收到 lyric_event [延迟=732ms]: '**obey the thing**
+`遵守的规则`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:14 INFO  pc_status:201     收到 lyric_event [延迟=389ms]: '**I‘m looking for what mattered games of match**
+`我正寻求着比赛真正的' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:19 INFO  pc_status:201     收到 lyric_event [延迟=4016ms]: '**Will man drive to won**
+`人类会为了胜利而冲刺吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:19 INFO  pc_status:201     收到 lyric_event [延迟=644ms]: '**I'm later with a gun think u right here**
+`我手里握着枪，想必你就在这里吧' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:19 INFO  pc_status:201     收到 lyric_event [延迟=88ms]: '**I’ll want u more**
+`我想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:22 INFO  pc_status:201     收到 lyric_event [延迟=888ms]: '**I‘m looking for what mattered games of match**
+`我仍在寻求着比赛深藏' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:24 INFO  pc_status:201     收到 lyric_event [延迟=928ms]: '**Will man drive to won**
+`人类会为了胜利而呐喊吗`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:26 INFO  pc_status:201     收到 lyric_event [延迟=1146ms]: '**I'm later with a gun think u right here**
+`我手里握着枪，想必你就在这里吧' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:27 INFO  pc_status:201     收到 lyric_event [延迟=165ms]: '**I’ll want u more**
+`我想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:29 INFO  pc_status:201     收到 lyric_event [延迟=294ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:29 INFO  pc_status:201     收到 lyric_event [延迟=214ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:31 INFO  pc_status:201     收到 lyric_event [延迟=914ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:32 INFO  pc_status:201     收到 lyric_event [延迟=1107ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:32 INFO  pc_status:201     收到 lyric_event [延迟=25ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:33 INFO  pc_status:201     收到 lyric_event [延迟=325ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:34 INFO  pc_status:201     收到 lyric_event [延迟=474ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:35 INFO  pc_status:201     收到 lyric_event [延迟=815ms]: '**Want u more**
+`想要你更多`' song=Hi Noise - Want U More (Radio  playing=True channel=None
+2026-10-23 22:36:36 DEBG  bot:280           🧩 _consume_pkg pkg type=2 extra.type=2 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-23 22:36:36 DEBG  dispatcher:47     dispatch 入口: type=2 content=' 0 ' is_edit=False
+2026-10-23 22:36:36 DEBG  dispatcher:107    跳过 bot 消息: uid=1341019011
