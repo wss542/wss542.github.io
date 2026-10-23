@@ -1,11 +1,4 @@
-# 更新于 2026-10-23 22:26:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-23 21:28:42 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-23 21:28:42 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-23 21:28:42 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-23 21:28:42 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-23 21:28:42 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-23 21:28:42 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.0 mem=41.3
-2026-10-23 21:28:42 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-10-23 22:27:00 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-23 21:28:42 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
 2026-10-23 21:28:42 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-23 21:28:42 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
@@ -1499,3 +1492,10 @@
 2026-10-23 22:26:16 INFO  pc_status:201     收到 lyric_event [延迟=290ms]: '*(Oh-oh-oh)*' song=Jaymes Young - Infinity playing=True channel=None
 2026-10-23 22:26:21 INFO  pc_status:201     收到 lyric_event [延迟=224ms]: '*(Oh-oh)*' song=Jaymes Young - Infinity playing=True channel=None
 2026-10-23 22:26:24 INFO  pc_status:201     收到 lyric_event [延迟=686ms]: '*(Oh-oh-oh)*' song=Jaymes Young - Infinity playing=True channel=None
+2026-10-23 22:26:37 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=27%
+2026-10-23 22:26:49 INFO  pc_status:201     收到 lyric_event [延迟=1315ms]: '**▶ 大张伟 - 倍儿爽**' song=大张伟 - 倍儿爽 playing=True channel=None
+2026-10-23 22:26:53 INFO  pc_status:201     收到 lyric_event [延迟=156ms]: '**▶ Бамбинтон - Зая**' song=Бамбинтон - Зая playing=True channel=None
+2026-10-23 22:26:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=61.4 mem=60.4
+2026-10-23 22:26:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 22:26:58 INFO  pc_status:201     收到 lyric_event [延迟=35ms]: '**作词 : Евгений Триплов**' song=Бамбинтон - Зая playing=False channel=None
+2026-10-23 22:26:59 INFO  pc_status:201     收到 lyric_event [延迟=873ms]: '**⏸ 已暂停**' song=Бамбинтон - Зая playing=False channel=None
