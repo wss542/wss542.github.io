@@ -1,4 +1,4 @@
-# 更新于 2026-10-23 18:24:42 · 共 262 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-23 18:25:22 · 共 267 行（来源 huanmeng.log 末尾）
 2026-10-23 18:16:53 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-23 18:16:53 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-10-23 18:17:01 INFO  events:94         ==================================================
@@ -261,3 +261,8 @@
 2026-10-23 18:24:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.6 mem=32.4
 2026-10-23 18:24:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-23 18:24:36 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-10-23 18:24:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=27.6 mem=32.4
+2026-10-23 18:24:52 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 16s）
+2026-10-23 18:25:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=28.1 mem=32.6
+2026-10-23 18:25:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-23 18:25:15 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=81% 内存=67%
