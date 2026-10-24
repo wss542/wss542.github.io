@@ -1,19 +1,4 @@
-# 更新于 2026-10-24 11:16:18 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 10:15:24 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-24 10:15:34 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
-2026-10-24 10:15:35 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-24 10:15:45 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
-2026-10-24 10:15:45 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-24 10:15:45 WARN  holiday:47        节假日 API 拉取失败: 
-2026-10-24 10:15:45 INFO  holiday:105       节假日服务已启动
-2026-10-24 10:15:45 INFO  holiday:96        节假日每日刷新: 等待 49460 秒 (下次 00:00:05)
-2026-10-24 10:15:45 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
-2026-10-24 10:15:45 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=41% 内存=84%
-2026-10-24 10:15:48 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-24 10:15:48 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-10-24 10:15:48 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
-2026-10-24 10:15:48 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-24 10:15:48 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+# 更新于 2026-10-24 11:17:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 10:15:48 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
 2026-10-24 10:15:52 INFO  qq_transport:113  QQ access_token 已刷新，有效期 7200s
 2026-10-24 10:15:52 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
@@ -1499,3 +1484,18 @@
 2026-10-24 11:15:51 INFO  pc_status:201     收到 lyric_event [延迟=-4520ms]: '**How much you wanna risk?**' song=The Chainsmokers / Coldplay -  playing=True channel=None
 2026-10-24 11:15:58 INFO  pc_status:201     收到 lyric_event [延迟=-5383ms]: '**I'm not looking for somebody with some superhuman gifts**' song=The Chainsmokers / Coldplay -  playing=True channel=None
 2026-10-24 11:16:17 INFO  pc_status:201     收到 lyric_event [延迟=332ms]: '**Some superhero**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:20 INFO  pc_status:201     收到 lyric_event [延迟=-453ms]: '**Some fairy tale bliss**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:22 INFO  pc_status:201     收到 lyric_event [延迟=-728ms]: '**Just something I can turn to**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:24 INFO  pc_status:201     收到 lyric_event [延迟=-1015ms]: '**Somebody I can kiss"**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:26 INFO  pc_status:201     收到 lyric_event [延迟=-1121ms]: '**I want something just like this**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:28 INFO  pc_status:201     收到 lyric_event [延迟=-1442ms]: '**Doo-doo-doo, doo-doo-doo**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:34 INFO  pc_status:201     收到 lyric_event [延迟=1955ms]: '**Doo-doo-doo, doo, doo-doo**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:34 INFO  pc_status:201     收到 lyric_event [延迟=-411ms]: '**Doo-doo-doo, doo-doo-doo**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:35 INFO  pc_status:201     收到 lyric_event [延迟=-1530ms]: '**Oh, I want something just like this**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:37 INFO  pc_status:201     收到 lyric_event [延迟=-1947ms]: '**Doo-doo-doo, doo-doo-doo**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:40 INFO  pc_status:201     收到 lyric_event [延迟=-1728ms]: '**Doo-doo-doo, doo, doo-doo**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:42 INFO  pc_status:201     收到 lyric_event [延迟=-1957ms]: '**Da-da-da, da-da-da**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:43 INFO  pc_status:201     收到 lyric_event [延迟=-3123ms]: '**Oh, I want something just like this**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:16:52 INFO  pc_status:201     收到 lyric_event [延迟=-3209ms]: '**I want something just like this**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:17:00 INFO  pc_status:201     收到 lyric_event [延迟=-4276ms]: '**I've been reading books of old**' song=The Chainsmokers / Coldplay -  playing=True channel=None
+2026-10-24 11:17:03 INFO  pc_status:201     收到 lyric_event [延迟=-4838ms]: '**The legends and the myths**' song=The Chainsmokers / Coldplay -  playing=True channel=None
