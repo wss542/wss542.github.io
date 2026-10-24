@@ -1,25 +1,4 @@
-# 更新于 2026-10-24 23:13:35 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 17:43:03 INFO  changelog:132     [Playwright] 空闲 6 分钟 → 已回收 Chromium（下次截图冷启动）
-2026-10-24 17:45:02 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 17:45:51 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=7% 内存=77%
-2026-10-24 17:46:45 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
-2026-10-24 17:46:45 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 17:47:00 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
-2026-10-24 17:47:00 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 17:50:52 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=25% 内存=78%
-2026-10-24 17:52:08 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
-2026-10-24 17:52:08 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 17:53:31 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=91 cpu=None mem=None
-2026-10-24 17:53:31 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 17:55:53 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=17% 内存=80%
-2026-10-24 17:57:39 INFO  qq_bot:208        QQ RECONNECT requested
-2026-10-24 17:57:39 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-24 17:57:40 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-24 17:57:40 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-24 18:00:53 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=19% 内存=80%
-2026-10-24 18:05:54 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=10% 内存=82%
-2026-10-24 18:05:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-2026-10-24 18:05:56 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+# 更新于 2026-10-24 23:14:33 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 18:06:12 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
 2026-10-24 18:06:12 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-24 18:07:28 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=89 cpu=None mem=None
@@ -1499,3 +1478,24 @@
 2026-10-24 23:13:34 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 2026-10-24 23:13:34 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-24 23:13:35 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': 'a64b27d9-3f38-487c-aabd-9ffca64a0d97'}}
+2026-10-24 23:13:35 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': 'ac372fce-f214-44a5-8fa7-28990ee82a02'}}
+2026-10-24 23:13:46 INFO  llm:1095          LLM 首调用选择模型: glm-4-flash (content=**Minecraft模组区别**\n\n- **BattleArmory TACZ**：这是一个专注于武器和装备的模组，提供了多种武器和装备，以及自定义选项。\n- **Timeless and Classics Zero Unofficial Modpac**：这个模组是一个包含多个经典Minecraft模组的集合，包括建筑、物品、生物等。\n- **BattleArmory**：这是一个更全面的模组... tool_calls=0)
+2026-10-24 23:13:46 INFO  llm:1114          LLM原始输出 [轮1]: content=**Minecraft模组区别**\n\n- **BattleArmory TACZ**：这是一个专注于武器和装备的模组，提供了多种武器和装备，以及自定义选项。\n- **Timeless and Classics Zero Unofficial Modpac**：这个模组是一个包含多个经典Minecraft模组的集合，包括建筑、物品、生物等。\n- **BattleArmory**：这是一个更全面的模组 | tool_calls=0
+2026-10-24 23:13:46 INFO  llm:1167          LLM 输出非 JSON，强制重试...
+2026-10-24 23:13:46 INFO  llm:482           调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=32.0s
+2026-10-24 23:14:06 INFO  llm:544           LLM [glm-4-flash] 返回 403字符 耗时20.3s → "{"replies":["这三个模组都是Minecraft的模组，但它们各有特色哦~","1. **..."
+2026-10-24 23:14:06 INFO  llm:1173          json_mode 重试成功: {"replies":["这三个模组都是Minecraft的模组，但它们各有特色哦~","1. **BattleArmory TACZ**：这个模组主要增加了新...
+2026-10-24 23:14:06 INFO  llm:1462          JSON回复解析: 4句 fav=+0 calls=0 mood=开心
+2026-10-24 23:14:06 INFO  memory:414        触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
+2026-10-24 23:14:06 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:14:06 INFO  logger:541        [TRACE 05412637db3b4523] total=31901.33ms severity=very_slow_request | llm_calls=5 total=31814.25ms avg=6362.85ms max=20292.93ms p50=349.94 p95=18351.17 p99=19904.57 | json_parse=0.16ms(x1), llm=31509.44ms(x1), memory=29.23ms(x2), process=31901.17ms(x1) (wall31901.17), queue_wait=0.66ms(x1)
+2026-10-24 23:14:06 WARN  logger:559        [VERY_SLOW 05412637db3b4523] total=31901.87ms 需重点排查 | json_parse=0.16ms(x1), llm=31509.44ms(x1), memory=29.23ms(x2), process=31901.17ms(x1) (wall31901.17), queue_wait=0.66ms(x1) | llm_calls=5 total=31814.25ms avg=6362.85ms max=20292.93ms p50=349.94 p95=18351.17 p99=19904.57 | perf: queue=0.66ms llm=31509.6ms search_tool=0.0ms delivery=0.0ms other=31930.4ms wall=31901.82ms dominant=other
+2026-10-24 23:14:06 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
+2026-10-24 23:14:06 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-24 23:14:07 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=232 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqkV8Hx1bybkdAX21vGps57Ts7YHPnLt4ceXrpMBVT2YBQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
+2026-10-24 23:14:07 DEBG  response_delivery:297 已发送第 1/1 条: 这三个模组都是Minecraft的模组，但它们各有特色哦~
+...
+2026-10-24 23:14:07 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:14:07 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
+2026-10-24 23:14:07 INFO  llm:544           LLM [deepseek-flash] 返回 318字符 耗时1.2s → "[23:14:06] 63C251709C77FDE: 问了这三个有什么区别, 茂密回复这三个模组都..."
+2026-10-24 23:14:07 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
