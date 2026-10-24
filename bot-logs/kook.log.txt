@@ -1,31 +1,4 @@
-# 更新于 2026-10-24 23:28:18 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 18:15:18 INFO  events:94         语言文件已加载
-2026-10-24 18:15:18 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-24 18:15:18 INFO  events:94         日志系统已初始化
-2026-10-24 18:15:18 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-24 18:15:18 INFO  events:94         khl.py Bot 实例已创建
-2026-10-24 18:15:19 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-24 18:15:19 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-10-24 18:15:19 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-24 18:15:19 INFO  qq_bot:139        QQBot 已取消
-2026-10-24 18:15:19 INFO  events:94         🛑 正在关闭...
-2026-10-24 18:15:19 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-24 18:15:19 INFO  events:94         消息发送器已初始化
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: chou
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: echo
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: eq
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: greet
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: luck
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: motou
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: weather
-2026-10-24 18:15:19 INFO  manager:234       Plugin 已卸载: whois
-2026-10-24 18:15:19 INFO  events:94         Plugin Runtime 已关闭
+# 更新于 2026-10-24 23:29:03 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 18:15:19 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 13, 'active_tasks': 0}
 2026-10-24 18:15:19 INFO  context_manager:190 上下文已写入磁盘
 2026-10-24 18:15:19 INFO  events:94         👋 再见！
@@ -1499,3 +1472,30 @@
 2026-10-24 23:26:10 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=77 cpu=None mem=None
 2026-10-24 23:26:10 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-24 23:28:18 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=71% 内存=54%
+2026-10-24 23:28:21 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-24 23:28:21 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='<faceType=6,faceId="0",ext="eyJ0ZXh0IjoiIn0=">' mentions=0 content='<faceType=6,faceId="0",ext="eyJ0ZXh0IjoiIn0=">' atts=1 ref=False msg_type=0
+2026-10-24 23:28:21 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '<faceType=6,faceId="0",ext="eyJ0ZXh0IjoiIn0=">' (图1 视0)
+2026-10-24 23:28:21 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-iWQdL1-.f0dLaUSKSVP50R2y5ivhkEENvpSHgsu3gNOiWrZ4e01MqQN29MvTcJlKE8fKap1PmDSKE-cv4MAOb0!
+2026-10-24 23:28:21 INFO  image_api:152     [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 开始获取图片: https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=E...
+2026-10-24 23:28:22 INFO  image_api:168     [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片下载成功: 640486 bytes
+2026-10-24 23:28:23 INFO  image_api:204     [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片预处理: GIF(460x460) → PNG 640486 bytes → 93593 bytes
+2026-10-24 23:28:23 INFO  image_api:251     [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 调用主视觉模型识别图片 (MD5=24a07c176c93...) model=deepseek-flash
+2026-10-24 23:28:28 INFO  image_api:280     [chat=qq:63C251709C77FDEE87FC502F866E3FB5] 图片识别成功 (model=deepseek-flash): 黑底白点方与圆的视觉错觉图，顶部黄字问“圆的还是方的”，底部红字“要睡好，梦之枕”。右下角黄笑脸。情...
+2026-10-24 23:28:28 DEBG  image_api:64      图片缓存已写入磁盘: 396 条
+2026-10-24 23:28:28 DEBG  image_api:315     图片仓库追加: MD5=24a07c176c93... → '黑底白点方与圆的视觉错觉图，顶部黄字问“圆的还是方的”，底部'
+2026-10-24 23:28:28 INFO  qq_bot:560        QQ 图1 识别完成并注入上下文: '黑底白点方与圆的视觉错觉图，顶部黄字问“圆的还是方的”，底部红字“要睡好，梦之枕”。右下角黄笑脸。情...'
+2026-10-24 23:28:28 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-24 23:28:28 INFO  pipeline:390      附带图片已记录 [chat=qq:63C251709C77FDEE87FC502F866E3FB5] count=1
+2026-10-24 23:28:28 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 3条 (阈值=10)
+2026-10-24 23:28:28 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='<faceType=6,faceId="0",ext="eyJ0ZXh0Ijoi'
+2026-10-24 23:28:28 DEBG  pipeline:598      私聊消息 → 直接回复
+2026-10-24 23:28:28 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='<faceType=6,faceId="0",ext="ey'
+2026-10-24 23:28:28 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-10-24 23:28:28 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=136.0ms
+2026-10-24 23:28:28 DEBG  pipeline:862      extra_info 按预算丢弃 1 项: ['memory:memory']
+2026-10-24 23:28:28 INFO  pipeline:866      额外信息: 134字 (memory=0 search=0)
+2026-10-24 23:28:28 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-24 23:28:28 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-24 23:28:28 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:28:28 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': 'c9863422-80d2-4107-9f34-952badde2c6f'}}
+2026-10-24 23:28:29 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': 'b930e3b8-b186-48e5-83c0-489e508c416a'}}
