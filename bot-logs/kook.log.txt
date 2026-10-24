@@ -1,16 +1,4 @@
-# 更新于 2026-10-24 21:35:38 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:57:32 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-24 16:57:32 INFO  manager:234       Plugin 已卸载: weather
-2026-10-24 16:57:32 INFO  manager:234       Plugin 已卸载: whois
-2026-10-24 16:57:32 INFO  events:94         Plugin Runtime 已关闭
-2026-10-24 16:57:32 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-10-24 16:57:32 INFO  context_manager:190 上下文已写入磁盘
-2026-10-24 16:57:32 INFO  events:94         👋 再见！
-2026-10-24 16:57:32 INFO  main:70           应用程序已退出
-2026-10-24 16:57:34 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-24 16:57:34 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 16:57:36 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-24 16:57:36 INFO  qq_bot:139        QQBot 已取消
+# 更新于 2026-10-24 21:36:26 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:57:36 INFO  events:94         🛑 正在关闭...
 2026-10-24 16:57:36 INFO  manager:234       Plugin 已卸载: checkin
 2026-10-24 16:57:36 INFO  manager:234       Plugin 已卸载: chou
@@ -1499,3 +1487,15 @@
 2026-10-24 21:31:31 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=49 cpu=26.3 mem=61.1
 2026-10-24 21:31:31 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-24 21:31:47 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=57% 内存=83%
+2026-10-24 21:35:48 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-24 21:35:48 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/看视频  0 ' mentions=0 content='/看视频  1 ' atts=0 ref=False msg_type=0
+2026-10-24 21:35:48 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/看视频  0 '
+2026-10-24 21:35:48 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-i8dKXDC.co2QQC6m6VSDAZGcxoj6Md.7n44ZXzTisDO7COYWy-TdFCupoWBF7dK6BKXvHiQ-FMtIx29YwVd0Pc!
+2026-10-24 21:35:48 INFO  queues:32         [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
+2026-10-24 21:35:48 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-24 21:35:48 INFO  identity:92       身份映射已载入 2 条
+2026-10-24 21:35:48 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 1条 (阈值=10)
+2026-10-24 21:35:49 INFO  pipeline:503      指令拦截: '/看视频  0 ' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 21:35:49 DEBG  commands:5223     指令解析: prefix=/ cmd=看视频 args=[' 0 '] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 21:35:50 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=17 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqkyJPntGNz8HK46b3Dyg6Dh8OMZcBux4.ysdzIcxsBIchNzGx7m.12VkiCNWttRxd8tG81ovPjw88HwjHppK6Gc!
+2026-10-24 21:36:05 INFO  video_api:234     智谱视频理解 chat=qq:63C251709C77FDEE87FC502F866E3FB5 data_uri 16131KB
