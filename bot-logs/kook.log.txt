@@ -1,30 +1,4 @@
-# 更新于 2026-10-24 23:44:18 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 19:55:19 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:19 INFO  logger:541        [TRACE 1271e91974ab4cf9] total=456.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=456.33ms(x1) (wall456.33), queue_wait=0.37ms(x1)
-2026-10-24 19:55:35 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:35 DEBG  dispatcher:47     dispatch 入口: type=9 content='你搜一下最近pcl这些启动器怎么了' is_edit=False
-2026-10-24 19:55:35 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
-2026-10-24 19:55:35 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='你搜一下最近pcl这些启动器怎么了'
-2026-10-24 19:55:35 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
-2026-10-24 19:55:35 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 5条 (阈值=10)
-2026-10-24 19:55:35 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='你搜一下最近pcl这些启动器怎么了'
-2026-10-24 19:55:35 DEBG  pipeline:598      私聊消息 → 直接回复
-2026-10-24 19:55:35 DEBG  pipeline:658      请求意图: intent=search fast_search=True msg='你搜一下最近pcl这些启动器怎么了'
-2026-10-24 19:55:35 INFO  pipeline:687      复杂度: level=knowledge score=23 scale=1.6
-2026-10-24 19:55:35 DEBG  planner:216       Agent: 知识复杂度(knowledge)，进入规划: '你搜一下最近pcl这些启动器怎么了'
-2026-10-24 19:55:35 INFO  llm:482           调用LLM [Qwen/Qwen3-Next-80B-] url=v1 tokens=5 temp=0.0 timeout=8.0s
-2026-10-24 19:55:36 ERRO  llm:575           LLM [Qwen/Qwen3-Next-80B-] 调用失败 (0.3s): Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': 'faeb5597-78e4-4618-8c56-31e2d611b116'}}
-2026-10-24 19:55:36 INFO  gateway:141       Agent 门卫判定 msg='你搜一下最近pcl这些启动器怎么了' raw=''
-2026-10-24 19:55:36 INFO  gateway:205       Agent: 门卫判定为普通聊天('你搜一下最近pcl这些启动器怎么了')，回退 Fast Path
-2026-10-24 19:55:36 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=5.4ms
-2026-10-24 19:55:36 INFO  pipeline:866      额外信息: 1764字 (memory=538 search=0)
-2026-10-24 19:55:36 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-24 19:55:36 INFO  search:219        自动搜索触发（关键词）: '你搜一下最近pcl这些启动器怎么了...'
-2026-10-24 19:55:36 DEBG  judge:92          搜索缓存未命中: '你搜一下最近pcl这些启动器怎么了...'
-2026-10-24 19:55:36 INFO  search:108        执行 DeepSeek 原生搜索: '你搜一下最近pcl这些启动器怎么了...' (user=ywandwss)
-2026-10-24 19:55:36 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:45 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=8% 内存=85%
-2026-10-24 19:55:54 INFO  web_search:596    DeepSeek 原生搜索成功: attempt=1 耗时18078.7ms
+# 更新于 2026-10-24 23:44:55 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 19:55:54 INFO  search:150        搜索完成: '你搜一下最近pcl这些启动器怎么了...' → 680字符
 我无法实时联网搜索，以下是根据我掌握的信息（截至2025年中）整理的近期动态，可能不是最新，请以官方公告为准：
 
@@ -1499,3 +1473,29 @@
 2026-10-24 23:44:08 INFO  gateway:209       Agent: 进入规划 pipeline trace=9e5a88cf0db54aba intent=chat msg='@659688244  hypomux中我检查玩游戏 下载东西所以调度策略应该怎'
 2026-10-24 23:44:09 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=1200 temp=0.2 timeout=15.0s
 2026-10-24 23:44:09 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 23:44:24 ERRO  llm:561           LLM [deepseek-ai/DeepSeek] 调用超时 (15.0s/15.0s)
+2026-10-24 23:44:24 WARN  planner:362       Planner: LLM 返回空，放弃规划
+2026-10-24 23:44:24 INFO  gateway:218       Agent: 规划失败，fallback 原 pipeline trace=9e5a88cf0db54aba
+2026-10-24 23:44:24 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=10.2ms
+2026-10-24 23:44:24 INFO  pipeline:866      额外信息: 2123字 (memory=771 search=0)
+2026-10-24 23:44:24 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-24 23:44:24 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-24 23:44:24 INFO  pipeline:1139     开始生成回复: speaker=ywandwss chat=9844130976336955
+2026-10-24 23:44:41 INFO  llm:1095          LLM 首调用选择模型: deepseek-ai/DeepSeek-V4-Pro-0813 (content={"replies":["主人这题稳的！**结论先甩：选 3 低延迟优先**，边玩游戏边下载就认准它喵~","**为啥低延迟优先？**\n道理很简单：游戏吃的是「延迟」，下载吃的是「带宽」。你打团战那会儿，每一个操作都要毫秒级传出去，延迟一高就卡顿、漂移、掉线重连，体验直接爆炸。而下载文件这种东西，早一秒晚一秒根本没感觉，慢一点也不心疼~","**三个策略掰开说：**\n- **最大速度优先**：所有... tool_calls=0)
+2026-10-24 23:44:41 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["主人这题稳的！**结论先甩：选 3 低延迟优先**，边玩游戏边下载就认准它喵~","**为啥低延迟优先？**\n道理很简单：游戏吃的是「延迟」，下载吃的是「带宽」。你打团战那会儿，每一个操作都要毫秒级传出去，延迟一高就卡顿、漂移、掉线重连，体验直接爆炸。而下载文件这种东西，早一秒晚一秒根本没感觉，慢一点也不心疼~","**三个策略掰开说：**\n- **最大速度优先**：所有 | tool_calls=0
+2026-10-24 23:44:41 INFO  fav:128           好感度更新: g9844130976336955:1759953618 +3 → 66
+2026-10-24 23:44:41 INFO  pipeline:1629     好感度调整: ywandwss +3 (chat=9844130976336955)
+2026-10-24 23:44:41 INFO  memory:414        触发自动记忆 [9844130976336955]: 2 条
+2026-10-24 23:44:41 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=9844130976336955
+2026-10-24 23:44:41 DEBG  pipeline:1657     Fast Path 主题已记录: chat=9844130976336955 topic='@659688244  hypomux中我检查玩游戏 下载东'
+2026-10-24 23:44:41 INFO  logger:541        [TRACE 9e5a88cf0db54aba] total=32977.01ms severity=very_slow_request | llm_calls=3 total=32357.83ms avg=16178.92ms max=17357.05ms p50=16178.92 p95=17239.23 p99=17333.49 | json_parse=0.05ms(x1), llm=17359.24ms(x1), memory=20.81ms(x2), planner=15020.45ms(x1), process=32976.94ms(x1) (wall32976.94), queue_wait=0.44ms(x1)
+2026-10-24 23:44:41 WARN  logger:559        [VERY_SLOW 9e5a88cf0db54aba] total=32977.38ms 需重点排查 | json_parse=0.05ms(x1), llm=17359.24ms(x1), memory=20.81ms(x2), planner=15020.45ms(x1), process=32976.94ms(x1) (wall32976.94), queue_wait=0.44ms(x1) | llm_calls=3 total=32357.83ms avg=16178.92ms max=17357.05ms p50=16178.92 p95=17239.23 p99=17333.49 | perf: queue=0.44ms llm=17359.29ms search_tool=0.0ms delivery=0.0ms other=48018.2ms wall=32977.36ms dominant=other
+2026-10-24 23:44:41 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=9844130976336955 is_group=True
+2026-10-24 23:44:41 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-24 23:44:41 INFO  pipeline:1691     画像更新: uid=1759953618 new={'interests': ['游戏']}
+2026-10-24 23:44:42 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 23:44:42 DEBG  response_delivery:297 已发送第 1/1 条: 主人这题稳的！**结论先甩：选 3 低延迟优先**，边玩游戏...
+2026-10-24 23:44:42 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=9844130976336955
+2026-10-24 23:44:42 DEBG  context_manager:139 发送任务已清理 [9844130976336955]
+2026-10-24 23:44:42 INFO  llm:544           LLM [deepseek-flash] 返回 176字符 耗时1.0s → "[23:44:41] ywandwss: 问@659688244 hypomux中检查玩游戏下载东西..."
+2026-10-24 23:44:42 INFO  memory:223        [9844130976336955] 压缩完成: 2条消息 → 保存
