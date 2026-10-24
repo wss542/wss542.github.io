@@ -1,51 +1,4 @@
-# 更新于 2026-10-24 11:11:34 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-24 10:14:33 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-24 10:14:33 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-24 10:14:33 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-24 10:14:33 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-24 10:14:33 INFO  bot:111           ==================================================
-2026-10-24 10:14:33 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-24 10:14:33 INFO  bot:111           ==================================================
-2026-10-24 10:14:33 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-24 10:14:33 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-24 10:14:33 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-24 10:14:33 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-24 10:14:33 INFO  events:94         QQ open-platform channel started
+# 更新于 2026-10-24 11:12:21 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 10:14:33 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
 2026-10-24 10:14:33 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
 2026-10-24 10:14:34 INFO  rss:299           [RSS] 订阅轮询服务启动
@@ -1499,3 +1452,50 @@
 2026-10-24 11:11:19 INFO  pc_status:201     收到 lyric_event [延迟=1256ms]: '**Woah-oh-oh-oh**' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
 2026-10-24 11:11:22 INFO  pc_status:201     收到 lyric_event [延迟=926ms]: '**We don't even have to try, it's always a good time**
 `我们都不' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=986ms]: '**作词 : Adam Young/Matthew Thiessen/Brian Lee**' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=979ms]: '**作曲 : Adam Young/Matthew Thiessen/Brian Lee**' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=952ms]: '**Woah-oh-oh-oh**' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=939ms]: '**It's always a good time**
+`共度美好时光`' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=907ms]: '**Woah-oh-oh-oh**' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=894ms]: '**It's always a good time**
+`共度美好时光吧`' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=859ms]: '**Woke up on the right side of the bed**
+`一觉醒来发现自己躺在床的右边`' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=833ms]: '**What's up with this Prince song inside my head?**
+`不知怎么的  ' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:41 INFO  pc_status:201     收到 lyric_event [延迟=317ms]: '**Hands up if you're down to get down tonight**
+`今夜我们来借舞消愁`' song=Owl City / Carly Rae Jepsen -  playing=True channel=None
+2026-10-24 11:11:42 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Clean Bandit / Jess Glynne - Rather Be（播放中）CPU=79% 内存=80%
+2026-10-24 11:11:44 INFO  pc_status:201     收到 lyric_event [延迟=187ms]: '**作词 : James Napier/Jack Patterson/Grace Chatto/Nicole Marsh' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:44 INFO  pc_status:201     收到 lyric_event [延迟=182ms]: '**作曲 : James Napier/Jack Patterson/Grace Chatto/Nicole Marsh' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:44 INFO  pc_status:201     收到 lyric_event [延迟=151ms]: '**制作人 : Jack Patterson/Grace Chatto**' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:44 INFO  pc_status:201     收到 lyric_event [延迟=139ms]: '**We're a thousand miles from comfort,**
+`安逸与我们相隔万里`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:44 INFO  pc_status:201     收到 lyric_event [延迟=124ms]: '**We have traveled land and sea**
+`我们赤足跋涉千山万水`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:46 INFO  pc_status:201     收到 lyric_event [延迟=18ms]: '**But as long as you are with me, there's no place I'd rathe' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:55 INFO  pc_status:201     收到 lyric_event [延迟=-353ms]: '**作词 : James Napier/Jack Patterson/Grace Chatto/Nicole Marsh' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:55 INFO  pc_status:201     收到 lyric_event [延迟=-364ms]: '**作曲 : James Napier/Jack Patterson/Grace Chatto/Nicole Marsh' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:55 INFO  pc_status:201     收到 lyric_event [延迟=-393ms]: '**制作人 : Jack Patterson/Grace Chatto**' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:55 INFO  pc_status:201     收到 lyric_event [延迟=-423ms]: '**We're a thousand miles from comfort,**
+`安逸与我们相隔万里`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:55 INFO  pc_status:201     收到 lyric_event [延迟=-439ms]: '**We have traveled land and sea**
+`我们赤足跋涉千山万水`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:11:56 INFO  pc_status:201     收到 lyric_event [延迟=-546ms]: '**But as long as you are with me, there's no place I'd rathe' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:06 INFO  pc_status:201     收到 lyric_event [延迟=-266ms]: '**制作人 : Jack Patterson/Grace Chatto**' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:06 INFO  pc_status:201     收到 lyric_event [延迟=-271ms]: '**We're a thousand miles from comfort,**
+`安逸与我们相隔万里`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:06 INFO  pc_status:201     收到 lyric_event [延迟=-300ms]: '**We have traveled land and sea**
+`我们赤足跋涉千山万水`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:06 INFO  pc_status:201     收到 lyric_event [延迟=-315ms]: '**But as long as you are with me, there's no place I'd rathe' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:13 INFO  pc_status:201     收到 lyric_event [延迟=191ms]: '**制作人 : Jack Patterson/Grace Chatto**' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:13 INFO  pc_status:201     收到 lyric_event [延迟=185ms]: '**We're a thousand miles from comfort,**
+`安逸与我们相隔万里`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:13 INFO  pc_status:201     收到 lyric_event [延迟=169ms]: '**We have traveled land and sea**
+`我们赤足跋涉千山万水`' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:13 INFO  pc_status:201     收到 lyric_event [延迟=154ms]: '**But as long as you are with me, there's no place I'd rathe' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:13 INFO  pc_status:201     收到 lyric_event [延迟=-407ms]: '**I would wait forever, exulted in the seam**
+`愿永远守候着你, 为你每一' song=Clean Bandit / Jess Glynne - R playing=True channel=None
+2026-10-24 11:12:21 INFO  pc_status:201     收到 lyric_event [延迟=-157ms]: '**As long as I am with you, my heart continues to beat**
+`只要' song=Clean Bandit / Jess Glynne - R playing=True channel=None
