@@ -1,10 +1,4 @@
-# 更新于 2026-10-24 17:32:25 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 15:59:34 INFO  pc_status:201     收到 lyric_event [延迟=1041ms]: '**I feel like a fool**
-`我就像个傻瓜`' song=TAIGA - Middle Of The Night playing=True channel=None
-2026-10-24 15:59:37 INFO  pc_status:201     收到 lyric_event [延迟=972ms]: '**'Cause I leave the window open and my bones still shake**
-' song=TAIGA - Middle Of The Night playing=True channel=None
-2026-10-24 15:59:56 INFO  pc_status:201     收到 lyric_event [延迟=523ms]: '**I won't wait for you**
-`我将不再等待`' song=TAIGA - Middle Of The Night playing=True channel=None
+# 更新于 2026-10-24 17:33:01 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 15:59:58 INFO  pc_status:201     收到 lyric_event [延迟=-339ms]: '**It's the middle of the night**
 `现在是半夜`' song=TAIGA - Middle Of The Night playing=True channel=None
 2026-10-24 16:00:00 INFO  pc_status:201     收到 lyric_event [延迟=-199ms]: '**But the street lights keep me awake**
@@ -1499,3 +1493,9 @@
 2026-10-24 17:32:24 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
 2026-10-24 17:32:25 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
 2026-10-24 17:32:25 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-24 17:32:27 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-qq-standalone/data/img_temp/mc_card_9666_uno_25294.png size=464.0KB
+2026-10-24 17:32:31 INFO  qq_transport:711  QQ 分片上传成功 file=mc_card_9666_uno_25294.png size=475143 ttl=86400
+2026-10-24 17:32:32 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpquSdAzCY9HO7HmFuMdYoJ.7ktr5hGDlb56ly8oqBjK89rZl.j0e0uFXfUKErqcqU5w!!
+2026-10-24 17:32:32 INFO  commands:5280     指令执行完成 [mc]: 无返回值（已自行发送）
+2026-10-24 17:32:32 INFO  logger:541        [TRACE 66c3c3ab720f4102] total=14439.8ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=14438.53ms(x1) (wall14438.53), queue_wait=10.0ms(x1)
+2026-10-24 17:32:32 WARN  logger:559        [VERY_SLOW 66c3c3ab720f4102] total=14444.04ms 需重点排查 | process=14438.53ms(x1) (wall14438.53), queue_wait=10.0ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=10.0ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=14438.53ms wall=14440.27ms dominant=other
