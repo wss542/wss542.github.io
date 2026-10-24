@@ -1,18 +1,4 @@
-# 更新于 2026-10-24 08:55:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 08:01:13 DEBG  image_api:315     图片仓库追加: MD5=f957ccb0d259... → 'Minecraft方块游戏聊天截图。记录显示玩家wujich'
-2026-10-24 08:01:13 INFO  dispatcher:984    🖼️  [chat=7274785942250691] 图#2/2 识别完成: 'Minecraft方块游戏聊天截图。记录显示玩家wujicheng0411暴躁对线，包含“自杀去吧”等辱骂。情绪元素：极度愤怒、暴躁谩骂、强烈不耐、尖锐嘲讽。...' (79字) url=https://img.kookapp.cn/assets/2026-10/24/jnYGdLJ8Vb0h609w.pn
-2026-10-24 08:01:13 INFO  dispatcher:410    🖼️  [chat=7274785942250691] 图2 识别完成并注入上下文: 'Minecraft方块游戏聊天截图。记录显示玩家wujicheng0411暴躁对线，包含“自杀去吧”...'
-2026-10-24 08:01:13 INFO  queues:32         [队列] 创建群7274785942250691 的独立消息队列
-2026-10-24 08:01:13 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-10-24 08:01:13 INFO  pipeline:390      附带图片已记录 [chat=7274785942250691] count=2
-2026-10-24 08:01:13 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 1条 (阈值=10)
-2026-10-24 08:01:13 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='[{"theme":"invisible","color":"","size":'
-2026-10-24 08:01:13 INFO  logger:541        [TRACE 4998e6c8a32b4809] total=43.12ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=42.98ms(x1) (wall42.98), queue_wait=13.04ms(x1)
-2026-10-24 08:01:13 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 08:01:13 DEBG  dispatcher:47     dispatch 入口: type=9 content='这就是我不玩落花的原因' is_edit=False
-2026-10-24 08:01:13 DEBG  dispatcher:110    KMD 调试: is_group=True uid=2764882874 channel=7274785942250691
-2026-10-24 08:01:13 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=SiswaYunfeng(2764882874) | chat=7274785942250691 | group=True | content='这就是我不玩落花的原因'
-2026-10-24 08:01:13 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
+# 更新于 2026-10-24 08:56:35 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 08:01:13 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
 2026-10-24 08:01:13 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='这就是我不玩落花的原因'
 2026-10-24 08:01:13 INFO  logger:541        [TRACE 6925fde4daa3405a] total=5.13ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=5.08ms(x1) (wall5.08), queue_wait=0.46ms(x1)
@@ -1499,3 +1485,17 @@
 `请洒下一束光芒`' song=Robin Schulz / David Guetta /  playing=True channel=None
 2026-10-24 08:55:46 INFO  pc_status:201     收到 lyric_event [延迟=-2790ms]: '**Shed a light, shed a light on me**
 `倾洒一束光照在我身上`' song=Robin Schulz / David Guetta /  playing=True channel=None
+2026-10-24 08:55:58 INFO  pc_status:201     收到 lyric_event [延迟=967ms]: '**Don't leave me here in the dark when it's hard to see**
+`无' song=Robin Schulz / David Guetta /  playing=True channel=None
+2026-10-24 08:56:02 INFO  pc_status:201     收到 lyric_event [延迟=950ms]: '**Show me your heart, shed a light on me**
+`让我知晓你的心意，将你的光芒照耀' song=Robin Schulz / David Guetta /  playing=True channel=None
+2026-10-24 08:56:06 INFO  pc_status:201     收到 lyric_event [延迟=1064ms]: '**If you love me, say so, If you love me, say so**
+`如果你爱我，就说' song=Robin Schulz / David Guetta /  playing=True channel=None
+2026-10-24 08:56:15 INFO  pc_status:201     收到 lyric_event [延迟=351ms]: '**作词 : David Guetta/Stefan Dabruck/Robin Schulz/John Ryan/Am' song=Robin Schulz / David Guetta /  playing=True channel=None
+2026-10-24 08:56:16 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=胡彦斌 - One Night in Shanghai（播放中）CPU=97% 内存=94%
+2026-10-24 08:56:16 INFO  pc_status:201     收到 lyric_event [延迟=314ms]: '**▶ 胡彦斌 - One Night in Shanghai**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
+2026-10-24 08:56:34 INFO  pc_status:201     收到 lyric_event [延迟=532ms]: '**星期五晚上九點**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
+2026-10-24 08:56:34 INFO  pc_status:201     收到 lyric_event [延迟=477ms]: '**相約在錢櫃見面**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
+2026-10-24 08:56:34 INFO  pc_status:201     收到 lyric_event [延迟=474ms]: '**號稱是同學聚會 Oh yeah**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
+2026-10-24 08:56:34 INFO  pc_status:201     收到 lyric_event [延迟=428ms]: '**興衝衝進了房間**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
+2026-10-24 08:56:34 INFO  pc_status:201     收到 lyric_event [延迟=-1124ms]: '**沒見到一個同學**' song=胡彦斌 - One Night in Shanghai playing=True channel=None
