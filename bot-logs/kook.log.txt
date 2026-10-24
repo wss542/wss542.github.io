@@ -1,52 +1,4 @@
-# 更新于 2026-10-24 23:56:31 · 共 1500 行（来源 huanmeng.log 末尾）
-- HMCL 的 GitHub 发布页
-- MCBBS 或相关社区公告
-
-如果你指的是某个具体事件（如“被下架”“作者跑路”“收费”等），可以补充一下，我再帮你梳理。
-2026-10-24 19:55:54 DEBG  judge:135         搜索缓存已更新: '你搜一下最近pcl这些启动器怎么了...' (实时=False)
-2026-10-24 19:55:54 INFO  pipeline:1128     自动搜索结果已注入 (680字)
-2026-10-24 19:55:54 INFO  pipeline:1139     开始生成回复: speaker=ywandwss chat=1759953618
-2026-10-24 19:55:54 ERRO  llm:712           LLM FC [Qwen/Qwen3-Next-80B-] 失败: Error code: 400 - {'error': {'message': 'Model id : Qwen/Qwen3-Next-80B-A3B-Instruct , has no provider supported', 'request_id': '792c8931-0bcc-412a-883c-7cb7f1347180'}}
-2026-10-24 19:55:54 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:54 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': '985f69c6-1903-4964-a9d8-40da8e606ca6'}}
-2026-10-24 19:56:03 INFO  llm:1095          LLM 首调用选择模型: glm-4-flash (content=茂密: 哦，最近 PCL 启动器有点小波折喵～\n- PCL2 进入维护状态，社区版 PCL CE 继续更新。\n- 启动器圈子有争议，官网/下载站可能遭遇举报。\n- 微软登录政策调整，部分用户登录失效。\n- HMCL 持续更新，BakaXL 停止更新。\n\n你可以去 PCL 官网、GitHub 或相关社区查看最新动态喵～... tool_calls=0)
-2026-10-24 19:56:03 INFO  llm:1114          LLM原始输出 [轮1]: content=茂密: 哦，最近 PCL 启动器有点小波折喵～\n- PCL2 进入维护状态，社区版 PCL CE 继续更新。\n- 启动器圈子有争议，官网/下载站可能遭遇举报。\n- 微软登录政策调整，部分用户登录失效。\n- HMCL 持续更新，BakaXL 停止更新。\n\n你可以去 PCL 官网、GitHub 或相关社区查看最新动态喵～ | tool_calls=0
-2026-10-24 19:56:03 INFO  llm:1167          LLM 输出非 JSON，强制重试...
-2026-10-24 19:56:03 INFO  llm:482           调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=32.0s
-2026-10-24 19:56:16 INFO  llm:544           LLM [glm-4-flash] 返回 213字符 耗时12.7s → "茂密: 哎呀，最近 PCL 启动器确实有点变动喵～\n- PCL2 停止了主要功能的更新，只修复一些严..."
-2026-10-24 19:56:16 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=1759953618
-2026-10-24 19:56:16 DEBG  pipeline:1657     Fast Path 主题已记录: chat=1759953618 topic='你搜一下最近pcl这些启动器怎么了'
-2026-10-24 19:56:16 INFO  logger:541        [TRACE a2abaac118d74dc5] total=39347.2ms severity=very_slow_request | llm_calls=5 total=21119.51ms avg=4223.9ms max=12718.62ms p50=334.66 p95=11684.2 p99=12511.73 | json_parse=0.02ms(x1), llm=20812.31ms(x1), memory=11.15ms(x2), process=39347.13ms(x1) (wall39347.13), queue_wait=0.61ms(x1), search=18204.67ms(x1), search_cache_miss=10.94ms(x1), search_http=18078.74ms(x1), search_parse=0.0ms(x1), search_total=36278.54ms(x2)
-2026-10-24 19:56:16 WARN  logger:559        [VERY_SLOW a2abaac118d74dc5] total=39347.76ms 需重点排查 | json_parse=0.02ms(x1), llm=20812.31ms(x1), memory=11.15ms(x2), process=39347.13ms(x1) (wall39347.13), queue_wait=0.61ms(x1), search=18204.67ms(x1), search_cache_miss=10.94ms(x1), search_http=18078.74ms(x1), search_parse=0.0ms(x1), search_total=36278.54ms(x2) | llm_calls=5 total=21119.51ms avg=4223.9ms max=12718.62ms p50=334.66 p95=11684.2 p99=12511.73 | perf: queue=0.61ms llm=20812.33ms search_tool=18204.67ms delivery=0.0ms other=93726.5ms wall=39347.74ms dominant=other
-2026-10-24 19:56:16 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=1759953618 is_group=False
-2026-10-24 19:56:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:56:17 DEBG  response_delivery:297 已发送第 1/1 条: 茂密: 哦，最近 PCL 启动器有点小波折喵～ - PCL2...
-2026-10-24 19:56:17 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=1759953618
-2026-10-24 19:56:17 DEBG  context_manager:139 发送任务已清理 [1759953618]
-2026-10-24 19:56:40 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
-2026-10-24 19:56:40 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 19:56:55 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
-2026-10-24 19:56:55 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 19:57:11 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
-2026-10-24 19:57:11 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 20:00:45 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=12% 内存=85%
-2026-10-24 20:04:38 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=47 cpu=None mem=None
-2026-10-24 20:04:38 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 20:05:10 INFO  wdsj_tracker:162  每日战绩采集: 6 个玩家 x 2 模板
-2026-10-24 20:05:15 INFO  wdsj_tracker:186  采集进度: 5/6
-2026-10-24 20:05:15 INFO  wdsj_tracker:190  每日战绩采集完成: 12 条新记录
-2026-10-24 20:05:15 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-24 20:05:16 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-24 20:05:16 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-10-24 20:05:17 INFO  bot:911           日榜目标频道: [3649029148752421]
-2026-10-24 20:05:18 INFO  bot:915           日榜已发到频道 3649029148752421
-2026-10-24 20:05:18 INFO  bot:918           日榜已推送: 1 人 (2026-10-24)
-2026-10-24 20:05:18 INFO  bot:868           战绩采集将在 3h55m 后执行 (00:01)
-2026-10-24 20:05:19 INFO  changelog:132     [Playwright] 空闲 106 分钟 → 已回收 Chromium（下次截图冷启动）
-2026-10-24 20:05:45 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=12% 内存=85%
-2026-10-24 20:07:55 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=49 cpu=None mem=None
-2026-10-24 20:07:55 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-24 20:08:56 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=49 cpu=None mem=None
+# 更新于 2026-10-24 23:57:13 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 20:08:56 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-24 20:10:29 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=49 cpu=None mem=None
 2026-10-24 20:10:29 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1451,51 @@
 2026-10-24 23:54:01 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
 2026-10-24 23:54:01 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-24 23:55:38 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=83% 内存=71%
+2026-10-24 23:56:37 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=阮豆 - 爱的魔法（已暂停）CPU=99% 内存=74%
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1174ms]: '**作词 : 金莎**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1147ms]: '**作曲 : 刘佳**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1136ms]: '**确定**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1095ms]: '**其实还不确定**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1085ms]: '**只是四目相对有心悸**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1074ms]: '**不见你会想你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1063ms]: '**在人群中找你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1049ms]: '**找到后又假装不看你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1038ms]: '**她们说**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1025ms]: '**你有点坏**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=1011ms]: '**追你的女生都很伤心**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=998ms]: '**可是我**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=985ms]: '**永不会追**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=971ms]: '**我要让你忍不住动心**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=954ms]: '**要保持魅力**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=936ms]: '**忽远又忽近**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=921ms]: '**不能随意献殷勤**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=903ms]: '**要像蜜桃般甜美**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=884ms]: '**阅读更多书籍**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=869ms]: '**充实自己更完美**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=854ms]: '**不是每一次的约会**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=840ms]: '**你约我就出现**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=806ms]: '**不是每一通的电话**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=767ms]: '**你打来我都会接**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=753ms]: '**爱情不是投入越快**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=727ms]: '**就可以收获更多**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=692ms]: '**喜欢被你送到家门**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=341ms]: '**但不能请你喝咖啡**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=280ms]: '**确定**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=263ms]: '**其实还不确定**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=247ms]: '**只是四目相对有心悸**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=233ms]: '**不见你会想你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=219ms]: '**在人群中找你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=208ms]: '**找到后又假装不看你**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=189ms]: '**她们说**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=177ms]: '**你有点坏**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=166ms]: '**追你的女生都很伤心**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=147ms]: '**可是我**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=131ms]: '**永不会追**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=113ms]: '**我要让你忍不住动心**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=99ms]: '**要保持魅力**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=80ms]: '**忽远又忽近**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=66ms]: '**不能随意献殷勤**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=50ms]: '**要像蜜桃般甜美**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=35ms]: '**阅读更多书籍**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=16ms]: '**充实自己更完美**' song=阮豆 - 爱的魔法 playing=False channel=None
+2026-10-24 23:56:37 INFO  pc_status:201     收到 lyric_event [延迟=2ms]: '**不是每一次的约会**' song=阮豆 - 爱的魔法 playing=False channel=None
