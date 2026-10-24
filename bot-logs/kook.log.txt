@@ -1,6 +1,4 @@
-# 更新于 2026-10-24 16:23:56 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 15:16:37 INFO  pc_status:201     收到 lyric_event [延迟=68ms]: '**Black, black magic**' song=Jonasu - Black Magic (Acoustic playing=True channel=None
-2026-10-24 15:16:39 INFO  pc_status:201     收到 lyric_event [延迟=303ms]: '**You work your voodoo on me**' song=Jonasu - Black Magic (Acoustic playing=True channel=None
+# 更新于 2026-10-24 16:24:40 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 15:16:42 INFO  pc_status:201     收到 lyric_event [延迟=563ms]: '**Black, black magic**' song=Jonasu - Black Magic (Acoustic playing=True channel=None
 2026-10-24 15:16:44 INFO  pc_status:201     收到 lyric_event [延迟=714ms]: '**The things you do to me, yeah**' song=Jonasu - Black Magic (Acoustic playing=True channel=None
 2026-10-24 15:16:46 INFO  pc_status:201     收到 lyric_event [延迟=962ms]: '**Black, black magic, oh just like that**' song=Jonasu - Black Magic (Acoustic playing=True channel=None
@@ -1499,3 +1497,5 @@
 2026-10-24 16:21:06 INFO  commands:5278     指令执行完成 [update]: 返回21字符
 2026-10-24 16:21:08 INFO  logger:541        [TRACE 3eed7c4a3d91455e] total=2117.29ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2108.48ms(x1) (wall2108.48), queue_wait=29.03ms(x1)
 2026-10-24 16:21:14 WARN  engine:174        获取 HEAD 失败: 
+2026-10-24 16:24:11 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: timed out（后续同类失败将静默）
+2026-10-24 16:24:16 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
