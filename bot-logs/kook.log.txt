@@ -1,32 +1,4 @@
-# 更新于 2026-10-24 11:19:59 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 10:16:58 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='/fuck'
-2026-10-24 10:16:58 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=1)
-2026-10-24 10:16:58 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 3条 (阈值=10)
-2026-10-24 10:16:58 INFO  pipeline:503      指令拦截: '/fuck' from=ywandwss
-2026-10-24 10:16:58 DEBG  commands:5223     指令解析: prefix=/ cmd=fuck args=[] user=1759953618
-2026-10-24 10:16:58 INFO  commands:5278     指令执行完成 [fuck]: 返回43字符
-2026-10-24 10:16:58 INFO  logger:541        [TRACE e82ecfee285b4bba] total=406.3ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=406.25ms(x1) (wall406.25), queue_wait=0.43ms(x1)
-2026-10-24 10:17:00 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 10:17:00 DEBG  dispatcher:47     dispatch 入口: type=9 content='.luck' is_edit=False
-2026-10-24 10:17:00 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=1010983873136793
-2026-10-24 10:17:00 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=1010983873136793 | group=True | content='.luck'
-2026-10-24 10:17:00 DEBG  queues:75         [队列] 群1010983873136793 消息已入队 (队长度=1)
-2026-10-24 10:17:00 INFO  memory:432        长时记忆溢出缓冲: chat=1010983873136793 +1 = 4条 (阈值=10)
-2026-10-24 10:17:00 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=0 content='.luck'
-2026-10-24 10:17:00 DEBG  pipeline:577      点前缀消息忽略（其它 bot 命令）: '.luck'
-2026-10-24 10:17:00 INFO  logger:541        [TRACE 1986674c34fc43c5] total=10.21ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=10.15ms(x1) (wall10.15), queue_wait=1.02ms(x1)
-2026-10-24 10:17:01 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 10:17:01 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)1759953618(met) 你今天的运气是 48 喵' is_edit=False
-2026-10-24 10:17:01 DEBG  dispatcher:107    跳过 bot 消息: uid=1341019011
-2026-10-24 10:18:08 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=新旭 - bboy danny（已暂停）CPU=69% 内存=95%
-2026-10-24 10:19:48 INFO  changelog:132     [Playwright] 空闲 5 分钟 → 已回收 Chromium（下次截图冷启动）
-2026-10-24 10:20:22 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
-2026-10-24 10:20:22 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-2026-10-24 10:20:22 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-2026-10-24 10:20:22 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
-2026-10-24 10:20:22 INFO  guild_names:332   guild_names: 距下次全量刷新 59978 秒
-2026-10-24 10:22:43 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-24 10:22:43 INFO  phone_status:643  WSS 回填恢复 source=iphone_status device=iPhone（中断 356s）
+# 更新于 2026-10-24 11:20:34 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 10:23:08 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=新旭 - bboy danny（已暂停）CPU=32% 内存=94%
 2026-10-24 10:23:24 INFO  pc_status:201     收到 lyric_event [延迟=565ms]: '**▶ 继续播放**' song=新旭 - bboy danny playing=True channel=None
 2026-10-24 10:23:24 INFO  pc_status:201     收到 lyric_event [延迟=489ms]: '**新旭 - bboy danny**' song=新旭 - bboy danny playing=True channel=None
@@ -1499,3 +1471,31 @@
 2026-10-24 11:19:55 INFO  pc_status:201     收到 lyric_event [延迟=-479ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
 2026-10-24 11:19:55 INFO  pc_status:201     收到 lyric_event [延迟=-491ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
 2026-10-24 11:19:55 INFO  pc_status:201     收到 lyric_event [延迟=-517ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:19:59 INFO  pc_status:201     收到 lyric_event [延迟=-944ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:19:59 INFO  pc_status:201     收到 lyric_event [延迟=-954ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:19:59 INFO  pc_status:201     收到 lyric_event [延迟=-984ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:03 INFO  pc_status:201     收到 lyric_event [延迟=-1582ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:03 INFO  pc_status:201     收到 lyric_event [延迟=-1593ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:03 INFO  pc_status:201     收到 lyric_event [延迟=-1621ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:04 INFO  pc_status:201     收到 lyric_event [延迟=-1876ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:04 INFO  pc_status:201     收到 lyric_event [延迟=-1881ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:04 INFO  pc_status:201     收到 lyric_event [延迟=-1912ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:07 INFO  pc_status:201     收到 lyric_event [延迟=-2097ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:07 INFO  pc_status:201     收到 lyric_event [延迟=-2106ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:07 INFO  pc_status:201     收到 lyric_event [延迟=-2135ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:08 INFO  pc_status:201     收到 lyric_event [延迟=-2330ms]: '**制作人 : Noel Zancanella/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:08 INFO  pc_status:201     收到 lyric_event [延迟=-2339ms]: '**作词 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:08 INFO  pc_status:201     收到 lyric_event [延迟=-2354ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:11 INFO  pc_status:201     收到 lyric_event [延迟=-3109ms]: '**作曲 : Ryan Tedder/Taylor Swift**' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:13 INFO  pc_status:201     收到 lyric_event [延迟=-3032ms]: '**Walking through a crowd**
+`穿过人山人海`' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:14 INFO  pc_status:201     收到 lyric_event [延迟=-3241ms]: '**The village is aglow**
+`整个城市流光溢彩`' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:17 INFO  pc_status:201     收到 lyric_event [延迟=-2733ms]: '**Kaleidoscope of loud heartbeats under coats**
+`外套下万花筒般的心跳声' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:22 INFO  pc_status:201     收到 lyric_event [延迟=-3564ms]: '**Everybody here wanted something more**
+`这里的每个人都心怀追求`' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:29 INFO  pc_status:201     收到 lyric_event [延迟=210ms]: '**Searching for a sound we hadn’t heard before**
+`寻觅一个没人听过的声' song=Taylor Swift - Welcome To New  playing=True channel=None
+2026-10-24 11:20:33 INFO  pc_status:201     收到 lyric_event [延迟=220ms]: '**And it said**
+`它说`' song=Taylor Swift - Welcome To New  playing=True channel=None
