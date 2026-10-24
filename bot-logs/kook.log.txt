@@ -1,20 +1,4 @@
-# 更新于 2026-10-24 23:03:14 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 17:37:36 INFO  commands:5280     指令执行完成 [wdsj]: 无返回值（已自行发送）
-2026-10-24 17:37:36 INFO  logger:541        [TRACE babc52553bbb4d62] total=15504.37ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=15504.3ms(x1) (wall15504.3), queue_wait=217.27ms(x1)
-2026-10-24 17:37:36 WARN  logger:559        [VERY_SLOW babc52553bbb4d62] total=15504.73ms 需重点排查 | process=15504.3ms(x1) (wall15504.3), queue_wait=217.27ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=217.27ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=15504.3ms wall=15504.7ms dominant=other
-2026-10-24 17:37:48 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
-2026-10-24 17:37:48 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/tuf' mentions=0 content='/tuf' atts=0 ref=False msg_type=0
-2026-10-24 17:37:48 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/tuf'
-2026-10-24 17:37:48 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-iUaoFCW1oQMYm4a9oKJXNyghRKtBczjUDvlo8axa0uqsy-UlmTMX7jGOGm6NIt0HU8fKap1PmDSKE-cv4MAOb0!
-2026-10-24 17:37:48 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
-2026-10-24 17:37:48 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 10条 (阈值=10)
-2026-10-24 17:37:48 INFO  pipeline:503      指令拦截: '/tuf' from=63C251709C77FDEE87FC502F866E3FB5
-2026-10-24 17:37:48 DEBG  commands:5223     指令解析: prefix=/ cmd=tuf args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-24 17:37:49 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-24 17:37:49 INFO  engine:92         异步记忆提炼完成 chat=qq:63C251709C77FDEE87FC502F866E3FB5: 候选1 新增1
-2026-10-24 17:37:49 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=345 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqm5NNGupN3Q9CCEa8sxI5JEAp.juOrO8EAsFdKBQ-RPl4o-y2uJmj9PWx7n1vS1OsctG81ovPjw88HwjHppK6Gc!
-2026-10-24 17:37:49 INFO  commands:5263     插件指令执行完成 [tuf]: 无返回值（已自行发送）
-2026-10-24 17:37:49 INFO  logger:541        [TRACE be843bd16f204b67] total=863.32ms severity=normal | llm_calls=1 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=863.26ms(x1) (wall863.26), queue_wait=0.32ms(x1)
+# 更新于 2026-10-24 23:04:01 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 17:37:53 INFO  llm:544           LLM [deepseek-flash] 返回 1056字符 耗时4.0s → "[17:40:14] 63C251709C77FDE: 63C251709C77FDEE87FC50..."
 2026-10-24 17:37:53 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 10条消息 → 保存
 2026-10-24 17:38:00 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
@@ -1499,3 +1483,19 @@
 2026-10-24 23:02:59 INFO  holiday:57        节假日: 2026-10-24 → 周六
 2026-10-24 23:02:59 INFO  holiday:105       节假日服务已启动
 2026-10-24 23:02:59 INFO  holiday:96        节假日每日刷新: 等待 3426 秒 (下次 00:00:05)
+2026-10-24 23:03:15 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=49 cpu=26.3 mem=61.1
+2026-10-24 23:03:15 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-10-24 23:03:15 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=38 cpu=None mem=None
+2026-10-24 23:03:15 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 23:03:15 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
+2026-10-24 23:03:15 WARN  holiday:47        节假日 API 拉取失败: 
+2026-10-24 23:03:15 INFO  holiday:105       节假日服务已启动
+2026-10-24 23:03:15 INFO  holiday:96        节假日每日刷新: 等待 3409 秒 (下次 00:00:05)
+2026-10-24 23:03:15 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
+2026-10-24 23:03:15 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=59% 内存=86%
+2026-10-24 23:03:18 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-24 23:03:21 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-24 23:03:21 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-24 23:03:21 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
+2026-10-24 23:03:21 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
+2026-10-24 23:03:21 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
