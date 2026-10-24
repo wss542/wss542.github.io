@@ -1,24 +1,4 @@
-# 更新于 2026-10-24 23:29:03 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 18:15:19 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 13, 'active_tasks': 0}
-2026-10-24 18:15:19 INFO  context_manager:190 上下文已写入磁盘
-2026-10-24 18:15:19 INFO  events:94         👋 再见！
-2026-10-24 18:15:19 INFO  main:70           应用程序已退出
-2026-10-24 18:15:19 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-24 18:15:19 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-24 18:15:19 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-24 18:15:19 INFO  events:94         用户名查询模块已初始化
-2026-10-24 18:15:19 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-24 18:15:19 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-24 18:15:19 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-24 18:15:19 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-24 18:15:19 INFO  events:94         上下文管理器已初始化
-2026-10-24 18:15:19 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-24 18:15:19 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 18:15:19 INFO  events:94         事件分发器已就绪
-2026-10-24 18:15:19 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-24 18:15:19 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-24 18:15:19 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-24 18:15:19 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+# 更新于 2026-10-24 23:29:55 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 18:15:19 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
 2026-10-24 18:15:19 DEBG  loader:46         跳过 _down：缺少 manifest.json
 2026-10-24 18:15:19 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
@@ -1499,3 +1479,23 @@
 2026-10-24 23:28:28 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-24 23:28:28 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': 'c9863422-80d2-4107-9f34-952badde2c6f'}}
 2026-10-24 23:28:29 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': 'b930e3b8-b186-48e5-83c0-489e508c416a'}}
+2026-10-24 23:29:09 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=79 cpu=None mem=None
+2026-10-24 23:29:09 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 23:29:11 INFO  qq_bot:804        QQ 占位提示触发：45.0s 内无回复，先安抚用户
+2026-10-24 23:29:12 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=12 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqs10YqIyqHNYb6lgfGx5JkR4yyXMHxnWdtYNEobT64yhQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
+2026-10-24 23:29:24 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-10-24 23:29:24 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 23:29:33 ERRO  llm:699           LLM FC [glm-4-flash] 超时
+2026-10-24 23:29:33 WARN  llm:1100          所有 LLM 候选模型首调用均失败或无内容，继续使用主模型 deepseek-ai/DeepSeek-V4.1-Flash
+2026-10-24 23:29:33 INFO  llm:1114          LLM原始输出 [轮1]: content= | tool_calls=0
+2026-10-24 23:29:33 WARN  llm:1129          LLM 返回空内容，重试...
+2026-10-24 23:29:33 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': '365cbe28-006b-4cd4-b277-0dd12793afde'}}
+2026-10-24 23:29:33 INFO  llm:1114          LLM原始输出 [轮2]: content= | tool_calls=0
+2026-10-24 23:29:33 WARN  llm:1132          LLM 连续返回空内容，用 json_mode 兜底...
+2026-10-24 23:29:33 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=800 temp=0.3 timeout=60.0s
+2026-10-24 23:29:34 ERRO  llm:575           LLM [deepseek-ai/DeepSeek] 调用失败 (0.3s): Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': '63c4f730-3c05-47bc-9e08-ee8a82ba5dcd'}}
+2026-10-24 23:29:34 ERRO  llm:1142          json_mode 兜底仍失败，放弃
+2026-10-24 23:29:35 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=92 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqsyj7Fg5BT-RiUN0lkpQ7GIoT.S9OOAbJNUb-JyM.e6aQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
+2026-10-24 23:29:35 WARN  pipeline:1170     LLM 未返回有效句子，已发送失败提示
+2026-10-24 23:29:35 INFO  logger:541        [TRACE d17f33d0077c4040] total=62532.14ms severity=very_slow_request | llm_calls=5 total=61251.88ms avg=12250.38ms max=60003.3ms p50=272.55 p95=48097.52 p99=57622.14 | llm=61296.11ms(x1), memory=273.3ms(x2), process=62529.3ms(x1) (wall62529.3), queue_wait=4.89ms(x1)
+2026-10-24 23:29:35 WARN  logger:559        [VERY_SLOW d17f33d0077c4040] total=62532.97ms 需重点排查 | llm=61296.11ms(x1), memory=273.3ms(x2), process=62529.3ms(x1) (wall62529.3), queue_wait=4.89ms(x1) | llm_calls=5 total=61251.88ms avg=12250.38ms max=60003.3ms p50=272.55 p95=48097.52 p99=57622.14 | perf: queue=4.89ms llm=61296.11ms search_tool=0.0ms delivery=0.0ms other=62802.6ms wall=62532.86ms dominant=other
