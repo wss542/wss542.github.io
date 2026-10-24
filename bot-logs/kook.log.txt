@@ -1,21 +1,4 @@
-# 更新于 2026-10-24 23:43:45 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 19:55:09 INFO  pipeline:503      指令拦截: '/供应商modelscope' from=ywandwss
-2026-10-24 19:55:09 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商modelscope args=[] user=1759953618
-2026-10-24 19:55:09 WARN  commands:5241     未知指令: '/供应商modelscope'
-2026-10-24 19:55:10 INFO  logger:541        [TRACE 7b283861806c47b2] total=470.96ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=470.92ms(x1) (wall470.92), queue_wait=0.22ms(x1)
-2026-10-24 19:55:10 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:18 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商 modelscope' is_edit=False
-2026-10-24 19:55:18 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
-2026-10-24 19:55:18 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 modelscope'
-2026-10-24 19:55:18 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
-2026-10-24 19:55:18 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
-2026-10-24 19:55:18 INFO  pipeline:503      指令拦截: '/供应商 modelscope' from=ywandwss
-2026-10-24 19:55:18 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
-2026-10-24 19:55:18 INFO  commands:1537     保留 fetch_me 注入的 bot_id: 659688244
-2026-10-24 19:55:18 INFO  commands:1537     配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
-2026-10-24 19:55:18 INFO  commands:1538     供应商切换: MODELSCOPE/deepseek-ai/DeepSeek-V4.1-Flash -> MODELSCOPE/Qwen/Qwen3-Next-80B-A3B-Instruct (by ywandwss)
-2026-10-24 19:55:18 INFO  commands:5278     指令执行完成 [供应商]: 返回90字符
+# 更新于 2026-10-24 23:44:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 19:55:19 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
 2026-10-24 19:55:19 INFO  logger:541        [TRACE 1271e91974ab4cf9] total=456.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=456.33ms(x1) (wall456.33), queue_wait=0.37ms(x1)
 2026-10-24 19:55:35 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
@@ -1499,3 +1482,20 @@
 玩游戏就直接选 **3. 低延迟优先*...
 2026-10-24 23:43:06 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
 2026-10-24 23:43:06 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
+2026-10-24 23:43:49 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
+2026-10-24 23:43:49 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 23:44:08 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 23:44:08 DEBG  dispatcher:47     dispatch 入口: type=9 content='(met)659688244(met) hypomux中我检查玩游戏 下载东西所以调度策略应该怎么选择\n1.最大速度优先\n2.自适应速度\n3.低延迟优先' is_edit=False
+2026-10-24 23:44:08 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-24 23:44:08 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='(met)659688244(met) hypomux中我检查玩游戏 下载东西所以调度策略应该怎么选择\n1.最大速度优先\n2.自适应速度\n3.低延迟优先'
+2026-10-24 23:44:08 INFO  queues:32         [队列] 创建群9844130976336955 的独立消息队列
+2026-10-24 23:44:08 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-24 23:44:08 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 1条 (阈值=10)
+2026-10-24 23:44:08 DEBG  pipeline:567      回复判断: is_mentioned=True is_group=True bot_qq=659688244 content='@659688244  hypomux中我检查玩游戏 下载东西所以调度策略应该怎'
+2026-10-24 23:44:08 INFO  pipeline:602      @机器人检测(at_only) → 直接回复
+2026-10-24 23:44:08 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='@659688244  hypomux中我检查玩游戏 下载东'
+2026-10-24 23:44:08 INFO  pipeline:687      复杂度: level=knowledge score=43 scale=1.6
+2026-10-24 23:44:08 DEBG  planner:216       Agent: 知识复杂度(knowledge)，进入规划: '@659688244  hypomux中我检查玩游戏 下载东'
+2026-10-24 23:44:08 INFO  gateway:209       Agent: 进入规划 pipeline trace=9e5a88cf0db54aba intent=chat msg='@659688244  hypomux中我检查玩游戏 下载东西所以调度策略应该怎'
+2026-10-24 23:44:09 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=1200 temp=0.2 timeout=15.0s
+2026-10-24 23:44:09 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
