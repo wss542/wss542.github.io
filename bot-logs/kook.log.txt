@@ -1,29 +1,4 @@
-# 更新于 2026-10-24 14:55:15 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-24 12:43:35 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-24 12:43:35 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-24 12:43:35 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-24 12:43:35 INFO  events:94         ==================================================
-2026-10-24 12:43:35 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-24 12:43:35 INFO  events:94         ==================================================
-2026-10-24 12:43:35 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
+# 更新于 2026-10-24 14:56:05 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 12:43:35 INFO  queues:103        [队列] 渲染队列已启动
 2026-10-24 12:43:36 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-10-24 12:43:37 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
@@ -1499,3 +1474,28 @@
 2026-10-24 14:50:37 INFO  phone_status:643  WSS 回填恢复 source=iphone_status device=iPhone（中断 440s）
 2026-10-24 14:51:29 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 2026-10-24 14:51:29 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 14:55:25 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑智化 - 星星点灯（播放中）CPU=99% 内存=82%
+2026-10-24 14:55:27 INFO  pc_status:201     收到 lyric_event [延迟=257ms]: '**▶ Deep Chills / IVIE - Run Free**' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:45 INFO  pc_status:201     收到 lyric_event [延迟=12093ms]: '**I still remember**
+`我依然记得`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:46 INFO  pc_status:201     收到 lyric_event [延迟=11842ms]: '**Loving in danger**
+`在危难中也坚持着爱情`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Deep Chills / IVIE - Run Free（播放中）
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23029ms]: '**You set me on fire**
+`你点燃了我热血沸腾的爱意`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23000ms]: '**When I'm by your side**
+`当我陪伴在侧`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=22982ms]: '**You taking me higher**
+`带我飞向更高`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23580ms]: '**I follow you down if we go down**
+`若你此刻离开 我会沿路跟随`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23550ms]: '**Now you say you wanna get away**
+`你说你想离开`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23549ms]: '**You wanna take me all the way**
+`你想一路带我跟随`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23561ms]: '**Might get burned if you get closer**
+`若你靠近些 会被灼伤`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:57 INFO  pc_status:201     收到 lyric_event [延迟=23530ms]: '**To the sun** *(I want yah)*
+`阳光下 我渴望着你`' song=Deep Chills / IVIE - Run Free playing=True channel=None
+2026-10-24 14:55:59 INFO  pc_status:201     收到 lyric_event [延迟=932ms]: '**We can burn together fading into one another**
+`我们可以尽情燃起似火' song=Deep Chills / IVIE - Run Free playing=True channel=None
