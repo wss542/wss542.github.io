@@ -1,7 +1,4 @@
-# 更新于 2026-10-24 23:00:44 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:59:22 INFO  events:94         上下文管理器已初始化
-2026-10-24 16:59:22 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-24 16:59:22 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+# 更新于 2026-10-24 23:01:32 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:59:22 INFO  events:94         事件分发器已就绪
 2026-10-24 16:59:22 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
 2026-10-24 16:59:22 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
@@ -1499,3 +1496,6 @@
 2026-10-24 23:00:36 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-10-24 23:00:37 INFO  qq_bot:192        QQ HELLO interval=41250
 2026-10-24 23:00:37 INFO  qq_bot:225        QQ 事件到达 t=READY
+2026-10-24 23:01:05 INFO  video_api:240     智谱视频理解 chat=speed data_uri 369KB
+2026-10-24 23:01:05 WARN  video_api:295     智谱 glm-4.6v-flash 视频识别失败({"error":{"code":"1305","message":"该模型当前访问量过大，请您稍后再试"}})，换下一个模型
+2026-10-24 23:01:28 WARN  video_api:295     智谱 glm-4.6v 视频识别失败(HTTP 200（响应为空）)，换下一个模型
