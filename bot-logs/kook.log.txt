@@ -1,40 +1,4 @@
-# 更新于 2026-10-24 19:54:30 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:39:16 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-24 16:39:17 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-10-24 16:39:17 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-24 16:39:17 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-24 16:39:17 INFO  events:94         消息发送器已初始化
-2026-10-24 16:39:20 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-24 16:39:20 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-24 16:39:20 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-24 16:39:20 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-24 16:39:20 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-24 16:39:20 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-24 16:39:20 INFO  events:94         用户名查询模块已初始化
-2026-10-24 16:39:20 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-24 16:39:20 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-24 16:39:20 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-24 16:39:20 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-24 16:39:20 INFO  bot:111           上下文管理器已初始化
-2026-10-24 16:39:20 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-24 16:39:20 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-24 16:39:20 INFO  events:94         上下文管理器已初始化
-2026-10-24 16:39:20 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-24 16:39:20 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-24 16:39:20 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 16:39:20 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 16:39:20 INFO  events:94         事件分发器已就绪
-2026-10-24 16:39:20 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-24 16:39:20 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-24 16:39:20 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-24 16:39:20 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:39:20 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:39:20 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:39:20 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:39:20 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-24 16:39:20 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+# 更新于 2026-10-24 19:55:32 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
 2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
 2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
@@ -1499,3 +1463,39 @@
 2026-10-24 19:54:24 DEBG  context_manager:139 发送任务已清理 [1759953618]
 2026-10-24 19:54:24 INFO  llm:544           LLM [deepseek-flash] 返回 97字符 耗时0.7s → "[19:54:23] ywandwss, 茂密: ywandwss问了pcl最近咋了, 茂密回复PC..."
 2026-10-24 19:54:24 INFO  memory:223        [1759953618] 压缩完成: 2条消息 → 保存
+2026-10-24 19:54:55 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:54:55 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商 魔搭' is_edit=False
+2026-10-24 19:54:55 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-24 19:54:55 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 魔搭'
+2026-10-24 19:54:55 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-24 19:54:55 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
+2026-10-24 19:54:55 INFO  pipeline:503      指令拦截: '/供应商 魔搭' from=ywandwss
+2026-10-24 19:54:55 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商 args=['魔搭'] user=1759953618
+2026-10-24 19:54:55 INFO  commands:5278     指令执行完成 [供应商]: 返回74字符
+2026-10-24 19:54:56 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:54:56 INFO  logger:541        [TRACE 08a56215580e4b39] total=659.52ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=659.47ms(x1) (wall659.47), queue_wait=0.24ms(x1)
+2026-10-24 19:55:09 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:55:09 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商modelscope' is_edit=False
+2026-10-24 19:55:09 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-24 19:55:09 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商modelscope'
+2026-10-24 19:55:09 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-24 19:55:09 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 3条 (阈值=10)
+2026-10-24 19:55:09 INFO  pipeline:503      指令拦截: '/供应商modelscope' from=ywandwss
+2026-10-24 19:55:09 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商modelscope args=[] user=1759953618
+2026-10-24 19:55:09 WARN  commands:5241     未知指令: '/供应商modelscope'
+2026-10-24 19:55:10 INFO  logger:541        [TRACE 7b283861806c47b2] total=470.96ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=470.92ms(x1) (wall470.92), queue_wait=0.22ms(x1)
+2026-10-24 19:55:10 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:55:18 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:55:18 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商 modelscope' is_edit=False
+2026-10-24 19:55:18 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-24 19:55:18 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 modelscope'
+2026-10-24 19:55:18 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-24 19:55:18 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 4条 (阈值=10)
+2026-10-24 19:55:18 INFO  pipeline:503      指令拦截: '/供应商 modelscope' from=ywandwss
+2026-10-24 19:55:18 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商 args=['modelscope'] user=1759953618
+2026-10-24 19:55:18 INFO  commands:1537     保留 fetch_me 注入的 bot_id: 659688244
+2026-10-24 19:55:18 INFO  commands:1537     配置已重新加载 | bot=茂密 | host=0.0.0.0:8099 | debug=True
+2026-10-24 19:55:18 INFO  commands:1538     供应商切换: MODELSCOPE/deepseek-ai/DeepSeek-V4.1-Flash -> MODELSCOPE/Qwen/Qwen3-Next-80B-A3B-Instruct (by ywandwss)
+2026-10-24 19:55:18 INFO  commands:5278     指令执行完成 [供应商]: 返回90字符
+2026-10-24 19:55:19 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:55:19 INFO  logger:541        [TRACE 1271e91974ab4cf9] total=456.38ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=456.33ms(x1) (wall456.33), queue_wait=0.37ms(x1)
