@@ -1,97 +1,4 @@
-# 更新于 2026-10-24 15:48:10 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-24 13:39:04 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-24 13:39:04 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-24 13:39:04 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-24 13:39:04 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-24 13:39:04 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-24 13:39:04 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-24 13:39:04 INFO  bot:111           ==================================================
-2026-10-24 13:39:04 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-24 13:39:04 INFO  bot:111           ==================================================
-2026-10-24 13:39:04 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-24 13:39:04 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-24 13:39:04 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-24 13:39:04 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-24 13:39:04 INFO  events:94         QQ open-platform channel started
-2026-10-24 13:39:04 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-24 13:39:04 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-24 13:39:04 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-24 13:39:04 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-24 13:39:14 WARN  holiday:47        节假日 API 拉取失败: 
-2026-10-24 13:39:14 INFO  holiday:105       节假日服务已启动
-2026-10-24 13:39:14 INFO  holiday:96        节假日每日刷新: 等待 37250 秒 (下次 00:00:05)
-2026-10-24 13:39:19 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error timed out>，5s 后重连
-2026-10-24 13:39:32 WARN  events:94         拉取 bot 自身信息失败: Connection timeout to host https://www.kookapp.cn/api/v3/user/me（启动后仍可工作，但 @检测可能受影响）
-2026-10-24 13:39:32 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-10-24 13:39:32 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-10-24 13:39:32 INFO  events:94         消息发送器已初始化
-2026-10-24 13:39:32 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-24 13:39:32 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-24 13:39:32 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-24 13:39:32 INFO  events:94         用户名查询模块已初始化
-2026-10-24 13:39:32 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-24 13:39:32 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-24 13:39:32 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-24 13:39:32 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-24 13:39:32 INFO  events:94         上下文管理器已初始化
-2026-10-24 13:39:32 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-24 13:39:32 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 13:39:32 INFO  events:94         事件分发器已就绪
-2026-10-24 13:39:32 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-24 13:39:32 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-24 13:39:32 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-24 13:39:32 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-24 13:39:32 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-24 13:39:32 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-24 13:39:32 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
+# 更新于 2026-10-24 15:52:26 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 13:39:32 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
 2026-10-24 13:39:32 INFO  manager:165       Plugin 已启用: whois@1.0.0
 2026-10-24 13:39:32 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
@@ -1499,3 +1406,96 @@
 2026-10-24 15:38:32 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=еяхат музыка - Twisted (Original Mix)（已暂停）CPU=79% 内存=82%
 2026-10-24 15:38:33 INFO  pc_status:201     收到 lyric_event [延迟=333ms]: '**⏸ 已暂停**' song=еяхат музыка - Twisted (Origin playing=False channel=None
 2026-10-24 15:43:33 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=еяхат музыка - Twisted (Original Mix)（已暂停）CPU=90% 内存=91%
+2026-10-24 15:52:06 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-24 15:52:06 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-24 15:52:06 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-24 15:52:06 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-24 15:52:13 INFO  events:94         ==================================================
+2026-10-24 15:52:13 INFO  events:94         ==================================================
+2026-10-24 15:52:13 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+2026-10-24 15:52:13 INFO  events:94         ==================================================
+2026-10-24 15:52:13 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
+2026-10-24 15:52:13 INFO  events:94         ==================================================
+2026-10-24 15:52:13 INFO  llm:162           main_skill.md 已加载: 12 个章节
+2026-10-24 15:52:13 INFO  events:94         配置已加载 | bot=茂密 | debug=True
+2026-10-24 15:52:13 INFO  llm:162           main_skill.md 已加载: 12 个章节
+2026-10-24 15:52:13 INFO  events:94         配置已加载 | bot=茂密 | debug=True
+2026-10-24 15:52:13 INFO  events:94         语言文件已加载
+2026-10-24 15:52:13 INFO  events:94         语言文件已加载
+2026-10-24 15:52:13 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
+2026-10-24 15:52:13 INFO  events:94         日志系统已初始化
+2026-10-24 15:52:13 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
+2026-10-24 15:52:13 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
+2026-10-24 15:52:13 INFO  events:94         日志系统已初始化
+2026-10-24 15:52:13 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
+2026-10-24 15:52:13 INFO  events:94         khl.py Bot 实例已创建
+2026-10-24 15:52:15 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
+2026-10-24 15:52:15 INFO  database:107      数据库表结构已就绪（含 FTS5）
+2026-10-24 15:52:15 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
+2026-10-24 15:52:15 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
+2026-10-24 15:52:15 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
+2026-10-24 15:52:15 INFO  bot:111           上下文管理器已初始化
+2026-10-24 15:52:15 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
+2026-10-24 15:52:15 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-24 15:52:15 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
+2026-10-24 15:52:15 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
+2026-10-24 15:52:15 DEBG  loader:46         跳过 _down：缺少 manifest.json
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: checkin@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: chou@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: countdown@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: echo@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: eq@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+2026-10-24 15:52:16 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: greet@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: luck@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: motou@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: nasa@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: pgr@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: tuf@2.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: weather@1.0.0
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
+2026-10-24 15:52:16 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
+2026-10-24 15:52:16 INFO  manager:165       Plugin 已启用: whois@1.0.0
+2026-10-24 15:52:16 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
+2026-10-24 15:52:16 INFO  bot:111           ==================================================
+2026-10-24 15:52:16 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
+2026-10-24 15:52:16 INFO  bot:111           ==================================================
+2026-10-24 15:52:16 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
+2026-10-24 15:52:16 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
+2026-10-24 15:52:16 INFO  queues:103        [队列] 渲染队列已启动
+2026-10-24 15:52:16 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
+2026-10-24 15:52:16 INFO  events:94         QQ open-platform channel started
+2026-10-24 15:52:16 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
+2026-10-24 15:52:16 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
+2026-10-24 15:52:16 INFO  rss:299           [RSS] 订阅轮询服务启动
+2026-10-24 15:52:16 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
