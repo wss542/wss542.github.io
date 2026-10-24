@@ -1,42 +1,4 @@
-# 更新于 2026-10-24 19:53:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:21:06 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 16:21:06 DEBG  dispatcher:47     dispatch 入口: type=9 content='/update' is_edit=False
-2026-10-24 16:21:06 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=6243254695867429
-2026-10-24 16:21:06 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=6243254695867429 | group=True | content='/update'
-2026-10-24 16:21:06 INFO  queues:32         [队列] 创建群6243254695867429 的独立消息队列
-2026-10-24 16:21:06 DEBG  queues:75         [队列] 群6243254695867429 消息已入队 (队长度=1)
-2026-10-24 16:21:06 INFO  memory:432        长时记忆溢出缓冲: chat=6243254695867429 +1 = 1条 (阈值=10)
-2026-10-24 16:21:06 INFO  pipeline:503      指令拦截: '/update' from=ywandwss
-2026-10-24 16:21:06 DEBG  commands:5223     指令解析: prefix=/ cmd=update args=[] user=1759953618
-2026-10-24 16:21:06 INFO  commands:5278     指令执行完成 [update]: 返回21字符
-2026-10-24 16:21:08 INFO  logger:541        [TRACE 3eed7c4a3d91455e] total=2117.29ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2108.48ms(x1) (wall2108.48), queue_wait=29.03ms(x1)
-2026-10-24 16:21:14 WARN  engine:174        获取 HEAD 失败: 
-2026-10-24 16:24:11 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: timed out（后续同类失败将静默）
-2026-10-24 16:24:16 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=guild_member_offline keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 16:26:21 WARN  bot:1003          主电脑掉线（通知已静默，由 GitHub Actions 推送）: 5 分钟无心跳
-2026-10-24 16:30:12 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
-2026-10-24 16:39:07 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-24 16:39:07 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-24 16:39:07 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 16:39:07 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-24 16:39:16 INFO  events:94         ==================================================
-2026-10-24 16:39:16 INFO  events:94         ==================================================
-2026-10-24 16:39:16 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-24 16:39:16 INFO  events:94         ==================================================
-2026-10-24 16:39:16 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-24 16:39:16 INFO  events:94         ==================================================
-2026-10-24 16:39:16 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-24 16:39:16 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-24 16:39:16 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-24 16:39:16 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-24 16:39:16 INFO  events:94         语言文件已加载
-2026-10-24 16:39:16 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-24 16:39:16 INFO  events:94         日志系统已初始化
-2026-10-24 16:39:16 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-24 16:39:16 INFO  events:94         khl.py Bot 实例已创建
-2026-10-24 16:39:16 INFO  events:94         语言文件已加载
-2026-10-24 16:39:16 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-24 16:39:16 INFO  events:94         日志系统已初始化
+# 更新于 2026-10-24 19:54:30 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:39:16 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
 2026-10-24 16:39:17 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
 2026-10-24 16:39:17 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
@@ -1499,3 +1461,41 @@
 2026-10-24 19:52:08 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-24 19:53:46 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=39 cpu=None mem=None
 2026-10-24 19:53:46 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 19:54:11 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:54:11 DEBG  dispatcher:47     dispatch 入口: type=9 content='pcl最近咋了' is_edit=False
+2026-10-24 19:54:11 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
+2026-10-24 19:54:11 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='pcl最近咋了'
+2026-10-24 19:54:11 INFO  queues:32         [队列] 创建群1759953618 的独立消息队列
+2026-10-24 19:54:11 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
+2026-10-24 19:54:11 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
+2026-10-24 19:54:11 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='pcl最近咋了'
+2026-10-24 19:54:11 DEBG  pipeline:598      私聊消息 → 直接回复
+2026-10-24 19:54:11 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='pcl最近咋了'
+2026-10-24 19:54:11 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-10-24 19:54:11 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=16.5ms
+2026-10-24 19:54:11 INFO  pipeline:866      额外信息: 1387字 (memory=586 search=0)
+2026-10-24 19:54:11 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-24 19:54:11 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-24 19:54:11 INFO  pipeline:1139     开始生成回复: speaker=ywandwss chat=1759953618
+2026-10-24 19:54:12 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': '52389da8-e44f-4037-900d-26313f78cee8'}}
+2026-10-24 19:54:12 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': '1d532459-509e-4a15-a99b-f127d9180fcb'}}
+2026-10-24 19:54:16 INFO  llm:1095          LLM 首调用选择模型: glm-4-flash (content=茂密: \nPCL 最近好像挺火的喵，很多人在用呢～\n内存优化那个功能挺受欢迎的，听说挺有用的喵～... tool_calls=0)
+2026-10-24 19:54:16 INFO  llm:1114          LLM原始输出 [轮1]: content=茂密: \nPCL 最近好像挺火的喵，很多人在用呢～\n内存优化那个功能挺受欢迎的，听说挺有用的喵～ | tool_calls=0
+2026-10-24 19:54:16 INFO  llm:1167          LLM 输出非 JSON，强制重试...
+2026-10-24 19:54:16 INFO  llm:482           调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=32.0s
+2026-10-24 19:54:23 INFO  llm:544           LLM [glm-4-flash] 返回 165字符 耗时7.2s → "{"replies":["PCL 最近好像在更新，优化了不少功能喵～"],"fav":0,"call..."
+2026-10-24 19:54:23 INFO  llm:1173          json_mode 重试成功: {"replies":["PCL 最近好像在更新，优化了不少功能喵～"],"fav":0,"calls":[],"face":null,"mood":"好奇",...
+2026-10-24 19:54:23 INFO  llm:1462          JSON回复解析: 1句 fav=+0 calls=0 mood=好奇
+2026-10-24 19:54:23 INFO  memory:414        触发自动记忆 [1759953618]: 2 条
+2026-10-24 19:54:23 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=1759953618
+2026-10-24 19:54:23 DEBG  pipeline:1657     Fast Path 主题已记录: chat=1759953618 topic='pcl最近咋了'
+2026-10-24 19:54:23 INFO  logger:541        [TRACE 0e4690db331d48b5] total=12083.4ms severity=very_slow_request | llm_calls=4 total=11933.38ms avg=2983.34ms max=7224.91ms p50=2226.6 p95=6662.34 p99=7112.39 | json_parse=0.93ms(x1), llm=11984.79ms(x1), memory=33.35ms(x2), process=12083.32ms(x1) (wall12083.32), queue_wait=1.16ms(x1)
+2026-10-24 19:54:23 WARN  logger:559        [VERY_SLOW 0e4690db331d48b5] total=12083.83ms 需重点排查 | json_parse=0.93ms(x1), llm=11984.79ms(x1), memory=33.35ms(x2), process=12083.32ms(x1) (wall12083.32), queue_wait=1.16ms(x1) | llm_calls=4 total=11933.38ms avg=2983.34ms max=7224.91ms p50=2226.6 p95=6662.34 p99=7112.39 | perf: queue=1.16ms llm=11985.72ms search_tool=0.0ms delivery=0.0ms other=12116.67ms wall=12083.8ms dominant=other
+2026-10-24 19:54:23 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=1759953618 is_group=False
+2026-10-24 19:54:23 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-10-24 19:54:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:54:24 DEBG  response_delivery:297 已发送第 1/1 条: PCL 最近好像在更新，优化了不少功能喵～...
+2026-10-24 19:54:24 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=1759953618
+2026-10-24 19:54:24 DEBG  context_manager:139 发送任务已清理 [1759953618]
+2026-10-24 19:54:24 INFO  llm:544           LLM [deepseek-flash] 返回 97字符 耗时0.7s → "[19:54:23] ywandwss, 茂密: ywandwss问了pcl最近咋了, 茂密回复PC..."
+2026-10-24 19:54:24 INFO  memory:223        [1759953618] 压缩完成: 2条消息 → 保存
