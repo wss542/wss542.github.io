@@ -1,18 +1,4 @@
-# 更新于 2026-10-24 19:56:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
+# 更新于 2026-10-24 19:57:10 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
 2026-10-24 16:39:20 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
 2026-10-24 16:39:20 INFO  manager:165       Plugin 已启用: tuf@2.0.0
@@ -1499,3 +1485,17 @@
 2026-10-24 19:56:03 INFO  llm:1114          LLM原始输出 [轮1]: content=茂密: 哦，最近 PCL 启动器有点小波折喵～\n- PCL2 进入维护状态，社区版 PCL CE 继续更新。\n- 启动器圈子有争议，官网/下载站可能遭遇举报。\n- 微软登录政策调整，部分用户登录失效。\n- HMCL 持续更新，BakaXL 停止更新。\n\n你可以去 PCL 官网、GitHub 或相关社区查看最新动态喵～ | tool_calls=0
 2026-10-24 19:56:03 INFO  llm:1167          LLM 输出非 JSON，强制重试...
 2026-10-24 19:56:03 INFO  llm:482           调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=32.0s
+2026-10-24 19:56:16 INFO  llm:544           LLM [glm-4-flash] 返回 213字符 耗时12.7s → "茂密: 哎呀，最近 PCL 启动器确实有点变动喵～\n- PCL2 停止了主要功能的更新，只修复一些严..."
+2026-10-24 19:56:16 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=1759953618
+2026-10-24 19:56:16 DEBG  pipeline:1657     Fast Path 主题已记录: chat=1759953618 topic='你搜一下最近pcl这些启动器怎么了'
+2026-10-24 19:56:16 INFO  logger:541        [TRACE a2abaac118d74dc5] total=39347.2ms severity=very_slow_request | llm_calls=5 total=21119.51ms avg=4223.9ms max=12718.62ms p50=334.66 p95=11684.2 p99=12511.73 | json_parse=0.02ms(x1), llm=20812.31ms(x1), memory=11.15ms(x2), process=39347.13ms(x1) (wall39347.13), queue_wait=0.61ms(x1), search=18204.67ms(x1), search_cache_miss=10.94ms(x1), search_http=18078.74ms(x1), search_parse=0.0ms(x1), search_total=36278.54ms(x2)
+2026-10-24 19:56:16 WARN  logger:559        [VERY_SLOW a2abaac118d74dc5] total=39347.76ms 需重点排查 | json_parse=0.02ms(x1), llm=20812.31ms(x1), memory=11.15ms(x2), process=39347.13ms(x1) (wall39347.13), queue_wait=0.61ms(x1), search=18204.67ms(x1), search_cache_miss=10.94ms(x1), search_http=18078.74ms(x1), search_parse=0.0ms(x1), search_total=36278.54ms(x2) | llm_calls=5 total=21119.51ms avg=4223.9ms max=12718.62ms p50=334.66 p95=11684.2 p99=12511.73 | perf: queue=0.61ms llm=20812.33ms search_tool=18204.67ms delivery=0.0ms other=93726.5ms wall=39347.74ms dominant=other
+2026-10-24 19:56:16 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=1759953618 is_group=False
+2026-10-24 19:56:17 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-24 19:56:17 DEBG  response_delivery:297 已发送第 1/1 条: 茂密: 哦，最近 PCL 启动器有点小波折喵～ - PCL2...
+2026-10-24 19:56:17 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=1759953618
+2026-10-24 19:56:17 DEBG  context_manager:139 发送任务已清理 [1759953618]
+2026-10-24 19:56:40 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
+2026-10-24 19:56:40 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-24 19:56:55 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=42 cpu=None mem=None
+2026-10-24 19:56:55 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
