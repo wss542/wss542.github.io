@@ -1,4 +1,4 @@
-# 更新于 2026-10-25 00:18:09 · 共 297 行（来源 huanmeng.log 末尾）
+# 更新于 2026-10-25 00:18:40 · 共 341 行（来源 huanmeng.log 末尾）
 2026-10-25 00:00:03 INFO  pc_status:201     收到 lyric_event [延迟=-4305ms]: '**在我的心里 你真的就是唯一** *(Oh~)*' song=王心凌 - 爱你 playing=True channel=None
 2026-10-25 00:00:12 INFO  pc_status:201     收到 lyric_event [延迟=829ms]: '**爱 就是有我常赖着你**' song=王心凌 - 爱你 playing=True channel=None
 2026-10-25 00:00:16 INFO  pc_status:201     收到 lyric_event [延迟=550ms]: '**Oh~baby 情话多说一点 想我就多看一眼**' song=王心凌 - 爱你 playing=True channel=None
@@ -296,3 +296,47 @@
 2026-10-25 00:18:00 INFO  pc_status:201     收到 lyric_event [延迟=1266ms]: '**喜欢你的微笑和调皮的嘴角**' song=艾索 - 晚安喵 playing=True channel=None
 2026-10-25 00:18:00 INFO  pc_status:201     收到 lyric_event [延迟=1235ms]: '**那午后的阳光穿过你的发梢**' song=艾索 - 晚安喵 playing=True channel=None
 2026-10-25 00:18:02 INFO  pc_status:201     收到 lyric_event [延迟=1162ms]: '**想让全世界停在这一秒**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=483ms]: '**作词 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=471ms]: '**作曲 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=442ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=412ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=396ms]: '**喜欢你的微笑和调皮的嘴角**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:10 INFO  pc_status:201     收到 lyric_event [延迟=381ms]: '**那午后的阳光穿过你的发梢**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:11 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=艾索 - 晚安喵（播放中）CPU=55% 内存=86%
+2026-10-25 00:18:12 INFO  pc_status:201     收到 lyric_event [延迟=234ms]: '**想让全世界停在这一秒**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:14 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-10-25 00:18:14 DEBG  dispatcher:47     dispatch 入口: type=9 content='/点歌 m3' is_edit=False
+2026-10-25 00:18:14 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=9844130976336955
+2026-10-25 00:18:14 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=9844130976336955 | group=True | content='/点歌 m3'
+2026-10-25 00:18:14 DEBG  queues:75         [队列] 群9844130976336955 消息已入队 (队长度=1)
+2026-10-25 00:18:14 INFO  memory:432        长时记忆溢出缓冲: chat=9844130976336955 +1 = 2条 (阈值=10)
+2026-10-25 00:18:14 INFO  pipeline:503      指令拦截: '/点歌 m3' from=ywandwss
+2026-10-25 00:18:14 DEBG  commands:5223     指令解析: prefix=/ cmd=点歌 args=['m3'] user=1759953618
+2026-10-25 00:18:14 INFO  pc_status:909     下发 PLAYNEXT 命令: 'm3' -> Longwan-PC (timeout=45.0s)
+2026-10-25 00:18:16 INFO  pc_status:912     收到 PLAYNEXT ACK: 'PLAYNEXT_OK:M3 - Les Apollo\t 0 '
+2026-10-25 00:18:16 INFO  commands:5278     指令执行完成 [点歌]: 返回73字符
+2026-10-25 00:18:17 INFO  logger:541        [TRACE 5a10560124734346] total=2388.1ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2387.34ms(x1) (wall2387.34), queue_wait=5.23ms(x1)
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-133ms]: '**作词 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-150ms]: '**作曲 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-180ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-210ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-225ms]: '**喜欢你的微笑和调皮的嘴角**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:19 INFO  pc_status:201     收到 lyric_event [延迟=-241ms]: '**那午后的阳光穿过你的发梢**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:22 INFO  pc_status:201     收到 lyric_event [延迟=-457ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:22 INFO  pc_status:201     收到 lyric_event [延迟=-462ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:22 INFO  pc_status:201     收到 lyric_event [延迟=-476ms]: '**喜欢你的微笑和调皮的嘴角**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:22 INFO  pc_status:201     收到 lyric_event [延迟=-492ms]: '**那午后的阳光穿过你的发梢**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:23 INFO  pc_status:201     收到 lyric_event [延迟=-781ms]: '**想让全世界停在这一秒**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:28 INFO  pc_status:201     收到 lyric_event [延迟=-846ms]: '**陪着你把世界都忘掉**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:31 INFO  pc_status:201     收到 lyric_event [延迟=-1088ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:37 INFO  pc_status:201     收到 lyric_event [延迟=-1503ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:39 INFO  pc_status:201     收到 lyric_event [延迟=-2591ms]: '**作词 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:39 INFO  pc_status:201     收到 lyric_event [延迟=-2593ms]: '**作曲 : 薄荷映像**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:39 INFO  pc_status:201     收到 lyric_event [延迟=-2602ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1483ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1486ms]: '**喜欢你的微笑和调皮的嘴角**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1510ms]: '**那午后的阳光穿过你的发梢**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1539ms]: '**想让全世界停在这一秒**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1567ms]: '**陪着你把世界都忘掉**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1584ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
+2026-10-25 00:18:40 INFO  pc_status:201     收到 lyric_event [延迟=-1600ms]: '**早安喵 午安喵 晚安喵 喵 喵**' song=艾索 - 晚安喵 playing=True channel=None
