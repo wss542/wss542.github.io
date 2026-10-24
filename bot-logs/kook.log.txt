@@ -1,46 +1,4 @@
-# 更新于 2026-10-24 23:42:07 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 19:54:11 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-24 19:54:11 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-24 19:54:11 INFO  pipeline:1139     开始生成回复: speaker=ywandwss chat=1759953618
-2026-10-24 19:54:12 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4.1-Flash , has no provider supported', 'request_id': '52389da8-e44f-4037-900d-26313f78cee8'}}
-2026-10-24 19:54:12 ERRO  llm:712           LLM FC [deepseek-ai/DeepSeek] 失败: Error code: 400 - {'error': {'message': 'Model id : deepseek-ai/DeepSeek-V4-Pro , has no provider supported', 'request_id': '1d532459-509e-4a15-a99b-f127d9180fcb'}}
-2026-10-24 19:54:16 INFO  llm:1095          LLM 首调用选择模型: glm-4-flash (content=茂密: \nPCL 最近好像挺火的喵，很多人在用呢～\n内存优化那个功能挺受欢迎的，听说挺有用的喵～... tool_calls=0)
-2026-10-24 19:54:16 INFO  llm:1114          LLM原始输出 [轮1]: content=茂密: \nPCL 最近好像挺火的喵，很多人在用呢～\n内存优化那个功能挺受欢迎的，听说挺有用的喵～ | tool_calls=0
-2026-10-24 19:54:16 INFO  llm:1167          LLM 输出非 JSON，强制重试...
-2026-10-24 19:54:16 INFO  llm:482           调用LLM [glm-4-flash] url=v4 tokens=800 temp=0.3 timeout=32.0s
-2026-10-24 19:54:23 INFO  llm:544           LLM [glm-4-flash] 返回 165字符 耗时7.2s → "{"replies":["PCL 最近好像在更新，优化了不少功能喵～"],"fav":0,"call..."
-2026-10-24 19:54:23 INFO  llm:1173          json_mode 重试成功: {"replies":["PCL 最近好像在更新，优化了不少功能喵～"],"fav":0,"calls":[],"face":null,"mood":"好奇",...
-2026-10-24 19:54:23 INFO  llm:1462          JSON回复解析: 1句 fav=+0 calls=0 mood=好奇
-2026-10-24 19:54:23 INFO  memory:414        触发自动记忆 [1759953618]: 2 条
-2026-10-24 19:54:23 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=1759953618
-2026-10-24 19:54:23 DEBG  pipeline:1657     Fast Path 主题已记录: chat=1759953618 topic='pcl最近咋了'
-2026-10-24 19:54:23 INFO  logger:541        [TRACE 0e4690db331d48b5] total=12083.4ms severity=very_slow_request | llm_calls=4 total=11933.38ms avg=2983.34ms max=7224.91ms p50=2226.6 p95=6662.34 p99=7112.39 | json_parse=0.93ms(x1), llm=11984.79ms(x1), memory=33.35ms(x2), process=12083.32ms(x1) (wall12083.32), queue_wait=1.16ms(x1)
-2026-10-24 19:54:23 WARN  logger:559        [VERY_SLOW 0e4690db331d48b5] total=12083.83ms 需重点排查 | json_parse=0.93ms(x1), llm=11984.79ms(x1), memory=33.35ms(x2), process=12083.32ms(x1) (wall12083.32), queue_wait=1.16ms(x1) | llm_calls=4 total=11933.38ms avg=2983.34ms max=7224.91ms p50=2226.6 p95=6662.34 p99=7112.39 | perf: queue=1.16ms llm=11985.72ms search_tool=0.0ms delivery=0.0ms other=12116.67ms wall=12083.8ms dominant=other
-2026-10-24 19:54:23 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=1759953618 is_group=False
-2026-10-24 19:54:23 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-24 19:54:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:54:24 DEBG  response_delivery:297 已发送第 1/1 条: PCL 最近好像在更新，优化了不少功能喵～...
-2026-10-24 19:54:24 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=1759953618
-2026-10-24 19:54:24 DEBG  context_manager:139 发送任务已清理 [1759953618]
-2026-10-24 19:54:24 INFO  llm:544           LLM [deepseek-flash] 返回 97字符 耗时0.7s → "[19:54:23] ywandwss, 茂密: ywandwss问了pcl最近咋了, 茂密回复PC..."
-2026-10-24 19:54:24 INFO  memory:223        [1759953618] 压缩完成: 2条消息 → 保存
-2026-10-24 19:54:55 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:54:55 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商 魔搭' is_edit=False
-2026-10-24 19:54:55 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
-2026-10-24 19:54:55 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商 魔搭'
-2026-10-24 19:54:55 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
-2026-10-24 19:54:55 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 2条 (阈值=10)
-2026-10-24 19:54:55 INFO  pipeline:503      指令拦截: '/供应商 魔搭' from=ywandwss
-2026-10-24 19:54:55 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商 args=['魔搭'] user=1759953618
-2026-10-24 19:54:55 INFO  commands:5278     指令执行完成 [供应商]: 返回74字符
-2026-10-24 19:54:56 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:54:56 INFO  logger:541        [TRACE 08a56215580e4b39] total=659.52ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=659.47ms(x1) (wall659.47), queue_wait=0.24ms(x1)
-2026-10-24 19:55:09 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-24 19:55:09 DEBG  dispatcher:47     dispatch 入口: type=9 content='/供应商modelscope' is_edit=False
-2026-10-24 19:55:09 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
-2026-10-24 19:55:09 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='/供应商modelscope'
-2026-10-24 19:55:09 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
-2026-10-24 19:55:09 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 3条 (阈值=10)
+# 更新于 2026-10-24 23:43:07 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 19:55:09 INFO  pipeline:503      指令拦截: '/供应商modelscope' from=ywandwss
 2026-10-24 19:55:09 DEBG  commands:5223     指令解析: prefix=/ cmd=供应商modelscope args=[] user=1759953618
 2026-10-24 19:55:09 WARN  commands:5241     未知指令: '/供应商modelscope'
@@ -1499,3 +1457,45 @@
 2026-10-24 23:40:44 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
 2026-10-24 23:40:44 INFO  guild_names:332   guild_names: 距下次全量刷新 11956 秒
 2026-10-24 23:41:06 INFO  changelog:132     [Playwright] 空闲 5 分钟 → 已回收 Chromium（下次截图冷启动）
+2026-10-24 23:42:46 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-24 23:42:46 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='hypomux中我检查玩游戏所以调度策略应该怎么选择\n1.最大速度优先\n2.自适应速度\n3.低延迟优先' mentions=0 content='hypomux中我检查玩游戏所以调度策略应该怎么选择\n1.最大速度优先\n2.自适应速度\n3.低延迟优先' atts=0 ref=False msg_type=0
+2026-10-24 23:42:46 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: 'hypomux中我检查玩游戏所以调度策略应该怎么选择\n1.最大速度优先\n2.自适应速度\n3.低延迟优先'
+2026-10-24 23:42:46 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-gngVVcTMITIdK4iaHPKetfHS6oOHqIMwkdaIwZF7UFGzzcwVTxjtqKAstFJof7o4E8fKap1PmDSKE-cv4MAOb0!
+2026-10-24 23:42:46 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-24 23:42:46 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 2条 (阈值=10)
+2026-10-24 23:42:46 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='hypomux中我检查玩游戏所以调度策略应该怎么选择
+1.最大速度优先
+2.自适'
+2026-10-24 23:42:46 DEBG  pipeline:598      私聊消息 → 直接回复
+2026-10-24 23:42:46 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='hypomux中我检查玩游戏所以调度策略应该怎么选择
+1.最'
+2026-10-24 23:42:46 INFO  pipeline:687      复杂度: level=knowledge score=43 scale=1.6
+2026-10-24 23:42:46 DEBG  planner:216       Agent: 知识复杂度(knowledge)，进入规划: 'hypomux中我检查玩游戏所以调度策略应该怎么选择\n1.最'
+2026-10-24 23:42:46 INFO  gateway:209       Agent: 进入规划 pipeline trace=bdc9615c50174650 intent=chat msg='hypomux中我检查玩游戏所以调度策略应该怎么选择
+1.最大速度优先
+2.自适'
+2026-10-24 23:42:47 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=91 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqgmh5-2RGb2EK8OZ7CoxTsQCJqQk06XWeVpii4pqIAQlQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
+2026-10-24 23:42:47 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=1200 temp=0.2 timeout=15.0s
+2026-10-24 23:42:53 INFO  llm:544           LLM [deepseek-ai/DeepSeek] 返回 316字符 耗时5.4s → "{\n  "goal": "为 hypomux 中「玩游戏」场景推荐合适的调度策略（最大速度优先/自适..."
+2026-10-24 23:42:53 INFO  planner:428       Agent 规划完成 goal='为 hypomux 中「玩游戏」场景推荐合适的调度策略（最大速度优先/自适应速度' steps=1 tools=[] skills=[]
+2026-10-24 23:42:53 WARN  pipeline:706      Agent 适配层异常，回退原 pipeline: invalid literal for int() with base 10: 'qq:63C251709C77FDEE87FC502F866E3FB5'
+2026-10-24 23:42:53 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=4.7ms
+2026-10-24 23:42:53 INFO  pipeline:866      额外信息: 1875字 (memory=603 search=0)
+2026-10-24 23:42:53 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-10-24 23:42:53 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-10-24 23:42:53 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:43:05 INFO  llm:1095          LLM 首调用选择模型: deepseek-ai/DeepSeek-V4.1-Flash-1017 (content={"replies":["**结论先给喵~**\n玩游戏就直接选 **3. 低延迟优先**，这是最稳的答案；只有在网络特别差、丢包很严重的时候，才切到 **2. 自适应速度** 过渡一下。**1. 最大速度优先** 是给下载、更新、看视频用的，打游戏开它反而会拖后腿喵。","**为什么游戏不吃“速度”**\n游戏的数据包都特别小，一次几十到几百字节，但一秒要发几十上百个，所以真正影响手感的是 **... tool_calls=0)
+2026-10-24 23:43:05 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["**结论先给喵~**\n玩游戏就直接选 **3. 低延迟优先**，这是最稳的答案；只有在网络特别差、丢包很严重的时候，才切到 **2. 自适应速度** 过渡一下。**1. 最大速度优先** 是给下载、更新、看视频用的，打游戏开它反而会拖后腿喵。","**为什么游戏不吃“速度”**\n游戏的数据包都特别小，一次几十到几百字节，但一秒要发几十上百个，所以真正影响手感的是 ** | tool_calls=0
+2026-10-24 23:43:05 INFO  llm:1462          JSON回复解析: 6句 fav=+3 calls=0 mood=认真
+2026-10-24 23:43:05 INFO  fav:128           好感度更新: p:qq:63C251709C77FDEE87FC502F866E3FB5 +3 → 72
+2026-10-24 23:43:05 INFO  pipeline:1629     好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +3 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
+2026-10-24 23:43:05 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:43:05 INFO  logger:541        [TRACE bdc9615c50174650] total=18712.2ms severity=very_slow_request | llm_calls=3 total=17599.8ms avg=8799.9ms max=12155.89ms p50=8799.9 p95=11820.29 p99=12088.77 | json_parse=0.06ms(x1), llm=12159.49ms(x1), memory=9.71ms(x2), planner=5451.68ms(x1), process=18712.06ms(x1) (wall18712.06), queue_wait=0.51ms(x1)
+2026-10-24 23:43:05 WARN  logger:559        [VERY_SLOW bdc9615c50174650] total=18712.73ms 需重点排查 | json_parse=0.06ms(x1), llm=12159.49ms(x1), memory=9.71ms(x2), planner=5451.68ms(x1), process=18712.06ms(x1) (wall18712.06), queue_wait=0.51ms(x1) | llm_calls=3 total=17599.8ms avg=8799.9ms max=12155.89ms p50=8799.9 p95=11820.29 p99=12088.77 | perf: queue=0.51ms llm=12159.55ms search_tool=0.0ms delivery=0.0ms other=24173.45ms wall=18712.71ms dominant=other
+2026-10-24 23:43:05 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
+2026-10-24 23:43:05 INFO  pipeline:1691     画像更新: uid=qq:63C251709C77FDEE87FC502F866E3FB5 new={'interests': ['游戏']}
+2026-10-24 23:43:06 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=980 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqkolrsRyqwttZehFTShJhm8TMLG9lz3uDfP.IyQ0-HHnQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
+2026-10-24 23:43:06 DEBG  response_delivery:297 已发送第 1/1 条: **结论先给喵~**
+玩游戏就直接选 **3. 低延迟优先*...
+2026-10-24 23:43:06 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-24 23:43:06 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
