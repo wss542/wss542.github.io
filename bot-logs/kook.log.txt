@@ -1,15 +1,4 @@
-# 更新于 2026-10-24 23:01:32 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 16:59:22 INFO  events:94         事件分发器已就绪
-2026-10-24 16:59:22 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-24 16:59:22 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-24 16:59:22 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-24 16:59:22 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:59:22 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-24 16:59:22 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
+# 更新于 2026-10-24 23:02:04 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
 2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
 2026-10-24 16:59:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
@@ -1499,3 +1488,14 @@
 2026-10-24 23:01:05 INFO  video_api:240     智谱视频理解 chat=speed data_uri 369KB
 2026-10-24 23:01:05 WARN  video_api:295     智谱 glm-4.6v-flash 视频识别失败({"error":{"code":"1305","message":"该模型当前访问量过大，请您稍后再试"}})，换下一个模型
 2026-10-24 23:01:28 WARN  video_api:295     智谱 glm-4.6v 视频识别失败(HTTP 200（响应为空）)，换下一个模型
+2026-10-24 23:01:54 WARN  video_api:295     智谱 glm-4.5v 视频识别失败(HTTP 200（响应为空）)，换下一个模型
+2026-10-24 23:01:54 WARN  video_api:296     智谱视频理解全部失败 chat=speed
+2026-10-24 23:01:57 DEBG  image_api:50      图片缓存已加载: 393 条
+2026-10-24 23:01:57 INFO  image_api:152     [chat=10001] 开始获取图片: file:///tmp/hm_vframes_b0z0fxav/f1.jpg...
+2026-10-24 23:01:57 INFO  image_api:159     [chat=10001] 本地图片读取成功: 64692 bytes
+2026-10-24 23:01:57 INFO  image_api:204     [chat=10001] 图片预处理: JPEG(1280x720) → PNG 64692 bytes → 184346 bytes
+2026-10-24 23:01:57 INFO  image_api:251     [chat=10001] 调用主视觉模型识别图片 (MD5=fdf84077f95c...) model=deepseek-flash
+2026-10-24 23:02:01 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=38% 内存=84%
+2026-10-24 23:02:03 INFO  image_api:280     [chat=10001] 图片识别成功 (model=deepseek-flash): 虚拟机内的电脑屏幕截图，浏览器打开蓝奏云网页，展示“PCL 正式版 2.99.0.0.zip”下载界...
+2026-10-24 23:02:03 DEBG  image_api:64      图片缓存已写入磁盘: 394 条
+2026-10-24 23:02:03 DEBG  image_api:315     图片仓库追加: MD5=fdf84077f95c... → '虚拟机内的电脑屏幕截图，浏览器打开蓝奏云网页，展示“PCL '
