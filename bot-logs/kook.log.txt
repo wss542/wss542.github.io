@@ -1,23 +1,4 @@
-# 更新于 2026-10-24 14:42:12 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-24 12:42:04 INFO  pc_status:201     收到 lyric_event [延迟=134ms]: '**看人间故事 都逃不过离别**' song=七叔-叶泽浩 - 半生雪 playing=True channel=None
-2026-10-24 12:42:05 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-24 12:42:05 INFO  pc_status:238     PC 客户端断开连接
-2026-10-24 12:42:05 INFO  pc_status:238     PC 客户端断开连接
-2026-10-24 12:42:05 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
-2026-10-24 12:42:05 INFO  events:94         🛑 正在关闭...
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: chou
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: echo
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: eq
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: greet
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: luck
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: motou
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: weather
+# 更新于 2026-10-24 14:44:11 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-24 12:42:05 INFO  manager:234       Plugin 已卸载: whois
 2026-10-24 12:42:05 INFO  events:94         Plugin Runtime 已关闭
 2026-10-24 12:42:05 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 57, 'total_buffer_lines': 4, 'active_tasks': 0}
@@ -1499,3 +1480,22 @@
 2026-10-24 14:40:33 INFO  qq_bot:192        QQ HELLO interval=41250
 2026-10-24 14:40:33 INFO  qq_bot:225        QQ 事件到达 t=READY
 2026-10-24 14:40:57 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Beyond - 光辉岁月（已暂停）CPU=37% 内存=75%
+2026-10-24 14:42:58 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
+2026-10-24 14:43:03 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error [Errno 101] Network is unreachable>，5s 后重连
+2026-10-24 14:43:08 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:13 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:17 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-10-24 14:43:18 ERRO  events:94         khl.py Bot 运行异常 (#1): 502, message='Bad Gateway', url=' 0 '，5s 后重连
+2026-10-24 14:43:19 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:23 ERRO  events:94         khl.py Bot 运行异常 (#2): 502, message='Bad Gateway', url=' 0 '，10s 后重连
+2026-10-24 14:43:24 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:29 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:34 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:39 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:44 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:49 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:52 ERRO  events:94         khl.py Bot 运行异常 (#3): 502, message='Bad Gateway', url=' 0 '，20s 后重连
+2026-10-24 14:43:54 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:43:59 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:44:04 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
+2026-10-24 14:44:09 ERRO  qq_bot:151        QQBot 运行异常: <urlopen error Tunnel connection failed: 502 Bad Gateway>，5s 后重连
