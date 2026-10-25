@@ -1,32 +1,4 @@
-# 更新于 2026-10-25 09:52:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 06:40:04 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=17% 内存=88%
-2026-10-25 06:44:20 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-25 06:44:20 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 06:44:35 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-25 06:44:35 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 06:45:11 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=81% 内存=92%
-2026-10-25 06:49:31 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-10-25 06:49:31 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 06:50:12 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-25 06:50:12 DEBG  dispatcher:47     dispatch 入口: type=9 content='魔搭的接口地址是啥' is_edit=False
-2026-10-25 06:50:12 DEBG  dispatcher:110    KMD 调试: is_group=False uid=1759953618 channel=1759953618
-2026-10-25 06:50:12 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=1759953618 | group=False | content='魔搭的接口地址是啥'
-2026-10-25 06:50:12 INFO  queues:32         [队列] 创建群1759953618 的独立消息队列
-2026-10-25 06:50:12 DEBG  queues:75         [队列] 群1759953618 消息已入队 (队长度=1)
-2026-10-25 06:50:12 INFO  memory:432        长时记忆溢出缓冲: chat=1759953618 +1 = 1条 (阈值=10)
-2026-10-25 06:50:12 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=659688244 content='魔搭的接口地址是啥'
-2026-10-25 06:50:12 DEBG  pipeline:598      私聊消息 → 直接回复
-2026-10-25 06:50:12 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='魔搭的接口地址是啥'
-2026-10-25 06:50:12 INFO  pipeline:687      复杂度: level=knowledge score=45 scale=1.6
-2026-10-25 06:50:12 DEBG  planner:216       Agent: 知识复杂度(knowledge)，进入规划: '魔搭的接口地址是啥'
-2026-10-25 06:50:12 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=5 temp=0.0 timeout=8.0s
-2026-10-25 06:50:12 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=38% 内存=73%
-2026-10-25 06:50:15 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时2.8s
-2026-10-25 06:50:15 WARN  llm:521           finish_reason=length, 扩大上限 5→10 重试...
-2026-10-25 06:50:15 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=10 temp=0.0 timeout=8.0s
-2026-10-25 06:50:16 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时1.3s
-2026-10-25 06:50:16 WARN  llm:521           finish_reason=length, 扩大上限 10→20 重试...
-2026-10-25 06:50:16 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=20 temp=0.0 timeout=8.0s
+# 更新于 2026-10-25 09:52:51 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 06:50:17 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时1.5s
 2026-10-25 06:50:17 WARN  llm:521           finish_reason=length, 扩大上限 20→40 重试...
 2026-10-25 06:50:17 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=40 temp=0.0 timeout=8.0s
@@ -1499,3 +1471,31 @@
 2026-10-25 09:51:49 INFO  pc_status:201     收到 lyric_event [延迟=-265ms]: '**玫瑰的红伤口绽放的梦**' song=陈奕迅 - 红玫瑰 playing=True channel=None
 2026-10-25 09:51:50 INFO  pc_status:201     收到 lyric_event [延迟=-274ms]: '**握在手中却流失于指缝**' song=陈奕迅 - 红玫瑰 playing=True channel=None
 2026-10-25 09:51:52 INFO  pc_status:201     收到 lyric_event [延迟=-1544ms]: '**再落空**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:19 INFO  pc_status:201     收到 lyric_event [延迟=87ms]: '**Produced by 梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:21 INFO  pc_status:201     收到 lyric_event [延迟=981ms]: '**Arrangement / Keyboards / Programming：梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:21 INFO  pc_status:201     收到 lyric_event [延迟=769ms]: '**Drums：Donald Ashley**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:21 INFO  pc_status:201     收到 lyric_event [延迟=528ms]: '**Bass：何俊杰**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:21 INFO  pc_status:201     收到 lyric_event [延迟=316ms]: '**Guitar：梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:21 INFO  pc_status:201     收到 lyric_event [延迟=85ms]: '**Strings Arranged：伍敬彬**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:22 INFO  pc_status:201     收到 lyric_event [延迟=1087ms]: '**First Violin：张毅**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:22 INFO  pc_status:201     收到 lyric_event [延迟=874ms]: '**Second Violin：李叶波**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:22 INFO  pc_status:201     收到 lyric_event [延迟=610ms]: '**Viola：钱宇幸**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:22 INFO  pc_status:201     收到 lyric_event [延迟=446ms]: '**Cello：高志坚**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:22 INFO  pc_status:201     收到 lyric_event [延迟=216ms]: '**Solo Cello：Anna Kwan**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:23 INFO  pc_status:201     收到 lyric_event [延迟=1106ms]: '**Backing Vocals：陈奕迅**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:23 INFO  pc_status:201     收到 lyric_event [延迟=879ms]: '**Solo Cello Arrangement：梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:23 INFO  pc_status:201     收到 lyric_event [延迟=667ms]: '**Vocals recorded at Avon Studios,**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:23 INFO  pc_status:201     收到 lyric_event [延迟=439ms]: '**Engineered by Anthony Leung**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:23 INFO  pc_status:201     收到 lyric_event [延迟=210ms]: '**Keyboards & Guitars recorded at orangeray studio by 梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=1368ms]: '**Bass Recorded at Polar Bear Studio by 梁翘柏**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=1144ms]: '**Drums Recorded at 二楼后座 by Ben**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=760ms]: '**Strings Recorded at 星海音乐厅 by 杨震** *(广州)*' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=719ms]: '**Solo Cello Recorded at Avon Studios,**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=474ms]: '**Engineered by Ako Cheung**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=254ms]: '**Mixed by Simon Li at nOiz**' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:24 INFO  pc_status:201     收到 lyric_event [延迟=33ms]: '**OP：Musechic Ltd )** *(adm by Sony/ATV Music Publishing (HK' song=陈奕迅 - 红玫瑰 playing=True channel=None
+2026-10-25 09:52:25 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Else - Paris（播放中）CPU=84% 内存=88%
+2026-10-25 09:52:25 INFO  pc_status:201     收到 lyric_event [延迟=205ms]: '**▶ Else - Paris**' song=Else - Paris playing=True channel=None
+2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-11ms]: '**作词 : Louis-Gabriel Gonzalez/Yanis Hadjar**' song=Else - Paris playing=True channel=None
+2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-91ms]: '**作曲 : Yanis Hadjar**' song=Else - Paris playing=True channel=None
+2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-103ms]: '**纯音乐，请欣赏**' song=Else - Paris playing=True channel=None
