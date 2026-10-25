@@ -1,36 +1,4 @@
-# 更新于 2026-10-25 13:10:26 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 12:05:41 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-25 12:05:41 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-25 12:05:41 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-25 12:05:41 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-25 12:05:41 INFO  events:94         QQ open-platform channel started
-2026-10-25 12:05:41 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-25 12:05:41 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-25 12:05:41 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 12:05:41 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-25 12:05:42 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-10-25 12:05:42 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-25 12:05:42 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-10-25 12:05:42 INFO  events:94         用户名查询模块已初始化
-2026-10-25 12:05:42 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-10-25 12:05:42 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-25 12:05:42 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-25 12:05:42 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-25 12:05:42 INFO  events:94         上下文管理器已初始化
-2026-10-25 12:05:42 INFO  qq_transport:113  QQ access_token 已刷新，有效期 193s
-2026-10-25 12:05:42 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-25 12:05:42 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 12:05:42 INFO  events:94         事件分发器已就绪
-2026-10-25 12:05:42 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-25 12:05:42 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-25 12:05:42 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-25 12:05:42 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-25 12:05:42 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-25 12:05:42 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
+# 更新于 2026-10-25 13:10:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
 2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
 2026-10-25 12:05:42 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
@@ -1499,3 +1467,35 @@ Connecti...
 `自我封' song=Fool's Garden - Lemon Tree playing=True channel=None
 2026-10-25 13:10:02 INFO  pc_status:201     收到 lyric_event [延迟=-663ms]: '**I'm steppin' around in the desert of joy**
 `我在快乐的荒漠中漫步`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=943ms]: '**Baby anyhow I'll get another toy**
+`或许不管怎样我可能得到另一个欣喜呢`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=652ms]: '**And everything will happen and you wonder**
+`什么都可能发生，你纳闷么`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=574ms]: '**I wonder how**
+`我手足无措`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=528ms]: '**I wonder why**
+`我不明所以`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=482ms]: '**Yesterday you told me 'bout the blue blue sky**
+`昨天你给我描绘那蓝' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=450ms]: '**And all that I can see is just another lemon tree**
+`但是我所看' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=389ms]: '**I'm turning my head up and down**
+`我转着我的头，上上下下`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=343ms]: '**I'm turning turning turning turning turning around**
+`我转啊、' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:29 INFO  pc_status:201     收到 lyric_event [延迟=329ms]: '**And all that I can see is just another lemon tree**
+`我所有能够' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:37 INFO  pc_status:201     收到 lyric_event [延迟=783ms]: '**And I  wonder  wonder**
+`我感到纳闷`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:37 INFO  pc_status:201     收到 lyric_event [延迟=677ms]: '**I wonder how**
+`手足无措`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:37 INFO  pc_status:201     收到 lyric_event [延迟=568ms]: '**I wonder why**
+`不明所以`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:37 INFO  pc_status:201     收到 lyric_event [延迟=553ms]: '**Yesterday you told me 'bout the blue blue sky**
+`昨天你给我描绘那蓝' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:40 INFO  pc_status:201     收到 lyric_event [延迟=1275ms]: '**And all that I can see**
+`而我所有能够看见的`' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:42 INFO  pc_status:201     收到 lyric_event [延迟=198ms]: '**And all that I can see  and all that I can see**
+`我所有能够看见的' song=Fool's Garden - Lemon Tree playing=True channel=None
+2026-10-25 13:10:53 INFO  pc_status:201     收到 lyric_event [延迟=395ms]: '**Is just a yellow lemon tree**
+`只是一株黄色的柠檬树`' song=Fool's Garden - Lemon Tree playing=True channel=None
