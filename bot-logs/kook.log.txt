@@ -1,43 +1,4 @@
-# 更新于 2026-10-25 11:55:16 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-25 10:47:26 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-25 10:47:26 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-25 10:47:26 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-25 10:47:26 INFO  bot:111           ==================================================
-2026-10-25 10:47:26 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-25 10:47:26 INFO  bot:111           ==================================================
-2026-10-25 10:47:26 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-25 10:47:26 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-25 10:47:26 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-25 10:47:26 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-25 10:47:26 INFO  events:94         QQ open-platform channel started
-2026-10-25 10:47:26 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-25 10:47:26 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-25 10:47:26 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 10:47:26 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-25 10:47:26 INFO  qq_transport:113  QQ access_token 已刷新，有效期 4886s
+# 更新于 2026-10-25 11:56:09 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:47:27 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
 2026-10-25 10:47:28 INFO  holiday:57        节假日: 2026-10-25 → 周日
 2026-10-25 10:47:28 INFO  holiday:105       节假日服务已启动
@@ -1499,3 +1460,42 @@
 `你是否终究将我释怀了？`' song=Reynard Silva - The Way I Stil playing=True channel=None
 2026-10-25 11:55:14 INFO  pc_status:201     收到 lyric_event [延迟=26ms]: '**You can tell me the truth**
 `你大可对我诉诸事实`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:17 INFO  pc_status:201     收到 lyric_event [延迟=455ms]: '**Or do you still love me**
+`亦或许说，你还深爱着我`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:18 INFO  pc_status:201     收到 lyric_event [延迟=-471ms]: '**The way that I still love you**
+`如同我仍对你那般的心心念念`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:23 INFO  pc_status:201     收到 lyric_event [延迟=308ms]: '**Just the other day I've seen you**
+`就在几天前，我碰见了你`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:25 INFO  pc_status:201     收到 lyric_event [延迟=21ms]: '**We caught up for a little while**
+`我们待了一小会`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:28 INFO  pc_status:201     收到 lyric_event [延迟=9ms]: '**You told me you were doing just fine**
+`你说自己近来无恙`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:30 INFO  pc_status:201     收到 lyric_event [延迟=214ms]: '**Well it was good to see you smile**
+`真开心啊，看着你满脸笑意`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:34 INFO  pc_status:201     收到 lyric_event [延迟=130ms]: '**Memories running through my head**
+`往日回忆于我脑海中翻涌`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:36 INFO  pc_status:201     收到 lyric_event [延迟=4ms]: '**Feelings coming back, oh yeah**
+`仿若又回到了过去的时光`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:40 INFO  pc_status:201     收到 lyric_event [延迟=201ms]: '**Yeah it hurts again**
+`而此刻却只让我心痛不已`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:41 INFO  pc_status:201     收到 lyric_event [延迟=-436ms]: '**You're happy with someone else**
+`看着你与新欢欢声笑语`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:44 INFO  pc_status:201     收到 lyric_event [延迟=318ms]: '**I try to stay  occupied**
+`我试着用忙碌麻痹自己`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:46 INFO  pc_status:201     收到 lyric_event [延迟=127ms]: '**I try to put it all aside**
+`我试着将旧情抛之脑后`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:49 INFO  pc_status:201     收到 lyric_event [延迟=-279ms]: '**I try and try and try and try**
+`我试过了，一遍又一遍`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:52 INFO  pc_status:201     收到 lyric_event [延迟=-445ms]: '**Still it's no use**
+`但终归于事无补`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:54 INFO  pc_status:201     收到 lyric_event [延迟=-784ms]: '**Don't know what's going on with me**
+`我不知道自己究竟是怎么了`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:56 INFO  pc_status:201     收到 lyric_event [延迟=-1323ms]: '**But all I know it's haunting me**
+`但我只知道你仍让我夜不能寐`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:55:59 INFO  pc_status:201     收到 lyric_event [延迟=-783ms]: '**I need your love to set me free**
+`我需要你的爱让我自由`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:02 INFO  pc_status:201     收到 lyric_event [延迟=-1669ms]: '**Listen to me oh baby**
+`请听我说，宝贝`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:05 INFO  pc_status:201     收到 lyric_event [延迟=-2032ms]: '**Do you still think about me baby,baby**
+`宝贝，你是否仍会记起我呢?`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:09 INFO  pc_status:201     收到 lyric_event [延迟=-2670ms]: '**Cause you’re on my mind and it’s driving me crazy, crazy**' song=Reynard Silva - The Way I Stil playing=True channel=None
