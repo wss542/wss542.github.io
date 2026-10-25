@@ -1,128 +1,4 @@
-# 更新于 2026-10-25 09:12:56 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 00:47:52 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-25 00:47:52 INFO  logger:541        [TRACE d2be6def8a374d76] total=1535.9ms severity=normal | llm_calls=1 total=1420.4ms avg=1420.4ms max=1420.4ms p50=1420.4 p95=1420.4 p99=1420.4 | json_parse=0.94ms(x1), llm=1435.85ms(x1), memory=46.16ms(x2), process=1535.12ms(x1) (wall1535.12), queue_wait=1.31ms(x1)
-2026-10-25 00:47:52 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
-2026-10-25 00:47:52 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-25 00:47:53 INFO  llm:544           LLM [deepseek-flash] 返回 88字符 耗时1.1s → "[00:47:52] 63C251709C77FDE: 发送图片 (图片); 茂密: 说“fff 也..."
-2026-10-25 00:47:53 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
-2026-10-25 00:47:53 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=20 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqvNQpBL7llpzXo43OGOZJz93bdsPeNGJtFm9Swg5NbIpQob3F3EJ7xtZGA45anBZCstG81ovPjw88HwjHppK6Gc!
-2026-10-25 00:47:53 DEBG  response_delivery:297 已发送第 1/1 条: fff 也不敢出声呀喵
-
-四个休止符全是憋的...
-2026-10-25 00:47:53 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-25 00:47:53 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
-2026-10-25 00:47:53 INFO  pc_status:201     收到 lyric_event [延迟=140ms]: '**你的一抹笑意又入梦里**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:47:57 INFO  pc_status:201     收到 lyric_event [延迟=1012ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:47:57 INFO  pc_status:201     收到 lyric_event [延迟=631ms]: '**我叹那 春花秋月 不问别离**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:05 INFO  pc_status:201     收到 lyric_event [延迟=302ms]: '**阁楼里 写一纸相思 未停笔**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:10 INFO  pc_status:201     收到 lyric_event [延迟=-332ms]: '**宋词里 你的心事 被谁捞起**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:13 INFO  pc_status:201     收到 lyric_event [延迟=-701ms]: '**我独守空城 还惦记你**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:25 INFO  pc_status:201     收到 lyric_event [延迟=-2242ms]: '**朝花等一场暮雨**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:30 INFO  pc_status:201     收到 lyric_event [延迟=191ms]: '**我在等一场相遇**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:32 INFO  pc_status:201     收到 lyric_event [延迟=347ms]: '**思念辗转又走几里**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:35 INFO  pc_status:201     收到 lyric_event [延迟=522ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:38 INFO  pc_status:201     收到 lyric_event [延迟=652ms]: '**故里纷飞的柳絮**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:40 INFO  pc_status:201     收到 lyric_event [延迟=591ms]: '**仿若替我去寻你**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:42 INFO  pc_status:201     收到 lyric_event [延迟=467ms]: '**梦醒花落不知归期**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:45 INFO  pc_status:201     收到 lyric_event [延迟=213ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:46 INFO  pc_status:201     收到 lyric_event [延迟=662ms]: '**我叹那 春花秋月 不问别离**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:48:52 INFO  pc_status:201     收到 lyric_event [延迟=1008ms]: '**长风起 孤城笛声里 全是你**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:02 INFO  pc_status:201     收到 lyric_event [延迟=1066ms]: '**当年的 后会有期 遥不可及**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:02 INFO  pc_status:201     收到 lyric_event [延迟=1036ms]: '**你的一抹笑意又入梦里**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:06 INFO  pc_status:201     收到 lyric_event [延迟=270ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:08 INFO  pc_status:201     收到 lyric_event [延迟=1127ms]: '**我叹那 春花秋月 不问别离**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:14 INFO  pc_status:201     收到 lyric_event [延迟=563ms]: '**阁楼里 写一纸相思 未停笔**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:15 INFO  pc_status:201     收到 lyric_event [延迟=863ms]: '**宋词里 你的心事 被谁捞起**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:21 INFO  pc_status:201     收到 lyric_event [延迟=1151ms]: '**我独守空城 还惦记你**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:23 INFO  pc_status:201     收到 lyric_event [延迟=368ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:23 INFO  pc_status:201     收到 lyric_event [延迟=358ms]: '**Say**' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:49:23 INFO  pc_status:201     收到 lyric_event [延迟=334ms]: '*(Inside her new Balenciaga)*' song=DJ阿布 - 不问ciaga playing=True channel=None
-2026-10-25 00:50:13 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=林俊杰 - 曹操（播放中）CPU=82% 内存=95%
-2026-10-25 00:50:18 INFO  pc_status:201     收到 lyric_event [延迟=-262ms]: '**<00:00.000>曹<00:00.383>操<00:00.766> <00:01.149>-<00:01.532' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:18 INFO  pc_status:201     收到 lyric_event [延迟=-427ms]: '**<00:05.370>词<00:06.444>：<00:07.518>林<00:08.592>秋<00:09.666' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:18 INFO  pc_status:201     收到 lyric_event [延迟=-443ms]: '**<00:10.740>曲<00:11.816>：<00:12.892>林<00:13.968>俊<00:15.044' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:37 INFO  pc_status:201     收到 lyric_event [延迟=326ms]: '**<00:16.120>编<00:17.015>曲<00:17.910>：<00:18.805>Kenn<00:19.' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:37 INFO  pc_status:201     收到 lyric_event [延迟=82ms]: '**<00:21.490>制<00:22.258>作<00:23.026>人<00:23.794>：<00:24.562' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:37 INFO  pc_status:201     收到 lyric_event [延迟=22ms]: '**<00:26.872>不<00:28.070>是<00:28.326>英<00:28.743>雄<00:30.238' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=1085ms]: '**<00:33.582>若<00:34.764>是<00:34.991>英<00:35.390>雄<00:35.806' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=1056ms]: '**<00:36.055>怎<00:36.430>么<00:36.607>能<00:37.296>不<00:37.487' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=1042ms]: '**<00:39.786>独<00:39.969>自<00:40.207>走<00:40.390>下<00:40.576' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=1026ms]: '**<00:41.653>月<00:42.061>光<00:42.244>太<00:42.420>温<00:42.660' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=1013ms]: '**<00:43.373>曹<00:43.733>操<00:43.925>不<00:44.101>啰<00:44.341' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:38 INFO  pc_status:201     收到 lyric_event [延迟=981ms]: '**<00:45.016>一<00:45.352>心<00:45.544>要<00:45.720>拿<00:45.978' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:41 INFO  pc_status:201     收到 lyric_event [延迟=754ms]: '**<00:46.832>用<00:47.233>阴<00:47.440>谋<00:47.850>阳<00:48.008' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:41 INFO  pc_status:201     收到 lyric_event [延迟=158ms]: '**<00:48.480>明<00:48.664>说<00:49.081>暗<00:49.266>夺<00:49.642' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:46 INFO  pc_status:201     收到 lyric_event [延迟=203ms]: '**<00:53.581>东<00:53.938>汉<00:54.120>末<00:54.504>年<00:55.169' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:50 INFO  pc_status:201     收到 lyric_event [延迟=860ms]: '**<00:56.664>烽<00:56.857>火<00:57.240>连<00:57.440>天<00:57.888' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:50:54 INFO  pc_status:201     收到 lyric_event [延迟=342ms]: '**<01:00.132>儿<01:00.576>女<01:00.761>情<01:01.115>长<01:01.864' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:06 INFO  pc_status:201     收到 lyric_event [延迟=387ms]: '**<01:05.152>谁<01:05.520>来<01:05.738>煮<01:06.128>酒<01:06.577' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:06 INFO  pc_status:201     收到 lyric_event [延迟=334ms]: '**<01:06.900>尔<01:07.248>虞<01:07.459>我<01:07.801>诈<01:08.510' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:06 INFO  pc_status:201     收到 lyric_event [延迟=331ms]: '**<01:09.992>说<01:10.200>不<01:10.603>清<01:10.816>对<01:11.152' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:06 INFO  pc_status:201     收到 lyric_event [延迟=301ms]: '**<01:13.504>纷<01:13.944>纷<01:14.145>扰<01:14.498>扰<01:15.212' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:12 INFO  pc_status:201     收到 lyric_event [延迟=524ms]: '**<01:18.512>一<01:18.872>切<01:19.090>又<01:19.441>从<01:20.128' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:26 INFO  pc_status:201     收到 lyric_event [延迟=40ms]: '**<01:33.584>不<01:34.702>是<01:34.926>英<01:35.294>雄<01:36.837' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:34 INFO  pc_status:201     收到 lyric_event [延迟=62ms]: '**<01:40.206>若<01:41.433>是<01:41.654>英<01:42.046>雄<01:42.461' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:35 INFO  pc_status:201     收到 lyric_event [延迟=55ms]: '**<01:42.785>怎<01:43.161>么<01:43.342>能<01:44.037>不<01:44.213' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:40 INFO  pc_status:201     收到 lyric_event [延迟=905ms]: '**<01:46.510>独<01:46.694>自<01:46.910>走<01:47.113>下<01:47.318' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:42 INFO  pc_status:201     收到 lyric_event [延迟=258ms]: '**<01:48.374>月<01:48.767>光<01:48.952>太<01:49.141>温<01:49.374' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:43 INFO  pc_status:201     收到 lyric_event [延迟=942ms]: '**<01:50.030>曹<01:50.400>操<01:50.590>不<01:50.776>啰<01:51.008' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:46 INFO  pc_status:201     收到 lyric_event [延迟=539ms]: '**<01:51.691>一<01:52.059>心<01:52.253>要<01:52.428>拿<01:52.667' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:46 INFO  pc_status:201     收到 lyric_event [延迟=100ms]: '**<01:53.518>用<01:53.870>阴<01:54.076>谋<01:54.507>阳<01:54.687' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:49 INFO  pc_status:201     收到 lyric_event [延迟=1325ms]: '**<01:55.179>明<01:55.365>说<01:55.732>暗<01:55.931>夺<01:56.315' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:53 INFO  pc_status:201     收到 lyric_event [延迟=811ms]: '**<02:00.251>东<02:00.637>汉<02:00.811>末<02:01.187>年<02:01.827' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:56 INFO  pc_status:201     收到 lyric_event [延迟=428ms]: '**<02:03.307>烽<02:03.518>火<02:03.925>连<02:04.145>天<02:04.505' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:51:58 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-25 00:51:58 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 00:52:00 INFO  pc_status:201     收到 lyric_event [延迟=713ms]: '**<02:06.847>儿<02:07.275>女<02:07.462>情<02:07.803>长<02:08.532' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:07 INFO  pc_status:201     收到 lyric_event [延迟=2980ms]: '**<02:11.819>谁<02:12.223>来<02:12.435>煮<02:12.822>酒<02:13.252' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:07 INFO  pc_status:201     收到 lyric_event [延迟=7ms]: '**<02:13.589>尔<02:13.908>虞<02:14.123>我<02:14.443>诈<02:15.147' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:11 INFO  pc_status:201     收到 lyric_event [延迟=1862ms]: '**<02:16.603>说<02:16.819>不<02:17.235>清<02:17.435>对<02:17.811' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:13 INFO  pc_status:201     收到 lyric_event [延迟=868ms]: '**<02:20.148>纷<02:20.555>纷<02:20.755>扰<02:21.107>扰<02:21.854' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:14 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-25 00:52:14 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 00:52:18 INFO  pc_status:201     收到 lyric_event [延迟=619ms]: '**<02:25.192>一<02:25.579>切<02:25.814>又<02:26.179>从<02:26.819' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:29 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-25 00:52:29 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 00:52:31 INFO  pc_status:201     收到 lyric_event [延迟=-552ms]: '**<02:39.805>独<02:39.989>自<02:40.229>走<02:40.413>下<02:40.597' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:34 INFO  pc_status:201     收到 lyric_event [延迟=-162ms]: '**<02:41.705>月<02:42.065>光<02:42.241>太<02:42.425>温<02:42.642' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:35 INFO  pc_status:201     收到 lyric_event [延迟=-599ms]: '**<02:43.369>曹<02:43.680>操<02:43.873>不<02:44.057>啰<02:44.284' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:37 INFO  pc_status:201     收到 lyric_event [延迟=-70ms]: '**<02:45.010>一<02:45.369>心<02:45.547>要<02:45.737>拿<02:45.969' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:39 INFO  pc_status:201     收到 lyric_event [延迟=449ms]: '**<02:46.830>用<02:47.227>阴<02:47.409>谋<02:47.849>阳<02:48.017' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:40 INFO  pc_status:201     收到 lyric_event [延迟=-134ms]: '**<02:48.534>明<02:48.721>说<02:49.074>暗<02:49.259>夺<02:49.658' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:49 INFO  pc_status:201     收到 lyric_event [延迟=3957ms]: '**<02:53.449>东<02:53.889>汉<02:54.091>末<02:54.480>年<02:55.145' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:49 INFO  pc_status:201     收到 lyric_event [延迟=688ms]: '**<02:56.707>烽<02:56.889>火<02:57.236>连<02:57.460>天<02:57.817' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:53 INFO  pc_status:201     收到 lyric_event [延迟=798ms]: '**<03:00.111>儿<03:00.561>女<03:00.763>情<03:01.090>长<03:01.833' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:58 INFO  pc_status:201     收到 lyric_event [延迟=248ms]: '**<03:05.164>谁<03:05.545>来<03:05.738>煮<03:06.121>酒<03:06.609' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:52:59 INFO  pc_status:201     收到 lyric_event [延迟=-294ms]: '**<03:06.898>尔<03:07.240>虞<03:07.433>我<03:07.777>诈<03:08.408' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:53:02 INFO  pc_status:201     收到 lyric_event [延迟=235ms]: '**<03:09.986>说<03:10.193>不<03:10.537>清<03:10.753>对<03:11.097' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:53:15 INFO  pc_status:201     收到 lyric_event [延迟=9005ms]: '**<03:13.508>纷<03:13.873>纷<03:14.097>扰<03:14.418>扰<03:15.120' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:53:15 INFO  pc_status:201     收到 lyric_event [延迟=3992ms]: '**<03:18.520>一<03:18.880>切<03:19.099>又<03:19.480>从<03:20.131' song=林俊杰 - 曹操 playing=True channel=None
-2026-10-25 00:53:54 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=闻人听書_ - 虞兮叹（播放中）CPU=48% 内存=90%
-2026-10-25 00:53:54 INFO  pc_status:201     收到 lyric_event [延迟=-56ms]: '**▶ 闻人听書_ - 虞兮叹**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:01 INFO  pc_status:201     收到 lyric_event [延迟=40ms]: '**作词 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:01 INFO  pc_status:201     收到 lyric_event [延迟=21ms]: '**作曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:01 INFO  pc_status:201     收到 lyric_event [延迟=-5ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:01 INFO  pc_status:201     收到 lyric_event [延迟=-36ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:02 INFO  pc_status:201     收到 lyric_event [延迟=-68ms]: '**楚河流沙几聚散 日月沧桑尽变换**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:05 INFO  pc_status:201     收到 lyric_event [延迟=820ms]: '**作词 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:05 INFO  pc_status:201     收到 lyric_event [延迟=189ms]: '**作曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:05 INFO  pc_status:201     收到 lyric_event [延迟=178ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:05 INFO  pc_status:201     收到 lyric_event [延迟=148ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:07 INFO  pc_status:201     收到 lyric_event [延迟=-3ms]: '**楚河流沙几聚散 日月沧桑尽变换**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:09 INFO  pc_status:201     收到 lyric_event [延迟=-93ms]: '**作词 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:09 INFO  pc_status:201     收到 lyric_event [延迟=-109ms]: '**作曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:09 INFO  pc_status:201     收到 lyric_event [延迟=-145ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:09 INFO  pc_status:201     收到 lyric_event [延迟=-219ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:10 INFO  pc_status:201     收到 lyric_event [延迟=-178ms]: '**楚河流沙几聚散 日月沧桑尽变换**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:13 INFO  pc_status:201     收到 lyric_event [延迟=145ms]: '**作词 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:13 INFO  pc_status:201     收到 lyric_event [延迟=142ms]: '**作曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:13 INFO  pc_status:201     收到 lyric_event [延迟=119ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:13 INFO  pc_status:201     收到 lyric_event [延迟=-2ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:18 INFO  pc_status:201     收到 lyric_event [延迟=366ms]: '**作词 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:18 INFO  pc_status:201     收到 lyric_event [延迟=252ms]: '**作曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:18 INFO  pc_status:201     收到 lyric_event [延迟=225ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:18 INFO  pc_status:201     收到 lyric_event [延迟=82ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
-2026-10-25 00:54:19 INFO  pc_status:201     收到 lyric_event [延迟=161ms]: '**楚河流沙几聚散 日月沧桑尽变换**' song=闻人听書_ - 虞兮叹 playing=True channel=None
+# 更新于 2026-10-25 09:13:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 00:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-29ms]: '**编曲 : 祝何**' song=闻人听書_ - 虞兮叹 playing=True channel=None
 2026-10-25 00:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-45ms]: '**制作人 : 蒋雪儿 Snow.J**' song=闻人听書_ - 虞兮叹 playing=True channel=None
 2026-10-25 00:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-68ms]: '**楚河流沙几聚散 日月沧桑尽变换**' song=闻人听書_ - 虞兮叹 playing=True channel=None
@@ -1499,3 +1375,127 @@
 2026-10-25 09:11:55 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-25 09:12:34 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=小鷹 - 小猫坏事做尽！（播放中）CPU=33% 内存=75%
 2026-10-25 09:12:34 INFO  pc_status:201     收到 lyric_event [延迟=-504ms]: '**▶ 继续播放**' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-880ms]: '**このままアッシュになってしまう**
+`就这样变成灰烬了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-896ms]: '**よかった。**
+`太好了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-911ms]: '**それなら、**
+`那样的话就`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-940ms]: '**きみのことをわすれた**
+`把你全都忘掉了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-956ms]: '**全て，**
+`一切`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-988ms]: '**言葉，**
+`言语`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1002ms]: '**声なんて、**
+`声音什么的`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1032ms]: '**むだだ**
+`都是没用的`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1048ms]: '**できなくなっていた**
+`已经变得做不到了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1079ms]: '**あの夢に、**
+`对着那个梦`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1094ms]: '**思い出した、青い空**
+`想起来了，青色的天空`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1125ms]: '**消えて、**
+`消失吧`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1157ms]: '**すべての苦しみも、**
+`连同所有的痛苦也一起`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-1389ms]: '**この声よ、**
+`这个声音啊`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:10 INFO  pc_status:201     收到 lyric_event [延迟=-3003ms]: '**枯れて、腐りてゆけばいい**
+`枯萎下去，腐烂下去就好`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:12 INFO  pc_status:201     收到 lyric_event [延迟=-4755ms]: '**脳内世界、**
+`脑内世界`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:13 INFO  pc_status:201     收到 lyric_event [延迟=-5428ms]: '**ドロドロに溶けて消えた**
+`黏糊糊地融化消失了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:32 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-10-25 09:13:32 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-379ms]: '**作词 : 小鷹**' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-392ms]: '**作曲 : 小鷹**' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-392ms]: '**花散りて、**
+`花瓣散落下来`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-404ms]: '**腐りてゆく夢に**
+`渐渐腐烂的梦里`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-417ms]: '**土の下**
+`在泥土下面`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**なら、なにもかもをうめて？**
+`是不是要把一切都埋掉？`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-421ms]: '**これでいいね、**
+`这样就行了吧`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-421ms]: '**だれもきにしないよね？**
+`应该谁都不会在意了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-421ms]: '**このままアッシュになってしまう**
+`就这样变成灰烬了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-421ms]: '**よかった。**
+`太好了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**それなら、**
+`那样的话就`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**きみのことをわすれた**
+`把你全都忘掉了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**全て，**
+`一切`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**言葉，**
+`言语`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**声なんて、**
+`声音什么的`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**むだだ**
+`都是没用的`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**できなくなっていた**
+`已经变得做不到了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**あの夢に、**
+`对着那个梦`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**思い出した、青い空**
+`想起来了，青色的天空`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**消えて、**
+`消失吧`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**すべての苦しみも、**
+`连同所有的痛苦也一起`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-432ms]: '**この声よ、**
+`这个声音啊`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-462ms]: '**枯れて、腐りてゆけばいい**
+`枯萎下去，腐烂下去就好`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:38 INFO  pc_status:201     收到 lyric_event [延迟=-477ms]: '**脳内世界、**
+`脑内世界`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:39 INFO  pc_status:201     收到 lyric_event [延迟=400ms]: '**ドロドロに溶けて消えた**
+`黏糊糊地融化消失了`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:41 INFO  pc_status:201     收到 lyric_event [延迟=-296ms]: '**花散りて、**
+`花瓣散落下来`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:43 INFO  pc_status:201     收到 lyric_event [延迟=-917ms]: '**腐りてゆく夢に**
+`渐渐腐烂的梦里`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:46 INFO  pc_status:201     收到 lyric_event [延迟=-351ms]: '**土の下**
+`在泥土下面`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:47 INFO  pc_status:201     收到 lyric_event [延迟=-461ms]: '**なにもかも、うめてしまえる？**
+`什么都能埋掉吗？`' song=小鷹 - 小猫坏事做尽！ playing=True channel=None
+2026-10-25 09:13:50 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=s0rrow - unhappy（播放中）CPU=68% 内存=79%
+2026-10-25 09:13:50 INFO  pc_status:201     收到 lyric_event [延迟=-1585ms]: '**▶ s0rrow - unhappy**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1220ms]: '**作词 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1230ms]: '**作曲 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1259ms]: '**编曲 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1273ms]: '**制作人 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1303ms]: '**Every day we talk a little less**
+`每天我们说的话都在逐渐减少`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1317ms]: '**It looks like you are losing interest**
+`看起来你正在慢慢失去兴趣`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1348ms]: '**These feelings I have for you**
+`这些我对你的感情`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1362ms]: '**But you don't feel the same**
+`可你却没有同样的感觉`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:56 INFO  pc_status:201     收到 lyric_event [延迟=-1391ms]: '**So I'll pack all my things**
+`所以我会收拾好我的一切`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:57 INFO  pc_status:201     收到 lyric_event [延迟=-1990ms]: '**And go run far away**
+`然后逃到很远的地方`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1805ms]: '**作词 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1810ms]: '**作曲 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1841ms]: '**编曲 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1871ms]: '**制作人 : s0rrow**' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1901ms]: '**Every day we talk a little less**
+`每天我们说的话都在逐渐减少`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1932ms]: '**It looks like you are losing interest**
+`看起来你正在慢慢失去兴趣`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1964ms]: '**These feelings I have for you**
+`这些我对你的感情`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1979ms]: '**But you don't feel the same**
+`可你却没有同样的感觉`' song=s0rrow - unhappy playing=True channel=None
+2026-10-25 09:13:58 INFO  pc_status:201     收到 lyric_event [延迟=-1993ms]: '**So I'll pack all my things**
+`所以我会收拾好我的一切`' song=s0rrow - unhappy playing=True channel=None
