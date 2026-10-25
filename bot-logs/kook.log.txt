@@ -1,111 +1,4 @@
-# 更新于 2026-10-25 11:45:01 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-25 10:45:36 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-25 10:45:36 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-25 10:45:36 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-25 10:45:36 INFO  events:94         ==================================================
-2026-10-25 10:45:36 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-25 10:45:36 INFO  events:94         ==================================================
-2026-10-25 10:45:36 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-25 10:45:36 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-25 10:45:37 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-25 10:45:37 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-25 10:45:37 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 10:45:37 INFO  bot:868           战绩采集将在 1h15m 后执行 (12:01)
-2026-10-25 10:45:37 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 75s 前）
-2026-10-25 10:45:38 INFO  events:94         ==================================================
-2026-10-25 10:45:38 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-25 10:45:38 INFO  events:94         ==================================================
-2026-10-25 10:45:38 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-25 10:45:38 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-25 10:45:38 INFO  events:94         语言文件已加载
-2026-10-25 10:45:38 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-25 10:45:38 INFO  events:94         日志系统已初始化
-2026-10-25 10:45:38 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-25 10:45:38 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-25 10:45:38 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-25 10:45:38 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-25 10:45:38 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-25 10:45:38 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-25 10:45:38 INFO  bot:111           上下文管理器已初始化
-2026-10-25 10:45:38 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-25 10:45:38 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 10:45:38 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:45:38 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:45:38 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-25 10:45:38 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-25 10:45:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-25 10:45:38 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
+# 更新于 2026-10-25 11:45:53 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
 2026-10-25 10:45:39 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
 2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
@@ -1499,3 +1392,110 @@
 `每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
 2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-549ms]: '**Ah-ah-ah**
 `啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-938ms]: '**作词 : Valentin Valkiainen**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-940ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-957ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-1001ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-1016ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-1046ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-1076ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:04 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2614ms]: '**作词 : Valentin Valkiainen**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2621ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2636ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2666ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2680ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2710ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:09 INFO  pc_status:201     收到 lyric_event [延迟=-2725ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2293ms]: '**作词 : Valentin Valkiainen**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2305ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2319ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2313ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2328ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2358ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:12 INFO  pc_status:201     收到 lyric_event [延迟=-2372ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3184ms]: '**作词 : Valentin Valkiainen**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3197ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3468ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3484ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3515ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3530ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:16 INFO  pc_status:201     收到 lyric_event [延迟=-3559ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:18 INFO  pc_status:201     收到 lyric_event [延迟=-3954ms]: '**Toma toma toma na vontade**
+`全然沉浸 这热烈节奏`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-2957ms]: '**作词 : Valentin Valkiainen**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-2966ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-2982ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-3011ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-3041ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-3071ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:19 INFO  pc_status:201     收到 lyric_event [延迟=-3085ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-3180ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-3188ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-3201ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-3820ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-3835ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-4561ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-4570ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-4583ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:25 INFO  pc_status:201     收到 lyric_event [延迟=-4613ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:27 INFO  pc_status:201     收到 lyric_event [延迟=-3642ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:27 INFO  pc_status:201     收到 lyric_event [延迟=-3648ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:27 INFO  pc_status:201     收到 lyric_event [延迟=-3675ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:27 INFO  pc_status:201     收到 lyric_event [延迟=-3706ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:27 INFO  pc_status:201     收到 lyric_event [延迟=-4628ms]: '**Toma toma toma na vontade**
+`全然沉浸 这热烈节奏`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:34 INFO  pc_status:201     收到 lyric_event [延迟=868ms]: '**Sarra gostoso sem falsidade**
+`全心投入 此刻最真实的感受`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:39 INFO  pc_status:201     收到 lyric_event [延迟=157ms]: '**Vem no pique e na maldade**
+`带着俏皮 与些许不羁靠近`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:45:45 INFO  pc_status:201     收到 lyric_event [延迟=1319ms]: '**Faz gostoso senta e me dá**
+`让律动更沉醉 随节拍共舞相依`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
