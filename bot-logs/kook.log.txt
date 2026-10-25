@@ -1,58 +1,4 @@
-# 更新于 2026-10-25 11:54:01 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-25 10:47:22 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-25 10:47:22 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-25 10:47:22 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-25 10:47:22 INFO  events:94         ==================================================
-2026-10-25 10:47:22 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-10-25 10:47:22 INFO  events:94         ==================================================
-2026-10-25 10:47:22 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-10-25 10:47:22 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-25 10:47:22 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-10-25 10:47:22 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-25 10:47:22 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 10:47:22 INFO  bot:868           战绩采集将在 1h13m 后执行 (12:01)
-2026-10-25 10:47:22 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 42s 前）
-2026-10-25 10:47:24 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-10-25 10:47:24 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 10:47:25 INFO  events:94         ==================================================
-2026-10-25 10:47:25 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-25 10:47:25 INFO  events:94         ==================================================
-2026-10-25 10:47:25 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-10-25 10:47:25 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-10-25 10:47:25 INFO  events:94         语言文件已加载
-2026-10-25 10:47:25 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-25 10:47:25 INFO  events:94         日志系统已初始化
-2026-10-25 10:47:25 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-25 10:47:26 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-25 10:47:26 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-25 10:47:26 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-25 10:47:26 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-25 10:47:26 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-25 10:47:26 INFO  bot:111           上下文管理器已初始化
-2026-10-25 10:47:26 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-25 10:47:26 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 10:47:26 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:47:26 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:47:26 DEBG  loader:46         跳过 _down：缺少 manifest.json
+# 更新于 2026-10-25 11:54:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
 2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
 2026-10-25 10:47:26 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
@@ -1499,3 +1445,57 @@
 `自己仍思念着你' song=Reynard Silva - The Way I Stil playing=True channel=None
 2026-10-25 11:53:59 INFO  pc_status:201     收到 lyric_event [延迟=-793ms]: '**And I'm torn cause I'm hella frustrated**
 `我心碎不已，深感挫败`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=154ms]: '**作词 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=143ms]: '**作曲 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=129ms]: '**Not a single day goes by**
+`度日如年`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=98ms]: '**show me what is through my mind**
+`你可否帮我将这混乱的思绪理清`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=84ms]: '**I know it's over but I can‘t deny**
+`我知道这段感情已经结束了，但我无法否认`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:06 INFO  pc_status:201     收到 lyric_event [延迟=54ms]: '**I'm still missing you** *(I'm still missing you)*
+`自己仍思念着你' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:08 INFO  pc_status:201     收到 lyric_event [延迟=-355ms]: '**And I'm torn cause I'm hella frustrated**
+`我心碎不已，深感挫败`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-343ms]: '**作词 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-347ms]: '**作曲 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-361ms]: '**Not a single day goes by**
+`度日如年`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-391ms]: '**show me what is through my mind**
+`你可否帮我将这混乱的思绪理清`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-422ms]: '**I know it's over but I can‘t deny**
+`我知道这段感情已经结束了，但我无法否认`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:14 INFO  pc_status:201     收到 lyric_event [延迟=-436ms]: '**I'm still missing you** *(I'm still missing you)*
+`自己仍思念着你' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:17 INFO  pc_status:201     收到 lyric_event [延迟=-137ms]: '**And I'm torn cause I'm hella frustrated**
+`我心碎不已，深感挫败`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-468ms]: '**作词 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-477ms]: '**作曲 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-492ms]: '**Not a single day goes by**
+`度日如年`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-523ms]: '**show me what is through my mind**
+`你可否帮我将这混乱的思绪理清`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-537ms]: '**I know it's over but I can‘t deny**
+`我知道这段感情已经结束了，但我无法否认`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:22 INFO  pc_status:201     收到 lyric_event [延迟=-567ms]: '**I'm still missing you** *(I'm still missing you)*
+`自己仍思念着你' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-155ms]: '**作词 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-164ms]: '**作曲 : Roderick Kerr/Reynard Silva**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-193ms]: '**Not a single day goes by**
+`度日如年`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-223ms]: '**show me what is through my mind**
+`你可否帮我将这混乱的思绪理清`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-238ms]: '**I know it's over but I can‘t deny**
+`我知道这段感情已经结束了，但我无法否认`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:25 INFO  pc_status:201     收到 lyric_event [延迟=-268ms]: '**I'm still missing you** *(I'm still missing you)*
+`自己仍思念着你' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:26 INFO  pc_status:201     收到 lyric_event [延迟=100ms]: '**And I'm torn cause I'm hella frustrated**
+`我心碎不已，深感挫败`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:29 INFO  pc_status:201     收到 lyric_event [延迟=-498ms]: '**I know we have something special baby**
+`宝贝，我们也曾有无二的爱恋`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:31 INFO  pc_status:201     收到 lyric_event [延迟=-280ms]: '**But now the fact is you’re gone for good**
+`但事到如今，你已永远离去`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:35 INFO  pc_status:201     收到 lyric_event [延迟=475ms]: '**And I don't know what to do**
+`我失去了生活的方向`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:54:38 INFO  pc_status:201     收到 lyric_event [延迟=79ms]: '**I try to stay occupied**
+`我试着用忙碌麻痹自己`' song=Reynard Silva - The Way I Stil playing=True channel=None
