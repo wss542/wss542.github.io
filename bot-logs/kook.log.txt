@@ -1,42 +1,4 @@
-# 更新于 2026-10-25 11:45:53 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-25 10:45:39 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-25 10:45:39 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-10-25 10:45:39 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-10-25 10:45:39 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-10-25 10:45:39 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-10-25 10:45:39 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-10-25 10:45:39 INFO  bot:111           ==================================================
-2026-10-25 10:45:39 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-10-25 10:45:39 INFO  bot:111           ==================================================
-2026-10-25 10:45:39 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
-2026-10-25 10:45:39 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-10-25 10:45:39 INFO  queues:103        [队列] 渲染队列已启动
-2026-10-25 10:45:39 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-10-25 10:45:39 INFO  events:94         QQ open-platform channel started
-2026-10-25 10:45:39 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-10-25 10:45:39 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-10-25 10:45:39 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 10:45:39 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-10-25 10:45:39 INFO  qq_transport:113  QQ access_token 已刷新，有效期 4995s
-2026-10-25 10:45:40 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-25 10:45:41 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-25 10:45:41 INFO  holiday:57        节假日: 2026-10-25 → 周日
-2026-10-25 10:45:41 INFO  holiday:105       节假日服务已启动
-2026-10-25 10:45:41 INFO  holiday:96        节假日每日刷新: 等待 47664 秒 (下次 00:00:05)
-2026-10-25 10:45:41 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-25 10:45:43 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-25 10:45:43 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-25 10:45:43 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-25 10:45:43 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-25 10:45:43 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-25 10:45:43 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-25 10:45:43 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-25 10:45:43 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=44 cpu=95.6 mem=20.5
+# 更新于 2026-10-25 11:46:38 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:45:43 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-10-25 10:45:43 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=99 cpu=None mem=None
 2026-10-25 10:45:43 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
@@ -1499,3 +1461,41 @@
 `带着俏皮 与些许不羁靠近`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
 2026-10-25 11:45:45 INFO  pc_status:201     收到 lyric_event [延迟=1319ms]: '**Faz gostoso senta e me dá**
 `让律动更沉醉 随节拍共舞相依`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:06 INFO  pc_status:201     收到 lyric_event [延迟=-977ms]: '**Cheia de vontade sem parar**
+`满怀期待 不愿停息`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:08 INFO  pc_status:201     收到 lyric_event [延迟=-1512ms]: '**Você vai se apaixonar**
+`你即将为此着迷`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:10 INFO  pc_status:201     收到 lyric_event [延迟=-1741ms]: '**Vem safada vem no grau**
+`来吧 大胆地融入这热浪`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:13 INFO  pc_status:201     收到 lyric_event [延迟=-1979ms]: '**Que eu te pego com amor**
+`我会温柔将你接住 不让你迷失方向`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:15 INFO  pc_status:201     收到 lyric_event [延迟=-2057ms]: '**Cheia de vontade sem parar**
+`满怀期待 不愿停息`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:19 INFO  pc_status:201     收到 lyric_event [延迟=250ms]: '**Você vai se apaixonar**
+`你即将为此着迷`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:19 INFO  pc_status:201     收到 lyric_event [延迟=-2894ms]: '**Vem safada vem no grau**
+`来吧 大胆地融入这热浪`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:46:20 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー（播放中）CPU=68% 内存=90%
+2026-10-25 11:46:20 INFO  pc_status:201     收到 lyric_event [延迟=-2239ms]: '**▶  0  / 初音ミク - 蜘蛛糸モノポリー**' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3370ms]: '**制作人 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3382ms]: '**作词 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3396ms]: '**作曲 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3439ms]: '**编曲 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3485ms]: '**堕ちた世界の終焉で**
+`在堕落世界的尽头`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3516ms]: '**絶間ない赤を抱く**
+`拥抱无尽的赤色`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:25 INFO  pc_status:201     收到 lyric_event [延迟=-3543ms]: '**贖罪を掻き分けて**
+`拨开赎罪`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2886ms]: '**制作人 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2906ms]: '**作词 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2914ms]: '**作曲 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2945ms]: '**编曲 :  0 **' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2958ms]: '**堕ちた世界の終焉で**
+`在堕落世界的尽头`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-2992ms]: '**絶間ない赤を抱く**
+`拥抱无尽的赤色`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-3005ms]: '**贖罪を掻き分けて**
+`拨开赎罪`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
+2026-10-25 11:46:28 INFO  pc_status:201     收到 lyric_event [延迟=-3309ms]: '**白蓮の意思は阡年回廊**
+`白莲的意志如同千年回廊`' song=sasakure.UK / 初音ミク - 蜘蛛糸モノポリー playing=True channel=None
