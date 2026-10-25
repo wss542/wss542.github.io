@@ -1,27 +1,4 @@
-# 更新于 2026-10-25 09:52:51 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 06:50:17 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时1.5s
-2026-10-25 06:50:17 WARN  llm:521           finish_reason=length, 扩大上限 20→40 重试...
-2026-10-25 06:50:17 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=40 temp=0.0 timeout=8.0s
-2026-10-25 06:50:20 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时2.2s
-2026-10-25 06:50:20 WARN  llm:521           finish_reason=length, 扩大上限 40→80 重试...
-2026-10-25 06:50:20 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=80 temp=0.0 timeout=8.0s
-2026-10-25 06:50:22 WARN  llm:514           LLM [deepseek-ai/DeepSeek] 返回空内容 | finish_reason=length | 耗时2.8s
-2026-10-25 06:50:22 WARN  llm:521           finish_reason=length, 扩大上限 80→160 重试...
-2026-10-25 06:50:22 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=160 temp=0.0 timeout=8.0s
-2026-10-25 06:50:24 INFO  llm:544           LLM [deepseek-ai/DeepSeek] 返回 1字符 耗时1.5s → "1"
-2026-10-25 06:50:24 INFO  gateway:141       Agent 门卫判定 msg='魔搭的接口地址是啥' raw='1'
-2026-10-25 06:50:24 INFO  gateway:209       Agent: 进入规划 pipeline trace=85f292ebd7534262 intent=chat msg='魔搭的接口地址是啥'
-2026-10-25 06:50:25 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
-2026-10-25 06:50:25 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=1200 temp=0.2 timeout=15.0s
-2026-10-25 06:50:37 INFO  llm:544           LLM [deepseek-ai/DeepSeek] 返回 211字符 耗时12.4s → "{\n  "goal": "回答魔搭（ModelScope）的接口地址",\n  "steps": [\n..."
-2026-10-25 06:50:37 INFO  planner:428       Agent 规划完成 goal='回答魔搭（ModelScope）的接口地址' steps=1 tools=[] skills=[]
-2026-10-25 06:50:37 INFO  llm:482           调用LLM [deepseek-ai/DeepSeek] url=v1 tokens=1200 temp=0.4 timeout=20.0s
-2026-10-25 06:50:52 INFO  llm:544           LLM [deepseek-ai/DeepSeek] 返回 402字符 耗时15.4s → "```json\n{\n  "replies": [\n    "---",\n    "**ModelSc..."
-2026-10-25 06:50:52 INFO  gateway:231       Agent: 已处理并回复 chat=1759953618 status=COMPLETED final=---
-
-**ModelScope 常用接口地址**
-
-- 基础 API 地址：
+# 更新于 2026-10-25 09:53:25 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 06:50:52 INFO  logger:541        [TRACE 85f292ebd7534262] total=40788.14ms severity=very_slow_request | llm_calls=10 total=29268.3ms avg=9756.1ms max=15367.3ms p50=12417.15 p95=15072.29 p99=15308.3 | execution=0.0ms(x1), json_parse=0.15ms(x1), plan_step=0.0ms(x1), planner=12432.06ms(x1), process=40787.98ms(x1) (wall40787.98), queue_wait=4.55ms(x1)
 2026-10-25 06:50:52 WARN  logger:559        [VERY_SLOW 85f292ebd7534262] total=40788.74ms 需重点排查 | execution=0.0ms(x1), json_parse=0.15ms(x1), plan_step=0.0ms(x1), planner=12432.06ms(x1), process=40787.98ms(x1) (wall40787.98), queue_wait=4.55ms(x1) | llm_calls=10 total=29268.3ms avg=9756.1ms max=15367.3ms p50=12417.15 p95=15072.29 p99=15308.3 | perf: queue=4.55ms llm=0.15ms search_tool=0.0ms delivery=0.0ms other=53220.04ms wall=40788.71ms dominant=other
 2026-10-25 06:50:52 DEBG  response_delivery:283 开始分批发送 4 条句子 → chat=1759953618 is_group=False
@@ -1499,3 +1476,26 @@
 2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-11ms]: '**作词 : Louis-Gabriel Gonzalez/Yanis Hadjar**' song=Else - Paris playing=True channel=None
 2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-91ms]: '**作曲 : Yanis Hadjar**' song=Else - Paris playing=True channel=None
 2026-10-25 09:52:32 INFO  pc_status:201     收到 lyric_event [延迟=-103ms]: '**纯音乐，请欣赏**' song=Else - Paris playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=张芸京 - 偏爱（播放中）CPU=91% 内存=87%
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=6439ms]: '**▶ 张芸京 - 偏爱**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=1095ms]: '**作词 : 葛大为**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=931ms]: '**作曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=907ms]: '**编曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=856ms]: '**把昨天都作废**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=830ms]: '**现在你在我眼前**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=801ms]: '**我想爱 请给我机会**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:15 INFO  pc_status:201     收到 lyric_event [延迟=694ms]: '**如果我错了也承担**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=724ms]: '**作词 : 葛大为**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=720ms]: '**作曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=677ms]: '**编曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=608ms]: '**把昨天都作废**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=585ms]: '**现在你在我眼前**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=554ms]: '**我想爱 请给我机会**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:20 INFO  pc_status:201     收到 lyric_event [延迟=450ms]: '**如果我错了也承担**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=610ms]: '**作词 : 葛大为**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=601ms]: '**作曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=571ms]: '**编曲 : 陈伟**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=540ms]: '**把昨天都作废**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=518ms]: '**现在你在我眼前**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=502ms]: '**我想爱 请给我机会**' song=张芸京 - 偏爱 playing=True channel=None
+2026-10-25 09:53:25 INFO  pc_status:201     收到 lyric_event [延迟=382ms]: '**如果我错了也承担**' song=张芸京 - 偏爱 playing=True channel=None
