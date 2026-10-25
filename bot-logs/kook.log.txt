@@ -1,25 +1,4 @@
-# 更新于 2026-10-25 11:41:43 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: echo
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: eq
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: greet
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: luck
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: motou
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: tuf
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: weather
-2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: whois
-2026-10-25 10:45:25 INFO  events:94         Plugin Runtime 已关闭
-2026-10-25 10:45:25 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 1, 'active_tasks': 0}
-2026-10-25 10:45:25 INFO  context_manager:190 上下文已写入磁盘
-2026-10-25 10:45:25 INFO  events:94         👋 再见！
-2026-10-25 10:45:25 INFO  main:70           应用程序已退出
-2026-10-25 10:45:34 INFO  events:94         ==================================================
-2026-10-25 10:45:34 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-10-25 10:45:34 INFO  events:94         ==================================================
-2026-10-25 10:45:34 INFO  llm:162           main_skill.md 已加载: 12 个章节
+# 更新于 2026-10-25 11:42:20 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:45:34 INFO  events:94         配置已加载 | bot=茂密 | debug=True
 2026-10-25 10:45:34 INFO  events:94         语言文件已加载
 2026-10-25 10:45:34 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
@@ -1499,3 +1478,24 @@
 2026-10-25 11:39:35 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-10-25 11:41:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
 2026-10-25 11:41:20 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-25 11:41:45 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
+2026-10-25 11:41:45 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='/帮助' mentions=0 content='/帮助' atts=0 ref=False msg_type=0
+2026-10-25 11:41:45 INFO  qq_bot:435        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '/帮助'
+2026-10-25 11:41:45 INFO  qq_bot:446        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-k2PL-LjM-wbHedht-l6RwHS9kOUDFo8W9dQ6PtZ.30P42HyKx0QX8lC924RNWe14U8fKap1PmDSKE-cv4MAOb0!
+2026-10-25 11:41:45 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
+2026-10-25 11:41:45 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 2条 (阈值=10)
+2026-10-25 11:41:45 INFO  pipeline:503      指令拦截: '/帮助' from=63C251709C77FDEE87FC502F866E3FB5
+2026-10-25 11:41:45 DEBG  commands:5374     指令解析: prefix=/ cmd=帮助 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-10-25 11:41:45 INFO  commands:203      指令 /help 触发 user=qq:63C251709C77FDEE87FC502F866E3FB5 args=[]
+2026-10-25 11:41:45 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
+2026-10-25 11:41:45 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-25 11:41:47 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
+2026-10-25 11:41:48 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
+2026-10-25 11:41:48 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
+2026-10-25 11:41:56 INFO  qq_transport:711  QQ 分片上传成功 file=help_card.png size=813361 ttl=86400
+2026-10-25 11:41:58 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
+2026-10-25 11:41:58 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=7 openid=63C251709C77FDEE87FC502F866E3FB5 len=0 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqqyxYQZ.Nia7CkhFDEKcoxIUvoGBFJdqWpzH4v9JnNLs1qglSoQCVWqxmdoA-FYGvctG81ovPjw88HwjHppK6Gc!
+2026-10-25 11:41:58 INFO  commands:5431     指令执行完成 [帮助]: 无返回值（已自行发送）
+2026-10-25 11:41:58 INFO  logger:541        [TRACE 2de6a8bd4c7043ba] total=13089.56ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=13088.54ms(x1) (wall13088.54), queue_wait=7.45ms(x1)
+2026-10-25 11:41:58 WARN  logger:559        [VERY_SLOW 2de6a8bd4c7043ba] total=13090.56ms 需重点排查 | process=13088.54ms(x1) (wall13088.54), queue_wait=7.45ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=7.45ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=13088.54ms wall=13090.34ms dominant=other
+2026-10-25 11:41:58 INFO  qq_bot:225        QQ 事件到达 t=GROUP_MESSAGE_CREATE
