@@ -1,60 +1,4 @@
-# 更新于 2026-10-25 10:44:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:00:37 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-10-25 10:00:37 INFO  events:94         日志系统已初始化
-2026-10-25 10:00:37 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-10-25 10:00:37 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-10-25 10:00:37 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-10-25 10:00:37 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-10-25 10:00:37 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-25 10:00:37 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-25 10:00:37 INFO  bot:111           上下文管理器已初始化
-2026-10-25 10:00:37 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-25 10:00:37 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 10:00:37 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:00:37 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:00:37 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-10-25 10:00:37 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
+# 更新于 2026-10-25 10:45:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:00:37 INFO  manager:165       Plugin 已启用: weather@1.0.0
 2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
 2026-10-25 10:00:37 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
@@ -1499,3 +1443,59 @@
 2026-10-25 10:44:26 INFO  pc_status:201     收到 lyric_event [延迟=1672ms]: '**月亮它照墙根儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
 2026-10-25 10:44:30 INFO  pc_status:201     收到 lyric_event [延迟=1089ms]: '**我为你唱小曲儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
 2026-10-25 10:44:34 INFO  pc_status:201     收到 lyric_event [延迟=1196ms]: '**看你睡啦 我心里美滋味儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:44:58 INFO  pc_status:201     收到 lyric_event [延迟=-997ms]: '**媳妇儿啊 进门儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:02 INFO  pc_status:201     收到 lyric_event [延迟=-1420ms]: '**咱俩过日子儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:07 INFO  pc_status:201     收到 lyric_event [延迟=-1167ms]: '**我有情啊 你有意**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:07 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-25 10:45:07 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-25 10:45:10 INFO  pc_status:201     收到 lyric_event [延迟=-2235ms]: '**生了个胖闺女儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:15 INFO  pc_status:201     收到 lyric_event [延迟=-1449ms]: '**鸡毛啊 蒜皮儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:18 INFO  pc_status:201     收到 lyric_event [延迟=-2665ms]: '**那都是我的事儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
+2026-10-25 10:45:21 INFO  events:94         收到终止信号，开始优雅退出...
+2026-10-25 10:45:21 INFO  pc_status:238     PC 客户端断开连接
+2026-10-25 10:45:21 INFO  pc_status:238     PC 客户端断开连接
+2026-10-25 10:45:21 INFO  events:94         khl_bot 主循环已被取消（优雅退出）
+2026-10-25 10:45:21 INFO  events:94         🛑 正在关闭...
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: checkin
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: chou
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: countdown
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: echo
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: eq
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: greet
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: luck
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: motou
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: nasa
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: pgr
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: sandbox
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: tuf
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: weather
+2026-10-25 10:45:21 INFO  manager:234       Plugin 已卸载: whois
+2026-10-25 10:45:21 INFO  events:94         Plugin Runtime 已关闭
+2026-10-25 10:45:21 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 0, 'active_tasks': 0}
+2026-10-25 10:45:21 INFO  context_manager:190 上下文已写入磁盘
+2026-10-25 10:45:21 INFO  events:94         👋 再见！
+2026-10-25 10:45:21 INFO  main:70           应用程序已退出
+2026-10-25 10:45:23 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
+2026-10-25 10:45:24 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-10-25 10:45:25 INFO  events:94         收到终止信号，开始优雅退出...
+2026-10-25 10:45:25 INFO  qq_bot:139        QQBot 已取消
+2026-10-25 10:45:25 INFO  events:94         🛑 正在关闭...
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: checkin
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: chou
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: countdown
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: echo
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: eq
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: greet
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: luck
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: motou
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: nasa
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: pgr
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: sandbox
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: tuf
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: weather
+2026-10-25 10:45:25 INFO  manager:234       Plugin 已卸载: whois
+2026-10-25 10:45:25 INFO  events:94         Plugin Runtime 已关闭
+2026-10-25 10:45:25 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 1, 'active_tasks': 0}
+2026-10-25 10:45:25 INFO  context_manager:190 上下文已写入磁盘
+2026-10-25 10:45:25 INFO  events:94         👋 再见！
+2026-10-25 10:45:25 INFO  main:70           应用程序已退出
