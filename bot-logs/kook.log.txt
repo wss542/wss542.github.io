@@ -1,33 +1,4 @@
-# 更新于 2026-10-25 11:56:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:47:27 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-25 10:47:28 INFO  holiday:57        节假日: 2026-10-25 → 周日
-2026-10-25 10:47:28 INFO  holiday:105       节假日服务已启动
-2026-10-25 10:47:28 INFO  holiday:96        节假日每日刷新: 等待 47556 秒 (下次 00:00:05)
-2026-10-25 10:47:28 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-25 10:47:28 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-25 10:47:28 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-25 10:47:28 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-25 10:47:28 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-25 10:47:28 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-25 10:47:28 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-25 10:47:29 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=44 cpu=95.6 mem=20.5
-2026-10-25 10:47:29 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-25 10:47:29 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-25 10:47:29 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-25 10:47:29 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=92 cpu=None mem=None
-2026-10-25 10:47:29 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 10:47:29 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
-2026-10-25 10:47:29 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=方天雷 - 依兰爱情故事（播放中）
-2026-10-25 10:47:29 INFO  pc_status:201     收到 lyric_event [延迟=7474ms]: '**日子长啊 我为你擦眼泪儿啊**' song=方天雷 - 依兰爱情故事 playing=True channel=None
-2026-10-25 10:47:30 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-25 10:47:30 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-10-25 10:47:30 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
-2026-10-25 10:47:30 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-25 10:47:30 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-25 10:47:30 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-25 10:47:30 INFO  holiday:57        节假日: 2026-10-25 → 周日
-2026-10-25 10:47:30 INFO  holiday:105       节假日服务已启动
-2026-10-25 10:47:30 INFO  holiday:96        节假日每日刷新: 等待 47555 秒 (下次 00:00:05)
+# 更新于 2026-10-25 11:57:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:47:30 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
 2026-10-25 10:47:35 INFO  pc_status:201     收到 lyric_event [延迟=-3015ms]: '**作词 : 方天雷**' song=方天雷 - 依兰爱情故事 playing=True channel=None
 2026-10-25 10:47:35 INFO  pc_status:201     收到 lyric_event [延迟=-3114ms]: '**作曲 : 方天雷**' song=方天雷 - 依兰爱情故事 playing=True channel=None
@@ -1499,3 +1470,32 @@
 2026-10-25 11:56:05 INFO  pc_status:201     收到 lyric_event [延迟=-2032ms]: '**Do you still think about me baby,baby**
 `宝贝，你是否仍会记起我呢?`' song=Reynard Silva - The Way I Stil playing=True channel=None
 2026-10-25 11:56:09 INFO  pc_status:201     收到 lyric_event [延迟=-2670ms]: '**Cause you’re on my mind and it’s driving me crazy, crazy**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:15 INFO  pc_status:201     收到 lyric_event [延迟=-2806ms]: '**Are you finally over me**
+`你是否终究将我释怀了？`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:16 INFO  pc_status:201     收到 lyric_event [延迟=-3654ms]: '**You can tell me the truth**
+`你大可对我诉诸事实`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:20 INFO  pc_status:201     收到 lyric_event [延迟=-3234ms]: '**Or do you still love me**
+`亦或许说，你还深爱着我`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:21 INFO  pc_status:201     收到 lyric_event [延迟=-3415ms]: '**The way that I still love you**
+`如同我仍对你那般的朝思暮想`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:25 INFO  pc_status:201     收到 lyric_event [延迟=-3613ms]: '**Oh I know**
+`噢，我明白`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:27 INFO  pc_status:201     收到 lyric_event [延迟=-3783ms]: '**That I let love slip away**
+`都怪我自作自受，错失真爱`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:32 INFO  pc_status:201     收到 lyric_event [延迟=-4376ms]: '**And I'm going insane all because I want you back**
+`我已然癫狂，' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:36 INFO  pc_status:201     收到 lyric_event [延迟=-5786ms]: '**I need you back**
+`我需要你重回我的身旁`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:38 INFO  pc_status:201     收到 lyric_event [延迟=-6037ms]: '**This is the biggest regret**
+`失去你是我此生最大的遗憾`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:41 INFO  pc_status:201     收到 lyric_event [延迟=-5394ms]: '**I'll ever have to face oh yeah**
+`我要用尽一辈子去忏悔内疚`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:52 INFO  pc_status:201     收到 lyric_event [延迟=1356ms]: '**Do you still think about me baby ,baby** *(do you still lo' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:56:56 INFO  pc_status:201     收到 lyric_event [延迟=12ms]: '**Cause you’re on my mind and it’s driving me crazy, crazy**' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:57:01 INFO  pc_status:201     收到 lyric_event [延迟=-557ms]: '**Are you finally over me**
+`你是否终究将我释怀了？`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:57:03 INFO  pc_status:201     收到 lyric_event [延迟=-329ms]: '**You can tell me the truth**
+`你大可对我诉诸事实`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:57:06 INFO  pc_status:201     收到 lyric_event [延迟=-1035ms]: '**Or do you still love me**
+`亦或许说，你还深爱着我`' song=Reynard Silva - The Way I Stil playing=True channel=None
+2026-10-25 11:57:09 INFO  pc_status:201     收到 lyric_event [延迟=-1251ms]: '**The way that I still love you ?** *(the way that I still l' song=Reynard Silva - The Way I Stil playing=True channel=None
