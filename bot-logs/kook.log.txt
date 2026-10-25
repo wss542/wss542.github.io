@@ -1,23 +1,4 @@
-# 更新于 2026-10-25 11:43:56 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 10:45:36 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-10-25 10:45:36 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-10-25 10:45:36 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-10-25 10:45:36 INFO  events:94         上下文管理器已初始化
-2026-10-25 10:45:36 WARN  wzq:135           棋局恢复失败: invalid literal for int() with base 10: 'qq:E8A10E075AB6D6B650F2C6BE6AB0553E'
-2026-10-25 10:45:36 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-10-25 10:45:36 INFO  events:94         事件分发器已就绪
-2026-10-25 10:45:36 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-10-25 10:45:36 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-10-25 10:45:36 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-10-25 10:45:36 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:45:36 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-10-25 10:45:36 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
+# 更新于 2026-10-25 11:45:01 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
 2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
 2026-10-25 10:45:36 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
@@ -1499,3 +1480,22 @@
 2026-10-25 11:43:37 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=36 seq=2 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqvG6Du4Kdy9h3W.0eLYG7n1L7zbzvJ4UnB8Rb7FXT9EX1qglSoQCVWqxmdoA-FYGvctG81ovPjw88HwjHppK6Gc!
 2026-10-25 11:43:37 INFO  logger:541        [TRACE 167e0ad8e7574a1a] total=8998.96ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=8998.86ms(x1) (wall8998.86), queue_wait=0.64ms(x1)
 2026-10-25 11:43:37 WARN  logger:564        [SLOW 167e0ad8e7574a1a] total=8999.5ms | process=8998.86ms(x1) (wall8998.86), queue_wait=0.64ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.64ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=8998.86ms wall=8999.43ms dominant=other
+2026-10-25 11:44:39 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=60 cpu=None mem=None
+2026-10-25 11:44:39 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-25 11:44:49 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=DJ FKU / DJ MOIGUS / DJ PETYA - MONTAGEM（播放中）CPU=38% 内存=89%
+2026-10-25 11:44:49 INFO  pc_status:201     收到 lyric_event [延迟=32ms]: '**▶ DJ FKU / DJ MOIGUS / DJ PETYA - MONTAGEM SEM PARA**' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:54 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=60 cpu=None mem=None
+2026-10-25 11:44:54 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-400ms]: '**作词 : Valentin Valkiainen**' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-417ms]: '**作曲 : DJ FKU/DJ MOIGUS/DJ PETYA**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-463ms]: '**Na reta não ligo o rosto**
+`不经意间 你我视线交汇`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-508ms]: '**Olha firme sabe do gosto**
+`你目光坚定 心照不宣这悸动`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-508ms]: '**Quase quase ela não para**
+`节奏愈发炽热 已沉醉其中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-520ms]: '**Dá pra sentir a pancada**
+`每一次鼓点 都直击我心中`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
+2026-10-25 11:44:55 INFO  pc_status:201     收到 lyric_event [延迟=-549ms]: '**Ah-ah-ah**
+`啊—啊—啊`' song=DJ FKU / DJ MOIGUS / DJ PETYA  playing=True channel=None
