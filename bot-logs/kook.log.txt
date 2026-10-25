@@ -1,103 +1,4 @@
-# 更新于 2026-10-25 13:14:37 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-10-25 12:05:42 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-10-25 12:05:42 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-10-25 12:05:42 INFO  bot:868           战绩采集将在 3h55m 后执行 (16:01)
-2026-10-25 12:05:42 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 46s 前）
-2026-10-25 12:05:43 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-10-25 12:05:43 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-10-25 12:05:43 INFO  holiday:57        节假日: 2026-10-25 → 周日
-2026-10-25 12:05:43 INFO  holiday:105       节假日服务已启动
-2026-10-25 12:05:43 INFO  holiday:96        节假日每日刷新: 等待 42861 秒 (下次 00:00:05)
-2026-10-25 12:05:43 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-10-25 12:05:44 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-10-25 12:05:44 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-10-25 12:05:44 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-10-25 12:05:44 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-10-25 12:05:44 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-10-25 12:05:44 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-10-25 12:05:44 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=44 cpu=95.6 mem=20.5
-2026-10-25 12:05:44 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-10-25 12:05:44 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-10-25 12:05:44 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-10-25 12:05:45 INFO  holiday:57        节假日: 2026-10-25 → 周日
-2026-10-25 12:05:45 INFO  holiday:105       节假日服务已启动
-2026-10-25 12:05:45 INFO  holiday:96        节假日每日刷新: 等待 42859 秒 (下次 00:00:05)
-2026-10-25 12:05:46 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-10-25 12:05:46 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-10-25 12:05:46 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-10-25 12:05:46 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
-2026-10-25 12:05:46 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-10-25 12:05:46 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-10-25 12:05:46 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-10-25 12:05:47 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
-2026-10-25 12:05:47 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=王心凌 - 梦的光点（播放中）
-2026-10-25 12:05:47 INFO  pc_status:201     收到 lyric_event [延迟=5511ms]: '**是因为有了勇气**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:47 INFO  pc_status:201     收到 lyric_event [延迟=5548ms]: '**才不怕危险**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:47 INFO  pc_status:201     收到 lyric_event [延迟=5534ms]: '**你的爱没有上限**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:47 INFO  pc_status:201     收到 lyric_event [延迟=5502ms]: '**给我力量继续往前**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:47 INFO  pc_status:201     收到 lyric_event [延迟=5409ms]: '**我追着梦的光点**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:50 INFO  pc_status:201     收到 lyric_event [延迟=924ms]: '**加速度冲出线仰起了脸**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:53 INFO  pc_status:201     收到 lyric_event [延迟=121ms]: '**我们微笑一起迎接**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:05:57 INFO  pc_status:201     收到 lyric_event [延迟=993ms]: '**幸福终点**' song=王心凌 - 梦的光点 playing=True channel=None
-2026-10-25 12:06:25 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Ludovico Einaudi - Experience（播放中）CPU=96% 内存=94%
-2026-10-25 12:06:25 INFO  pc_status:201     收到 lyric_event [延迟=-1611ms]: '**▶ Ludovico Einaudi - Experience**' song=Ludovico Einaudi - Experience playing=True channel=None
-2026-10-25 12:06:42 INFO  pc_status:201     收到 lyric_event [延迟=655ms]: '**作曲 : Ludovico Einaudi**' song=Ludovico Einaudi - Experience playing=True channel=None
-2026-10-25 12:06:42 INFO  pc_status:201     收到 lyric_event [延迟=600ms]: '**纯音乐，请欣赏**' song=Ludovico Einaudi - Experience playing=True channel=None
-2026-10-25 12:07:02 INFO  qq_bot:225        QQ 事件到达 t=C2C_MESSAGE_CREATE
-2026-10-25 12:07:02 DEBG  qq_bot:277        QQ 事件摘要: t=group=False raw='' mentions=0 content='' atts=1 ref=False msg_type=0
-2026-10-25 12:07:02 INFO  qq_bot:447        QQ 消息 [chat=qq:63C251709C77FDEE87FC502F866E3FB5 group=False from=63C251709C77FDEE87FC502F866E3FB5 role=- union=-]: '[文件]'
-2026-10-25 12:07:02 INFO  qq_bot:458        QQ 登记被动窗口 openid=63C251709C77FDEE87FC502F866E3FB5 group=False msg_id=ROBOT1.0_YsQG.HOdzI3T86Xypdbz-qPGNRvVd4-b-sDJBx397gQQGhBVdn8w2L3aHxXssPv7jFmoRol1TsvS6hjrg6Cd2hKXvHiQ-FMtIx29YwVd0Pc!
-2026-10-25 12:07:02 INFO  qq_bot:591        QQ 文件已读入上下文: latest.log (77183 字节)
-2026-10-25 12:07:02 INFO  queues:32         [队列] 创建群qq:63C251709C77FDEE87FC502F866E3FB5 的独立消息队列
-2026-10-25 12:07:02 DEBG  queues:75         [队列] 群qq:63C251709C77FDEE87FC502F866E3FB5 消息已入队 (队长度=1)
-2026-10-25 12:07:02 INFO  identity:92       身份映射已载入 2 条
-2026-10-25 12:07:02 INFO  memory:432        长时记忆溢出缓冲: chat=qq:63C251709C77FDEE87FC502F866E3FB5 +1 = 1条 (阈值=10)
-2026-10-25 12:07:02 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=False bot_qq=1905287158 content='[文件]'
-2026-10-25 12:07:02 DEBG  pipeline:598      私聊消息 → 直接回复
-2026-10-25 12:07:02 DEBG  pipeline:658      请求意图: intent=chat fast_search=False msg='[文件]'
-2026-10-25 12:07:02 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
-2026-10-25 12:07:02 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=31.2ms
-2026-10-25 12:07:02 DEBG  pipeline:862      extra_info 按预算丢弃 1 项: ['memory:memory']
-2026-10-25 12:07:02 INFO  pipeline:866      额外信息: 134字 (memory=0 search=0)
-2026-10-25 12:07:02 INFO  pipeline:1003     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
-2026-10-25 12:07:02 DEBG  pipeline:1132     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
-2026-10-25 12:07:02 INFO  pipeline:1139     开始生成回复: speaker=63C251709C77FDEE87FC502F866E3FB5 chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-25 12:07:07 INFO  llm:1095          LLM 首调用选择模型: deepseek-ai/DeepSeek-V4.1-Flash-1017 (content={"replies":["这段日志我看完啦喵","报错是皮肤下载超时","Connection timed out 那个","跟 CustomSkinLoader 有关","你网络连不上皮肤服","游戏本身没崩哦","挂个加速器试试喵"],"fav":2,"calls":[],"face":null,"mood":"认真","action":"歪头看日志","at":null,"mode":nul... tool_calls=0)
-2026-10-25 12:07:07 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["这段日志我看完啦喵","报错是皮肤下载超时","Connection timed out 那个","跟 CustomSkinLoader 有关","你网络连不上皮肤服","游戏本身没崩哦","挂个加速器试试喵"],"fav":2,"calls":[],"face":null,"mood":"认真","action":"歪头看日志","at":null,"mode":nul | tool_calls=0
-2026-10-25 12:07:07 INFO  llm:1462          JSON回复解析: 7句 fav=+2 calls=0 mood=认真
-2026-10-25 12:07:07 INFO  fav:128           好感度更新: p:qq:63C251709C77FDEE87FC502F866E3FB5 +2 → 77
-2026-10-25 12:07:07 INFO  pipeline:1629     好感度调整: 63C251709C77FDEE87FC502F866E3FB5 +2 (chat=qq:63C251709C77FDEE87FC502F866E3FB5)
-2026-10-25 12:07:07 INFO  memory:414        触发自动记忆 [qq:63C251709C77FDEE87FC502F866E3FB5]: 2 条
-2026-10-25 12:07:07 INFO  pipeline:1635     ✅ 管道处理完成: 1句 sent chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-25 12:07:07 INFO  logger:541        [TRACE e1992ded14a44b9b] total=5114.98ms severity=slow_request | llm_calls=1 total=4955.44ms avg=4955.44ms max=4955.44ms p50=4955.44 p95=4955.44 p99=4955.44 | json_parse=3.57ms(x1), llm=5006.51ms(x1), memory=62.9ms(x2), process=5114.53ms(x1) (wall5114.53), queue_wait=1.33ms(x1)
-2026-10-25 12:07:07 WARN  logger:564        [SLOW e1992ded14a44b9b] total=5116.44ms | json_parse=3.57ms(x1), llm=5006.51ms(x1), memory=62.9ms(x2), process=5114.53ms(x1) (wall5114.53), queue_wait=1.33ms(x1) | llm_calls=1 total=4955.44ms avg=4955.44ms max=4955.44ms p50=4955.44 p95=4955.44 p99=4955.44 | perf: queue=1.33ms llm=5010.08ms search_tool=0.0ms delivery=0.0ms other=5177.43ms wall=5116.37ms dominant=other
-2026-10-25 12:07:07 DEBG  response_delivery:283 开始分批发送 1 条句子 → chat=qq:63C251709C77FDEE87FC502F866E3FB5 is_group=False
-2026-10-25 12:07:07 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-10-25 12:07:09 INFO  qq_transport:308  QQ 单聊发送成功(被动) msg_type=0 openid=63C251709C77FDEE87FC502F866E3FB5 len=95 seq=1 id=ROBOT1.0_6TpwJq1yBTiNbIQ9LoSpqlUbv7sPq6RqFG7MW0tDylQWO7vp7hXE3Rv8DnXF3ninPBnq3FBeJVj91zS133oMXMtG81ovPjw88HwjHppK6Gc!
-2026-10-25 12:07:09 DEBG  response_delivery:297 已发送第 1/1 条: 这段日志我看完啦喵
-
-报错是皮肤下载超时
-
-Connecti...
-2026-10-25 12:07:09 DEBG  response_delivery:299 分批发送完成: 共 1 条 → chat=qq:63C251709C77FDEE87FC502F866E3FB5
-2026-10-25 12:07:09 DEBG  context_manager:139 发送任务已清理 [qq:63C251709C77FDEE87FC502F866E3FB5]
-2026-10-25 12:07:09 INFO  llm:544           LLM [deepseek-flash] 返回 208字符 耗时1.6s → "[12:07:07] 63C251709C77FDE: [文件], 茂密: 这段日志我看完啦喵, 报..."
-2026-10-25 12:07:09 INFO  memory:223        [qq:63C251709C77FDEE87FC502F866E3FB5] 压缩完成: 2条消息 → 保存
-2026-10-25 12:09:08 INFO  events:94         收到终止信号，开始优雅退出...
-2026-10-25 12:09:08 INFO  qq_bot:139        QQBot 已取消
-2026-10-25 12:09:08 INFO  events:94         🛑 正在关闭...
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: checkin
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: chou
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: countdown
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: echo
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: eq
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: greet
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: luck
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: motou
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: nasa
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: pgr
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: sandbox
-2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: tuf
+# 更新于 2026-10-25 13:15:22 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: weather
 2026-10-25 12:09:08 INFO  manager:234       Plugin 已卸载: whois
 2026-10-25 12:09:08 INFO  events:94         Plugin Runtime 已关闭
@@ -1499,3 +1400,102 @@ Connecti...
 2026-10-25 13:14:01 INFO  pc_status:201     收到 lyric_event [延迟=725ms]: '**几十年后 我看着泪流不止**' song=许飞 - 父亲写的散文诗 playing=True channel=None
 2026-10-25 13:14:07 INFO  pc_status:201     收到 lyric_event [延迟=53ms]: '**可我的父亲已经老得像一张旧报纸**' song=许飞 - 父亲写的散文诗 playing=True channel=None
 2026-10-25 13:14:23 INFO  pc_status:201     收到 lyric_event [延迟=-368ms]: '**旧报纸**' song=许飞 - 父亲写的散文诗 playing=True channel=None
+2026-10-25 13:14:37 INFO  pc_status:201     收到 lyric_event [延迟=1497ms]: '**那上面的故事 就是一辈子**' song=许飞 - 父亲写的散文诗 playing=True channel=None
+2026-10-25 13:14:50 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=柿崎ユウタ - 月が綺麗ねと言われたい！（播放中）CPU=79% 内存=93%
+2026-10-25 13:14:50 INFO  pc_status:201     收到 lyric_event [延迟=363ms]: '**▶ 柿崎ユウタ - 月が綺麗ねと言われたい！**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=732ms]: '**作词 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=717ms]: '**作曲 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=703ms]: '**编曲 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=657ms]: '**制作人 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=486ms]: '**センチメンタル　嫌になる**
+`太过多愁善感 实在惹人厌烦`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=451ms]: '**悲しみの君の言葉遊び**
+`你那充满悲戚的文字游戏`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=427ms]: '**君の口から出る感情の裏返しが全部私**
+`你脱口而出的 所有情感反面 其实全都指着我`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=396ms]: '**花占いでもやってみようかな**
+`要不要来玩一次花占卜呢`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=368ms]: '**好き？嫌い？好き？嫌い？**
+`喜欢？讨厌？喜欢？讨厌？`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:14:58 INFO  pc_status:201     收到 lyric_event [延迟=352ms]: '**君占いなら私はずっと**
+`若是占卜对你的心意 我的答案永远都是`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:01 INFO  pc_status:201     收到 lyric_event [延迟=552ms]: '**嫌い、嫌い、でも、、、、、好き♡**
+`讨厌 讨厌 可偏偏……喜欢你♡`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=615ms]: '**作词 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=606ms]: '**作曲 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=577ms]: '**编曲 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=547ms]: '**制作人 : 柿崎ユウタ**' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=517ms]: '**センチメンタル　嫌になる**
+`太过多愁善感 实在惹人厌烦`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=486ms]: '**悲しみの君の言葉遊び**
+`你那充满悲戚的文字游戏`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=471ms]: '**君の口から出る感情の裏返しが全部私**
+`你脱口而出的 所有情感反面 其实全都指着我`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=441ms]: '**花占いでもやってみようかな**
+`要不要来玩一次花占卜呢`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=426ms]: '**好き？嫌い？好き？嫌い？**
+`喜欢？讨厌？喜欢？讨厌？`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:07 INFO  pc_status:201     收到 lyric_event [延迟=395ms]: '**君占いなら私はずっと**
+`若是占卜对你的心意 我的答案永远都是`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:09 INFO  pc_status:201     收到 lyric_event [延迟=288ms]: '**嫌い、嫌い、でも、、、、、好き♡**
+`讨厌 讨厌 可偏偏……喜欢你♡`' song=柿崎ユウタ - 月が綺麗ねと言われたい！ playing=True channel=None
+2026-10-25 13:15:10 INFO  pc_status:201     收到 lyric_event [延迟=433ms]: '**▶ YOASOBI - 群青**' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:15 INFO  pc_status:201     收到 lyric_event [延迟=3ms]: '**作词 : Ayase**' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:15 INFO  pc_status:201     收到 lyric_event [延迟=0ms]: '**作曲 : Ayase**' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1177ms]: '**编曲 : Ayase**
+`啊啊 像往常一样`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1147ms]: '**嗚呼いつもの様に**
+`啊啊 像往常一样`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1116ms]: '**過ぎる日々にあくびが出る**
+`冲着逝去的日子 打个哈欠`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1084ms]: '**さんざめく夜越え今日も**
+`穿越喧嚣嘈杂的夜晚`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1071ms]: '**渋谷の街に朝が降る**
+`清晨今天依然 降临在涩谷的街道`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1041ms]: '**どこか虚しいような**
+`总感觉少许空虚`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=1026ms]: '**そんな気持ち**
+`这样的感受`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=997ms]: '**つまらないな**
+`没劲透了`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=967ms]: '**でもそれでいい**
+`但没劲就没劲吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=936ms]: '**そんなもんさ**
+`不都是那样么`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=908ms]: '**これでいい**
+`就这样吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=862ms]: '**知らず知らず隠してた**
+`不知不觉中所隐藏的`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=846ms]: '**本当の声を響かせてよほら**
+`真实的心声 让我听见它放声回响吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=47ms]: '**作词 : Ayase**' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=42ms]: '**作曲 : Ayase**' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:17 INFO  pc_status:201     收到 lyric_event [延迟=12ms]: '**编曲 : Ayase**
+`啊啊 像往常一样`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=1097ms]: '**嗚呼いつもの様に**
+`啊啊 像往常一样`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=1068ms]: '**過ぎる日々にあくびが出る**
+`冲着逝去的日子 打个哈欠`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=1054ms]: '**さんざめく夜越え今日も**
+`穿越喧嚣嘈杂的夜晚`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=1024ms]: '**渋谷の街に朝が降る**
+`清晨今天依然 降临在涩谷的街道`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=1007ms]: '**どこか虚しいような**
+`总感觉少许空虚`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=995ms]: '**そんな気持ち**
+`这样的感受`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=981ms]: '**つまらないな**
+`没劲透了`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=949ms]: '**でもそれでいい**
+`但没劲就没劲吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=934ms]: '**そんなもんさ**
+`不都是那样么`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=903ms]: '**これでいい**
+`就这样吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=858ms]: '**知らず知らず隠してた**
+`不知不觉中所隐藏的`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=829ms]: '**本当の声を響かせてよほら**
+`真实的心声 让我听见它放声回响吧`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:18 INFO  pc_status:201     收到 lyric_event [延迟=217ms]: '**見ないフリしていても**
+`就算你熟视无睹`' song=YOASOBI - 群青 playing=True channel=None
+2026-10-25 13:15:20 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=YOASOBI - 群青（播放中）CPU=39% 内存=94%
