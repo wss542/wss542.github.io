@@ -1,56 +1,4 @@
-# 更新于 2026-11-06 20:42:58 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 17:28:23 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
-2026-11-06 17:28:23 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 17:28:25 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-11-06 17:28:25 INFO  holiday:57        节假日: 2026-11-06 → 周五
-2026-11-06 17:28:25 INFO  holiday:105       节假日服务已启动
-2026-11-06 17:28:25 INFO  holiday:96        节假日每日刷新: 等待 23500 秒 (下次 00:00:05)
-2026-11-06 17:28:27 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-11-06 17:28:27 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 17:28:27 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-11-06 17:28:28 INFO  events:94         ==================================================
-2026-11-06 17:28:28 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-11-06 17:28:28 INFO  events:94         ==================================================
-2026-11-06 17:28:28 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-11-06 17:28:28 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-11-06 17:28:28 INFO  events:94         语言文件已加载
-2026-11-06 17:28:28 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-11-06 17:28:28 INFO  events:94         日志系统已初始化
-2026-11-06 17:28:28 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-11-06 17:28:28 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-11-06 17:28:28 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-11-06 17:28:28 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-11-06 17:28:28 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-11-06 17:28:28 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-11-06 17:28:28 INFO  bot:111           上下文管理器已初始化
-2026-11-06 17:28:28 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 17:28:28 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-11-06 17:28:28 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-11-06 17:28:28 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-11-06 17:28:28 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-11-06 17:28:28 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-11-06 17:28:28 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-11-06 17:28:29 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-11-06 17:28:29 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-11-06 17:28:29 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
+# 更新于 2026-11-06 20:43:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 17:28:29 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
 2026-11-06 17:28:29 INFO  manager:165       Plugin 已启用: greet@1.0.0
 2026-11-06 17:28:29 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
@@ -1499,3 +1447,55 @@
 2026-11-06 20:39:03 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
 2026-11-06 20:39:50 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Devic / AraFaT - So Far Away（播放中）CPU=60% 内存=86%
 2026-11-06 20:39:50 INFO  pc_status:201     收到 lyric_event [延迟=572ms]: '**▶ Devic / AraFaT - So Far Away**' song=Devic / AraFaT - So Far Away playing=True channel=None
+2026-11-06 20:42:58 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=周星星 - 我看过（播放中）CPU=90% 内存=83%
+2026-11-06 20:42:58 INFO  pc_status:201     收到 lyric_event [延迟=1375ms]: '**▶ 周星星 - 我看过**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:09 INFO  pc_status:201     收到 lyric_event [延迟=22ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:09 INFO  pc_status:201     收到 lyric_event [延迟=15ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=1197ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=1123ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=1082ms]: '**你的回答都犹豫了一下**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=1071ms]: '**在我面前怎么开始害怕说错话**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=1042ms]: '**你在眺望窗外无关的景象**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:11 INFO  pc_status:201     收到 lyric_event [延迟=334ms]: '**保持沉默和你的优雅**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=509ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=496ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=485ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=456ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=409ms]: '**你的回答都犹豫了一下**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=395ms]: '**在我面前怎么开始害怕说错话**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:13 INFO  pc_status:201     收到 lyric_event [延迟=380ms]: '**你在眺望窗外无关的景象**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:14 INFO  pc_status:201     收到 lyric_event [延迟=775ms]: '**保持沉默和你的优雅**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=718ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=712ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=682ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=666ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=620ms]: '**你的回答都犹豫了一下**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=592ms]: '**在我面前怎么开始害怕说错话**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:18 INFO  pc_status:201     收到 lyric_event [延迟=563ms]: '**你在眺望窗外无关的景象**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:19 INFO  pc_status:201     收到 lyric_event [延迟=1060ms]: '**保持沉默和你的优雅**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=1118ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=1104ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=1089ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=1058ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=983ms]: '**你的回答都犹豫了一下**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=952ms]: '**在我面前怎么开始害怕说错话**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=937ms]: '**你在眺望窗外无关的景象**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:21 INFO  pc_status:201     收到 lyric_event [延迟=239ms]: '**保持沉默和你的优雅**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:25 INFO  pc_status:201     收到 lyric_event [延迟=53ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:25 INFO  pc_status:201     收到 lyric_event [延迟=43ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:25 INFO  pc_status:201     收到 lyric_event [延迟=28ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=657ms]: '**作词 : 曾歆沂/黄政彬/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=644ms]: '**作曲 : 吴周烁/佳旺/周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=504ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=454ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=399ms]: '**你的回答都犹豫了一下**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=368ms]: '**在我面前怎么开始害怕说错话**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:26 INFO  pc_status:201     收到 lyric_event [延迟=353ms]: '**你在眺望窗外无关的景象**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:27 INFO  pc_status:201     收到 lyric_event [延迟=757ms]: '**保持沉默和你的优雅**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:29 INFO  pc_status:201     收到 lyric_event [延迟=209ms]: '**制作人 : 周星星**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:29 INFO  pc_status:201     收到 lyric_event [延迟=15ms]: '**编曲 : 吴周烁**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:33 INFO  pc_status:201     收到 lyric_event [延迟=757ms]: '**想陪你假装没事**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:38 INFO  pc_status:201     收到 lyric_event [延迟=648ms]: '**天真把分开延迟**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:42 INFO  pc_status:201     收到 lyric_event [延迟=72ms]: '**现实却比我们诚实**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:50 INFO  pc_status:201     收到 lyric_event [延迟=108ms]: '**我看过你说好一辈子**' song=周星星 - 我看过 playing=True channel=None
+2026-11-06 20:43:55 INFO  pc_status:201     收到 lyric_event [延迟=911ms]: '**我看过你的无微不至**' song=周星星 - 我看过 playing=True channel=None
