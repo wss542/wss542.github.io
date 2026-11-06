@@ -1,77 +1,4 @@
-# 更新于 2026-11-06 21:07:59 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 18:31:45 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 27s 前）
-2026-11-06 18:31:46 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-11-06 18:31:46 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 18:31:47 INFO  events:94         ==================================================
-2026-11-06 18:31:47 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-11-06 18:31:47 INFO  events:94         ==================================================
-2026-11-06 18:31:47 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-11-06 18:31:47 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-11-06 18:31:47 INFO  events:94         语言文件已加载
-2026-11-06 18:31:47 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-11-06 18:31:47 INFO  events:94         日志系统已初始化
-2026-11-06 18:31:47 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-11-06 18:31:47 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-11-06 18:31:47 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-11-06 18:31:47 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-11-06 18:31:47 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-11-06 18:31:47 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-11-06 18:31:47 INFO  bot:111           上下文管理器已初始化
-2026-11-06 18:31:47 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 18:31:47 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-11-06 18:31:47 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-11-06 18:31:47 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-11-06 18:31:47 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-11-06 18:31:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-11-06 18:31:47 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-11-06 18:31:47 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-11-06 18:31:47 INFO  bot:111           ==================================================
-2026-11-06 18:31:47 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-11-06 18:31:47 INFO  bot:111           ==================================================
-2026-11-06 18:31:47 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
+# 更新于 2026-11-06 21:08:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 18:31:47 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
 2026-11-06 18:31:47 INFO  queues:103        [队列] 渲染队列已启动
 2026-11-06 18:31:47 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
@@ -1499,3 +1426,76 @@
 2026-11-06 21:05:28 INFO  pc_status:201     收到 lyric_event [延迟=-1528ms]: '**编曲 : 接个吻，开一枪/SaMZIng**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
 2026-11-06 21:05:28 INFO  pc_status:201     收到 lyric_event [延迟=-1542ms]: '**制作人 : 接个吻，开一枪**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
 2026-11-06 21:05:28 INFO  pc_status:201     收到 lyric_event [延迟=-1570ms]: '**纯音乐，请欣赏**' song=接个吻，开一枪 / SaMZIng - 烟袋斜街 playing=True channel=None
+2026-11-06 21:08:19 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=Bruno Mars - Runaway Baby（播放中）CPU=96% 内存=91%
+2026-11-06 21:08:19 INFO  pc_status:201     收到 lyric_event [延迟=157ms]: '**▶ Bruno Mars - Runaway Baby**' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=1026ms]: '**作词 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=1014ms]: '**作曲 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**
+`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=955ms]: '**Ahh yes!!!**
+`哦！耶！`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=930ms]: '**Well look at here**
+`好了，看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=915ms]: '**Look at here**
+`看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=901ms]: '**Ah what do we have?**
+`发生什么事呢`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=678ms]: '**Another pretty thang**
+`又有一个美女`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=672ms]: '**Ready for me to grab**
+`被我吸引`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=641ms]: '**But little does she know**
+`可是她自己不知道`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=609ms]: '**That I'm a wolf in sheep's clothing**
+`我是一只披着羊皮的狼`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=593ms]: '**'Cause at the end of the night**
+`因为在夜深之后`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=579ms]: '**It is her I'll be holding**
+`我将把她俘获`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=564ms]: '**I love you so**
+`我如此的爱你`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=549ms]: '**That's what you'll say**
+`你将这样对我说`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=517ms]: '**You'll tell me**
+`你会求我`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=503ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=488ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=472ms]: '**Please don't go away**
+`请别离开我`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=408ms]: '**But when I play**
+`但是当我玩完了之后`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=392ms]: '**I never stay**
+`我从不停留`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=364ms]: '**So every girl that I meet yeah this is what I say**
+`我会对在这' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=316ms]: '**Run**
+`快跑吧`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=286ms]: '**Run**
+`跑远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=271ms]: '**Runaway**
+`快跑吧`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=255ms]: '**Runaway**
+`跑远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=224ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:26 INFO  pc_status:201     收到 lyric_event [延迟=194ms]: '**Before I put my spell on you**
+`在我对你施咒语之前`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:28 INFO  pc_status:201     收到 lyric_event [延迟=1153ms]: '**You better**
+`你最好`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:29 INFO  pc_status:201     收到 lyric_event [延迟=222ms]: '**Get**
+`离我远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:31 INFO  pc_status:201     收到 lyric_event [延迟=208ms]: '**Get**
+`再离我远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:34 INFO  pc_status:201     收到 lyric_event [延迟=-359ms]: '**Getaway**
+`跑吧`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-587ms]: '**作词 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**
+`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-688ms]: '**作曲 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**
+`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-718ms]: '**Ahh yes!!!**
+`哦！耶！`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-749ms]: '**Well look at here**
+`好了，看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-777ms]: '**Look at here**
+`看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
