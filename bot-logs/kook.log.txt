@@ -1,73 +1,4 @@
-# 更新于 2026-11-06 14:49:57 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 13:34:32 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 13:34:43 INFO  events:94         ==================================================
-2026-11-06 13:34:43 INFO  events:94         ==================================================
-2026-11-06 13:34:43 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-11-06 13:34:43 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-11-06 13:34:43 INFO  events:94         ==================================================
-2026-11-06 13:34:43 INFO  events:94         ==================================================
-2026-11-06 13:34:43 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-11-06 13:34:43 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-11-06 13:34:43 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-11-06 13:34:43 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-11-06 13:34:43 INFO  events:94         语言文件已加载
-2026-11-06 13:34:43 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-11-06 13:34:43 INFO  events:94         日志系统已初始化
-2026-11-06 13:34:43 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-11-06 13:34:43 INFO  events:94         语言文件已加载
-2026-11-06 13:34:43 INFO  events:94         khl.py Bot 实例已创建
-2026-11-06 13:34:43 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-11-06 13:34:43 INFO  events:94         日志系统已初始化
-2026-11-06 13:34:43 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-11-06 13:34:43 INFO  events:94         Bot 自身信息: id=659688244 name=茂密
-2026-11-06 13:34:43 INFO  sender:46         发送器已初始化 (Phase5 兼容层)
-2026-11-06 13:34:44 INFO  events:94         高风险更新审批回调已接线: request_update_approval
-2026-11-06 13:34:44 INFO  events:94         消息发送器已初始化
-2026-11-06 13:34:47 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db
-2026-11-06 13:34:47 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-11-06 13:34:47 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-11-06 13:34:47 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-11-06 13:34:47 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-11-06 13:34:47 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-11-06 13:34:47 INFO  bot:111           上下文管理器已初始化
-2026-11-06 13:34:47 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 13:34:47 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-11-06 13:34:47 INFO  events:94         数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-bot-v2/data/huanmeng.db)
-2026-11-06 13:34:47 INFO  events:94         用户名查询模块已初始化
-2026-11-06 13:34:47 INFO  guild_names:346   guild_names: 每日刷新任务已调度
-2026-11-06 13:34:47 INFO  events:94         服务器昵称每日刷新任务已调度
-2026-11-06 13:34:47 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-11-06 13:34:47 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-11-06 13:34:47 INFO  events:94         上下文管理器已初始化
-2026-11-06 13:34:47 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-11-06 13:34:47 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-11-06 13:34:47 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 13:34:47 INFO  events:94         事件分发器已就绪
-2026-11-06 13:34:47 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-11-06 13:34:47 INFO  bot:186           ✏️ 已安装 message_updated 拦截补丁（编辑消息 → dispatcher）
-2026-11-06 13:34:47 INFO  bot:186           🗑️ 已安装 deleted_message 拦截补丁（撤回消息 → /撤销 记录）
-2026-11-06 13:34:47 INFO  events:94         消息处理器已注册（TEXT/KMD）
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-11-06 13:34:47 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-11-06 13:34:47 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-11-06 13:34:47 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-11-06 13:34:47 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-11-06 13:34:47 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-11-06 13:34:47 INFO  manager:165       Plugin 已启用: countdown@1.0.0
+# 更新于 2026-11-06 14:50:39 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
 2026-11-06 13:34:47 INFO  manager:165       Plugin 已启用: echo@1.0.0
 2026-11-06 13:34:47 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
@@ -1499,3 +1430,72 @@
 2026-11-06 14:49:54 INFO  pc_status:201     收到 lyric_event [延迟=536ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
 2026-11-06 14:49:54 INFO  pc_status:201     收到 lyric_event [延迟=521ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
 2026-11-06 14:49:55 INFO  pc_status:201     收到 lyric_event [延迟=250ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=516ms]: '**把孤独当做晚餐 - 井胧**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=506ms]: '**词：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=475ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=460ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=427ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=415ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=393ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=335ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:49:59 INFO  pc_status:201     收到 lyric_event [延迟=306ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:00 INFO  pc_status:201     收到 lyric_event [延迟=224ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:01 INFO  pc_status:201     收到 lyric_event [延迟=-334ms]: '**把孤独当做晚餐 - 井胧**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:01 INFO  pc_status:201     收到 lyric_event [延迟=-336ms]: '**词：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:01 INFO  pc_status:201     收到 lyric_event [延迟=-364ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:01 INFO  pc_status:201     收到 lyric_event [延迟=-381ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:03 INFO  pc_status:201     收到 lyric_event [延迟=721ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:03 INFO  pc_status:201     收到 lyric_event [延迟=693ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:03 INFO  pc_status:201     收到 lyric_event [延迟=679ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:03 INFO  pc_status:201     收到 lyric_event [延迟=651ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:03 INFO  pc_status:201     收到 lyric_event [延迟=632ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:04 INFO  pc_status:201     收到 lyric_event [延迟=496ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=498ms]: '**把孤独当做晚餐 - 井胧**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=488ms]: '**词：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=458ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=442ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=412ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=382ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=352ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=321ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:07 INFO  pc_status:201     收到 lyric_event [延迟=306ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:08 INFO  pc_status:201     收到 lyric_event [延迟=173ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=381ms]: '**把孤独当做晚餐 - 井胧**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=376ms]: '**词：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=264ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=205ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=177ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=162ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=126ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=115ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:11 INFO  pc_status:201     收到 lyric_event [延迟=86ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-110ms]: '**把孤独当做晚餐 - 井胧**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-118ms]: '**词：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-132ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-163ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-178ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-194ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-209ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-238ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-269ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:12 INFO  pc_status:201     收到 lyric_event [延迟=-284ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:15 INFO  pc_status:201     收到 lyric_event [延迟=-52ms]: '**想要爱你却又不敢**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=768ms]: '**曲：残雪**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=756ms]: '**后期：Wuli包子** *(异新音乐)*' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=727ms]: '**监制：吴祥礼**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=697ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=665ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=651ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=638ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:16 INFO  pc_status:201     收到 lyric_event [延迟=623ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:17 INFO  pc_status:201     收到 lyric_event [延迟=109ms]: '**想要爱你却又不敢**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=543ms]: '**发行：Ayler吴逸轩**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=533ms]: '**OP：石家庄爱乐文化发展有限公司**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=504ms]: '**把黑夜当作是我最爱的颜色**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=488ms]: '**一个人独自忍受着夜的折磨**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=473ms]: '**只有对着孤独沉默 慢慢地怀恋**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:21 INFO  pc_status:201     收到 lyric_event [延迟=443ms]: '**想要爱你却又不敢**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:24 INFO  pc_status:201     收到 lyric_event [延迟=323ms]: '**把幸福当作幻想都沉醉入眠**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:29 INFO  pc_status:201     收到 lyric_event [延迟=342ms]: '**把誓言当作谎言却都是欺骗**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:33 INFO  pc_status:201     收到 lyric_event [延迟=70ms]: '**回忆曾经那些诺言 浮现在眼前**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
+2026-11-06 14:50:39 INFO  pc_status:201     收到 lyric_event [延迟=271ms]: '**想要放弃心又不甘**' song=井胧 - 把孤独当做晚餐 playing=True channel=None
