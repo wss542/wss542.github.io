@@ -1,80 +1,4 @@
-# 更新于 2026-11-06 21:08:39 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 18:31:47 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
-2026-11-06 18:31:47 INFO  queues:103        [队列] 渲染队列已启动
-2026-11-06 18:31:47 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
-2026-11-06 18:31:47 INFO  events:94         QQ open-platform channel started
-2026-11-06 18:31:47 INFO  events:94         KOOK disabled (BOT_PLATFORM=qq); main loop parked on QQ
-2026-11-06 18:31:47 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-11-06 18:31:47 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-11-06 18:31:47 INFO  events:94         [watchdog] KOOK 未启用（BOT_PLATFORM=qq），看护协程退出
-2026-11-06 18:31:48 INFO  qq_transport:113  QQ access_token 已刷新，有效期 5925s
-2026-11-06 18:31:48 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-11-06 18:31:48 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-11-06 18:31:48 INFO  holiday:57        节假日: 2026-11-06 → 周五
-2026-11-06 18:31:48 INFO  holiday:105       节假日服务已启动
-2026-11-06 18:31:48 INFO  holiday:96        节假日每日刷新: 等待 19696 秒 (下次 00:00:05)
-2026-11-06 18:31:49 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-11-06 18:31:58 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-11-06 18:32:01 DEBG  notify_system:655 git ls-remote 失败: Command '['git', 'ls-remote', 'origin', 'HEAD']' timed out after 15 seconds
-2026-11-06 18:32:01 INFO  stats:461         每日统计推送已启动（等待凌晨0点...）
-2026-11-06 18:32:01 INFO  pc_status:961     PC 状态 TCP 接收端: 0.0.0.0:25002
-2026-11-06 18:32:01 INFO  tts:193           TTS 节点接收端: 0.0.0.0:25003 (等待第二台电脑连接...)
-2026-11-06 18:32:01 INFO  phone_status:676  设备状态 HTTP 收数端: 0.0.0.0:25005 (POST /phone?key=... 及 /pc 收 Mac 状态)
-2026-11-06 18:32:01 INFO  update_webhook:140 GitHub 更新 Webhook 已监听 0.0.0.0:25004
-2026-11-06 18:32:01 INFO  earthquake:685    EQ监视器已启动 → http://0.0.0.0:25001
-2026-11-06 18:32:01 INFO  phone_status:651  WSS 回填轮询启动，间隔 15s，来源=['mac_status_reporter', 'iphone_status']
-2026-11-06 18:32:01 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=79 cpu=24.3 mem=38.3
-2026-11-06 18:32:01 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-11-06 18:32:01 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=80 cpu=None mem=None
-2026-11-06 18:32:01 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 18:32:04 INFO  pc_status:50      PC 客户端已连接（当前 1 个在线）
-2026-11-06 18:32:04 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=30% 内存=94%
-2026-11-06 18:32:05 INFO  changelog:199     [Playwright] Chromium 启动成功（极致加速已启用）
-2026-11-06 18:32:05 INFO  holiday:57        节假日: 2026-11-06 → 周五
-2026-11-06 18:32:05 INFO  holiday:105       节假日服务已启动
-2026-11-06 18:32:05 INFO  holiday:96        节假日每日刷新: 等待 19680 秒 (下次 00:00:05)
-2026-11-06 18:32:05 INFO  events:94         检测到已手动设置的歌曲，跳过启动版本号覆盖
-2026-11-06 18:32:05 INFO  changelog:209     [Playwright] 页面池已预热（池内 1 个）
-2026-11-06 18:32:05 INFO  changelog:155     [Playwright] 回收看护已启动（闲置 5 分钟 / 存活上限 30 分钟）
-2026-11-06 18:32:05 INFO  events:94         Chromium 已预启动 + 渲染队列就绪
-2026-11-06 18:32:05 INFO  events:94         BOT_PLATFORM=kook -> QQ channel skipped
-2026-11-06 18:32:05 INFO  events:94         [watchdog] KOOK 网关存活看护已启动（仅看护连接任务异常退出）
-2026-11-06 18:34:42 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（播放中）CPU=31% 内存=92%
-2026-11-06 18:34:42 INFO  pc_status:201     收到 lyric_event [延迟=542ms]: '**▶ 继续播放**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1274ms]: '**东船与西舫 琴音袅袅于心上**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1343ms]: '**望姑娘模样 深情终究难放下**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1373ms]: '**美人迟了暮 任与绝世共赴**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1389ms]: '**卿和了胡旋 君作汉宫琵琶语**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1419ms]: '**弹一首琵琶曲 世人争相思意**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1451ms]: '**坐高楼赏小曲 抚琴声想起你**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1481ms]: '**姑娘不胜酒力 哭的梨花带雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1512ms]: '**回首人间 笑谈你我初遇**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1544ms]: '**弹一首琵琶曲 叹离愁争朝夕**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:18 INFO  pc_status:201     收到 lyric_event [延迟=-1575ms]: '**坐高楼赏烟雨 烟雨声宛如你**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:21 INFO  pc_status:201     收到 lyric_event [延迟=-1521ms]: '**思念一夜未停 史书一页未起**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:25 INFO  pc_status:201     收到 lyric_event [延迟=-1507ms]: '**回首人间 笑谈你我初遇**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:28 INFO  pc_status:201     收到 lyric_event [延迟=-1851ms]: '**弹一首琵琶曲 世人争相思意**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:35:31 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=35% 内存=78%
-2026-11-06 18:35:31 INFO  pc_status:201     收到 lyric_event [延迟=-3044ms]: '**姑娘不胜酒力 哭的梨花带雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=False channel=None
-2026-11-06 18:35:32 INFO  pc_status:201     收到 lyric_event [延迟=-3030ms]: '**⏸ 已暂停**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=False channel=None
-2026-11-06 18:36:17 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=86 cpu=None mem=None
-2026-11-06 18:36:17 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 18:36:55 INFO  guild_names:259   ✅ 服务器名缓存刷新完成，共 2 个服务器
-2026-11-06 18:36:55 INFO  guild_names:163   ✅ 服务器 3090677846298039 刷新完成，处理成员 12
-2026-11-06 18:36:55 INFO  guild_names:163   ✅ 服务器 2573723941087020 刷新完成，处理成员 4
-2026-11-06 18:36:55 INFO  guild_names:205   ✅ guild_names 每日全量刷新完成，共 2 个服务器
-2026-11-06 18:36:55 INFO  guild_names:332   guild_names: 距下次全量刷新 30185 秒
-2026-11-06 18:37:34 INFO  changelog:132     [Playwright] 空闲 6 分钟 → 已回收 Chromium（下次截图冷启动）
-2026-11-06 18:40:31 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=29% 内存=85%
-2026-11-06 18:45:31 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=35% 内存=86%
-2026-11-06 18:46:30 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（播放中）CPU=57% 内存=89%
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=348ms]: '**▶ 继续播放**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=349ms]: '**回首人间 笑谈你我初遇**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=244ms]: '**东船与西舫 琴音袅袅于心上**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=198ms]: '**望姑娘模样 深情终究难放下**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=171ms]: '**美人迟了暮 任与绝世共赴**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=167ms]: '**卿和了胡旋 君作汉宫琵琶语**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
-2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=166ms]: '**弹一首琵琶曲 世人争相思意**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
+# 更新于 2026-11-06 21:09:12 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=151ms]: '**坐高楼赏小曲 抚琴声想起你**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
 2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=120ms]: '**姑娘不胜酒力 哭的梨花带雨**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
 2026-11-06 18:46:30 INFO  pc_status:201     收到 lyric_event [延迟=104ms]: '**回首人间 笑谈你我初遇**' song=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版) playing=True channel=None
@@ -1499,3 +1423,79 @@
 `好了，看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
 2026-11-06 21:08:38 INFO  pc_status:201     收到 lyric_event [延迟=-777ms]: '**Look at here**
 `看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=985ms]: '**Ah what do we have?**
+`发生什么事呢`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=957ms]: '**Another pretty thang**
+`又有一个美女`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=928ms]: '**Ready for me to grab**
+`被我吸引`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=898ms]: '**But little does she know**
+`可是她自己不知道`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=883ms]: '**That I'm a wolf in sheep's clothing**
+`我是一只披着羊皮的狼`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=852ms]: '**'Cause at the end of the night**
+`因为在夜深之后`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=837ms]: '**It is her I'll be holding**
+`我将把她俘获`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=808ms]: '**I love you so**
+`我如此的爱你`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=792ms]: '**That's what you'll say**
+`你将这样对我说`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=763ms]: '**You'll tell me**
+`你会求我`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=746ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=731ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=701ms]: '**Please don't go away**
+`请别离开我`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=657ms]: '**But when I play**
+`但是当我玩完了之后`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=627ms]: '**I never stay**
+`我从不停留`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=612ms]: '**So every girl that I meet yeah this is what I say**
+`我会对在这' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=565ms]: '**Run**
+`快跑吧`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=552ms]: '**Run**
+`跑远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=537ms]: '**Runaway**
+`快跑吧`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=505ms]: '**Runaway**
+`跑远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=492ms]: '**Baby**
+`宝贝`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=477ms]: '**Before I put my spell on you**
+`在我对你施咒语之前`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:39 INFO  pc_status:201     收到 lyric_event [延迟=-834ms]: '**You better**
+`你最好`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:42 INFO  pc_status:201     收到 lyric_event [延迟=-904ms]: '**作词 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**
+`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:42 INFO  pc_status:201     收到 lyric_event [延迟=-905ms]: '**作曲 : Bruno Mars/Philip Lawrence/Ari Levine/Brody Brown**
+`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:42 INFO  pc_status:201     收到 lyric_event [延迟=-901ms]: '**Ahh yes!!!**
+`哦！耶！`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:42 INFO  pc_status:201     收到 lyric_event [延迟=-1121ms]: '**Well look at here**
+`好了，看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:42 INFO  pc_status:201     收到 lyric_event [延迟=-1184ms]: '**Look at here**
+`看这里`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-235ms]: '**Another pretty thang**
+`又有一个美女`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-259ms]: '**Ready for me to grab**
+`被我吸引`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-338ms]: '**But little does she know**
+`可是她自己不知道`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-378ms]: '**That I'm a wolf in sheep's clothing**
+`我是一只披着羊皮的狼`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-388ms]: '**'Cause at the end of the night**
+`因为在夜深之后`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-420ms]: '**It is her I'll be holding**
+`我将把她俘获`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-444ms]: '**I love you so**
+`我如此的爱你`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-474ms]: '**That's what you'll say**
+`你将这样对我说`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:43 INFO  pc_status:201     收到 lyric_event [延迟=-488ms]: '**You'll tell me**
+`你会求我`' song=Bruno Mars - Runaway Baby playing=True channel=None
+2026-11-06 21:08:45 INFO  pc_status:201     收到 lyric_event [延迟=-702ms]: '**Get**
+`再离我远点`' song=Bruno Mars - Runaway Baby playing=True channel=None
