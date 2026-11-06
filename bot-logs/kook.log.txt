@@ -1,29 +1,4 @@
-# 更新于 2026-11-06 20:46:26 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 18:01:08 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=7274785942250691
-2026-11-06 18:01:08 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=7274785942250691 | group=True | content='（）'
-2026-11-06 18:01:08 DEBG  queues:75         [队列] 群7274785942250691 消息已入队 (队长度=1)
-2026-11-06 18:01:08 INFO  memory:432        长时记忆溢出缓冲: chat=7274785942250691 +1 = 2条 (阈值=10)
-2026-11-06 18:01:08 DEBG  pipeline:567      回复判断: is_mentioned=False is_group=True bot_qq=659688244 content='（）'
-2026-11-06 18:01:08 INFO  logger:541        [TRACE 99631368ed8543e3] total=3.09ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=2.99ms(x1) (wall2.99), queue_wait=0.35ms(x1)
-2026-11-06 18:03:06 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-2026-11-06 18:03:06 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 18:03:22 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-2026-11-06 18:03:22 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 18:03:34 INFO  pc_status:50      PC 客户端已连接（当前 2 个在线）
-2026-11-06 18:03:38 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=85%
-2026-11-06 18:03:52 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=82 cpu=88.7 mem=29.7
-2026-11-06 18:03:52 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-11-06 18:04:08 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=19% 内存=93%
-2026-11-06 18:04:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=82 cpu=88.9 mem=33.1
-2026-11-06 18:04:23 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-11-06 18:04:41 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=54%
-2026-11-06 18:04:54 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=81 cpu=22.9 mem=34.9
-2026-11-06 18:04:54 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
-2026-11-06 18:04:54 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=90 cpu=None mem=None
-2026-11-06 18:04:54 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
-2026-11-06 18:05:11 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=郑浩Z-Hao / 冰洁 - 琵琶曲 (DJ筱轩版)（已暂停）CPU=30% 内存=92%
-2026-11-06 18:05:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=81 cpu=31.6 mem=34.8
-2026-11-06 18:05:24 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+# 更新于 2026-11-06 20:46:58 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 18:05:43 INFO  pc_status:154     PC 心跳 MacBook-Pro.local 无音乐 CPU=46%
 2026-11-06 18:05:55 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=81 cpu=27.8 mem=36.2
 2026-11-06 18:05:55 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
@@ -1499,3 +1474,28 @@
 2026-11-06 20:46:25 INFO  pc_status:201     收到 lyric_event [延迟=414ms]: '**世界上的另一个我**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
 2026-11-06 20:46:25 INFO  pc_status:201     收到 lyric_event [延迟=401ms]: '**肆：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
 2026-11-06 20:46:25 INFO  pc_status:201     收到 lyric_event [延迟=385ms]: '**上一秒我在柏林落大雨**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:26 INFO  pc_status:201     收到 lyric_event [延迟=931ms]: '**下一秒你在曼谷天气晴**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:32 INFO  pc_status:201     收到 lyric_event [延迟=367ms]: '**你感受我 就像我感受你**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=370ms]: '**作曲 : 阿肆**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=357ms]: '**郭：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=345ms]: '**上一秒我在柏林落大雨**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=314ms]: '**下一秒你在上海喝Mojito**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=300ms]: '**你感觉我 就像我感觉你**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=271ms]: '**世界上的另一个我**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=240ms]: '**肆：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=212ms]: '**上一秒我在柏林落大雨**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=196ms]: '**下一秒你在曼谷天气晴**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:33 INFO  pc_status:201     收到 lyric_event [延迟=166ms]: '**你感受我 就像我感受你**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:36 INFO  pc_status:201     收到 lyric_event [延迟=28ms]: '**世界上的另一个我**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:38 INFO  pc_status:201     收到 lyric_event [延迟=905ms]: '**郭：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:41 INFO  pc_status:201     收到 lyric_event [延迟=1179ms]: '**人生到处是假正经**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:45 INFO  pc_status:201     收到 lyric_event [延迟=404ms]: '**肆：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:45 INFO  pc_status:201     收到 lyric_event [延迟=117ms]: '**变幻莫测捕风捉影**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:47 INFO  pc_status:201     收到 lyric_event [延迟=709ms]: '**有几个陪我等雨**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:48 INFO  pc_status:201     收到 lyric_event [延迟=274ms]: '**郭：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:49 INFO  pc_status:201     收到 lyric_event [延迟=1013ms]: '**难得真性情**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:52 INFO  pc_status:201     收到 lyric_event [延迟=739ms]: '**肆：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:52 INFO  pc_status:201     收到 lyric_event [延迟=428ms]: '**天高海阔我的渊明 谁倾听**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:56 INFO  pc_status:201     收到 lyric_event [延迟=964ms]: '**郭：**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:56 INFO  pc_status:201     收到 lyric_event [延迟=628ms]: '**岁月为我大浪淘沙**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
+2026-11-06 20:46:58 INFO  pc_status:201     收到 lyric_event [延迟=630ms]: '**而你被留下**' song=阿肆 / 郭采洁 - 世界上的另一个我 playing=True channel=None
