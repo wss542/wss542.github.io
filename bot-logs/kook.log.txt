@@ -1,4 +1,4 @@
-# 更新于 2026-11-06 14:34:18 · 共 1107 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-06 14:35:39 · 共 1112 行（来源 huanmeng.log 末尾）
 2026-11-06 13:34:32 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-06 13:34:32 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-06 13:34:32 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
@@ -1106,3 +1106,8 @@
 2026-11-06 14:31:17 INFO  pc_status:201     收到 lyric_event [延迟=508ms]: '**有时会突然忘了 我还在爱着你**' song=陈奕迅 / 王菲 - 因为爱情 playing=True channel=None
 2026-11-06 14:31:44 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=吴宇彬 / 小波蒂 - Колыбельная（播放中）CPU=62% 内存=84%
 2026-11-06 14:31:44 INFO  pc_status:201     收到 lyric_event [延迟=337ms]: '**▶ 吴宇彬 / 小波蒂 - Колыбельная**' song=吴宇彬 / 小波蒂 - Колыбельная playing=True channel=None
+2026-11-06 14:35:02 WARN  phone_status:610  WSS 回填拉取失败 source=iphone_status: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-11-06 14:35:29 ERRO  qq_bot:148        QQBot 连接关闭 code=1006 reason=，5s 后重连
+2026-11-06 14:35:36 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-11-06 14:35:37 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-11-06 14:35:37 INFO  qq_bot:225        QQ 事件到达 t=READY
