@@ -1,20 +1,4 @@
-# 更新于 2026-11-06 18:13:09 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 16:44:00 INFO  pc_status:201     收到 lyric_event [延迟=693ms]: '**Then light a match, light a match**
-`划亮火柴吧 划亮火柴吧`' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=233ms]: '**制作人 : Adam Christopher**' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=226ms]: '**Light 'em up, light 'em up**
-`点亮吧 点亮吧`' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=196ms]: '**Tell me where you are, tell me where you are**
-`告诉我你在哪 告诉我' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=165ms]: '**The summer nights, the bright lights**
-`这夏日的夜 这闪烁的光`' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=148ms]: '**And the shooting stars, they break my heart**
-`这划过的流星 都刺痛我' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=132ms]: '**I'm calling you now, but you're not picking up**
-`你不愿接起我此刻' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=120ms]: '**Your shadow's so close if you're still in love**
-`但爱人的影子本该' song=Adam Christopher - So Far Away playing=True channel=None
-2026-11-06 16:44:03 INFO  pc_status:201     收到 lyric_event [延迟=104ms]: '**Then light a match, light a match**
+# 更新于 2026-11-06 18:14:06 · 共 1500 行（来源 huanmeng.log 末尾）
 `划亮火柴吧 划亮火柴吧`' song=Adam Christopher - So Far Away playing=True channel=None
 2026-11-06 16:44:04 INFO  pc_status:201     收到 lyric_event [延迟=862ms]: '**Baby, in the dark, show me where you are**
 `亲爱的 黑夜漫漫 告诉我你在' song=Adam Christopher - So Far Away playing=True channel=None
@@ -1499,3 +1483,19 @@
 2026-11-06 18:12:52 INFO  holiday:96        节假日每日刷新: 等待 20832 秒 (下次 00:00:05)
 2026-11-06 18:13:05 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-06 18:13:05 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
+2026-11-06 18:13:19 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-11-06 18:13:19 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' /签到' mentions=0 content='/签到' atts=0 ref=False msg_type=0
+2026-11-06 18:13:19 INFO  qq_bot:447        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '/签到'
+2026-11-06 18:13:19 INFO  qq_bot:458        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rEgkaH-YfgtjonjQjgUQQGlU6NQwWOsVsWFm8.3CsrVUG21X-b-LHcw0hM44CkXhbrngEsgZN9JRnwI3Jn-lfYLVAZ8hyGx8lEpG-reXU4Pt
+2026-11-06 18:13:19 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+2026-11-06 18:13:19 DEBG  queues:75         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-11-06 18:13:19 INFO  identity:92       身份映射已载入 2 条
+2026-11-06 18:13:19 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-11-06 18:13:19 INFO  pipeline:503      指令拦截: '/签到' from=若尘 ~喵
+2026-11-06 18:13:19 DEBG  commands:5384     指令解析: prefix=/ cmd=签到 args=[] user=qq:63C251709C77FDEE87FC502F866E3FB5
+2026-11-06 18:13:19 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
+2026-11-06 18:13:19 INFO  commands:5439     指令执行完成 [签到]: 返回43字符
+2026-11-06 18:13:21 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=42 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp9PjOSh0g2YTPqOL0EmxMmW1p3Smgmp9lzRv7OIcAd6f1sb8VG41CjKSqYNLKV2L6A!!
+2026-11-06 18:13:21 INFO  logger:541        [TRACE c295eff1a7d14bd0] total=1502.81ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1502.59ms(x1) (wall1502.59), queue_wait=1.02ms(x1)
+2026-11-06 18:13:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=84 cpu=None mem=None
+2026-11-06 18:13:52 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
