@@ -1,124 +1,4 @@
-# 更新于 2026-11-06 20:53:01 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-11-06 18:12:38 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: greet
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: luck
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: motou
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: nasa
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: pgr
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: sandbox
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: tuf
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: weather
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-11-06 18:12:38 INFO  manager:234       Plugin 已卸载: whois
-2026-11-06 18:12:38 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-11-06 18:12:38 INFO  events:94         Plugin Runtime 已关闭
-2026-11-06 18:12:38 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-11-06 18:12:38 INFO  events:94         Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-11-06 18:12:38 INFO  events:94         ==================================================
-2026-11-06 18:12:38 INFO  events:94         ✅ 所有组件初始化完成，准备连接 KOOK...
-2026-11-06 18:12:38 INFO  events:94         ==================================================
-2026-11-06 18:12:38 INFO  events:94         KOOK bg tasks: remind+control+eq+wdsj+pc:25002+pc_offline+tts:25003+holiday+rss+notify+webhook:25004+phone:25005
-2026-11-06 18:12:38 INFO  events:94         运行统计: {'active_chats': 5, 'total_context_lines': 56, 'total_buffer_lines': 0, 'active_tasks': 0}
-2026-11-06 18:12:38 INFO  queues:103        [队列] 渲染队列已启动
-2026-11-06 18:12:38 INFO  context_manager:190 上下文已写入磁盘
-2026-11-06 18:12:38 INFO  events:94         👋 再见！
-2026-11-06 18:12:38 INFO  main:70           应用程序已退出
-2026-11-06 18:12:38 INFO  changelog:170     [Playwright] 启动 Chromium（极致加速模式）...
-2026-11-06 18:12:38 INFO  remind:167        提醒轮询已启动（每30秒检查一次）
-2026-11-06 18:12:38 INFO  rss:299           [RSS] 订阅轮询服务启动
-2026-11-06 18:12:38 INFO  bot:868           战绩采集将在 1h48m 后执行 (20:01)
-2026-11-06 18:12:38 INFO  bot:977           PC 掉线检测启动: 300s 无心跳判掉线 → 频道 1010983873136793（历史心跳 16s 前）
-2026-11-06 18:12:39 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
-2026-11-06 18:12:39 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 18:12:40 INFO  events:94         ==================================================
-2026-11-06 18:12:40 INFO  events:94         🐱 幻梦 KOOK Bot v2.0.0 正在启动...
-2026-11-06 18:12:40 INFO  events:94         ==================================================
-2026-11-06 18:12:40 INFO  llm:162           main_skill.md 已加载: 12 个章节
-2026-11-06 18:12:40 INFO  events:94         配置已加载 | bot=茂密 | debug=True
-2026-11-06 18:12:40 INFO  events:94         语言文件已加载
-2026-11-06 18:12:40 INFO  logger:407        Logger 初始化完成 | debug=True | 文件=True | 颜色=True
-2026-11-06 18:12:40 INFO  events:94         日志系统已初始化
-2026-11-06 18:12:40 INFO  events:94         自动更新已禁用（KOOK Bot 使用手动部署模式）
-2026-11-06 18:12:40 INFO  database:88       数据库已初始化: sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db
-2026-11-06 18:12:40 INFO  database:107      数据库表结构已就绪（含 FTS5）
-2026-11-06 18:12:40 INFO  bot:111           数据库已就绪 (url=sqlite+aiosqlite:////home/qwq/huanmeng-qq-standalone/data/huanmeng.db)
-2026-11-06 18:12:40 INFO  context_manager:53 上下文已从磁盘恢复: 5 个对话
-2026-11-06 18:12:40 INFO  context_manager:181 上下文管理器已初始化（含磁盘持久化）
-2026-11-06 18:12:40 INFO  bot:111           上下文管理器已初始化
-2026-11-06 18:12:40 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
-2026-11-06 18:12:40 DEBG  loader:42         跳过 [DISABLE]points：目录名带 [DISABLE] 禁用前缀
-2026-11-06 18:12:40 DEBG  loader:42         跳过 [DISABLE]shop：目录名带 [DISABLE] 禁用前缀
-2026-11-06 18:12:40 DEBG  loader:46         跳过 _down：缺少 manifest.json
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.checkin (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.签到 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.sign (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.points (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.积分 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.shop (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.商店 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.warehouse (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.仓库 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.背包 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.checkin.bag (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: checkin@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.抽 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.chou.chou (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: chou@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.countdown (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.countdown.倒计时 (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: countdown@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.echo.pecho (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: echo@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.eq (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.eq.地震 (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: eq@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.greet.pgreet (command)
-2026-11-06 18:12:40 DEBG  eventbus:80       EventBus subscribe: greet.ping -> handler
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: greet@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.luck.luck (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: luck@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.摸头 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.motou.motou (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: motou@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.nasa.nasa (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: nasa@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.pgr.pgr (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: pgr@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run_code (tool)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.sandbox.run (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: sandbox@1.0.2
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.tuf.tuf (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: tuf@2.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.天气 (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.weather.weather (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: weather@1.0.0
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.whois (command)
-2026-11-06 18:12:40 INFO  registry:149      CapabilityRegistry 注册能力: plugin.whois.域名 (command)
-2026-11-06 18:12:40 INFO  manager:165       Plugin 已启用: whois@1.0.0
-2026-11-06 18:12:40 INFO  bot:111           Plugin Runtime 就绪: 加载 14 个插件 ['checkin', 'chou', 'countdown', 'echo', 'eq', 'greet', 'luck', 'motou', 'nasa', 'pgr', 'sandbox', 'tuf', 'weather', 'whois']
-2026-11-06 18:12:40 INFO  bot:111           ==================================================
-2026-11-06 18:12:40 INFO  bot:111           所有组件初始化完成（QQ-only 模式）
-2026-11-06 18:12:40 INFO  bot:111           ==================================================
-2026-11-06 18:12:40 INFO  events:94         BOT_PLATFORM=qq -> KOOK channel disabled
+# 更新于 2026-11-06 20:53:37 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-06 18:12:40 INFO  events:94         QQ-only bg tasks: remind+control+holiday+rss (all port/listener-bound services skipped)
 2026-11-06 18:12:40 INFO  queues:103        [队列] 渲染队列已启动
 2026-11-06 18:12:40 INFO  events:94         渲染队列就绪（Chromium 惰加载，避免双实例内存翻倍）
@@ -1499,3 +1379,123 @@
 2026-11-06 20:53:00 INFO  pc_status:201     收到 lyric_event [延迟=827ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
 2026-11-06 20:53:00 INFO  pc_status:201     收到 lyric_event [延迟=793ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
 2026-11-06 20:53:00 INFO  pc_status:201     收到 lyric_event [延迟=766ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:04 INFO  pc_status:201     收到 lyric_event [延迟=17ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:04 INFO  pc_status:201     收到 lyric_event [延迟=14ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1147ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1136ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1121ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1104ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1075ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1045ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=1029ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=999ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=969ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=954ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=923ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=909ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=879ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=847ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=816ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=787ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=757ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=725ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:05 INFO  pc_status:201     收到 lyric_event [延迟=694ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=736ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=732ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=716ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=685ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=671ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=655ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=624ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=595ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=563ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=532ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=516ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=502ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=472ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=439ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=409ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=380ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=365ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=333ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:09 INFO  pc_status:201     收到 lyric_event [延迟=298ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=672ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=659ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=644ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=614ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=584ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=552ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=531ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=503ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=490ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=459ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=427ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=398ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=384ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=368ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=336ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=319ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=288ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=258ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:11 INFO  pc_status:201     收到 lyric_event [延迟=242ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=122ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=130ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=100ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=90ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=67ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:15 INFO  pc_status:201     收到 lyric_event [延迟=38ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1293ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1278ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1247ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1218ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1187ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1173ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1145ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1119ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1088ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1071ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1042ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=1028ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:16 INFO  pc_status:201     收到 lyric_event [延迟=998ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=879ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=867ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=836ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=806ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=774ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=759ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=727ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=698ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=668ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=653ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=622ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=592ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=561ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=546ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=517ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=485ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=470ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=440ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:20 INFO  pc_status:201     收到 lyric_event [延迟=411ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:21 INFO  pc_status:201     收到 lyric_event [延迟=46ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:21 INFO  pc_status:201     收到 lyric_event [延迟=40ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:21 INFO  pc_status:201     收到 lyric_event [延迟=26ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:21 INFO  pc_status:201     收到 lyric_event [延迟=6ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=1091ms]: '**Rap：王绍伟**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=1062ms]: '**Yo yo yo yo cyndi**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=1046ms]: '**What what's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=1017ms]: '**爱你**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=987ms]: '**Yo yo cyndi baby**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=956ms]: '**What's wrong with me**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=940ms]: '**Cyndi give me your love**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=910ms]: '**You make me sneeze all the time**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=880ms]: '**Yeah yeah yeah**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=849ms]: '**Now now**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=819ms]: '**怎么我一直狂打喷嚏**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=790ms]: '**在凌晨三点二十六分**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=752ms]: '**Let me sing let me sing a song**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=725ms]: '**陪你入睡**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:22 INFO  pc_status:201     收到 lyric_event [延迟=695ms]: '**What is love say yes say yes**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:25 INFO  pc_status:201     收到 lyric_event [延迟=58ms]: '**爱你 - 王心凌** *(Cyndi Wang)*' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:25 INFO  pc_status:201     收到 lyric_event [延迟=52ms]: '**词：潘瑛/谈晓珍/陈思宇**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:25 INFO  pc_status:201     收到 lyric_event [延迟=38ms]: '**曲：Lee Young Min/Hwang Sei Joon**' song=王心凌 - 爱你 playing=True channel=None
+2026-11-06 20:53:25 INFO  pc_status:201     收到 lyric_event [延迟=24ms]: '**编曲：Lee Jung-Hoon**' song=王心凌 - 爱你 playing=True channel=None
