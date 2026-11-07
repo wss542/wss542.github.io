@@ -1,19 +1,4 @@
-# 更新于 2026-11-07 23:25:58 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-07 09:02:35 INFO  pc_status:201     收到 lyric_event [延迟=505ms]: '*(愿生命绽放再盛开)*' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:35 INFO  pc_status:201     收到 lyric_event [延迟=489ms]: '**你与我**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:35 INFO  pc_status:201     收到 lyric_event [延迟=458ms]: '**先谈养心殿**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:37 INFO  pc_status:201     收到 lyric_event [延迟=1120ms]: '**后拜瀑淋身**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=262ms]: '**作词 : 30年前，50年后**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=222ms]: '**作曲 : 30年前，50年后**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=200ms]: '**编曲 : GAXILLIC**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=178ms]: '*(每个身体，情不自禁)*' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=145ms]: '**是现在我所有期待**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=116ms]: '**所有的爱**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=85ms]: '**为什么不明白**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=69ms]: '**说的话为什么不记得**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=54ms]: '**为什么不记得**' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=25ms]: '*(愿生命绽放再盛开)*' song=30年前，50年后 - 精卫 playing=True channel=None
-2026-11-07 09:02:39 INFO  pc_status:201     收到 lyric_event [延迟=11ms]: '**你与我**' song=30年前，50年后 - 精卫 playing=True channel=None
+# 更新于 2026-11-07 23:26:28 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-07 09:02:41 INFO  pc_status:201     收到 lyric_event [延迟=498ms]: '**作词 : 30年前，50年后**' song=30年前，50年后 - 精卫 playing=True channel=None
 2026-11-07 09:02:41 INFO  pc_status:201     收到 lyric_event [延迟=484ms]: '**作曲 : 30年前，50年后**' song=30年前，50年后 - 精卫 playing=True channel=None
 2026-11-07 09:02:41 INFO  pc_status:201     收到 lyric_event [延迟=453ms]: '**编曲 : GAXILLIC**' song=30年前，50年后 - 精卫 playing=True channel=None
@@ -1499,3 +1484,18 @@ Call log:
 2026-11-07 23:15:37 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=55% 内存=68%
 2026-11-07 23:20:38 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=58% 内存=69%
 2026-11-07 23:25:38 INFO  pc_status:154     PC 心跳 Longwan-PC 无音乐 CPU=58% 内存=73%
+2026-11-07 23:26:00 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-07 23:26:00 DEBG  dispatcher:47     dispatch 入口: type=9 content='/wdsj jjc img' is_edit=False
+2026-11-07 23:26:00 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=3649029148752421
+2026-11-07 23:26:00 INFO  dispatcher:316    📩 消息 #1 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=yzandwss(1759953618) | chat=3649029148752421 | group=True | content='/wdsj jjc img'
+2026-11-07 23:26:00 INFO  queues:32         [队列] 创建群3649029148752421 的独立消息队列
+2026-11-07 23:26:00 DEBG  queues:75         [队列] 群3649029148752421 消息已入队 (队长度=1)
+2026-11-07 23:26:00 INFO  memory:432        长时记忆溢出缓冲: chat=3649029148752421 +1 = 1条 (阈值=10)
+2026-11-07 23:26:00 INFO  pipeline:503      指令拦截: '/wdsj jjc img' from=ywandwss
+2026-11-07 23:26:00 DEBG  commands:5384     指令解析: prefix=/ cmd=wdsj args=['jjc', 'img'] user=1759953618
+2026-11-07 23:26:00 INFO  commands:3149     查询wdsj战绩: player=yzandwss template=arena-stats img=True
+2026-11-07 23:26:06 INFO  commands:5441     指令执行完成 [wdsj]: 无返回值（已自行发送）
+2026-11-07 23:26:06 INFO  logger:541        [TRACE 9682a342b6c641de] total=6269.34ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=6269.15ms(x1) (wall6269.15), queue_wait=1.66ms(x1)
+2026-11-07 23:26:06 WARN  logger:564        [SLOW 9682a342b6c641de] total=6270.15ms | process=6269.15ms(x1) (wall6269.15), queue_wait=1.66ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=1.66ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=6269.15ms wall=6270.05ms dominant=other
+2026-11-07 23:26:26 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-11-07 23:26:26 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
