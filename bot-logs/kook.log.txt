@@ -1,4 +1,4 @@
-# 更新于 2026-11-15 02:10:17 · 共 848 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-15 02:10:51 · 共 874 行（来源 huanmeng.log 末尾）
 2026-11-15 01:09:55 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-15 01:09:56 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-15 01:10:35 INFO  events:94         ==================================================
@@ -847,3 +847,29 @@
 2026-11-15 02:10:04 INFO  pc_status:201     收到 lyric_event [延迟=907ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 02:10:06 INFO  pc_status:201     收到 lyric_event [延迟=714ms]: '**地铁依旧开往熟悉的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 02:10:16 INFO  pc_status:201     收到 lyric_event [延迟=3970ms]: '**只是再没人靠在我肩膀**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:20 INFO  pc_status:201     收到 lyric_event [延迟=638ms]: '**你送的外套还带着香**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:28 INFO  pc_status:201     收到 lyric_event [延迟=1981ms]: '**怎么遗忘比想念还要漫长**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:33 INFO  pc_status:201     收到 lyric_event [延迟=-737ms]: '**天气预报说今夜会有霜降**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:36 INFO  pc_status:201     收到 lyric_event [延迟=-983ms]: '**我关掉了你留下的那扇窗**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:42 INFO  pc_status:201     收到 lyric_event [延迟=-1070ms]: '**忽然明白有些温暖不能私藏**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:44 INFO  qq_bot:225        QQ 事件到达 t=GROUP_AT_MESSAGE_CREATE
+2026-11-15 02:10:44 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' 早上好' mentions=0 content='早上好' atts=0 ref=False msg_type=0
+2026-11-15 02:10:45 INFO  qq_bot:447        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '早上好'
+2026-11-15 02:10:45 INFO  qq_bot:458        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rEqPgdZtMuApzIIO8PgqB0hQyRruVKiwldh4o6AusFi5kujLow2d70eLOYd5qKEZRd4dfZnHiq8ODTkMjy4mnOvVAZ8hyGx8lEpG-reXU4Pt
+2026-11-15 02:10:45 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
+2026-11-15 02:10:45 DEBG  queues:82         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
+2026-11-15 02:10:45 INFO  pc_status:201     收到 lyric_event [延迟=-1516ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:45 INFO  identity:92       身份映射已载入 2 条
+2026-11-15 02:10:45 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
+2026-11-15 02:10:46 DEBG  pipeline:588      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='早上好'
+2026-11-15 02:10:46 INFO  pipeline:626      @机器人检测 → 直接回复
+2026-11-15 02:10:46 DEBG  pipeline:679      请求意图: intent=chat fast_search=False msg='早上好'
+2026-11-15 02:10:46 DEBG  planner:203       Agent: 闲聊短句，保持 Fast Path: '早上好'
+2026-11-15 02:10:46 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
+2026-11-15 02:10:46 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=219.0ms
+2026-11-15 02:10:46 DEBG  pipeline:883      extra_info 按预算丢弃 1 项: ['memory:memory']
+2026-11-15 02:10:46 INFO  pipeline:887      额外信息: 264字 (memory=0 search=0)
+2026-11-15 02:10:46 INFO  pipeline:1024     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
+2026-11-15 02:10:46 DEBG  pipeline:1153     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
+2026-11-15 02:10:46 INFO  pipeline:1160     开始生成回复: speaker=若尘 ~喵 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-11-15 02:10:49 INFO  pc_status:201     收到 lyric_event [延迟=-1814ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
