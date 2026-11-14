@@ -1,19 +1,4 @@
-# 更新于 2026-11-15 04:33:06 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-15 02:10:55 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 2 条
-2026-11-15 02:10:55 INFO  pipeline:1656     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
-2026-11-15 02:10:55 INFO  logger:541        [TRACE 2c34c248163b4ddd] total=10064.79ms severity=very_slow_request | llm_calls=1 total=7896.99ms avg=7896.99ms max=7896.99ms p50=7896.99 p95=7896.99 p99=7896.99 | json_parse=4.33ms(x1), llm=8687.92ms(x1), memory=439.74ms(x2), process=10040.43ms(x1) (wall10040.43), queue_wait=227.16ms(x1)
-2026-11-15 02:10:55 WARN  logger:559        [VERY_SLOW 2c34c248163b4ddd] total=10067.41ms 需重点排查 | json_parse=4.33ms(x1), llm=8687.92ms(x1), memory=439.74ms(x2), process=10040.43ms(x1) (wall10040.43), queue_wait=227.16ms(x1) | llm_calls=1 total=7896.99ms avg=7896.99ms max=7896.99ms p50=7896.99 p95=7896.99 p99=7896.99 | perf: queue=227.16ms llm=8692.25ms search_tool=0.0ms delivery=0.0ms other=10480.17ms wall=10067.06ms dominant=other
-2026-11-15 02:10:55 DEBG  response_delivery:303 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
-2026-11-15 02:10:55 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
-2026-11-15 02:10:56 INFO  llm:544           LLM [deepseek-flash] 返回 158字符 耗时0.8s → "[02:10:55] 若尘 ~喵: 早上好, 茂密: 早上好呀主人～不过这个点2点10分，是早上还是..."
-2026-11-15 02:10:56 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 2条消息 → 保存
-2026-11-15 02:10:56 INFO  pc_status:201     收到 lyric_event [延迟=-2407ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
-2026-11-15 02:10:56 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=55 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6YJNLruTm9QBf2YcT0N62a16r-SrwT-KhgAkZnwJYw0S1RBrDnkHHtmLFr8EB9JtQ!!
-2026-11-15 02:11:01 INFO  pc_status:201     收到 lyric_event [延迟=16ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
-2026-11-15 02:11:02 INFO  qq_transport:711  QQ 分片上传成功 file=tmppn0jdnbt.webp size=40672 ttl=86400
-2026-11-15 02:11:05 INFO  pc_status:201     收到 lyric_event [延迟=329ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
-2026-11-15 02:11:05 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8fyJ7Y-Q5B3V8yXnihYLaAD9a0VRa59nqkXsIcSaJ2gLqv0wqKjFJnZkacV42Ilrg!!
-2026-11-15 02:11:05 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k00id.png (.webp 40672B)
+# 更新于 2026-11-15 04:33:36 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-15 02:11:05 DEBG  response_delivery:317 已发送第 1/1 条: 早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj...
 2026-11-15 02:11:05 DEBG  response_delivery:319 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
 2026-11-15 02:11:05 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
@@ -1499,3 +1484,18 @@
 2026-11-15 04:31:47 INFO  pc_status:201     收到 lyric_event [延迟=683ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:31:50 INFO  pc_status:201     收到 lyric_event [延迟=497ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:31:55 INFO  pc_status:201     收到 lyric_event [延迟=301ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=808ms]: '**那盏路灯下你曾说的永远**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=803ms]: '**如今只剩我独自数着时间**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=788ms]: '**相册里合照还留着昨天**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=757ms]: '**怎么微笑越甜 回忆越难吞咽**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=741ms]: '**咖啡凉了又热 像我的等待**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=711ms]: '**街角那家店换了招牌**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=679ms]: '**你爱的歌还在播放列表里徘徊**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:06 INFO  pc_status:201     收到 lyric_event [延迟=650ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:07 INFO  pc_status:201     收到 lyric_event [延迟=996ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:11 INFO  pc_status:201     收到 lyric_event [延迟=845ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:15 INFO  pc_status:201     收到 lyric_event [延迟=620ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:17 INFO  pc_status:201     收到 lyric_event [延迟=569ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:21 INFO  pc_status:201     收到 lyric_event [延迟=898ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:24 INFO  pc_status:201     收到 lyric_event [延迟=743ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:33:29 INFO  pc_status:201     收到 lyric_event [延迟=553ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
