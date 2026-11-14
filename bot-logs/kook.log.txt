@@ -1,18 +1,4 @@
-# 更新于 2026-11-15 04:29:30 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-15 02:10:44 DEBG  qq_bot:277        QQ 事件摘要: t=group=True raw=' 早上好' mentions=0 content='早上好' atts=0 ref=False msg_type=0
-2026-11-15 02:10:45 INFO  qq_bot:447        QQ 消息 [chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E group=True from=若尘 ⁧~喵⁧ role=member union=-]: '早上好'
-2026-11-15 02:10:45 INFO  qq_bot:458        QQ 登记被动窗口 openid=E8A10E075AB6D6B650F2C6BE6AB0553E group=True msg_id=ROBOT1.0_0vQX-q1a9dMD0Q3Rz3E0rEqPgdZtMuApzIIO8PgqB0hQyRruVKiwldh4o6AusFi5kujLow2d70eLOYd5qKEZRd4dfZnHiq8ODTkMjy4mnOvVAZ8hyGx8lEpG-reXU4Pt
-2026-11-15 02:10:45 INFO  queues:32         [队列] 创建群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 的独立消息队列
-2026-11-15 02:10:45 DEBG  queues:82         [队列] 群qq:E8A10E075AB6D6B650F2C6BE6AB0553E 消息已入队 (队长度=1)
-2026-11-15 02:10:45 INFO  pc_status:201     收到 lyric_event [延迟=-1516ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
-2026-11-15 02:10:45 INFO  identity:92       身份映射已载入 2 条
-2026-11-15 02:10:45 INFO  memory:432        长时记忆溢出缓冲: chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E +1 = 1条 (阈值=10)
-2026-11-15 02:10:46 DEBG  pipeline:588      回复判断: is_mentioned=True is_group=True bot_qq=1905287158 content='早上好'
-2026-11-15 02:10:46 INFO  pipeline:626      @机器人检测 → 直接回复
-2026-11-15 02:10:46 DEBG  pipeline:679      请求意图: intent=chat fast_search=False msg='早上好'
-2026-11-15 02:10:46 DEBG  planner:203       Agent: 闲聊短句，保持 Fast Path: '早上好'
-2026-11-15 02:10:46 DEBG  gateway:198       Agent: 无需规划(简单消息/intent=chat)，保持 Fast Path
-2026-11-15 02:10:46 DEBG  memory:331        记忆检索: source=legacy_file status=hit 命中注入=10 耗时=219.0ms
+# 更新于 2026-11-15 04:30:18 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-15 02:10:46 DEBG  pipeline:883      extra_info 按预算丢弃 1 项: ['memory:memory']
 2026-11-15 02:10:46 INFO  pipeline:887      额外信息: 264字 (memory=0 search=0)
 2026-11-15 02:10:46 INFO  pipeline:1024     system_context: 4000字 caps=1 tools=1 (system=2142 skill=0)
@@ -1499,3 +1485,17 @@
 2026-11-15 04:28:47 INFO  pc_status:201     收到 lyric_event [延迟=43ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:28:52 INFO  pc_status:201     收到 lyric_event [延迟=1053ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:29:00 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=若尘 - 我在等这一束光（播放中）CPU=28% 内存=78%
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-534ms]: '**那盏路灯下你曾说的永远**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-545ms]: '**如今只剩我独自数着时间**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-577ms]: '**相册里合照还留着昨天**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-608ms]: '**怎么微笑越甜 回忆越难吞咽**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-638ms]: '**咖啡凉了又热 像我的等待**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-654ms]: '**街角那家店换了招牌**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-684ms]: '**你爱的歌还在播放列表里徘徊**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:02 INFO  pc_status:201     收到 lyric_event [延迟=-700ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:03 INFO  pc_status:201     收到 lyric_event [延迟=-425ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:06 INFO  pc_status:201     收到 lyric_event [延迟=-971ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:10 INFO  pc_status:201     收到 lyric_event [延迟=-1537ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:12 INFO  pc_status:201     收到 lyric_event [延迟=-1869ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:15 INFO  pc_status:201     收到 lyric_event [延迟=-1926ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:30:18 INFO  pc_status:201     收到 lyric_event [延迟=-2388ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
