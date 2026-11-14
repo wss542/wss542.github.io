@@ -1,13 +1,4 @@
-# 更新于 2026-11-15 04:31:22 · 共 1500 行（来源 huanmeng.log 末尾）
-2026-11-15 02:10:54 INFO  pc_status:201     收到 lyric_event [延迟=-2072ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
-2026-11-15 02:10:54 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
-2026-11-15 02:10:55 INFO  qq_bot:192        QQ HELLO interval=41250
-2026-11-15 02:10:55 INFO  qq_bot:225        QQ 事件到达 t=READY
-2026-11-15 02:10:55 INFO  llm:1095          LLM 首调用选择模型: deepseek-ai/DeepSeek-V4.1-Flash-1017 (content={"replies":["早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","还没睡？快躺下休息啦，我陪你聊两句就乖乖去睡～"],"fav":3,"calls":[],"face":null,"mood":"开心","action":"歪头看你","at":null,"mode":null,"ori... tool_calls=0)
-2026-11-15 02:10:55 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","还没睡？快躺下休息啦，我陪你聊两句就乖乖去睡～"],"fav":3,"calls":[],"face":null,"mood":"开心","action":"歪头看你","at":null,"mode":null,"ori | tool_calls=0
-2026-11-15 02:10:55 INFO  llm:1462          JSON回复解析: 2句 fav=+3 calls=0 mood=开心
-2026-11-15 02:10:55 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +3 → 100
-2026-11-15 02:10:55 INFO  pipeline:1650     好感度调整: 若尘 ~喵 +3 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+# 更新于 2026-11-15 04:31:55 · 共 1500 行（来源 huanmeng.log 末尾）
 2026-11-15 02:10:55 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 2 条
 2026-11-15 02:10:55 INFO  pipeline:1656     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
 2026-11-15 02:10:55 INFO  logger:541        [TRACE 2c34c248163b4ddd] total=10064.79ms severity=very_slow_request | llm_calls=1 total=7896.99ms avg=7896.99ms max=7896.99ms p50=7896.99 p95=7896.99 p99=7896.99 | json_parse=4.33ms(x1), llm=8687.92ms(x1), memory=439.74ms(x2), process=10040.43ms(x1) (wall10040.43), queue_wait=227.16ms(x1)
@@ -1499,3 +1490,12 @@
 2026-11-15 04:31:08 INFO  pc_status:201     收到 lyric_event [延迟=814ms]: '**怎么遗忘比想念还要漫长**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:31:16 INFO  pc_status:201     收到 lyric_event [延迟=1073ms]: '**天气预报说今夜会有霜降**' song=若尘 - 我在等这一束光 playing=True channel=None
 2026-11-15 04:31:19 INFO  pc_status:201     收到 lyric_event [延迟=93ms]: '**我关掉了你留下的那扇窗**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:23 INFO  pc_status:201     收到 lyric_event [延迟=1004ms]: '**忽然明白有些温暖不能私藏**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:29 INFO  pc_status:201     收到 lyric_event [延迟=599ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:33 INFO  pc_status:201     收到 lyric_event [延迟=960ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:37 INFO  pc_status:201     收到 lyric_event [延迟=676ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:41 INFO  pc_status:201     收到 lyric_event [延迟=617ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:43 INFO  pc_status:201     收到 lyric_event [延迟=456ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:47 INFO  pc_status:201     收到 lyric_event [延迟=683ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:50 INFO  pc_status:201     收到 lyric_event [延迟=497ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 04:31:55 INFO  pc_status:201     收到 lyric_event [延迟=301ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
