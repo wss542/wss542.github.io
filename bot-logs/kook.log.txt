@@ -1,4 +1,4 @@
-# 更新于 2026-11-15 02:10:51 · 共 874 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-15 02:11:39 · 共 904 行（来源 huanmeng.log 末尾）
 2026-11-15 01:09:55 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-15 01:09:56 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-15 01:10:35 INFO  events:94         ==================================================
@@ -873,3 +873,33 @@
 2026-11-15 02:10:46 DEBG  pipeline:1153     Fast Path: 普通聊天跳过自动搜索 (intent=chat)
 2026-11-15 02:10:46 INFO  pipeline:1160     开始生成回复: speaker=若尘 ~喵 chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
 2026-11-15 02:10:49 INFO  pc_status:201     收到 lyric_event [延迟=-1814ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:53 INFO  qq_bot:208        QQ RECONNECT requested
+2026-11-15 02:10:54 INFO  pc_status:201     收到 lyric_event [延迟=-2072ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:54 INFO  qq_bot:160        QQ gateway: wss://api.sgroup.qq.com/websocket
+2026-11-15 02:10:55 INFO  qq_bot:192        QQ HELLO interval=41250
+2026-11-15 02:10:55 INFO  qq_bot:225        QQ 事件到达 t=READY
+2026-11-15 02:10:55 INFO  llm:1095          LLM 首调用选择模型: deepseek-ai/DeepSeek-V4.1-Flash-1017 (content={"replies":["早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","还没睡？快躺下休息啦，我陪你聊两句就乖乖去睡～"],"fav":3,"calls":[],"face":null,"mood":"开心","action":"歪头看你","at":null,"mode":null,"ori... tool_calls=0)
+2026-11-15 02:10:55 INFO  llm:1114          LLM原始输出 [轮1]: content={"replies":["早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj)疑问(emj)[3090677846298039/CrAg5pE6oq0k00id]","还没睡？快躺下休息啦，我陪你聊两句就乖乖去睡～"],"fav":3,"calls":[],"face":null,"mood":"开心","action":"歪头看你","at":null,"mode":null,"ori | tool_calls=0
+2026-11-15 02:10:55 INFO  llm:1462          JSON回复解析: 2句 fav=+3 calls=0 mood=开心
+2026-11-15 02:10:55 INFO  fav:128           好感度更新: gqq:E8A10E075AB6D6B650F2C6BE6AB0553E:qq:63C251709C77FDEE87FC502F866E3FB5 +3 → 100
+2026-11-15 02:10:55 INFO  pipeline:1650     好感度调整: 若尘 ~喵 +3 (chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E)
+2026-11-15 02:10:55 INFO  memory:414        触发自动记忆 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]: 2 条
+2026-11-15 02:10:55 INFO  pipeline:1656     ✅ 管道处理完成: 1句 sent chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-11-15 02:10:55 INFO  logger:541        [TRACE 2c34c248163b4ddd] total=10064.79ms severity=very_slow_request | llm_calls=1 total=7896.99ms avg=7896.99ms max=7896.99ms p50=7896.99 p95=7896.99 p99=7896.99 | json_parse=4.33ms(x1), llm=8687.92ms(x1), memory=439.74ms(x2), process=10040.43ms(x1) (wall10040.43), queue_wait=227.16ms(x1)
+2026-11-15 02:10:55 WARN  logger:559        [VERY_SLOW 2c34c248163b4ddd] total=10067.41ms 需重点排查 | json_parse=4.33ms(x1), llm=8687.92ms(x1), memory=439.74ms(x2), process=10040.43ms(x1) (wall10040.43), queue_wait=227.16ms(x1) | llm_calls=1 total=7896.99ms avg=7896.99ms max=7896.99ms p50=7896.99 p95=7896.99 p99=7896.99 | perf: queue=227.16ms llm=8692.25ms search_tool=0.0ms delivery=0.0ms other=10480.17ms wall=10067.06ms dominant=other
+2026-11-15 02:10:55 DEBG  response_delivery:303 开始分批发送 1 条句子 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E is_group=True
+2026-11-15 02:10:55 INFO  llm:482           调用LLM [deepseek-flash] url=v1 tokens=800 temp=0.2 timeout=20.0s
+2026-11-15 02:10:56 INFO  llm:544           LLM [deepseek-flash] 返回 158字符 耗时0.8s → "[02:10:55] 若尘 ~喵: 早上好, 茂密: 早上好呀主人～不过这个点2点10分，是早上还是..."
+2026-11-15 02:10:56 INFO  memory:223        [qq:E8A10E075AB6D6B650F2C6BE6AB0553E] 压缩完成: 2条消息 → 保存
+2026-11-15 02:10:56 INFO  pc_status:201     收到 lyric_event [延迟=-2407ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:10:56 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=0 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=55 seq=1 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp6YJNLruTm9QBf2YcT0N62a16r-SrwT-KhgAkZnwJYw0S1RBrDnkHHtmLFr8EB9JtQ!!
+2026-11-15 02:11:01 INFO  pc_status:201     收到 lyric_event [延迟=16ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:11:02 INFO  qq_transport:711  QQ 分片上传成功 file=tmppn0jdnbt.webp size=40672 ttl=86400
+2026-11-15 02:11:05 INFO  pc_status:201     收到 lyric_event [延迟=329ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:11:05 INFO  qq_transport:308  QQ 群发送成功(被动) msg_type=7 openid=E8A10E075AB6D6B650F2C6BE6AB0553E len=0 seq=2 id=ROBOT1.0_wmr4f3gU5dN3DwlDSRCDp8fyJ7Y-Q5B3V8yXnihYLaAD9a0VRa59nqkXsIcSaJ2gLqv0wqKjFJnZkacV42Ilrg!!
+2026-11-15 02:11:05 DEBG  qq_transport:457  QQ 表情图已发送: https://img.kookapp.cn/emojis/3090677846298039/CrAg5pE6oq0k00id.png (.webp 40672B)
+2026-11-15 02:11:05 DEBG  response_delivery:317 已发送第 1/1 条: 早上好呀主人～不过这个点2点10分，是早上还是半夜呀(emj...
+2026-11-15 02:11:05 DEBG  response_delivery:319 分批发送完成: 共 1 条 → chat=qq:E8A10E075AB6D6B650F2C6BE6AB0553E
+2026-11-15 02:11:05 DEBG  context_manager:139 发送任务已清理 [qq:E8A10E075AB6D6B650F2C6BE6AB0553E]
+2026-11-15 02:11:08 INFO  pc_status:201     收到 lyric_event [延迟=281ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-15 02:11:13 INFO  pc_status:201     收到 lyric_event [延迟=403ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
