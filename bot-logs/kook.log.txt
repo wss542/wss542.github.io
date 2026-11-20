@@ -1,4 +1,4 @@
-# 更新于 2026-11-21 01:13:14 · 共 424 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-21 01:13:51 · 共 430 行（来源 huanmeng.log 末尾）
 2026-11-21 00:58:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-21 00:58:49 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-21 00:58:55 INFO  events:94         ==================================================
@@ -423,3 +423,9 @@
 2026-11-21 01:11:40 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
 2026-11-21 01:12:11 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=36.4 mem=49.2
 2026-11-21 01:12:11 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 01:13:19 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
+2026-11-21 01:13:20 WARN  pc_status:227     PC 客户端连接重置: [Errno 104] Connection reset by peer
+2026-11-21 01:13:20 INFO  pc_status:238     PC 客户端断开连接
+2026-11-21 01:13:35 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=42.9 mem=49.2
+2026-11-21 01:13:35 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 16s）
+2026-11-21 01:13:44 INFO  changelog:132     [Playwright] 空闲 5 分钟 → 已回收 Chromium（下次截图冷启动）
