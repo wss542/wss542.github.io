@@ -1,4 +1,4 @@
-# 更新于 2026-11-21 02:22:40 · 共 1097 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-21 02:23:26 · 共 1105 行（来源 huanmeng.log 末尾）
 2026-11-21 00:58:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-21 00:58:49 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-21 00:58:55 INFO  events:94         ==================================================
@@ -1096,3 +1096,11 @@
 2026-11-21 02:22:08 WARN  phone_status:610  WSS 回填拉取失败 source=mac_status_reporter: <urlopen error [Errno -2] Name or service not known>（后续同类失败将静默）
 2026-11-21 02:22:24 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=43.3 mem=55.0
 2026-11-21 02:22:24 INFO  phone_status:643  WSS 回填恢复 source=mac_status_reporter device=Mac（中断 16s）
+2026-11-21 02:22:52 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-11-21 02:22:52 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-11-21 02:22:54 INFO  pc_status:149     PC 心跳 Longwan-PC 音乐=若尘 - 我在等这一束光（播放中）CPU=44% 内存=98%
+2026-11-21 02:22:54 INFO  pc_status:201     收到 lyric_event [延迟=10181ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 02:23:07 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=72.6 mem=55.0
+2026-11-21 02:23:07 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 02:23:07 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
+2026-11-21 02:23:07 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
