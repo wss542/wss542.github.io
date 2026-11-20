@@ -1,4 +1,4 @@
-# 更新于 2026-11-21 01:36:10 · 共 583 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-21 01:36:43 · 共 616 行（来源 huanmeng.log 末尾）
 2026-11-21 00:58:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-21 00:58:49 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-21 00:58:55 INFO  events:94         ==================================================
@@ -582,3 +582,36 @@
 2026-11-21 01:35:55 WARN  logger:564        [SLOW 5030093ca4dd482d] total=5065.13ms | process=5064.67ms(x1) (wall5064.67), queue_wait=0.47ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.47ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=5064.67ms wall=5065.11ms dominant=other
 2026-11-21 01:35:59 INFO  phone_status:59   设备状态已更新: device=iPhone music=False batt=100 cpu=None mem=None
 2026-11-21 01:35:59 INFO  phone_status:645  WSS 回填成功 source=iphone_status device=iPhone
+2026-11-21 01:36:14 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=30.0 mem=49.5
+2026-11-21 01:36:14 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 01:36:15 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:36:15 DEBG  dispatcher:47     dispatch 入口: type=9 content='/pc jp' is_edit=False
+2026-11-21 01:36:15 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=2802355476365567
+2026-11-21 01:36:15 INFO  dispatcher:316    📩 消息 #2 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=2802355476365567 | group=True | content='/pc jp'
+2026-11-21 01:36:15 DEBG  queues:82         [队列] 群2802355476365567 消息已入队 (队长度=1)
+2026-11-21 01:36:15 INFO  pipeline:524      指令拦截: '/pc jp' from=ywandwss
+2026-11-21 01:36:15 DEBG  commands:5384     指令解析: prefix=/ cmd=pc args=['jp'] user=1759953618
+2026-11-21 01:36:22 INFO  commands:5441     指令执行完成 [pc]: 无返回值（已自行发送）
+2026-11-21 01:36:22 INFO  logger:541        [TRACE 8b71e781a8b748ff] total=7152.52ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=7152.36ms(x1) (wall7152.36), queue_wait=0.38ms(x1)
+2026-11-21 01:36:22 WARN  logger:564        [SLOW 8b71e781a8b748ff] total=7153.25ms | process=7152.36ms(x1) (wall7152.36), queue_wait=0.38ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.38ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=7152.36ms wall=7153.19ms dominant=other
+2026-11-21 01:36:24 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:36:24 DEBG  dispatcher:47     dispatch 入口: type=9 content='/签到' is_edit=False
+2026-11-21 01:36:24 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=2802355476365567
+2026-11-21 01:36:24 INFO  dispatcher:316    📩 消息 #3 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=2802355476365567 | group=True | content='/签到'
+2026-11-21 01:36:24 DEBG  queues:82         [队列] 群2802355476365567 消息已入队 (队长度=1)
+2026-11-21 01:36:24 INFO  pipeline:524      指令拦截: '/签到' from=ywandwss
+2026-11-21 01:36:24 DEBG  commands:5384     指令解析: prefix=/ cmd=签到 args=[] user=1759953618
+2026-11-21 01:36:24 INFO  checkin:117       签到: u:1759953618 streak=1 +5分
+2026-11-21 01:36:24 INFO  commands:5439     指令执行完成 [签到]: 返回43字符
+2026-11-21 01:36:24 INFO  logger:541        [TRACE c0fcc80b27684fac] total=500.17ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=500.04ms(x1) (wall500.04), queue_wait=0.54ms(x1)
+2026-11-21 01:36:33 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:36:33 DEBG  dispatcher:47     dispatch 入口: type=9 content='/sys' is_edit=False
+2026-11-21 01:36:33 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=2802355476365567
+2026-11-21 01:36:33 INFO  dispatcher:316    📩 消息 #4 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=2802355476365567 | group=True | content='/sys'
+2026-11-21 01:36:33 DEBG  queues:82         [队列] 群2802355476365567 消息已入队 (队长度=1)
+2026-11-21 01:36:33 INFO  pipeline:524      指令拦截: '/sys' from=ywandwss
+2026-11-21 01:36:33 DEBG  commands:5384     指令解析: prefix=/ cmd=sys args=[] user=1759953618
+2026-11-21 01:36:33 INFO  changelog:928     [Card] 正在截图 → sysiph_88cad446.jpg (15262 bytes HTML)
+2026-11-21 01:36:33 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_88cad446.jpg size=482.5KB
+2026-11-21 01:36:34 INFO  commands:5441     指令执行完成 [sys]: 无返回值（已自行发送）
+2026-11-21 01:36:34 INFO  logger:541        [TRACE 1d15c515c4f9447e] total=1575.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1575.57ms(x1) (wall1575.57), queue_wait=0.2ms(x1)
