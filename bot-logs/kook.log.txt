@@ -1,4 +1,4 @@
-# 更新于 2026-11-21 01:36:43 · 共 616 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-21 01:37:40 · 共 656 行（来源 huanmeng.log 末尾）
 2026-11-21 00:58:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-21 00:58:49 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-21 00:58:55 INFO  events:94         ==================================================
@@ -615,3 +615,43 @@
 2026-11-21 01:36:33 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_88cad446.jpg size=482.5KB
 2026-11-21 01:36:34 INFO  commands:5441     指令执行完成 [sys]: 无返回值（已自行发送）
 2026-11-21 01:36:34 INFO  logger:541        [TRACE 1d15c515c4f9447e] total=1575.62ms severity=normal | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=1575.57ms(x1) (wall1575.57), queue_wait=0.2ms(x1)
+2026-11-21 01:36:46 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=50.9 mem=49.4
+2026-11-21 01:36:46 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 01:37:15 DEBG  bot:280           🧩 _consume_pkg pkg type=9 extra.type=9 keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:37:15 DEBG  dispatcher:47     dispatch 入口: type=9 content='/sys jp' is_edit=False
+2026-11-21 01:37:15 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=2802355476365567
+2026-11-21 01:37:15 INFO  dispatcher:316    📩 消息 #5 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=2802355476365567 | group=True | content='/sys jp'
+2026-11-21 01:37:15 DEBG  queues:82         [队列] 群2802355476365567 消息已入队 (队长度=1)
+2026-11-21 01:37:15 INFO  pipeline:524      指令拦截: '/sys jp' from=ywandwss
+2026-11-21 01:37:15 DEBG  commands:5384     指令解析: prefix=/ cmd=sys args=['jp'] user=1759953618
+2026-11-21 01:37:15 INFO  changelog:928     [Card] 正在截图 → sysiph_c2b5448e.jpg (15264 bytes HTML)
+2026-11-21 01:37:16 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/sysiph_c2b5448e.jpg size=482.5KB
+2026-11-21 01:37:18 INFO  commands:5441     指令执行完成 [sys]: 无返回值（已自行发送）
+2026-11-21 01:37:18 INFO  logger:541        [TRACE 069a9ecbb06642a1] total=3462.96ms severity=slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=3462.84ms(x1) (wall3462.84), queue_wait=3.28ms(x1)
+2026-11-21 01:37:18 WARN  logger:564        [SLOW 069a9ecbb06642a1] total=3463.4ms | process=3462.84ms(x1) (wall3462.84), queue_wait=3.28ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=3.28ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=3462.84ms wall=3463.37ms dominant=other
+2026-11-21 01:37:23 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=32.7 mem=49.5
+2026-11-21 01:37:23 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 01:37:28 INFO  pc_status:201     收到 lyric_event [延迟=2347ms]: '**相册里合照还留着昨天**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:28 INFO  pc_status:201     收到 lyric_event [延迟=-24ms]: '**怎么微笑越甜 回忆越难吞咽**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:28 INFO  pc_status:201     收到 lyric_event [延迟=-132ms]: '**咖啡凉了又热 像我的等待**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:28 INFO  pc_status:201     收到 lyric_event [延迟=-288ms]: '**街角那家店换了招牌**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:28 INFO  pc_status:201     收到 lyric_event [延迟=-567ms]: '**你爱的歌还在播放列表里徘徊**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=718ms]: '**我在等一束光 把回忆照亮**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=809ms]: '**好让我看清爱原来的模样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=778ms]: '**那些散落的誓言 飘在哪个远方**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=749ms]: '**是否你也曾回头望**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=739ms]: '**我在等一束光 穿透这迷惘**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=710ms]: '**照见我们最初相爱的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=678ms]: '**若时光能重来 会不会不一样**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:30 INFO  pc_status:201     收到 lyric_event [延迟=663ms]: '**至少好好说声再见**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:31 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:37:31 INFO  bot:347           ✏️ 编辑消息作者反查: id=1759953618 username=wss
+2026-11-21 01:37:31 INFO  bot:383           ✏️ 编辑消息 → dispatcher: mid=4bacb25d-1054-41f8-8253-8334fe1d7b61 chat=2802355476365567 type=255
+2026-11-21 01:37:31 DEBG  dispatcher:47     dispatch 入口: type=1 content='/mc  0 :25294' is_edit=True
+2026-11-21 01:37:31 DEBG  dispatcher:110    KMD 调试: is_group=True uid=1759953618 channel=2802355476365567
+2026-11-21 01:37:31 INFO  dispatcher:316    📩 消息 #6 | type=文字 | imgs=0 | videos=0 | quoted_imgs=0 | quoted_videos=0 | from=wss(1759953618) | chat=2802355476365567 | group=True | content='/mc  0 :25294'
+2026-11-21 01:37:31 DEBG  queues:82         [队列] 群2802355476365567 消息已入队 (队长度=1)
+2026-11-21 01:37:31 INFO  pipeline:524      指令拦截: '/mc  0 :25294' from=ywandwss
+2026-11-21 01:37:31 DEBG  commands:5384     指令解析: prefix=/ cmd=mc args=[' 0 :25294'] user=1759953618
+2026-11-21 01:37:32 INFO  motd_card:143     motd 9666.uno: SRV=无
+2026-11-21 01:37:40 INFO  changelog:928     [Card] 正在截图 → mc_card_9666_uno_25294.png (290419 bytes HTML)
