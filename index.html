@@ -1,192 +1,153 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="dark light">
-<title>yzandwss · 主页</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<title>yzandwss 的主页</title>
 <style>
-/* tasteskill 2.5.1 · kind=software/devtool · palette=blue-black-cornflower
-   one accent (#5ab9fc), quiet ground, equal edges, no gradient blob, no violet. */
-:root{
-  --bg:#0a0d14; --surface:#131824; --surface-2:#1a2232;
-  --ink:#e9edf3; --muted:#a0aabd; --faint:#748198;
-  --line:#222c3e; --line-2:#31405a;
-  --accent:#5ab9fc; --accent-ink:#04121e; --accent-soft:rgba(90,185,252,.12);
-  --ok:#3fb950; --r:10px;
-  --fd:'Geist','Noto Sans SC',system-ui,sans-serif;
-  --fb:'Geist','Noto Sans SC',system-ui,sans-serif;
-  --fm:'Geist Mono',ui-monospace,Menlo,Consolas,monospace;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:14px;line-height:1.65;
-  -webkit-font-smoothing:antialiased;font-feature-settings:'cv11','ss01';
-  min-height:100vh;
-}
-/* 细网格：只在顶部一条，替代原来的全屏光球 */
-body::before{content:'';position:fixed;inset:0 0 auto;height:320px;z-index:0;pointer-events:none;
-  background:
-    radial-gradient(620px 280px at 18% -20%,rgba(90,185,252,.11),transparent 68%),
-    linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
-  background-size:auto,32px 32px,32px 32px;
-  mask-image:linear-gradient(#000,transparent)}
-.wrap{position:relative;z-index:1;width:100%;max-width:980px;margin:0 auto;padding:56px 24px 72px}
-
-/* ── Hero：左对齐，一句话说清是谁 ── */
-.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:start;
-  padding-bottom:34px;border-bottom:1px solid var(--line)}
-.eyebrow{font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--accent);margin-bottom:14px;display:flex;align-items:center;gap:9px}
-.eyebrow::before{content:'';width:22px;height:2px;background:var(--accent);border-radius:2px}
-h1{font-family:var(--fd);font-size:clamp(28px,5.4vw,58px);font-weight:600;overflow-wrap:anywhere;
-  letter-spacing:-.045em;line-height:1.05;margin-bottom:12px}
-.lede{font-size:15px;color:var(--muted);max-width:52ch;line-height:1.75;overflow-wrap:anywhere}
-.meta{font-family:var(--fm);font-size:11.5px;color:var(--faint);margin-top:18px;
-  display:flex;gap:18px;flex-wrap:wrap}
-.meta b{color:var(--ink);font-weight:500}
-mark{background:var(--accent-soft);color:var(--accent);padding:1px 5px;border-radius:4px}
-
-/* 主题按钮：小、在角落、不抢戏 */
-.theme{width:38px;height:38px;border:1px solid var(--line);border-radius:10px;
-  background:var(--surface);color:var(--muted);cursor:pointer;font-size:16px;
-  transition:border-color .2s,color .2s,transform .2s}
-.theme:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-.theme:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-
-/* ── 状态条：四个数一行，等宽数字，细分隔 ── */
-.status{display:grid;grid-template-columns:repeat(4,1fr);gap:0;
-  margin:30px 0;border:1px solid var(--line);border-radius:var(--r);
-  background:var(--surface);overflow:hidden}
-.stat{padding:18px 20px;border-right:1px solid var(--line);transition:background .2s}
-.stat:last-child{border-right:none}
-.stat:hover{background:var(--surface-2)}
-.stat .l{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--faint);margin-bottom:8px;font-weight:500}
-.stat .v{font-family:var(--fd);font-size:26px;font-weight:600;letter-spacing:-.035em;
-  font-variant-numeric:tabular-nums;line-height:1.15}
-.stat .bar{height:3px;border-radius:2px;background:var(--line);margin-top:11px;overflow:hidden}
-.stat .bar i{display:block;height:100%;background:var(--accent);border-radius:2px;
-  transition:width .5s cubic-bezier(.2,.8,.2,1)}
-
-/* ── 标签：文字，不做胶囊墙 ── */
-.tags{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:26px;
-  font-family:var(--fm);font-size:11.5px;color:var(--faint)}
-.tags span::before{content:'/ ';color:var(--accent)}
-
-/* ── 链接：主次分层，不再是 9 个一模一样的按钮 ── */
-.sec-label{font-family:var(--fm);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--faint);margin:32px 0 14px;display:flex;align-items:center;gap:10px}
-.sec-label::after{content:'';flex:1;height:1px;background:var(--line)}
-.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.links a{
-  display:flex;align-items:center;justify-content:space-between;gap:12px;
-  padding:16px 18px;border:1px solid var(--line);border-radius:var(--r);
-  background:var(--surface);color:var(--ink);text-decoration:none;
-  font-size:14px;font-weight:500;transition:transform .2s,border-color .2s,background .2s;
-}
-.links a::after{content:'↗';font-family:var(--fm);font-size:14px;color:var(--faint);
-  transition:transform .2s,color .2s}
-.links a:hover{transform:translateY(-2px);border-color:var(--accent);background:var(--surface-2)}
-.links a:hover::after{transform:translate(2px,-2px);color:var(--accent)}
-.links a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.links a.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.links a.primary::after{color:var(--accent-ink)}
-.links a.primary:hover{background:#7ac8ff}
-.links a.wide{grid-column:1/-1}
-
-footer{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
-  font-family:var(--fm);font-size:11px;color:var(--faint);
-  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-
-/* 亮色：把 ground 反过来，accent 不变 */
-body.light{
-  --bg:#f7f9fb; --surface:#ffffff; --surface-2:#f1f4f8;
-  --ink:#101722; --muted:#4a5768; --faint:#6b7a8c;
-  --line:#dfe5ec; --line-2:#c6d1de;
-  --accent:#1265a8; --accent-ink:#ffffff; --accent-soft:rgba(18,101,168,.10);
-}
-body.light::before{
-  radial-gradient(620px 280px at 18% -20%,rgba(18,101,168,.10),transparent 68%),
-  linear-gradient(rgba(10,20,40,.025) 1px,transparent 1px),
-  linear-gradient(90deg,rgba(10,20,40,.025) 1px,transparent 1px)}
-
-@media(max-width:680px){
-  .wrap{padding:34px 16px 52px}
-  .hero{grid-template-columns:1fr;gap:16px}
-  .theme{position:absolute;right:16px;top:34px}
-  .status{grid-template-columns:1fr 1fr}
-  .stat:nth-child(2){border-right:none}
-  .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
-  .links{grid-template-columns:1fr}
-  .links a.wide{grid-column:auto}
-}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation:none!important;transition:none!important}
-}
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --bg1:#667eea; --bg2:#764ba2; --bg3:#6B8DD6; --bg4:#8E37D7;
+    --text:#ffffff;
+    --card-bg:rgba(255,255,255,0.12);
+    --card-border:rgba(255,255,255,0.25);
+    --btn-bg:rgba(255,255,255,0.15);
+    --btn-hover:rgba(255,255,255,0.30);
+    --tag-bg:rgba(255,255,255,0.15);
+    --chip-bg:rgba(255,255,255,0.15);
+  }
+  body.dark{
+    --bg1:#0f0c29; --bg2:#302b63; --bg3:#24243e; --bg4:#1a1a2e;
+    --text:#e8e8f0;
+    --card-bg:rgba(18,18,38,0.45);
+    --card-border:rgba(255,255,255,0.12);
+    --btn-bg:rgba(255,255,255,0.08);
+    --btn-hover:rgba(255,255,255,0.18);
+    --tag-bg:rgba(255,255,255,0.08);
+    --chip-bg:rgba(255,255,255,0.08);
+  }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4));
+    background-size: 400% 400%;
+    animation: flow 15s ease infinite;
+    min-height: 100vh; display:flex; align-items:center; justify-content:center;
+    color: var(--text);
+    transition: color .3s;
+  }
+  @keyframes flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  /* ===== 动效 ===== */
+  .bg-orbs{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+  .bg-orbs span{position:absolute;border-radius:50%;filter:blur(42px);opacity:.55}
+  .bg-orbs span:nth-child(1){width:340px;height:340px;left:-60px;top:-40px;background:radial-gradient(circle at 30% 30%, #ff9ec7cc, #ff9ec700);animation:orbFloat 14s ease-in-out infinite}
+  .bg-orbs span:nth-child(2){width:280px;height:280px;right:-50px;top:28%;background:radial-gradient(circle at 30% 30%, #9ec7ffcc, #9ec7ff00);animation:orbFloat 18s ease-in-out infinite reverse}
+  .bg-orbs span:nth-child(3){width:240px;height:240px;left:18%;bottom:-60px;background:radial-gradient(circle at 30% 30%, #d79effcc, #d79eff00);animation:orbFloat 22s ease-in-out infinite}
+  @keyframes orbFloat{0%{transform:translate(0,0)}50%{transform:translate(34px,42px)}100%{transform:translate(0,0)}}
+  .card{animation:cardIn .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes cardIn{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:none}}
+  .card > *{animation:riseIn .6s ease both}
+  .card > *:nth-child(1){animation-delay:.08s}
+  .card > *:nth-child(2){animation-delay:.16s}
+  .card > *:nth-child(3){animation-delay:.24s}
+  .card > *:nth-child(4){animation-delay:.32s}
+  .card > *:nth-child(5){animation-delay:.40s}
+  .card > *:nth-child(6){animation-delay:.48s}
+  @keyframes riseIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .links a,.links button{position:relative;overflow:hidden}
+  .links a::after,.links button::after{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;
+    background:linear-gradient(120deg,transparent,rgba(255,255,255,.38),transparent);transform:skewX(-20deg);transition:left .55s}
+  .links a:hover::after,.links button:hover::after{left:140%}
+  .clock{animation:riseIn .6s ease .16s both, clockPulse 4s 1.36s ease-in-out infinite}
+  @keyframes clockPulse{0%,100%{opacity:.8}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important}
+    .bg-orbs{display:none}
+  }
+  .card {
+    background: var(--card-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border); border-radius: 20px;
+    padding: 44px 40px; text-align:center; max-width: 460px; width: 92%;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    transition: background .3s, border-color .3s;
+  }
+  h1 { font-size:28px; font-weight:600; margin-bottom:6px; letter-spacing:1px; }
+  .clock { font-size:13px; opacity:0.8; margin-bottom:14px; }
+  .bio { font-size:15px; opacity:0.9; line-height:1.6; margin-bottom:18px; min-height:48px; }
+  .tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:6px; }
+  .tags span {
+    background: var(--tag-bg); padding:5px 12px; border-radius:999px; font-size:12px;
+    transition: background .3s;
+  }
+  /* ===== 控制台状态卡片 ===== */
+  .status { margin:16px 0 20px; display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .stat { background:var(--chip-bg); border:1px solid var(--card-border); border-radius:12px; padding:10px 12px; text-align:left; transition: background .3s, border-color .3s; }
+  .stat .l { font-size:11px; opacity:.7; letter-spacing:.5px; }
+  .stat .v { font-size:18px; font-weight:600; margin-top:2px; }
+  .bar { height:5px; border-radius:3px; background:rgba(255,255,255,.18); margin-top:7px; overflow:hidden; }
+  .bar i { display:block; height:100%; width:0; background:linear-gradient(90deg,#43e97b,#38f9d7); transition:width .6s ease; }
+  .links a, .links button {
+    display:block; width:100%; text-align:center; text-decoration:none; color:var(--text);
+    background: var(--btn-bg); border:none; font:inherit; cursor:pointer;
+    padding:13px; border-radius:12px; margin:10px 0; transition:0.2s; font-size:15px;
+  }
+  .links a:hover, .links button:hover { background: var(--btn-hover); transform: translateY(-2px); }
+  #qqmsg { min-height:20px; margin-top:6px; font-size:14px; font-weight:600; }
+  footer { margin-top:24px; font-size:12px; opacity:0.6; }
+  .links a, .links button { -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
+  /* ===== 暗/亮 切换按钮 ===== */
+  .theme-toggle{position:fixed;top:16px;right:16px;z-index:60;width:44px;height:44px;border-radius:50%;
+    border:1px solid var(--card-border);background:var(--card-bg);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    color:var(--text);font-size:19px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s}
+  .theme-toggle:hover{background:var(--btn-hover)}
+  @media (max-width:480px){
+    .card { padding:30px 20px; }
+    h1 { font-size:24px; }
+    .links a, .links button { padding:12px; font-size:14px; }
+    .status { grid-template-columns:1fr 1fr; }
+  }
 </style>
 </head>
-<body class="">
-<div class="wrap">
-  <header class="hero">
-    <div>
-      <div class="eyebrow">yzandwss / personal hub</div>
-      <h1>你好，我是 yzandwss</h1>
-      <p class="lede"><span id="typed">热爱折腾的岩游玩家，在我的小破站搭建自己的小小世界。</span><br>
-         这里收集了我的日志、机器人、聊天入口和一些随手做的小工具。</p>
-      <div class="meta"><span>本地时间 <b id="clock">--:--:--</b></span><span>访客 <b id="visitors">--</b></span></div>
+<body>
+  <div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(28,16,54,.97);color:#fff;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
+    <div style="font-size:46px;margin-bottom:14px">🔒</div>
+    <div style="font-size:19px;font-weight:700;margin-bottom:10px">已暂停访问</div>
+    <div style="font-size:14px;color:#c9c9d6;line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>为保护访问安全，本页面已停止响应。<br>请关闭开发者工具（F12）后<strong>刷新页面</strong>重新进入。</div>
+  </div>
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换暗/亮">🌙</button>
+  <div class="bg-orbs"><span></span><span></span><span></span></div>
+  <div class="card">
+    <h1>yzandwss</h1>
+    <p class="clock" id="clock"></p>
+    <p class="bio" id="typed"></p>
+    <div class="tags">
+      <span>南梁</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span>
     </div>
-    <button class="theme" id="themeToggle" title="切换明暗" aria-label="切换明暗主题">◐</button>
-  </header>
-
-  <div class="status">
-    <div class="stat"><div class="l">CPU 占用</div><div class="v" id="cpu">--</div><div class="bar"><i id="cpubar"></i></div></div>
-    <div class="stat"><div class="l">内存占用</div><div class="v" id="mem">--</div><div class="bar"><i id="membar"></i></div></div>
-    <div class="stat"><div class="l">在线时长</div><div class="v" id="uptime">--</div></div>
-    <div class="stat"><div class="l">系统负载</div><div class="v" id="load">--</div></div>
+    <div class="status">
+      <div class="stat"><div class="l">CPU 占用</div><div class="v" id="cpu">--</div><div class="bar"><i id="cpubar"></i></div></div>
+      <div class="stat"><div class="l">内存占用</div><div class="v" id="mem">--</div><div class="bar"><i id="membar"></i></div></div>
+      <div class="stat"><div class="l">在线时长</div><div class="v" id="uptime">--</div></div>
+      <div class="stat"><div class="l">访客计数</div><div class="v" id="visitors">--</div></div>
+    </div>
+    <div class="links">
+      <a href="about.html" data-section="about">关于我（终端）</a>
+      <a href="log.html" data-section="log">进入Ubuntu日志</a>
+      <a href="/bot-logs/" data-section="botlog">进入bot日志</a>
+      <a href="/chat/" data-section="botchat">进入bot聊天</a>
+      <a href="https://github.com/wss542/" target="_blank" rel="noopener" data-section="github">GitHub</a>
+      <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener" data-section="bili">哔哩哔哩</a>
+      <a href="https://temporary-horizon-gnu-citizenship.trycloudflare.com" target="_blank" rel="noopener" data-section="dash">服务面板</a>
+      <a href="http://01240820.xyz:20031/wss_logs" target="_blank" rel="noopener" data-section="wsslog">KOOK 日志后台</a>
+      <button id="qqbtn" onclick="copyQQ()" data-section="qq">点此复制QQ</button>
+      <div id="qqmsg"></div>
+    </div>
+    <footer>用纯 HTML 搭建？ · Powered by Ubuntu</footer>
   </div>
 
-  <div class="tags"><span>南梁</span><span>猜猜是什么</span><span>折腾</span><span>音乐</span><span>猫梁</span></div>
-
-  <div class="sec-label">日志与后台</div>
-  <div class="links">
-    <a href="about.html" data-section="about">关于我 · 终端名片</a>
-    <a href="log.html" data-section="log">Ubuntu 日志</a>
-    <a href="/bot-logs/" data-section="botlog">Bot 日志控制台</a>
-    <a href="/bot-logs/kook.html" data-section="kooklog">KOOK 实时日志</a>
-  </div>
-
-  <div class="sec-label">常用入口</div>
-  <div class="links">
-    <a href="/chat/" data-section="botchat">Bot 私聊</a>
-    <a href="https://github.com/wss542/" target="_blank" rel="noopener" data-section="github">GitHub</a>
-    <a href="https://b23.tv/9eUc2Oy" target="_blank" rel="noopener" data-section="bili">哔哩哔哩</a>
-    <a href="https://temporary-horizon-gnu-citizenship.trycloudflare.com" target="_blank" rel="noopener" data-section="dash">服务面板</a>
-  </div>
-
-  <div class="sec-label">联系</div>
-  <div class="links">
-    <a class="primary wide" href="#" data-section="qq" id="qqCopy">点击复制 QQ</a>
-  </div>
-
-  <footer><span>用纯 HTML 搭建？ · Powered by Ubuntu</span><span>tasteskill / blue-black-cornflower + geist</span></footer>
-</div>
-<div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(10,13,20,.97);color:#e9edf3;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:var(--fb)">
-  <div style="font-size:46px;margin-bottom:14px">🔒</div>
-  <div style="font-size:19px;font-weight:600;margin-bottom:10px">已暂停访问</div>
-  <div style="font-size:14px;color:var(--muted);line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>请关闭后刷新页面重新进入。</div>
-</div>
-<div id="devtools-blocker" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(10,13,20,.97);color:#e9edf3;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:var(--fb)"><div style="font-size:46px;margin-bottom:14px">🔒</div><div style="font-size:19px;font-weight:600;margin-bottom:10px">已暂停访问</div><div style="font-size:14px;color:var(--muted);line-height:1.7;max-width:330px">检测到开发者工具已打开。<br>请关闭后刷新页面重新进入。</div></div>
-
-<button id="qqbtn" style="display:none"></button><div id="qqmsg" style="display:none"></div>
-<script>
-/* ==== 原站 JS 全文 ==== */
-
+  <script>
     // ===== 开发者工具检测（挡普通用户；技术用户可绕过，真防护靠后端）=====
     (function(){
       var blocked=false, bm=document.getElementById('devtools-blocker');
@@ -370,22 +331,6 @@ body.light::before{
       }).catch(function () {});
     }
     applySections();
-  
-/* ==== DOM 桥接 ==== */
-(function(){
-  window.toggleTheme=function(){
-    document.body.classList.toggle('light');
-    try{localStorage.setItem('yz_theme',document.body.classList.contains('light')?'light':'dark')}catch(e){}
-    var b=document.getElementById('themeToggle');if(b)b.textContent=document.body.classList.contains('light')?'◑':'◐';
-  };
-  try{if(localStorage.getItem('yz_theme')==='light')document.body.classList.add('light')}catch(e){}
-  var q=document.getElementById('qqCopy');
-  if(q)q.addEventListener('click',function(e){e.preventDefault();
-    if(typeof copyQQ==='function'){
-      copyQQ();
-      setTimeout(function(){var m=document.getElementById('qqmsg');
-        if(m&&m.textContent.indexOf('已复制')>=0)q.textContent='已复制 QQ：3886438434';},150);
-    }});
-})();
-</script>
-</body></html>
+  </script>
+</body>
+</html>
