@@ -1,4 +1,4 @@
-# 更新于 2026-11-21 01:37:40 · 共 656 行（来源 huanmeng.log 末尾）
+# 更新于 2026-11-21 01:38:20 · 共 668 行（来源 huanmeng.log 末尾）
 2026-11-21 00:58:48 INFO  logger:407        Logger 初始化完成 | debug=False | 文件=True | 颜色=True
 2026-11-21 00:58:49 INFO  judge:181         关键词初始化完成 | realtime=5个 search_trigger=8个
 2026-11-21 00:58:55 INFO  events:94         ==================================================
@@ -655,3 +655,15 @@
 2026-11-21 01:37:31 DEBG  commands:5384     指令解析: prefix=/ cmd=mc args=[' 0 :25294'] user=1759953618
 2026-11-21 01:37:32 INFO  motd_card:143     motd 9666.uno: SRV=无
 2026-11-21 01:37:40 INFO  changelog:928     [Card] 正在截图 → mc_card_9666_uno_25294.png (290419 bytes HTML)
+2026-11-21 01:37:43 INFO  changelog:936     [Card] ✅ 截图成功! path=/home/qwq/huanmeng-bot-v2/data/img_temp/mc_card_9666_uno_25294.png size=470.8KB
+2026-11-21 01:37:44 INFO  commands:5441     指令执行完成 [mc]: 无返回值（已自行发送）
+2026-11-21 01:37:44 INFO  logger:541        [TRACE 6b418136846e4266] total=12486.47ms severity=very_slow_request | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | process=12486.33ms(x1) (wall12486.33), queue_wait=0.26ms(x1)
+2026-11-21 01:37:44 WARN  logger:559        [VERY_SLOW 6b418136846e4266] total=12487.25ms 需重点排查 | process=12486.33ms(x1) (wall12486.33), queue_wait=0.26ms(x1) | llm_calls=0 total=0.0ms avg=0.0ms max=0.0ms p50=0.0 p95=0.0 p99=0.0 | perf: queue=0.26ms llm=0.0ms search_tool=0.0ms delivery=0.0ms other=12486.33ms wall=12487.18ms dominant=other
+2026-11-21 01:37:45 DEBG  bot:280           🧩 _consume_pkg pkg type=255 extra.type=updated_message keys=['channel_type', 'type', 'target_id', 'author_id', 'content', 'extra', 'msg_id', 'msg_timestamp', 'nonce', 'from_type']
+2026-11-21 01:37:46 INFO  bot:347           ✏️ 编辑消息作者反查: id=1759953618 username=wss
+2026-11-21 01:37:50 INFO  pc_status:201     收到 lyric_event [延迟=-2958ms]: '**地铁依旧开往熟悉的方向**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:51 INFO  pc_status:201     收到 lyric_event [延迟=-2067ms]: '**只是再没人靠在我肩膀**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:37:56 INFO  phone_status:59   设备状态已更新: device=Mac music=False batt=100 cpu=69.7 mem=49.5
+2026-11-21 01:37:56 INFO  phone_status:645  WSS 回填成功 source=mac_status_reporter device=Mac
+2026-11-21 01:37:56 INFO  pc_status:201     收到 lyric_event [延迟=-3237ms]: '**你送的外套还带着香**' song=若尘 - 我在等这一束光 playing=True channel=None
+2026-11-21 01:38:03 INFO  pc_status:201     收到 lyric_event [延迟=-3712ms]: '**怎么遗忘比想念还要漫长**' song=若尘 - 我在等这一束光 playing=True channel=None
